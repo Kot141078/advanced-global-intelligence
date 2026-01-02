@@ -23,4 +23,4 @@ c = a + b
 ## License
 Text: CC BY 4.0  
 Code (future): Apache-2.0
-"C:\Users\kotov\Desktop\AGI\AGI = Advanced Global Intelligence ENG.pdf"
+"AGI = Advanced Global Intelligence ENG.pdf"
