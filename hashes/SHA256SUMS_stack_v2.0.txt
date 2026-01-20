@@ -9,3 +9,4 @@ e3d4d60986808cd9c69580ac53fab091f32d57160c4a9a7ba51cf07e84d35b11  advanced-globa
 00bed1d5ee15c2cf19d7fed8ee863744f396f24d88cc606bd961aaec22173193  sovereign-entity-recursion/protocol/ser-fed/SER-FED_v0.2_RFC_EN.md
 edf27639b4104b6967b0a71b9c9f427571e5cbc853154812f2bfa3308764be06  sovereign-entity-recursion/pdf/SER-FED_v0.1_RFC_EN.pdf
 ddc1d4c03106f8eb9709e2649de00a4527f739ccf199cc2d36bde74ec7d4d77f  sovereign-entity-recursion/pdf/SER-FED_v0.2_RFC_EN.pdf
+e9177f08e894bc51fe7ee2cca1694b8609cbb57171b96481b332b0e72144ac5e  advanced-global-intelligence/README.md
