@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18311148.svg)](https://doi.org/10.5281/zenodo.18311148)
+
 # Advanced Global Intelligence (AGI)
 
 This repository contains architecture-first documents, protocols, and integrity manifests
