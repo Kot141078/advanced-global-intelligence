@@ -91,3 +91,4 @@ This structure mirrors aviation-grade documentation:
 *normative spec* (SER),
 *operational bulletins* (L4 posts) —
 different documents, one truth source, reproducible checksums.
+
