@@ -55,6 +55,22 @@ Minimal verification mindset:
 
 ---
 
+## 2.5) Minimal Evidence Pack (operational, copy/paste friendly)
+
+If you need to reproduce the “Ivan-style” perimeter quickly (home / lab / small org):
+- Repo: `Kot141078/ester-reality-bound`
+- Path: `evidence/`
+  - `room_checklist.md`
+  - `power_chain_diagram.md` + `pdf/Power_Chain_Diagram_Evidence_v0.1.pdf`
+  - `perimeter_snapshot.example.json`
+  - `perimeter_change.example.json`
+  - `README.md`
+
+Purpose: a reviewer can verify a node/room perimeter without inventing formats.
+Verification: SHA-256 hashes are recorded in repo manifests (see `hashes/` or top-level `SHA256SUMS`).
+
+---
+
 ## 3) Versioning rule (to prevent confusion)
 
 - **SER sets the normative version.**
@@ -91,4 +107,5 @@ This structure mirrors aviation-grade documentation:
 *normative spec* (SER),
 *operational bulletins* (L4 posts) —
 different documents, one truth source, reproducible checksums.
+
 
