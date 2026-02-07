@@ -84,6 +84,7 @@ Verification: SHA-256 hashes are recorded in repo manifests (see `hashes/` or to
 For official review, prefer **PDF artifacts + SHA-256 manifests** (release assets or `pdf/` + `hashes/`),
 and keep email bodies minimal (“Details in attached PDF”).
 
+Official: see `/official/` (pitch sheet + print-ready PDFs + hashes).
 ---
 
 ## Bridges (required)
@@ -107,5 +108,6 @@ This structure mirrors aviation-grade documentation:
 *normative spec* (SER),
 *operational bulletins* (L4 posts) —
 different documents, one truth source, reproducible checksums.
+
 
 
