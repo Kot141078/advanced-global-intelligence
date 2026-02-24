@@ -1,0 +1,2 @@
+901a2771427d5048cbea354af02a6afb424d9ca90cbf2fe12fce4e4a8823b4fe  official/pitch/Kotov_Pitch_Sheet_2026_v0.2.docx
+a4a56399d24a348ac3764f625dda2d252bb2a954a1d4900a3b4a0000ca49d86e  official/pitch/pdf/Kotov_Pitch_Sheet_2026_v0.2.pdf
