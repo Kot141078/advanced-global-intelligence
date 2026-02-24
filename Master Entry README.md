@@ -17,6 +17,7 @@ Note: the stack order above is conceptual. Reading tracks below are optimized pe
 1) **SER normative specification (start here)**
    - Repo: `Kot141078/sovereign-entity-recursion`
    - Start: `README.md` → `DOC_MAP.md` → `pdf/` → `hashes/` → `protocol/`
+   - Adjacent protocol: `sovereign-entity-recursion/protocol/vxcx/` (VXCX v0.1 — visual experience capsule exchange)
 
 2) **L4 operational materials (how it behaves in reality)**
    - Repo: `Kot141078/ester-reality-bound`
@@ -31,6 +32,7 @@ Note: the stack order above is conceptual. Reading tracks below are optimized pe
 2) `advanced-global-intelligence/protocols/` (AGI stack layers, scope)
 3) `sovereign-entity-recursion/protocol/` + `pdf/` (SER normative core)
 4) `ester-reality-bound/protocol/` + `docs/` + `posts/` (L4 operationalization)
+5) `sovereign-entity-recursion/protocol/vxcx/` (VXCX v0.1 — visual experience capsule exchange)
 
 ---
 
@@ -108,6 +110,3 @@ This structure mirrors aviation-grade documentation:
 *normative spec* (SER),
 *operational bulletins* (L4 posts) —
 different documents, one truth source, reproducible checksums.
-
-
-
