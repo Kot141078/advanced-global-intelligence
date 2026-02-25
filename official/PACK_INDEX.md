@@ -4,11 +4,11 @@
 
 - `pdf/03_L4_WITNESS_FIELDS.pdf`
 - `pdf/AGI = Advanced Global Intelligence ENG.pdf`
-- `pdf/c_a_b_protocol_v1.1_L4_EN.pdf`
 - `pdf/Executive_Summary_L4_Witness_v0.2.pdf`
 - `pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf`
-- `pdf/SER_v1.3_EN.pdf`
 - `pdf/SER-FED_v0.2_RFC_EN.pdf`
+- `pdf/SER_v1.3_EN.pdf`
+- `pdf/c_a_b_protocol_v1.1_L4_EN.pdf`
 
 ## official/pitch
 
