@@ -1,0 +1,4 @@
+*.md text eol=lf
+hashes/*.txt text eol=lf
+*.pdf binary
+*.docx binary
