@@ -42,6 +42,7 @@ Note: the stack order above is conceptual. Reading tracks below are optimized pe
   — **SER normative specification** (protocol, PDFs, hashing).
 - **L4 = `ester-reality-bound`**
   — public-facing L4 materials (notes, protocol, posts) with repo hygiene (SECURITY / CONTRIBUTING / CITATION).
+- Implementation reference (non-normative): `Kot141078/ester-clean-code` (clean-room codebase).
 
 ---
 
@@ -61,7 +62,7 @@ If you need to reproduce the “Ivan-style” perimeter quickly (home / lab / sm
 - Repo: `Kot141078/ester-reality-bound`
 - Path: `evidence/`
   - `room_checklist.md`
-  - `power_chain_diagram.md` + `pdf/Power_Chain_Diagram_Evidence_v0.1.pdf`
+  - `power_chain_diagram.md` (optional printable PDF in `evidence/pdf/`)
   - `perimeter_snapshot.example.json`
   - `perimeter_change.example.json`
   - `README.md`
