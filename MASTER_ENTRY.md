@@ -42,7 +42,7 @@ Note: the stack order above is conceptual. Reading tracks below are optimized pe
   — **SER normative specification** (protocol, PDFs, hashing).
 - **L4 = `ester-reality-bound`**
   — public-facing L4 materials (notes, protocol, posts) with repo hygiene (SECURITY / CONTRIBUTING / CITATION).
-- Implementation reference (non-normative): `Kot141078/ester-clean-code` (clean-room codebase).
+- Implementation reference (non-normative): `Kot141078/ester-clean-code`.
 
 ---
 
