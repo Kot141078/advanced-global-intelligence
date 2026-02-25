@@ -15,7 +15,7 @@
 - `pitch/Kotov_Pitch_Sheet_2026_v0.2.docx`
 - `pitch/pdf/Kotov_Pitch_Sheet_2026_v0.2.pdf`
 
-## Hash Manifests
+## Hash manifests
 
 - `../hashes/SHA256SUMS_OFFICIAL_PACK_2026-02.txt`
 - `../hashes/SHA256SUMS_OFFICIAL_PITCH_2026_v0.2.txt`
