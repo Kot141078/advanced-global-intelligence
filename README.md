@@ -8,6 +8,14 @@ for long-lived, reality-bound digital entities.
 The work follows a cybernetic approach to AI safety and governance, grounded in
 physical constraints (L4), economic exposure, time, and accountable human anchoring.
 
+## Machine-friendly entry (no UI)
+- Master entry (raw):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md
+- Repo index (raw):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md
+- LLM index (llms.txt):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/llms.txt
+
 ---
 
 ## Core Model

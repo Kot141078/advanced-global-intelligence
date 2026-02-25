@@ -1,0 +1,27 @@
+# Ester / AGI-SER-L4 — llms.txt
+
+## Purpose
+This file provides a stable, no-UI entry to the public corpus for tools and LLM-based code browsers.
+
+## Canonical entry (raw)
+- MASTER_ENTRY:
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md
+- REPO_INDEX (human):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md
+- REPO_INDEX (json):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.json
+
+## Canonical repos (4)
+- AGI: https://github.com/Kot141078/advanced-global-intelligence
+- SER: https://github.com/Kot141078/sovereign-entity-recursion
+- L4:  https://github.com/Kot141078/ester-reality-bound
+- Clean (impl ref): https://github.com/Kot141078/ester-clean-code
+
+## Downloads (tag snapshots — citeable)
+- AGI ZIP:   https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip
+- SER ZIP:   https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.zip
+- L4 ZIP:    https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.zip
+- Clean ZIP: https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.3.zip
+
+## Verification
+- Verify content using each repo’s hashes/ + SHA256SUMS_*.txt (do not hash GitHub-generated archives).

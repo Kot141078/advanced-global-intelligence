@@ -1,0 +1,78 @@
+{
+  "project": "Ester public corpus (AGI/SER/L4/Clean)",
+  "canonical_entry_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md",
+  "repo_index_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md",
+  "repos": [
+    {
+      "name": "advanced-global-intelligence",
+      "owner": "Kot141078",
+      "role": "context + integrity",
+      "default_branch": "main",
+      "tag_snapshot": "agi-snapshot-2026-02-24",
+      "download": {
+        "tag_zip": "https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip",
+        "tag_tar": "https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.tar.gz",
+        "main_zip": "https://github.com/Kot141078/advanced-global-intelligence/archive/refs/heads/main.zip",
+        "main_tar": "https://github.com/Kot141078/advanced-global-intelligence/archive/refs/heads/main.tar.gz"
+      },
+      "start_raw": [
+        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/INDEX.md",
+        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md"
+      ],
+      "integrity_hint": "See hashes/ and SHA256SUMS_*.txt (verify content, not GitHub archives)."
+    },
+    {
+      "name": "sovereign-entity-recursion",
+      "owner": "Kot141078",
+      "role": "SER normative specification",
+      "default_branch": "main",
+      "tag_snapshot": "ecosystem-v0.2-2026-02-24",
+      "download": {
+        "tag_zip": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.zip",
+        "tag_tar": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.tar.gz",
+        "main_zip": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/heads/main.zip",
+        "main_tar": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/heads/main.tar.gz"
+      },
+      "start_raw": [
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/README.md",
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/DOC_MAP.md"
+      ],
+      "integrity_hint": "See hashes/ and SHA256SUMS_*.txt (verify content, not GitHub archives)."
+    },
+    {
+      "name": "ester-reality-bound",
+      "owner": "Kot141078",
+      "role": "L4 reality-bound operational layer",
+      "default_branch": "main",
+      "tag_snapshot": "l4-snapshot-2026-02-24",
+      "download": {
+        "tag_zip": "https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.zip",
+        "tag_tar": "https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.tar.gz",
+        "main_zip": "https://github.com/Kot141078/ester-reality-bound/archive/refs/heads/main.zip",
+        "main_tar": "https://github.com/Kot141078/ester-reality-bound/archive/refs/heads/main.tar.gz"
+      },
+      "start_raw": [
+        "https://raw.githubusercontent.com/Kot141078/ester-reality-bound/main/README.md",
+        "https://raw.githubusercontent.com/Kot141078/ester-reality-bound/main/protocol/L4_reality_boundary_layer.md"
+      ],
+      "integrity_hint": "See hashes/ and SHA256SUMS_*.txt (verify content, not GitHub archives)."
+    },
+    {
+      "name": "ester-clean-code",
+      "owner": "Kot141078",
+      "role": "implementation reference (non-normative)",
+      "default_branch": "main",
+      "tag_snapshot": "v0.2.3",
+      "download": {
+        "tag_zip": "https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.3.zip",
+        "tag_tar": "https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.3.tar.gz",
+        "main_zip": "https://github.com/Kot141078/ester-clean-code/archive/refs/heads/main.zip",
+        "main_tar": "https://github.com/Kot141078/ester-clean-code/archive/refs/heads/main.tar.gz"
+      },
+      "start_raw": [
+        "https://raw.githubusercontent.com/Kot141078/ester-clean-code/main/README.md"
+      ],
+      "integrity_hint": "See hashes/ and local verification tools/ (verify content, not GitHub archives)."
+    }
+  ]
+}
