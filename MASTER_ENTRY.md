@@ -57,6 +57,8 @@ If you are a tool/LLM or a reviewer working without GitHub UI/JS, use these:
 - LLM-friendly pointer (llms.txt):
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/llms.txt
 
+Docs snapshot tag: machine-entry-2026-02-26
+
 ### Stable downloads (tag snapshots — cite these)
 
 - AGI (agi-snapshot-2026-02-24)
