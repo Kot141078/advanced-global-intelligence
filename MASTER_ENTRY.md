@@ -57,6 +57,8 @@ If you are a tool/LLM or a reviewer working without GitHub UI/JS, use these:
 - LLM-friendly pointer (llms.txt):
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/llms.txt
 
+Meaning Map (1 page, EN): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/MEANING_MAP_ONEPAGE_EN.md
+
 Docs snapshot tag: machine-entry-2026-02-26
 
 ### Stable downloads (tag snapshots — cite these)
