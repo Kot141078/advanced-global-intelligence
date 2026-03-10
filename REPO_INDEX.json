@@ -18,8 +18,8 @@
       "start_raw": [
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/INDEX.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md",
-        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/docs-meaning-map/protocols/beacon/README.md",
-        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/docs-meaning-map/protocols/beacon/Beacon_Profile_v0.1_EN.md"
+        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/beacon/README.md",
+        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/beacon/Beacon_Profile_v0.1_EN.md"
       ],
       "integrity_hint": "See hashes/ and SHA256SUMS_*.txt (verify content, not GitHub archives)."
     },
