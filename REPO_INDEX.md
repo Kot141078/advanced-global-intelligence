@@ -12,6 +12,15 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 3) L4  — ester-reality-bound (reality-bound operational layer)
 4) Clean — ester-clean-code (implementation reference, non-normative)
 
+## Beacon profile
+- Beacon Profile v0.1
+- Path: `protocols/beacon/`
+- Raw md:
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/docs-meaning-map/protocols/beacon/Beacon_Profile_v0.1_EN.md
+- Raw readme:
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/docs-meaning-map/protocols/beacon/README.md
+- Integrity manifest: `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`
+
 ## Downloads (tag snapshots — citeable)
 - AGI tag ZIP:
   https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip

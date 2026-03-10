@@ -6,6 +6,7 @@ a distributed, plural, cybernetic ecosystem.
 Start here:
 - Manifesto: `manifesto/`
 - Core protocol (v1.1 + L4): `protocols/`
+- Beacon profile v0.1: `protocols/beacon/`
 - Safety background (EU): `background/`
 - Architecture & summaries: `architecture/`
 - Experiments: `experiments/`

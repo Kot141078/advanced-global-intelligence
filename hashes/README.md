@@ -13,6 +13,9 @@ This directory contains SHA-256 integrity manifests for the Advanced Global Inte
 - `SHA256SUMS_stack_v2.0.txt`
   Cross-repository integrity manifest covering the full SER / AGI architectural stack.
 
+- `SHA256SUMS_beacon_v0.1_2026-03-10.txt`
+  Beacon Profile v0.1 integrity manifest (`protocols/beacon/`).
+
 ## Notes
 
 - Hashes follow the standard format:  
