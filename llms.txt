@@ -11,6 +11,12 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 - REPO_INDEX (json):
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.json
 
+## Additional protocol profile
+- Beacon profile directory:
+  `protocols/beacon/`
+- Integrity manifest:
+  `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`
+
 ## Canonical repos (4)
 - AGI: https://github.com/Kot141078/advanced-global-intelligence
 - SER: https://github.com/Kot141078/sovereign-entity-recursion

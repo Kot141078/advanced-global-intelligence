@@ -28,6 +28,7 @@ This page is the single entry point for the public protocol stack:
 
 1) `advanced-global-intelligence/INDEX.md` (canonical map)
 2) `advanced-global-intelligence/protocols/` (stack layers, scope)
+   - includes `protocols/beacon/` for Beacon Profile v0.1 (inter-entity recognition)
 3) `sovereign-entity-recursion/protocol/` + `pdf/` (SER normative core)
 4) `ester-reality-bound/protocol/` + `docs/` + `posts/` (L4 operationalization)
 

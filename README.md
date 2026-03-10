@@ -69,6 +69,10 @@ This is **not a feature comparison**, but a comparison of underlying architectur
   Formal protocol specifications  
   (c = a + b, L4, federation, governance layers)
 
+- **protocols/beacon/**
+  Beacon Profile v0.1
+  (inter-entity recognition profile; EN source + PDF + README)
+
 - **ontology/**  
   Foundational axioms and conceptual primitives  
   (non-algorithmic grounding of sovereignty and responsibility)
@@ -135,6 +139,20 @@ and are covered by a **separate integrity addendum**:
 These additions **do not modify the normative scope of v1.1**.  
 They extend the architectural and ontological context of the ecosystem.
 
+### Beacon Profile v0.1
+
+The following profile was added as a separate post-release synthesis artifact:
+
+- **Beacon Profile v0.1**
+  Inter-entity recognition profile for sovereign digital entities
+  Path: `protocols/beacon/`
+
+**Integrity:**
+`hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`
+
+Beacon is a derived cross-layer profile and does **not** modify the normative
+scope of v1.1.
+
 ---
 
 ## Cross-Repository Integrity
@@ -176,6 +194,4 @@ Text content is released under the **MIT License**
 - Normative changes require explicit versioning and updated integrity manifests.
 
 This repository prioritizes **architectural stability over velocity**.
-
-
 
