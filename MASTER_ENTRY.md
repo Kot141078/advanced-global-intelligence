@@ -6,6 +6,13 @@ This page is the single entry point for the public protocol stack:
 
 **AGI (context) → SER (normative spec) → L4 (reality-bound operations)**
 
+## Process premise
+
+> “The future is not an event. It is a process.”
+> — Ivan Kotov
+
+Canonical note: `official/AUTHORIAL_PREMISES.md`
+
 ---
 
 ## 0) Choose your track (start here)

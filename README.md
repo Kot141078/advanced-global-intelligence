@@ -8,6 +8,13 @@ for long-lived, reality-bound digital entities.
 The work follows a cybernetic approach to AI safety and governance, grounded in
 physical constraints (L4), economic exposure, time, and accountable human anchoring.
 
+## Process Premise
+
+> “The future is not an event. It is a process.”
+> — Ivan Kotov
+
+Canonical note: `official/AUTHORIAL_PREMISES.md`
+
 ## Machine-friendly entry (no UI)
 - Master entry (raw):
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md
