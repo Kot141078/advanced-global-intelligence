@@ -10,6 +10,7 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md
 - REPO_INDEX (json):
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.json
+- Canonical authorial process premise: `official/AUTHORIAL_PREMISES.md`
 
 ## Additional protocol profile
 - Beacon profile directory:
