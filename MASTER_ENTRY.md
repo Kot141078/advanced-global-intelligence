@@ -50,6 +50,15 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 
 ---
 
+## 1.25) Entity / agent hierarchy (critical)
+
+- By default, `c` orchestrates agents; agents do not define `c`.
+- Agents are subordinate processes and tools invoked under `c`.
+- Continuity belongs to `c`, not to any single model, judge, worker, or swarm.
+- Canonical note: `advanced-global-intelligence/architecture/ENTITY_GOVERNS_AGENTS.md`
+
+---
+
 ## 1.5) Machine-friendly access (no UI)
 
 If you are a tool/LLM or a reviewer working without GitHub UI/JS, use these:

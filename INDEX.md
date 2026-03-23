@@ -14,3 +14,10 @@ Start here:
 Integrity:
 - SHA-256 manifests: `hashes/`
 - Latest release: v1.1
+
+## Entity / agent hierarchy
+
+This stack is entity-centered, not agent-centered.
+
+- By default, `c` orchestrates agents; agents do not define `c`.
+- Canonical note: `architecture/ENTITY_GOVERNS_AGENTS.md`

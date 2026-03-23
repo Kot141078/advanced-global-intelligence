@@ -2,6 +2,10 @@
   "project": "Ester public corpus (AGI/SER/L4/Clean)",
   "canonical_entry_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md",
   "repo_index_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md",
+  "architecture_notes": [
+    "By default, c orchestrates agents; agents do not define c.",
+    "Canonical note: advanced-global-intelligence/architecture/ENTITY_GOVERNS_AGENTS.md"
+  ],
   "repos": [
     {
       "name": "advanced-global-intelligence",
