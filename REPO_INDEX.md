@@ -14,6 +14,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 4) Clean — ester-clean-code (implementation reference, non-normative)
 
 ## Core architecture note
+
 - By default, `c` orchestrates agents; agents do not define `c`.
 - Canonical note: `advanced-global-intelligence/architecture/ENTITY_GOVERNS_AGENTS.md`
 
