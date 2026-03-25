@@ -27,6 +27,17 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/docs-meaning-map/protocols/beacon/README.md
 - Integrity manifest: `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`
 
+## ARQ bridge
+- Subsystem: ARQ
+- Location: external canonical reference in `sovereign-entity-recursion`
+- Entry: `..\sovereign-entity-recursion\protocol\arq\README.md`
+- Role: additive protocol bridge for bounded error valuation, witness-backed promotion, and experience filtering
+- Status: draft
+- Duplication: none in this repo
+- Explicit bridge: correction logic -> SER continuity -> L4 bounded accountability
+- Hidden bridges: witness-first promotion / auditability; bounded homeostasis instead of infinite retry
+- Grounding: finite power, cooling, storage endurance, controller trust, and privilege
+
 ## Downloads (tag snapshots — citeable)
 - AGI tag ZIP:
   https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip

@@ -21,3 +21,10 @@ This stack is entity-centered, not agent-centered.
 
 - By default, `c` orchestrates agents; agents do not define `c`.
 - Canonical note: `architecture/ENTITY_GOVERNS_AGENTS.md`
+
+## ARQ bridge (canonical in SER)
+
+- `ARQ` — additive subsystem; canonical entry in `..\sovereign-entity-recursion\protocol\arq\README.md`
+- Explicit bridge: correction logic -> SER continuity -> L4 bounded accountability
+- Hidden bridges: witness-backed promotion; bounded homeostasis instead of infinite retry
+- Grounding: finite power, cooling, storage endurance, controller trust, and privilege
