@@ -176,6 +176,21 @@ This manifest links canonical artifacts across:
 
 All referenced paths are stable and canonical.
 
+## ARQ bridge (canonical in SER)
+
+ARQ (**Anti-Resonance Correction Protocol**) is an additive subsystem in this ecosystem, but its canonical home is **not** this repository.
+
+Canonical entry:
+`..\sovereign-entity-recursion\protocol\arq\README.md`
+
+ARQ matters here because it creates an explicit bridge between correction logic, **SER** continuity, and **L4** bounded accountability.
+
+It also carries two quieter architectural consequences:
+promoted deviations require witness-backed traceability, and adaptive handling must remain bounded rather than collapse into infinite retry behavior.
+
+Grounding note:
+on real hardware, classification and retention are never free — there is finite power, finite cooling, finite memory endurance, finite controller trust, and finite privilege.
+
 ---
 
 ## Integrity Notes
@@ -201,4 +216,3 @@ Text content is released under the **MIT License**
 - Normative changes require explicit versioning and updated integrity manifests.
 
 This repository prioritizes **architectural stability over velocity**.
-

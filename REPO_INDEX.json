@@ -4,7 +4,8 @@
   "repo_index_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md",
   "architecture_notes": [
     "By default, c orchestrates agents; agents do not define c.",
-    "Canonical note: advanced-global-intelligence/architecture/ENTITY_GOVERNS_AGENTS.md"
+    "Canonical note: advanced-global-intelligence/architecture/ENTITY_GOVERNS_AGENTS.md",
+    "ARQ bridge: canonical entry ..\\sovereign-entity-recursion\\protocol\\arq\\README.md; correction logic -> SER continuity -> L4 bounded accountability; witness-backed promotion; bounded homeostasis; finite power/cooling/storage endurance/controller trust/privilege."
   ],
   "repos": [
     {
@@ -79,6 +80,23 @@
         "https://raw.githubusercontent.com/Kot141078/ester-clean-code/main/README.md"
       ],
       "integrity_hint": "See hashes/ and local verification tools/ (verify content, not GitHub archives)."
+    },
+    {
+      "name": "ARQ",
+      "owner": "Kot141078",
+      "role": "additive protocol bridge (draft); canonical in sovereign-entity-recursion; no duplication in this repo",
+      "default_branch": "main",
+      "tag_snapshot": "ecosystem-v0.2-2026-02-24",
+      "download": {
+        "tag_zip": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.zip",
+        "tag_tar": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.tar.gz",
+        "main_zip": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/heads/main.zip",
+        "main_tar": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/heads/main.tar.gz"
+      },
+      "start_raw": [
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/README.md"
+      ],
+      "integrity_hint": "Draft additive bridge. Witness-backed promotion is required; bounded homeostasis applies; no duplication in advanced-global-intelligence; verify content via sovereign-entity-recursion/hashes/."
     }
   ]
 }
