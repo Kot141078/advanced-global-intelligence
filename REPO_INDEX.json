@@ -109,14 +109,14 @@
     {
       "path": "START_HERE.md",
       "type": "markdown",
-      "role": "human root entry",
+      "role": "human root entry / cold-reader gateway",
       "status": "current",
       "short_description": "Shortest human-facing gateway to the AGI repository and the EA-L4 / EATP reading path."
     },
     {
       "path": "MACHINE_ENTRY.md",
       "type": "markdown",
-      "role": "machine root entry",
+      "role": "machine navigation entry / structured reader gateway",
       "status": "current",
       "short_description": "Thin machine/navigation gateway pointing structured readers to canonical indices and the EA-L4 / EATP package entry."
     }
@@ -132,9 +132,9 @@
     {
       "path": "protocols/ea-l4-eatp/README.md",
       "type": "markdown",
-      "role": "package entry",
+      "role": "canonical package entry",
       "status": "current",
-      "short_description": "Reading order, status map, corpus relation, and package file inventory."
+      "short_description": "Canonical EA-L4 / EATP package entry in AGI with reading order, status map, and corpus relation; adjacent to SER and L4, not SER v2."
     },
     {
       "path": "protocols/ea-l4-eatp/normative/EATP_EA_L4_concept_note.md",
