@@ -42,11 +42,22 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Hidden bridges: witness-first promotion / auditability; bounded homeostasis instead of infinite retry
 - Grounding: finite power, cooling, storage endurance, controller trust, and privilege
 
+## DEA package
+- Package: DEA
+- Location: `protocols/dea/`
+- Entry: `protocols/dea/README.md`
+- Role: input-to-experience normative layer
+- Status: canonical package home in this repo
+- Current normative draft: `protocols/dea/normative/DEA_v1_0.md`
+- Conformance addendum: `protocols/dea/normative/DEA_Normative_Addendum_v1_1.md`
+- Downstream layer: `protocols/ea-l4-eatp/README.md`
+- Boundary: upstream from EA-L4 / EATP; adjacent to SER and L4; not `SER v2`; no duplicate home outside this repo
+
 ## EA-L4 / EATP package
 - Package: EA-L4 / EATP
 - Location: `protocols/ea-l4-eatp/`
 - Entry: `protocols/ea-l4-eatp/README.md`
-- Role: training provenance / experience artifact layer
+- Role: downstream training provenance / experience artifact layer
 - Status: canonical package home in this repo
 - Current normative draft: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
 - Prior normative draft retained: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_1.md`

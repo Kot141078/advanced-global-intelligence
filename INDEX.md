@@ -9,6 +9,7 @@ Start here:
 - Manifesto: `manifesto/`
 - Core protocol (v1.1 + L4): `protocols/`
 - Beacon profile v0.1: `protocols/beacon/`
+- DEA package: `protocols/dea/README.md`
 - EA-L4 / EATP package: `protocols/ea-l4-eatp/README.md`
 - Safety background (EU): `background/`
 - Architecture & summaries: `architecture/`
@@ -32,9 +33,17 @@ This stack is entity-centered, not agent-centered.
 - Hidden bridges: witness-backed promotion; bounded homeostasis instead of infinite retry
 - Grounding: finite power, cooling, storage endurance, controller trust, and privilege
 
+## DEA package (canonical in AGI)
+
+- `DEA` — input-to-experience normative layer
+- Canonical entry: `protocols/dea/README.md`
+- Current normative draft: `protocols/dea/normative/DEA_v1_0.md`
+- Addendum: `protocols/dea/normative/DEA_Normative_Addendum_v1_1.md`
+- Boundary: upstream from EA-L4 / EATP; adjacent to SER and L4; not `SER v2`
+
 ## EA-L4 / EATP package (canonical in AGI)
 
-- `EA-L4 / EATP` — training provenance / experience artifact layer
+- `EA-L4 / EATP` — downstream training provenance / experience artifact layer
 - Canonical entry: `protocols/ea-l4-eatp/README.md`
 - Current normative draft: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
 - Boundary: adjacent to SER and L4; not part of SER normative core; not `SER v2`

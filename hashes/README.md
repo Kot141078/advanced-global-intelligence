@@ -25,6 +25,9 @@ This directory contains SHA-256 integrity manifests for the Advanced Global Inte
 - `SHA256SUMS_ea_l4_eatp_root_entry_2026-03-28.txt`
   Root-entry polish manifest for `START_HERE.md`, `MACHINE_ENTRY.md`, and aligned AGI navigation files.
 
+- `SHA256SUMS_dea_2026-03-28.txt`
+  Canonical DEA package manifest for `protocols/dea/` and aligned AGI navigation updates.
+
 ## Notes
 
 - Hashes follow the standard format:  

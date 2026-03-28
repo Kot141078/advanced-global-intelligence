@@ -8,6 +8,7 @@
     "By default, c orchestrates agents; agents do not define c.",
     "Canonical note: advanced-global-intelligence/architecture/ENTITY_GOVERNS_AGENTS.md",
     "ARQ bridge: canonical entry ..\\sovereign-entity-recursion\\protocol\\arq\\README.md; correction logic -> SER continuity -> L4 bounded accountability; witness-backed promotion; bounded homeostasis; finite power/cooling/storage endurance/controller trust/privilege.",
+    "DEA: canonical entry protocols/dea/README.md; input-to-experience normative layer; upstream from EA-L4 / EATP; adjacent to SER and L4; not SER v2.",
     "EA-L4 / EATP: canonical entry protocols/ea-l4-eatp/README.md; training provenance / experience artifact layer; adjacent to SER and L4; not SER v2."
   ],
   "repos": [
@@ -28,6 +29,7 @@
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MACHINE_ENTRY.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/INDEX.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md",
+        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/dea/README.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/ea-l4-eatp/README.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/beacon/README.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/beacon/Beacon_Profile_v0.1_EN.md"
@@ -139,6 +141,14 @@
       "short_description": "Structured-reader gateway pointing to canonical navigation artifacts and the EA-L4 / EATP package entry."
     },
     {
+      "path": "protocols/dea/README.md",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/dea/README.md",
+      "type": "markdown",
+      "role": "canonical package entry",
+      "status": "current",
+      "short_description": "Canonical DEA package entry in AGI; DEA defines when input becomes experience, sits upstream from EA-L4 / EATP, and remains adjacent to SER and L4 rather than SER v2."
+    },
+    {
       "path": "protocols/ea-l4-eatp/README.md",
       "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/ea-l4-eatp/README.md",
       "type": "markdown",
@@ -148,6 +158,48 @@
     }
   ],
   "packages": [
+    {
+      "path": "protocols/dea/",
+      "type": "directory",
+      "role": "input-to-experience normative layer",
+      "status": "canonical_home",
+      "short_description": "Canonical DEA public package in AGI; upstream from EA-L4 / EATP; adjacent to SER and L4; not SER v2."
+    },
+    {
+      "path": "protocols/dea/README.md",
+      "type": "markdown",
+      "role": "canonical package entry",
+      "status": "current",
+      "short_description": "Canonical DEA package entry in AGI with reading order, status map, and corpus relation."
+    },
+    {
+      "path": "protocols/dea/normative/DEA_v1_0.md",
+      "type": "markdown",
+      "role": "current normative draft",
+      "status": "current",
+      "short_description": "DEA v1.0 normative draft defining when input becomes experience."
+    },
+    {
+      "path": "protocols/dea/normative/DEA_v1_0.pdf",
+      "type": "pdf",
+      "role": "current normative twin",
+      "status": "current",
+      "short_description": "Fixed-layout twin of DEA v1.0."
+    },
+    {
+      "path": "protocols/dea/normative/DEA_Normative_Addendum_v1_1.md",
+      "type": "markdown",
+      "role": "normative addendum",
+      "status": "current",
+      "short_description": "Conformance profiles, L4 Witness integration, and auditable experience criteria."
+    },
+    {
+      "path": "protocols/dea/normative/DEA_Normative_Addendum_v1_1.pdf",
+      "type": "pdf",
+      "role": "normative addendum twin",
+      "status": "current",
+      "short_description": "Fixed-layout twin of the DEA v1.1 normative addendum."
+    },
     {
       "path": "protocols/ea-l4-eatp/",
       "type": "directory",

@@ -4,13 +4,16 @@ This repository is the architectural context repo of the AGI / SER / L4 stack. I
 
 ## If you only need one path
 
-Open `protocols/ea-l4-eatp/README.md`. It is the shortest canonical entry to the EA-L4 / EATP package in this repository.
+Open `protocols/dea/README.md`. It is the shortest canonical entry to DEA as the input-to-experience layer in this repository.
 
 ## Reading route
 
-1. `protocols/ea-l4-eatp/README.md`
-2. `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
-3. `protocols/ea-l4-eatp/commercial/EA_L4_Sell_Sheet_v1_0.md`
+1. `protocols/dea/README.md`
+2. `protocols/dea/normative/DEA_v1_0.md`
+3. `protocols/dea/normative/DEA_Normative_Addendum_v1_1.md`
+
+Downstream adjacent layer:
+`protocols/ea-l4-eatp/README.md` remains the training-origin and consequence-preserving layer after DEA.
 
 ## If you are here for the wider corpus
 

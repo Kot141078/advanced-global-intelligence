@@ -8,6 +8,16 @@ for long-lived, reality-bound digital entities.
 The work follows a cybernetic approach to AI safety and governance, grounded in
 physical constraints (L4), economic exposure, time, and accountable human anchoring.
 
+## Start here - DEA
+
+DEA is the public package for determining when input becomes experience inside long-lived systems.
+
+- `protocols/dea/README.md`
+- `protocols/dea/normative/DEA_v1_0.md`
+- `protocols/dea/normative/DEA_Normative_Addendum_v1_1.md`
+
+DEA sits upstream from EA-L4 / EATP; for the wider stack, see `MASTER_ENTRY.md`.
+
 ## Start here - EA-L4 / EATP
 
 EA-L4 / EATP is the public package for training provenance, experience artifacts, and consequence-preserving learning under L4 constraints.
@@ -91,6 +101,10 @@ This is **not a feature comparison**, but a comparison of underlying architectur
 - **protocols/beacon/**
   Beacon Profile v0.1
   (inter-entity recognition profile; EN source + PDF + README)
+
+- **protocols/dea/**
+  DEA package
+  (input-to-experience normative layer; upstream from EA-L4 / EATP)
 
 - **protocols/ea-l4-eatp/**
   EA-L4 / EATP package
@@ -207,6 +221,27 @@ promoted deviations require witness-backed traceability, and adaptive handling m
 Grounding note:
 on real hardware, classification and retention are never free — there is finite power, finite cooling, finite memory endurance, finite controller trust, and finite privilege.
 
+## DEA package (canonical in this repo)
+
+DEA is the canonical public package here for determining when input becomes experience in long-lived systems.
+
+Canonical entry:
+`protocols/dea/README.md`
+
+Role:
+- input-to-experience normative layer
+- upstream from EA-L4 / EATP
+- adjacent to SER and L4 rather than a replacement for either
+
+Core files:
+- `protocols/dea/normative/DEA_v1_0.md`
+- `protocols/dea/normative/DEA_Normative_Addendum_v1_1.md`
+
+Boundary:
+- SER remains the SER normative core
+- DEA is not `SER v2`
+- EA-L4 / EATP remains the downstream training provenance and consequence layer
+
 ## EA-L4 / EATP package (canonical in this repo)
 
 EA-L4 / EATP is the canonical public package here for training provenance, experience artifacts, and consequence-preserving learning under L4 constraints.
@@ -215,7 +250,7 @@ Canonical entry:
 `protocols/ea-l4-eatp/README.md`
 
 Role:
-- training-origin and consequence-preserving layer
+- downstream training-origin and consequence-preserving layer
 - adjacent to SER and L4, not a replacement for either
 - public package surface for concept, normative, executive, use-case, and commercial documents
 

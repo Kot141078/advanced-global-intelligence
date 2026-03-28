@@ -10,6 +10,7 @@ This page is the single entry point for the public protocol stack:
 
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
+- DEA package entry: `protocols/dea/README.md`
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
 
 ## Process premise
@@ -37,7 +38,12 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
    - Repo: `Kot141078/advanced-global-intelligence`
    - Start: `INDEX.md` → `protocols/` → `architecture/` → `hashes/`
 
-4) **EA-L4 / EATP — training-origin and consequence-preserving layer**
+4) **DEA — input-to-experience normative layer**
+   - Repo: `Kot141078/advanced-global-intelligence`
+   - Start: `protocols/dea/README.md`
+   - Boundary: adjacent package, upstream from EA-L4 / EATP, not `SER v2`
+
+5) **EA-L4 / EATP — training-origin and consequence-preserving layer**
    - Repo: `Kot141078/advanced-global-intelligence`
    - Start: `protocols/ea-l4-eatp/README.md`
    - Boundary: adjacent package, not `SER v2`
@@ -47,6 +53,7 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 1) `advanced-global-intelligence/INDEX.md` (canonical map)
 2) `advanced-global-intelligence/protocols/` (stack layers, scope)
    - includes `protocols/beacon/` for Beacon Profile v0.1 (inter-entity recognition)
+   - includes `protocols/dea/` for DEA (input-to-experience normative layer)
    - includes `protocols/ea-l4-eatp/` for EA-L4 / EATP (training provenance / consequence-preserving layer)
 3) `sovereign-entity-recursion/protocol/` + `pdf/` (SER normative core)
 4) `ester-reality-bound/protocol/` + `docs/` + `posts/` (L4 operationalization)
@@ -81,11 +88,33 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 - Grounding:
   - finite power, finite cooling, finite storage endurance, finite privilege, and finite controller trust apply
 
+## 1.40) DEA (canonical in AGI)
+
+- DEA:
+  - entry: `protocols/dea/README.md`
+  - role: input-to-experience normative layer
+  - current normative draft: `protocols/dea/normative/DEA_v1_0.md`
+  - conformance addendum: `protocols/dea/normative/DEA_Normative_Addendum_v1_1.md`
+  - downstream layer: `protocols/ea-l4-eatp/README.md`
+- Boundary:
+  - canonical home is AGI
+  - upstream from EA-L4 / EATP
+  - adjacent to SER and L4
+  - not part of SER normative core
+  - not `SER v2`
+- Explicit bridge:
+  - `Input -> DEA -> EA / EATP -> Witness / Evidence`
+- Hidden bridges:
+  - input does not become experience until persistence and consequence are present
+  - provenance remains separable from later training abstraction
+- Grounding:
+  - if a document changes nothing persistent and nothing downstream, the system stored data but did not acquire experience
+
 ## 1.45) EA-L4 / EATP (canonical in AGI)
 
 - EA-L4 / EATP:
   - entry: `protocols/ea-l4-eatp/README.md`
-  - role: training provenance / experience artifact layer
+  - role: downstream training provenance / experience artifact layer
   - current normative draft: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
   - executive bridge: `protocols/ea-l4-eatp/executive/EATP_EA_L4_v1_2_EL.md`
   - use case: `protocols/ea-l4-eatp/use-cases/Use_Case_Hospital.md`
