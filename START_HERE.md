@@ -7,14 +7,19 @@ This repository is the architectural context repo of the AGI / SER / L4 stack. I
 Open `protocols/dea/README.md`. It is the shortest canonical entry to DEA as the input-to-experience layer in this repository.
 If you need the layer relationship first, open `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`.
 
-## Reading route
+## DEA route
 
 1. `protocols/dea/README.md`
 2. `protocols/dea/normative/DEA_v1_0.md`
 3. `protocols/dea/normative/DEA_Normative_Addendum_v1_1.md`
 
-Downstream adjacent layer:
-`protocols/ea-l4-eatp/README.md` remains the training-origin and consequence-preserving layer after DEA.
+DEA answers when input becomes experience.
+
+## EA-L4 / EATP route
+
+Open `protocols/ea-l4-eatp/README.md`. It is the shortest canonical entry to how experience enters training in this repository.
+
+DEA remains upstream; `protocols/ea-l4-eatp/README.md` remains the downstream adjacent layer after DEA.
 
 ## If you are here for the wider corpus
 

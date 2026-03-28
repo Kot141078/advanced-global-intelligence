@@ -31,6 +31,9 @@ This directory contains SHA-256 integrity manifests for the Advanced Global Inte
 - `SHA256SUMS_protocol_topology_2026-03-28.txt`
   One-page protocol topology map plus aligned root navigation updates.
 
+- `SHA256SUMS_dea_root_parity_2026-03-28.txt`
+  DEA root-entry parity fix for `START_HERE.md`, `MACHINE_ENTRY.md`, and aligned hash navigation.
+
 ## Notes
 
 - Hashes follow the standard format:  

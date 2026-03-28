@@ -14,6 +14,6 @@ This file points automated or structured readers to the canonical navigation art
 
 DEA is the canonical package here for determining when input becomes experience and sits upstream from EA-L4 / EATP.
 
-EA-L4 / EATP is the canonical package here for training provenance, experience artifacts, and consequence-preserving learning.
+EA-L4 / EATP is the canonical package here for training provenance, experience artifacts, and consequence-preserving learning, and sits downstream from DEA.
 
-SER remains the SER normative core; EA-L4 / EATP is adjacent, not `SER v2`.
+SER remains the SER normative core. DEA is not `SER v2`. EA-L4 / EATP is not `SER v2`.
