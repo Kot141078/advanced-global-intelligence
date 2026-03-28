@@ -80,6 +80,10 @@ This is **not a feature comparison**, but a comparison of underlying architectur
   Beacon Profile v0.1
   (inter-entity recognition profile; EN source + PDF + README)
 
+- **protocols/ea-l4-eatp/**
+  EA-L4 / EATP package
+  (training provenance, experience artifacts, and consequence-preserving layer)
+
 - **ontology/**  
   Foundational axioms and conceptual primitives  
   (non-algorithmic grounding of sovereignty and responsibility)
@@ -190,6 +194,23 @@ promoted deviations require witness-backed traceability, and adaptive handling m
 
 Grounding note:
 on real hardware, classification and retention are never free — there is finite power, finite cooling, finite memory endurance, finite controller trust, and finite privilege.
+
+## EA-L4 / EATP package (canonical in this repo)
+
+EA-L4 / EATP is the canonical public package here for training provenance, experience artifacts, and consequence-preserving learning under L4 constraints.
+
+Canonical entry:
+`protocols/ea-l4-eatp/README.md`
+
+Role:
+- training-origin and consequence-preserving layer
+- adjacent to SER and L4, not a replacement for either
+- public package surface for concept, normative, executive, use-case, and commercial documents
+
+Boundary:
+- SER remains the SER normative core
+- EA-L4 / EATP is not `SER v2`
+- ARQ remains a separate additive bridge rather than being absorbed into this package
 
 ---
 

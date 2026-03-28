@@ -19,6 +19,9 @@ This directory contains SHA-256 integrity manifests for the Advanced Global Inte
 - `SHA256SUMS_arq_crosslinks_2026-03-25.txt`
   Additive cross-repo discoverability links from AGI to the canonical ARQ entry in SER.
 
+- `SHA256SUMS_ea_l4_eatp_2026-03-28.txt`
+  Canonical EA-L4 / EATP package manifest for `protocols/ea-l4-eatp/`.
+
 ## Notes
 
 - Hashes follow the standard format:  

@@ -5,7 +5,8 @@
   "architecture_notes": [
     "By default, c orchestrates agents; agents do not define c.",
     "Canonical note: advanced-global-intelligence/architecture/ENTITY_GOVERNS_AGENTS.md",
-    "ARQ bridge: canonical entry ..\\sovereign-entity-recursion\\protocol\\arq\\README.md; correction logic -> SER continuity -> L4 bounded accountability; witness-backed promotion; bounded homeostasis; finite power/cooling/storage endurance/controller trust/privilege."
+    "ARQ bridge: canonical entry ..\\sovereign-entity-recursion\\protocol\\arq\\README.md; correction logic -> SER continuity -> L4 bounded accountability; witness-backed promotion; bounded homeostasis; finite power/cooling/storage endurance/controller trust/privilege.",
+    "EA-L4 / EATP: canonical entry protocols/ea-l4-eatp/README.md; training provenance / experience artifact layer; adjacent to SER and L4; not SER v2."
   ],
   "repos": [
     {
@@ -97,6 +98,120 @@
         "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/README.md"
       ],
       "integrity_hint": "Draft additive bridge. Witness-backed promotion is required; bounded homeostasis applies; no duplication in advanced-global-intelligence; verify content via sovereign-entity-recursion/hashes/."
+    }
+  ],
+  "packages": [
+    {
+      "path": "protocols/ea-l4-eatp/",
+      "type": "directory",
+      "role": "training provenance / experience artifact layer",
+      "status": "canonical_home",
+      "short_description": "Canonical EA-L4 / EATP public package in AGI; adjacent to SER and L4, not SER v2."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/README.md",
+      "type": "markdown",
+      "role": "package entry",
+      "status": "current",
+      "short_description": "Reading order, status map, corpus relation, and package file inventory."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/normative/EATP_EA_L4_concept_note.md",
+      "type": "markdown",
+      "role": "concept note",
+      "status": "current",
+      "short_description": "Short entry document for EA-L4 / EATP."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/normative/EATP_EA_L4_concept_note.pdf",
+      "type": "pdf",
+      "role": "concept note twin",
+      "status": "current",
+      "short_description": "Fixed-layout twin of the concept note."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_1.md",
+      "type": "markdown",
+      "role": "prior normative draft",
+      "status": "retained",
+      "short_description": "Earlier normative draft retained for continuity."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_1.pdf",
+      "type": "pdf",
+      "role": "prior normative twin",
+      "status": "retained",
+      "short_description": "Fixed-layout twin of the prior normative draft."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md",
+      "type": "markdown",
+      "role": "current normative draft",
+      "status": "current",
+      "short_description": "Current canonical normative draft."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.pdf",
+      "type": "pdf",
+      "role": "current normative twin",
+      "status": "current",
+      "short_description": "Fixed-layout twin of the current normative draft."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/executive/EATP_EA_L4_v1_2_EL.md",
+      "type": "markdown",
+      "role": "executive bridge",
+      "status": "current",
+      "short_description": "Executive and policy-adjacent bridge layer."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/executive/EATP_EA_L4_v1_2_EL.pdf",
+      "type": "pdf",
+      "role": "executive twin",
+      "status": "current",
+      "short_description": "Fixed-layout twin of the executive bridge layer."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/use-cases/Use_Case_Hospital.md",
+      "type": "markdown",
+      "role": "use case",
+      "status": "current",
+      "short_description": "Hospital decision-support use case under real risk."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/use-cases/Use_Case_Hospital.pdf",
+      "type": "pdf",
+      "role": "use case twin",
+      "status": "current",
+      "short_description": "Fixed-layout twin of the hospital use case."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/commercial/EA_L4_Service_Catalog_v1_0.md",
+      "type": "markdown",
+      "role": "service catalog",
+      "status": "current",
+      "short_description": "Public service catalog for EA-L4 deployment work."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/commercial/EA_L4_Service_Catalog_v1_0.pdf",
+      "type": "pdf",
+      "role": "service catalog twin",
+      "status": "current",
+      "short_description": "Fixed-layout twin of the service catalog."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/commercial/EA_L4_Sell_Sheet_v1_0.md",
+      "type": "markdown",
+      "role": "sell sheet",
+      "status": "current",
+      "short_description": "Short public-facing summary for the package."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/commercial/EA_L4_Sell_Sheet_v1_0.pdf",
+      "type": "pdf",
+      "role": "sell sheet twin",
+      "status": "current",
+      "short_description": "Fixed-layout twin of the sell sheet."
     }
   ]
 }

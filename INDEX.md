@@ -7,6 +7,7 @@ Start here:
 - Manifesto: `manifesto/`
 - Core protocol (v1.1 + L4): `protocols/`
 - Beacon profile v0.1: `protocols/beacon/`
+- EA-L4 / EATP package: `protocols/ea-l4-eatp/README.md`
 - Safety background (EU): `background/`
 - Architecture & summaries: `architecture/`
 - Experiments: `experiments/`
@@ -28,3 +29,10 @@ This stack is entity-centered, not agent-centered.
 - Explicit bridge: correction logic -> SER continuity -> L4 bounded accountability
 - Hidden bridges: witness-backed promotion; bounded homeostasis instead of infinite retry
 - Grounding: finite power, cooling, storage endurance, controller trust, and privilege
+
+## EA-L4 / EATP package (canonical in AGI)
+
+- `EA-L4 / EATP` — training provenance / experience artifact layer
+- Canonical entry: `protocols/ea-l4-eatp/README.md`
+- Current normative draft: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
+- Boundary: adjacent to SER and L4; not part of SER normative core; not `SER v2`

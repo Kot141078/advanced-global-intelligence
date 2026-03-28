@@ -38,6 +38,18 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Hidden bridges: witness-first promotion / auditability; bounded homeostasis instead of infinite retry
 - Grounding: finite power, cooling, storage endurance, controller trust, and privilege
 
+## EA-L4 / EATP package
+- Package: EA-L4 / EATP
+- Location: `protocols/ea-l4-eatp/`
+- Entry: `protocols/ea-l4-eatp/README.md`
+- Role: training provenance / experience artifact layer
+- Status: canonical package home in this repo
+- Current normative draft: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
+- Prior normative draft retained: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_1.md`
+- Executive bridge: `protocols/ea-l4-eatp/executive/EATP_EA_L4_v1_2_EL.md`
+- Public-facing files: `use-cases/` + `commercial/`
+- Boundary: adjacent to SER and L4; not `SER v2`; no duplicate home outside this repo
+
 ## Downloads (tag snapshots — citeable)
 - AGI tag ZIP:
   https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip

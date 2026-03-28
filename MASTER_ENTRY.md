@@ -31,11 +31,17 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
    - Repo: `Kot141078/advanced-global-intelligence`
    - Start: `INDEX.md` → `protocols/` → `architecture/` → `hashes/`
 
+4) **EA-L4 / EATP — training-origin and consequence-preserving layer**
+   - Repo: `Kot141078/advanced-global-intelligence`
+   - Start: `protocols/ea-l4-eatp/README.md`
+   - Boundary: adjacent package, not `SER v2`
+
 ### Track B — Technical reader (deep)
 
 1) `advanced-global-intelligence/INDEX.md` (canonical map)
 2) `advanced-global-intelligence/protocols/` (stack layers, scope)
    - includes `protocols/beacon/` for Beacon Profile v0.1 (inter-entity recognition)
+   - includes `protocols/ea-l4-eatp/` for EA-L4 / EATP (training provenance / consequence-preserving layer)
 3) `sovereign-entity-recursion/protocol/` + `pdf/` (SER normative core)
 4) `ester-reality-bound/protocol/` + `docs/` + `posts/` (L4 operationalization)
 
@@ -68,6 +74,28 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
   - adaptive handling remains bounded homeostasis rather than infinite retry
 - Grounding:
   - finite power, finite cooling, finite storage endurance, finite privilege, and finite controller trust apply
+
+## 1.45) EA-L4 / EATP (canonical in AGI)
+
+- EA-L4 / EATP:
+  - entry: `protocols/ea-l4-eatp/README.md`
+  - role: training provenance / experience artifact layer
+  - current normative draft: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
+  - executive bridge: `protocols/ea-l4-eatp/executive/EATP_EA_L4_v1_2_EL.md`
+  - use case: `protocols/ea-l4-eatp/use-cases/Use_Case_Hospital.md`
+  - commercial docs: `protocols/ea-l4-eatp/commercial/`
+- Boundary:
+  - canonical home is AGI
+  - adjacent to SER and L4
+  - not part of SER normative core
+  - not `SER v2`
+- Explicit bridge:
+  - `c = a + b + L4 + Witness + ARQ -> EA-L4 / EATP as training-origin and consequence-preserving layer`
+- Hidden bridges:
+  - provenance + consequence + quarantine + selection increase anti-collapse control variety
+  - hashes + structured artifacts compress trust bandwidth without turning origin into narrative fog
+- Grounding:
+  - if a system claims to have learned from an event, there should be an attributable trail for origin, consequence, and retention
 
 ---
 
