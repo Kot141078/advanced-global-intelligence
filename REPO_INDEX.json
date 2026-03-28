@@ -121,6 +121,32 @@
       "short_description": "Thin machine/navigation gateway pointing structured readers to canonical indices and the EA-L4 / EATP package entry."
     }
   ],
+  "entry_points": [
+    {
+      "path": "START_HERE.md",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/START_HERE.md",
+      "type": "markdown",
+      "role": "human root entry / cold-reader gateway",
+      "status": "current",
+      "short_description": "Shortest human-facing route into the AGI repository and the EA-L4 / EATP package reading path."
+    },
+    {
+      "path": "MACHINE_ENTRY.md",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MACHINE_ENTRY.md",
+      "type": "markdown",
+      "role": "machine navigation entry / structured reader gateway",
+      "status": "current",
+      "short_description": "Structured-reader gateway pointing to canonical navigation artifacts and the EA-L4 / EATP package entry."
+    },
+    {
+      "path": "protocols/ea-l4-eatp/README.md",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/ea-l4-eatp/README.md",
+      "type": "markdown",
+      "role": "canonical package entry",
+      "status": "current",
+      "short_description": "Canonical EA-L4 / EATP package entry in AGI; SER remains the SER normative core, and EA-L4 / EATP is adjacent, not SER v2."
+    }
+  ],
   "packages": [
     {
       "path": "protocols/ea-l4-eatp/",
