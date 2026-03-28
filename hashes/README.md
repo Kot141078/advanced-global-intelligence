@@ -22,6 +22,9 @@ This directory contains SHA-256 integrity manifests for the Advanced Global Inte
 - `SHA256SUMS_ea_l4_eatp_2026-03-28.txt`
   Canonical EA-L4 / EATP package manifest for `protocols/ea-l4-eatp/`.
 
+- `SHA256SUMS_ea_l4_eatp_root_entry_2026-03-28.txt`
+  Root-entry polish manifest for `START_HERE.md`, `MACHINE_ENTRY.md`, and aligned AGI navigation files.
+
 ## Notes
 
 - Hashes follow the standard format:  

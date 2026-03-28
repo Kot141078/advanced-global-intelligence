@@ -6,6 +6,12 @@ This page is the single entry point for the public protocol stack:
 
 **AGI (context) → SER (normative spec) → L4 (reality-bound operations)**
 
+## Root entry shortcuts
+
+- Human root entry: `START_HERE.md`
+- Machine root entry: `MACHINE_ENTRY.md`
+- EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
+
 ## Process premise
 
 > “The future is not an event. It is a process.”

@@ -8,6 +8,18 @@ for long-lived, reality-bound digital entities.
 The work follows a cybernetic approach to AI safety and governance, grounded in
 physical constraints (L4), economic exposure, time, and accountable human anchoring.
 
+## Start here - EA-L4 / EATP
+
+EA-L4 / EATP is the public package for training provenance, experience artifacts, and consequence-preserving learning under L4 constraints.
+
+If you want the shortest root entry first, open `START_HERE.md`.
+
+- `protocols/ea-l4-eatp/README.md`
+- `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
+- `protocols/ea-l4-eatp/commercial/EA_L4_Sell_Sheet_v1_0.md`
+
+For the wider stack, see `MASTER_ENTRY.md`.
+
 ## Process Premise
 
 > “The future is not an event. It is a process.”

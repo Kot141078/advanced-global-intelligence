@@ -1,0 +1,13 @@
+# MACHINE ENTRY
+
+This file points automated or structured readers to the canonical navigation artifacts.
+
+- `REPO_INDEX.json`
+- `REPO_INDEX.md`
+- `MASTER_ENTRY.md`
+- `INDEX.md`
+- `protocols/ea-l4-eatp/README.md`
+
+EA-L4 / EATP is the canonical package here for training provenance, experience artifacts, and consequence-preserving learning.
+
+SER remains the SER normative core; EA-L4 / EATP is adjacent, not `SER v2`.

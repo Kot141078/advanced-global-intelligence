@@ -5,6 +5,10 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 ## Canonical entry
 - MASTER_ENTRY (raw):
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md
+- Human root entry:
+  `START_HERE.md`
+- Machine root entry:
+  `MACHINE_ENTRY.md`
 - `official/AUTHORIAL_PREMISES.md` — canonical authorial process premise
 
 ## Canonical repos (4)

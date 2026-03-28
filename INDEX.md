@@ -4,6 +4,8 @@ This repository presents AGI as **Advanced Global Intelligence** —
 a distributed, plural, cybernetic ecosystem.
 
 Start here:
+- Human root entry: `START_HERE.md`
+- Machine root entry: `MACHINE_ENTRY.md`
 - Manifesto: `manifesto/`
 - Core protocol (v1.1 + L4): `protocols/`
 - Beacon profile v0.1: `protocols/beacon/`
