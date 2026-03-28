@@ -6,6 +6,7 @@ a distributed, plural, cybernetic ecosystem.
 Start here:
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
+- Topology map: `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - Manifesto: `manifesto/`
 - Core protocol (v1.1 + L4): `protocols/`
 - Beacon profile v0.1: `protocols/beacon/`

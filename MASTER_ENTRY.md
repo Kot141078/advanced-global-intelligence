@@ -10,6 +10,7 @@ This page is the single entry point for the public protocol stack:
 
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
+- Topology map: `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - DEA package entry: `protocols/dea/README.md`
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
 

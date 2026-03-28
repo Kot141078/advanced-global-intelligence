@@ -5,6 +5,7 @@ This repository is the architectural context repo of the AGI / SER / L4 stack. I
 ## If you only need one path
 
 Open `protocols/dea/README.md`. It is the shortest canonical entry to DEA as the input-to-experience layer in this repository.
+If you need the layer relationship first, open `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`.
 
 ## Reading route
 

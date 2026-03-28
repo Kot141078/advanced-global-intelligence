@@ -6,6 +6,7 @@ This file points automated or structured readers to the canonical navigation art
 - `REPO_INDEX.md`
 - `MASTER_ENTRY.md`
 - `INDEX.md`
+- `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - `protocols/dea/README.md`
 - `protocols/dea/normative/DEA_v1_0.md`
 - `protocols/dea/normative/DEA_Normative_Addendum_v1_1.md`

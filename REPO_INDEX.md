@@ -9,6 +9,8 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
   `START_HERE.md`
 - Machine root entry:
   `MACHINE_ENTRY.md`
+- Topology map:
+  `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - `official/AUTHORIAL_PREMISES.md` — canonical authorial process premise
 
 ## Canonical repos (4)

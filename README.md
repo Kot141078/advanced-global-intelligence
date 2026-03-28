@@ -17,6 +17,7 @@ DEA is the public package for determining when input becomes experience inside l
 - `protocols/dea/normative/DEA_Normative_Addendum_v1_1.md`
 
 DEA sits upstream from EA-L4 / EATP; for the wider stack, see `MASTER_ENTRY.md`.
+For the stack relationship on one page, open `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`.
 
 ## Start here - EA-L4 / EATP
 

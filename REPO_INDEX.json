@@ -29,6 +29,7 @@
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MACHINE_ENTRY.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/INDEX.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md",
+        "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/dea/README.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/ea-l4-eatp/README.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/beacon/README.md",
@@ -139,6 +140,14 @@
       "role": "machine navigation entry / structured reader gateway",
       "status": "current",
       "short_description": "Structured-reader gateway pointing to canonical navigation artifacts and the EA-L4 / EATP package entry."
+    },
+    {
+      "path": "official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md",
+      "type": "markdown",
+      "role": "one-page relationship map / fast orientation",
+      "status": "current",
+      "short_description": "One-page relationship map explaining DEA, EA-L4 / EATP, L4 Witness, SER, and L4 roles plus upstream and downstream order for fast orientation."
     },
     {
       "path": "protocols/dea/README.md",
