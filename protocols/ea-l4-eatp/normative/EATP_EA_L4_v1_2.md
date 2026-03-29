@@ -13,11 +13,9 @@
 * **Version:** v1.2
 * **Author:** Ivan Kotov
 * **Affiliation:** Independent Researcher, Brussels
-* **License:** MIT (or specify)
+* **License:** MIT
 * **Keywords:** AI Training, Data Provenance, L4, Experience Artifacts, AI Safety, Distillation, Synthetic Data
-* **Related Work:** SER v1.3, L4 Witness Protocol v0.2, ARQ
-
----
+* **Related Work:** DEA v1.0, DEA Addendum v1.1, SER v1.3, L4 Witness Protocol v0.2, ARQ---
 
 ## **ABSTRACT**
 
