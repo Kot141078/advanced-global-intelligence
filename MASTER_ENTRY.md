@@ -246,3 +246,17 @@ SHA-256 manifests compress “trust bandwidth”: verification is transmitted as
 
 **Earth paragraph (engineering):**
 This structure mirrors aviation-grade documentation: *system overview* (AGI), *normative spec* (SER), *operational bulletins* (L4) — different documents, one truth source, reproducible checksums.
+
+## Additional cross-repo entry — L4 Glitch / Research Quarantine Stack v0.1
+
+Normative home:
+- [ester-reality-bound / docs/glitch-stack](https://github.com/Kot141078/ester-reality-bound/tree/main/docs/glitch-stack)
+
+Implementation home:
+- [ester-clean-code / docs/architecture/glitch-stack](https://github.com/Kot141078/ester-clean-code/tree/main/docs/architecture/glitch-stack)
+
+First implementation milestone:
+- [Milestone M1 in ester-clean-code](https://github.com/Kot141078/ester-clean-code/tree/main/docs/architecture/glitch-stack/milestone-m1/md)
+
+This cross-repo note is intentionally minimal.
+The full documents remain in their natural homes and are not duplicated here.
