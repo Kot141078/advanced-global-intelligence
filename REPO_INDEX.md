@@ -99,3 +99,5 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Status: `public theoretical framework`
 - Language: `EN`
 - Role: ecosystem-wide theoretical synthesis across AGI / SER / L4 / DEA / EA-L4 / implementation reference
+- Zenodo version DOI: `10.5281/zenodo.19384668`
+- Zenodo all-versions DOI: `10.5281/zenodo.19384667`
