@@ -90,3 +90,12 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 ## Verification
 - Do not hash GitHub-generated archives.
 - Verify content using each repo’s `hashes/` directory and `SHA256SUMS_*.txt`.
+
+## Ecosystem-level theoretical synthesis
+- Title: `Theoretical Foundations of the AGI Ecosystem`
+- Path: `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md`
+- PDF: `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.pdf`
+- Type: `architectural synthesis`
+- Status: `public theoretical framework`
+- Language: `EN`
+- Role: ecosystem-wide theoretical synthesis across AGI / SER / L4 / DEA / EA-L4 / implementation reference

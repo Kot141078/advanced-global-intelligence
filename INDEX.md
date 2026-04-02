@@ -8,6 +8,7 @@ Start here:
 - Machine root entry: `MACHINE_ENTRY.md`
 - Topology map: `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - Manifesto: `manifesto/`
+- Ecosystem-level theoretical synthesis: `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md`
 - Core protocol (v1.1 + L4): `protocols/`
 - Beacon profile v0.1: `protocols/beacon/`
 - DEA package: `protocols/dea/README.md`

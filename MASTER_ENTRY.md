@@ -14,6 +14,20 @@ This page is the single entry point for the public protocol stack:
 - DEA package entry: `protocols/dea/README.md`
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
 
+## Ecosystem-level theoretical synthesis
+
+Before entering narrower protocol layers, see:
+
+- `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md`
+- `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.pdf`
+
+Role:
+- ecosystem-wide theoretical synthesis
+- public theoretical framework
+- high-level framing across AGI / SER / L4 / DEA / EA-L4 / implementation reference
+
+---
+
 ## Process premise
 
 > “The future is not an event. It is a process.”
