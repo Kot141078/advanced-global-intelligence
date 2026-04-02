@@ -25,6 +25,11 @@ EA-L4 / EATP is the public package for training provenance, experience artifacts
 
 If you want the shortest root entry first, open `START_HERE.md`.
 
+For an ecosystem-level theoretical synthesis, see:
+
+- `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md`
+- fixed-layout PDF: `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.pdf`
+
 - `protocols/ea-l4-eatp/README.md`
 - `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
 - `protocols/ea-l4-eatp/commercial/EA_L4_Sell_Sheet_v1_0.md`
