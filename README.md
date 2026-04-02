@@ -294,3 +294,13 @@ Text content is released under the **MIT License**
 - Normative changes require explicit versioning and updated integrity manifests.
 
 This repository prioritizes **architectural stability over velocity**.
+
+## Published glitch-stack release set
+
+The connected L4 glitch / research quarantine stack is now published in Zenodo as a 4-record release set hosted canonically across `ester-reality-bound` and `ester-clean-code`.
+
+Zenodo records:
+- Core Specification v0.1 — version DOI: [10.5281/zenodo.19385784](https://doi.org/10.5281/zenodo.19385784), all versions: [10.5281/zenodo.19385783](https://doi.org/10.5281/zenodo.19385783)
+- Graph Grammar and Visibility Layer v0.1 — version DOI: [10.5281/zenodo.19385908](https://doi.org/10.5281/zenodo.19385908), all versions: [10.5281/zenodo.19385907](https://doi.org/10.5281/zenodo.19385907)
+- Implementation Bridge to ester-clean-code v0.1 — version DOI: [10.5281/zenodo.19386014](https://doi.org/10.5281/zenodo.19386014), all versions: [10.5281/zenodo.19386013](https://doi.org/10.5281/zenodo.19386013)
+- Milestone M1 Specification v0.1 — version DOI: [10.5281/zenodo.19386143](https://doi.org/10.5281/zenodo.19386143), all versions: [10.5281/zenodo.19386142](https://doi.org/10.5281/zenodo.19386142)

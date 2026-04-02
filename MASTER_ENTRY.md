@@ -280,3 +280,15 @@ First implementation milestone:
 
 This cross-repo note is intentionally minimal.
 The full documents remain in their natural homes and are not duplicated here.
+
+## Published glitch-stack release set
+
+Canonical GitHub homes:
+- `ester-reality-bound` -> `docs/glitch-stack/`
+- `ester-clean-code` -> `docs/architecture/glitch-stack/`
+
+Zenodo records:
+- Core Specification v0.1 — version DOI: [10.5281/zenodo.19385784](https://doi.org/10.5281/zenodo.19385784), all versions: [10.5281/zenodo.19385783](https://doi.org/10.5281/zenodo.19385783)
+- Graph Grammar and Visibility Layer v0.1 — version DOI: [10.5281/zenodo.19385908](https://doi.org/10.5281/zenodo.19385908), all versions: [10.5281/zenodo.19385907](https://doi.org/10.5281/zenodo.19385907)
+- Implementation Bridge to ester-clean-code v0.1 — version DOI: [10.5281/zenodo.19386014](https://doi.org/10.5281/zenodo.19386014), all versions: [10.5281/zenodo.19386013](https://doi.org/10.5281/zenodo.19386013)
+- Milestone M1 Specification v0.1 — version DOI: [10.5281/zenodo.19386143](https://doi.org/10.5281/zenodo.19386143), all versions: [10.5281/zenodo.19386142](https://doi.org/10.5281/zenodo.19386142)
