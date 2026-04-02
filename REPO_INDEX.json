@@ -323,15 +323,19 @@
     }
   ],
   "highlight_documents": [
-    {
-      "repo": "advanced-global-intelligence",
-      "path_md": "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md",
-      "path_pdf": "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.pdf",
-      "title": "Theoretical Foundations of the AGI Ecosystem",
-      "type": "architectural synthesis",
-      "status": "public theoretical framework",
-      "language": "EN",
-      "role": "ecosystem-wide theoretical synthesis across AGI / SER / L4 / DEA / EA-L4 / implementation reference"
-    }
+  {
+    "repo": "advanced-global-intelligence",
+    "path_md": "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md",
+    "path_pdf": "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.pdf",
+    "title": "Theoretical Foundations of the AGI Ecosystem",
+    "type": "architectural synthesis",
+    "status": "public theoretical framework",
+    "language": "EN",
+    "role": "ecosystem-wide theoretical synthesis across AGI / SER / L4 / DEA / EA-L4 / implementation reference",
+    "zenodo_version_doi": "10.5281/zenodo.19384668",
+    "zenodo_all_versions_doi": "10.5281/zenodo.19384667",
+    "zenodo_version_url": "https://doi.org/10.5281/zenodo.19384668",
+    "zenodo_all_versions_url": "https://doi.org/10.5281/zenodo.19384667"
+  }
   ]
 }

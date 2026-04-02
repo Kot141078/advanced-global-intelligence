@@ -28,6 +28,12 @@ Role:
 
 ---
 
+Citation:
+- Version DOI: [10.5281/zenodo.19384668](https://doi.org/10.5281/zenodo.19384668)
+- All versions DOI: [10.5281/zenodo.19384667](https://doi.org/10.5281/zenodo.19384667)
+
+---
+
 ## Process premise
 
 > “The future is not an event. It is a process.”
