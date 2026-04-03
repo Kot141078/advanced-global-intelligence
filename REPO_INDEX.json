@@ -320,6 +320,55 @@
       "role": "sell sheet twin",
       "status": "current",
       "short_description": "Fixed-layout twin of the sell sheet."
+    },
+    {
+      "path": "docs/economic-layer/",
+      "type": "directory",
+      "role": "economic layer package root",
+      "status": "canonical_home",
+      "short_description": "Canonical AGI package root for Experience Artifact admissibility, provenance, transfer, restraint, anti-gaming, and non-market handling."
+    },
+    {
+      "path": "docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md",
+      "type": "markdown",
+      "role": "current normative core",
+      "status": "current",
+      "short_description": "Normative core of the Economic Layer package for Experience Artifacts."
+    },
+    {
+      "path": "docs/economic-layer/extensions/",
+      "type": "directory",
+      "role": "extension clause subtree",
+      "status": "current",
+      "short_description": "Published extension and satellite clause subtree for the Economic Layer package."
+    },
+    {
+      "path": "docs/economic-layer/pdf/",
+      "type": "directory",
+      "role": "economic layer pdf subtree",
+      "status": "current",
+      "short_description": "Human-facing PDF subtree for the Economic Layer package, including extension PDFs."
+    },
+    {
+      "path": "docs/economic-layer/pdf/extensions/",
+      "type": "directory",
+      "role": "economic layer extension pdf subtree",
+      "status": "current",
+      "short_description": "Extension PDF subtree for the Economic Layer package."
+    },
+    {
+      "path": "manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
+      "type": "markdown",
+      "role": "boundary note",
+      "status": "current",
+      "short_description": "Reserved manifesto-level boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity."
+    },
+    {
+      "path": "manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf",
+      "type": "pdf",
+      "role": "boundary note twin",
+      "status": "current",
+      "short_description": "Fixed-layout twin of the reserved manifesto-level pre-lineage boundary note."
     }
   ],
   "highlight_documents": [
@@ -336,6 +385,16 @@
     "zenodo_all_versions_doi": "10.5281/zenodo.19384667",
     "zenodo_version_url": "https://doi.org/10.5281/zenodo.19384668",
     "zenodo_all_versions_url": "https://doi.org/10.5281/zenodo.19384667"
+  },
+  {
+    "repo": "advanced-global-intelligence",
+    "path_md": "manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
+    "path_pdf": "manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf",
+    "title": "Pre-Lineage Boundary Note v0.1",
+    "type": "boundary note",
+    "status": "reserved territory",
+    "language": "EN",
+    "role": "pre-normative boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity"
   }
   ]
 }

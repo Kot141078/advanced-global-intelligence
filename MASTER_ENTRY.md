@@ -13,6 +13,8 @@ This page is the single entry point for the public protocol stack:
 - Topology map: `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - DEA package entry: `protocols/dea/README.md`
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
+- Economic Layer package entry: `docs/economic-layer/README.md`
+- Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 
 ## Ecosystem-level theoretical synthesis
 
@@ -156,6 +158,31 @@ ARL v0.1 adds a bounded arbitration / review layer for multi-entity disputes; it
   - hashes + structured artifacts compress trust bandwidth without turning origin into narrative fog
 - Grounding:
   - if a system claims to have learned from an event, there should be an attributable trail for origin, consequence, and retention
+
+## 1.46) Economic Layer (canonical in AGI)
+
+- Economic Layer:
+  - entry: `docs/economic-layer/README.md`
+  - index: `docs/economic-layer/INDEX.md`
+  - normative core: `docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md`
+  - role: admissibility / provenance / transfer / restraint / anti-gaming / non-market handling for Experience Artifacts
+  - extension clauses: `docs/economic-layer/extensions/`
+  - pdf surfaces: `docs/economic-layer/pdf/` and `docs/economic-layer/pdf/extensions/`
+- Boundary:
+  - canonical home is AGI
+  - package helper / publication-carpentry docs are intentionally excluded from the public GitHub package surface
+  - the layer does not convert all EA value into market value
+
+## 1.47) Pre-Lineage Boundary Note (reserved territory)
+
+- Pre-Lineage Boundary Note:
+  - entry: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+  - pdf: `manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf`
+  - role: reserved cross-stack boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity
+- Boundary:
+  - not yet a mature normative layer
+  - not a completed lineage constitution
+  - included here as a conservative manifesto-level boundary note
 
 ---
 

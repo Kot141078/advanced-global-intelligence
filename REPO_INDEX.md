@@ -70,6 +70,27 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Public-facing files: `use-cases/` + `commercial/`
 - Boundary: adjacent to SER and L4; not `SER v2`; no duplicate home outside this repo
 
+## Economic Layer package
+- Package: Economic Layer for Experience Artifacts
+- Location: `docs/economic-layer/`
+- Entry: `docs/economic-layer/README.md`
+- Index: `docs/economic-layer/INDEX.md`
+- Normative core: `docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md`
+- Role: admissibility / provenance / transfer / restraint / anti-gaming / non-market handling for Experience Artifacts
+- Status: canonical package home in this repo
+- Extension clauses: `docs/economic-layer/extensions/`
+- PDFs: `docs/economic-layer/pdf/` + `docs/economic-layer/pdf/extensions/`
+- Boundary: helper / publication-carpentry docs are intentionally excluded from the public GitHub package surface
+
+## Pre-Lineage Boundary Note
+- Title: `Pre-Lineage Boundary Note v0.1`
+- Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+- PDF: `manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf`
+- Type: `boundary note`
+- Status: `reserved territory`
+- Role: pre-normative boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity
+- Boundary: not a completed lineage constitution and not yet a mature normative layer
+
 ## Downloads (tag snapshots — citeable)
 - AGI tag ZIP:
   https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip

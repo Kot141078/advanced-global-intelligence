@@ -21,6 +21,18 @@ Open `protocols/ea-l4-eatp/README.md`. It is the shortest canonical entry to how
 
 DEA remains upstream; `protocols/ea-l4-eatp/README.md` remains the downstream adjacent layer after DEA.
 
+## Economic Layer route
+
+Open `docs/economic-layer/README.md`. It is the shortest canonical entry to the Economic Layer package for Experience Artifact admissibility, provenance, transfer, restraint, anti-gaming, and non-market handling in this repository.
+
+If you want the package map first, open `docs/economic-layer/INDEX.md`.
+
+## Pre-Lineage boundary note
+
+If you need the reserved boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity, open `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`.
+
+This note is intentionally not a mature normative layer.
+
 ## If you are here for the wider corpus
 
 - `MASTER_ENTRY.md`

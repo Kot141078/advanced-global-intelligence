@@ -14,6 +14,8 @@ Start here:
 - Beacon profile v0.1: `protocols/beacon/`
 - DEA package: `protocols/dea/README.md`
 - EA-L4 / EATP package: `protocols/ea-l4-eatp/README.md`
+- Economic Layer package: `docs/economic-layer/README.md`
+- Pre-Lineage Boundary Note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - Safety background (EU): `background/`
 - Architecture & summaries: `architecture/`
 - Experiments: `experiments/`
@@ -54,3 +56,18 @@ This stack is entity-centered, not agent-centered.
 - Canonical entry: `protocols/ea-l4-eatp/README.md`
 - Current normative draft: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
 - Boundary: adjacent to SER and L4; not part of SER normative core; not `SER v2`
+
+## Economic Layer package (canonical in AGI)
+
+- `Economic Layer for Experience Artifacts` — admissibility / provenance / transfer / restraint / anti-gaming / non-market handling for Experience Artifacts
+- Canonical entry: `docs/economic-layer/README.md`
+- Canonical index: `docs/economic-layer/INDEX.md`
+- Normative core: `docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md`
+- Extension clauses: `docs/economic-layer/extensions/`
+- PDFs: `docs/economic-layer/pdf/` and `docs/economic-layer/pdf/extensions/`
+
+## Pre-Lineage Boundary Note
+
+- `Pre-Lineage Boundary Note v0.1` — reserved territory note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity
+- Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+- Boundary: not yet a mature normative layer

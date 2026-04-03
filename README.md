@@ -269,6 +269,29 @@ Boundary:
 - EA-L4 / EATP is not `SER v2`
 - ARQ remains a separate additive bridge rather than being absorbed into this package
 
+## Economic Layer package (canonical in this repo)
+
+The Economic Layer package is now published here as the AGI-facing package for Experience Artifact admissibility, provenance, transfer, restraint, anti-gaming discipline, and non-market handling.
+
+Start here:
+- `docs/economic-layer/README.md`
+- `docs/economic-layer/INDEX.md`
+
+Structure:
+- root package docs in `docs/economic-layer/`
+- extension clauses in `docs/economic-layer/extensions/`
+- root PDFs in `docs/economic-layer/pdf/`
+- extension PDFs in `docs/economic-layer/pdf/extensions/`
+
+## Pre-Lineage Boundary Note
+
+The repository also includes a reserved boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity:
+
+- `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+
+This note is intentionally not a mature normative lineage constitution.
+It marks reserved territory rather than claiming closure.
+
 ---
 
 ## Integrity Notes
