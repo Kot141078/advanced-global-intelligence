@@ -36,6 +36,10 @@ This stack is entity-centered, not agent-centered.
 - Hidden bridges: witness-backed promotion; bounded homeostasis instead of infinite retry
 - Grounding: finite power, cooling, storage endurance, controller trust, and privilege
 
+## ARL package (canonical in SER)
+
+- ARL v0.1 — bounded arbitration / review layer for multi-entity disputes; canonical home in `sovereign-entity-recursion`.
+
 ## DEA package (canonical in AGI)
 
 - `DEA` — input-to-experience normative layer

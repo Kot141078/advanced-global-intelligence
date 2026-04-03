@@ -304,3 +304,9 @@ Zenodo records:
 - Graph Grammar and Visibility Layer v0.1 — version DOI: [10.5281/zenodo.19385908](https://doi.org/10.5281/zenodo.19385908), all versions: [10.5281/zenodo.19385907](https://doi.org/10.5281/zenodo.19385907)
 - Implementation Bridge to ester-clean-code v0.1 — version DOI: [10.5281/zenodo.19386014](https://doi.org/10.5281/zenodo.19386014), all versions: [10.5281/zenodo.19386013](https://doi.org/10.5281/zenodo.19386013)
 - Milestone M1 Specification v0.1 — version DOI: [10.5281/zenodo.19386143](https://doi.org/10.5281/zenodo.19386143), all versions: [10.5281/zenodo.19386142](https://doi.org/10.5281/zenodo.19386142)
+
+### Arbitration / Review Layer (ARL) v0.1
+
+ARL v0.1 introduces a bounded arbitration / review layer for multi-entity disputes. Its canonical home is the SER stack, where conflict admission, evidence admissibility, freeze semantics, outcomes, and appeal discipline are defined under witness-backed constraints.
+
+Canonical home: `sovereign-entity-recursion` ARL package

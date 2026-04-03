@@ -109,6 +109,10 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 - Grounding:
   - finite power, finite cooling, finite storage endurance, finite privilege, and finite controller trust apply
 
+## 1.37) ARL v0.1 (canonical in SER)
+
+ARL v0.1 adds a bounded arbitration / review layer for multi-entity disputes; its canonical home is in `sovereign-entity-recursion`.
+
 ## 1.40) DEA (canonical in AGI)
 
 - DEA:

@@ -44,6 +44,9 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Hidden bridges: witness-first promotion / auditability; bounded homeostasis instead of infinite retry
 - Grounding: finite power, cooling, storage endurance, controller trust, and privilege
 
+## ARL package
+- ARL v0.1 — bounded arbitration / review layer for multi-entity disputes; canonical home in `sovereign-entity-recursion`.
+
 ## DEA package
 - Package: DEA
 - Location: `protocols/dea/`
