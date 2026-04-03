@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+type: software
+title: "Advanced Global Intelligence"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+url: "https://github.com/Kot141078/advanced-global-intelligence"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+abstract: >-
+  Architecture-first repository for Advanced Global Intelligence (AGI): context
+  documents, protocols, and integrity manifests for long-lived, reality-bound
+  digital entities under L4 constraints and accountable human anchoring. It
+  provides architectural framing and cross-stack context rather than the
+  canonical normative home of the Arbitration / Review Layer.
+keywords:
+  - "advanced global intelligence"
+  - "digital entities"
+  - "reality-bound systems"
+  - "l4 constraints"
+  - "integrity manifests"
+license: "MIT"
+doi: "10.5281/zenodo.18311148"
