@@ -276,6 +276,7 @@ The Economic Layer package is now published here as the AGI-facing package for E
 Start here:
 - `docs/economic-layer/README.md`
 - `docs/economic-layer/INDEX.md`
+Zenodo DOI: https://doi.org/10.5281/zenodo.19408654
 
 Structure:
 - root package docs in `docs/economic-layer/`
@@ -288,6 +289,7 @@ Structure:
 The repository also includes a reserved boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity:
 
 - `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+Zenodo DOI: https://doi.org/10.5281/zenodo.19409346
 
 This note is intentionally not a mature normative lineage constitution.
 It marks reserved territory rather than claiming closure.

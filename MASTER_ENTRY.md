@@ -164,6 +164,7 @@ ARL v0.1 adds a bounded arbitration / review layer for multi-entity disputes; it
 - Economic Layer:
   - entry: `docs/economic-layer/README.md`
   - index: `docs/economic-layer/INDEX.md`
+  - Zenodo DOI: https://doi.org/10.5281/zenodo.19408654
   - normative core: `docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md`
   - role: admissibility / provenance / transfer / restraint / anti-gaming / non-market handling for Experience Artifacts
   - extension clauses: `docs/economic-layer/extensions/`
@@ -178,6 +179,7 @@ ARL v0.1 adds a bounded arbitration / review layer for multi-entity disputes; it
 - Pre-Lineage Boundary Note:
   - entry: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
   - pdf: `manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf`
+  - Zenodo DOI: https://doi.org/10.5281/zenodo.19409346
   - role: reserved cross-stack boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity
 - Boundary:
   - not yet a mature normative layer

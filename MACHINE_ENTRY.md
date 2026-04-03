@@ -25,9 +25,11 @@ DEA is the canonical package here for determining when input becomes experience 
 EA-L4 / EATP is the canonical package here for training provenance, experience artifacts, and consequence-preserving learning, and sits downstream from DEA.
 
 Economic Layer is the canonical AGI package here for Experience Artifact admissibility, provenance, transfer, restraint, anti-gaming, and non-market handling.
+zenodo_doi: `https://doi.org/10.5281/zenodo.19408654`
 Its normative core is `docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md`.
 Its extension clauses live in `docs/economic-layer/extensions/`.
 
 Pre-Lineage Boundary Note is a manifesto-level boundary note rather than a mature normative layer.
+zenodo_doi: `https://doi.org/10.5281/zenodo.19409346`
 
 SER remains the SER normative core. DEA is not `SER v2`. EA-L4 / EATP is not `SER v2`.

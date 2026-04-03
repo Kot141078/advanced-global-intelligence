@@ -62,6 +62,7 @@ This stack is entity-centered, not agent-centered.
 - `Economic Layer for Experience Artifacts` — admissibility / provenance / transfer / restraint / anti-gaming / non-market handling for Experience Artifacts
 - Canonical entry: `docs/economic-layer/README.md`
 - Canonical index: `docs/economic-layer/INDEX.md`
+- Zenodo DOI: https://doi.org/10.5281/zenodo.19408654
 - Normative core: `docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md`
 - Extension clauses: `docs/economic-layer/extensions/`
 - PDFs: `docs/economic-layer/pdf/` and `docs/economic-layer/pdf/extensions/`
@@ -70,4 +71,5 @@ This stack is entity-centered, not agent-centered.
 
 - `Pre-Lineage Boundary Note v0.1` — reserved territory note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity
 - Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+- Zenodo DOI: https://doi.org/10.5281/zenodo.19409346
 - Boundary: not yet a mature normative layer

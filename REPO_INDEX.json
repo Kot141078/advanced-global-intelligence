@@ -326,14 +326,16 @@
       "type": "directory",
       "role": "economic layer package root",
       "status": "canonical_home",
-      "short_description": "Canonical AGI package root for Experience Artifact admissibility, provenance, transfer, restraint, anti-gaming, and non-market handling."
+      "short_description": "Canonical AGI package root for Experience Artifact admissibility, provenance, transfer, restraint, anti-gaming, and non-market handling.",
+      "zenodo_version_url": "https://doi.org/10.5281/zenodo.19408654"
     },
     {
       "path": "docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md",
       "type": "markdown",
       "role": "current normative core",
       "status": "current",
-      "short_description": "Normative core of the Economic Layer package for Experience Artifacts."
+      "short_description": "Normative core of the Economic Layer package for Experience Artifacts.",
+      "zenodo_version_url": "https://doi.org/10.5281/zenodo.19408654"
     },
     {
       "path": "docs/economic-layer/extensions/",
@@ -361,7 +363,8 @@
       "type": "markdown",
       "role": "boundary note",
       "status": "current",
-      "short_description": "Reserved manifesto-level boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity."
+      "short_description": "Reserved manifesto-level boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity.",
+      "zenodo_version_url": "https://doi.org/10.5281/zenodo.19409346"
     },
     {
       "path": "manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf",
@@ -394,7 +397,8 @@
     "type": "boundary note",
     "status": "reserved territory",
     "language": "EN",
-    "role": "pre-normative boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity"
+    "role": "pre-normative boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity",
+    "zenodo_version_url": "https://doi.org/10.5281/zenodo.19409346"
   }
   ]
 }

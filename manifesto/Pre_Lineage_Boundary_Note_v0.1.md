@@ -4,6 +4,7 @@
 **Status:** Draft / Boundary Note  
 **Version:** 0.1  
 **Layer:** Pre-normative boundary / reserved research territory  
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.19409346  
 **Parent materials:** `c = a + b`, SER v1.3, EWCEP v0.1, SER-FED v0.2, Beacon Profile v0.1, ARL package, EA economic layer  
 **Language:** English  
 

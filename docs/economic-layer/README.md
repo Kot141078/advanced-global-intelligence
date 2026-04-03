@@ -3,6 +3,7 @@
 **Status:** Draft v0.1  
 **Layer:** Economic layer / EA circulation / admissibility / transfer / restraint  
 **Canonical home:** `advanced-global-intelligence`  
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.19408654  
 **Author:** Ivan Kotov  
 **Location:** Brussels  
 **Year:** 2026  
