@@ -42,6 +42,13 @@ Then load the key documents in small batches.
 
 This repository is easier to understand when related protocol and manifesto documents are read together rather than as isolated fragments.
 
+## Canonical package entry points
+
+- `DEA` — canonical here; input-to-experience package. Path: `protocols/dea/README.md`
+- `EA-L4 / EATP` — canonical here; training provenance and consequence-preserving package. Path: `protocols/ea-l4-eatp/README.md`
+- `Economic Layer for Experience Artifacts v0.1` — canonical here; economic admissibility and provenance package. Path: `docs/economic-layer/README.md`
+- `Pre-Lineage Boundary Note v0.1` — canonical here; manifesto-level boundary note. Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+
 ## Start here - DEA
 
 DEA is the public package for determining when input becomes experience inside long-lived systems.
