@@ -2,6 +2,25 @@
 
 This file points automated or structured readers to the canonical navigation artifacts.
 
+## Start (raw)
+- README (raw):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/README.md
+- MASTER_ENTRY (raw):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md
+- REPO_INDEX.md (raw):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md
+- REPO_INDEX.json (raw):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.json
+
+## Downloads
+- Release page (verified): https://github.com/Kot141078/advanced-global-intelligence/releases/tag/agi-snapshot-2026-02-24
+- Tag snapshot (agi-snapshot-2026-02-24)
+  - ZIP: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip
+  - TAR: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.tar.gz
+- Latest main
+  - ZIP: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/heads/main.zip
+  - TAR: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/heads/main.tar.gz
+
 - `REPO_INDEX.json`
 - `REPO_INDEX.md`
 - `MASTER_ENTRY.md`

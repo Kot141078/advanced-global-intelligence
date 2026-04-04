@@ -8,6 +8,40 @@ for long-lived, reality-bound digital entities.
 The work follows a cybernetic approach to AI safety and governance, grounded in
 physical constraints (L4), economic exposure, time, and accountable human anchoring.
 
+## Download / Get the Code
+
+For most visitors, the easiest starting point is the stable snapshot of this repository.
+
+- Release page: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/agi-snapshot-2026-02-24
+- Stable source ZIP: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip
+- Stable source TAR.GZ: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.tar.gz
+- GitHub UI: click **Code** -> **Download ZIP**
+
+Clone locally:
+
+```bash
+git clone https://github.com/Kot141078/advanced-global-intelligence.git
+cd advanced-global-intelligence
+git checkout agi-snapshot-2026-02-24
+```
+
+Use `hashes/` and local verification materials when applicable. Do not hash GitHub-generated source archives.
+
+## For LLM-assisted reading
+
+Using an LLM to study this repository is normal and encouraged.
+
+If your model has a small context window, start with:
+
+- `README.md`
+- `MACHINE_ENTRY.md`
+- `llms.txt`
+- the stable snapshot of this repository
+
+Then load the key documents in small batches.
+
+This repository is easier to understand when related protocol and manifesto documents are read together rather than as isolated fragments.
+
 ## Start here - DEA
 
 DEA is the public package for determining when input becomes experience inside long-lived systems.
