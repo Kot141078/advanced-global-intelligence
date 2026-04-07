@@ -35,7 +35,7 @@
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/beacon/README.md",
         "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/beacon/Beacon_Profile_v0.1_EN.md"
       ],
-      "integrity_hint": "See hashes/ and SHA256SUMS_*.txt (verify content, not GitHub archives)."
+      "integrity_hint": "See hashes/ and SHA256SUMS_*.txt (verify content, not GitHub archives). Current main-doc temporal-presence manifest: hashes/SHA256SUMS_main_temporal_presence_2026-04-07.txt."
     },
     {
       "name": "sovereign-entity-recursion",

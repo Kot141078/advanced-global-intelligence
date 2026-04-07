@@ -15,6 +15,7 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 
 ## Verify
 - hashes/ + SHA256SUMS_*.txt (do not hash GitHub-generated archives)
+- Main-doc temporal-presence manifest: `hashes/SHA256SUMS_main_temporal_presence_2026-04-07.txt`
 
 ## Canonical map
 - REPO_INDEX.md (raw): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md

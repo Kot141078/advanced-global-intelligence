@@ -117,6 +117,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 ## Verification
 - Do not hash GitHub-generated archives.
 - Verify content using each repo’s `hashes/` directory and `SHA256SUMS_*.txt`.
+- Main-doc temporal-presence manifest: `hashes/SHA256SUMS_main_temporal_presence_2026-04-07.txt`
 
 ## Ecosystem-level theoretical synthesis
 - Title: `Theoretical Foundations of the AGI Ecosystem`
