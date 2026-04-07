@@ -113,6 +113,11 @@ Where:
 
 This repository focuses on **entities**, not stateless tools or disposable agents.
 
+**Interpretive clarification (canonical note):**
+- `c` may also be described as **temporal entities of AI presence**.
+- This does not replace `c = a + b`; it clarifies the temporal mode implied by the formula.
+- Canonical note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
+
 ---
 
 ## Comparison with Existing Approaches

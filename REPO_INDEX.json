@@ -150,6 +150,14 @@
       "short_description": "One-page relationship map explaining DEA, EA-L4 / EATP, L4 Witness, SER, and L4 roles plus upstream and downstream order for fast orientation."
     },
     {
+      "path": "official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md",
+      "type": "markdown",
+      "role": "canonical interpretive note",
+      "status": "current",
+      "short_description": "Canonical interpretive note fixing the phrase 'c are temporal entities of AI presence' across the public stack without replacing c = a + b."
+    },
+    {
       "path": "protocols/dea/README.md",
       "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/dea/README.md",
       "type": "markdown",

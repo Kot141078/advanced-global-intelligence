@@ -6,6 +6,7 @@ This repository is the architectural context repo of the AGI / SER / L4 stack. I
 
 Open `protocols/dea/README.md`. It is the shortest canonical entry to DEA as the input-to-experience layer in this repository.
 If you need the layer relationship first, open `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`.
+If you need the shortest interpretive phrase for `c`, open `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`.
 
 ## DEA route
 

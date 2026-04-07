@@ -12,6 +12,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Topology map:
   `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - `official/AUTHORIAL_PREMISES.md` — canonical authorial process premise
+- `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md` — canonical interpretive note fixing the phrase "c are temporal entities of AI presence"
 
 ## Canonical repos (4)
 1) AGI — advanced-global-intelligence (context + integrity)

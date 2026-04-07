@@ -15,6 +15,7 @@ This page is the single entry point for the public protocol stack:
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
 - Economic Layer package entry: `docs/economic-layer/README.md`
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+- Canonical interpretive note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
 
 ## Ecosystem-level theoretical synthesis
 
