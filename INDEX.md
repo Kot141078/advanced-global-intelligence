@@ -12,6 +12,7 @@ Start here:
 - Zenodo citation: `10.5281/zenodo.19384668` (all versions: `10.5281/zenodo.19384667`)
 - Core protocol (v1.1 + L4): `protocols/`
 - Beacon profile v0.1: `protocols/beacon/`
+- Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
 - DEA package: `protocols/dea/README.md`
 - EA-L4 / EATP package: `protocols/ea-l4-eatp/README.md`
 - Economic Layer package: `docs/economic-layer/README.md`
@@ -56,6 +57,12 @@ This stack is entity-centered, not agent-centered.
 - Canonical entry: `protocols/ea-l4-eatp/README.md`
 - Current normative draft: `protocols/ea-l4-eatp/normative/EATP_EA_L4_v1_2.md`
 - Boundary: adjacent to SER and L4; not part of SER normative core; not `SER v2`
+
+## Continuity Bundle / Cold Wake v0.1 (canonical in AGI)
+
+- `Continuity Bundle / Cold Wake v0.1` — temporal suspension, continuity preservation, and bounded cold wake / safe resume
+- Canonical entry: `protocols/continuity-bundle/README.md`
+- Boundary: companion to SER continuity and L4 wake constraints; not a replacement for SER, L4, or ester-clean-code
 
 ## Economic Layer package (canonical in AGI)
 

@@ -13,6 +13,7 @@ This page is the single entry point for the public protocol stack:
 - Topology map: `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - DEA package entry: `protocols/dea/README.md`
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
+- Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
 - Economic Layer package entry: `docs/economic-layer/README.md`
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - Canonical interpretive note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
@@ -159,6 +160,18 @@ ARL v0.1 adds a bounded arbitration / review layer for multi-entity disputes; it
   - hashes + structured artifacts compress trust bandwidth without turning origin into narrative fog
 - Grounding:
   - if a system claims to have learned from an event, there should be an attributable trail for origin, consequence, and retention
+
+## 1.455) Continuity Bundle / Cold Wake v0.1 (canonical in AGI)
+
+- Continuity Bundle / Cold Wake v0.1:
+  - entry: `protocols/continuity-bundle/README.md`
+  - role: temporal suspension, continuity preservation, and bounded cold wake / safe resume
+  - source docs: `protocols/continuity-bundle/Continuity_Bundle_JSON_Schema_v0.1.md` + `protocols/continuity-bundle/Cold_Wake_Checklist_v0.1.md`
+  - pdf surfaces: `pdf/Continuity_Bundle_JSON_Schema_v0.1.pdf` + `pdf/Cold_Wake_Checklist_v0.1.pdf`
+- Boundary:
+  - canonical home is AGI
+  - companion to SER continuity and L4 wake constraints
+  - not a replacement for SER, L4, or ester-clean-code
 
 ## 1.46) Economic Layer (canonical in AGI)
 

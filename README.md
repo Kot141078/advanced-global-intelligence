@@ -44,10 +44,20 @@ This repository is easier to understand when related protocol and manifesto docu
 
 ## Canonical package entry points
 
+- `Continuity Bundle / Cold Wake v0.1` — canonical here; temporal suspension, continuity preservation, and bounded cold wake / safe resume package. Path: `protocols/continuity-bundle/README.md`
 - `DEA` — canonical here; input-to-experience package. Path: `protocols/dea/README.md`
 - `EA-L4 / EATP` — canonical here; training provenance and consequence-preserving package. Path: `protocols/ea-l4-eatp/README.md`
 - `Economic Layer for Experience Artifacts v0.1` — canonical here; economic admissibility and provenance package. Path: `docs/economic-layer/README.md`
 - `Pre-Lineage Boundary Note v0.1` — canonical here; manifesto-level boundary note. Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+
+## Continuity Bundle / Cold Wake v0.1
+
+Continuity Bundle / Cold Wake v0.1 is the canonical AGI package for temporal suspension, continuity preservation, and bounded cold wake / safe resume.
+
+- `protocols/continuity-bundle/README.md`
+- `protocols/continuity-bundle/Continuity_Bundle_JSON_Schema_v0.1.md`
+- `protocols/continuity-bundle/Cold_Wake_Checklist_v0.1.md`
+- companion to SER continuity and L4 wake constraints; not a replacement
 
 ## Start here - DEA
 
