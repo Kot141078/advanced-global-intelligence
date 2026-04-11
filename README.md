@@ -391,3 +391,12 @@ Zenodo records:
 ARL v0.1 introduces a bounded arbitration / review layer for multi-entity disputes. Its canonical home is the SER stack, where conflict admission, evidence admissibility, freeze semantics, outcomes, and appeal discipline are defined under witness-backed constraints.
 
 Canonical home: `sovereign-entity-recursion` ARL package
+
+## Related public work
+
+A separate public repository now preserves the multilingual reading editions of **Qubit of Hope — Volume I** by Ivan Kotov:
+
+- `Kot141078/qubit-of-hope-volume-i`
+
+This is a literary work, not a technical specification repository.
+It is linked here as related public work by the same author.

@@ -408,5 +408,13 @@
     "role": "pre-normative boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity",
     "zenodo_version_url": "https://doi.org/10.5281/zenodo.19409346"
   }
+  ],
+  "related_public_work": [
+    {
+      "repo": "Kot141078/qubit-of-hope-volume-i",
+      "type": "literary_work",
+      "title": "Qubit of Hope — Volume I",
+      "note": "multilingual reading repository"
+    }
   ]
 }

@@ -129,3 +129,6 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Role: ecosystem-wide theoretical synthesis across AGI / SER / L4 / DEA / EA-L4 / implementation reference
 - Zenodo version DOI: `10.5281/zenodo.19384668`
 - Zenodo all-versions DOI: `10.5281/zenodo.19384667`
+
+## Related public work
+- `Kot141078/qubit-of-hope-volume-i` — multilingual reading repository for *Qubit of Hope — Volume I* (literary work)
