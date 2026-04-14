@@ -146,17 +146,17 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 - Continuity belongs to `c`, not to any single model, judge, worker, or swarm.
 - Canonical note: `architecture/ENTITY_GOVERNS_AGENTS.md`
 
-## 1.35) ARQ bridge (additive; canonical in SER)
+## 1.35) ARQ v0.2 bridge (additive; canonical in SER)
 
-- ARQ (additive subsystem; canonical in SER):
-  - entry: `https://github.com/Kot141078/sovereign-entity-recursion/blob/main/protocol/arq/README.md`
+- ARQ v0.2 (additive subsystem; canonical in SER):
+  - repo: `Kot141078/sovereign-entity-recursion`
+  - markdown package: `protocol/arq/v0.2/`
+  - pdf package: `pdf/arq/v0.2/`
+  - manifest: `hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt`
+  - first hop: `README_ARQ_Supplement_v0.2.md` -> `ARQ_v0.2_Executive_Summary.md` -> `ARQ_v0.2_Normative_Core.md`
+  - AGI role: pointer/context layer only; no canonical ARQ payload duplication here
   - role: bounded error valuation, witness-backed promotion, experience filtering
   - bridge: correction logic -> SER continuity -> L4 bounded accountability
-- Hidden bridges:
-  - promoted deviations require witness-backed auditability
-  - adaptive handling remains bounded homeostasis rather than infinite retry
-- Grounding:
-  - finite power, finite cooling, finite storage endurance, finite privilege, and finite controller trust apply
 
 ## 1.37) ARL v0.1 (canonical in SER)
 

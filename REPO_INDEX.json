@@ -68,7 +68,7 @@
   "architecture_notes": [
     "By default, c orchestrates agents; agents do not define c.",
     "Canonical note: architecture/ENTITY_GOVERNS_AGENTS.md",
-    "ARQ bridge: canonical entry https://github.com/Kot141078/sovereign-entity-recursion/blob/main/protocol/arq/README.md; correction logic -> SER continuity -> L4 bounded accountability; witness-backed promotion; bounded homeostasis; finite power/cooling/storage endurance/controller trust/privilege.",
+    "ARQ v0.2 bridge: canonical home Kot141078/sovereign-entity-recursion; markdown package protocol/arq/v0.2/; pdf package pdf/arq/v0.2/; manifest hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt; correction logic -> SER continuity -> L4 bounded accountability; AGI keeps pointer/context only.",
     "DEA: canonical entry protocols/dea/README.md; input-to-experience normative layer; upstream from EA-L4 / EATP; adjacent to SER and L4; not SER v2.",
     "EA-L4 / EATP: canonical entry protocols/ea-l4-eatp/README.md; training provenance / experience artifact layer; adjacent to SER and L4; not SER v2."
   ],
@@ -308,9 +308,13 @@
     {
       "name": "ARQ",
       "owner": "Kot141078",
-      "role": "additive protocol bridge (draft); canonical in sovereign-entity-recursion; no duplication in this repo",
+      "role": "additive protocol bridge (draft); canonical ARQ v0.2 package in sovereign-entity-recursion; no duplication in this repo",
       "default_branch": "main",
       "tag_snapshot": "ecosystem-v0.2-2026-02-24",
+      "canonical_home_repo": "Kot141078/sovereign-entity-recursion",
+      "package_root": "protocol/arq/v0.2/",
+      "pdf_root": "pdf/arq/v0.2/",
+      "manifest_relpath": "hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt",
       "download": {
         "tag_zip": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.zip",
         "tag_tar": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.tar.gz",
@@ -318,9 +322,11 @@
         "main_tar": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/heads/main.tar.gz"
       },
       "start_raw": [
-        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/README.md"
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/README_ARQ_Supplement_v0.2.md",
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/ARQ_v0.2_Executive_Summary.md",
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/ARQ_v0.2_Normative_Core.md"
       ],
-      "integrity_hint": "Draft additive bridge. Witness-backed promotion is required; bounded homeostasis applies; no duplication in advanced-global-intelligence; verify content via sovereign-entity-recursion/hashes/."
+      "integrity_hint": "ARQ v0.2 is canonical in sovereign-entity-recursion. Verify the package manifest at hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt; advanced-global-intelligence keeps context/cartography pointers only and no payload duplication."
     }
   ],
   "root_entries": [

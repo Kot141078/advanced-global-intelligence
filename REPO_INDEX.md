@@ -115,16 +115,17 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/docs-meaning-map/protocols/beacon/README.md
 - Integrity manifest: `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`
 
-## ARQ bridge
-- Subsystem: ARQ
-- Location: external canonical reference in `sovereign-entity-recursion`
-- Entry: `https://github.com/Kot141078/sovereign-entity-recursion/blob/main/protocol/arq/README.md`
+## ARQ v0.2 bridge
+- Subsystem: ARQ v0.2
+- Location: canonical in `sovereign-entity-recursion`
+- Markdown package: `protocol/arq/v0.2/`
+- PDF package: `pdf/arq/v0.2/`
+- Manifest: `hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt`
+- First hop: `README_ARQ_Supplement_v0.2.md` -> `ARQ_v0.2_Executive_Summary.md` -> `ARQ_v0.2_Normative_Core.md`
 - Role: additive protocol bridge for bounded error valuation, witness-backed promotion, and experience filtering
 - Status: draft
-- Duplication: none in this repo
+- Duplication: none in this repo; AGI keeps context/cartography pointers only
 - Explicit bridge: correction logic -> SER continuity -> L4 bounded accountability
-- Hidden bridges: witness-first promotion / auditability; bounded homeostasis instead of infinite retry
-- Grounding: finite power, cooling, storage endurance, controller trust, and privilege
 
 ## ARL package
 - ARL v0.1 — bounded arbitration / review layer for multi-entity disputes; canonical home in `sovereign-entity-recursion`.

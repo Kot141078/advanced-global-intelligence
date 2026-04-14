@@ -23,6 +23,18 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - Narrative / Human:
   - `https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/CORPUS_CONTEXT.md`
 
+## ARQ v0.2 canonical route
+
+- canonical repo: `Kot141078/sovereign-entity-recursion`
+- canonical package root: `protocol/arq/v0.2/`
+- canonical pdf root: `pdf/arq/v0.2/`
+- canonical package manifest: `hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt`
+- first hop (raw):
+  - `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/README_ARQ_Supplement_v0.2.md`
+  - `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/ARQ_v0.2_Executive_Summary.md`
+  - `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/ARQ_v0.2_Normative_Core.md`
+- AGI keeps context/cartography pointers only; canonical ARQ payload remains in SER
+
 ## Stable corpus refs
 
 - `CORPUS_PRIMER.json`
