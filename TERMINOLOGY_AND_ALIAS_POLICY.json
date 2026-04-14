@@ -1,0 +1,282 @@
+{
+  "schema": "agi.terminology_and_alias_policy.v1",
+  "date": "2026-04-12",
+  "terms": [
+    {
+      "id": "T001",
+      "canonical_term": "AGI = Advanced Global Intelligence",
+      "allowed_aliases": [
+        "Advanced Global Intelligence",
+        "AGI with explicit clarification"
+      ],
+      "avoid": [
+        "mainstream monolithic AGI",
+        "one-model superintelligence"
+      ],
+      "short_meaning": "ecosystem framing for c = a + b, SER, L4, and adjacent layers",
+      "drift_risk": "naming drift collapses the stack into a false one-model claim"
+    },
+    {
+      "id": "T002",
+      "canonical_term": "c = long-lived digital entity / entity c",
+      "allowed_aliases": [
+        "entity c",
+        "continuity-bearing entity",
+        "c"
+      ],
+      "avoid": [
+        "agent",
+        "chatbot",
+        "single worker/model"
+      ],
+      "short_meaning": "the continuity-bearing accountable entity layer",
+      "drift_risk": "if c drifts into agent-language, authority and continuity drift with it"
+    },
+    {
+      "id": "T003",
+      "canonical_term": "a = human anchor",
+      "allowed_aliases": [
+        "anchor",
+        "responsible human anchor"
+      ],
+      "avoid": [
+        "review layer",
+        "operator pool",
+        "arbiter"
+      ],
+      "short_meaning": "the accountable human anchor in c = a + b",
+      "drift_risk": "anchor drift breaks responsibility and boundary reading"
+    },
+    {
+      "id": "T004",
+      "canonical_term": "b = technological substrate / machine cognitive layer",
+      "allowed_aliases": [
+        "technological substrate",
+        "machine cognitive layer",
+        "procedures, models, and constraints"
+      ],
+      "avoid": [
+        "a",
+        "agent",
+        "product shell"
+      ],
+      "short_meaning": "the bounded machine-side substrate in c = a + b",
+      "drift_risk": "if b becomes vague, the formula stops saying what is actually bounded"
+    },
+    {
+      "id": "T005",
+      "canonical_term": "agent",
+      "allowed_aliases": [
+        "bounded agent",
+        "runtime agent",
+        "worker"
+      ],
+      "avoid": [
+        "c",
+        "entity core",
+        "anchor"
+      ],
+      "short_meaning": "subordinate bounded process/tool under c",
+      "drift_risk": "agent/entity collapse silently rewrites control and continuity"
+    },
+    {
+      "id": "T006",
+      "canonical_term": "oracle",
+      "allowed_aliases": [
+        "oracle process",
+        "oracle surface",
+        "stateless oracle"
+      ],
+      "avoid": [
+        "identity-bearing node",
+        "continuity core",
+        "c"
+      ],
+      "short_meaning": "stateless advisory or inference surface",
+      "drift_risk": "oracle drift can smuggle identity into a non-identity layer"
+    },
+    {
+      "id": "T007",
+      "canonical_term": "arbiter / review layer",
+      "allowed_aliases": [
+        "review layer",
+        "arbitration layer",
+        "arbiter"
+      ],
+      "avoid": [
+        "owner of continuity",
+        "entity core",
+        "anchor"
+      ],
+      "short_meaning": "examination and authorization layer, not identity core",
+      "drift_risk": "review drift can hide continuity ownership in an oversight surface"
+    },
+    {
+      "id": "T008",
+      "canonical_term": "continuity",
+      "allowed_aliases": [
+        "operating continuity",
+        "continuity of c"
+      ],
+      "avoid": [
+        "resemblance",
+        "tone match",
+        "copy"
+      ],
+      "short_meaning": "preserved operating identity conditions of c",
+      "drift_risk": "continuity drift can authorize privilege carry-over on similarity alone"
+    },
+    {
+      "id": "T009",
+      "canonical_term": "resemblance / copy / duplicate",
+      "allowed_aliases": [
+        "similarity",
+        "look-alike",
+        "copy"
+      ],
+      "avoid": [
+        "continuity",
+        "preserved identity"
+      ],
+      "short_meaning": "similarity without continuity guarantee",
+      "drift_risk": "copy-language drift can counterfeit identity claims"
+    },
+    {
+      "id": "T010",
+      "canonical_term": "L4 / Reality Boundary Layer",
+      "allowed_aliases": [
+        "L4",
+        "Reality Boundary Layer",
+        "reality-bound layer"
+      ],
+      "avoid": [
+        "permission layer",
+        "L3",
+        "legal allowance"
+      ],
+      "short_meaning": "feasibility and bounded operation under real constraints",
+      "drift_risk": "if L4 drifts into permission-language, feasibility and governance get conflated"
+    },
+    {
+      "id": "T011",
+      "canonical_term": "Witness / witness trail / evidence envelope",
+      "allowed_aliases": [
+        "witness trail",
+        "evidence envelope",
+        "witness-backed record"
+      ],
+      "avoid": [
+        "narrative claim",
+        "mere rhetoric",
+        "unreviewed log"
+      ],
+      "short_meaning": "reviewable evidence surface for promotion, challenge, and accountability",
+      "drift_risk": "witness drift replaces evidence with story"
+    },
+    {
+      "id": "T012",
+      "canonical_term": "EA / Experience Artifact",
+      "allowed_aliases": [
+        "EA",
+        "Experience Artifact"
+      ],
+      "avoid": [
+        "LA",
+        "lineage artifact",
+        "generic capability gain"
+      ],
+      "short_meaning": "experience-derived artifact class",
+      "drift_risk": "EA/LA drift breaks provenance and admissibility boundaries"
+    },
+    {
+      "id": "T013",
+      "canonical_term": "LA / Learning Abstract",
+      "allowed_aliases": [
+        "LA",
+        "Learning Abstract"
+      ],
+      "avoid": [
+        "EA",
+        "Experience Artifact"
+      ],
+      "short_meaning": "learning abstraction distinct from EA",
+      "drift_risk": "LA/EA drift collapses separable evidence classes"
+    },
+    {
+      "id": "T014",
+      "canonical_term": "narrative companion",
+      "allowed_aliases": [
+        "human-facing companion",
+        "companion layer",
+        "narrative layer"
+      ],
+      "avoid": [
+        "normative core",
+        "protocol evidence"
+      ],
+      "short_meaning": "the book-facing perception and recognition layer",
+      "drift_risk": "companion drift can make narrative look like doctrine"
+    },
+    {
+      "id": "T015",
+      "canonical_term": "runtime proof-of-possibility / executable skeleton",
+      "allowed_aliases": [
+        "runtime proof-of-possibility",
+        "executable operational skeleton",
+        "clean-code skeleton"
+      ],
+      "avoid": [
+        "commercial product",
+        "finished platform"
+      ],
+      "short_meaning": "operational closure layer in ester-clean-code",
+      "drift_risk": "product-language drift overstates what the runtime layer is claiming"
+    },
+    {
+      "id": "T016",
+      "canonical_term": "reserved territory",
+      "allowed_aliases": [
+        "explicit non-mature boundary",
+        "reserved boundary territory"
+      ],
+      "avoid": [
+        "mature doctrine",
+        "completed constitution",
+        "stable core"
+      ],
+      "short_meaning": "explicit boundary for not-yet-mature doctrine",
+      "drift_risk": "reserved-language drift can prematurely harden blocked territory into norm"
+    },
+    {
+      "id": "T017",
+      "canonical_term": "stable snapshot / frozen reading surface",
+      "allowed_aliases": [
+        "stable snapshot",
+        "frozen reading surface",
+        "tagged snapshot",
+        "locked public object"
+      ],
+      "avoid": [
+        "moving repo",
+        "default branch",
+        "live main"
+      ],
+      "short_meaning": "frozen public reading surface tied to a tag or locked ref",
+      "drift_risk": "snapshot drift breaks citation and verification discipline"
+    },
+    {
+      "id": "T018",
+      "canonical_term": "primary / retained / superseded / historical-only / companion / control-surface",
+      "allowed_aliases": [
+        "supersession state",
+        "reading-preference state"
+      ],
+      "avoid": [
+        "status/maturity labels",
+        "doctrinal weight labels"
+      ],
+      "short_meaning": "corpus preference and routing states under evolution",
+      "drift_risk": "if these states drift into status/maturity language, preference becomes semantically noisy"
+    }
+  ]
+}

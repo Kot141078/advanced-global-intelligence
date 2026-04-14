@@ -1,0 +1,170 @@
+{
+  "schema": "agi.bootstrap_cutover_and_public_history_candidate_sets.v1",
+  "date": "2026-04-12",
+  "candidate_sets": [
+    {
+      "id": "CS01",
+      "candidate_set": "foundational entry/control baseline set",
+      "goal": "establish a bounded first public control baseline",
+      "minimum_surfaces": [
+        "CORPUS_PRIMER.json",
+        "STACK_LOCK_2026-04-12.json",
+        "README.md",
+        "MACHINE_ENTRY.md",
+        "MASTER_ENTRY.md",
+        "REPO_INDEX.md",
+        "REPO_INDEX.json",
+        "qubit-of-hope-volume-i/CORPUS_CONTEXT.md basics"
+      ],
+      "why_bounded_this_way": "public history first needs routing, role clarity, and a stable corpus map",
+      "what_should_stay_out": [
+        "later claim maps",
+        "promotion-control layers",
+        "outward handoff logic"
+      ]
+    },
+    {
+      "id": "CS02",
+      "candidate_set": "anti-confusion and citation set",
+      "goal": "bound interpretation before later authority layers appear",
+      "minimum_surfaces": [
+        "CANONICAL_DISTINCTIONS.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "CITATION_AND_VERIFICATION.md"
+      ],
+      "why_bounded_this_way": "early public history becomes easier to read when confusion and citation guardrails are visible",
+      "what_should_stay_out": [
+        "claim/status packages",
+        "ownership layers",
+        "promotion-control layers"
+      ]
+    },
+    {
+      "id": "CS03",
+      "candidate_set": "claims/status/assertion set",
+      "goal": "expose what the corpus claims, how mature those claims are, and how strongly they should be read",
+      "minimum_surfaces": [
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "ASSERTION_STRENGTH_AND_BOUNDARIES.md"
+      ],
+      "why_bounded_this_way": "claim carriers read more cleanly once routing, anti-confusion, and citation posture already exist",
+      "what_should_stay_out": [
+        "promotion-control layers",
+        "handoff profiles",
+        "open-question framing"
+      ]
+    },
+    {
+      "id": "CS04",
+      "candidate_set": "ownership/precedence/invariant set",
+      "goal": "fix canonical home, governing-source order, and invariant protection",
+      "minimum_surfaces": [
+        "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+        "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "why_bounded_this_way": "authority and boundary discipline should appear together rather than as isolated later patches",
+      "what_should_stay_out": [
+        "export/handoff layers",
+        "promotion-control layers",
+        "open-question framing"
+      ]
+    },
+    {
+      "id": "CS05",
+      "candidate_set": "public-safe / audience / export set",
+      "goal": "make outward-safe routing and bounded handoff logic explicit",
+      "minimum_surfaces": [
+        "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md",
+        "AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md",
+        "EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md"
+      ],
+      "why_bounded_this_way": "outward-facing logic is clearest after earlier orientation, claims, and authority framing are already visible",
+      "what_should_stay_out": [
+        "promotion-control layers",
+        "open-question framing",
+        "unrelated artifact/intake layers"
+      ]
+    },
+    {
+      "id": "CS06",
+      "candidate_set": "promotion-control set",
+      "goal": "make local/public cutover discipline explicit once earlier supports already exist",
+      "minimum_surfaces": [
+        "LOCAL_TO_PUBLIC_PROMOTION_POLICY.md",
+        "ATOMIC_PROMOTION_BUNDLES.md",
+        "PROMOTION_SEQUENCE_AND_RELEASE_TRANCHES.md"
+      ],
+      "why_bounded_this_way": "policy, atomicity, and sequence are more legible after foundational, interpretive, and boundary framing is already public",
+      "what_should_stay_out": [
+        "unrelated claim/status material",
+        "open-question framing"
+      ]
+    },
+    {
+      "id": "CS07",
+      "candidate_set": "open-questions / bounded non-closure set",
+      "goal": "show deliberate incompleteness without making the first public step conceptually noisy",
+      "minimum_surfaces": [
+        "OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md"
+      ],
+      "why_bounded_this_way": "non-closure reads best once earlier framing already shows what is claimed, bounded, and routable",
+      "what_should_stay_out": [
+        "earlier foundational layers",
+        "promotion-control layers"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "id": "CP01",
+      "problem": "first public cutover includes too many unrelated control layers",
+      "what_goes_wrong": "the first public step becomes an undifferentiated mass of routing, claims, boundaries, and promotion logic",
+      "why_harmful": "reviewers cannot tell what the initial public baseline was supposed to establish"
+    },
+    {
+      "id": "CP02",
+      "problem": "anti-confusion surfaces missing from early public history",
+      "what_goes_wrong": "later public layers appear before distinctions, objections, and citation guardrails are visible",
+      "why_harmful": "readers inherit later control wording without the framing needed to interpret it safely"
+    },
+    {
+      "id": "CP03",
+      "problem": "claims/status exported before their interpretive guardrails",
+      "what_goes_wrong": "claims and maturity classes appear before citation and anti-confusion context",
+      "why_harmful": "public history starts sounding stronger or clearer than the visible guardrails justify"
+    },
+    {
+      "id": "CP04",
+      "problem": "public-safe/export surfaces published without boundary context",
+      "what_goes_wrong": "outward bundle logic appears before safety classes are explicit",
+      "why_harmful": "readers may infer that export logic is broader or safer than the corpus actually established"
+    },
+    {
+      "id": "CP05",
+      "problem": "promotion-control surfaces published before enough earlier framing exists",
+      "what_goes_wrong": "policy, atomicity, or sequencing language appears before the public baseline they depend on",
+      "why_harmful": "public history can look procedurally sophisticated while still conceptually under-framed"
+    },
+    {
+      "id": "CP06",
+      "problem": "open-question layer published without earlier claim/status framing",
+      "what_goes_wrong": "explicit non-closure appears before the corpus shows what is already claimed and how mature it is",
+      "why_harmful": "later readers cannot tell whether openness is deliberate restraint or just missing structure"
+    },
+    {
+      "id": "CP07",
+      "problem": "one repo appears fully current while adjacent repos still lack minimal routing",
+      "what_goes_wrong": "public history looks lopsided across repos and the stack starts reading as unevenly canonized",
+      "why_harmful": "cross-repo readers lose the bounded corpus map and start over-reading whichever repo looks most complete"
+    },
+    {
+      "id": "CP08",
+      "problem": "candidate set treated as command to publish immediately",
+      "what_goes_wrong": "bounded grouping guidance is mistaken for actual release authorization",
+      "why_harmful": "planning language gets misread as execution, readiness, or promise"
+    }
+  ],
+  "fail_closed_rule": "If maintainers cannot determine whether a local layer belongs in an earlier or later candidate set, default to the smaller earlier bounded set and delay wider promotion."
+}

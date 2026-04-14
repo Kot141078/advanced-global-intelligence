@@ -1,0 +1,87 @@
+{
+  "schema": "agi.current_corpus_state_and_readiness_snapshot.v1",
+  "date": "2026-04-12",
+  "scope": "local accepted corpus workspace only",
+  "snapshot_items": [
+    {
+      "id": "SNP01",
+      "layer_family": "foundational entry / control surfaces",
+      "current_local_condition": "present locally; routing in place",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "Readers can enter the corpus without reconstructing the stack ad hoc.",
+      "main_blocker_or_note": "cumulative dirty workspace remains"
+    },
+    {
+      "id": "SNP02",
+      "layer_family": "anti-confusion / citation surfaces",
+      "current_local_condition": "present locally; locally validated",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "Naming, citation, and verification remain bounded instead of drifting by inference.",
+      "main_blocker_or_note": "bounded but still local"
+    },
+    {
+      "id": "SNP03",
+      "layer_family": "claims / status / assertion surfaces",
+      "current_local_condition": "present locally; routing in place",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "Readers can tell what is claimed, how mature it is, and how strongly to read it.",
+      "main_blocker_or_note": "commit-ready not yet established globally"
+    },
+    {
+      "id": "SNP04",
+      "layer_family": "ownership / precedence / invariant surfaces",
+      "current_local_condition": "present locally; locally validated",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "Cross-layer overread is constrained before stronger surfaces are contradicted.",
+      "main_blocker_or_note": "cumulative dirty workspace remains"
+    },
+    {
+      "id": "SNP05",
+      "layer_family": "artifact identity / intake surfaces",
+      "current_local_condition": "present locally; bounded but still local",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "References stay stable and new package mentions remain bounded.",
+      "main_blocker_or_note": "cleaner public sequencing still pending"
+    },
+    {
+      "id": "SNP06",
+      "layer_family": "public-safe / audience / export surfaces",
+      "current_local_condition": "present locally; routing in place",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "Serious bounded reading and handoff are possible without pretending to export the whole corpus.",
+      "main_blocker_or_note": "external bundle logic stays local until cleaner cutover"
+    },
+    {
+      "id": "SNP07",
+      "layer_family": "promotion / atomic / tranche / cutover surfaces",
+      "current_local_condition": "present locally; locally validated",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "Promotion planning is explicit instead of being confused with execution.",
+      "main_blocker_or_note": "promotion planning is not release authorization"
+    },
+    {
+      "id": "SNP08",
+      "layer_family": "correction / errata / open-question surfaces",
+      "current_local_condition": "present locally; routing in place",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "Unresolved territory and later fixes remain typed and non-theatrical.",
+      "main_blocker_or_note": "local non-closure remains real rather than hidden"
+    },
+    {
+      "id": "SNP09",
+      "layer_family": "cross-repo pointer hygiene condition",
+      "current_local_condition": "routing in place",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "Entry surfaces point across the stack without Windows-style traversal confusion.",
+      "main_blocker_or_note": "cumulative dirty workspace remains"
+    },
+    {
+      "id": "SNP10",
+      "layer_family": "manifest / integrity refresh condition",
+      "current_local_condition": "integrity refreshed per repo-pattern",
+      "public_history_condition": "public-history not yet established",
+      "why_it_matters": "Verification stays possible while local control layers continue to accumulate.",
+      "main_blocker_or_note": "manifest presence is not public-history completion"
+    }
+  ]
+}

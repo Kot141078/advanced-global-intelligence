@@ -1,0 +1,181 @@
+{
+  "schema": "agi.change_control_and_sync.v1",
+  "date": "2026-04-12",
+  "canonical_surfaces": [
+    "CORPUS_PRIMER.json",
+    "STACK_LOCK_2026-04-12.json",
+    "CANONICAL_DISTINCTIONS.md",
+    "OBJECTIONS_AND_REPLIES.md",
+    "CITATION_AND_VERIFICATION.md",
+    "CLAIMS_AND_EVIDENCE_MAP.md",
+    "STATUS_AND_MATURITY_MAP.md",
+    "SUPERSESSION_AND_DEPRECATION.md",
+    "TERMINOLOGY_AND_ALIAS_POLICY.md",
+    "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+    "ASSERTION_STRENGTH_AND_BOUNDARIES.md",
+    "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+    "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md",
+    "PRECEDENCE_AND_RESOLUTION.md",
+    "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+    "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md",
+    "MASTER_ENTRY.md",
+    "REPO_INDEX.md",
+    "REPO_INDEX.json",
+    "MACHINE_ENTRY.md",
+    "qubit-of-hope-volume-i/CORPUS_CONTEXT.md"
+  ],
+  "triggers": [
+    {
+      "id": "T01",
+      "change": "new canonical package added",
+      "review_surfaces": [
+        "CORPUS_PRIMER.json",
+        "STACK_LOCK_2026-04-12.json",
+        "MASTER_ENTRY.md",
+        "REPO_INDEX.md",
+        "REPO_INDEX.json",
+        "STATUS_AND_MATURITY_MAP.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md"
+      ],
+      "must_not_forget": [
+        "repo role boundary",
+        "negative definition",
+        "cross-repo pointers"
+      ]
+    },
+    {
+      "id": "T02",
+      "change": "new stable snapshot / tag / public object added",
+      "review_surfaces": [
+        "CITATION_AND_VERIFICATION.md",
+        "STACK_LOCK_2026-04-12.json",
+        "REPO_INDEX.md",
+        "REPO_INDEX.json"
+      ],
+      "must_not_forget": [
+        "moving repo != frozen object",
+        "GitHub archive != integrity source",
+        "manifests only where current repo pattern requires them"
+      ]
+    },
+    {
+      "id": "T03",
+      "change": "canonical artifact path moved or renamed",
+      "review_surfaces": [
+        "REPO_INDEX.md",
+        "REPO_INDEX.json",
+        "MASTER_ENTRY.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md"
+      ],
+      "must_not_forget": [
+        "raw URLs",
+        "hash manifests",
+        "cross-repo pointers"
+      ]
+    },
+    {
+      "id": "T04",
+      "change": "claim status materially changes",
+      "review_surfaces": [
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "CITATION_AND_VERIFICATION.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "CANONICAL_DISTINCTIONS.md"
+      ],
+      "must_not_forget": [
+        "citation target may remain narrow",
+        "interpretation boundary may need restating"
+      ]
+    },
+    {
+      "id": "T05",
+      "change": "draft becomes mature core or reserved territory status changes",
+      "review_surfaces": [
+        "STATUS_AND_MATURITY_MAP.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STACK_LOCK_2026-04-12.json"
+      ],
+      "must_not_forget": [
+        "do not silently upgrade adjacent surfaces",
+        "update evidentiary weight if it changed"
+      ]
+    },
+    {
+      "id": "T06",
+      "change": "narrative companion role changes",
+      "review_surfaces": [
+        "qubit-of-hope-volume-i/CORPUS_CONTEXT.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "CANONICAL_DISTINCTIONS.md",
+        "OBJECTIONS_AND_REPLIES.md"
+      ],
+      "must_not_forget": [
+        "narrative companion != normative core unless explicitly reclassified"
+      ]
+    },
+    {
+      "id": "T07",
+      "change": "new repo enters corpus-level canonical reading path",
+      "review_surfaces": [
+        "CORPUS_PRIMER.json",
+        "STACK_LOCK_2026-04-12.json",
+        "MASTER_ENTRY.md",
+        "REPO_INDEX.md",
+        "REPO_INDEX.json",
+        "STATUS_AND_MATURITY_MAP.md"
+      ],
+      "must_not_forget": [
+        "repo role line",
+        "what the repo is not",
+        "reading order"
+      ]
+    },
+    {
+      "id": "T08",
+      "change": "citation / DOI / hash policy changes",
+      "review_surfaces": [
+        "CITATION_AND_VERIFICATION.md",
+        "STACK_LOCK_2026-04-12.json",
+        "REPO_INDEX.md",
+        "REPO_INDEX.json"
+      ],
+      "must_not_forget": [
+        "public download wording",
+        "verification wording",
+        "relevant manifests"
+      ]
+    },
+    {
+      "id": "T09",
+      "change": "entry surface rewritten in a way that may break discoverability",
+      "review_surfaces": [
+        "README.md",
+        "MACHINE_ENTRY.md",
+        "MASTER_ENTRY.md",
+        "REPO_INDEX.md",
+        "REPO_INDEX.json"
+      ],
+      "must_not_forget": [
+        "primer, stack lock, citation, claims, status, public-safe boundary, and book context remain findable",
+        "run a smoke check"
+      ]
+    },
+    {
+      "id": "T10",
+      "change": "supporting artifact becomes canonical, or canonical artifact is superseded",
+      "review_surfaces": [
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "CITATION_AND_VERIFICATION.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "CANONICAL_DISTINCTIONS.md"
+      ],
+      "must_not_forget": [
+        "leave a visible supersession trace",
+        "do not silently swap meaning"
+      ]
+    }
+  ],
+  "fail_closed_rule": "If a maintainer cannot establish whether a change is repo-local or corpus-level, treat it as corpus-level until clarified."
+}

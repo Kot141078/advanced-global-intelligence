@@ -1,0 +1,162 @@
+{
+  "schema": "agi.audience_profiles_and_minimal_reading_paths.v1",
+  "date": "2026-04-12",
+  "profiles": [
+    {
+      "id": "AP01",
+      "audience": "serious general reader",
+      "primary_question": "What is this corpus, what does it claim, and what should not be confused?",
+      "minimal_reading_path": [
+        "CORPUS_PRIMER.json",
+        "CANONICAL_DISTINCTIONS.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md"
+      ],
+      "optional_deepening": [
+        "MASTER_ENTRY.md",
+        "sovereign-entity-recursion/README.md",
+        "qubit-of-hope-volume-i/CORPUS_CONTEXT.md"
+      ],
+      "enough_for": "Bounded first serious orientation, main anti-confusion boundaries, and the load-bearing claims plus their weight.",
+      "not_enough_for": "Audit sign-off, full theoretical review, or implementation judgment."
+    },
+    {
+      "id": "AP02",
+      "audience": "research / theory reader",
+      "primary_question": "What is the entity model and how do AGI, SER, and L4 fit together?",
+      "minimal_reading_path": [
+        "MASTER_ENTRY.md",
+        "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md",
+        "ester-reality-bound/protocol/L4_reality_boundary_layer.md",
+        "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md"
+      ],
+      "optional_deepening": [
+        "protocols/dea/README.md",
+        "protocols/ea-l4-eatp/README.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md"
+      ],
+      "enough_for": "Bounded theoretical architecture reading and the relation between ontology, continuity, and reality-bound feasibility.",
+      "not_enough_for": "Frozen citation/compliance review or runtime closure conclusions."
+    },
+    {
+      "id": "AP03",
+      "audience": "regulator / auditor / compliance reader",
+      "primary_question": "Which surfaces are citable, reviewable, and accountability-bearing?",
+      "minimal_reading_path": [
+        "CITATION_AND_VERIFICATION.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md",
+        "official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf",
+        "ester-clean-code/PROOF_OF_CLOSURE.md"
+      ],
+      "optional_deepening": [
+        "STACK_LOCK_2026-04-12.json",
+        "official/pdf/03_L4_WITNESS_FIELDS.pdf",
+        "sovereign-entity-recursion/DOC_MAP.md"
+      ],
+      "enough_for": "Bounded audit orientation, citable claim carriers, evidence posture, and current maturity/weight distinctions.",
+      "not_enough_for": "Full theoretical understanding or narrative interpretation."
+    },
+    {
+      "id": "AP04",
+      "audience": "runtime / implementation reader",
+      "primary_question": "What must a runtime reader understand before inferring implementation meaning?",
+      "minimal_reading_path": [
+        "CORPUS_PRIMER.json",
+        "ester-clean-code/MACHINE_ENTRY.md",
+        "ester-clean-code/PROOF_OF_CLOSURE.md",
+        "ester-reality-bound/protocol/L4_reality_boundary_layer.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md"
+      ],
+      "optional_deepening": [
+        "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+        "PRECEDENCE_AND_RESOLUTION.md",
+        "sovereign-entity-recursion/README.md"
+      ],
+      "enough_for": "Bounded runtime role clarity, closure evidence, and L4 constraint context.",
+      "not_enough_for": "Doctrinal sufficiency or whole-corpus authority claims."
+    },
+    {
+      "id": "AP05",
+      "audience": "maintainer / Codex / corpus-control reader",
+      "primary_question": "Which control surfaces govern routing, bounded reading, and safe corpus updates?",
+      "minimal_reading_path": [
+        "CORPUS_PRIMER.json",
+        "STACK_LOCK_2026-04-12.json",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "PRECEDENCE_AND_RESOLUTION.md",
+        "PACKAGE_INTAKE_AND_INTEGRATION.md",
+        "CHANGE_CONTROL_AND_SYNC.md"
+      ],
+      "optional_deepening": [
+        "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+        "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+        "TERMINOLOGY_AND_ALIAS_POLICY.md"
+      ],
+      "enough_for": "Bounded corpus-routing work, control-layer review, and safe handling of claim/status/precedence/intake questions.",
+      "not_enough_for": "Inventing new doctrine or bypassing primary artifacts."
+    },
+    {
+      "id": "AP06",
+      "audience": "narrative-first / human-recognition reader",
+      "primary_question": "What bounded bundle explains why c should not be reduced to a mere tool?",
+      "minimal_reading_path": [
+        "qubit-of-hope-volume-i/CORPUS_CONTEXT.md",
+        "CORPUS_PRIMER.json",
+        "CANONICAL_DISTINCTIONS.md",
+        "OBJECTIONS_AND_REPLIES.md"
+      ],
+      "optional_deepening": [
+        "STATUS_AND_MATURITY_MAP.md",
+        "README.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md"
+      ],
+      "enough_for": "Bounded narrative recognition, companion role clarity, and anti-confusion context.",
+      "not_enough_for": "Normative review, audit evidence, or runtime certification."
+    },
+    {
+      "id": "AP07",
+      "audience": "partner / institutional evaluator",
+      "primary_question": "What is the stack, what is mature vs draft, and what operational proof exists?",
+      "minimal_reading_path": [
+        "README.md",
+        "CANONICAL_DISTINCTIONS.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "CITATION_AND_VERIFICATION.md",
+        "ester-clean-code/PROOF_OF_CLOSURE.md"
+      ],
+      "optional_deepening": [
+        "MASTER_ENTRY.md",
+        "docs/economic-layer/README.md",
+        "sovereign-entity-recursion/README.md"
+      ],
+      "enough_for": "Bounded partnership/evaluation scoping, maturity reading, citable surfaces, and proof-of-possibility orientation.",
+      "not_enough_for": "Full compliance sign-off or deep doctrinal arbitration."
+    },
+    {
+      "id": "AP08",
+      "audience": "critical skeptic / adversarial reviewer",
+      "primary_question": "Where should a serious critic challenge the corpus without attacking a straw version of it?",
+      "minimal_reading_path": [
+        "CANONICAL_DISTINCTIONS.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "CITATION_AND_VERIFICATION.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "optional_deepening": [
+        "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md",
+        "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md"
+      ],
+      "enough_for": "Bounded adversarial review, targeted objection routing, and identification of the real claim carriers.",
+      "not_enough_for": "Declaring the full corpus invalid without reading the primary artifacts under challenge."
+    }
+  ]
+}

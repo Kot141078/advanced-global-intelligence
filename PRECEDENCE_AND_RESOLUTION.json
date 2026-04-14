@@ -1,0 +1,167 @@
+{
+  "schema": "agi.precedence_and_resolution.v1",
+  "date": "2026-04-12",
+  "surface_types": [
+    {
+      "id": "P01",
+      "surface_type": "Primary canonical artifact",
+      "precedence_level": 1,
+      "may_do": "Carry the designated primary meaning for the claim, package, or question at hand.",
+      "may_not_do": "Be displaced by summaries, pointers, or companions without explicit corpus-level change.",
+      "examples": [
+        "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md"
+      ]
+    },
+    {
+      "id": "P02",
+      "surface_type": "Stable doctrinal core surface",
+      "precedence_level": 2,
+      "may_do": "Define mature stable doctrine for a core layer.",
+      "may_not_do": "Be read as optional commentary or be silently outranked by weaker drafts.",
+      "examples": [
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md"
+      ]
+    },
+    {
+      "id": "P03",
+      "surface_type": "Draft normative surface",
+      "precedence_level": 3,
+      "may_do": "State serious current proposals and bounded draft norms.",
+      "may_not_do": "Imply mature finality or outrank stable core by repetition alone.",
+      "examples": [
+        "sovereign-entity-recursion/protocol/ser-fed/SER-FED_v0.2_RFC_EN.md",
+        "docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md"
+      ]
+    },
+    {
+      "id": "P04",
+      "surface_type": "Observed protocol / practice-derived surface",
+      "precedence_level": 4,
+      "may_do": "Record recurrent behavior, practice-derived stability, or observed protocol shape.",
+      "may_not_do": "Silently become universal law, ontology, or mature doctrine.",
+      "examples": [
+        "observed protocol notes",
+        "practice-derived stability surfaces"
+      ]
+    },
+    {
+      "id": "P05",
+      "surface_type": "Evidence / witness verification surface",
+      "precedence_level": 5,
+      "may_do": "Verify operational trace, admissibility, replayability, and tamper-evident review paths.",
+      "may_not_do": "By itself redefine ontology, ownership, or mature doctrine.",
+      "examples": [
+        "official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf",
+        "hashes/SHA256SUMS_*.txt"
+      ]
+    },
+    {
+      "id": "P06",
+      "surface_type": "Corpus control surface",
+      "precedence_level": 6,
+      "may_do": "Route reading, lock state, stabilize terminology, map claims/status, and discipline sync, supersession, acceptance, assertion, ownership, invariants, and precedence.",
+      "may_not_do": "Replace the underlying doctrinal source or create new doctrine by summary.",
+      "examples": [
+        "CORPUS_PRIMER.json",
+        "STACK_LOCK_2026-04-12.json",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ]
+    },
+    {
+      "id": "P07",
+      "surface_type": "Implementation / runtime proof surface",
+      "precedence_level": 7,
+      "may_do": "Prove constrained buildability, operational closure, and feasibility under implementation conditions.",
+      "may_not_do": "By itself define ontology, mature doctrine, or canonical package ownership.",
+      "examples": [
+        "ester-clean-code/PROOF_OF_CLOSURE.md"
+      ]
+    },
+    {
+      "id": "P08",
+      "surface_type": "Narrative companion surface",
+      "precedence_level": 8,
+      "may_do": "Illuminate recognition, perception, and human-facing interpretation.",
+      "may_not_do": "Override normative, evidence, or stronger doctrinal layers.",
+      "examples": [
+        "qubit-of-hope-volume-i/CORPUS_CONTEXT.md"
+      ]
+    },
+    {
+      "id": "P09",
+      "surface_type": "Pointer / contextual repo-level surface",
+      "precedence_level": 9,
+      "may_do": "Orient readers, hand off to canonical homes, and provide repo-local context.",
+      "may_not_do": "Silently restate adjacent doctrine as local canon.",
+      "examples": [
+        "README.md",
+        "MACHINE_ENTRY.md",
+        "START_HERE.md"
+      ]
+    },
+    {
+      "id": "P10",
+      "surface_type": "Historical retained surface",
+      "precedence_level": 10,
+      "may_do": "Preserve citation history, retained drafts, and visible evolution trace.",
+      "may_not_do": "Silently regain current primacy over an explicitly designated newer source.",
+      "examples": [
+        "retained prior drafts",
+        "historical release surfaces"
+      ]
+    }
+  ],
+  "resolution_rules": [
+    {
+      "id": "R-P1",
+      "rule": "Primary artifact beats explanatory summary.",
+      "what_it_means": "If a summary, map, README, or companion diverges from the designated primary artifact, the primary artifact governs.",
+      "why_it_matters": "Prevents secondary explanation from becoming silent canon."
+    },
+    {
+      "id": "R-P2",
+      "rule": "Canonical owner beats adjacent restatement.",
+      "what_it_means": "When the same package is described in multiple repos, the canonical owner repo governs package meaning.",
+      "why_it_matters": "Prevents convenience duplication from turning into parallel doctrine."
+    },
+    {
+      "id": "R-P3",
+      "rule": "Stable core beats draft when they diverge.",
+      "what_it_means": "A draft may guide and matter, but it does not outrank stable mature core unless the corpus explicitly reclassifies it.",
+      "why_it_matters": "Prevents drift-by-implication from draft repetition."
+    },
+    {
+      "id": "R-P4",
+      "rule": "Evidence/witness surface verifies operational trace but does not redefine ontology by itself.",
+      "what_it_means": "Witness and verification can prove that something happened or was reviewable; they do not alone settle what the thing is.",
+      "why_it_matters": "Keeps audit evidence from silently becoming metaphysics."
+    },
+    {
+      "id": "R-P5",
+      "rule": "Control surfaces organize reading but do not replace doctrinal sources.",
+      "what_it_means": "Primers, locks, maps, and policies tell readers how to navigate and classify the corpus; they do not replace the narrower artifact they point to.",
+      "why_it_matters": "Preserves routing and organizing surfaces as control surfaces rather than doctrine generators."
+    },
+    {
+      "id": "R-P6",
+      "rule": "Implementation surface proves possibility but does not by itself define mature doctrine.",
+      "what_it_means": "Runtime closure can show that constrained execution is possible; it does not alone settle ontology, ownership, or final normative authority.",
+      "why_it_matters": "Keeps implementation proof bounded to implementation proof."
+    },
+    {
+      "id": "R-P7",
+      "rule": "Narrative companion may illuminate recognition/perception but cannot override normative or evidence layers.",
+      "what_it_means": "The companion can clarify what readers perceive and recognize, but not overrule doctrine or witness surfaces.",
+      "why_it_matters": "Keeps the narrative bridge valid without letting it become silent replacement."
+    },
+    {
+      "id": "R-P8",
+      "rule": "Historical retained surface remains citable, but does not silently regain primacy over current designated primary.",
+      "what_it_means": "Older retained artifacts remain part of the trace and may still be cited historically, but current designated primary stays primary until explicitly changed.",
+      "why_it_matters": "Preserves history without reopening canon by accident."
+    }
+  ],
+  "fail_closed_rule": "If two surfaces appear to conflict and precedence is unclear, prefer the stronger compatible source and mark the issue unresolved until corpus-level review."
+}

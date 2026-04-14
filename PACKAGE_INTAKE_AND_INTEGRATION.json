@@ -1,0 +1,152 @@
+{
+  "schema": "agi.package_intake_and_integration.v1",
+  "date": "2026-04-12",
+  "purpose": "Compact corpus-level intake discipline for new packages, layers, bundles, repos, and corpus-control surfaces before they enter corpus-visible routing.",
+  "core_rule": "No new package, layer, bundle, repo-level addition, or corpus-control artifact should enter corpus-visible routing until owner, scope, status, reference posture, and public-safe boundary class are classified.",
+  "boundary_precheck": "Before intake, determine whether candidate material is public-safe, pointer-only, or excluded.",
+  "intake_classes": [
+    {
+      "id": "N01",
+      "intake_class": "new doctrinal / normative package",
+      "what_it_is": "A new package that may carry primary or stable normative meaning.",
+      "minimum_required_surfaces": [
+        "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "typical_repo_home": "advanced-global-intelligence or sovereign-entity-recursion",
+      "common_failure_mode": "Local framing text starts sounding like mature doctrine before owner, status, and precedence are fixed."
+    },
+    {
+      "id": "N02",
+      "intake_class": "new draft normative package",
+      "what_it_is": "A serious draft package that may later mature but is not yet stable core.",
+      "minimum_required_surfaces": [
+        "STATUS_AND_MATURITY_MAP.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "SUPERSESSION_AND_DEPRECATION.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "typical_repo_home": "advanced-global-intelligence, sovereign-entity-recursion, or ester-reality-bound",
+      "common_failure_mode": "Draft wording quietly inflates into stable core by repetition or adjacency."
+    },
+    {
+      "id": "N03",
+      "intake_class": "new observed protocol / practice-derived package",
+      "what_it_is": "A package that records observed recurrent practice or protocol shape rather than mature doctrine.",
+      "minimum_required_surfaces": [
+        "STATUS_AND_MATURITY_MAP.md",
+        "ASSERTION_STRENGTH_AND_BOUNDARIES.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "typical_repo_home": "ester-reality-bound or adjacent operational surface",
+      "common_failure_mode": "Practice note gets misread as universal normative rule."
+    },
+    {
+      "id": "N04",
+      "intake_class": "new evidence / witness / verification package",
+      "what_it_is": "A package centered on verification, witness, auditability, manifests, or replayable evidence.",
+      "minimum_required_surfaces": [
+        "CITATION_AND_VERIFICATION.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "typical_repo_home": "advanced-global-intelligence or ester-reality-bound",
+      "common_failure_mode": "Verification surface starts acting like ontology or ownership source by itself."
+    },
+    {
+      "id": "N05",
+      "intake_class": "new runtime / implementation-facing package",
+      "what_it_is": "A package that proves buildability, execution constraints, or implementation closure.",
+      "minimum_required_surfaces": [
+        "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "PRECEDENCE_AND_RESOLUTION.md",
+        "ENTRY_ACCEPTANCE_AND_REGRESSION.md"
+      ],
+      "typical_repo_home": "ester-clean-code",
+      "common_failure_mode": "Implementation convenience silently becomes doctrinal ownership."
+    },
+    {
+      "id": "N06",
+      "intake_class": "new companion / narrative / human-facing package",
+      "what_it_is": "A package whose role is recognition, narrative bridge, or human-facing context.",
+      "minimum_required_surfaces": [
+        "STATUS_AND_MATURITY_MAP.md",
+        "ASSERTION_STRENGTH_AND_BOUNDARIES.md",
+        "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "typical_repo_home": "qubit-of-hope-volume-i",
+      "common_failure_mode": "Companion illumination starts reading like normative proof or witness evidence."
+    },
+    {
+      "id": "N07",
+      "intake_class": "new corpus-control surface",
+      "what_it_is": "A new primer, map, policy, lock, registry, or discipline file that organizes corpus reading.",
+      "minimum_required_surfaces": [
+        "CHANGE_CONTROL_AND_SYNC.md",
+        "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+        "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "typical_repo_home": "advanced-global-intelligence",
+      "common_failure_mode": "A control surface starts creating doctrine instead of routing or classifying it."
+    },
+    {
+      "id": "N08",
+      "intake_class": "new boundary note / reserved territory note",
+      "what_it_is": "A bounded note marking incomplete, protected, or not-yet-settled territory.",
+      "minimum_required_surfaces": [
+        "STATUS_AND_MATURITY_MAP.md",
+        "SUPERSESSION_AND_DEPRECATION.md",
+        "ASSERTION_STRENGTH_AND_BOUNDARIES.md"
+      ],
+      "typical_repo_home": "advanced-global-intelligence",
+      "common_failure_mode": "Incomplete territory is read as completed doctrine because reservation stayed implicit."
+    },
+    {
+      "id": "N09",
+      "intake_class": "new extension / satellite clause set",
+      "what_it_is": "An addendum, clause family, extension pack, or adjacent satellite surface.",
+      "minimum_required_surfaces": [
+        "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "SUPERSESSION_AND_DEPRECATION.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "typical_repo_home": "canonical owner repo of the parent package",
+      "common_failure_mode": "Extension text quietly forks the parent package into parallel canon."
+    },
+    {
+      "id": "N10",
+      "intake_class": "new frozen public object / snapshot-backed package",
+      "what_it_is": "A package whose public identity depends on tag, release, DOI, manifest, or frozen snapshot wording.",
+      "minimum_required_surfaces": [
+        "CITATION_AND_VERIFICATION.md",
+        "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+        "CHANGE_CONTROL_AND_SYNC.md",
+        "ENTRY_ACCEPTANCE_AND_REGRESSION.md"
+      ],
+      "typical_repo_home": "canonical owner repo with release or DOI surface",
+      "common_failure_mode": "Moving repo and frozen public object get treated as interchangeable."
+    }
+  ],
+  "canonical_layers_to_consider": [
+    "CORPUS_PRIMER.json",
+    "STACK_LOCK_2026-04-12.json",
+    "CLAIMS_AND_EVIDENCE_MAP.md",
+    "STATUS_AND_MATURITY_MAP.md",
+    "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+    "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+    "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md",
+    "CHANGE_CONTROL_AND_SYNC.md",
+    "SUPERSESSION_AND_DEPRECATION.md",
+    "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+    "ASSERTION_STRENGTH_AND_BOUNDARIES.md",
+    "PRECEDENCE_AND_RESOLUTION.md"
+  ],
+  "fail_closed_rule": "If maintainers cannot fix the package class, canonical home, claim impact, or public-safe boundary class, the candidate should remain local or pointer-only until clarified and must not enter corpus-visible routing by implication."
+}

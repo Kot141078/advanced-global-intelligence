@@ -1,0 +1,172 @@
+{
+  "schema": "agi.export_profiles_and_handoff_bundles.v1",
+  "date": "2026-04-12",
+  "core_rule": "A handoff bundle must be task-bounded, public-safe, and explicit about what it is enough for and what it is not.",
+  "profiles": [
+    {
+      "id": "XP01",
+      "profile": "corpus orientation bundle",
+      "primary_use": "bounded first external orientation",
+      "minimal_bundle_contents": [
+        "CORPUS_PRIMER.json",
+        "CANONICAL_DISTINCTIONS.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md"
+      ],
+      "optional_deepening": [
+        "MASTER_ENTRY.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "STACK_LOCK_2026-04-12.json"
+      ],
+      "enough_for": "first serious orientation, anti-confusion boundaries, claim overview, and public-safe scoping",
+      "not_enough_for": "doctrinal sign-off, audit review, or runtime judgment",
+      "public_safe_note": "Contains only public-safe control surfaces and no private or runtime-sensitive material."
+    },
+    {
+      "id": "XP02",
+      "profile": "research / theory bundle",
+      "primary_use": "bounded architecture and theory handoff",
+      "minimal_bundle_contents": [
+        "MASTER_ENTRY.md",
+        "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md",
+        "ester-reality-bound/protocol/L4_reality_boundary_layer.md",
+        "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md"
+      ],
+      "optional_deepening": [
+        "protocols/dea/README.md",
+        "protocols/ea-l4-eatp/README.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md"
+      ],
+      "enough_for": "theoretical architecture review across AGI, SER, and L4",
+      "not_enough_for": "evidence or compliance sign-off, runtime closure review, or bounded partner scoping by itself",
+      "public_safe_note": "Uses only public doctrinal and theoretical artifacts already published in the corpus."
+    },
+    {
+      "id": "XP03",
+      "profile": "audit / evidence / compliance bundle",
+      "primary_use": "bounded audit-oriented external review",
+      "minimal_bundle_contents": [
+        "CITATION_AND_VERIFICATION.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "STACK_LOCK_2026-04-12.json",
+        "official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf",
+        "ester-clean-code/PROOF_OF_CLOSURE.md"
+      ],
+      "optional_deepening": [
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md",
+        "official/pdf/03_L4_WITNESS_FIELDS.pdf"
+      ],
+      "enough_for": "citable claim carriers, evidence posture, verification route, and frozen-reading discipline",
+      "not_enough_for": "whole-corpus philosophical understanding or narrative interpretation",
+      "public_safe_note": "Limited to public citable and verification-bearing artifacts; no private operational traces are included."
+    },
+    {
+      "id": "XP04",
+      "profile": "runtime proof / implementation bundle",
+      "primary_use": "bounded runtime proof-of-possibility handoff",
+      "minimal_bundle_contents": [
+        "CORPUS_PRIMER.json",
+        "ester-clean-code/MACHINE_ENTRY.md",
+        "ester-clean-code/PROOF_OF_CLOSURE.md",
+        "ester-reality-bound/protocol/L4_reality_boundary_layer.md",
+        "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md"
+      ],
+      "optional_deepening": [
+        "PRECEDENCE_AND_RESOLUTION.md",
+        "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md"
+      ],
+      "enough_for": "runtime role clarity, closure evidence, and L4 constraint context",
+      "not_enough_for": "doctrinal completeness, governance review, or whole-corpus authority claims",
+      "public_safe_note": "Bounded to public skeleton and proof surfaces; it does not expose live runtime or unsafe code."
+    },
+    {
+      "id": "XP05",
+      "profile": "maintainer / corpus-control bundle",
+      "primary_use": "bounded external handoff for maintainers, reviewers, or corpus stewards",
+      "minimal_bundle_contents": [
+        "EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md",
+        "CORPUS_PRIMER.json",
+        "STACK_LOCK_2026-04-12.json",
+        "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md",
+        "PRECEDENCE_AND_RESOLUTION.md",
+        "PACKAGE_INTAKE_AND_INTEGRATION.md",
+        "CHANGE_CONTROL_AND_SYNC.md"
+      ],
+      "optional_deepening": [
+        "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+        "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md"
+      ],
+      "enough_for": "bounded corpus routing, handoff selection, and control-layer review",
+      "not_enough_for": "creating new doctrine, bypassing primary artifacts, or reclassifying unsafe material by implication",
+      "public_safe_note": "Consists only of public corpus-control surfaces and explicit boundary rules."
+    },
+    {
+      "id": "XP06",
+      "profile": "narrative / human-recognition bundle",
+      "primary_use": "bounded companion-facing handoff",
+      "minimal_bundle_contents": [
+        "qubit-of-hope-volume-i/CORPUS_CONTEXT.md",
+        "CORPUS_PRIMER.json",
+        "CANONICAL_DISTINCTIONS.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "STATUS_AND_MATURITY_MAP.md"
+      ],
+      "optional_deepening": [
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "MASTER_ENTRY.md"
+      ],
+      "enough_for": "companion-bounded human recognition, narrative role clarity, and anti-confusion context",
+      "not_enough_for": "normative verification, audit evidence, or runtime certification",
+      "public_safe_note": "Uses only public companion and control surfaces and keeps the companion explicitly bounded."
+    },
+    {
+      "id": "XP07",
+      "profile": "institutional evaluation / partner bundle",
+      "primary_use": "bounded partnership or institutional scoping handoff",
+      "minimal_bundle_contents": [
+        "README.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "CITATION_AND_VERIFICATION.md",
+        "ester-clean-code/PROOF_OF_CLOSURE.md",
+        "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md"
+      ],
+      "optional_deepening": [
+        "MASTER_ENTRY.md",
+        "docs/economic-layer/README.md",
+        "sovereign-entity-recursion/README.md"
+      ],
+      "enough_for": "partnership scoping, maturity and evidence orientation, and proof-of-possibility context",
+      "not_enough_for": "full compliance sign-off, deep doctrinal arbitration, or whole-corpus philosophical completeness",
+      "public_safe_note": "All included artifacts are already public-safe and suitable for bounded public evaluation."
+    },
+    {
+      "id": "XP08",
+      "profile": "skeptical / adversarial review bundle",
+      "primary_use": "bounded pressure-testing without straw interpretation",
+      "minimal_bundle_contents": [
+        "CANONICAL_DISTINCTIONS.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "CITATION_AND_VERIFICATION.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "PRECEDENCE_AND_RESOLUTION.md",
+        "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md"
+      ],
+      "optional_deepening": [
+        "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md",
+        "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md"
+      ],
+      "enough_for": "targeted skeptical review, objection routing, and non-straw challenge setup",
+      "not_enough_for": "replacing canonical reading order or declaring whole-corpus invalid without primary-artifact review",
+      "public_safe_note": "Keeps criticism within public-safe control and doctrinal surfaces and excludes unsafe or off-limits domains."
+    }
+  ],
+  "fail_closed_rule": "If maintainers cannot determine which export profile fits a request, default to the smaller public-safe bundle and state the limit explicitly."
+}

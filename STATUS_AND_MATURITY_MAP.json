@@ -1,0 +1,214 @@
+{
+  "schema": "agi.status_and_maturity_map.v1",
+  "date": "2026-04-12",
+  "artifacts": [
+    {
+      "id": "S01",
+      "artifact": "AGI core framing (README.md + MASTER_ENTRY.md)",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "README.md",
+        "MASTER_ENTRY.md"
+      ],
+      "status_label": "control-surface",
+      "maturity_class": "corpus control layer",
+      "role": "corpus framing / package boundaries / serious-entry routing",
+      "normative_weight": "strong supporting",
+      "recommended_use": "Start serious reading here for corpus role, package boundaries, and reading order.",
+      "anti_confusion_note": "Framing surface is not a substitute for narrower protocol citation."
+    },
+    {
+      "id": "S02",
+      "artifact": "c = a + b / L4 protocol surface",
+      "repo": "advanced-global-intelligence / ester-reality-bound",
+      "artifact_paths": [
+        "advanced-global-intelligence/protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "ester-reality-bound/protocol/L4_reality_boundary_layer.md"
+      ],
+      "status_label": "draft",
+      "maturity_class": "active draft",
+      "role": "core ontology + feasibility boundary surface",
+      "normative_weight": "explicitly non-final",
+      "recommended_use": "Read early for the entity model and L4 constraint logic.",
+      "anti_confusion_note": "Core protocol surface is load-bearing but not a frozen final standard."
+    },
+    {
+      "id": "S03",
+      "artifact": "Theoretical Foundations of the AGI Ecosystem",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md",
+        "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.pdf"
+      ],
+      "status_label": "observed",
+      "maturity_class": "review companion",
+      "role": "ecosystem-wide theoretical synthesis",
+      "normative_weight": "strong supporting",
+      "recommended_use": "Use after AGI entry for high-level synthesis across the stack.",
+      "anti_confusion_note": "Synthesis clarifies the stack but does not replace narrower normative sources."
+    },
+    {
+      "id": "S04",
+      "artifact": "SER v1.3 core",
+      "repo": "sovereign-entity-recursion",
+      "artifact_paths": [
+        "protocol/SER_v1.3_EN.md"
+      ],
+      "status_label": "stable",
+      "maturity_class": "mature core",
+      "role": "stable continuity / sovereignty core",
+      "normative_weight": "primary",
+      "recommended_use": "Read first for hard continuity and sovereignty claims.",
+      "anti_confusion_note": "Stable SER core does not make every adjacent package stable."
+    },
+    {
+      "id": "S05",
+      "artifact": "SER-FED v0.2 RFC",
+      "repo": "sovereign-entity-recursion",
+      "artifact_paths": [
+        "protocol/ser-fed/SER-FED_v0.2_RFC_EN.md"
+      ],
+      "status_label": "draft",
+      "maturity_class": "active draft",
+      "role": "federation / anti-oligarchy normative layer",
+      "normative_weight": "explicitly non-final",
+      "recommended_use": "Use for the current federation model and bounded authority logic.",
+      "anti_confusion_note": "Draft federation layer is not SER v2 and not the mature core."
+    },
+    {
+      "id": "S06",
+      "artifact": "L4 Witness Protocol v0.2",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf",
+        "official/pdf/03_L4_WITNESS_FIELDS.pdf"
+      ],
+      "status_label": "draft",
+      "maturity_class": "active draft",
+      "role": "challengeable reality-binding evidence layer",
+      "normative_weight": "explicitly non-final",
+      "recommended_use": "Use for the current witness lifecycle, records, and evidence model.",
+      "anti_confusion_note": "Witness draft is load-bearing but not a stabilized final standard."
+    },
+    {
+      "id": "S07",
+      "artifact": "Continuity Bundle JSON Schema v0.1",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "protocols/continuity-bundle/Continuity_Bundle_JSON_Schema_v0.1.md"
+      ],
+      "status_label": "operational",
+      "maturity_class": "bounded draft",
+      "role": "machine-readable continuity / cold-wake schema",
+      "normative_weight": "bounded supporting",
+      "recommended_use": "Use for bundle structure and cold-wake report shape.",
+      "anti_confusion_note": "Schema supports continuity evidence; it does not itself prove continuity."
+    },
+    {
+      "id": "S08",
+      "artifact": "Cold Wake Checklist v0.1",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "protocols/continuity-bundle/Cold_Wake_Checklist_v0.1.md"
+      ],
+      "status_label": "operational",
+      "maturity_class": "bounded draft",
+      "role": "operator checklist for bounded wake and classification",
+      "normative_weight": "bounded supporting",
+      "recommended_use": "Use for recovery procedure, audit trace, and fail-closed wake discipline.",
+      "anti_confusion_note": "Checklist guides wake operations; it does not by itself certify identity or legality."
+    },
+    {
+      "id": "S09",
+      "artifact": "Pre-Lineage Boundary Note v0.1",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
+        "manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf"
+      ],
+      "status_label": "reserved",
+      "maturity_class": "reserved territory",
+      "role": "explicit boundary for not-yet-mature lineage territory",
+      "normative_weight": "explicitly non-final",
+      "recommended_use": "Read to understand blocked territory, restraint, and non-claims.",
+      "anti_confusion_note": "Reserved territory is part of the corpus, not mature lineage doctrine."
+    },
+    {
+      "id": "S10",
+      "artifact": "Economic Layer for Experience Artifacts v0.1",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md"
+      ],
+      "status_label": "draft",
+      "maturity_class": "bounded draft",
+      "role": "EA admissibility / provenance / restraint layer",
+      "normative_weight": "explicitly non-final",
+      "recommended_use": "Use for the current EA economic model and restraint logic.",
+      "anti_confusion_note": "Economic layer is not open-market design and not bazaar logic."
+    },
+    {
+      "id": "S11",
+      "artifact": "ester-clean-code / PROOF_OF_CLOSURE",
+      "repo": "ester-clean-code",
+      "artifact_paths": [
+        "PROOF_OF_CLOSURE.md"
+      ],
+      "status_label": "operational",
+      "maturity_class": "runtime proof",
+      "role": "executable proof-of-possibility / closure evidence",
+      "normative_weight": "strong supporting",
+      "recommended_use": "Use to inspect implementation closure, review paths, and operational evidence.",
+      "anti_confusion_note": "Runtime proof closes the loop operationally but does not replace normative core."
+    },
+    {
+      "id": "S12",
+      "artifact": "qubit-of-hope-volume-i / CORPUS_CONTEXT",
+      "repo": "qubit-of-hope-volume-i",
+      "artifact_paths": [
+        "CORPUS_CONTEXT.md"
+      ],
+      "status_label": "companion",
+      "maturity_class": "narrative bridge",
+      "role": "human-facing narrative / perception bridge",
+      "normative_weight": "non-normative companion",
+      "recommended_use": "Use for human recognition, perception shift, and companion context.",
+      "anti_confusion_note": "Narrative companion is intentional and important, but not protocol evidence."
+    },
+    {
+      "id": "S13",
+      "artifact": "CORPUS_PRIMER / STACK_LOCK / entry-layer canonical surfaces",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "CORPUS_PRIMER.json",
+        "STACK_LOCK_2026-04-12.json",
+        "README.md",
+        "MACHINE_ENTRY.md",
+        "MASTER_ENTRY.md"
+      ],
+      "status_label": "control-surface",
+      "maturity_class": "corpus control layer",
+      "role": "machine-first routing, lock state, and aligned reading entry",
+      "normative_weight": "control / routing only",
+      "recommended_use": "Use first to orient reading and freeze stack state.",
+      "anti_confusion_note": "Control surfaces route serious reading; they do not themselves create doctrine."
+    },
+    {
+      "id": "S14",
+      "artifact": "DISTINCTIONS / OBJECTIONS / CITATION / CLAIMS surfaces",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "CANONICAL_DISTINCTIONS.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "CITATION_AND_VERIFICATION.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md"
+      ],
+      "status_label": "control-surface",
+      "maturity_class": "corpus control layer",
+      "role": "anti-confusion, public reasoning, citation discipline, and claim crosswalk",
+      "normative_weight": "strong supporting",
+      "recommended_use": "Use before serious citation, review, or audit to stabilize meaning and claim routing.",
+      "anti_confusion_note": "These surfaces discipline interpretation; they do not replace underlying protocol sources."
+    }
+  ]
+}

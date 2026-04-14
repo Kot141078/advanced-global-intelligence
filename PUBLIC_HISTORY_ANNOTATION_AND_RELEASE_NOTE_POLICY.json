@@ -1,0 +1,151 @@
+{
+  "schema": "agi.public_history_annotation_and_release_note_policy.v1",
+  "date": "2026-04-12",
+  "annotation_fields": [
+    {
+      "id": "AF01",
+      "field": "scope of the promoted set",
+      "meaning": "Name the bounded set or bundle that moved, not the whole corpus."
+    },
+    {
+      "id": "AF02",
+      "field": "why this set is appearing now",
+      "meaning": "State the narrow reason this step became timely or legible."
+    },
+    {
+      "id": "AF03",
+      "field": "what type of layer it is",
+      "meaning": "Identify whether the step is control, claim, boundary, runtime-proof, companion, or other bounded layer."
+    },
+    {
+      "id": "AF04",
+      "field": "what it is enough for",
+      "meaning": "Say the narrow public-reading or review use this step now supports."
+    },
+    {
+      "id": "AF05",
+      "field": "what it is not enough for",
+      "meaning": "State the nearest stronger reading that still remains unsupported."
+    },
+    {
+      "id": "AF06",
+      "field": "what related layers remain local or later",
+      "meaning": "Name the adjacent layers that did not move or still remain deferred."
+    },
+    {
+      "id": "AF07",
+      "field": "whether this is foundational, follow-on, or late-boundary material",
+      "meaning": "Place the step in its bounded public-history position."
+    },
+    {
+      "id": "AF08",
+      "field": "whether any citation / claims / status surfaces were affected",
+      "meaning": "Say explicitly whether interpretive or evidentiary reading conditions changed."
+    },
+    {
+      "id": "AF09",
+      "field": "whether manifests were refreshed by existing repo-pattern",
+      "meaning": "State yes/no and keep manifest scope bounded to the touched repo-pattern."
+    },
+    {
+      "id": "AF10",
+      "field": "promotion does not close the whole corpus",
+      "meaning": "Say explicitly that bounded promotion is not whole-corpus completion."
+    }
+  ],
+  "note_types": [
+    {
+      "id": "NT01",
+      "note_type": "foundational control-layer note",
+      "use_for": "entry, routing, or corpus-control steps",
+      "tone": "dry and orienting",
+      "must_avoid": "sounding like doctrinal completion"
+    },
+    {
+      "id": "NT02",
+      "note_type": "anti-confusion / citation note",
+      "use_for": "distinctions, objections, citation, or verification steps",
+      "tone": "clarifying and bounded",
+      "must_avoid": "sounding like new doctrine by itself"
+    },
+    {
+      "id": "NT03",
+      "note_type": "claims-status note",
+      "use_for": "claims, maturity, or assertion-strength steps",
+      "tone": "evidentiary and scope-limited",
+      "must_avoid": "overstating maturity or finality"
+    },
+    {
+      "id": "NT04",
+      "note_type": "promotion-control note",
+      "use_for": "promotion policy, atomicity, tranche, candidate-set, or annotation steps",
+      "tone": "procedural and restrained",
+      "must_avoid": "sounding like release authorization"
+    },
+    {
+      "id": "NT05",
+      "note_type": "boundary / public-safe note",
+      "use_for": "boundary, audience, export, or safety-facing steps",
+      "tone": "safety-bounded and explicit",
+      "must_avoid": "implying broader exposure than established"
+    },
+    {
+      "id": "NT06",
+      "note_type": "open-question / non-closure note",
+      "use_for": "deliberate incompleteness or reserved-territory visibility",
+      "tone": "restrained and non-final",
+      "must_avoid": "pretending unresolved territory is now settled"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "id": "AN01",
+      "problem": "sounding like full-corpus completion",
+      "what_goes_wrong": "a narrow step is narrated as if the whole stack is now done",
+      "why_harmful": "readers import closure the corpus did not grant"
+    },
+    {
+      "id": "AN02",
+      "problem": "implying productization where only runtime-proof moved",
+      "what_goes_wrong": "implementation proof is described like finished platform release",
+      "why_harmful": "runtime skeleton starts reading like market-ready product"
+    },
+    {
+      "id": "AN03",
+      "problem": "implying doctrinal closure where only control layers moved",
+      "what_goes_wrong": "entry or control surfaces are narrated like final doctrine",
+      "why_harmful": "routing and maintenance layers start masquerading as proof"
+    },
+    {
+      "id": "AN04",
+      "problem": "hiding later unresolved tranches",
+      "what_goes_wrong": "the note omits what still remains local, later, or unpromoted",
+      "why_harmful": "public history starts looking cleaner than the actual sequence"
+    },
+    {
+      "id": "AN05",
+      "problem": "using vague hype language instead of bounded scope",
+      "what_goes_wrong": "the note replaces scope with praise, scale, or momentum language",
+      "why_harmful": "future readers cannot tell what actually changed"
+    },
+    {
+      "id": "AN06",
+      "problem": "collapsing companion movement into normative proof",
+      "what_goes_wrong": "companion-facing movement is narrated like evidence or doctrine",
+      "why_harmful": "narrative role starts outranking stronger canonical surfaces"
+    },
+    {
+      "id": "AN07",
+      "problem": "omitting enough-for / not-enough-for boundary",
+      "what_goes_wrong": "the note says what moved but not how far it may be read",
+      "why_harmful": "bounded promotion becomes easy to over-read"
+    },
+    {
+      "id": "AN08",
+      "problem": "turning a narrow public step into a grandiose narrative",
+      "what_goes_wrong": "a small step is framed as historical culmination or total breakthrough",
+      "why_harmful": "public history becomes harder to trust or audit later"
+    }
+  ],
+  "fail_closed_rule": "If maintainers cannot describe a bounded promotion in a short, truthful, scope-limited note, the promotion is probably not yet cleanly bounded enough for public history."
+}

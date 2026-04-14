@@ -1,0 +1,96 @@
+{
+  "schema": "agi.canonical_distinctions.v1",
+  "date": "2026-04-12",
+  "companion_surfaces": {
+    "objections_markdown": "OBJECTIONS_AND_REPLIES.md",
+    "objections_json": "OBJECTIONS_AND_REPLIES.json",
+    "citation_markdown": "CITATION_AND_VERIFICATION.md",
+    "citation_json": "CITATION_AND_VERIFICATION.json"
+  },
+  "items": [
+    {
+      "id": "agi_not_monolith",
+      "confused": "AGI is one monolithic super-model.",
+      "canonical": "AGI here is ecosystem framing for c = a + b, SER, L4, and adjacent layers.",
+      "operational_why": "Prevents governance, continuity, feasibility, and runtime from collapsing into one model claim."
+    },
+    {
+      "id": "c_not_agent",
+      "confused": "c is just another worker, tool, or model process.",
+      "canonical": "c is the continuity-bearing entity layer; agents are bounded runtime processes under it.",
+      "operational_why": "Authority, stopping power, continuity, and review must stay at the c layer."
+    },
+    {
+      "id": "c_not_chatbot",
+      "confused": "c is a generic chatbot.",
+      "canonical": "Chat may be one interface, but c is defined by bounded accountable operation rather than chat format.",
+      "operational_why": "Protocol, review, perimeter, and evidence cannot be inferred from conversational style."
+    },
+    {
+      "id": "continuity_not_resemblance",
+      "confused": "Continuity follows from similarity of tone, memory fragments, or output style.",
+      "canonical": "Continuity is narrower than resemblance and depends on preserved operating identity conditions.",
+      "operational_why": "Style match alone cannot justify privilege carry-over or identity claims."
+    },
+    {
+      "id": "oracle_not_identity",
+      "confused": "Oracle-like processes carry entity continuity.",
+      "canonical": "Oracle is stateless and not identity-bearing.",
+      "operational_why": "Advisory or inference surfaces must not silently become continuity anchors."
+    },
+    {
+      "id": "review_not_continuity_owner",
+      "confused": "Arbiter or review layers own continuity.",
+      "canonical": "Arbiter and review layers constrain, examine, and authorize; they do not own continuity.",
+      "operational_why": "Review must remain accountable without becoming the hidden identity core."
+    },
+    {
+      "id": "ea_not_la",
+      "confused": "Experience artifacts and lineage artifacts are interchangeable.",
+      "canonical": "EA is not LA.",
+      "operational_why": "Provenance, admissibility, transfer, inheritance, and continuity rules stay separable."
+    },
+    {
+      "id": "historical_not_operative_truth",
+      "confused": "Historical truth and operative truth are the same thing.",
+      "canonical": "Historical truth and operative truth can both matter without being interchangeable.",
+      "operational_why": "Current decisions must bind to active state, not just to archival description."
+    },
+    {
+      "id": "l3_not_l4",
+      "confused": "Normative permission implies operational feasibility.",
+      "canonical": "L3 permission is not L4 feasibility.",
+      "operational_why": "Bounded power, hardware, trust, witnessability, and time can still block execution."
+    },
+    {
+      "id": "witness_not_narrative",
+      "confused": "A persuasive story is equivalent to a witness-backed trail.",
+      "canonical": "Witness trail requires reviewable evidence; narrative claim does not.",
+      "operational_why": "Promotion, accountability, and dispute handling need traceable records rather than rhetoric."
+    },
+    {
+      "id": "local_first_not_ideology",
+      "confused": "Local-first means anti-cloud ideology.",
+      "canonical": "Local-first is an operational priority for control, failure bounds, and reviewability, not a blanket ideology.",
+      "operational_why": "Deployment choices stay subordinate to accountability and boundary discipline."
+    },
+    {
+      "id": "skeleton_not_product",
+      "confused": "The clean-code layer is a finished commercial product.",
+      "canonical": "ester-clean-code is an executable operational skeleton and runtime proof-of-possibility.",
+      "operational_why": "Closure evidence and bounded implementation should not be misread as product claims."
+    },
+    {
+      "id": "book_not_normative_core",
+      "confused": "The book replaces the normative corpus.",
+      "canonical": "The book is the human-facing narrative companion, not the normative core.",
+      "operational_why": "Protocol meaning and narrative recognition stay connected without becoming the same layer."
+    },
+    {
+      "id": "book_not_protocol_evidence",
+      "confused": "Narrative recognition of a shift proves protocol claims.",
+      "canonical": "The book can evidence perception shift; it does not constitute protocol evidence.",
+      "operational_why": "Witness trails, feasibility claims, and normative closure still require protocol-grade evidence."
+    }
+  ]
+}

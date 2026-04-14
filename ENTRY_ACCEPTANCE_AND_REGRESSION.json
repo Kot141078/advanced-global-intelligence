@@ -1,0 +1,133 @@
+{
+  "schema": "agi.entry_acceptance_and_regression.v1",
+  "date": "2026-04-12",
+  "acceptance_checks": [
+    {
+      "id": "A01",
+      "protects": "first-screen role clarity",
+      "failure_symptom": "the touched repo starts sounding like the whole corpus, the runtime layer, or the normative core when it is not",
+      "minimal_check": "Read the first screen and confirm the repo role sentence still matches the corpus map."
+    },
+    {
+      "id": "A02",
+      "protects": "first-screen boundary clarity",
+      "failure_symptom": "a serious reader can no longer tell what the repo is not",
+      "minimal_check": "Confirm explicit non-replacement or non-collapse wording still exists on the touched entry surface."
+    },
+    {
+      "id": "A03",
+      "protects": "next-hop clarity",
+      "failure_symptom": "a surface states role but no longer shows where the reader should go next",
+      "minimal_check": "Confirm the next-hop pointer still resolves to the correct corpus route."
+    },
+    {
+      "id": "A04",
+      "protects": "canonical surfaces discoverability from AGI control surfaces",
+      "failure_symptom": "a maintainer needs a second search step to find primer, stack lock, citation, claims, status, sync, supersession, terminology, or acceptance",
+      "minimal_check": "Traverse AGI control surfaces and confirm those files remain visible."
+    },
+    {
+      "id": "A05",
+      "protects": "narrative companion still distinguishable from normative core",
+      "failure_symptom": "the companion starts reading like protocol evidence or mature doctrine",
+      "minimal_check": "Confirm companion-facing surfaces still mark the book as companion and non-replacement."
+    },
+    {
+      "id": "A06",
+      "protects": "citation / snapshot / frozen object wording remains coherent",
+      "failure_symptom": "a moving repo, frozen snapshot, DOI object, or manifest rule starts sounding interchangeable",
+      "minimal_check": "Compare citation, stack-lock, and download wording for the same public object."
+    },
+    {
+      "id": "A07",
+      "protects": "claims/evidence crosswalk remains path-valid",
+      "failure_symptom": "the claims map points to stale, missing, or wrongly promoted artifacts",
+      "minimal_check": "Verify the canonical and supporting artifact paths still exist."
+    },
+    {
+      "id": "A08",
+      "protects": "status/maturity labels remain bounded and coherent",
+      "failure_symptom": "draft, reserved, companion, or control-surface language gets silently inflated or blurred",
+      "minimal_check": "Compare touched surfaces against the bounded status and maturity vocabulary."
+    },
+    {
+      "id": "A09",
+      "protects": "supersession/deprecation wording remains non-ambiguous",
+      "failure_symptom": "retained or still-citable surfaces start sounding current-primary by accident",
+      "minimal_check": "Confirm preference state wording still distinguishes primary, retained, superseded, historical-only, companion, and control-surface."
+    },
+    {
+      "id": "A10",
+      "protects": "terminology / alias discipline remains intact",
+      "failure_symptom": "a new alias quietly replaces a canonical term for AGI, c, L4, the companion, or the runtime layer",
+      "minimal_check": "Scan touched surfaces against TERMINOLOGY_AND_ALIAS_POLICY.md."
+    },
+    {
+      "id": "A11",
+      "protects": "machine-facing path hygiene remains clean",
+      "failure_symptom": "drive paths or brittle backslash traversal enter machine-facing surfaces",
+      "minimal_check": "Grep touched files for drive-letter paths and backslash-style relative traversal."
+    },
+    {
+      "id": "A12",
+      "protects": "manifests follow existing repo-patterns only",
+      "failure_symptom": "a required manifest stays stale or a new unnecessary manifest ritual appears",
+      "minimal_check": "Update only manifests already expected by that repo and avoid binary overreach."
+    }
+  ],
+  "regression_patterns": [
+    {
+      "id": "R01",
+      "problem": "pointer-maze returns and the reader needs multiple hops to find the canonical control layer",
+      "why_it_matters": "serious readers and machine readers lose reliable first-pass orientation"
+    },
+    {
+      "id": "R02",
+      "problem": "canonical and supporting artifacts blur together",
+      "why_it_matters": "citation, claims, and review weight become ambiguous"
+    },
+    {
+      "id": "R03",
+      "problem": "a draft starts sounding like mature core",
+      "why_it_matters": "non-final material inherits authority it has not earned"
+    },
+    {
+      "id": "R04",
+      "problem": "the narrative companion starts reading like normative proof",
+      "why_it_matters": "companion evidence and protocol evidence collapse into each other"
+    },
+    {
+      "id": "R05",
+      "problem": "a repo-local edit silently becomes corpus-level drift",
+      "why_it_matters": "cross-repo surfaces fall out of sync without explicit review"
+    },
+    {
+      "id": "R06",
+      "problem": "alias drift replaces a canonical term",
+      "why_it_matters": "vocabulary drift starts rewriting semantics before claims visibly change"
+    },
+    {
+      "id": "R07",
+      "problem": "stale refs or moved paths survive in control surfaces",
+      "why_it_matters": "routing and claim verification become brittle or false"
+    },
+    {
+      "id": "R08",
+      "problem": "integrity or citation wording drifts away from stack-lock reality",
+      "why_it_matters": "frozen-reading, download, and verification guidance stop referring to the same thing"
+    }
+  ],
+  "review_order": [
+    "CORPUS_PRIMER.json",
+    "STACK_LOCK_2026-04-12.json",
+    "CITATION_AND_VERIFICATION.md",
+    "CLAIMS_AND_EVIDENCE_MAP.md",
+    "STATUS_AND_MATURITY_MAP.md",
+    "CHANGE_CONTROL_AND_SYNC.md",
+    "SUPERSESSION_AND_DEPRECATION.md",
+    "TERMINOLOGY_AND_ALIAS_POLICY.md",
+    "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+    "relevant repo entry surface"
+  ],
+  "fail_closed_rule": "If maintainers cannot establish that the acceptance checks still hold, the change should remain unresolved until the affected surfaces are re-reviewed."
+}

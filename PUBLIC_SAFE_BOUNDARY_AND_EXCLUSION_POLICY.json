@@ -1,0 +1,110 @@
+{
+  "schema": "agi.public_safe_boundary_and_exclusion_policy.v1",
+  "date": "2026-04-12",
+  "purpose": "Compact corpus-level boundary discipline for public-safe material, pointer-only references, excluded classes, and explicitly quarantined trees.",
+  "core_rule": "Public corpus surfaces may describe, point to, classify, or route; they must not silently import unsafe runtime material into the public-safe layer.",
+  "boundary_classes": [
+    {
+      "id": "B01",
+      "boundary_class": "public-safe canonical corpus material",
+      "meaning": "Public canonical artifacts and control surfaces intentionally published as corpus sources.",
+      "allowed_public_treatment": "Cite, classify, route, verify, and use as bounded public source.",
+      "disallowed_treatment": "Treat nearby private or runtime material as implicitly included with it."
+    },
+    {
+      "id": "B02",
+      "boundary_class": "public-safe companion material",
+      "meaning": "Public companion, narrative, or contextual material intentionally released as bounded companion.",
+      "allowed_public_treatment": "Cite as companion, route as companion, and describe its bounded role.",
+      "disallowed_treatment": "Read as automatic normative primary or witness proof."
+    },
+    {
+      "id": "B03",
+      "boundary_class": "public-safe implementation-facing but bounded material",
+      "meaning": "Public implementation-facing skeleton or closure material intentionally published with bounded scope.",
+      "allowed_public_treatment": "Cite as implementation proof or bounded runtime-facing context.",
+      "disallowed_treatment": "Treat as doctrinal owner or as permission to import adjacent private runtime trees."
+    },
+    {
+      "id": "B04",
+      "boundary_class": "pointer-only external/private reference",
+      "meaning": "A domain that may be acknowledged as existing without being imported into corpus meaning.",
+      "allowed_public_treatment": "Mention owner, role, boundary fact, or pointer only.",
+      "disallowed_treatment": "Read, summarize, copy from, or use as canonical source."
+    },
+    {
+      "id": "B05",
+      "boundary_class": "private runtime-sensitive material",
+      "meaning": "Private state, internal runtime traces, operator-sensitive configuration, or continuity-sensitive operational data.",
+      "allowed_public_treatment": "At most acknowledge abstract class or boundary fact.",
+      "disallowed_treatment": "Ingest, quote, classify as public source, or promote into public verification surfaces."
+    },
+    {
+      "id": "B06",
+      "boundary_class": "dangerous / non-public-safe code or operational content",
+      "meaning": "Code or operational material whose public corpus inclusion would be unsafe or irresponsible.",
+      "allowed_public_treatment": "Mention only at high level if boundary explanation requires it.",
+      "disallowed_treatment": "Publish operational detail, executable guidance, or code as public corpus content."
+    },
+    {
+      "id": "B07",
+      "boundary_class": "excluded mixed environment / live entity domain",
+      "meaning": "A mixed domain where public-safe and live/private material coexist without reliable separation.",
+      "allowed_public_treatment": "Keep excluded or pointer-only until explicitly separated and classified.",
+      "disallowed_treatment": "Cherry-pick from the mixed domain as if it were clean public-safe corpus."
+    },
+    {
+      "id": "B08",
+      "boundary_class": "quarantined / off-limits source tree",
+      "meaning": "A tree explicitly designated off-limits by owner or operator.",
+      "allowed_public_treatment": "Acknowledge only as a quarantine fact if already known from safe surfaces.",
+      "disallowed_treatment": "Read, diff, baseline, validate paths against, copy from, or derive corpus layers from it."
+    }
+  ],
+  "excluded_material_classes": [
+    {
+      "id": "E01",
+      "material_class": "live entity runtime trees",
+      "public_safe_treatment_rule": "Exclude from corpus sourcing; at most acknowledge as pointer-only boundary fact."
+    },
+    {
+      "id": "E02",
+      "material_class": "deployment-sensitive code not intended for public corpus",
+      "public_safe_treatment_rule": "Do not import and do not restate as public implementation canon."
+    },
+    {
+      "id": "E03",
+      "material_class": "private keys / secrets / credentials / access tokens",
+      "public_safe_treatment_rule": "Exclude absolutely; never copy, quote, hash, or summarize."
+    },
+    {
+      "id": "E04",
+      "material_class": "raw personal/private continuity data",
+      "public_safe_treatment_rule": "Exclude; only abstract class mention is allowed."
+    },
+    {
+      "id": "E05",
+      "material_class": "unsafe automation or public-dangerous code surfaces",
+      "public_safe_treatment_rule": "Exclude from public corpus; only bounded high-level classification is allowed."
+    },
+    {
+      "id": "E06",
+      "material_class": "mixed public/private mirrors without explicit classification",
+      "public_safe_treatment_rule": "Treat as excluded until explicit classification separates safe from unsafe."
+    },
+    {
+      "id": "E07",
+      "material_class": "unpublished internal experiment trees",
+      "public_safe_treatment_rule": "Keep excluded or pointer-only until explicit public-safe release exists."
+    },
+    {
+      "id": "E08",
+      "material_class": "any source tree explicitly marked off-limits by owner/operator",
+      "public_safe_treatment_rule": "Quarantine completely; do not use for baseline, diff, reference, or derivation."
+    }
+  ],
+  "pointer_only_rule": "Some non-public-safe domains may be acknowledged only as boundary facts, without reading from them, copying from them, or using them as canonical source.",
+  "quarantine_rule": "If a source tree is designated off-limits, it is not to be used for baseline, diff, reference, path validation, or corpus-layer derivation.",
+  "intake_interaction": "New package intake must first determine whether candidate material is public-safe, pointer-only, or excluded before any corpus integration decision proceeds.",
+  "fail_closed_rule": "If maintainers cannot establish that a source or artifact is public-safe for corpus inclusion, treat it as excluded or pointer-only until clarified."
+}

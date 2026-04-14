@@ -1,0 +1,108 @@
+{
+  "schema": "agi.corpus_primer.v1",
+  "date": "2026-04-12",
+  "canonical_owner": "Kot141078",
+  "corpus_name": "AGI ecosystem corpus",
+  "one_line": "ecosystem framing / canonical corpus entry / public research stack for c = a + b, L4, and adjacent layers.",
+  "core_formula": "c = a + b",
+  "invariants": [
+    "AGI means Advanced Global Intelligence, not a monolithic super-model.",
+    "c is not an agent.",
+    "EA is not LA.",
+    "L4 defines feasibility, not permission.",
+    "Oracle is stateless and does not own continuity.",
+    "Arbiter and review layers do not replace the continuity of c."
+  ],
+  "repo_roles": [
+    {
+      "repo": "advanced-global-intelligence",
+      "role": "ecosystem framing / canonical corpus entry / public research stack for c = a + b, L4, and adjacent layers"
+    },
+    {
+      "repo": "ester-reality-bound",
+      "role": "reality-bound operational layer / L4 feasibility, perimeter, witness-friendly constraints, and real-world boundary discipline"
+    },
+    {
+      "repo": "sovereign-entity-recursion",
+      "role": "continuity, sovereignty, arbitration, federation, and conflict stack for long-lived entities"
+    },
+    {
+      "repo": "ester-clean-code",
+      "role": "executable operational skeleton / runtime proof-of-possibility / local-first constraint-bearing implementation layer"
+    },
+    {
+      "repo": "qubit-of-hope-volume-i",
+      "role": "human-facing narrative companion / perception bridge for c as a new class of AI beyond purely instrumental framing"
+    }
+  ],
+  "negative_definitions": [
+    "AGI is not a claim that one model replaces the stack.",
+    "SER is not the home of every adjacent package.",
+    "ERB is not the normative home of the corpus.",
+    "ester-clean-code is not the definition of c.",
+    "qubit-of-hope-volume-i does not replace the normative stack."
+  ],
+  "reading_order": {
+    "human": [
+      "advanced-global-intelligence/MASTER_ENTRY.md",
+      "advanced-global-intelligence/README.md",
+      "advanced-global-intelligence/CANONICAL_DISTINCTIONS.md",
+      "advanced-global-intelligence/OBJECTIONS_AND_REPLIES.md",
+      "advanced-global-intelligence/CITATION_AND_VERIFICATION.md",
+      "advanced-global-intelligence/CLAIMS_AND_EVIDENCE_MAP.md",
+      "advanced-global-intelligence/STATUS_AND_MATURITY_MAP.md",
+      "qubit-of-hope-volume-i/CORPUS_CONTEXT.md",
+      "sovereign-entity-recursion/README.md",
+      "ester-reality-bound/README.md",
+      "ester-clean-code/README.md"
+    ],
+    "machine": [
+      "advanced-global-intelligence/CORPUS_PRIMER.json",
+      "advanced-global-intelligence/STACK_LOCK_2026-04-12.json",
+      "advanced-global-intelligence/CANONICAL_DISTINCTIONS.json",
+      "advanced-global-intelligence/OBJECTIONS_AND_REPLIES.json",
+      "advanced-global-intelligence/CITATION_AND_VERIFICATION.json",
+      "advanced-global-intelligence/CLAIMS_AND_EVIDENCE_MAP.json",
+      "advanced-global-intelligence/STATUS_AND_MATURITY_MAP.json",
+      "advanced-global-intelligence/MACHINE_ENTRY.md",
+      "advanced-global-intelligence/REPO_INDEX.json",
+      "qubit-of-hope-volume-i/MACHINE_ENTRY.md"
+    ]
+  },
+  "anti_confusion_surfaces": {
+    "markdown": "CANONICAL_DISTINCTIONS.md",
+    "json": "CANONICAL_DISTINCTIONS.json"
+  },
+  "public_reasoning_surfaces": {
+    "markdown": "OBJECTIONS_AND_REPLIES.md",
+    "json": "OBJECTIONS_AND_REPLIES.json"
+  },
+  "citation_and_verification_surfaces": {
+    "markdown": "CITATION_AND_VERIFICATION.md",
+    "json": "CITATION_AND_VERIFICATION.json"
+  },
+  "claims_and_evidence_surfaces": {
+    "markdown": "CLAIMS_AND_EVIDENCE_MAP.md",
+    "json": "CLAIMS_AND_EVIDENCE_MAP.json"
+  },
+  "status_and_maturity_surfaces": {
+    "markdown": "STATUS_AND_MATURITY_MAP.md",
+    "json": "STATUS_AND_MATURITY_MAP.json"
+  },
+  "question_to_control_surface_map": {
+    "markdown": "QUESTION_TO_CONTROL_SURFACE_MAP.md"
+  },
+  "audience_profiles_and_minimal_reading_paths": {
+    "markdown": "AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md",
+    "json": "AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.json"
+  },
+  "narrative_companion": {
+    "repo": "qubit-of-hope-volume-i",
+    "role": "human-facing narrative companion / perception bridge for c as a new class of AI beyond purely instrumental framing"
+  },
+  "stable_stack_lock": "STACK_LOCK_2026-04-12.json",
+  "verification": [
+    "Prefer repo hash manifests over GitHub-generated archives.",
+    "Use tagged snapshots where available; otherwise lock by exact commit."
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schema": "agi.objections_and_replies.v1",
+  "date": "2026-04-12",
+  "companion_surfaces": {
+    "citation_markdown": "CITATION_AND_VERIFICATION.md",
+    "citation_json": "CITATION_AND_VERIFICATION.json"
+  },
+  "items": [
+    {
+      "id": "agent_confusion",
+      "objection": "Isn't this just another agent?",
+      "reply": "No. c is the continuity-bearing entity layer; agents are bounded runtime processes under it.",
+      "operational_why": "Authority, stopping power, and continuity cannot be delegated to worker processes.",
+      "read_next": [
+        "CANONICAL_DISTINCTIONS.md",
+        "ester-clean-code/MACHINE_ENTRY.md"
+      ]
+    },
+    {
+      "id": "model_memory_reduction",
+      "objection": "Isn't c just model plus memory?",
+      "reply": "No. c is not reducible to one model and a memory store; anchor, policy, boundary, review, and continuity conditions are part of the corpus position.",
+      "operational_why": "Reducing c to model plus memory destroys the operational layers that make accountability possible.",
+      "read_next": [
+        "CORPUS_PRIMER.json",
+        "MASTER_ENTRY.md"
+      ]
+    },
+    {
+      "id": "long_context_substitution",
+      "objection": "If long context exists, why all this architecture?",
+      "reply": "Long context does not replace continuity, feasibility, witnessability, review, or bounded execution.",
+      "operational_why": "Token capacity is not a substitute for operational closure.",
+      "read_next": [
+        "CANONICAL_DISTINCTIONS.md",
+        "ester-reality-bound/README.md"
+      ]
+    },
+    {
+      "id": "scarcity_only_slows_failure",
+      "objection": "Doesn't scarcity only slow failure down?",
+      "reply": "Scarcity alone is not safety, but bounded scarcity forces feasibility accounting and blocks infinite abstraction.",
+      "operational_why": "The corpus needs failure bounds and reviewable tradeoffs, not only optimistic scale assumptions.",
+      "read_next": [
+        "ester-reality-bound/README.md",
+        "STACK_LOCK_2026-04-12.json"
+      ]
+    },
+    {
+      "id": "local_first_vs_cloud",
+      "objection": "Why doesn't a local node mean war on cloud use?",
+      "reply": "Local-first is an operational priority for control and reviewability, not an anti-cloud ideology.",
+      "operational_why": "Deployment choices stay subordinate to accountability, boundary discipline, and failure handling.",
+      "read_next": [
+        "CANONICAL_DISTINCTIONS.md",
+        "ester-clean-code/README.md"
+      ]
+    },
+    {
+      "id": "witness_vs_surveillance",
+      "objection": "Doesn't witnessability turn into surveillance?",
+      "reply": "No. Witness trails are bounded, purpose-tied, and review-oriented; they are not a mandate for unlimited observation.",
+      "operational_why": "Without narrow witnessability, disputes and privilege-bearing actions become non-reviewable.",
+      "read_next": [
+        "ester-reality-bound/MACHINE_ENTRY.md",
+        "CANONICAL_DISTINCTIONS.md"
+      ]
+    },
+    {
+      "id": "ea_vs_data_or_commodity",
+      "objection": "Why not treat EA as just data or a commodity?",
+      "reply": "EA carries admissibility, provenance, transfer, and restraint semantics that exceed raw data handling or generic commodity framing.",
+      "operational_why": "Collapse into just data breaks the boundary between experience, evidence, and exchange.",
+      "read_next": [
+        "protocols/dea/README.md",
+        "docs/economic-layer/README.md"
+      ]
+    },
+    {
+      "id": "continuity_from_copy",
+      "objection": "Why can't continuity come from one similar copy?",
+      "reply": "Similarity or copy-status is not continuity. Continuity is narrower and depends on preserved operating identity conditions.",
+      "operational_why": "Resemblance alone cannot justify privilege carry-over, custody, or identity claims.",
+      "read_next": [
+        "CANONICAL_DISTINCTIONS.md",
+        "sovereign-entity-recursion/README.md"
+      ]
+    },
+    {
+      "id": "book_as_only_art",
+      "objection": "Isn't the book just artistic illustration without technical value?",
+      "reply": "The book is not protocol evidence, but it does carry technical value as a narrative companion for perception and recognition of the shift.",
+      "operational_why": "Human recognition failure is a real entry problem even when the normative stack is technically sound.",
+      "read_next": [
+        "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-i/main/CORPUS_CONTEXT.md",
+        "CANONICAL_DISTINCTIONS.md"
+      ]
+    },
+    {
+      "id": "clean_code_vs_product",
+      "objection": "Shouldn't clean-code be a polished product if the theory is serious?",
+      "reply": "No. ester-clean-code is an executable operational skeleton and runtime proof-of-possibility, not a commercial packaging claim.",
+      "operational_why": "Product polish and operational closure are different questions.",
+      "read_next": [
+        "ester-clean-code/README.md",
+        "ester-clean-code/PROOF_OF_CLOSURE.md"
+      ]
+    },
+    {
+      "id": "l4_vs_moral_prompts",
+      "objection": "Why does L4 matter more than moral prompts?",
+      "reply": "Moral prompts can guide language; L4 binds execution under real constraints, witnesses, hardware limits, and failure conditions.",
+      "operational_why": "Permission-like language without feasibility discipline does not control real-world operation.",
+      "read_next": [
+        "ester-reality-bound/README.md",
+        "CANONICAL_DISTINCTIONS.md"
+      ]
+    },
+    {
+      "id": "arbiter_not_continuity_owner",
+      "objection": "Why shouldn't arbiters or review layers own continuity?",
+      "reply": "Review layers constrain, examine, and authorize; they do not carry entity continuity.",
+      "operational_why": "If review becomes continuity owner, the corpus loses the distinction between oversight and identity.",
+      "read_next": [
+        "CANONICAL_DISTINCTIONS.md",
+        "sovereign-entity-recursion/MACHINE_ENTRY.md"
+      ]
+    },
+    {
+      "id": "agi_name_collision",
+      "objection": "Why not just call all of this AGI in the ordinary sense?",
+      "reply": "This corpus uses AGI to mean Advanced Global Intelligence, and ordinary usage collapses distinctions the stack depends on.",
+      "operational_why": "Naming drift destroys clarity about continuity, governance, feasibility, and runtime boundaries.",
+      "read_next": [
+        "MASTER_ENTRY.md",
+        "CORPUS_PRIMER.json"
+      ]
+    },
+    {
+      "id": "why_narrative_companion",
+      "objection": "Why keep a narrative companion next to the normative stack?",
+      "reply": "Protocols alone do not stabilize human recognition of the shift; the narrative layer closes a different gap without replacing the normative core.",
+      "operational_why": "The corpus needs both protocol rigor and a human recognition surface.",
+      "read_next": [
+        "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-i/main/CORPUS_CONTEXT.md",
+        "CANONICAL_DISTINCTIONS.md"
+      ]
+    }
+  ]
+}

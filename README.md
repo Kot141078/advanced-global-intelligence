@@ -2,11 +2,69 @@
 
 # Advanced Global Intelligence (AGI)
 
+Role:
+ecosystem framing / canonical corpus entry / public research stack for `c = a + b`, `L4`, and adjacent layers.
+
 This repository contains architecture-first documents, protocols, and integrity manifests
 for long-lived, reality-bound digital entities.
 
 The work follows a cybernetic approach to AI safety and governance, grounded in
 physical constraints (L4), economic exposure, time, and accountable human anchoring.
+
+## Corpus entry
+
+This repository is the corpus-level entry for the public AGI / SER / L4 / clean-code / book stack.
+
+Start here:
+
+- human entry: `MASTER_ENTRY.md`
+- machine entry: `MACHINE_ENTRY.md`
+- machine-first primer: `CORPUS_PRIMER.json`
+- stable stack lock: `STACK_LOCK_2026-04-12.json`
+- canonical anti-confusion surface: `CANONICAL_DISTINCTIONS.md`
+- canonical objections/replies surface: `OBJECTIONS_AND_REPLIES.md`
+- citation / verification surface: `CITATION_AND_VERIFICATION.md`
+- claims / evidence crosswalk: `CLAIMS_AND_EVIDENCE_MAP.md`
+- status / maturity map: `STATUS_AND_MATURITY_MAP.md`
+- open questions / explicit non-claims: `OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md`
+- audience / minimal-reading surface: `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md`
+- narrative companion: `https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/CORPUS_CONTEXT.md`
+
+Stable corpus-control note:
+- sync discipline surface: `CHANGE_CONTROL_AND_SYNC.md`
+- control-surface dependency / coupling map: `CONTROL_SURFACE_DEPENDENCY_AND_COUPLING_MAP.md`
+- control-layer minimality / deduplication policy: `CONTROL_LAYER_MINIMALITY_AND_DEDUPLICATION_POLICY.md`
+- question-to-control-surface triage map: `QUESTION_TO_CONTROL_SURFACE_MAP.md`
+- control-stack completeness / stop-rule surface: `CONTROL_STACK_COMPLETENESS_AND_STOP_RULE.md`
+- supersession / deprecation surface: `SUPERSESSION_AND_DEPRECATION.md`
+- terminology / alias policy surface: `TERMINOLOGY_AND_ALIAS_POLICY.md`
+- acceptance / regression surface: `ENTRY_ACCEPTANCE_AND_REGRESSION.md`
+- assertion-strength / reading-boundary surface: `ASSERTION_STRENGTH_AND_BOUNDARIES.md`
+- ownership / repo-boundary surface: `CANONICAL_OWNERSHIP_AND_BOUNDARIES.md`
+- invariant / contradiction surface: `CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md`
+- precedence / resolution surface: `PRECEDENCE_AND_RESOLUTION.md`
+- artifact ID / reference discipline surface: `ARTIFACT_ID_AND_REFERENCE_POLICY.md`
+- public-safe boundary / exclusion surface: `PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md`
+- package intake / integration surface: `PACKAGE_INTAKE_AND_INTEGRATION.md`
+
+Secondary local-state / process note:
+- current corpus state / readiness snapshot: `CURRENT_CORPUS_STATE_AND_READINESS_SNAPSHOT.md`
+- current local control-stack staging map: `CURRENT_LOCAL_CONTROL_STACK_STAGING_MAP.md`
+- local promotion docket / blocker registry: `LOCAL_PROMOTION_DOCKET_AND_BLOCKER_REGISTRY.md`
+- local-to-public promotion surface: `LOCAL_TO_PUBLIC_PROMOTION_POLICY.md`
+- atomic promotion bundle surface: `ATOMIC_PROMOTION_BUNDLES.md`
+- promotion sequence / release tranche surface: `PROMOTION_SEQUENCE_AND_RELEASE_TRANCHES.md`
+- bootstrap cutover / candidate-set surface: `BOOTSTRAP_CUTOVER_AND_PUBLIC_HISTORY_CANDIDATE_SETS.md`
+- public-history annotation / release-note surface: `PUBLIC_HISTORY_ANNOTATION_AND_RELEASE_NOTE_POLICY.md`
+- public correction / errata surface: `PUBLIC_CORRECTION_AND_ERRATA_POLICY.md`
+- export / handoff bundle surface: `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md`
+- temporal hash checkpoint: `hashes/SHA256SUMS_main_temporal_presence_2026-04-12.txt`
+
+## Three corpus entry routes
+
+- Research / Normative: `README.md` -> `MASTER_ENTRY.md` -> `sovereign-entity-recursion` -> `ester-reality-bound`
+- Engineering / Runtime: `CORPUS_PRIMER.json` -> `ester-reality-bound` -> `ester-clean-code`
+- Narrative / Human: `https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/CORPUS_CONTEXT.md` -> `CORPUS_PRIMER.json`
 
 ## Download / Get the Code
 
@@ -277,7 +335,7 @@ All referenced paths are stable and canonical.
 ARQ (**Anti-Resonance Correction Protocol**) is an additive subsystem in this ecosystem, but its canonical home is **not** this repository.
 
 Canonical entry:
-`..\sovereign-entity-recursion\protocol\arq\README.md`
+`https://github.com/Kot141078/sovereign-entity-recursion/blob/main/protocol/arq/README.md`
 
 ARQ matters here because it creates an explicit bridge between correction logic, **SER** continuity, and **L4** bounded accountability.
 

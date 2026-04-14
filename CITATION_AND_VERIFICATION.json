@@ -1,0 +1,55 @@
+{
+  "schema": "agi.citation_and_verification.v1",
+  "date": "2026-04-12",
+  "public_objects": [
+    {
+      "type": "repo",
+      "meaning": "moving public corpus surface"
+    },
+    {
+      "type": "tagged_snapshot",
+      "meaning": "frozen reading surface bound to a tag or exact locked ref"
+    },
+    {
+      "type": "hash_manifest",
+      "meaning": "integrity source for repository content verification"
+    },
+    {
+      "type": "doi_object",
+      "meaning": "specific DOI-backed public object rather than the whole moving repo"
+    },
+    {
+      "type": "narrative_companion_repo",
+      "meaning": "public reading surface adjacent to, but not replacing, the normative core"
+    }
+  ],
+  "rules": [
+    "Cite the repo when referring to an evolving corpus surface.",
+    "Cite the tag or locked snapshot when referring to a frozen reading surface.",
+    "Cite the DOI when a specific DOI-backed public object is the object of reference.",
+    "Cite the exact document when making a narrow claim about one protocol, note, or package."
+  ],
+  "anti_confusions": [
+    "main branch != frozen snapshot",
+    "GitHub-generated archive != integrity source of truth",
+    "repo citation != document citation",
+    "narrative companion != normative core",
+    "code skeleton != polished product artifact",
+    "DOI object != whole moving repo"
+  ],
+  "minimal_verification_path": [
+    "Prefer stable tags and the current stack lock.",
+    "Prefer repo hash manifests over archive-level assumptions.",
+    "Verify exact file presence and manifest alignment.",
+    "Do not rely on screenshots or secondary summaries.",
+    "If in doubt, fall back to local verification."
+  ],
+  "read_next": [
+    "CORPUS_PRIMER.json",
+    "STACK_LOCK_2026-04-12.json",
+    "CANONICAL_DISTINCTIONS.md",
+    "OBJECTIONS_AND_REPLIES.md",
+    "MASTER_ENTRY.md",
+    "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-i/main/CORPUS_CONTEXT.md"
+  ]
+}

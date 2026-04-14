@@ -1,0 +1,318 @@
+{
+  "schema": "agi.claims_and_evidence_map.v1",
+  "date": "2026-04-12",
+  "reading_rule": [
+    "Start with the canonical artifact first.",
+    "Use supporting artifacts only as reinforcement or cross-check.",
+    "Use STACK_LOCK_2026-04-12.json and CITATION_AND_VERIFICATION.md when a frozen reading or citation path is required."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "AGI means Advanced Global Intelligence, not a monolithic super-model.",
+      "claim_type": "naming_scope",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "CANONICAL_DISTINCTIONS.md",
+        "citation_surface": "CANONICAL_DISTINCTIONS.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "MASTER_ENTRY.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "MACHINE_ENTRY.md"
+        }
+      ],
+      "verification_hint": "Confirm that AGI is defined as stack/ecosystem framing rather than a one-model claim."
+    },
+    {
+      "id": "C02",
+      "claim": "c = a + b is the core ontological formula.",
+      "claim_type": "ontology",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "citation_surface": "protocols/c_a_b_protocol_v1.1_L4_EN.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "manifesto/Cybernetic_Stability_Manifest_v2.0.md"
+        },
+        {
+          "repo": "sovereign-entity-recursion",
+          "path": "protocol/SER_v1.3_EN.md"
+        }
+      ],
+      "verification_hint": "Read the scope and core-formula sections; confirm that c is a continuity-bearing entity rather than a transient session."
+    },
+    {
+      "id": "C03",
+      "claim": "c is not an agent.",
+      "claim_type": "hierarchy_subject",
+      "canonical_artifact": {
+        "repo": "ester-reality-bound",
+        "path": "docs/ENTITY_GOVERNS_AGENTS.md",
+        "citation_surface": "docs/ENTITY_GOVERNS_AGENTS.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "CANONICAL_DISTINCTIONS.md"
+        },
+        {
+          "repo": "ester-clean-code",
+          "path": "MACHINE_ENTRY.md"
+        }
+      ],
+      "verification_hint": "Check the rule, operational meaning, and hard rule; agents are bounded workers under c."
+    },
+    {
+      "id": "C04",
+      "claim": "Continuity is narrower than resemblance.",
+      "claim_type": "continuity_distinction",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "CANONICAL_DISTINCTIONS.md",
+        "citation_surface": "CANONICAL_DISTINCTIONS.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "protocols/continuity-bundle/README.md"
+        }
+      ],
+      "verification_hint": "Confirm that style match or memory fragments are insufficient without preserved operating identity conditions."
+    },
+    {
+      "id": "C05",
+      "claim": "L4 defines feasibility, not permission.",
+      "claim_type": "reality_bound_constraint",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "citation_surface": "protocols/c_a_b_protocol_v1.1_L4_EN.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "ester-reality-bound",
+          "path": "protocol/L4_reality_boundary_layer.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "CANONICAL_DISTINCTIONS.md"
+        }
+      ],
+      "verification_hint": "Read the L3/L4 split and verify that L4 is objective feasibility rather than an appealable policy permission."
+    },
+    {
+      "id": "C06",
+      "claim": "Oracle is stateless and not identity-bearing.",
+      "claim_type": "runtime_topology",
+      "canonical_artifact": {
+        "repo": "sovereign-entity-recursion",
+        "path": "protocol/ser-fed/SER-FED_v0.2_RFC_EN.md",
+        "citation_surface": "protocol/ser-fed/SER-FED_v0.2_RFC_EN.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "CANONICAL_DISTINCTIONS.md"
+        }
+      ],
+      "verification_hint": "Verify the architectural separation section: oracle has no identity, persistent memory, or authority."
+    },
+    {
+      "id": "C07",
+      "claim": "Arbiter and review layers do not own continuity.",
+      "claim_type": "review_boundary",
+      "canonical_artifact": {
+        "repo": "sovereign-entity-recursion",
+        "path": "docs/arbitration-review-layer/Multi_Entity_Arbitration_Review_Layer_v0.1.md",
+        "citation_surface": "docs/arbitration-review-layer/Multi_Entity_Arbitration_Review_Layer_v0.1.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "sovereign-entity-recursion",
+          "path": "protocol/ser-fed/SER-FED_v0.2_RFC_EN.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "CANONICAL_DISTINCTIONS.md"
+        }
+      ],
+      "verification_hint": "Check relation to SER continuity and judge limits; review constrains and adjudicates but does not become the identity core."
+    },
+    {
+      "id": "C08",
+      "claim": "Witness-first execution requires tamper-evident operational evidence.",
+      "claim_type": "operational_evidence",
+      "canonical_artifact": {
+        "repo": "ester-clean-code",
+        "path": "PROOF_OF_CLOSURE.md",
+        "citation_surface": "PROOF_OF_CLOSURE.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "sovereign-entity-recursion",
+          "path": "protocol/ser-fed/SER-FED_v0.2_RFC_EN.md"
+        },
+        {
+          "repo": "sovereign-entity-recursion",
+          "path": "docs/arbitration-review-layer/Multi_Entity_Arbitration_Review_Layer_v0.1.md"
+        }
+      ],
+      "verification_hint": "Verify witness trail, auditable privileges, and no-trust closure locally; then cross-check witness lifecycle and evidence admissibility."
+    },
+    {
+      "id": "C09",
+      "claim": "SER is the continuity / sovereignty / arbitration / federation stack.",
+      "claim_type": "stack_role",
+      "canonical_artifact": {
+        "repo": "sovereign-entity-recursion",
+        "path": "README.md",
+        "citation_surface": "README.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "sovereign-entity-recursion",
+          "path": "DOC_MAP.md"
+        },
+        {
+          "repo": "sovereign-entity-recursion",
+          "path": "ECOSYSTEM.md"
+        }
+      ],
+      "verification_hint": "Confirm the repo role line and package entry points, then use DOC_MAP to inspect the stack decomposition."
+    },
+    {
+      "id": "C10",
+      "claim": "ester-clean-code is executable proof-of-possibility, not a polished commercial product.",
+      "claim_type": "implementation_boundary",
+      "canonical_artifact": {
+        "repo": "ester-clean-code",
+        "path": "PROOF_OF_CLOSURE.md",
+        "citation_surface": "PROOF_OF_CLOSURE.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "ester-clean-code",
+          "path": "README.md"
+        },
+        {
+          "repo": "ester-clean-code",
+          "path": "MACHINE_ENTRY.md"
+        }
+      ],
+      "verification_hint": "Check the opening statement and closure framing; confirm skeleton / proof-of-possibility language rather than product packaging."
+    },
+    {
+      "id": "C11",
+      "claim": "qubit-of-hope-volume-i is a human-facing narrative companion, not normative core.",
+      "claim_type": "narrative_boundary",
+      "canonical_artifact": {
+        "repo": "qubit-of-hope-volume-i",
+        "path": "CORPUS_CONTEXT.md",
+        "citation_surface": "CORPUS_CONTEXT.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "qubit-of-hope-volume-i",
+          "path": "README.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "CANONICAL_DISTINCTIONS.md"
+        }
+      ],
+      "verification_hint": "Verify the role line and the explicit statement that the repo can evidence perception shift but is not protocol evidence."
+    },
+    {
+      "id": "C12",
+      "claim": "EA is not LA.",
+      "claim_type": "evidence_class_distinction",
+      "canonical_artifact": {
+        "repo": "sovereign-entity-recursion",
+        "path": "protocol/ser-fed/SER-FED_v0.2_RFC_EN.md",
+        "citation_surface": "protocol/ser-fed/SER-FED_v0.2_RFC_EN.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "CANONICAL_DISTINCTIONS.md"
+        },
+        {
+          "repo": "sovereign-entity-recursion",
+          "path": "DOC_MAP.md"
+        }
+      ],
+      "verification_hint": "Read the experience-vs-capability section and confirm that capability gain does not silently become authority or lineage."
+    },
+    {
+      "id": "C13",
+      "claim": "The Economic Layer is bounded admissibility / restraint / non-bazaar discipline, not open market design.",
+      "claim_type": "economic_restraint",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md",
+        "citation_surface": "docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "docs/economic-layer/Executive_Summary_Economic_Layer_v0.1.md"
+        },
+        {
+          "repo": "sovereign-entity-recursion",
+          "path": "DOC_MAP.md"
+        }
+      ],
+      "verification_hint": "Check abstract, purpose, and non-goals; verify anti-bazaar and bounded circulation wording."
+    },
+    {
+      "id": "C14",
+      "claim": "Pre-lineage territory is explicitly reserved and not yet mature normative doctrine.",
+      "claim_type": "reserved_territory",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
+        "citation_surface": "manifesto/Pre_Lineage_Boundary_Note_v0.1.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "sovereign-entity-recursion",
+          "path": "DOC_MAP.md"
+        }
+      ],
+      "verification_hint": "Read purpose, canonical rule, and non-claims; use the DOI-backed note when a frozen public citation is required."
+    },
+    {
+      "id": "C15",
+      "claim": "Evidence for c as a new class of AI is multi-layered: normative + operational + narrative, not reducible to one artifact alone.",
+      "claim_type": "cross_layer_synthesis",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "CORPUS_PRIMER.json",
+        "citation_surface": "CORPUS_PRIMER.json"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "protocols/c_a_b_protocol_v1.1_L4_EN.md"
+        },
+        {
+          "repo": "ester-clean-code",
+          "path": "PROOF_OF_CLOSURE.md"
+        },
+        {
+          "repo": "qubit-of-hope-volume-i",
+          "path": "CORPUS_CONTEXT.md"
+        }
+      ],
+      "verification_hint": "Check the corpus role map first, then confirm one normative, one operational, and one narrative artifact rather than collapsing the case into one file."
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema": "agi.canonical_ownership_and_boundaries.v1",
+  "date": "2026-04-12",
+  "entries": [
+    {
+      "id": "O01",
+      "layer": "AGI ecosystem framing / corpus-level canonical entry",
+      "canonical_home_repo": "advanced-global-intelligence",
+      "adjacent_repos": [
+        "sovereign-entity-recursion",
+        "ester-reality-bound",
+        "ester-clean-code",
+        "qubit-of-hope-volume-i"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "corpus-context mention",
+        "machine hop"
+      ],
+      "disallowed_drift": "another repo silently presenting itself as whole-corpus home",
+      "read_next": [
+        "MASTER_ENTRY.md"
+      ]
+    },
+    {
+      "id": "O02",
+      "layer": "c = a + b / AGI core ontological framing",
+      "canonical_home_repo": "advanced-global-intelligence",
+      "adjacent_repos": [
+        "ester-reality-bound",
+        "sovereign-entity-recursion"
+      ],
+      "allowed_non_owner_role": [
+        "contextual restatement",
+        "interpretive clarification",
+        "implementation bridge"
+      ],
+      "disallowed_drift": "local convenience text forking the formula or relocating ontological ownership",
+      "read_next": [
+        "protocols/c_a_b_protocol_v1.1_L4_EN.md"
+      ]
+    },
+    {
+      "id": "O03",
+      "layer": "L4 / reality-bound operational layer",
+      "canonical_home_repo": "ester-reality-bound",
+      "adjacent_repos": [
+        "advanced-global-intelligence",
+        "sovereign-entity-recursion",
+        "ester-clean-code"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "contextual framing",
+        "runtime dependency mention"
+      ],
+      "disallowed_drift": "AGI or clean-code silently becoming doctrinal owner of L4 operations",
+      "read_next": [
+        "protocol/L4_reality_boundary_layer.md"
+      ]
+    },
+    {
+      "id": "O04",
+      "layer": "SER continuity / sovereignty / arbitration core",
+      "canonical_home_repo": "sovereign-entity-recursion",
+      "adjacent_repos": [
+        "advanced-global-intelligence",
+        "ester-reality-bound",
+        "ester-clean-code"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "contextual mention",
+        "implementation dependency mention"
+      ],
+      "disallowed_drift": "adjacent repos presenting SER core as locally owned doctrine",
+      "read_next": [
+        "protocol/SER_v1.3_EN.md"
+      ]
+    },
+    {
+      "id": "O05",
+      "layer": "SER-FED / federation layer",
+      "canonical_home_repo": "sovereign-entity-recursion",
+      "adjacent_repos": [
+        "advanced-global-intelligence",
+        "ester-reality-bound"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "contextual mention",
+        "status note"
+      ],
+      "disallowed_drift": "adjacent repos restating SER-FED as independent local canon",
+      "read_next": [
+        "protocol/ser-fed/README.md"
+      ]
+    },
+    {
+      "id": "O06",
+      "layer": "L4 Witness / evidence layer",
+      "canonical_home_repo": "advanced-global-intelligence",
+      "adjacent_repos": [
+        "ester-reality-bound",
+        "sovereign-entity-recursion",
+        "ester-clean-code"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "verification support",
+        "operational use mention"
+      ],
+      "disallowed_drift": "evidence-layer use elsewhere re-owning witness doctrine",
+      "read_next": [
+        "official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf"
+      ]
+    },
+    {
+      "id": "O07",
+      "layer": "Continuity Bundle / Cold Wake continuity recovery surfaces",
+      "canonical_home_repo": "advanced-global-intelligence",
+      "adjacent_repos": [
+        "sovereign-entity-recursion",
+        "ester-clean-code"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "implementation bridge",
+        "verification support"
+      ],
+      "disallowed_drift": "SER or clean-code silently re-owning continuity recovery package home",
+      "read_next": [
+        "protocols/continuity-bundle/README.md"
+      ]
+    },
+    {
+      "id": "O08",
+      "layer": "Economic Layer for Experience Artifacts",
+      "canonical_home_repo": "advanced-global-intelligence",
+      "adjacent_repos": [
+        "sovereign-entity-recursion",
+        "ester-reality-bound"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "contextual mention",
+        "downstream use mention"
+      ],
+      "disallowed_drift": "adjacent repo presenting EA economic layer as its local normative owner",
+      "read_next": [
+        "docs/economic-layer/README.md"
+      ]
+    },
+    {
+      "id": "O09",
+      "layer": "ARL / EA conflict semantics / continuity precedence cluster",
+      "canonical_home_repo": "sovereign-entity-recursion",
+      "adjacent_repos": [
+        "advanced-global-intelligence",
+        "ester-reality-bound",
+        "ester-clean-code"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "implementation bridge",
+        "contextual cross-reference"
+      ],
+      "disallowed_drift": "AGI or clean-code silently forking arbitration ownership or continuity precedence semantics",
+      "read_next": [
+        "docs/arbitration-review-layer/README.md"
+      ]
+    },
+    {
+      "id": "O10",
+      "layer": "ester-clean-code executable skeleton / runtime proof-of-possibility",
+      "canonical_home_repo": "ester-clean-code",
+      "adjacent_repos": [
+        "advanced-global-intelligence",
+        "ester-reality-bound",
+        "sovereign-entity-recursion"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "contextual mention",
+        "doctrinal dependency note"
+      ],
+      "disallowed_drift": "implementation repo being re-read as doctrinal owner of adjacent theory packages",
+      "read_next": [
+        "PROOF_OF_CLOSURE.md"
+      ]
+    },
+    {
+      "id": "O11",
+      "layer": "qubit-of-hope-volume-i narrative companion / perception bridge",
+      "canonical_home_repo": "qubit-of-hope-volume-i",
+      "adjacent_repos": [
+        "advanced-global-intelligence",
+        "sovereign-entity-recursion",
+        "ester-reality-bound",
+        "ester-clean-code"
+      ],
+      "allowed_non_owner_role": [
+        "companion",
+        "contextual bridge",
+        "recognition support"
+      ],
+      "disallowed_drift": "companion surfaces silently re-owning normative core or evidence layers",
+      "read_next": [
+        "CORPUS_CONTEXT.md"
+      ]
+    },
+    {
+      "id": "O12",
+      "layer": "corpus-control surfaces (primer, stack lock, distinctions, objections, citation, claims, status, sync, supersession, terminology, acceptance, assertion)",
+      "canonical_home_repo": "advanced-global-intelligence",
+      "adjacent_repos": [
+        "sovereign-entity-recursion",
+        "ester-reality-bound",
+        "ester-clean-code",
+        "qubit-of-hope-volume-i"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "repo-local convenience mention",
+        "machine hop"
+      ],
+      "disallowed_drift": "non-owner repo forking corpus-control canon through parallel local rule sets",
+      "read_next": [
+        "CORPUS_PRIMER.json"
+      ]
+    }
+  ],
+  "fail_closed_rule": "If maintainers cannot determine whether a package is canonically owned here or elsewhere, treat the local file as pointer or context-only until ownership is clarified."
+}

@@ -1,0 +1,155 @@
+{
+  "schema": "agi.public_correction_and_errata_policy.v1",
+  "date": "2026-04-12",
+  "correction_classes": [
+    {
+      "id": "EC01",
+      "correction_class": "clarification note",
+      "meaning": "Explain a bounded ambiguity without changing the underlying claim or artifact state.",
+      "use_when": "Wording invited misreading but the underlying surface still stands.",
+      "must_not_be_confused_with": "erratum, bounded correction, or retraction"
+    },
+    {
+      "id": "EC02",
+      "correction_class": "erratum",
+      "meaning": "Correct a bounded mistake that does not overturn the wider surface.",
+      "use_when": "A typo, narrow wording fault, or small factual slip is real and should be visible.",
+      "must_not_be_confused_with": "supersession or full retraction"
+    },
+    {
+      "id": "EC03",
+      "correction_class": "bounded correction",
+      "meaning": "Correct a mistake that changes part of the public reading but leaves other parts intact.",
+      "use_when": "Some prior reading is no longer safe, but the whole surface is not void.",
+      "must_not_be_confused_with": "total collapse or silent patching"
+    },
+    {
+      "id": "EC04",
+      "correction_class": "supersession notice",
+      "meaning": "Mark that a newer governing surface now outranks an older public one.",
+      "use_when": "The public history needs explicit preferred-current routing rather than same-surface repair.",
+      "must_not_be_confused_with": "erratum or retraction"
+    },
+    {
+      "id": "EC05",
+      "correction_class": "retraction",
+      "meaning": "Withdraw a public-facing reading or surface that should no longer be relied on in its prior form.",
+      "use_when": "The earlier public reading is no longer trustworthy enough to leave as active guidance.",
+      "must_not_be_confused_with": "bounded correction where most of the surface still stands"
+    },
+    {
+      "id": "EC06",
+      "correction_class": "quarantine / do-not-use notice",
+      "meaning": "Mark a public-facing surface as unsafe to rely on until clarified or replaced.",
+      "use_when": "Public use should pause because safety, boundary, or trust impact is unresolved.",
+      "must_not_be_confused_with": "ordinary boundary class or rhetorical alarm language"
+    },
+    {
+      "id": "EC07",
+      "correction_class": "pointer-fix / reference repair",
+      "meaning": "Repair path, link, raw pointer, or reference routing without silently implying doctrinal change.",
+      "use_when": "Broken routing or stale refs need visible repair.",
+      "must_not_be_confused_with": "claim correction unless claim/citation impact is real"
+    },
+    {
+      "id": "EC08",
+      "correction_class": "non-correction / no-action case",
+      "meaning": "Record that apparent drift does not require a public correction step.",
+      "use_when": "The issue is only alias, formatting, or non-public noise with no public-reading impact.",
+      "must_not_be_confused_with": "hidden correction by omission"
+    }
+  ],
+  "minimal_fields": [
+    {
+      "id": "CF01",
+      "field": "what is being corrected",
+      "meaning": "Name the bounded surface, note, path, or reading that is under correction."
+    },
+    {
+      "id": "CF02",
+      "field": "correction class",
+      "meaning": "State which correction class governs this case."
+    },
+    {
+      "id": "CF03",
+      "field": "what remains valid",
+      "meaning": "Say which part of the earlier public reading still stands."
+    },
+    {
+      "id": "CF04",
+      "field": "what is no longer safe to read as before",
+      "meaning": "State the exact prior reading that should now stop."
+    },
+    {
+      "id": "CF05",
+      "field": "whether claims/status/citation are affected",
+      "meaning": "Say explicitly whether interpretive or evidentiary reading conditions changed."
+    },
+    {
+      "id": "CF06",
+      "field": "whether manifests / refs changed",
+      "meaning": "State yes/no and keep the scope bounded to touched repo-pattern surfaces."
+    },
+    {
+      "id": "CF07",
+      "field": "what stronger or newer surface now governs",
+      "meaning": "Name the current governing or replacement surface when relevant."
+    },
+    {
+      "id": "CF08",
+      "field": "what this correction is NOT claiming",
+      "meaning": "State the nearest overread that should be rejected."
+    }
+  ],
+  "anti_patterns": [
+    {
+      "id": "CA01",
+      "problem": "silent rewrite without visible correction signal",
+      "what_goes_wrong": "public history changes but readers never see that a correction happened",
+      "why_harmful": "trust drops because chronology stops being auditable"
+    },
+    {
+      "id": "CA02",
+      "problem": "using supersession where simple erratum is enough",
+      "what_goes_wrong": "a small bounded fix gets narrated as if a whole replacement occurred",
+      "why_harmful": "public history becomes noisier and less precise than needed"
+    },
+    {
+      "id": "CA03",
+      "problem": "using retraction where bounded correction is enough",
+      "what_goes_wrong": "a surface is withdrawn more aggressively than the actual mistake warrants",
+      "why_harmful": "readers may infer wider collapse than the corpus supports"
+    },
+    {
+      "id": "CA04",
+      "problem": "vague correction note that hides affected scope",
+      "what_goes_wrong": "the correction exists but does not say what exactly changed",
+      "why_harmful": "readers cannot tell what to keep or stop relying on"
+    },
+    {
+      "id": "CA05",
+      "problem": "correction note that implies whole-corpus collapse",
+      "what_goes_wrong": "a local correction is narrated like systemic failure of everything nearby",
+      "why_harmful": "bounded public trust gets replaced by unnecessary theatrical doubt"
+    },
+    {
+      "id": "CA06",
+      "problem": "pointer fix issued without checking claim/citation impact",
+      "what_goes_wrong": "a routing repair is announced as if it had no interpretive consequences when it might",
+      "why_harmful": "broken citation or claims drift can survive under a cosmetic fix label"
+    },
+    {
+      "id": "CA07",
+      "problem": "quarantine wording used as rhetorical overkill",
+      "what_goes_wrong": "do-not-use language is used where ordinary correction would suffice",
+      "why_harmful": "strong safety language loses precision and credibility"
+    },
+    {
+      "id": "CA08",
+      "problem": "correction note that does not state what remains valid",
+      "what_goes_wrong": "the note marks a problem but leaves surviving meaning implicit",
+      "why_harmful": "readers over-discard or keep too much by guesswork"
+    }
+  ],
+  "fail_closed_rule": "If maintainers cannot determine whether an issue is only wording, citation, claim, or public-safety relevant, choose the stronger bounded correction class until clarified."
+}

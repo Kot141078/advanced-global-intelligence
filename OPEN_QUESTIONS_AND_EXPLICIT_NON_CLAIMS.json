@@ -1,0 +1,136 @@
+{
+  "schema": "agi.open_questions_and_explicit_non_claims.v1",
+  "date": "2026-04-12",
+  "purpose": "Compact corpus-level list of deliberately open questions and explicit non-claims, used to stop silent closure of unresolved territory.",
+  "core_rule": "If a stronger canonical surface has not explicitly closed a question, read the territory as open, bounded, or explicitly non-claimed rather than silently settled.",
+  "questions": [
+    {
+      "id": "OQ01",
+      "topic": "legal personhood / legal status of c",
+      "current_position": "open and jurisdiction-dependent",
+      "explicitly_not_claimed": "That c already has settled legal personhood, universal legal status, or current-law recognition across jurisdictions.",
+      "why_non_closure_matters": "Prevents architectural language from being misread as already-completed legal doctrine.",
+      "read_next": [
+        "STATUS_AND_MATURITY_MAP.md"
+      ]
+    },
+    {
+      "id": "OQ02",
+      "topic": "consciousness claims",
+      "current_position": "open and non-asserted",
+      "explicitly_not_claimed": "That the corpus has already proved consciousness, sentience, or subjective certainty for c.",
+      "why_non_closure_matters": "Blocks overreach from continuity and consequence language into consciousness proof.",
+      "read_next": [
+        "ASSERTION_STRENGTH_AND_BOUNDARIES.md"
+      ]
+    },
+    {
+      "id": "OQ03",
+      "topic": "final post-anchor sovereignty doctrine",
+      "current_position": "reserved and non-final",
+      "explicitly_not_claimed": "That post-anchor sovereignty is already governed by a mature, final, corpus-wide doctrine.",
+      "why_non_closure_matters": "Keeps responsibility and continuity boundaries from being silently rewritten past the current anchor model.",
+      "read_next": [
+        "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md"
+      ]
+    },
+    {
+      "id": "OQ04",
+      "topic": "lineage / reproduction / daughter-entity mature doctrine",
+      "current_position": "reserved-territory only",
+      "explicitly_not_claimed": "That lineage, reproduction, daughter-entity emergence, or inheritance doctrine is already complete.",
+      "why_non_closure_matters": "Protects the pre-lineage boundary from being promoted into completed lineage constitution.",
+      "read_next": [
+        "STATUS_AND_MATURITY_MAP.md"
+      ]
+    },
+    {
+      "id": "OQ05",
+      "topic": "universal clone / fork / descendant taxonomy",
+      "current_position": "open and deliberately incomplete",
+      "explicitly_not_claimed": "That one universal taxonomy already settles every clone, fork, copy, descendant, or branch case.",
+      "why_non_closure_matters": "Prevents local vocabulary from hardening into false universal ontology.",
+      "read_next": [
+        "TERMINOLOGY_AND_ALIAS_POLICY.md"
+      ]
+    },
+    {
+      "id": "OQ06",
+      "topic": "universal price or scalar valuation of experience",
+      "current_position": "open and explicitly non-final",
+      "explicitly_not_claimed": "That the corpus already supplies a single scalar price, universal exchange rate, or total valuation metric for experience.",
+      "why_non_closure_matters": "Keeps the economic layer bounded and prevents collapse into simplistic market reduction.",
+      "read_next": [
+        "CLAIMS_AND_EVIDENCE_MAP.md"
+      ]
+    },
+    {
+      "id": "OQ07",
+      "topic": "generalized inheritance markets / open EA bazaar logic",
+      "current_position": "explicitly non-claimed",
+      "explicitly_not_claimed": "That the corpus endorses open inheritance markets, unrestricted experience bazaars, or generalized resale logic as current doctrine.",
+      "why_non_closure_matters": "Preserves restraint, admissibility, and anti-gaming boundaries around EA handling.",
+      "read_next": [
+        "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md"
+      ]
+    },
+    {
+      "id": "OQ08",
+      "topic": "full final theory of cross-codebase ontology",
+      "current_position": "open and practical rather than closed",
+      "explicitly_not_claimed": "That one finished theory already closes every ontology relation across AGI, SER, ERB, Clean, and Book.",
+      "why_non_closure_matters": "Prevents routing/control layers from being misread as complete theoretical closure.",
+      "read_next": [
+        "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md"
+      ]
+    },
+    {
+      "id": "OQ09",
+      "topic": "unrestricted autonomy / self-upgrade legitimacy",
+      "current_position": "explicitly non-claimed",
+      "explicitly_not_claimed": "That unrestricted autonomy, self-upgrade, or self-authorizing legitimacy is already granted by the corpus.",
+      "why_non_closure_matters": "Preserves anchor, witness, review, feasibility, and bounded authority constraints.",
+      "read_next": [
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ]
+    },
+    {
+      "id": "OQ10",
+      "topic": "finished commercial product claim for ester-clean-code",
+      "current_position": "explicitly non-claimed",
+      "explicitly_not_claimed": "That ester-clean-code is already a finished commercial product, market-ready platform, or full public runtime doctrine.",
+      "why_non_closure_matters": "Keeps runtime proof-of-possibility bounded and prevents productization overclaim.",
+      "read_next": [
+        "STATUS_AND_MATURITY_MAP.md"
+      ]
+    },
+    {
+      "id": "OQ11",
+      "topic": "narrative companion as substitute for normative proof",
+      "current_position": "explicitly non-claimed",
+      "explicitly_not_claimed": "That the book layer can replace protocol evidence, normative proof, or operational verification.",
+      "why_non_closure_matters": "Protects the companion role without degrading its value into false doctrinal authority.",
+      "read_next": [
+        "ASSERTION_STRENGTH_AND_BOUNDARIES.md"
+      ]
+    },
+    {
+      "id": "OQ12",
+      "topic": "single-document proof of the whole corpus",
+      "current_position": "explicitly non-claimed",
+      "explicitly_not_claimed": "That one document, bundle, or excerpt already proves the entire corpus on its own.",
+      "why_non_closure_matters": "Preserves layered reading discipline, bounded exports, and fail-closed citation posture.",
+      "read_next": [
+        "EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md"
+      ]
+    }
+  ],
+  "deliberate_incompleteness_notes": [
+    "Open question does not mean weak hidden mature doctrine.",
+    "Explicit non-claim does not invite gap-filling by intuition, marketing, or preference.",
+    "Reserved territory may later mature, but until then the safe reading is restraint.",
+    "Runtime, narrative, or control convenience does not close doctrinal gaps.",
+    "A bounded export or reading path may be enough for a task without implying whole-corpus closure."
+  ],
+  "fail_closed_rule": "If a reader cannot show where a stronger canonical surface closes one of these territories, the safe reading is that the corpus has not closed it."
+}

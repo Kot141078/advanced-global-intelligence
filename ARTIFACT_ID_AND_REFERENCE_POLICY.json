@@ -1,0 +1,273 @@
+{
+  "schema": "agi.artifact_id_and_reference_policy.v1",
+  "date": "2026-04-12",
+  "id_policy": {
+    "format": "AID-###",
+    "core_rule": "Artifact ID is stable; path may change; canonical ownership and citation rules still apply.",
+    "principles": [
+      "Use compact human-readable IDs.",
+      "Assign one stable ID per load-bearing artifact or surface.",
+      "Prefer ID stability over path stability.",
+      "If an artifact is superseded, keep the old ID with explicit state instead of silently reusing it."
+    ],
+    "controlled_reference_states": [
+      "current",
+      "retained",
+      "superseded",
+      "control-surface",
+      "companion"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "AID-001",
+      "artifact": "AGI main framing / manifesto-level core surface",
+      "repo": "advanced-global-intelligence",
+      "current_path": "README.md + MASTER_ENTRY.md",
+      "artifact_role": "corpus framing / public stack entry",
+      "reference_state": "current",
+      "notes": "Framing identity survives local entry polish."
+    },
+    {
+      "id": "AID-002",
+      "artifact": "c = a + b / L4 protocol surface",
+      "repo": "advanced-global-intelligence",
+      "current_path": "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+      "artifact_role": "ontology + feasibility protocol surface",
+      "reference_state": "current",
+      "notes": "Path drift must not break core-formula reference."
+    },
+    {
+      "id": "AID-003",
+      "artifact": "Theoretical Foundations of the AGI Ecosystem",
+      "repo": "advanced-global-intelligence",
+      "current_path": "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md",
+      "artifact_role": "ecosystem theoretical synthesis",
+      "reference_state": "current",
+      "notes": "Synthesis artifact, not control surface."
+    },
+    {
+      "id": "AID-004",
+      "artifact": "SER v1.3 core",
+      "repo": "sovereign-entity-recursion",
+      "current_path": "protocol/SER_v1.3_EN.md",
+      "artifact_role": "stable doctrinal core",
+      "reference_state": "current",
+      "notes": "Stable core identity independent of repo-local restatement."
+    },
+    {
+      "id": "AID-005",
+      "artifact": "SER-FED v0.2 RFC",
+      "repo": "sovereign-entity-recursion",
+      "current_path": "protocol/ser-fed/SER-FED_v0.2_RFC_EN.md",
+      "artifact_role": "draft federation normative surface",
+      "reference_state": "current",
+      "notes": "Draft state does not change artifact identity."
+    },
+    {
+      "id": "AID-006",
+      "artifact": "L4 Witness Protocol v0.2",
+      "repo": "advanced-global-intelligence",
+      "current_path": "official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf",
+      "artifact_role": "witness / verification artifact",
+      "reference_state": "current",
+      "notes": "Evidence-layer artifact, not ontology source by itself."
+    },
+    {
+      "id": "AID-007",
+      "artifact": "Continuity Bundle JSON Schema v0.1",
+      "repo": "advanced-global-intelligence",
+      "current_path": "protocols/continuity-bundle/Continuity_Bundle_JSON_Schema_v0.1.md",
+      "artifact_role": "continuity schema artifact",
+      "reference_state": "current",
+      "notes": "Schema identity survives path cleanup."
+    },
+    {
+      "id": "AID-008",
+      "artifact": "Cold Wake Checklist v0.1",
+      "repo": "advanced-global-intelligence",
+      "current_path": "protocols/continuity-bundle/Cold_Wake_Checklist_v0.1.md",
+      "artifact_role": "continuity recovery checklist",
+      "reference_state": "current",
+      "notes": "Checklist path may move without becoming a new artifact."
+    },
+    {
+      "id": "AID-009",
+      "artifact": "Pre-Lineage Boundary Note v0.1",
+      "repo": "advanced-global-intelligence",
+      "current_path": "manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
+      "artifact_role": "reserved-territory boundary artifact",
+      "reference_state": "current",
+      "notes": "Reserved territory still has stable reference identity."
+    },
+    {
+      "id": "AID-010",
+      "artifact": "Economic Layer core surface",
+      "repo": "advanced-global-intelligence",
+      "current_path": "docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md",
+      "artifact_role": "EA economic normative surface",
+      "reference_state": "current",
+      "notes": "Bounded draft identity, not market index."
+    },
+    {
+      "id": "AID-011",
+      "artifact": "ester-clean-code / PROOF_OF_CLOSURE",
+      "repo": "ester-clean-code",
+      "current_path": "PROOF_OF_CLOSURE.md",
+      "artifact_role": "runtime proof-of-possibility surface",
+      "reference_state": "current",
+      "notes": "Runtime proof gets stable reference without becoming doctrine."
+    },
+    {
+      "id": "AID-012",
+      "artifact": "qubit-of-hope-volume-i / CORPUS_CONTEXT",
+      "repo": "qubit-of-hope-volume-i",
+      "current_path": "CORPUS_CONTEXT.md",
+      "artifact_role": "narrative companion corpus context",
+      "reference_state": "companion",
+      "notes": "Companion identity is stable without becoming normative core."
+    },
+    {
+      "id": "AID-013",
+      "artifact": "CORPUS_PRIMER",
+      "repo": "advanced-global-intelligence",
+      "current_path": "CORPUS_PRIMER.json",
+      "artifact_role": "machine-first corpus routing surface",
+      "reference_state": "control-surface",
+      "notes": "Artifact ID != claim ID."
+    },
+    {
+      "id": "AID-014",
+      "artifact": "STACK_LOCK_2026-04-12",
+      "repo": "advanced-global-intelligence",
+      "current_path": "STACK_LOCK_2026-04-12.json",
+      "artifact_role": "frozen reading / lock surface",
+      "reference_state": "control-surface",
+      "notes": "Lock identity remains stable even if later locks appear."
+    },
+    {
+      "id": "AID-015",
+      "artifact": "CANONICAL_DISTINCTIONS",
+      "repo": "advanced-global-intelligence",
+      "current_path": "CANONICAL_DISTINCTIONS.md",
+      "artifact_role": "anti-confusion surface",
+      "reference_state": "control-surface",
+      "notes": "Distinction file is not package ownership map."
+    },
+    {
+      "id": "AID-016",
+      "artifact": "OBJECTIONS_AND_REPLIES",
+      "repo": "advanced-global-intelligence",
+      "current_path": "OBJECTIONS_AND_REPLIES.md",
+      "artifact_role": "public reasoning surface",
+      "reference_state": "control-surface",
+      "notes": "Objections surface does not replace primary artifacts."
+    },
+    {
+      "id": "AID-017",
+      "artifact": "CITATION_AND_VERIFICATION",
+      "repo": "advanced-global-intelligence",
+      "current_path": "CITATION_AND_VERIFICATION.md",
+      "artifact_role": "citation / verification surface",
+      "reference_state": "control-surface",
+      "notes": "Citation discipline is not artifact registry by itself."
+    },
+    {
+      "id": "AID-018",
+      "artifact": "CLAIMS_AND_EVIDENCE_MAP",
+      "repo": "advanced-global-intelligence",
+      "current_path": "CLAIMS_AND_EVIDENCE_MAP.md",
+      "artifact_role": "claim-to-artifact crosswalk",
+      "reference_state": "control-surface",
+      "notes": "Claim map routes to artifact; it is not the artifact."
+    },
+    {
+      "id": "AID-019",
+      "artifact": "STATUS_AND_MATURITY_MAP",
+      "repo": "advanced-global-intelligence",
+      "current_path": "STATUS_AND_MATURITY_MAP.md",
+      "artifact_role": "status / maturity guidance",
+      "reference_state": "control-surface",
+      "notes": "Artifact state != maturity class."
+    },
+    {
+      "id": "AID-020",
+      "artifact": "CHANGE_CONTROL_AND_SYNC",
+      "repo": "advanced-global-intelligence",
+      "current_path": "CHANGE_CONTROL_AND_SYNC.md",
+      "artifact_role": "sync / maintenance discipline",
+      "reference_state": "control-surface",
+      "notes": "Sync discipline must check reference identity on path drift."
+    },
+    {
+      "id": "AID-021",
+      "artifact": "SUPERSESSION_AND_DEPRECATION",
+      "repo": "advanced-global-intelligence",
+      "current_path": "SUPERSESSION_AND_DEPRECATION.md",
+      "artifact_role": "supersession / retention discipline",
+      "reference_state": "control-surface",
+      "notes": "Rename alone does not imply supersession."
+    },
+    {
+      "id": "AID-022",
+      "artifact": "TERMINOLOGY_AND_ALIAS_POLICY",
+      "repo": "advanced-global-intelligence",
+      "current_path": "TERMINOLOGY_AND_ALIAS_POLICY.md",
+      "artifact_role": "terminology lock surface",
+      "reference_state": "control-surface",
+      "notes": "Alias drift must not masquerade as new artifact identity."
+    },
+    {
+      "id": "AID-023",
+      "artifact": "ENTRY_ACCEPTANCE_AND_REGRESSION",
+      "repo": "advanced-global-intelligence",
+      "current_path": "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+      "artifact_role": "entry acceptance discipline",
+      "reference_state": "control-surface",
+      "notes": "Acceptance checks do not redefine artifact identity."
+    },
+    {
+      "id": "AID-024",
+      "artifact": "ASSERTION_STRENGTH_AND_BOUNDARIES",
+      "repo": "advanced-global-intelligence",
+      "current_path": "ASSERTION_STRENGTH_AND_BOUNDARIES.md",
+      "artifact_role": "claim-force discipline",
+      "reference_state": "control-surface",
+      "notes": "Assertion class != artifact ID."
+    },
+    {
+      "id": "AID-025",
+      "artifact": "CANONICAL_OWNERSHIP_AND_BOUNDARIES",
+      "repo": "advanced-global-intelligence",
+      "current_path": "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+      "artifact_role": "ownership / package-home discipline",
+      "reference_state": "control-surface",
+      "notes": "Ownership ID != artifact ID."
+    },
+    {
+      "id": "AID-026",
+      "artifact": "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY",
+      "repo": "advanced-global-intelligence",
+      "current_path": "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md",
+      "artifact_role": "invariant / contradiction discipline",
+      "reference_state": "control-surface",
+      "notes": "Invariant break is different from path drift."
+    },
+    {
+      "id": "AID-027",
+      "artifact": "PRECEDENCE_AND_RESOLUTION",
+      "repo": "advanced-global-intelligence",
+      "current_path": "PRECEDENCE_AND_RESOLUTION.md",
+      "artifact_role": "precedence / resolution discipline",
+      "reference_state": "control-surface",
+      "notes": "Precedence decides governing surface, not artifact registry state."
+    }
+  ],
+  "rename_move_supersession_rule": [
+    "Path may update while the same artifact ID stays stable.",
+    "When path changes, review citation and claims/evidence surfaces.",
+    "Old path references must not survive silently inside canonical surfaces.",
+    "Superseded artifacts keep their ID and explicit state rather than vanishing by implication."
+  ],
+  "fail_closed_rule": "If maintainers cannot determine whether a path change preserves the same artifact identity, treat it as unresolved until the registry and affected canonical surfaces are reviewed."
+}

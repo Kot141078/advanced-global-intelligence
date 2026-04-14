@@ -6,10 +6,40 @@ This page is the single entry point for the public protocol stack:
 
 **AGI (context) → SER (normative spec) → L4 (reality-bound operations)**
 
+## Three corpus entry routes
+
+- Research / Normative: `README.md` -> `sovereign-entity-recursion` -> `ester-reality-bound`
+- Engineering / Runtime: `CORPUS_PRIMER.json` -> `ester-reality-bound` -> `ester-clean-code`
+- Narrative / Human: `https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/CORPUS_CONTEXT.md` -> `CORPUS_PRIMER.json`
+
 ## Root entry shortcuts
 
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
+- Corpus primer: `CORPUS_PRIMER.json`
+- Stack lock: `STACK_LOCK_2026-04-12.json`
+- Canonical distinctions: `CANONICAL_DISTINCTIONS.md`
+- Public objections and replies: `OBJECTIONS_AND_REPLIES.md`
+- Citation and verification: `CITATION_AND_VERIFICATION.md`
+- Claims and evidence map: `CLAIMS_AND_EVIDENCE_MAP.md`
+- Status and maturity map: `STATUS_AND_MATURITY_MAP.md`
+- Open questions and explicit non-claims: `OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md`
+- Audience profiles and minimal reading paths: `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md`
+- Change control and sync: `CHANGE_CONTROL_AND_SYNC.md`
+- Control-surface dependency and coupling map: `CONTROL_SURFACE_DEPENDENCY_AND_COUPLING_MAP.md`
+- Control-layer minimality and deduplication policy: `CONTROL_LAYER_MINIMALITY_AND_DEDUPLICATION_POLICY.md`
+- Question-to-control-surface map: `QUESTION_TO_CONTROL_SURFACE_MAP.md`
+- Control-stack completeness and stop rule: `CONTROL_STACK_COMPLETENESS_AND_STOP_RULE.md`
+- Entry acceptance and regression: `ENTRY_ACCEPTANCE_AND_REGRESSION.md`
+- Assertion strength and boundaries: `ASSERTION_STRENGTH_AND_BOUNDARIES.md`
+- Canonical ownership and boundaries: `CANONICAL_OWNERSHIP_AND_BOUNDARIES.md`
+- Cross-layer invariants and contradiction policy: `CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md`
+- Precedence and resolution: `PRECEDENCE_AND_RESOLUTION.md`
+- Artifact ID and reference policy: `ARTIFACT_ID_AND_REFERENCE_POLICY.md`
+- Public-safe boundary and exclusion policy: `PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md`
+- Package intake and integration: `PACKAGE_INTAKE_AND_INTEGRATION.md`
+- Supersession and deprecation: `SUPERSESSION_AND_DEPRECATION.md`
+- Terminology and alias policy: `TERMINOLOGY_AND_ALIAS_POLICY.md`
 - Topology map: `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - DEA package entry: `protocols/dea/README.md`
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
@@ -17,6 +47,20 @@ This page is the single entry point for the public protocol stack:
 - Economic Layer package entry: `docs/economic-layer/README.md`
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - Canonical interpretive note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
+
+## Secondary local-state / process shortcuts
+
+- Current corpus state and readiness snapshot: `CURRENT_CORPUS_STATE_AND_READINESS_SNAPSHOT.md`
+- Current local control-stack staging map: `CURRENT_LOCAL_CONTROL_STACK_STAGING_MAP.md`
+- Local promotion docket and blocker registry: `LOCAL_PROMOTION_DOCKET_AND_BLOCKER_REGISTRY.md`
+- Control-stack stop-rule audit: `CONTROL_STACK_STOP_RULE_AUDIT_2026-04-12.md`
+- Local-to-public promotion policy: `LOCAL_TO_PUBLIC_PROMOTION_POLICY.md`
+- Atomic promotion bundles: `ATOMIC_PROMOTION_BUNDLES.md`
+- Promotion sequence and release tranches: `PROMOTION_SEQUENCE_AND_RELEASE_TRANCHES.md`
+- Bootstrap cutover and public-history candidate sets: `BOOTSTRAP_CUTOVER_AND_PUBLIC_HISTORY_CANDIDATE_SETS.md`
+- Public-history annotation and release note policy: `PUBLIC_HISTORY_ANNOTATION_AND_RELEASE_NOTE_POLICY.md`
+- Public correction and errata policy: `PUBLIC_CORRECTION_AND_ERRATA_POLICY.md`
+- Export profiles and handoff bundles: `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md`
 
 ## Ecosystem-level theoretical synthesis
 
@@ -53,15 +97,15 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 
 1) **SER normative specification (start here)**
    - Repo: `Kot141078/sovereign-entity-recursion`
-   - Start: `README.md` → `DOC_MAP.md` → `pdf/` → `hashes/` → `protocol/`
+   - Start: SER README → SER DOC MAP → SER pdf → SER hashes → SER protocol
 
 2) **L4 operational materials (how it behaves in reality)**
    - Repo: `Kot141078/ester-reality-bound`
-   - Start: `protocol/` → `hashes/` → `docs/` (glossary/constraints) → `posts/` (optional)
+   - Start: ERB `protocol/` → ERB `hashes/` → ERB `docs/` (glossary/constraints) → ERB `posts/` (optional)
 
 3) **AGI = Advanced Global Intelligence (system context & cross-repo integrity)**
    - Repo: `Kot141078/advanced-global-intelligence`
-   - Start: `INDEX.md` → `protocols/` → `architecture/` → `hashes/`
+   - Start: `REPO_INDEX.md` → `protocols/` → `architecture/` → `hashes/`
 
 4) **DEA — input-to-experience normative layer**
    - Repo: `Kot141078/advanced-global-intelligence`
@@ -75,8 +119,8 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 
 ### Track B — Technical reader (deep)
 
-1) `advanced-global-intelligence/INDEX.md` (canonical map)
-2) `advanced-global-intelligence/protocols/` (stack layers, scope)
+1) `REPO_INDEX.md` (canonical map)
+2) `protocols/` (stack layers, scope)
    - includes `protocols/beacon/` for Beacon Profile v0.1 (inter-entity recognition)
    - includes `protocols/dea/` for DEA (input-to-experience normative layer)
    - includes `protocols/ea-l4-eatp/` for EA-L4 / EATP (training provenance / consequence-preserving layer)
@@ -91,6 +135,7 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 - **SER = `sovereign-entity-recursion`** — **SER normative specification** (protocol, PDFs, hashing).
 - **L4 = `ester-reality-bound`** — public-facing L4 materials (notes, protocol, posts) with repo hygiene (SECURITY / CONTRIBUTING / CITATION).
 - **Implementation reference (non-normative):** `Kot141078/ester-clean-code`.
+- **Narrative companion:** `Kot141078/qubit-of-hope-volume-i` — human-facing narrative bridge, not normative core.
 
 ---
 
@@ -99,12 +144,12 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 - By default, `c` orchestrates agents; agents do not define `c`.
 - Agents are subordinate processes and tools invoked under `c`.
 - Continuity belongs to `c`, not to any single model, judge, worker, or swarm.
-- Canonical note: `advanced-global-intelligence/architecture/ENTITY_GOVERNS_AGENTS.md`
+- Canonical note: `architecture/ENTITY_GOVERNS_AGENTS.md`
 
 ## 1.35) ARQ bridge (additive; canonical in SER)
 
 - ARQ (additive subsystem; canonical in SER):
-  - entry: `..\sovereign-entity-recursion\protocol\arq\README.md`
+  - entry: `https://github.com/Kot141078/sovereign-entity-recursion/blob/main/protocol/arq/README.md`
   - role: bounded error valuation, witness-backed promotion, experience filtering
   - bridge: correction logic -> SER continuity -> L4 bounded accountability
 - Hidden bridges:
@@ -235,9 +280,9 @@ Docs snapshot tag: machine-entry-2026-02-26
   - ZIP: https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.zip
   - TAR: https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.tar.gz
 
-- Clean (v0.2.3)
-  - ZIP: https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.3.zip
-  - TAR: https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.3.tar.gz
+- Clean (v0.2.5)
+  - ZIP: https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.5.zip
+  - TAR: https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.5.tar.gz
 
 ### Latest downloads (main branch — “give me current state”)
 
@@ -249,7 +294,7 @@ Docs snapshot tag: machine-entry-2026-02-26
 ### Verification rule (do this, not archive hashes)
 
 - Do not trust GitHub-generated archive checksums.
-- Verify **content** using each repo’s `hashes/` directory and `SHA256SUMS_*.txt`.
+- Verify **content** using each repo’s `hashes/` directory and its SHA-256 manifest files.
 
 ---
 
@@ -268,11 +313,8 @@ If you need to reproduce the “Ivan-style” perimeter quickly (home / lab / sm
 
 - Repo: `Kot141078/ester-reality-bound`
 - Path: `evidence/`
-  - `room_checklist.md`
-  - `power_chain_diagram.md` (optional printable PDF in `evidence/pdf/`)
-  - `perimeter_snapshot.example.json`
-  - `perimeter_change.example.json`
-  - `README.md`
+  - examples include a room checklist, perimeter snapshot, perimeter change record, and optional power-chain diagram
+  - see the ERB evidence README plus the `evidence/` subtree there
 
 Purpose: a reviewer can verify a node/room perimeter without inventing formats.
 
@@ -343,3 +385,4 @@ Zenodo records:
 ## Related public materials
 
 - Literary companion repository: `Kot141078/qubit-of-hope-volume-i` — multilingual reading repository for *Qubit of Hope — Volume I*
+- Corpus role: human-facing narrative companion

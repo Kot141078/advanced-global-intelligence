@@ -1,0 +1,175 @@
+{
+  "schema": "agi.assertion_strength_and_boundaries.v1",
+  "date": "2026-04-12",
+  "classes": [
+    {
+      "id": "C-A1",
+      "assertion_class": "axiomatic / ontological claim",
+      "means": "Fixes an irreducible premise, entity model, or identity-bearing assumption the rest of the stack depends on.",
+      "does_not_mean": "Not a full protocol, procedure, or mature implementation standard.",
+      "typical_artifacts": [
+        "axioms",
+        "core formula notes",
+        "foundational ontological sections"
+      ],
+      "reading_boundary": "Read as a load-bearing premise and do not infer downstream procedures the text does not state."
+    },
+    {
+      "id": "C-A2",
+      "assertion_class": "architectural core claim",
+      "means": "Fixes a structural relation, hierarchy, or stack-wide design rule that routes interpretation across repos.",
+      "does_not_mean": "Not every downstream clause, witness rule, or package detail is settled merely because the architecture is load-bearing.",
+      "typical_artifacts": [
+        "architecture notes",
+        "core framing surfaces",
+        "entity-governs-agents notes"
+      ],
+      "reading_boundary": "Read as stack structure and relation logic, not as complete doctrine."
+    },
+    {
+      "id": "C-A3",
+      "assertion_class": "operational rule / execution discipline",
+      "means": "Defines bounded execution, recovery, or handling logic for real operation under specified conditions.",
+      "does_not_mean": "Not a universal law, final ontology, or blanket permission claim.",
+      "typical_artifacts": [
+        "checklists",
+        "recovery logic",
+        "operator procedures",
+        "bounded execution rules"
+      ],
+      "reading_boundary": "Read as operational discipline within scope, not as unlimited theory or mature normative closure."
+    },
+    {
+      "id": "C-A4",
+      "assertion_class": "draft normative proposal",
+      "means": "Offers a serious normative proposal that may guide review and citation while remaining explicitly non-final.",
+      "does_not_mean": "Not stable mature core, not settled law of the corpus, and not immune from revision.",
+      "typical_artifacts": [
+        "RFCs",
+        "normative drafts",
+        "bounded draft clauses",
+        "active proposal packages"
+      ],
+      "reading_boundary": "Read as strong draft material with explicit revision risk."
+    },
+    {
+      "id": "C-A5",
+      "assertion_class": "observed protocol / practice-derived stability claim",
+      "means": "Records a protocol, pattern, or stability claim grounded in observed or practice-derived regularity.",
+      "does_not_mean": "Not a universal law and not a guarantee that every context behaves the same way.",
+      "typical_artifacts": [
+        "observed-protocol notes",
+        "practice-derived protocol descriptions",
+        "ecosystem regularity surfaces"
+      ],
+      "reading_boundary": "Read as evidence of recurrent behavior, not as total doctrine."
+    },
+    {
+      "id": "C-A6",
+      "assertion_class": "runtime proof-of-possibility claim",
+      "means": "Shows that a constrained operational form can be built, closed, and inspected in executable reality.",
+      "does_not_mean": "Not productization, not market readiness, and not a replacement for normative proof.",
+      "typical_artifacts": [
+        "runtime closure reports",
+        "executable skeleton proof surfaces",
+        "operational closure notes"
+      ],
+      "reading_boundary": "Read as feasibility evidence under constraints, not as finished platform doctrine."
+    },
+    {
+      "id": "C-A7",
+      "assertion_class": "evidence-layer / witness-verification claim",
+      "means": "Defines what can be witnessed, checked, replayed, challenged, or verified at the evidence layer.",
+      "does_not_mean": "Not a full ontological settlement and not automatic proof of every interpretation placed around it.",
+      "typical_artifacts": [
+        "witness protocols",
+        "evidence envelopes",
+        "verification paths",
+        "audit-facing evidence logic"
+      ],
+      "reading_boundary": "Read as a claim about reviewability and admissibility, not about every broader conclusion."
+    },
+    {
+      "id": "C-A8",
+      "assertion_class": "narrative / perception-shift claim",
+      "means": "Carries recognition, perception, and human-facing interpretive force that helps readers see what narrower protocol layers alone may not surface.",
+      "does_not_mean": "Not normative proof, not protocol evidence, and not doctrinal replacement.",
+      "typical_artifacts": [
+        "companion context",
+        "narrative bridge",
+        "perception-shift framing"
+      ],
+      "reading_boundary": "Read as companion illumination only; it can clarify recognition without replacing proof."
+    },
+    {
+      "id": "C-A9",
+      "assertion_class": "reserved-territory non-claim / explicit incompleteness",
+      "means": "Marks territory that is intentionally bounded, incomplete, or held open rather than closed into doctrine.",
+      "does_not_mean": "Not hidden completed doctrine, not weak mature norm, and not silent permission to fill gaps by inference.",
+      "typical_artifacts": [
+        "boundary notes",
+        "explicit non-claims",
+        "reserved-territory notes"
+      ],
+      "reading_boundary": "Read as deliberate non-closure; the safe reading is restraint rather than completion by guesswork."
+    },
+    {
+      "id": "C-A10",
+      "assertion_class": "control-layer / corpus-maintenance rule",
+      "means": "Constrains entry, citation, routing, sync, terminology, acceptance, or other corpus-control behavior.",
+      "does_not_mean": "Not primary doctrine and not a substitute for the artifact whose meaning it routes.",
+      "typical_artifacts": [
+        "primers",
+        "stack locks",
+        "sync rules",
+        "supersession rules",
+        "terminology policy",
+        "acceptance layers"
+      ],
+      "reading_boundary": "Read as reading-control and maintenance discipline, not as the underlying claim source itself."
+    }
+  ],
+  "examples": [
+    {
+      "artifact": "Axiom_of_Volition_Inheritance_v1.0.md",
+      "assertion_class": "axiomatic / ontological claim"
+    },
+    {
+      "artifact": "c = a + b / AGI core framing",
+      "assertion_class": "architectural core claim"
+    },
+    {
+      "artifact": "Cold Wake / Continuity Bundle recovery logic",
+      "assertion_class": "operational rule / execution discipline or evidence-layer / witness-verification claim, depending on whether the question is handling or admissibility"
+    },
+    {
+      "artifact": "SER-FED / Economic Layer / EA clauses",
+      "assertion_class": "draft normative proposal unless a narrower canonical surface explicitly gives them stronger force"
+    },
+    {
+      "artifact": "EWCEP",
+      "assertion_class": "observed protocol / practice-derived stability claim"
+    },
+    {
+      "artifact": "ester-clean-code/PROOF_OF_CLOSURE.md",
+      "assertion_class": "runtime proof-of-possibility claim"
+    },
+    {
+      "artifact": "L4 Witness",
+      "assertion_class": "evidence-layer / witness-verification claim"
+    },
+    {
+      "artifact": "qubit-of-hope-volume-i/CORPUS_CONTEXT.md",
+      "assertion_class": "narrative / perception-shift claim"
+    },
+    {
+      "artifact": "Pre_Lineage_Boundary_Note_v0.1.md",
+      "assertion_class": "reserved-territory non-claim / explicit incompleteness"
+    },
+    {
+      "artifact": "primer / stack lock / sync / supersession / terminology / acceptance layers",
+      "assertion_class": "control-layer / corpus-maintenance rule"
+    }
+  ],
+  "fail_closed_rule": "If the claim force of a text is unclear, read it at the weaker compatible class until a more canonical surface clarifies otherwise."
+}

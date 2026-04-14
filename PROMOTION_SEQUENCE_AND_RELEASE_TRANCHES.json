@@ -1,0 +1,193 @@
+{
+  "schema": "agi.promotion_sequence_and_release_tranches.v1",
+  "date": "2026-04-12",
+  "tranches": [
+    {
+      "id": "TR01",
+      "tranche_name": "entry-and-orientation tranche",
+      "goal": "establish bounded first-pass routing and frozen-reading basics",
+      "minimum_surfaces": [
+        "CORPUS_PRIMER.json",
+        "STACK_LOCK_2026-04-12.json",
+        "first machine-entry cleanup",
+        "qubit-of-hope-volume-i/CORPUS_CONTEXT.md basics"
+      ],
+      "why_here": "later control layers are harder to read if baseline routing and corpus role boundaries do not already exist",
+      "should_not_precede": [
+        "later anti-confusion, claim, or promotion-history surfaces"
+      ]
+    },
+    {
+      "id": "TR02",
+      "tranche_name": "anti-confusion tranche",
+      "goal": "prevent early public misreading of terms, scope, and objections",
+      "minimum_surfaces": [
+        "CANONICAL_DISTINCTIONS.md",
+        "OBJECTIONS_AND_REPLIES.md",
+        "CITATION_AND_VERIFICATION.md"
+      ],
+      "why_here": "claims and status are easier to read once confusion and citation posture are already bounded",
+      "should_not_precede": [
+        "later claim, ownership, or handoff surfaces"
+      ]
+    },
+    {
+      "id": "TR03",
+      "tranche_name": "claim-and-status tranche",
+      "goal": "expose what the corpus claims and how strongly or maturely it should be read",
+      "minimum_surfaces": [
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "ASSERTION_STRENGTH_AND_BOUNDARIES.md"
+      ],
+      "why_here": "public readers need claims, maturity, and reading force together before later governance layers make sense",
+      "should_not_precede": [
+        "later open-question, handoff, or promotion-history layers"
+      ]
+    },
+    {
+      "id": "TR04",
+      "tranche_name": "control-discipline tranche",
+      "goal": "establish maintenance and reading-discipline rules for the visible public layer",
+      "minimum_surfaces": [
+        "CHANGE_CONTROL_AND_SYNC.md",
+        "SUPERSESSION_AND_DEPRECATION.md",
+        "TERMINOLOGY_AND_ALIAS_POLICY.md",
+        "ENTRY_ACCEPTANCE_AND_REGRESSION.md"
+      ],
+      "why_here": "once claims are public, the maintenance rules for keeping them coherent should become visible",
+      "should_not_precede": [
+        "promotion-history or later boundary planning"
+      ]
+    },
+    {
+      "id": "TR05",
+      "tranche_name": "ownership-and-precedence tranche",
+      "goal": "fix canonical home, governing-source order, and invariant safety",
+      "minimum_surfaces": [
+        "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+        "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md",
+        "PRECEDENCE_AND_RESOLUTION.md"
+      ],
+      "why_here": "boundary and authority questions are clearer after orientation, anti-confusion, claims, and maintenance rules already exist",
+      "should_not_precede": [
+        "artifact, handoff, or later promotion-planning layers"
+      ]
+    },
+    {
+      "id": "TR06",
+      "tranche_name": "artifact-and-intake tranche",
+      "goal": "stabilize artifact identity and the path for new package admission",
+      "minimum_surfaces": [
+        "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+        "PACKAGE_INTAKE_AND_INTEGRATION.md"
+      ],
+      "why_here": "identity and intake decisions are easier to read once ownership and precedence are already visible",
+      "should_not_precede": [
+        "later promotion-history and outward handoff layers"
+      ]
+    },
+    {
+      "id": "TR07",
+      "tranche_name": "boundary-and-handoff tranche",
+      "goal": "bound public-safe exposure, audience paths, and outward bundle sufficiency",
+      "minimum_surfaces": [
+        "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md",
+        "AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md",
+        "EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md"
+      ],
+      "why_here": "outward-facing routing should come after earlier framing, authority, and identity layers are already public",
+      "should_not_precede": [
+        "promotion-history or companion-facing handoff"
+      ]
+    },
+    {
+      "id": "TR08",
+      "tranche_name": "promotion-and-history tranche",
+      "goal": "make local/public history discipline explicit once earlier supporting control surfaces already exist",
+      "minimum_surfaces": [
+        "LOCAL_TO_PUBLIC_PROMOTION_POLICY.md",
+        "ATOMIC_PROMOTION_BUNDLES.md"
+      ],
+      "why_here": "promotion-state and atomic-bundle rules are safer once the earlier control layer can already support them",
+      "should_not_precede": [
+        "the supporting control surfaces they depend on"
+      ]
+    },
+    {
+      "id": "TR09",
+      "tranche_name": "open-questions tranche",
+      "goal": "show deliberate incompleteness without letting it masquerade as silent closure",
+      "minimum_surfaces": [
+        "OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md"
+      ],
+      "why_here": "open territory is easier to read once claims, status, authority, and boundary framing are already public",
+      "should_not_precede": [
+        "the stronger framing that shows what is already claimed and what is not"
+      ]
+    },
+    {
+      "id": "TR10",
+      "tranche_name": "future optional consolidation tranche",
+      "goal": "allow later cleanup, index tightening, or bounded consolidation after prior tranches are already public",
+      "minimum_surfaces": [
+        "short later cleanup or consolidation pass only after prior tranche visibility exists"
+      ],
+      "why_here": "consolidation is least misleading once the earlier public-history layers are already visible in order",
+      "should_not_precede": [
+        "the earlier tranche sequence"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "id": "SQ01",
+      "problem": "promoting late control layers before basic entry orientation exists",
+      "what_goes_wrong": "public history starts with downstream control wording but no stable first-pass route",
+      "why_harmful": "later readers meet conclusions before they can even identify the corpus map"
+    },
+    {
+      "id": "SQ02",
+      "problem": "promoting claims/status without citation and routing clarity",
+      "what_goes_wrong": "claims appear before citation posture and anti-confusion framing are visible",
+      "why_harmful": "public readers cannot tell what the claims point to or how narrowly they should be read"
+    },
+    {
+      "id": "SQ03",
+      "problem": "promoting ownership/precedence without earlier anti-confusion control",
+      "what_goes_wrong": "authority and canonical-home language appears before confusion boundaries are fixed",
+      "why_harmful": "public history begins to look like internal re-ordering without the framing needed to interpret it"
+    },
+    {
+      "id": "SQ04",
+      "problem": "promoting handoff/export before public-safe boundary exists",
+      "what_goes_wrong": "outward bundle logic appears before safety and exclusion classes are public",
+      "why_harmful": "readers may infer that outward sharing rules are broader or safer than the corpus actually established"
+    },
+    {
+      "id": "SQ05",
+      "problem": "promoting promotion policy before acceptance/sync layer exists",
+      "what_goes_wrong": "local/public state language appears before the maintenance rules that justify it",
+      "why_harmful": "public history can look procedurally authoritative without the earlier control discipline"
+    },
+    {
+      "id": "SQ06",
+      "problem": "promoting open-question layer before stronger claims/status framing exists",
+      "what_goes_wrong": "unresolved territory appears before the corpus shows what is already claimed and how mature it is",
+      "why_harmful": "non-closure becomes harder to interpret and may look like vagueness rather than deliberate restraint"
+    },
+    {
+      "id": "SQ07",
+      "problem": "promoting later tranches in isolation so public history appears conceptually backward",
+      "what_goes_wrong": "later history-facing or boundary-facing layers arrive without their earlier supports",
+      "why_harmful": "the visible sequence starts to misrepresent conceptual dependence inside the corpus"
+    },
+    {
+      "id": "SQ08",
+      "problem": "mixing unrelated tranche content into one noisy undifferentiated promotion step",
+      "what_goes_wrong": "public history receives too many unrelated control moves at once",
+      "why_harmful": "reviewers lose the ability to see what changed first, why, and which layer actually depends on which"
+    }
+  ],
+  "fail_closed_rule": "If maintainers cannot determine whether a local layer belongs to an earlier or later tranche, default to the earlier supporting tranche logic before promotion."
+}

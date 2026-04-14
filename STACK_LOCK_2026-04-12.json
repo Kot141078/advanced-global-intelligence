@@ -1,0 +1,42 @@
+{
+  "schema": "agi.stack_lock.v1",
+  "date": "2026-04-12",
+  "note": "Locks the currently aligned public corpus reading stack using existing stable tags where available and an exact commit where no stable tag was present locally.",
+  "entries": [
+    {
+      "repo": "advanced-global-intelligence",
+      "owner": "Kot141078",
+      "ref_type": "tag",
+      "ref": "agi-snapshot-2026-02-24",
+      "note": "stable snapshot tag present locally"
+    },
+    {
+      "repo": "ester-reality-bound",
+      "owner": "Kot141078",
+      "ref_type": "tag",
+      "ref": "l4-snapshot-2026-02-24",
+      "note": "stable snapshot tag present locally"
+    },
+    {
+      "repo": "sovereign-entity-recursion",
+      "owner": "Kot141078",
+      "ref_type": "tag",
+      "ref": "ecosystem-v0.2-2026-02-24",
+      "note": "stable snapshot tag present locally"
+    },
+    {
+      "repo": "ester-clean-code",
+      "owner": "Kot141078",
+      "ref_type": "tag",
+      "ref": "v0.2.5",
+      "note": "stable release tag present locally"
+    },
+    {
+      "repo": "qubit-of-hope-volume-i",
+      "owner": "Kot141078",
+      "ref_type": "commit",
+      "ref": "73a35464c611b679e37ca703fa9e177ebe0c4831",
+      "note": "locked to exact commit because no stable tag was found locally"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema": "agi.local_to_public_promotion_policy.v1",
+  "date": "2026-04-12",
+  "states": [
+    {
+      "id": "PS01",
+      "promotion_state": "local working state",
+      "meaning": "In-progress local corpus work.",
+      "what_is_true": "Local edits or draft surfaces exist.",
+      "what_is_not_yet_true": "Acceptance, validation, commit-readiness, and public-facing status are not yet established.",
+      "allowed_use": "Local drafting, iteration, and bounded private review inside the allowed workspace."
+    },
+    {
+      "id": "PS02",
+      "promotion_state": "local accepted state",
+      "meaning": "A bounded local result accepted for continued local use.",
+      "what_is_true": "The current local pass accepts the layer as usable for further local work.",
+      "what_is_not_yet_true": "Promotion review is not complete and public history is not yet justified.",
+      "allowed_use": "Local baseline for the next bounded pass in the same allowed workspace."
+    },
+    {
+      "id": "PS03",
+      "promotion_state": "locally validated state",
+      "meaning": "A local state that cleared the required checks for the current pass.",
+      "what_is_true": "Required refs, IDs, path hygiene, and manifest updates for the pass have been checked locally.",
+      "what_is_not_yet_true": "Commit-ready and public-facing promotion are still separate questions.",
+      "allowed_use": "Candidate for promotion review, not yet public-history truth."
+    },
+    {
+      "id": "PS04",
+      "promotion_state": "commit-ready state",
+      "meaning": "A local state that cleared bounded promotion review.",
+      "what_is_true": "Blockers are resolved, affected control surfaces are aligned, and required repo-pattern manifests are updated.",
+      "what_is_not_yet_true": "The state is not yet public-facing committed history or automatically external-reference-ready.",
+      "allowed_use": "Candidate for explicit public git-history promotion after human review."
+    },
+    {
+      "id": "PS05",
+      "promotion_state": "public-facing committed state",
+      "meaning": "A state already present in public-facing committed repo history.",
+      "what_is_true": "The relevant public repo history now contains the state and the visible control layer reflects it.",
+      "what_is_not_yet_true": "Snapshot, release, DOI, or export-readiness is not automatically implied.",
+      "allowed_use": "Public reading and public-history reference inside the live repo state."
+    },
+    {
+      "id": "PS06",
+      "promotion_state": "publishable / external-reference-ready state",
+      "meaning": "A public-facing state safe for outward reference or bounded external handoff.",
+      "what_is_true": "Outward enough-for / not-enough-for boundaries are clear and public-safe, citation, and export wording are aligned.",
+      "what_is_not_yet_true": "Whole-corpus closure, universal readiness, or frozen-object status are not implied.",
+      "allowed_use": "External reference, bounded handoff, or publication routing where the current repo-pattern supports it."
+    }
+  ],
+  "blockers": [
+    {
+      "id": "PB01",
+      "blocker": "unresolved corpus-control contradiction",
+      "what_blocks_promotion": "Touched surfaces still conflict with load-bearing control-layer rules or each other.",
+      "why_it_matters": "Public history should not capture unresolved control-layer drift as if it were settled."
+    },
+    {
+      "id": "PB02",
+      "blocker": "broken discoverability of canonical surfaces",
+      "what_blocks_promotion": "A serious reader or machine can no longer find required canonical surfaces from AGI control entry points.",
+      "why_it_matters": "Public promotion without discoverability breaks routing and later review."
+    },
+    {
+      "id": "PB03",
+      "blocker": "stale refs / path drift in control layer",
+      "what_blocks_promotion": "Canonical paths, raw links, or file references are stale, broken, or inconsistent.",
+      "why_it_matters": "Outward-facing history should not preserve false routing or brittle pointers."
+    },
+    {
+      "id": "PB04",
+      "blocker": "status/assertion/ownership mismatch",
+      "what_blocks_promotion": "Promotion would preserve mismatched maturity, claim force, or canonical-home wording.",
+      "why_it_matters": "Public readers may import authority the corpus did not grant."
+    },
+    {
+      "id": "PB05",
+      "blocker": "public-safe boundary uncertainty",
+      "what_blocks_promotion": "It is still unclear whether touched material is public-safe, pointer-only, or excluded.",
+      "why_it_matters": "Uncertain boundary class is a stop signal for public-facing promotion."
+    },
+    {
+      "id": "PB06",
+      "blocker": "unresolved package classification",
+      "what_blocks_promotion": "The touched addition still lacks stable role, scope, or control-surface classification.",
+      "why_it_matters": "Unclassified local material should not harden into public canon by inertia."
+    },
+    {
+      "id": "PB07",
+      "blocker": "missing manifest / integrity update where required by repo-pattern",
+      "what_blocks_promotion": "The current repo pattern expects manifest alignment and it is still stale or absent.",
+      "why_it_matters": "Public history should not claim integrity discipline it does not actually reflect."
+    },
+    {
+      "id": "PB08",
+      "blocker": "unclear enough-for / not-enough-for boundary in outward-facing bundle",
+      "what_blocks_promotion": "Outward-facing wording still overclaims what a promoted state or bundle is sufficient for.",
+      "why_it_matters": "Promotion without bounded outward claims invites later misreading and overreach."
+    }
+  ],
+  "minimal_promotion_review": [
+    "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+    "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+    "PRECEDENCE_AND_RESOLUTION.md",
+    "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md",
+    "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+    "CITATION_AND_VERIFICATION.md",
+    "manifests only where the current repo-pattern requires them",
+    "EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md if outward-facing sharing is affected",
+    "OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md if unresolved territory is affected"
+  ],
+  "fail_closed_rule": "If maintainers cannot determine whether a local state is truly commit-ready, it remains local accepted or locally validated only until clarified."
+}

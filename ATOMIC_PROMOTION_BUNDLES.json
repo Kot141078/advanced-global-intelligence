@@ -1,0 +1,174 @@
+{
+  "schema": "agi.atomic_promotion_bundles.v1",
+  "date": "2026-04-12",
+  "bundles": [
+    {
+      "id": "AB01",
+      "bundle_name": "entry/control surface bundle",
+      "primary_trigger": "a canonical layer is added, renamed, removed, or rerouted",
+      "minimum_surfaces": [
+        "README.md",
+        "MACHINE_ENTRY.md",
+        "MASTER_ENTRY.md",
+        "REPO_INDEX.md",
+        "REPO_INDEX.json"
+      ],
+      "why_atomicity_matters": "public readers and machines should keep finding the same control layer without a second search step",
+      "pre_promotion_check": "confirm discoverability and routing stay coherent across entry/control surfaces"
+    },
+    {
+      "id": "AB02",
+      "bundle_name": "citation / reference bundle",
+      "primary_trigger": "citation target, verification wording, or preferred public object changes",
+      "minimum_surfaces": [
+        "CITATION_AND_VERIFICATION.md",
+        "affected citation-facing entry or index surfaces"
+      ],
+      "why_atomicity_matters": "citation drift can turn public history into a false reference map",
+      "pre_promotion_check": "confirm citation target, verification wording, and outward download wording still describe the same object"
+    },
+    {
+      "id": "AB03",
+      "bundle_name": "claims / status / assertion bundle",
+      "primary_trigger": "claim wording, evidentiary routing, maturity class, or claim force changes",
+      "minimum_surfaces": [
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "ASSERTION_STRENGTH_AND_BOUNDARIES.md"
+      ],
+      "why_atomicity_matters": "a promoted claim should not outrun its status class or permitted reading force",
+      "pre_promotion_check": "confirm canonical artifact, maturity class, and assertion strength still agree"
+    },
+    {
+      "id": "AB04",
+      "bundle_name": "ownership / precedence / invariants bundle",
+      "primary_trigger": "canonical home, governing source, or invariant wording changes",
+      "minimum_surfaces": [
+        "CANONICAL_OWNERSHIP_AND_BOUNDARIES.md",
+        "PRECEDENCE_AND_RESOLUTION.md",
+        "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md"
+      ],
+      "why_atomicity_matters": "public history should not preserve a boundary shift without its governing and invariant context",
+      "pre_promotion_check": "confirm ownership, governing precedence, and invariant wording do not contradict each other"
+    },
+    {
+      "id": "AB05",
+      "bundle_name": "sync / acceptance / promotion discipline bundle",
+      "primary_trigger": "maintenance rules, acceptance standard, or promotion-state discipline changes",
+      "minimum_surfaces": [
+        "CHANGE_CONTROL_AND_SYNC.md",
+        "ENTRY_ACCEPTANCE_AND_REGRESSION.md",
+        "LOCAL_TO_PUBLIC_PROMOTION_POLICY.md"
+      ],
+      "why_atomicity_matters": "promotion discipline should not drift away from sync and acceptance discipline",
+      "pre_promotion_check": "confirm acceptance threshold, sync obligations, and promotion-state wording still fit the same maintenance reality"
+    },
+    {
+      "id": "AB06",
+      "bundle_name": "artifact identity / supersession bundle",
+      "primary_trigger": "a stable artifact ID is added, moved, renamed, retained, or superseded",
+      "minimum_surfaces": [
+        "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+        "SUPERSESSION_AND_DEPRECATION.md",
+        "affected maps where identity state matters"
+      ],
+      "why_atomicity_matters": "reference identity and supersession state should not be promoted as separate stories",
+      "pre_promotion_check": "confirm the artifact is still the same one, or that the new state and retained trace are explicit"
+    },
+    {
+      "id": "AB07",
+      "bundle_name": "public-safe / export / audience bundle",
+      "primary_trigger": "outward handoff wording, audience path, or public-safe boundary class changes",
+      "minimum_surfaces": [
+        "PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md",
+        "EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md",
+        "AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md"
+      ],
+      "why_atomicity_matters": "outward-facing routing should not overclaim bundle safety or audience sufficiency",
+      "pre_promotion_check": "confirm boundary class, enough-for wording, and audience path remain aligned and bounded"
+    },
+    {
+      "id": "AB08",
+      "bundle_name": "open-question / reserved-boundary bundle",
+      "primary_trigger": "unresolved territory, explicit non-claim, or reserved boundary wording changes",
+      "minimum_surfaces": [
+        "OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md",
+        "affected boundary or status surfaces"
+      ],
+      "why_atomicity_matters": "unresolved territory should not look settled because only one surface was promoted",
+      "pre_promotion_check": "confirm open questions remain open and reserved territory is not silently upgraded"
+    },
+    {
+      "id": "AB09",
+      "bundle_name": "package-intake / new-package bundle",
+      "primary_trigger": "a new package, repo, or control surface enters corpus-visible routing",
+      "minimum_surfaces": [
+        "PACKAGE_INTAKE_AND_INTEGRATION.md",
+        "ownership, status, claims, or artifact-id surfaces as needed"
+      ],
+      "why_atomicity_matters": "public routing should not harden an unclassified package into canon by inertia",
+      "pre_promotion_check": "confirm role, owner, status, and citation/reference posture are fixed before promotion"
+    },
+    {
+      "id": "AB10",
+      "bundle_name": "repo-pattern integrity bundle",
+      "primary_trigger": "touched files require integrity refresh under the current repo pattern",
+      "minimum_surfaces": [
+        "only the manifests already required by the touched repo set"
+      ],
+      "why_atomicity_matters": "manifest churn should not become a fake substitute for canonical coherence",
+      "pre_promotion_check": "confirm manifest scope stays bounded to the existing repo pattern and matches the touched surfaces"
+    }
+  ],
+  "anti_patterns": [
+    {
+      "id": "APB01",
+      "problem": "claims map updated without status/assertion review",
+      "what_goes_wrong": "claim routing changes while maturity class or reading force stays stale",
+      "why_dangerous": "public history can preserve stronger meaning than the corpus actually granted"
+    },
+    {
+      "id": "APB02",
+      "problem": "new canonical layer added without routing/discoverability refresh",
+      "what_goes_wrong": "the new layer exists but control surfaces do not route readers or machines to it",
+      "why_dangerous": "a canonical file becomes effectively hidden and later review starts from stale entry points"
+    },
+    {
+      "id": "APB03",
+      "problem": "artifact ID introduced without reference-state / supersession review",
+      "what_goes_wrong": "a new identifier appears without clear continuity or retained-state handling",
+      "why_dangerous": "later readers cannot tell whether promotion preserved identity or silently replaced it"
+    },
+    {
+      "id": "APB04",
+      "problem": "export bundle changed without public-safe boundary review",
+      "what_goes_wrong": "outward bundle wording expands while boundary class stays unreviewed",
+      "why_dangerous": "public-safe drift can turn bounded handoff into accidental overexposure or overclaim"
+    },
+    {
+      "id": "APB05",
+      "problem": "promotion policy changed without acceptance/sync review",
+      "what_goes_wrong": "commit-readiness language changes but local checks and sync duties do not",
+      "why_dangerous": "public-history promotion starts using a rule the rest of the control layer does not support"
+    },
+    {
+      "id": "APB06",
+      "problem": "ownership changed without precedence review",
+      "what_goes_wrong": "canonical-home wording changes while governing-source rules stay stale",
+      "why_dangerous": "a weaker or non-owner surface can start behaving like override in public history"
+    },
+    {
+      "id": "APB07",
+      "problem": "open-question layer changed without boundary/status review",
+      "what_goes_wrong": "unresolved territory wording moves but reserved or status surfaces do not",
+      "why_dangerous": "public readers may import closure or maturity that the corpus still withholds"
+    },
+    {
+      "id": "APB08",
+      "problem": "manifest updated without corresponding canonical surface coherence check",
+      "what_goes_wrong": "hashes refresh while the logical control bundle is still inconsistent",
+      "why_dangerous": "integrity traces can make a broken half-promotion look more settled than it is"
+    }
+  ],
+  "fail_closed_rule": "If maintainers cannot determine whether a change belongs to a larger atomic bundle, promotion should pause until the minimally coupled bundle is identified."
+}

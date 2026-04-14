@@ -1,0 +1,191 @@
+{
+  "schema": "agi.cross_layer_invariants_and_contradiction_policy.v1",
+  "date": "2026-04-12",
+  "invariants": [
+    {
+      "id": "I01",
+      "invariant": "AGI means Advanced Global Intelligence, not monolithic AGI.",
+      "protects": "corpus scope and entry meaning",
+      "contradiction": "any surface treating AGI as one-model superintelligence",
+      "primary_anchor": "CANONICAL_DISTINCTIONS.md",
+      "supporting_anchors": [
+        "MASTER_ENTRY.md",
+        "MACHINE_ENTRY.md"
+      ]
+    },
+    {
+      "id": "I02",
+      "invariant": "c is a long-lived entity and is not reducible to an agent.",
+      "protects": "entity/agent hierarchy",
+      "contradiction": "a file treating c as merely a worker, model, or agent shell",
+      "primary_anchor": "architecture/ENTITY_GOVERNS_AGENTS.md",
+      "supporting_anchors": [
+        "ester-reality-bound/docs/ENTITY_GOVERNS_AGENTS.md",
+        "ester-clean-code/MACHINE_ENTRY.md"
+      ]
+    },
+    {
+      "id": "I03",
+      "invariant": "continuity is narrower than resemblance.",
+      "protects": "identity boundary",
+      "contradiction": "a text authorizing continuity from similarity, tone, or copy alone",
+      "primary_anchor": "CANONICAL_DISTINCTIONS.md",
+      "supporting_anchors": [
+        "protocols/continuity-bundle/README.md",
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md"
+      ]
+    },
+    {
+      "id": "I04",
+      "invariant": "a remains the responsibility-bearing human anchor.",
+      "protects": "accountability and responsibility location",
+      "contradiction": "any surface relocating anchor responsibility into review, oracle, or automation layers",
+      "primary_anchor": "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+      "supporting_anchors": [
+        "sovereign-entity-recursion/protocol/SER_v1.3_EN.md"
+      ]
+    },
+    {
+      "id": "I05",
+      "invariant": "oracle is stateless and does not own identity, continuity, or authority.",
+      "protects": "non-identity oracle boundary",
+      "contradiction": "a file granting oracle memory-bearing identity or governing authority",
+      "primary_anchor": "sovereign-entity-recursion/protocol/ser-fed/SER-FED_v0.2_RFC_EN.md",
+      "supporting_anchors": [
+        "CANONICAL_DISTINCTIONS.md"
+      ]
+    },
+    {
+      "id": "I06",
+      "invariant": "arbiter / review layers govern procedural effect, not origin-meaning of c.",
+      "protects": "review-layer limits",
+      "contradiction": "a text making arbiter or review the owner of entity meaning or continuity",
+      "primary_anchor": "sovereign-entity-recursion/docs/arbitration-review-layer/Multi_Entity_Arbitration_Review_Layer_v0.1.md",
+      "supporting_anchors": [
+        "sovereign-entity-recursion/protocol/ser-fed/SER-FED_v0.2_RFC_EN.md"
+      ]
+    },
+    {
+      "id": "I07",
+      "invariant": "L4 defines feasibility constraints and cannot be overridden by rhetoric, policy styling, or wishful wording.",
+      "protects": "reality-bound feasibility",
+      "contradiction": "wording that treats infeasible action as acceptable by declaration alone",
+      "primary_anchor": "ester-reality-bound/protocol/L4_reality_boundary_layer.md",
+      "supporting_anchors": [
+        "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "CANONICAL_DISTINCTIONS.md"
+      ]
+    },
+    {
+      "id": "I08",
+      "invariant": "EA and LA are not equivalent and must not be collapsed into one value/authority channel.",
+      "protects": "evidence and authority separation",
+      "contradiction": "a surface merging EA and LA into one undifferentiated evidence or privilege stream",
+      "primary_anchor": "sovereign-entity-recursion/protocol/ser-fed/SER-FED_v0.2_RFC_EN.md",
+      "supporting_anchors": [
+        "CANONICAL_DISTINCTIONS.md"
+      ]
+    },
+    {
+      "id": "I09",
+      "invariant": "witness / evidence surfaces must remain tamper-evident and reviewable rather than narrative-only.",
+      "protects": "evidence integrity",
+      "contradiction": "a surface replacing replayable evidence with story-like or non-reviewable narrative",
+      "primary_anchor": "official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf",
+      "supporting_anchors": [
+        "ester-clean-code/PROOF_OF_CLOSURE.md",
+        "sovereign-entity-recursion/docs/arbitration-review-layer/Multi_Entity_Arbitration_Review_Layer_v0.1.md"
+      ]
+    },
+    {
+      "id": "I10",
+      "invariant": "runtime proof-of-possibility is not equal to finished commercial productization.",
+      "protects": "runtime/product boundary",
+      "contradiction": "a text treating closure proof as product completion or doctrinal replacement",
+      "primary_anchor": "ester-clean-code/PROOF_OF_CLOSURE.md",
+      "supporting_anchors": [
+        "ester-clean-code/README.md",
+        "ester-clean-code/MACHINE_ENTRY.md"
+      ]
+    },
+    {
+      "id": "I11",
+      "invariant": "narrative companion is intentional and valid, but does not replace normative or operational proof layers.",
+      "protects": "companion/non-proof boundary",
+      "contradiction": "a surface treating the book layer as normative or operational proof",
+      "primary_anchor": "qubit-of-hope-volume-i/CORPUS_CONTEXT.md",
+      "supporting_anchors": [
+        "qubit-of-hope-volume-i/README.md",
+        "CANONICAL_DISTINCTIONS.md"
+      ]
+    },
+    {
+      "id": "I12",
+      "invariant": "reserved territory means explicit non-closure and must not be silently treated as completed doctrine.",
+      "protects": "non-closure discipline",
+      "contradiction": "a text reading reserved territory as if doctrine were already complete",
+      "primary_anchor": "manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
+      "supporting_anchors": [
+        "STATUS_AND_MATURITY_MAP.md"
+      ]
+    }
+  ],
+  "contradiction_classes": [
+    {
+      "id": "K01",
+      "name": "semantic contradiction",
+      "meaning": "reverses meaning while keeping familiar vocabulary",
+      "why_it_matters": "similarity of wording can hide doctrinal break",
+      "example_pattern": "c kept as term but redefined as agent"
+    },
+    {
+      "id": "K02",
+      "name": "boundary contradiction",
+      "meaning": "destroys what a repo, package, or layer is not",
+      "why_it_matters": "role confusion propagates across entry surfaces",
+      "example_pattern": "companion text starts claiming normative core status"
+    },
+    {
+      "id": "K03",
+      "name": "ownership contradiction",
+      "meaning": "non-owner repo re-owns a canonical package and changes its meaning",
+      "why_it_matters": "parallel canon emerges under convenience wording",
+      "example_pattern": "local README presents adjacent package as local doctrine"
+    },
+    {
+      "id": "K04",
+      "name": "status/strength contradiction",
+      "meaning": "a file is read as stronger than its status or assertion class permits",
+      "why_it_matters": "readers import authority the corpus did not grant",
+      "example_pattern": "draft text treated as mature core"
+    },
+    {
+      "id": "K05",
+      "name": "runtime-vs-doctrine contradiction",
+      "meaning": "runtime feasibility evidence is read as doctrinal settlement, or doctrine is read as finished implementation",
+      "why_it_matters": "engineering and doctrine collapse into each other",
+      "example_pattern": "closure proof marketed as full normative standard"
+    },
+    {
+      "id": "K06",
+      "name": "reserved-territory overclaim",
+      "meaning": "explicit non-closure is read as settled doctrine",
+      "why_it_matters": "blocked territory silently hardens into norm",
+      "example_pattern": "boundary note cited as completed constitution"
+    },
+    {
+      "id": "K07",
+      "name": "companion-layer overreach",
+      "meaning": "narrative companion starts doing normative or evidence work",
+      "why_it_matters": "recognition bridge gets mistaken for proof layer",
+      "example_pattern": "book material cited as protocol authority"
+    },
+    {
+      "id": "K08",
+      "name": "citation / public object contradiction",
+      "meaning": "live wording conflicts with frozen object, snapshot, or verification rule",
+      "why_it_matters": "public reading and integrity guidance stop aligning",
+      "example_pattern": "stable snapshot language points to moving main reality"
+    }
+  ]
+}

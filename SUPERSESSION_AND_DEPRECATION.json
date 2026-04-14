@@ -1,0 +1,181 @@
+{
+  "schema": "agi.supersession_and_deprecation.v1",
+  "date": "2026-04-12",
+  "states": [
+    {
+      "state": "primary",
+      "meaning": "current preferred surface for its semantic role",
+      "read_as": "read first when that role is the question",
+      "citable": true,
+      "preferred_for_new_readers": true
+    },
+    {
+      "state": "retained",
+      "meaning": "still intentionally available and still meaningful, but not the main first-hop surface",
+      "read_as": "valid supporting or continuity-preserving material",
+      "citable": true,
+      "preferred_for_new_readers": false
+    },
+    {
+      "state": "superseded",
+      "meaning": "an older surface has been overtaken by a stronger current surface for the same role",
+      "read_as": "read with explicit awareness that a newer preferred surface exists",
+      "citable": true,
+      "preferred_for_new_readers": false
+    },
+    {
+      "state": "companion",
+      "meaning": "a narrative or adjacent interpretive surface that remains important without becoming normative core",
+      "read_as": "context-bearing and human-facing, not doctrinal replacement",
+      "citable": true,
+      "preferred_for_new_readers": true
+    },
+    {
+      "state": "historical-only",
+      "meaning": "preserved mainly for trace, chronology, and review of how the corpus evolved",
+      "read_as": "historical reference rather than current corpus routing",
+      "citable": true,
+      "preferred_for_new_readers": false
+    },
+    {
+      "state": "control-surface",
+      "meaning": "routing, discipline, or corpus-control surface rather than doctrinal artifact",
+      "read_as": "entry, preference, marking, or review rule surface",
+      "citable": true,
+      "preferred_for_new_readers": true
+    }
+  ],
+  "triggers": [
+    {
+      "id": "D01",
+      "change": "a newer canonical artifact replaces an older primary artifact",
+      "must_update": [
+        "CITATION_AND_VERIFICATION.md",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "CHANGE_CONTROL_AND_SYNC.md",
+        "relevant entry/control surface"
+      ],
+      "must_not_forget": [
+        "older artifact may remain citable even when no longer primary"
+      ]
+    },
+    {
+      "id": "D02",
+      "change": "a draft becomes the preferred current reading surface",
+      "must_update": [
+        "STATUS_AND_MATURITY_MAP.md",
+        "STACK_LOCK_2026-04-12.json",
+        "CITATION_AND_VERIFICATION.md",
+        "relevant entry/control surface"
+      ],
+      "must_not_forget": [
+        "preferred current reading does not by itself make the artifact mature core"
+      ]
+    },
+    {
+      "id": "D03",
+      "change": "a former entry surface remains valid but is no longer first-hop preferred",
+      "must_update": [
+        "MASTER_ENTRY.md",
+        "REPO_INDEX.md",
+        "REPO_INDEX.json",
+        "MACHINE_ENTRY.md",
+        "CHANGE_CONTROL_AND_SYNC.md"
+      ],
+      "must_not_forget": [
+        "retained entry surface is still available, but routing must show the preference change"
+      ]
+    },
+    {
+      "id": "D04",
+      "change": "a historical artifact stays citable but must no longer be treated as current primary",
+      "must_update": [
+        "CITATION_AND_VERIFICATION.md",
+        "SUPERSESSION_AND_DEPRECATION.md",
+        "relevant entry/control surface"
+      ],
+      "must_not_forget": [
+        "citable does not mean preferred"
+      ]
+    },
+    {
+      "id": "D05",
+      "change": "a companion surface changes role without becoming normative core",
+      "must_update": [
+        "STATUS_AND_MATURITY_MAP.md",
+        "CHANGE_CONTROL_AND_SYNC.md",
+        "affected companion context"
+      ],
+      "must_not_forget": [
+        "companion is not a superseded normative artifact"
+      ]
+    },
+    {
+      "id": "D06",
+      "change": "a control-layer file is replaced by a stronger control-layer file",
+      "must_update": [
+        "REPO_INDEX.md",
+        "REPO_INDEX.json",
+        "MASTER_ENTRY.md",
+        "MACHINE_ENTRY.md",
+        "CHANGE_CONTROL_AND_SYNC.md"
+      ],
+      "must_not_forget": [
+        "stronger control layer does not silently erase the older control trace"
+      ]
+    },
+    {
+      "id": "D07",
+      "change": "a stable snapshot is superseded by a newer frozen public object",
+      "must_update": [
+        "STACK_LOCK_2026-04-12.json",
+        "CITATION_AND_VERIFICATION.md",
+        "REPO_INDEX.md",
+        "REPO_INDEX.json",
+        "relevant manifests"
+      ],
+      "must_not_forget": [
+        "old frozen object may still be citeable for historical or locked reading"
+      ]
+    },
+    {
+      "id": "D08",
+      "change": "a path/name changes but semantic role stays the same",
+      "must_update": [
+        "REPO_INDEX.md",
+        "REPO_INDEX.json",
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "STATUS_AND_MATURITY_MAP.md",
+        "raw cross-repo pointers"
+      ],
+      "must_not_forget": [
+        "rename alone does not imply supersession"
+      ]
+    },
+    {
+      "id": "D09",
+      "change": "a claim’s supporting artifact changes while primary artifact remains unchanged",
+      "must_update": [
+        "CLAIMS_AND_EVIDENCE_MAP.md",
+        "CHANGE_CONTROL_AND_SYNC.md",
+        "CITATION_AND_VERIFICATION.md"
+      ],
+      "must_not_forget": [
+        "supporting change is not a primary change"
+      ]
+    },
+    {
+      "id": "D10",
+      "change": "a reserved territory note becomes more developed but still not mature core",
+      "must_update": [
+        "STATUS_AND_MATURITY_MAP.md",
+        "CHANGE_CONTROL_AND_SYNC.md",
+        "relevant entry/control surface"
+      ],
+      "must_not_forget": [
+        "more developed reserved territory is still not mature core unless explicitly reclassified"
+      ]
+    }
+  ]
+}
