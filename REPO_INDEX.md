@@ -130,6 +130,9 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 ## ARL package
 - ARL v0.1 — bounded arbitration / review layer for multi-entity disputes; canonical home in `sovereign-entity-recursion`.
 
+## AGL package
+- AGL v0.1 — upstream grounding layer for source-state qualification and runtime reliance before action; canonical home in `ester-reality-bound`.
+
 ## DEA package
 - Package: DEA
 - Location: `protocols/dea/`

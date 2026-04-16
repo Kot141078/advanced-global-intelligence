@@ -108,6 +108,14 @@ This repository is easier to understand when related protocol and manifesto docu
 - `Economic Layer for Experience Artifacts v0.1` — canonical here; economic admissibility and provenance package. Path: `docs/economic-layer/README.md`
 - `Pre-Lineage Boundary Note v0.1` — canonical here; manifesto-level boundary note. Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 
+### Actor Grounding Layer (AGL) v0.1
+
+AGL v0.1 defines the upstream grounding layer that determines whether a signal, actor, node, or perceptual path is sufficiently grounded in real present execution state before runtime reliance or action progression is allowed.
+
+Canonical home: `ester-reality-bound` AGL package
+
+As the AGI stack moves from abstract capability toward long-lived, bounded coexistence, it becomes insufficient to ask only whether a system can reason or act. A prior question appears: whether the source initiating action is sufficiently grounded in present reality to support runtime reliance at all. AGL v0.1 addresses this upstream boundary. Its canonical home is `ester-reality-bound`.
+
 ## Continuity Bundle / Cold Wake v0.1
 
 Continuity Bundle / Cold Wake v0.1 is the canonical AGI package for temporal suspension, continuity preservation, and bounded cold wake / safe resume.

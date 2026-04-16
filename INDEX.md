@@ -43,6 +43,10 @@ This stack is entity-centered, not agent-centered.
 
 - ARL v0.1 — bounded arbitration / review layer for multi-entity disputes; canonical home in `sovereign-entity-recursion`.
 
+## AGL package (canonical in ERB)
+
+- AGL v0.1 — upstream grounding layer for source-state qualification and runtime reliance before action; canonical home in `ester-reality-bound`.
+
 ## DEA package (canonical in AGI)
 
 - `DEA` — input-to-experience normative layer

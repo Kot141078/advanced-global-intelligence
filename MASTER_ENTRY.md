@@ -137,6 +137,8 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 - **Implementation reference (non-normative):** `Kot141078/ester-clean-code`.
 - **Narrative companion:** `Kot141078/qubit-of-hope-volume-i` — human-facing narrative bridge, not normative core.
 
+AGL v0.1 adds the upstream grounding layer for source-state qualification and runtime reliance before action; its canonical home is in `ester-reality-bound`.
+
 ---
 
 ## 1.25) Entity / agent hierarchy (critical)

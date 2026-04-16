@@ -35,6 +35,14 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
   - `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/ARQ_v0.2_Normative_Core.md`
 - AGI keeps context/cartography pointers only; canonical ARQ payload remains in SER
 
+## AGL v0.1 canonical route
+
+- canonical repo: `Kot141078/ester-reality-bound`
+- canonical package root: `docs/actor-grounding-layer/`
+- first hop (raw):
+  - `https://raw.githubusercontent.com/Kot141078/ester-reality-bound/main/docs/actor-grounding-layer/README.md`
+- AGI keeps context/cartography pointers only; canonical AGL payload remains in ERB
+
 ## Stable corpus refs
 
 - `CORPUS_PRIMER.json`

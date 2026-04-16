@@ -69,6 +69,7 @@
     "By default, c orchestrates agents; agents do not define c.",
     "Canonical note: architecture/ENTITY_GOVERNS_AGENTS.md",
     "ARQ v0.2 bridge: canonical home Kot141078/sovereign-entity-recursion; markdown package protocol/arq/v0.2/; pdf package pdf/arq/v0.2/; manifest hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt; correction logic -> SER continuity -> L4 bounded accountability; AGI keeps pointer/context only.",
+    "AGL v0.1: canonical home Kot141078/ester-reality-bound docs/actor-grounding-layer/README.md; upstream grounding layer for source-state qualification and runtime reliance before action; AGI keeps pointer/context only.",
     "DEA: canonical entry protocols/dea/README.md; input-to-experience normative layer; upstream from EA-L4 / EATP; adjacent to SER and L4; not SER v2.",
     "EA-L4 / EATP: canonical entry protocols/ea-l4-eatp/README.md; training provenance / experience artifact layer; adjacent to SER and L4; not SER v2."
   ],
