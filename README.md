@@ -21,6 +21,10 @@ Start here:
 - machine entry: `MACHINE_ENTRY.md`
 - machine-first primer: `CORPUS_PRIMER.json`
 - stable stack lock: `STACK_LOCK_2026-04-12.json`
+- **Kotov Principle of L4-Bound Experience** — Authorial Principle / Architectural Thesis, v0.1.1. A cross-layer scarcity inversion thesis: generation becomes cheaper; L4-bound experience remains the scarce authority-bearing resource.
+  - Markdown: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md`
+  - PDF: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf`
+  - SHA-256: `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256`
 - canonical anti-confusion surface: `CANONICAL_DISTINCTIONS.md`
 - canonical objections/replies surface: `OBJECTIONS_AND_REPLIES.md`
 - citation / verification surface: `CITATION_AND_VERIFICATION.md`
@@ -164,6 +168,8 @@ For the wider stack, see `MASTER_ENTRY.md`.
 
 Canonical note: `official/AUTHORIAL_PREMISES.md`
 
+- `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md` — Authorial Principle / Architectural Thesis, v0.1.1; cross-layer thesis connecting cheap cognitive generation, L4-bound experience, temporal continuity, and bounded operational authority.
+
 ## Machine-friendly entry (no UI)
 - Master entry (raw):
   https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md
@@ -258,8 +264,11 @@ This is **not a feature comparison**, but a comparison of underlying architectur
   Early-phase and exploratory protocol experiments  
   (non-normative, Phase 0)
 
+- `official/` — canonical authorial premises and cross-layer architectural principles, including `KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md`.
+
 - **hashes/**  
   SHA-256 integrity manifests for released and cross-repository artifacts
+  Includes `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256`.
 
 ---
 

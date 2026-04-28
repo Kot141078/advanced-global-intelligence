@@ -7,6 +7,10 @@ Start here:
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
 - Topology map: `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
+- **Kotov Principle of L4-Bound Experience** — Authorial Principle / Architectural Thesis on scarcity inversion in long-lived AI systems: as cognitive generation becomes cheap, long-term value shifts from generative capacity to L4-bound temporal continuity.
+  - Markdown: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md`
+  - PDF: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf`
+  - SHA-256: `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256`
 - Manifesto: `manifesto/`
 - Ecosystem-level theoretical synthesis: `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md`
 - Zenodo citation: `10.5281/zenodo.19384668` (all versions: `10.5281/zenodo.19384667`)
@@ -23,6 +27,7 @@ Start here:
 
 Integrity:
 - SHA-256 manifests: `hashes/`
+- `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256` — SHA-256 manifest for the Kotov Principle v0.1.1 Markdown and PDF artifacts.
 - Latest release: v1.1
 
 ## Entity / agent hierarchy

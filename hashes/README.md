@@ -4,6 +4,10 @@ This directory contains SHA-256 integrity manifests for the Advanced Global Inte
 
 ## Files
 
+- `KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256` — SHA-256 manifest for:
+  - `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md`
+  - `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf`
+
 - `SHA256SUMS_v1.1.txt`
   Canonical integrity manifest for release v1.1.
 
