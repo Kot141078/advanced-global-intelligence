@@ -25,6 +25,7 @@ Start here:
   - Markdown: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md`
   - PDF: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf`
   - SHA-256: `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256`
+  - DOI: `https://doi.org/10.5281/zenodo.19862969`
 - canonical anti-confusion surface: `CANONICAL_DISTINCTIONS.md`
 - canonical objections/replies surface: `OBJECTIONS_AND_REPLIES.md`
 - citation / verification surface: `CITATION_AND_VERIFICATION.md`
@@ -169,6 +170,7 @@ For the wider stack, see `MASTER_ENTRY.md`.
 Canonical note: `official/AUTHORIAL_PREMISES.md`
 
 - `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md` — Authorial Principle / Architectural Thesis, v0.1.1; cross-layer thesis connecting cheap cognitive generation, L4-bound experience, temporal continuity, and bounded operational authority.
+  - Zenodo: `https://doi.org/10.5281/zenodo.19862969`
 
 ## Machine-friendly entry (no UI)
 - Master entry (raw):

@@ -11,6 +11,7 @@ Start here:
   - Markdown: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md`
   - PDF: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf`
   - SHA-256: `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256`
+  - DOI: `https://doi.org/10.5281/zenodo.19862969`
 - Manifesto: `manifesto/`
 - Ecosystem-level theoretical synthesis: `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md`
 - Zenodo citation: `10.5281/zenodo.19384668` (all versions: `10.5281/zenodo.19384667`)
@@ -28,6 +29,7 @@ Start here:
 Integrity:
 - SHA-256 manifests: `hashes/`
 - `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256` — SHA-256 manifest for the Kotov Principle v0.1.1 Markdown and PDF artifacts.
+- Zenodo archive: `https://doi.org/10.5281/zenodo.19862969` — archived v0.1.1 record for the Kotov Principle of L4-Bound Experience.
 - Latest release: v1.1
 
 ## Entity / agent hierarchy
