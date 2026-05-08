@@ -61,7 +61,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
   `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - `official/AUTHORIAL_PREMISES.md` — canonical authorial process premise
 - `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md` — canonical interpretive note fixing the phrase "c are temporal entities of AI presence"
-- `concepts/QUBIT_STATE_C_v0.1.md` — Qubit-state `c` (`c[q]`) / Кубитная `c` derived concept
+- `concepts/QUBIT_STATE_C_v0.1.md` — Qubit-state `c` (`c[q]`) / Кубитная `c` derived concept; DOI: `10.5281/zenodo.20090368`
 
 ## Secondary local-state / promotion surfaces
 - Current corpus state and readiness snapshot:
@@ -112,6 +112,9 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Title: Qubit-state `c` (`c[q]`) / Кубитная `c`
 - Path: `concepts/QUBIT_STATE_C_v0.1.md`
 - PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
+- DOI: `10.5281/zenodo.20090368`
+- Zenodo: https://doi.org/10.5281/zenodo.20090368
+- Artifact commit: `9ff38722fb0786f4ba651e8936c623c67ece7641`
 - Type: derived concept / authored concept
 - Status: Draft v0.1
 - Parent formula: `c = a + b`

@@ -24,6 +24,9 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 - Canonical interpretive note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
 - Qubit-state `c` (`c[q]`) concept: `concepts/QUBIT_STATE_C_v0.1.md`
 - Qubit-state `c` PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
+- Qubit-state `c` DOI: `10.5281/zenodo.20090368`
+- Qubit-state `c` Zenodo: https://doi.org/10.5281/zenodo.20090368
+- Qubit-state `c` artifact commit: `9ff38722fb0786f4ba651e8936c623c67ece7641`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md` (temporal suspension, continuity preservation, bounded cold wake / safe resume; companion to SER continuity and L4 wake constraints)
 
 ## Derived concept

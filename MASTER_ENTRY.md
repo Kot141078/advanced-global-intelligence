@@ -46,7 +46,7 @@ This page is the single entry point for the public protocol stack:
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
 - Economic Layer package entry: `docs/economic-layer/README.md`
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
-- Qubit-state `c` (`c[q]`) / Кубитная `c`: `concepts/QUBIT_STATE_C_v0.1.md`
+- Qubit-state `c` (`c[q]`) / Кубитная `c`: `concepts/QUBIT_STATE_C_v0.1.md` — DOI: `10.5281/zenodo.20090368`
 - Canonical interpretive note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
 
 ## Secondary local-state / process shortcuts
@@ -155,6 +155,9 @@ AGL v0.1 adds the upstream grounding layer for source-state qualification and ru
   — derived concept defining controlled non-collapse under uncertainty. It remains inside the parent formula `c = a + b` and does not imply quantum consciousness or physical quantum computation.
   Start: `concepts/QUBIT_STATE_C_v0.1.md`
 - PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
+- DOI: `10.5281/zenodo.20090368`
+- Zenodo: https://doi.org/10.5281/zenodo.20090368
+- Artifact commit: `9ff38722fb0786f4ba651e8936c623c67ece7641`
 - Boundary:
   - conceptual / authored concept entry
   - not a protocol replacing SER or L4

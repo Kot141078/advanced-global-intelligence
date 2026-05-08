@@ -47,6 +47,9 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 
 - path: `concepts/QUBIT_STATE_C_v0.1.md`
 - pdf: `pdf/QUBIT_STATE_C_v0.1.pdf`
+- DOI: `10.5281/zenodo.20090368`
+- Zenodo: https://doi.org/10.5281/zenodo.20090368
+- Artifact commit: `9ff38722fb0786f4ba651e8936c623c67ece7641`
 - type: derived concept / authored concept
 - status: Draft v0.1
 - parent_formula: `c = a + b`

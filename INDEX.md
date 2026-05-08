@@ -15,6 +15,8 @@ Start here:
 - **Qubit-state `c` (`c[q]`) / Кубитная `c`** — derived concept: controlled non-collapse under uncertainty inside the `c = a + b` framework.
   - Markdown: `concepts/QUBIT_STATE_C_v0.1.md`
   - PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
+  - DOI: `10.5281/zenodo.20090368`
+  - Zenodo: `https://doi.org/10.5281/zenodo.20090368`
 - Manifesto: `manifesto/`
 - Ecosystem-level theoretical synthesis: `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md`
 - Zenodo citation: `10.5281/zenodo.19384668` (all versions: `10.5281/zenodo.19384667`)
@@ -47,6 +49,9 @@ This stack is entity-centered, not agent-centered.
 - `Qubit-state c v0.1` — derived concept defining controlled non-collapse under uncertainty inside the `c = a + b` framework.
 - Path: `concepts/QUBIT_STATE_C_v0.1.md`
 - PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
+- DOI: `10.5281/zenodo.20090368`
+- Zenodo: https://doi.org/10.5281/zenodo.20090368
+- Artifact commit: `9ff38722fb0786f4ba651e8936c623c67ece7641`
 - Boundary: not quantum consciousness, not physical quantum computation, and not a new parent formula.
 
 ## ARQ bridge (canonical in SER)
