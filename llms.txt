@@ -22,7 +22,12 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 - REPO_INDEX.json (raw): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.json
 - Canonical authorial process premise: `official/AUTHORIAL_PREMISES.md`
 - Canonical interpretive note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
+- Qubit-state `c` (`c[q]`) concept: `concepts/QUBIT_STATE_C_v0.1.md`
+- Qubit-state `c` PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md` (temporal suspension, continuity preservation, bounded cold wake / safe resume; companion to SER continuity and L4 wake constraints)
+
+## Derived concept
+- Qubit-state `c` (`c[q]`) / Кубитная `c`: derived state of `c`, not a replacement for `c = a + b`; controlled non-collapse under uncertainty, without quantum consciousness or physical quantum computation claims.
 
 ## Additional protocol profile
 - Beacon profile directory:

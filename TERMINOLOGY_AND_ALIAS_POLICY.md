@@ -32,6 +32,7 @@ If load-bearing terms start sliding across README, MACHINE_ENTRY, metadata, and 
 | `T016` | `reserved territory` | `explicit non-mature boundary`; `reserved boundary territory` | mature doctrine; completed constitution; stable core | explicit boundary for not-yet-mature doctrine | reserved-language drift can prematurely harden blocked territory into norm |
 | `T017` | `stable snapshot / frozen reading surface` | `stable snapshot`; `frozen reading surface`; `tagged snapshot`; `locked public object` | moving repo; default branch; live main | frozen public reading surface tied to a tag or locked ref | snapshot drift breaks citation and verification discipline |
 | `T018` | `primary / retained / superseded / historical-only / companion / control-surface` | `supersession state`; `reading-preference state` | status/maturity labels; doctrinal weight labels | corpus preference and routing states under evolution | if these states drift into status/maturity language, preference becomes semantically noisy |
+| `T019` | `Qubit-state c / c[q] / Кубитная c` | `Qubit-state c`; `c[q]`; `Кубитная c`; `c in q-state` | Quantum c; quantum consciousness; quantum AI entity; physical quantum computation | derived state of `c` for controlled non-collapse under uncertainty inside `c = a + b` | quantum-language drift can turn a bounded state-structure concept into a false hardware or mystification claim |
 
 ## 3. Controlled language notes
 
@@ -41,6 +42,7 @@ If load-bearing terms start sliding across README, MACHINE_ENTRY, metadata, and 
 - use `narrative companion` for the book layer
 - use `runtime proof-of-possibility` or `executable operational skeleton` for `ester-clean-code`
 - use `reserved territory` only where explicit non-mature boundary is intended
+- use `Qubit-state c`, `c[q]`, or `Кубитная c` for the derived maturity-state concept; do not collapse it into quantum consciousness or physical quantum computation
 
 ## 4. Anti-drift rule
 

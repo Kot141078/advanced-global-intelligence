@@ -46,6 +46,7 @@ This page is the single entry point for the public protocol stack:
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
 - Economic Layer package entry: `docs/economic-layer/README.md`
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+- Qubit-state `c` (`c[q]`) / Кубитная `c`: `concepts/QUBIT_STATE_C_v0.1.md`
 - Canonical interpretive note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
 
 ## Secondary local-state / process shortcuts
@@ -147,6 +148,17 @@ AGL v0.1 adds the upstream grounding layer for source-state qualification and ru
 - Agents are subordinate processes and tools invoked under `c`.
 - Continuity belongs to `c`, not to any single model, judge, worker, or swarm.
 - Canonical note: `architecture/ENTITY_GOVERNS_AGENTS.md`
+
+## 1.30) Qubit-state `c` (`c[q]`) / Кубитная `c` (conceptual entry)
+
+- **Qubit-state `c` (`c[q]`) / Кубитная `c`**
+  — derived concept defining controlled non-collapse under uncertainty. It remains inside the parent formula `c = a + b` and does not imply quantum consciousness or physical quantum computation.
+  Start: `concepts/QUBIT_STATE_C_v0.1.md`
+- PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
+- Boundary:
+  - conceptual / authored concept entry
+  - not a protocol replacing SER or L4
+  - not a new parent formula
 
 ## 1.35) ARQ v0.2 bridge (additive; canonical in SER)
 

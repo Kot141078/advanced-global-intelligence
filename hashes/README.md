@@ -8,6 +8,8 @@ This directory contains SHA-256 integrity manifests for the Advanced Global Inte
   - `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md`
   - `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf`
 
+- `SHA256SUMS_qubit_state_c_v0.1_2026-05-08.txt` — scoped integrity manifest for Qubit-state `c` (`c[q]`) v0.1 concept document and PDF.
+
 - `SHA256SUMS_v1.1.txt`
   Canonical integrity manifest for release v1.1.
 

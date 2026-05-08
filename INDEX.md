@@ -12,6 +12,9 @@ Start here:
   - PDF: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf`
   - SHA-256: `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256`
   - DOI: `https://doi.org/10.5281/zenodo.19862969`
+- **Qubit-state `c` (`c[q]`) / Кубитная `c`** — derived concept: controlled non-collapse under uncertainty inside the `c = a + b` framework.
+  - Markdown: `concepts/QUBIT_STATE_C_v0.1.md`
+  - PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
 - Manifesto: `manifesto/`
 - Ecosystem-level theoretical synthesis: `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md`
 - Zenodo citation: `10.5281/zenodo.19384668` (all versions: `10.5281/zenodo.19384667`)
@@ -38,6 +41,13 @@ This stack is entity-centered, not agent-centered.
 
 - By default, `c` orchestrates agents; agents do not define `c`.
 - Canonical note: `architecture/ENTITY_GOVERNS_AGENTS.md`
+
+## Qubit-state `c` concept
+
+- `Qubit-state c v0.1` — derived concept defining controlled non-collapse under uncertainty inside the `c = a + b` framework.
+- Path: `concepts/QUBIT_STATE_C_v0.1.md`
+- PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
+- Boundary: not quantum consciousness, not physical quantum computation, and not a new parent formula.
 
 ## ARQ bridge (canonical in SER)
 

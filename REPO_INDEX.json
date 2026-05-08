@@ -4,6 +4,8 @@
   "repo_index_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md",
   "start_here_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/START_HERE.md",
   "machine_entry_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MACHINE_ENTRY.md",
+  "qubit_state_c_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/concepts/QUBIT_STATE_C_v0.1.md",
+  "qubit_state_c_pdf": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/pdf/QUBIT_STATE_C_v0.1.pdf",
   "corpus_primer_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CORPUS_PRIMER.json",
   "stack_lock_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/STACK_LOCK_2026-04-12.json",
   "canonical_distinctions_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CANONICAL_DISTINCTIONS.md",
@@ -71,7 +73,8 @@
     "ARQ v0.2 bridge: canonical home Kot141078/sovereign-entity-recursion; markdown package protocol/arq/v0.2/; pdf package pdf/arq/v0.2/; manifest hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt; correction logic -> SER continuity -> L4 bounded accountability; AGI keeps pointer/context only.",
     "AGL v0.1: canonical home Kot141078/ester-reality-bound docs/actor-grounding-layer/README.md; upstream grounding layer for source-state qualification and runtime reliance before action; AGI keeps pointer/context only.",
     "DEA: canonical entry protocols/dea/README.md; input-to-experience normative layer; upstream from EA-L4 / EATP; adjacent to SER and L4; not SER v2.",
-    "EA-L4 / EATP: canonical entry protocols/ea-l4-eatp/README.md; training provenance / experience artifact layer; adjacent to SER and L4; not SER v2."
+    "EA-L4 / EATP: canonical entry protocols/ea-l4-eatp/README.md; training provenance / experience artifact layer; adjacent to SER and L4; not SER v2.",
+    "Qubit-state c (c[q]) / Кубитная c: derived concept in concepts/QUBIT_STATE_C_v0.1.md; controlled non-collapse under uncertainty inside c = a + b; not quantum consciousness or physical quantum computation."
   ],
   "corpus_files": [
     "CORPUS_PRIMER.json",
@@ -380,6 +383,28 @@
       "short_description": "Canonical interpretive note fixing the phrase 'c are temporal entities of AI presence' across the public stack without replacing c = a + b."
     },
     {
+      "path": "concepts/QUBIT_STATE_C_v0.1.md",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/concepts/QUBIT_STATE_C_v0.1.md",
+      "pdf": "pdf/QUBIT_STATE_C_v0.1.pdf",
+      "type": "markdown",
+      "role": "derived concept / authored concept",
+      "status": "Draft v0.1",
+      "parent_formula": "c = a + b",
+      "key_terms": [
+        "Qubit-state c",
+        "c[q]",
+        "Кубитная c",
+        "controlled non-collapse",
+        "variative continuity"
+      ],
+      "negative_aliases": [
+        "Quantum c",
+        "quantum consciousness",
+        "quantum AI entity"
+      ],
+      "short_description": "Qubit-state c (c[q]) is a derived state of c within the c = a + b framework, denoting controlled non-collapse under uncertainty without claims of physical quantum computation."
+    },
+    {
       "path": "protocols/dea/README.md",
       "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/dea/README.md",
       "type": "markdown",
@@ -397,6 +422,27 @@
     }
   ],
   "packages": [
+    {
+      "path": "concepts/",
+      "type": "directory",
+      "role": "derived concept category",
+      "status": "current",
+      "short_description": "Conceptual category for authored derived concepts and maturity-state notes inside the c = a + b framework."
+    },
+    {
+      "path": "concepts/QUBIT_STATE_C_v0.1.md",
+      "type": "markdown",
+      "role": "derived concept / authored concept",
+      "status": "Draft v0.1",
+      "short_description": "Qubit-state c (c[q]) / Кубитная c: controlled non-collapse under uncertainty inside the c = a + b framework."
+    },
+    {
+      "path": "pdf/QUBIT_STATE_C_v0.1.pdf",
+      "type": "pdf",
+      "role": "concept pdf twin",
+      "status": "Draft v0.1",
+      "short_description": "PDF surface for the Qubit-state c v0.1 concept document."
+    },
     {
       "path": "protocols/dea/",
       "type": "directory",

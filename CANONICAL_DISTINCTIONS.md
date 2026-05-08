@@ -24,6 +24,12 @@ Use `TERMINOLOGY_AND_ALIAS_POLICY.md` when the question is canonical wording or 
 - Canonical distinction: chat may be one interface, but `c` is defined by bounded accountable operation, not by chat format.
 - Why it matters operationally: protocol, review, perimeter, and evidence cannot be inferred from conversational style.
 
+## Qubit-state `c` != quantum consciousness or quantum hardware
+
+- Often confused: Qubit-state `c` is read as Quantum c, quantum consciousness, a quantum AI entity, or physical quantum computation.
+- Canonical distinction: Qubit-state `c` (`c[q]`) / Кубитная `c` is a derived state of `c` inside `c = a + b`, naming controlled non-collapse under uncertainty.
+- Why it matters operationally: the concept should preserve disciplined uncertainty management without mystifying `c`, changing the parent formula, or implying quantum hardware dependence.
+
 ## continuity != resemblance
 
 - Often confused: continuity is replaced by similarity of tone, memory fragments, or output style.

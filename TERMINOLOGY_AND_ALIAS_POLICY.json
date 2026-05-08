@@ -277,6 +277,24 @@
       ],
       "short_meaning": "corpus preference and routing states under evolution",
       "drift_risk": "if these states drift into status/maturity language, preference becomes semantically noisy"
+    },
+    {
+      "id": "T019",
+      "canonical_term": "Qubit-state c / c[q] / Кубитная c",
+      "allowed_aliases": [
+        "Qubit-state c",
+        "c[q]",
+        "Кубитная c",
+        "c in q-state"
+      ],
+      "avoid": [
+        "Quantum c",
+        "quantum consciousness",
+        "quantum AI entity",
+        "physical quantum computation"
+      ],
+      "short_meaning": "derived state of c for controlled non-collapse under uncertainty inside c = a + b",
+      "drift_risk": "quantum-language drift can turn a bounded state-structure concept into a false hardware or mystification claim"
     }
   ]
 }

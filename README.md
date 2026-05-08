@@ -26,6 +26,9 @@ Start here:
   - PDF: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf`
   - SHA-256: `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256`
   - DOI: `https://doi.org/10.5281/zenodo.19862969`
+- **Qubit-state `c` (`c[q]`) / Кубитная `c`** — derived concept: controlled non-collapse under uncertainty inside the `c = a + b` framework.
+  - Markdown: `concepts/QUBIT_STATE_C_v0.1.md`
+  - PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
 - canonical anti-confusion surface: `CANONICAL_DISTINCTIONS.md`
 - canonical objections/replies surface: `OBJECTIONS_AND_REPLIES.md`
 - citation / verification surface: `CITATION_AND_VERIFICATION.md`
@@ -112,6 +115,7 @@ This repository is easier to understand when related protocol and manifesto docu
 - `EA-L4 / EATP` — canonical here; training provenance and consequence-preserving package. Path: `protocols/ea-l4-eatp/README.md`
 - `Economic Layer for Experience Artifacts v0.1` — canonical here; economic admissibility and provenance package. Path: `docs/economic-layer/README.md`
 - `Pre-Lineage Boundary Note v0.1` — canonical here; manifesto-level boundary note. Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+- `Qubit-state c v0.1` — conceptual note here; a derived state of `c`, not a replacement for `c = a + b`. Path: `concepts/QUBIT_STATE_C_v0.1.md`
 
 ### Actor Grounding Layer (AGL) v0.1
 
@@ -253,6 +257,10 @@ This is **not a feature comparison**, but a comparison of underlying architectur
 - **ontology/**  
   Foundational axioms and conceptual primitives  
   (non-algorithmic grounding of sovereignty and responsibility)
+
+- **concepts/**
+  Derived authored concepts and maturity-state notes
+  (including Qubit-state `c` / `c[q]`)
 
 - **architecture/**  
   Whitepapers and system-level designs  

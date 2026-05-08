@@ -43,6 +43,17 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
   - `https://raw.githubusercontent.com/Kot141078/ester-reality-bound/main/docs/actor-grounding-layer/README.md`
 - AGI keeps context/cartography pointers only; canonical AGL payload remains in ERB
 
+## Qubit-state c v0.1 concept
+
+- path: `concepts/QUBIT_STATE_C_v0.1.md`
+- pdf: `pdf/QUBIT_STATE_C_v0.1.pdf`
+- type: derived concept / authored concept
+- status: Draft v0.1
+- parent_formula: `c = a + b`
+- key_terms: Qubit-state c; `c[q]`; Кубитная c; controlled non-collapse; variative continuity
+- avoid_terms: Quantum c; quantum consciousness; quantum AI entity
+- short_description: Qubit-state `c` (`c[q]`) is a derived state of `c` within the `c = a + b` framework, denoting controlled non-collapse under uncertainty without claims of physical quantum computation.
+
 ## Stable corpus refs
 
 - `CORPUS_PRIMER.json`
