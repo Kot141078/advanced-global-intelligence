@@ -1,0 +1,17 @@
+# SHA256SUMS — AGI ARQ c[q] crosslink pointers
+# Date: 2026-05-10
+# Scope: AGI pointer/context updates linking Qubit-state c (c[q]) to the SER-hosted ARQ c[q] integration addendum.
+# Canonical SER commit: d73fec3881b90e3cee2b09e4fce88860f82394e9
+# Canonical ARQ addendum payload remains in Kot141078/sovereign-entity-recursion.
+# This manifest is self-excluded by design.
+
+603948fd0fbcfebdeea68350c8ea62072f3952589a6e1126fe6be22c620f3819  README.md
+87e524b8ca223c17112a01ef5d9f7375fc46c5a8457e251ca887c8ea2aaf75b0  MASTER_ENTRY.md
+5fb9a5036e94e881d887aa7136316ebdbaccb60dc21928a5b5ee2a9b83bd1338  MACHINE_ENTRY.md
+aec0c297c52fee32f80b632033dc4033ec62639611cf4e0e3da2c5e42d87141e  REPO_INDEX.md
+5a46dde0d66fa12f2d3b09b31e1b5b4ce53b9ee7ba42df5592fc3de8bc235cdf  REPO_INDEX.json
+1f703381f66e80533ff58369486871c84c7466113e6a86140dc4ac85f2c5c641  CORPUS_PRIMER.json
+5db83b4a079c4382e46c55c682f8f7c78ee90d0df6d22b19d49566db1c760598  CANONICAL_DISTINCTIONS.md
+e3d3d907e67b629de4c6616e6faf0036f094446bd23a3e781664f82931c3b44a  CANONICAL_DISTINCTIONS.json
+3bc20b1c21fa2ce20b82f43dace874cf2fdfc247862f5c2c4793af0b074abd99  INDEX.md
+9aa474ba489531ece20ba7e5f1afa9f7ac66157b7893066bf81f22c9ae5c9421  hashes/README.md

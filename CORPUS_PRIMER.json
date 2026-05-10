@@ -9,6 +9,7 @@
     "AGI means Advanced Global Intelligence, not a monolithic super-model.",
     "c is not an agent.",
     "Qubit-state c (c[q]) is a derived state of c inside c = a + b, not a quantum consciousness or physical quantum computation claim.",
+    "ARQ c[q] integration is canonical in sovereign-entity-recursion at commit d73fec3881b90e3cee2b09e4fce88860f82394e9; AGI keeps pointer/context only.",
     "EA is not LA.",
     "L4 defines feasibility, not permission.",
     "Oracle is stateless and does not own continuity.",
@@ -53,6 +54,7 @@
       "advanced-global-intelligence/CLAIMS_AND_EVIDENCE_MAP.md",
       "advanced-global-intelligence/STATUS_AND_MATURITY_MAP.md",
       "advanced-global-intelligence/concepts/QUBIT_STATE_C_v0.1.md",
+      "sovereign-entity-recursion/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
       "qubit-of-hope-volume-i/CORPUS_CONTEXT.md",
       "sovereign-entity-recursion/README.md",
       "ester-reality-bound/README.md",
@@ -69,6 +71,7 @@
       "advanced-global-intelligence/MACHINE_ENTRY.md",
       "advanced-global-intelligence/REPO_INDEX.json",
       "advanced-global-intelligence/concepts/QUBIT_STATE_C_v0.1.md",
+      "sovereign-entity-recursion/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json",
       "qubit-of-hope-volume-i/MACHINE_ENTRY.md"
     ]
   },
@@ -128,7 +131,54 @@
         "quantum consciousness",
         "quantum AI entity"
       ],
+      "arq_cq_integration_addendum": {
+        "title": "ARQ c[q] Integration Addendum v0.1",
+        "canonical_home_repo": "Kot141078/sovereign-entity-recursion",
+        "ser_commit": "d73fec3881b90e3cee2b09e4fce88860f82394e9",
+        "markdown_path": "protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+        "pdf_path": "pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+        "raw_markdown_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+        "raw_pdf_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+        "ser_index_raw_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json",
+        "ser_manifest_raw_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt",
+        "sha256": {
+          "markdown": "DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D",
+          "pdf": "EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247",
+          "ser_json_index": "1E72693482231B2A98A81C384AB6085802A95212635F89360AE1C535A2640291",
+          "ser_manifest": "0ED8926C7E6A5EB2382ED08BE3717D7A199CFB9C0F87615224F865BA94426E7A"
+        },
+        "boundary": "Behavioral non-collapse overlay inside c = a + b; not physical quantum computing, quantum consciousness, Model M5, or replacement for ARQ_v0.2_Normative_Core.md.",
+        "agi_role": "pointer/context layer only; canonical ARQ addendum payload remains in SER"
+      },
       "short_description": "Qubit-state c (c[q]) is a derived state of c within the c = a + b framework, denoting controlled non-collapse under uncertainty without claims of physical quantum computation."
+    }
+  ],
+  "cross_repo_pointers": [
+    {
+      "id": "arq_cq_integration_addendum_v0_1",
+      "from_repo": "advanced-global-intelligence",
+      "to_repo": "Kot141078/sovereign-entity-recursion",
+      "ser_commit": "d73fec3881b90e3cee2b09e4fce88860f82394e9",
+      "paths": [
+        "protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+        "pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+        "protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json",
+        "hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt"
+      ],
+      "raw_urls": [
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json",
+        "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt"
+      ],
+      "sha256": {
+        "markdown": "DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D",
+        "pdf": "EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247",
+        "ser_json_index": "1E72693482231B2A98A81C384AB6085802A95212635F89360AE1C535A2640291",
+        "ser_manifest": "0ED8926C7E6A5EB2382ED08BE3717D7A199CFB9C0F87615224F865BA94426E7A"
+      },
+      "semantic_boundary": "Additive ARQ v0.2 integration pointer for behavioral non-collapse overlay; not physical quantum computing, not quantum consciousness, not Model M5, and not a replacement for ARQ_v0.2_Normative_Core.md.",
+      "agi_role": "context/cartography pointer only"
     }
   ],
   "stable_stack_lock": "STACK_LOCK_2026-04-12.json",

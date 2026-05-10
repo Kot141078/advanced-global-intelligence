@@ -6,6 +6,13 @@
   "machine_entry_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MACHINE_ENTRY.md",
   "qubit_state_c_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/concepts/QUBIT_STATE_C_v0.1.md",
   "qubit_state_c_pdf": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/pdf/QUBIT_STATE_C_v0.1.pdf",
+  "arq_cq_addendum_markdown": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+  "arq_cq_addendum_raw": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+  "arq_cq_addendum_pdf": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+  "arq_cq_addendum_pdf_raw": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+  "arq_cq_addendum_ser_commit": "d73fec3881b90e3cee2b09e4fce88860f82394e9",
+  "arq_cq_addendum_ser_index_raw": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json",
+  "arq_cq_addendum_ser_manifest_raw": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt",
   "corpus_primer_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CORPUS_PRIMER.json",
   "stack_lock_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/STACK_LOCK_2026-04-12.json",
   "canonical_distinctions_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CANONICAL_DISTINCTIONS.md",
@@ -74,7 +81,8 @@
     "AGL v0.1: canonical home Kot141078/ester-reality-bound docs/actor-grounding-layer/README.md; upstream grounding layer for source-state qualification and runtime reliance before action; AGI keeps pointer/context only.",
     "DEA: canonical entry protocols/dea/README.md; input-to-experience normative layer; upstream from EA-L4 / EATP; adjacent to SER and L4; not SER v2.",
     "EA-L4 / EATP: canonical entry protocols/ea-l4-eatp/README.md; training provenance / experience artifact layer; adjacent to SER and L4; not SER v2.",
-    "Qubit-state c (c[q]) / Кубитная c: derived concept in concepts/QUBIT_STATE_C_v0.1.md; controlled non-collapse under uncertainty inside c = a + b; not quantum consciousness or physical quantum computation."
+    "Qubit-state c (c[q]) / Кубитная c: derived concept in concepts/QUBIT_STATE_C_v0.1.md; controlled non-collapse under uncertainty inside c = a + b; not quantum consciousness or physical quantum computation.",
+    "ARQ c[q] integration addendum: canonical SER pointer at commit d73fec3881b90e3cee2b09e4fce88860f82394e9; AGI keeps context/cartography pointers only; c[q] remains a behavioral non-collapse overlay, not physical quantum computing, quantum consciousness, Model M5, or replacement for ARQ_v0.2_Normative_Core.md."
   ],
   "corpus_files": [
     "CORPUS_PRIMER.json",
@@ -316,9 +324,38 @@
       "default_branch": "main",
       "tag_snapshot": "ecosystem-v0.2-2026-02-24",
       "canonical_home_repo": "Kot141078/sovereign-entity-recursion",
+      "pinned_commit": "d73fec3881b90e3cee2b09e4fce88860f82394e9",
       "package_root": "protocol/arq/v0.2/",
       "pdf_root": "pdf/arq/v0.2/",
       "manifest_relpath": "hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt",
+      "cq_integration_addendum": {
+        "title": "ARQ c[q] Integration Addendum v0.1",
+        "canonical_home_repo": "Kot141078/sovereign-entity-recursion",
+        "ser_commit": "d73fec3881b90e3cee2b09e4fce88860f82394e9",
+        "markdown_path": "protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+        "pdf_path": "pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+        "markdown_url": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+        "raw_markdown_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+        "pdf_url": "https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+        "raw_pdf_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+        "ser_index_raw_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json",
+        "ser_manifest_raw_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt",
+        "sha256": {
+          "markdown": "DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D",
+          "pdf": "EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247",
+          "ser_json_index": "1E72693482231B2A98A81C384AB6085802A95212635F89360AE1C535A2640291",
+          "ser_manifest": "0ED8926C7E6A5EB2382ED08BE3717D7A199CFB9C0F87615224F865BA94426E7A"
+        },
+        "semantic_boundary": [
+          "behavioral non-collapse overlay under uncertainty",
+          "not physical quantum computing",
+          "not quantum consciousness",
+          "not Model M5",
+          "not a replacement for ARQ_v0.2_Normative_Core.md",
+          "remains inside c = a + b"
+        ],
+        "agi_role": "context/cartography pointer only; canonical ARQ addendum payload remains in SER"
+      },
       "download": {
         "tag_zip": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.zip",
         "tag_tar": "https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.tar.gz",
@@ -390,6 +427,17 @@
       "doi_url": "https://doi.org/10.5281/zenodo.20090368",
       "zenodo_record": "https://doi.org/10.5281/zenodo.20090368",
       "artifact_commit": "9ff38722fb0786f4ba651e8936c623c67ece7641",
+      "arq_cq_integration_addendum": {
+        "canonical_home_repo": "Kot141078/sovereign-entity-recursion",
+        "ser_commit": "d73fec3881b90e3cee2b09e4fce88860f82394e9",
+        "markdown_path": "protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+        "pdf_path": "pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+        "raw_markdown_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md",
+        "raw_pdf_url": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf",
+        "sha256_markdown": "DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D",
+        "sha256_pdf": "EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247",
+        "agi_role": "pointer/context layer only; no canonical ARQ payload duplication"
+      },
       "version": "v0.1",
       "type": "markdown",
       "role": "derived concept / authored concept",

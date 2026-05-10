@@ -120,6 +120,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Parent formula: `c = a + b`
 - Role: controlled non-collapse under uncertainty while remaining bounded by responsibility, arbitration, and L4 reality constraints
 - Boundary: not quantum consciousness, not physical quantum computation, and not a new parent formula
+- SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`, `protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
 
 ## Beacon profile
 - Beacon Profile v0.1
@@ -141,6 +142,14 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Status: draft
 - Duplication: none in this repo; AGI keeps context/cartography pointers only
 - Explicit bridge: correction logic -> SER continuity -> L4 bounded accountability
+- `c[q]` integration addendum:
+  - commit: `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+  - markdown: `protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
+  - pdf: `pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf`
+  - raw markdown: https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md
+  - raw pdf: https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf
+  - SHA-256: Markdown `DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D`; PDF `EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247`
+  - boundary: behavioral non-collapse overlay only; not physical quantum computing, not quantum consciousness, not Model M5, not a replacement for `ARQ_v0.2_Normative_Core.md`
 
 ## ARL package
 - ARL v0.1 — bounded arbitration / review layer for multi-entity disputes; canonical home in `sovereign-entity-recursion`.

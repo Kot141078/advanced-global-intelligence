@@ -33,6 +33,18 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
   - `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/README_ARQ_Supplement_v0.2.md`
   - `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/ARQ_v0.2_Executive_Summary.md`
   - `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/ARQ_v0.2_Normative_Core.md`
+- `c[q]` integration addendum:
+  - SER commit: `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+  - markdown: `https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
+  - raw_markdown: `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
+  - pdf: `https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf`
+  - raw_pdf: `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf`
+  - json_index_raw: `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json`
+  - manifest_raw: `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt`
+  - sha256_markdown: `DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D`
+  - sha256_pdf: `EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247`
+  - sha256_ser_json_index: `1E72693482231B2A98A81C384AB6085802A95212635F89360AE1C535A2640291`
+  - sha256_ser_manifest: `0ED8926C7E6A5EB2382ED08BE3717D7A199CFB9C0F87615224F865BA94426E7A`
 - AGI keeps context/cartography pointers only; canonical ARQ payload remains in SER
 
 ## AGL v0.1 canonical route
@@ -56,6 +68,8 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - key_terms: Qubit-state c; `c[q]`; Кубитная c; controlled non-collapse; variative continuity
 - avoid_terms: Quantum c; quantum consciousness; quantum AI entity
 - short_description: Qubit-state `c` (`c[q]`) is a derived state of `c` within the `c = a + b` framework, denoting controlled non-collapse under uncertainty without claims of physical quantum computation.
+- ARQ integration pointer: SER-hosted `ARQ_cq_Integration_Addendum_v0.1.md` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; AGI keeps pointer/context only.
+- ARQ boundary: behavioral non-collapse overlay only; not physical quantum computing, not quantum consciousness, not Model M5, not replacement for `ARQ_v0.2_Normative_Core.md`.
 
 ## Stable corpus refs
 

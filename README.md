@@ -31,6 +31,7 @@ Start here:
   - PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
   - DOI: `10.5281/zenodo.20090368`
   - Zenodo: `https://doi.org/10.5281/zenodo.20090368`
+  - SER ARQ integration pointer: `ARQ_cq_Integration_Addendum_v0.1.md` in `Kot141078/sovereign-entity-recursion` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`
 - canonical anti-confusion surface: `CANONICAL_DISTINCTIONS.md`
 - canonical objections/replies surface: `OBJECTIONS_AND_REPLIES.md`
 - citation / verification surface: `CITATION_AND_VERIFICATION.md`
@@ -374,6 +375,24 @@ Canonical home:
   - `https://github.com/Kot141078/sovereign-entity-recursion/blob/main/protocol/arq/v0.2/ARQ_v0.2_Normative_Core.md`
 
 ARQ matters here because it creates an explicit bridge between correction logic, **SER** continuity, and **L4** bounded accountability.
+
+### ARQ `c[q]` integration addendum (canonical in SER)
+
+SER hosts the canonical `ARQ c[q] Integration Addendum v0.1` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`.
+AGI points to it to connect Qubit-state `c` (`c[q]`) with ARQ v0.2 without copying the addendum payload into this repo.
+
+- Markdown: https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md
+- Raw Markdown: https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md
+- PDF: https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf
+- Raw PDF: https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf
+- SER JSON index: https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json
+- SER manifest: https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt
+- SHA-256:
+  - Markdown: `DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D`
+  - PDF: `EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247`
+  - SER JSON index: `1E72693482231B2A98A81C384AB6085802A95212635F89360AE1C535A2640291`
+  - SER manifest: `0ED8926C7E6A5EB2382ED08BE3717D7A199CFB9C0F87615224F865BA94426E7A`
+- Boundary: `c[q]` is a behavioral non-collapse overlay inside `c = a + b`; it is not physical quantum computing, not quantum consciousness, not Model M5, and not a replacement for `ARQ_v0.2_Normative_Core.md`.
 
 ## DEA package (canonical in this repo)
 

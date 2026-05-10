@@ -53,6 +53,7 @@ This stack is entity-centered, not agent-centered.
 - Zenodo: https://doi.org/10.5281/zenodo.20090368
 - Artifact commit: `9ff38722fb0786f4ba651e8936c623c67ece7641`
 - Boundary: not quantum consciousness, not physical quantum computation, and not a new parent formula.
+- SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`.
 
 ## ARQ bridge (canonical in SER)
 
@@ -60,6 +61,8 @@ This stack is entity-centered, not agent-centered.
 - Explicit bridge: correction logic -> SER continuity -> L4 bounded accountability
 - Hidden bridges: witness-backed promotion; bounded homeostasis instead of infinite retry
 - Grounding: finite power, cooling, storage endurance, controller trust, and privilege
+- `c[q]` integration addendum: `protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md` / `pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf` in SER at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; AGI keeps pointer/context only.
+- Boundary: the addendum treats `c[q]` as behavioral non-collapse overlay, not physical quantum computing, quantum consciousness, Model M5, or a replacement for `ARQ_v0.2_Normative_Core.md`.
 
 ## ARL package (canonical in SER)
 

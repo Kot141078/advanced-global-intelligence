@@ -30,6 +30,12 @@ Use `TERMINOLOGY_AND_ALIAS_POLICY.md` when the question is canonical wording or 
 - Canonical distinction: Qubit-state `c` (`c[q]`) / Кубитная `c` is a derived state of `c` inside `c = a + b`, naming controlled non-collapse under uncertainty.
 - Why it matters operationally: the concept should preserve disciplined uncertainty management without mystifying `c`, changing the parent formula, or implying quantum hardware dependence.
 
+## ARQ `c[q]` addendum != Model M5 or normative-core replacement
+
+- Often confused: the SER-hosted ARQ `c[q]` integration addendum is read as physical quantum computing, quantum consciousness, Model M5, or a replacement for `ARQ_v0.2_Normative_Core.md`.
+- Canonical distinction: the addendum is an additive ARQ v0.2 integration pointer for Qubit-state `c` as behavioral non-collapse overlay under uncertainty.
+- Why it matters operationally: AGI keeps context pointers only while SER remains the canonical ARQ home and `c[q]` remains inside `c = a + b`.
+
 ## continuity != resemblance
 
 - Often confused: continuity is replaced by similarity of tone, memory fragments, or output style.

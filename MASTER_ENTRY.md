@@ -47,6 +47,7 @@ This page is the single entry point for the public protocol stack:
 - Economic Layer package entry: `docs/economic-layer/README.md`
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - Qubit-state `c` (`c[q]`) / Кубитная `c`: `concepts/QUBIT_STATE_C_v0.1.md` — DOI: `10.5281/zenodo.20090368`
+- Qubit-state `c` -> SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`
 - Canonical interpretive note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
 
 ## Secondary local-state / process shortcuts
@@ -158,6 +159,12 @@ AGL v0.1 adds the upstream grounding layer for source-state qualification and ru
 - DOI: `10.5281/zenodo.20090368`
 - Zenodo: https://doi.org/10.5281/zenodo.20090368
 - Artifact commit: `9ff38722fb0786f4ba651e8936c623c67ece7641`
+- SER ARQ `c[q]` integration addendum:
+  - canonical home: `Kot141078/sovereign-entity-recursion`
+  - commit: `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+  - markdown: `protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
+  - pdf: `pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf`
+  - AGI role: pointer/context layer only; canonical ARQ addendum payload remains in SER
 - Boundary:
   - conceptual / authored concept entry
   - not a protocol replacing SER or L4
@@ -171,9 +178,12 @@ AGL v0.1 adds the upstream grounding layer for source-state qualification and ru
   - pdf package: `pdf/arq/v0.2/`
   - manifest: `hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt`
   - first hop: `README_ARQ_Supplement_v0.2.md` -> `ARQ_v0.2_Executive_Summary.md` -> `ARQ_v0.2_Normative_Core.md`
+  - `c[q]` addendum: `ARQ_cq_Integration_Addendum_v0.1.md` / `ARQ_cq_Integration_Addendum_v0.1.pdf` at SER commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+  - addendum hashes: Markdown `DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D`; PDF `EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247`
   - AGI role: pointer/context layer only; no canonical ARQ payload duplication here
   - role: bounded error valuation, witness-backed promotion, experience filtering
   - bridge: correction logic -> SER continuity -> L4 bounded accountability
+  - boundary: `c[q]` is a behavioral non-collapse overlay, not physical quantum computing, not quantum consciousness, not Model M5, and not a replacement for `ARQ_v0.2_Normative_Core.md`
 
 ## 1.37) ARL v0.1 (canonical in SER)
 
