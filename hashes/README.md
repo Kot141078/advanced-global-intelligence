@@ -28,6 +28,9 @@ This directory contains SHA-256 integrity manifests for the Advanced Global Inte
 - `SHA256SUMS_arq_cq_crosslinks_2026-05-10.txt`
   Scoped integrity manifest for AGI pointer/context updates that link Qubit-state `c` (`c[q]`) to the SER-hosted ARQ `c[q]` integration addendum.
 
+- `SHA256SUMS_arq_cq_doi_crosslinks_2026-05-10.txt`
+  Scoped integrity manifest for AGI DOI pointer updates that link the SER-hosted ARQ `c[q]` integration addendum to its Zenodo DOI.
+
 - `SHA256SUMS_ea_l4_eatp_2026-03-28.txt`
   Canonical EA-L4 / EATP package manifest for `protocols/ea-l4-eatp/`.
 

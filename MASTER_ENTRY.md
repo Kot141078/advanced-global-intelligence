@@ -47,7 +47,7 @@ This page is the single entry point for the public protocol stack:
 - Economic Layer package entry: `docs/economic-layer/README.md`
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - Qubit-state `c` (`c[q]`) / Кубитная `c`: `concepts/QUBIT_STATE_C_v0.1.md` — DOI: `10.5281/zenodo.20090368`
-- Qubit-state `c` -> SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+- Qubit-state `c` -> SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; DOI `10.5281/zenodo.20112537`
 - Canonical interpretive note: `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`
 
 ## Secondary local-state / process shortcuts
@@ -162,6 +162,10 @@ AGL v0.1 adds the upstream grounding layer for source-state qualification and ru
 - SER ARQ `c[q]` integration addendum:
   - canonical home: `Kot141078/sovereign-entity-recursion`
   - commit: `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+  - tag: `arq-cq-integration-addendum-v0.1-2026-05-10`
+  - DOI: `10.5281/zenodo.20112537`
+  - all-versions DOI: `10.5281/zenodo.20112536`
+  - SER DOI backfill commit: `94dcab585b5c179cf4f4e0da4ebf63261c7fb984`
   - markdown: `protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
   - pdf: `pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf`
   - AGI role: pointer/context layer only; canonical ARQ addendum payload remains in SER
@@ -179,6 +183,8 @@ AGL v0.1 adds the upstream grounding layer for source-state qualification and ru
   - manifest: `hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt`
   - first hop: `README_ARQ_Supplement_v0.2.md` -> `ARQ_v0.2_Executive_Summary.md` -> `ARQ_v0.2_Normative_Core.md`
   - `c[q]` addendum: `ARQ_cq_Integration_Addendum_v0.1.md` / `ARQ_cq_Integration_Addendum_v0.1.pdf` at SER commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+  - `c[q]` DOI: `10.5281/zenodo.20112537`; all-versions DOI: `10.5281/zenodo.20112536`
+  - SER tag: `arq-cq-integration-addendum-v0.1-2026-05-10`; SER DOI backfill commit: `94dcab585b5c179cf4f4e0da4ebf63261c7fb984`
   - addendum hashes: Markdown `DD79DEA8C7678E5733127C879482138ACEC4950CBFF35E147F8A9A052A575B1D`; PDF `EAF72781EE9BA8F45B1AE35A878642E390711E0D1A17615C2997FFC465E8C247`
   - AGI role: pointer/context layer only; no canonical ARQ payload duplication here
   - role: bounded error valuation, witness-backed promotion, experience filtering

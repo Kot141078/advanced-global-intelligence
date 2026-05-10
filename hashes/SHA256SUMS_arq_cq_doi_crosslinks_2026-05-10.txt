@@ -1,0 +1,18 @@
+# SHA256SUMS - AGI ARQ c[q] DOI crosslink pointers
+# Date: 2026-05-10
+# Scope: AGI pointer/context updates linking the SER-hosted ARQ c[q] integration addendum to its Zenodo DOI.
+# Canonical SER payload commit: d73fec3881b90e3cee2b09e4fce88860f82394e9
+# SER DOI backfill commit: 94dcab585b5c179cf4f4e0da4ebf63261c7fb984
+# Exact DOI: 10.5281/zenodo.20112537
+# All-versions DOI: 10.5281/zenodo.20112536
+# Canonical ARQ addendum payload remains in Kot141078/sovereign-entity-recursion.
+# This manifest is self-excluded by design.
+
+8fb1d9fab30b356545769c9f681f28bdea74da80cbf3605ff2db14736455c46b  README.md
+ae3d88eb009f059bcb7c49708ab199049db8e46d7ffb69de0901fb23bb1b2a9d  MASTER_ENTRY.md
+47dbff62344b336b6b47888710dcbe19c74dd2c0921519c5166573f13aa7200d  MACHINE_ENTRY.md
+b5006467e91d74e31fef9ed1552d249a61d58e63d19a039f9964078b155bc7a3  REPO_INDEX.md
+2e6cb25c5cba985acd686f1f72bf1972b1bd4c794add5058078a7d3aaecf9c57  REPO_INDEX.json
+944d5e6f558740643b998fe1dc5601d958b70b17f70351ed187f0ef4f8c3e205  CORPUS_PRIMER.json
+0425224d832f49ab43a23a9df3d699aed200c0c67725a11eb0cdc95e3e3d45a9  INDEX.md
+e8e7eb6c7e5681dff81683371396ea2f627c821c980ec17146031e247f20588e  hashes/README.md

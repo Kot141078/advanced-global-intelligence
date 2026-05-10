@@ -120,7 +120,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Parent formula: `c = a + b`
 - Role: controlled non-collapse under uncertainty while remaining bounded by responsibility, arbitration, and L4 reality constraints
 - Boundary: not quantum consciousness, not physical quantum computation, and not a new parent formula
-- SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`, `protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
+- SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`, tag `arq-cq-integration-addendum-v0.1-2026-05-10`, DOI `10.5281/zenodo.20112537`, `protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
 
 ## Beacon profile
 - Beacon Profile v0.1
@@ -144,6 +144,12 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Explicit bridge: correction logic -> SER continuity -> L4 bounded accountability
 - `c[q]` integration addendum:
   - commit: `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+  - tag: `arq-cq-integration-addendum-v0.1-2026-05-10`
+  - SER DOI backfill commit: `94dcab585b5c179cf4f4e0da4ebf63261c7fb984`
+  - DOI: `10.5281/zenodo.20112537`
+  - DOI URL: https://doi.org/10.5281/zenodo.20112537
+  - all-versions DOI: `10.5281/zenodo.20112536`
+  - all-versions DOI URL: https://doi.org/10.5281/zenodo.20112536
   - markdown: `protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
   - pdf: `pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf`
   - raw markdown: https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md

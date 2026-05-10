@@ -32,6 +32,7 @@ Start here:
   - DOI: `10.5281/zenodo.20090368`
   - Zenodo: `https://doi.org/10.5281/zenodo.20090368`
   - SER ARQ integration pointer: `ARQ_cq_Integration_Addendum_v0.1.md` in `Kot141078/sovereign-entity-recursion` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+  - SER ARQ addendum DOI: `https://doi.org/10.5281/zenodo.20112537`
 - canonical anti-confusion surface: `CANONICAL_DISTINCTIONS.md`
 - canonical objections/replies surface: `OBJECTIONS_AND_REPLIES.md`
 - citation / verification surface: `CITATION_AND_VERIFICATION.md`
@@ -381,6 +382,10 @@ ARQ matters here because it creates an explicit bridge between correction logic,
 SER hosts the canonical `ARQ c[q] Integration Addendum v0.1` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`.
 AGI points to it to connect Qubit-state `c` (`c[q]`) with ARQ v0.2 without copying the addendum payload into this repo.
 
+- SER tag: `arq-cq-integration-addendum-v0.1-2026-05-10`
+- SER DOI backfill commit: `94dcab585b5c179cf4f4e0da4ebf63261c7fb984`
+- Zenodo DOI: https://doi.org/10.5281/zenodo.20112537
+- All-versions DOI: https://doi.org/10.5281/zenodo.20112536
 - Markdown: https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md
 - Raw Markdown: https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md
 - PDF: https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf

@@ -35,6 +35,12 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
   - `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/protocol/arq/v0.2/ARQ_v0.2_Normative_Core.md`
 - `c[q]` integration addendum:
   - SER commit: `d73fec3881b90e3cee2b09e4fce88860f82394e9`
+  - SER tag: `arq-cq-integration-addendum-v0.1-2026-05-10`
+  - SER DOI backfill commit: `94dcab585b5c179cf4f4e0da4ebf63261c7fb984`
+  - doi: `10.5281/zenodo.20112537`
+  - doi_url: `https://doi.org/10.5281/zenodo.20112537`
+  - concept_doi: `10.5281/zenodo.20112536`
+  - concept_doi_url: `https://doi.org/10.5281/zenodo.20112536`
   - markdown: `https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
   - raw_markdown: `https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.md`
   - pdf: `https://github.com/Kot141078/sovereign-entity-recursion/blob/d73fec3881b90e3cee2b09e4fce88860f82394e9/pdf/arq/v0.2/ARQ_cq_Integration_Addendum_v0.1.pdf`
@@ -68,7 +74,7 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - key_terms: Qubit-state c; `c[q]`; Кубитная c; controlled non-collapse; variative continuity
 - avoid_terms: Quantum c; quantum consciousness; quantum AI entity
 - short_description: Qubit-state `c` (`c[q]`) is a derived state of `c` within the `c = a + b` framework, denoting controlled non-collapse under uncertainty without claims of physical quantum computation.
-- ARQ integration pointer: SER-hosted `ARQ_cq_Integration_Addendum_v0.1.md` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; AGI keeps pointer/context only.
+- ARQ integration pointer: SER-hosted `ARQ_cq_Integration_Addendum_v0.1.md` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; DOI `10.5281/zenodo.20112537`; AGI keeps pointer/context only.
 - ARQ boundary: behavioral non-collapse overlay only; not physical quantum computing, not quantum consciousness, not Model M5, not replacement for `ARQ_v0.2_Normative_Core.md`.
 
 ## Stable corpus refs
