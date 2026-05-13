@@ -77,8 +77,16 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - ARQ integration pointer: SER-hosted `ARQ_cq_Integration_Addendum_v0.1.md` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; DOI `10.5281/zenodo.20112537`; AGI keeps pointer/context only.
 - ARQ boundary: behavioral non-collapse overlay only; not physical quantum computing, not quantum consciousness, not Model M5, not replacement for `ARQ_v0.2_Normative_Core.md`.
 
-## C-node boundary docs v0.1
+## C-node boundary docs package facade v0.1.1
 
+- package_facade:
+  - markdown: `docs/c-node-boundary-docs/README.md`
+  - index: `docs/c-node-boundary-docs/PACKAGE_INDEX_C_NODE_BOUNDARY_DOCS_v0.1.1.md`
+  - manifest_json: `docs/c-node-boundary-docs/PACKAGE_MANIFEST_C_NODE_BOUNDARY_DOCS_v0.1.1.json`
+  - draft_release_notes: `docs/c-node-boundary-docs/RELEASE_NOTES_C_NODE_BOUNDARY_DOCS_v0.1.1.md`
+  - package_version: `v0.1.1`
+  - constituent_document_version: `v0.1`
+  - short_description: package facade for anchor-class taxonomy, raw-local experience refinement, third-party sensor exposure, and the minimum local `c-node` profile.
 - anchor_class_boundaries:
   - markdown: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md`
   - pdf: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
@@ -91,7 +99,13 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
   - markdown: `docs/economic-layer/extensions/THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md`
   - pdf: `docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf`
   - short_description: boundary note for third-party presence captured by `a` / `c` sensors; sensor capture is not consent, third-party presence is not anchor standing, and externalization/training are blocked by default.
+- minimum_c_node_profile_companion:
+  - repo: `ester-clean-code`
+  - markdown: `https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/MINIMUM_C_NODE_PROFILE_v0.1.md`
+  - pdf: `https://github.com/Kot141078/ester-clean-code/blob/main/docs/profiles/pdf/Minimum_C-Node_Profile_v0.1_academic.pdf`
+  - short_description: local-first implementation profile companion to the AGI-led C-node boundary package facade.
 - manifest: `hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt`
+- facade_manifest: `docs/c-node-boundary-docs/hashes/SHA256SUMS_cnode_boundary_docs_facade_v0.1.1_2026-05-13.txt`
 
 ## Stable corpus refs
 

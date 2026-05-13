@@ -207,6 +207,9 @@ Human-facing PDFs:
 - `Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf` is present in `pdf/extensions/`
 - `Third-Party_Sensor_Boundary_v0.1_academic.pdf` is present in `pdf/extensions/`
 
+C-node boundary package facade:
+- `../c-node-boundary-docs/README.md` — package facade for anchor-class taxonomy, raw-local experience refinement, third-party sensor exposure, and the minimum local `c-node` profile.
+
 Intentionally excluded from GitHub in this iteration:
 - `Economic_Layer_GitHub_and_Zenodo_Publication_Guide_v0.1.md`
 - `Economic_Layer_Repository_Layout_Guide_for_AGI_v0.1.md`

@@ -1,0 +1,86 @@
+{
+  "package_id": "c-node-boundary-docs",
+  "package_version": "0.1.1",
+  "package_status": "draft_package_facade",
+  "date": "2026-05-13",
+  "canonical_repo": "advanced-global-intelligence",
+  "companion_repos": [
+    "ester-clean-code"
+  ],
+  "constituent_document_version": "0.1",
+  "documents": [
+    {
+      "title": "Anchor Class Boundaries v0.1",
+      "repo": "advanced-global-intelligence",
+      "markdown_path": "protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md",
+      "pdf_path": "protocols/Anchor_Class_Boundaries_v0.1_academic.pdf",
+      "role": "anchor taxonomy"
+    },
+    {
+      "title": "Raw Locality and Experience Refinery Profile v0.1",
+      "repo": "advanced-global-intelligence",
+      "markdown_path": "docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md",
+      "pdf_path": "docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf",
+      "role": "raw-local experience refinement"
+    },
+    {
+      "title": "Third-Party Sensor Boundary v0.1",
+      "repo": "advanced-global-intelligence",
+      "markdown_path": "docs/economic-layer/extensions/THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md",
+      "pdf_path": "docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf",
+      "role": "third-party sensor exposure boundary"
+    },
+    {
+      "title": "Minimum C-Node Profile v0.1",
+      "repo": "ester-clean-code",
+      "markdown_path": "docs/profiles/MINIMUM_C_NODE_PROFILE_v0.1.md",
+      "pdf_path": "docs/profiles/pdf/Minimum_C-Node_Profile_v0.1_academic.pdf",
+      "role": "local-first implementation profile"
+    }
+  ],
+  "sha_manifests": [
+    {
+      "repo": "advanced-global-intelligence",
+      "path": "docs/c-node-boundary-docs/hashes/SHA256SUMS_cnode_boundary_docs_facade_v0.1.1_2026-05-13.txt",
+      "scope": "package facade files plus AGI constituent files"
+    },
+    {
+      "repo": "advanced-global-intelligence",
+      "path": "hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt",
+      "scope": "original AGI C-node boundary placement"
+    },
+    {
+      "repo": "ester-clean-code",
+      "path": "docs/profiles/hashes/SHA256SUMS_cnode_profile_v0.1_2026-05-13.txt",
+      "scope": "original ECC minimum C-node profile placement"
+    }
+  ],
+  "commits": {
+    "advanced_global_intelligence_placement": "e43af67f51daf27a4a648727892d86c86de5a7db",
+    "ester_clean_code_placement": "b08779450b2e82654ca7a5c8f6485b92f8e0f44b",
+    "website_surface": "9d9aecb62f3ff34994a365d9da056dabbf0c9c4e"
+  },
+  "public_website_surface": [
+    "https://ivankotov.eu/advanced-global-intelligence/",
+    "https://ivankotov.eu/library/",
+    "https://ivankotov.eu/downloads/",
+    "https://ivankotov.eu/reading-path/"
+  ],
+  "non_claims": [
+    "This package does not create legal personhood.",
+    "This package does not create public law.",
+    "This package does not create state regulation.",
+    "This package does not create corporate duties.",
+    "This package does not create a rights charter.",
+    "This package does not create a consciousness claim.",
+    "This package does not create a universal market for experience."
+  ],
+  "release_state": {
+    "github_release": "deferred",
+    "signed_package_tag": "deferred",
+    "zenodo_doi": "deferred",
+    "consolidated_package_zip": "deferred",
+    "ser_erb_crosslinks": "deferred",
+    "document_level_v0_1_1_revisions": "deferred"
+  }
+}
