@@ -21,6 +21,7 @@ Start here:
 - Ecosystem-level theoretical synthesis: `manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md`
 - Zenodo citation: `10.5281/zenodo.19384668` (all versions: `10.5281/zenodo.19384667`)
 - Core protocol (v1.1 + L4): `protocols/`
+- Anchor Class Boundaries v0.1: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` | PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 - Beacon profile v0.1: `protocols/beacon/`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
 - DEA package: `protocols/dea/README.md`
@@ -104,6 +105,8 @@ This stack is entity-centered, not agent-centered.
 - Normative core: `docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md`
 - Extension clauses: `docs/economic-layer/extensions/`
 - PDFs: `docs/economic-layer/pdf/` and `docs/economic-layer/pdf/extensions/`
+- Raw Locality and Experience Refinery Profile v0.1: `docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md` | PDF: `docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf`
+- Third-Party Sensor Boundary v0.1: `docs/economic-layer/extensions/THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md` | PDF: `docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf`
 
 ## Pre-Lineage Boundary Note
 

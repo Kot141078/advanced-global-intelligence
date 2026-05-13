@@ -77,6 +77,22 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - ARQ integration pointer: SER-hosted `ARQ_cq_Integration_Addendum_v0.1.md` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; DOI `10.5281/zenodo.20112537`; AGI keeps pointer/context only.
 - ARQ boundary: behavioral non-collapse overlay only; not physical quantum computing, not quantum consciousness, not Model M5, not replacement for `ARQ_v0.2_Normative_Core.md`.
 
+## C-node boundary docs v0.1
+
+- anchor_class_boundaries:
+  - markdown: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md`
+  - pdf: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
+  - short_description: protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`, defining authority, memory, sensor, standing, and jurisdiction boundaries without creating legal personhood or public law.
+- raw_locality_experience_refinery:
+  - markdown: `docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md`
+  - pdf: `docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf`
+  - short_description: local-first profile stating that raw private reality stays local by default and may become DEA / EA / LA / bounded disclosure only through classification, provenance, admissibility, and receiver-mode discipline.
+- third_party_sensor_boundary:
+  - markdown: `docs/economic-layer/extensions/THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md`
+  - pdf: `docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf`
+  - short_description: boundary note for third-party presence captured by `a` / `c` sensors; sensor capture is not consent, third-party presence is not anchor standing, and externalization/training are blocked by default.
+- manifest: `hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt`
+
 ## Stable corpus refs
 
 - `CORPUS_PRIMER.json`

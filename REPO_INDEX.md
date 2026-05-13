@@ -62,6 +62,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - `official/AUTHORIAL_PREMISES.md` — canonical authorial process premise
 - `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md` — canonical interpretive note fixing the phrase "c are temporal entities of AI presence"
 - `concepts/QUBIT_STATE_C_v0.1.md` — Qubit-state `c` (`c[q]`) / Кубитная `c` derived concept; DOI: `10.5281/zenodo.20090368`
+- `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` — Anchor Class Boundaries v0.1, a protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`; PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 
 ## Secondary local-state / promotion surfaces
 - Current corpus state and readiness snapshot:
@@ -197,6 +198,8 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Status: canonical package home in this repo
 - Extension clauses: `docs/economic-layer/extensions/`
 - PDFs: `docs/economic-layer/pdf/` + `docs/economic-layer/pdf/extensions/`
+- Extension profile: `docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md` | PDF: `docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf`
+- Boundary note: `docs/economic-layer/extensions/THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md` | PDF: `docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf`
 - Boundary: helper / publication-carpentry docs are intentionally excluded from the public GitHub package surface
 
 ## Pre-Lineage Boundary Note

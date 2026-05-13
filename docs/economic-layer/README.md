@@ -195,13 +195,17 @@ Published extension / satellite clauses in `extensions/`:
 - `Jurisdiction_Bounded_Interop_Clause_v0.1.md`
 - `Lineage_Linked_EA_Value_and_Risk_Clause_v0.1.md`
 - `Property_Status_of_EA_v0.1.md`
+- `RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md`
 - `Scar_Bearing_EA_Clause_v0.1.md`
 - `Synthetic_Laundering_and_Source_Class_Clause_v0.1.md`
+- `THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md`
 
 Human-facing PDFs:
 - root PDFs are in `pdf/`
 - extension PDFs are in `pdf/extensions/`
 - `EA_Scar_Status_Matrix_v0.1.pdf` is present in `pdf/extensions/`
+- `Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf` is present in `pdf/extensions/`
+- `Third-Party_Sensor_Boundary_v0.1_academic.pdf` is present in `pdf/extensions/`
 
 Intentionally excluded from GitHub in this iteration:
 - `Economic_Layer_GitHub_and_Zenodo_Publication_Guide_v0.1.md`

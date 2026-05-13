@@ -118,6 +118,7 @@ This repository is easier to understand when related protocol and manifesto docu
 - `DEA` — canonical here; input-to-experience package. Path: `protocols/dea/README.md`
 - `EA-L4 / EATP` — canonical here; training provenance and consequence-preserving package. Path: `protocols/ea-l4-eatp/README.md`
 - `Economic Layer for Experience Artifacts v0.1` — canonical here; economic admissibility and provenance package. Path: `docs/economic-layer/README.md`
+- `Anchor Class Boundaries v0.1` — protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`. Path: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` | PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 - `Pre-Lineage Boundary Note v0.1` — canonical here; manifesto-level boundary note. Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - `Qubit-state c v0.1` — conceptual note here; a derived state of `c`, not a replacement for `c = a + b`. Path: `concepts/QUBIT_STATE_C_v0.1.md`. DOI: `10.5281/zenodo.20090368`.
 
@@ -451,6 +452,10 @@ Structure:
 - extension clauses in `docs/economic-layer/extensions/`
 - root PDFs in `docs/economic-layer/pdf/`
 - extension PDFs in `docs/economic-layer/pdf/extensions/`
+
+New boundary/profile notes:
+- `Raw Locality and Experience Refinery Profile v0.1` — local-first profile for raw private reality, classification, provenance, admissibility, and receiver-mode discipline. MD: `docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md` | PDF: `docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf`
+- `Third-Party Sensor Boundary v0.1` — boundary note for third-party presence captured by `a` / `c` sensors; capture is not consent or anchor standing. MD: `docs/economic-layer/extensions/THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md` | PDF: `docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf`
 
 ## Pre-Lineage Boundary Note
 
