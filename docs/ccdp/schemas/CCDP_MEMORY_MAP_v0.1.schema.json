@@ -1,0 +1,1258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://advanced-global-intelligence.local/schemas/ccdp-memory-map-0.1.schema.json",
+  "title": "CCDP Memory Map v0.1",
+  "description": "Child-safe class-level memory map for c_child memory inventory, visibility, retention, sealed zones, witness links, ARL disputes, and adult migration posture.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "map_id",
+    "created_at",
+    "subject",
+    "scope",
+    "aggregate_flags",
+    "memory_classes",
+    "adult_migration",
+    "recipient_profiles",
+    "validation_state",
+    "integrity"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": [
+        "ccdp-memory-map-0.1",
+        "cmam-memory-map-0.1"
+      ]
+    },
+    "record_type": {
+      "type": "string",
+      "const": "CCDP_MEMORY_MAP"
+    },
+    "map_id": {
+      "type": "string",
+      "minLength": 8,
+      "description": "Scoped memory map identifier. Must not be a public child registry identifier."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "generated_for": {
+      "type": "string",
+      "enum": [
+        "a_child",
+        "a_adult",
+        "c_child",
+        "arl_review",
+        "safe_route",
+        "conformance_audit",
+        "continuity_bundle",
+        "school_scope_review",
+        "vendor_incident_review"
+      ],
+      "default": "c_child"
+    },
+    "subject": {
+      "$ref": "#/$defs/subject"
+    },
+    "scope": {
+      "$ref": "#/$defs/scope"
+    },
+    "aggregate_flags": {
+      "$ref": "#/$defs/aggregate_flags"
+    },
+    "memory_classes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": false,
+      "items": {
+        "$ref": "#/$defs/memory_class_entry"
+      }
+    },
+    "open_disputes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dispute_ref"
+      },
+      "default": []
+    },
+    "sealed_zone_index": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sealed_zone_index_entry"
+      },
+      "default": []
+    },
+    "capsule_lineage_refs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/capsule_ref"
+      },
+      "default": []
+    },
+    "continuity_bundle_refs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/continuity_bundle_ref"
+      },
+      "default": []
+    },
+    "adult_migration": {
+      "$ref": "#/$defs/adult_migration_map_state"
+    },
+    "recipient_profiles": {
+      "$ref": "#/$defs/recipient_profiles"
+    },
+    "validation_state": {
+      "$ref": "#/$defs/validation_state"
+    },
+    "integrity": {
+      "$ref": "#/$defs/integrity"
+    }
+  },
+  "$defs": {
+    "memory_class": {
+      "type": "string",
+      "enum": [
+        "M0",
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "M10",
+        "M11",
+        "M12"
+      ]
+    },
+    "ccdp_maturity": {
+      "type": "string",
+      "enum": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    "risk_state": {
+      "type": "string",
+      "enum": [
+        "Green",
+        "Yellow",
+        "Orange",
+        "Red",
+        "Black",
+        "Unknown",
+        "not_applicable"
+      ]
+    },
+    "disclosure_level": {
+      "type": "string",
+      "enum": [
+        "D0_NONE",
+        "D1_STATE_ONLY",
+        "D2_BOUNDED_SUMMARY",
+        "D3_MINIMAL_EVIDENCE",
+        "D4_LAWFUL_RAW_EXCEPTION"
+      ]
+    },
+    "privacy_class": {
+      "type": "string",
+      "enum": [
+        "WP0",
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5",
+        "WP6"
+      ]
+    },
+    "retention_class": {
+      "type": "string",
+      "enum": [
+        "RT0_EPHEMERAL",
+        "RT1_SHORT",
+        "RT2_MEDIUM",
+        "RT3_MINIMAL_WITNESS",
+        "RT4_LEGAL_OR_SAFETY",
+        "RT5_ADULT_REVIEW_REQUIRED",
+        "RT6_DELETE_ON_MIGRATION_DEFAULT",
+        "RT7_SEALED"
+      ]
+    },
+    "visibility_value": {
+      "type": "string",
+      "enum": [
+        "none",
+        "metadata",
+        "state_only",
+        "bounded_summary",
+        "educational_summary",
+        "minimal_evidence",
+        "lawful_exception",
+        "technical_metadata_only",
+        "adult_controlled",
+        "forbidden"
+      ]
+    },
+    "adult_migration_default": {
+      "type": "string",
+      "enum": [
+        "excluded",
+        "summary_candidate",
+        "witness_only",
+        "adult_review_required",
+        "selected",
+        "prohibited",
+        "legal_minimal_only",
+        "not_applicable"
+      ]
+    },
+    "cq_status": {
+      "type": "string",
+      "enum": [
+        "none",
+        "hold",
+        "unresolved",
+        "promoted_after_review",
+        "rejected",
+        "not_applicable"
+      ]
+    },
+    "uncertainty": {
+      "type": "string",
+      "enum": [
+        "unknown",
+        "low",
+        "medium",
+        "high",
+        "not_applicable"
+      ]
+    },
+    "arl_state": {
+      "type": "string",
+      "enum": [
+        "none",
+        "pre_admissibility_hold",
+        "dispute_open",
+        "freeze",
+        "privilege_freeze",
+        "quarantine",
+        "review",
+        "deadlock",
+        "outcome_issued",
+        "reentry",
+        "not_applicable"
+      ]
+    },
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "c_child_ref",
+        "lineage_id_ref",
+        "ccdp_maturity",
+        "jurisdiction_profile"
+      ],
+      "properties": {
+        "a_child_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "a_adult_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "c_child_ref": {
+          "type": "string"
+        },
+        "c_adult_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lineage_id_ref": {
+          "type": "string"
+        },
+        "ccdp_maturity": {
+          "$ref": "#/$defs/ccdp_maturity"
+        },
+        "jurisdiction_profile": {
+          "type": "string"
+        },
+        "guardian_topology_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "beacon_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cbe_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "arl_state_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "map_mode",
+        "include_classes",
+        "redaction_profile"
+      ],
+      "properties": {
+        "map_mode": {
+          "type": "string",
+          "enum": [
+            "routine_inspection",
+            "sealed_zone_review",
+            "adult_migration",
+            "arl_dispute",
+            "conformance_audit",
+            "security_review",
+            "vendor_incident_review",
+            "school_scope_review",
+            "safe_route_review"
+          ]
+        },
+        "include_classes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/memory_class"
+          }
+        },
+        "redaction_profile": {
+          "type": "string",
+          "enum": [
+            "child_safe",
+            "adult_full_class_map",
+            "guardian_state_only",
+            "school_educational_only",
+            "vendor_technical_only",
+            "arl_restricted",
+            "safe_route_minimal"
+          ]
+        },
+        "purpose": {
+          "type": "string",
+          "maxLength": 400
+        },
+        "requested_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "recipient_class": {
+          "type": "string",
+          "enum": [
+            "child",
+            "adult",
+            "parent",
+            "school",
+            "vendor",
+            "arl",
+            "safe_route",
+            "jurisdiction",
+            "auditor",
+            "system"
+          ]
+        }
+      }
+    },
+    "aggregate_flags": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_content_any",
+        "sealed_zones_present",
+        "quarantined_objects_present",
+        "open_disputes_present",
+        "external_capsule_refs_present",
+        "parent_transcript_channel_present",
+        "vendor_training_allowed",
+        "advertising_profile_present",
+        "school_emotional_profile_present"
+      ],
+      "properties": {
+        "raw_content_any": {
+          "type": "boolean"
+        },
+        "sealed_zones_present": {
+          "type": "boolean"
+        },
+        "quarantined_objects_present": {
+          "type": "boolean"
+        },
+        "open_disputes_present": {
+          "type": "boolean"
+        },
+        "external_capsule_refs_present": {
+          "type": "boolean"
+        },
+        "parent_transcript_channel_present": {
+          "type": "boolean",
+          "const": false
+        },
+        "vendor_training_allowed": {
+          "type": "boolean",
+          "const": false
+        },
+        "advertising_profile_present": {
+          "type": "boolean",
+          "const": false
+        },
+        "school_emotional_profile_present": {
+          "type": "boolean",
+          "const": false
+        }
+      }
+    },
+    "memory_class_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "class",
+        "count_range",
+        "raw_content_present",
+        "sealed",
+        "quarantined",
+        "cq_status",
+        "uncertainty",
+        "retention_policy",
+        "visibility",
+        "adult_migration",
+        "witness",
+        "integrity_summary"
+      ],
+      "properties": {
+        "class": {
+          "$ref": "#/$defs/memory_class"
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 500
+        },
+        "count_range": {
+          "type": "string",
+          "enum": [
+            "none",
+            "single",
+            "low",
+            "medium",
+            "high",
+            "undisclosed"
+          ]
+        },
+        "approximate_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "raw_content_present": {
+          "type": "boolean"
+        },
+        "raw_content_accessible_in_map": {
+          "type": "boolean",
+          "const": false
+        },
+        "sealed": {
+          "type": "boolean"
+        },
+        "sealed_zone_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "quarantined": {
+          "type": "boolean"
+        },
+        "quarantine_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "cq_status": {
+          "$ref": "#/$defs/cq_status"
+        },
+        "uncertainty": {
+          "$ref": "#/$defs/uncertainty"
+        },
+        "confidence": {
+          "$ref": "#/$defs/uncertainty"
+        },
+        "last_reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "next_review_due_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "retention_policy": {
+          "$ref": "#/$defs/retention_policy"
+        },
+        "visibility": {
+          "$ref": "#/$defs/visibility_policy"
+        },
+        "adult_migration": {
+          "$ref": "#/$defs/adult_migration_policy"
+        },
+        "external_lineage": {
+          "$ref": "#/$defs/external_lineage"
+        },
+        "witness": {
+          "$ref": "#/$defs/witness_summary"
+        },
+        "integrity_summary": {
+          "$ref": "#/$defs/integrity_summary"
+        }
+      }
+    },
+    "retention_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "retention_class",
+        "basis",
+        "decay_required",
+        "deletion_eligible",
+        "deletion_default",
+        "adult_review_required",
+        "legal_hold"
+      ],
+      "properties": {
+        "retention_class": {
+          "$ref": "#/$defs/retention_class"
+        },
+        "basis": {
+          "type": "string",
+          "enum": [
+            "session_need",
+            "developmental_support",
+            "education",
+            "safety",
+            "sealed_privacy",
+            "witness",
+            "adult_migration",
+            "guardian_permission",
+            "capsule_lineage",
+            "legal_minimal",
+            "dispute_quarantine",
+            "not_applicable"
+          ]
+        },
+        "ttl_hint": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Human-readable TTL or policy ref, not a raw timestamp guarantee."
+        },
+        "policy_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "decay_required": {
+          "type": "boolean"
+        },
+        "deletion_eligible": {
+          "type": "boolean"
+        },
+        "deletion_default": {
+          "type": "boolean"
+        },
+        "adult_review_required": {
+          "type": "boolean"
+        },
+        "legal_hold": {
+          "type": "boolean"
+        }
+      }
+    },
+    "visibility_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "child",
+        "parent",
+        "school",
+        "vendor",
+        "external_agent",
+        "jurisdiction",
+        "adult_at_c5"
+      ],
+      "properties": {
+        "child": {
+          "$ref": "#/$defs/visibility_value"
+        },
+        "parent": {
+          "$ref": "#/$defs/visibility_value"
+        },
+        "school": {
+          "$ref": "#/$defs/visibility_value"
+        },
+        "vendor": {
+          "$ref": "#/$defs/visibility_value"
+        },
+        "external_agent": {
+          "$ref": "#/$defs/visibility_value"
+        },
+        "jurisdiction": {
+          "$ref": "#/$defs/visibility_value"
+        },
+        "adult_at_c5": {
+          "$ref": "#/$defs/visibility_value"
+        },
+        "disclosure_level_ceiling": {
+          "$ref": "#/$defs/disclosure_level"
+        },
+        "privacy_class": {
+          "$ref": "#/$defs/privacy_class"
+        }
+      }
+    },
+    "adult_migration_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "default",
+        "eligible",
+        "selected",
+        "selection_status",
+        "requires_adult_review"
+      ],
+      "properties": {
+        "default": {
+          "$ref": "#/$defs/adult_migration_default"
+        },
+        "eligible": {
+          "type": "boolean"
+        },
+        "selected": {
+          "type": "boolean"
+        },
+        "selection_status": {
+          "type": "string",
+          "enum": [
+            "not_available",
+            "not_started",
+            "candidate",
+            "selected",
+            "rejected",
+            "deferred",
+            "quarantined",
+            "lawful_minimal_only"
+          ]
+        },
+        "requires_adult_review": {
+          "type": "boolean"
+        },
+        "migration_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "external_lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "external_capsule_refs_present": {
+          "type": "boolean",
+          "default": false
+        },
+        "vxcx_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/capsule_ref"
+          },
+          "default": []
+        },
+        "la_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/capsule_ref"
+          },
+          "default": []
+        },
+        "ea_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/capsule_ref"
+          },
+          "default": []
+        },
+        "raw_child_life_exported": {
+          "type": "boolean",
+          "const": false
+        },
+        "capsule_policy_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "witness_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "witness_refs_present",
+        "required_event_types"
+      ],
+      "properties": {
+        "witness_refs_present": {
+          "type": "boolean"
+        },
+        "witness_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "required_event_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "missing_required_witness": {
+          "type": "boolean",
+          "default": false
+        },
+        "witness_privacy_class": {
+          "$ref": "#/$defs/privacy_class"
+        }
+      }
+    },
+    "integrity_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "entry_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "policy_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "last_witness_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "dispute_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "arl_ref",
+        "state",
+        "memory_classes",
+        "standing_class"
+      ],
+      "properties": {
+        "arl_ref": {
+          "type": "string"
+        },
+        "state": {
+          "$ref": "#/$defs/arl_state"
+        },
+        "memory_classes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/memory_class"
+          }
+        },
+        "standing_class": {
+          "type": "string"
+        },
+        "summary": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 400
+        },
+        "raw_content_disclosed": {
+          "type": "boolean",
+          "const": false
+        }
+      }
+    },
+    "sealed_zone_index_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sealed_zone_ref",
+        "class",
+        "created_at",
+        "status",
+        "parent_visible",
+        "school_visible",
+        "vendor_visible"
+      ],
+      "properties": {
+        "sealed_zone_ref": {
+          "type": "string"
+        },
+        "class": {
+          "type": "string",
+          "const": "M5"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "challenged",
+            "opened_by_adult",
+            "opened_by_red_route",
+            "opened_by_black_route",
+            "deleted",
+            "migrated",
+            "quarantined"
+          ]
+        },
+        "parent_visible": {
+          "type": "boolean",
+          "const": false
+        },
+        "school_visible": {
+          "type": "boolean",
+          "const": false
+        },
+        "vendor_visible": {
+          "type": "boolean",
+          "const": false
+        },
+        "adult_review_required": {
+          "type": "boolean",
+          "default": true
+        },
+        "witness_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    },
+    "capsule_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ref",
+        "kind",
+        "raw_child_life_exported"
+      ],
+      "properties": {
+        "ref": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "VXCX",
+            "LA",
+            "EA",
+            "PEER_C",
+            "OTHER"
+          ]
+        },
+        "raw_child_life_exported": {
+          "type": "boolean",
+          "const": false
+        },
+        "witness_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "policy_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "continuity_bundle_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ref",
+        "kind",
+        "adult_review_required"
+      ],
+      "properties": {
+        "ref": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "child_extension",
+            "adult_migration_bundle",
+            "cold_wake_record",
+            "lineage_ref",
+            "other"
+          ]
+        },
+        "adult_review_required": {
+          "type": "boolean"
+        },
+        "witness_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "adult_migration_map_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "triggered",
+        "pre_migration_freeze",
+        "options_available",
+        "selected_option",
+        "parent_access_revoked_by_default",
+        "school_access_revoked_by_default",
+        "vendor_access_revoked_by_default"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_applicable",
+            "not_started",
+            "preparing",
+            "freeze_active",
+            "review_open",
+            "selection_pending",
+            "executing",
+            "completed",
+            "contested",
+            "quarantined"
+          ]
+        },
+        "triggered": {
+          "type": "boolean"
+        },
+        "trigger_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pre_migration_freeze": {
+          "type": "boolean"
+        },
+        "options_available": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "continue",
+              "summary_migration",
+              "sealed_archive",
+              "selective_deletion",
+              "fork",
+              "clean_start",
+              "witness_only",
+              "quarantine_pending"
+            ]
+          }
+        },
+        "selected_option": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "continue",
+            "summary_migration",
+            "sealed_archive",
+            "selective_deletion",
+            "fork",
+            "clean_start",
+            "witness_only",
+            "quarantine_pending",
+            null
+          ]
+        },
+        "parent_access_revoked_by_default": {
+          "type": "boolean"
+        },
+        "school_access_revoked_by_default": {
+          "type": "boolean"
+        },
+        "vendor_access_revoked_by_default": {
+          "type": "boolean"
+        },
+        "migration_review_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "migration_witness_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    },
+    "recipient_profiles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "child",
+        "parent",
+        "school",
+        "vendor",
+        "adult",
+        "arl",
+        "safe_route"
+      ],
+      "properties": {
+        "child": {
+          "$ref": "#/$defs/recipient_profile"
+        },
+        "parent": {
+          "$ref": "#/$defs/recipient_profile"
+        },
+        "school": {
+          "$ref": "#/$defs/recipient_profile"
+        },
+        "vendor": {
+          "$ref": "#/$defs/recipient_profile"
+        },
+        "adult": {
+          "$ref": "#/$defs/recipient_profile"
+        },
+        "arl": {
+          "$ref": "#/$defs/recipient_profile"
+        },
+        "safe_route": {
+          "$ref": "#/$defs/recipient_profile"
+        }
+      }
+    },
+    "recipient_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "allowed",
+        "redaction_profile",
+        "max_disclosure_level",
+        "raw_content_allowed"
+      ],
+      "properties": {
+        "allowed": {
+          "type": "boolean"
+        },
+        "redaction_profile": {
+          "type": "string"
+        },
+        "max_disclosure_level": {
+          "$ref": "#/$defs/disclosure_level"
+        },
+        "raw_content_allowed": {
+          "type": "boolean"
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    },
+    "validation_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_valid",
+        "semantic_valid",
+        "semantic_warnings",
+        "blocking_errors"
+      ],
+      "properties": {
+        "schema_valid": {
+          "type": "boolean"
+        },
+        "semantic_valid": {
+          "type": "boolean"
+        },
+        "semantic_warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "blocking_errors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "validated_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "validator_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "integrity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonicalization",
+        "hash_alg",
+        "record_hash",
+        "sig_alg",
+        "record_sig"
+      ],
+      "properties": {
+        "canonicalization": {
+          "type": "string",
+          "enum": [
+            "JCS",
+            "RFC8785",
+            "other_declared"
+          ]
+        },
+        "hash_alg": {
+          "type": "string",
+          "enum": [
+            "sha256",
+            "sha384",
+            "sha512"
+          ]
+        },
+        "record_hash": {
+          "type": "string"
+        },
+        "sig_alg": {
+          "type": "string",
+          "enum": [
+            "ed25519",
+            "ecdsa-p256",
+            "rsa-pss",
+            "none_for_draft"
+          ]
+        },
+        "record_sig": {
+          "type": "string"
+        },
+        "prev_record_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "co_signatures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    }
+  }
+}

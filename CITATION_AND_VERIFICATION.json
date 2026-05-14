@@ -51,5 +51,27 @@
     "OBJECTIONS_AND_REPLIES.md",
     "MASTER_ENTRY.md",
     "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-i/main/CORPUS_CONTEXT.md"
+  ],
+  "package_citations": [
+    {
+      "id": "ccdp-v0-1",
+      "title": "Child-c Development Protocol (CCDP) v0.1",
+      "package_root": "docs/ccdp/",
+      "citation_file": "docs/ccdp/CITATION.cff",
+      "package_manifest": "docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
+      "sha256_manifest": "docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
+      "schema_file": "docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json",
+      "license": "MIT",
+      "doi": null,
+      "release_url": null,
+      "verification_steps": [
+        "Parse docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json as JSON.",
+        "Parse docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json as JSON Schema metadata.",
+        "Parse docs/ccdp/CITATION.cff as YAML.",
+        "Verify docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt against files under docs/ccdp/."
+      ],
+      "not_legal_advice": true,
+      "not_clinical_guidance": true
+    }
   ]
 }

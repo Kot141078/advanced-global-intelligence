@@ -203,5 +203,31 @@
   "verification": [
     "Prefer repo hash manifests over GitHub-generated archives.",
     "Use tagged snapshots where available; otherwise lock by exact commit."
+  ],
+  "child_specific_profiles": [
+    {
+      "id": "ccdp-v0-1",
+      "title": "Child-c Development Protocol (CCDP) v0.1",
+      "status": "draft_research_protocol_pack",
+      "package_root": "docs/ccdp/",
+      "machine_manifest": "docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
+      "profile_over": [
+        "c = a + b",
+        "SER",
+        "L4 witness protocol",
+        "Beacon",
+        "AGL",
+        "ARL",
+        "VXCX / visibility control",
+        "L4 Witness"
+      ],
+      "public_entry": "docs/ccdp/README.md",
+      "canonical_reading_order": "docs/ccdp/CANONICAL_READING_ORDER.md",
+      "technical_schema": "docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json",
+      "sensitive_controlled_present": true,
+      "not_legal_or_clinical_standard": true,
+      "not_product_certification": true,
+      "not_implementation_approval": true
+    }
   ]
 }

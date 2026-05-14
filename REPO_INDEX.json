@@ -728,34 +728,60 @@
       "role": "boundary note twin",
       "status": "current",
       "short_description": "Fixed-layout twin of the reserved manifesto-level pre-lineage boundary note."
+    },
+    {
+      "id": "ccdp-v0-1",
+      "title": "Child-c Development Protocol (CCDP) v0.1",
+      "status": "draft_research_protocol_pack",
+      "version": "0.1",
+      "hygiene_guidance_version": "0.1.1",
+      "root_path": "docs/ccdp/",
+      "package_manifest": "docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
+      "citation": "docs/ccdp/CITATION.cff",
+      "memory_map_schema": "docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json",
+      "sha256_manifest": "docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
+      "public_subset": "docs/ccdp/",
+      "public_documents": 11,
+      "technical_companion_documents": 15,
+      "sensitive_controlled_documents": 7,
+      "sensitive_controlled_present": true,
+      "release_url": null,
+      "zenodo_doi": null,
+      "release_status": "deferred_by_contract",
+      "zenodo_status": "deferred_by_contract",
+      "linkedin_status": "deferred_by_contract",
+      "not_legal_advice": true,
+      "not_clinical_guidance": true,
+      "not_product_certification": true,
+      "not_implementation_approval": true
     }
   ],
   "highlight_documents": [
-  {
-    "repo": "advanced-global-intelligence",
-    "path_md": "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md",
-    "path_pdf": "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.pdf",
-    "title": "Theoretical Foundations of the AGI Ecosystem",
-    "type": "architectural synthesis",
-    "status": "public theoretical framework",
-    "language": "EN",
-    "role": "ecosystem-wide theoretical synthesis across AGI / SER / L4 / DEA / EA-L4 / implementation reference",
-    "zenodo_version_doi": "10.5281/zenodo.19384668",
-    "zenodo_all_versions_doi": "10.5281/zenodo.19384667",
-    "zenodo_version_url": "https://doi.org/10.5281/zenodo.19384668",
-    "zenodo_all_versions_url": "https://doi.org/10.5281/zenodo.19384667"
-  },
-  {
-    "repo": "advanced-global-intelligence",
-    "path_md": "manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
-    "path_pdf": "manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf",
-    "title": "Pre-Lineage Boundary Note v0.1",
-    "type": "boundary note",
-    "status": "reserved territory",
-    "language": "EN",
-    "role": "pre-normative boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity",
-    "zenodo_version_url": "https://doi.org/10.5281/zenodo.19409346"
-  }
+    {
+      "repo": "advanced-global-intelligence",
+      "path_md": "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.md",
+      "path_pdf": "manifesto/Theoretical_Foundations_of_the_AGI_Ecosystem_EN.pdf",
+      "title": "Theoretical Foundations of the AGI Ecosystem",
+      "type": "architectural synthesis",
+      "status": "public theoretical framework",
+      "language": "EN",
+      "role": "ecosystem-wide theoretical synthesis across AGI / SER / L4 / DEA / EA-L4 / implementation reference",
+      "zenodo_version_doi": "10.5281/zenodo.19384668",
+      "zenodo_all_versions_doi": "10.5281/zenodo.19384667",
+      "zenodo_version_url": "https://doi.org/10.5281/zenodo.19384668",
+      "zenodo_all_versions_url": "https://doi.org/10.5281/zenodo.19384667"
+    },
+    {
+      "repo": "advanced-global-intelligence",
+      "path_md": "manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
+      "path_pdf": "manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf",
+      "title": "Pre-Lineage Boundary Note v0.1",
+      "type": "boundary note",
+      "status": "reserved territory",
+      "language": "EN",
+      "role": "pre-normative boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity",
+      "zenodo_version_url": "https://doi.org/10.5281/zenodo.19409346"
+    }
   ],
   "related_public_work": [
     {
@@ -764,5 +790,10 @@
       "title": "Qubit of Hope — Volume I",
       "note": "human-facing narrative companion"
     }
-  ]
+  ],
+  "ccdp_package_root": "docs/ccdp/",
+  "ccdp_package_manifest": "docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
+  "ccdp_package_citation": "docs/ccdp/CITATION.cff",
+  "ccdp_memory_map_schema": "docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json",
+  "ccdp_sha256_manifest": "docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt"
 }

@@ -109,12 +109,20 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 
 ## CCDP v0.1 package
 
+- title: Child-`c` Development Protocol (CCDP) v0.1
+- status: draft research protocol pack; child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance.
 - package_root: `docs/ccdp/`
-- short_description: Child-`c` Development Protocol; draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance.
+- package_manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json`
+- package_citation: `docs/ccdp/CITATION.cff`
+- memory_map_schema: `docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json`
+- sha256_manifest: `docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt`
 - split:
   - public package files: `docs/ccdp/`
   - technical companions: `docs/ccdp/technical/`
   - sensitive-controlled review artifacts: `docs/ccdp/sensitive/`
+- release_status: deferred by contract; no release or tag in this iteration.
+- zenodo_status: deferred by contract; no DOI or deposit in this iteration.
+- linkedin_status: deferred by contract.
 - boundary: not legal advice, not clinical guidance, not product certification, and not implementation approval.
 
 ## Stable corpus refs

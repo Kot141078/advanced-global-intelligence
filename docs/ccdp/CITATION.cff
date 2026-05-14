@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use the Child-c Development Protocol package, cite it as below."
+title: "Child-c Development Protocol (CCDP) v0.1"
+type: report
+authors:
+  - name: "Kotov, Ivan"
+version: "0.1"
+date-released: "2026-05-14"
+license: MIT
+repository-code: "https://github.com/kot141078/advanced-global-intelligence"
+url: "https://github.com/kot141078/advanced-global-intelligence/tree/main/docs/ccdp"
+abstract: "Machine-readable citation metadata for the CCDP v0.1 draft research protocol package. This package is not legal advice, not clinical guidance, not product certification, and not implementation approval."
+keywords:
+  - child-c
+  - CCDP
+  - AGI corpus
+  - witness protocol
+  - developmental protocol
