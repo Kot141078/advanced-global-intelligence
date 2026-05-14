@@ -107,6 +107,16 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - manifest: `hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt`
 - facade_manifest: `docs/c-node-boundary-docs/hashes/SHA256SUMS_cnode_boundary_docs_facade_v0.1.1_2026-05-13.txt`
 
+## CCDP v0.1 package
+
+- package_root: `docs/ccdp/`
+- short_description: Child-`c` Development Protocol; draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance.
+- split:
+  - public package files: `docs/ccdp/`
+  - technical companions: `docs/ccdp/technical/`
+  - sensitive-controlled review artifacts: `docs/ccdp/sensitive/`
+- boundary: not legal advice, not clinical guidance, not product certification, and not implementation approval.
+
 ## Stable corpus refs
 
 - `CORPUS_PRIMER.json`

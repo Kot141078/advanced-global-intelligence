@@ -45,6 +45,7 @@ This page is the single entry point for the public protocol stack:
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
 - Economic Layer package entry: `docs/economic-layer/README.md`
+- CCDP v0.1 package entry: `docs/ccdp/README.md` — Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance. Split: public package files, technical companions, sensitive-controlled review artifacts. Not legal advice, clinical guidance, product certification, or implementation approval.
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - Qubit-state `c` (`c[q]`) / Кубитная `c`: `concepts/QUBIT_STATE_C_v0.1.md` — DOI: `10.5281/zenodo.20090368`
 - Qubit-state `c` -> SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; DOI `10.5281/zenodo.20112537`
