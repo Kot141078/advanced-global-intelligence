@@ -120,9 +120,14 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
   - public package files: `docs/ccdp/`
   - technical companions: `docs/ccdp/technical/`
   - sensitive-controlled review artifacts: `docs/ccdp/sensitive/`
-- release_status: deferred by contract; no release or tag in this iteration.
-- zenodo_status: deferred by contract; no DOI or deposit in this iteration.
-- linkedin_status: deferred by contract.
+- release_status: GitHub pre-release published; signed tag `ccdp-v0.1`; URL: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1
+- DOI: `10.5281/zenodo.20190648`
+- DOI URL: https://doi.org/10.5281/zenodo.20190648
+- Zenodo record: https://zenodo.org/records/20190648
+- Zenodo concept DOI: `10.5281/zenodo.20190647`
+- zenodo_status: published public-surface deposit; package ZIP is on Zenodo, not in the repo.
+- sensitive-controlled material: excluded from the Zenodo public-surface package.
+- linkedin_status: deferred until DOI backfill is complete.
 - boundary: not legal advice, not clinical guidance, not product certification, and not implementation approval.
 
 ## Stable corpus refs

@@ -745,15 +745,33 @@
       "technical_companion_documents": 15,
       "sensitive_controlled_documents": 7,
       "sensitive_controlled_present": true,
-      "release_url": null,
-      "zenodo_doi": null,
-      "release_status": "deferred_by_contract",
-      "zenodo_status": "deferred_by_contract",
-      "linkedin_status": "deferred_by_contract",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "zenodo_doi": "10.5281/zenodo.20190648",
+      "release_status": "published_prerelease",
+      "zenodo_status": "published",
+      "linkedin_status": "deferred_until_doi_backfill_complete",
       "not_legal_advice": true,
       "not_clinical_guidance": true,
       "not_product_certification": true,
-      "not_implementation_approval": true
+      "not_implementation_approval": true,
+      "doi": "10.5281/zenodo.20190648",
+      "doi_url": "https://doi.org/10.5281/zenodo.20190648",
+      "zenodo_record_url": "https://zenodo.org/records/20190648",
+      "concept_doi": "10.5281/zenodo.20190647",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20190647",
+      "zenodo_publication_date": "2026-05-15",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "public_surface_deposit": true,
+      "sensitive_controlled_in_zenodo": false,
+      "package_zip_on_zenodo": true,
+      "package_zip_in_repo": false,
+      "zenodo_files": [
+        "CCDP_v0.1_public_surface_2026-05-15.zip",
+        "CCDP_v0.1_public_surface_2026-05-15.zip.sha256.txt"
+      ],
+      "signed_tag": "ccdp-v0.1",
+      "signed_tag_status": "published",
+      "zenodo_public_surface_deposit": true
     }
   ],
   "highlight_documents": [
@@ -795,5 +813,14 @@
   "ccdp_package_manifest": "docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
   "ccdp_package_citation": "docs/ccdp/CITATION.cff",
   "ccdp_memory_map_schema": "docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json",
-  "ccdp_sha256_manifest": "docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt"
+  "ccdp_sha256_manifest": "docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
+  "ccdp_doi": "10.5281/zenodo.20190648",
+  "ccdp_doi_url": "https://doi.org/10.5281/zenodo.20190648",
+  "ccdp_concept_doi": "10.5281/zenodo.20190647",
+  "ccdp_concept_doi_url": "https://doi.org/10.5281/zenodo.20190647",
+  "ccdp_zenodo_record_url": "https://zenodo.org/records/20190648",
+  "ccdp_github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+  "ccdp_zenodo_status": "published",
+  "ccdp_public_surface_deposit": true,
+  "ccdp_sensitive_controlled_in_zenodo": false
 }

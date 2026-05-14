@@ -65,7 +65,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - `docs/c-node-boundary-docs/README.md` — C-Node Boundary Documents v0.1.1, package facade for anchor-class taxonomy, raw-local experience refinement, third-party sensor exposure, and the minimum local `c-node` profile
 - `docs/ccdp/README.md` — CCDP v0.1, Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance; not legal advice, clinical guidance, product certification, or implementation approval
   - Machine metadata: `docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json`; package citation: `docs/ccdp/CITATION.cff`; memory-map schema: `docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json`
-  - Integrity: `docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt`; split: public package files, technical companions, sensitive-controlled review artifacts; release/tag, Zenodo, and LinkedIn publication deferred
+  - Integrity: `docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt`; split: public package files, technical companions, sensitive-controlled review artifacts; GitHub pre-release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1; DOI: https://doi.org/10.5281/zenodo.20190648; Zenodo public-surface deposit excludes sensitive-controlled material; LinkedIn deferred
 - `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` — Anchor Class Boundaries v0.1, a protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`; PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 
 ## Secondary local-state / promotion surfaces
@@ -203,7 +203,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - Extension clauses: `docs/economic-layer/extensions/`
 - PDFs: `docs/economic-layer/pdf/` + `docs/economic-layer/pdf/extensions/`
 - C-node boundary facade: `docs/c-node-boundary-docs/README.md`
-- CCDP v0.1 package: `docs/ccdp/`; machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json`; package citation: `docs/ccdp/CITATION.cff`; schema: `docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json`; SHA: `docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt`; split: public package files, technical companions, sensitive-controlled review artifacts; release/tag, Zenodo, and LinkedIn deferred.
+- CCDP v0.1 package: `docs/ccdp/`; machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json`; package citation: `docs/ccdp/CITATION.cff`; schema: `docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json`; SHA: `docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt`; GitHub pre-release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1; DOI: https://doi.org/10.5281/zenodo.20190648; Zenodo public-surface deposit excludes sensitive-controlled material; LinkedIn deferred.
 - Extension profile: `docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md` | PDF: `docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf`
 - Boundary note: `docs/economic-layer/extensions/THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md` | PDF: `docs/economic-layer/pdf/extensions/Third-Party_Sensor_Boundary_v0.1_academic.pdf`
 - Boundary: helper / publication-carpentry docs are intentionally excluded from the public GitHub package surface

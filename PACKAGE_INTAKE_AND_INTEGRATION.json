@@ -153,7 +153,7 @@
     {
       "id": "ccdp-v0-1",
       "title": "Child-c Development Protocol (CCDP) v0.1",
-      "intake_state": "placed_machine_metadata_added",
+      "intake_state": "doi_backfilled_public_surface_deposit_published",
       "package_root": "docs/ccdp/",
       "package_manifest": "docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json",
       "citation": "docs/ccdp/CITATION.cff",
@@ -172,25 +172,50 @@
       "allowed_current_actions": [
         "machine_metadata",
         "navigation_indexing",
-        "hash_manifest_update"
+        "hash_manifest_update",
+        "doi_backfill"
       ],
       "deferred_actions": [
-        "website_public_subset",
-        "release_tag",
-        "zenodo",
-        "linkedin"
+        "linkedin",
+        "ser_erb_crosslinks",
+        "country_specific_legal_annexes",
+        "clinical_developmental_specialist_validation"
       ],
       "sensitive_controlled_present": true,
       "public_subset_ready_for_next_contract": true,
       "release_tag_ready_for_next_preflight": true,
-      "zenodo_ready": false,
+      "zenodo_ready": true,
       "fail_closed_boundaries": {
-        "no_website_update_in_this_iteration": true,
-        "no_release_or_tag_in_this_iteration": true,
-        "no_zenodo_upload_in_this_iteration": true,
+        "no_new_zenodo_upload_in_this_iteration": true,
+        "no_new_zenodo_version_in_this_iteration": true,
+        "no_package_zip_created_in_this_iteration": true,
         "no_linkedin_text_in_this_iteration": true,
-        "not_legal_or_clinical_standard": true
-      }
+        "not_legal_or_clinical_standard": true,
+        "sensitive_controlled_not_in_zenodo_public_surface": true
+      },
+      "doi": "10.5281/zenodo.20190648",
+      "doi_url": "https://doi.org/10.5281/zenodo.20190648",
+      "zenodo_doi": "10.5281/zenodo.20190648",
+      "zenodo_record_url": "https://zenodo.org/records/20190648",
+      "concept_doi": "10.5281/zenodo.20190647",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20190647",
+      "zenodo_status": "published",
+      "zenodo_publication_date": "2026-05-15",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "public_surface_deposit": true,
+      "sensitive_controlled_in_zenodo": false,
+      "package_zip_on_zenodo": true,
+      "package_zip_in_repo": false,
+      "zenodo_files": [
+        "CCDP_v0.1_public_surface_2026-05-15.zip",
+        "CCDP_v0.1_public_surface_2026-05-15.zip.sha256.txt"
+      ],
+      "linkedin_status": "deferred_until_doi_backfill_complete",
+      "github_release_status": "published_prerelease",
+      "signed_tag": "ccdp-v0.1",
+      "signed_tag_status": "published",
+      "zenodo_published": true
     }
   ]
 }

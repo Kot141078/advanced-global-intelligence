@@ -6,9 +6,10 @@ authors:
   - name: "Kotov, Ivan"
 version: "0.1"
 date-released: "2026-05-14"
+doi: 10.5281/zenodo.20190648
 license: MIT
 repository-code: "https://github.com/kot141078/advanced-global-intelligence"
-url: "https://github.com/kot141078/advanced-global-intelligence/tree/main/docs/ccdp"
+url: "https://doi.org/10.5281/zenodo.20190648"
 abstract: "Machine-readable citation metadata for the CCDP v0.1 draft research protocol package. This package is not legal advice, not clinical guidance, not product certification, and not implementation approval."
 keywords:
   - child-c

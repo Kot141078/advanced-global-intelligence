@@ -62,16 +62,37 @@
       "sha256_manifest": "docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
       "schema_file": "docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json",
       "license": "MIT",
-      "doi": null,
-      "release_url": null,
+      "doi": "10.5281/zenodo.20190648",
+      "release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
       "verification_steps": [
         "Parse docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json as JSON.",
         "Parse docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json as JSON Schema metadata.",
         "Parse docs/ccdp/CITATION.cff as YAML.",
-        "Verify docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt against files under docs/ccdp/."
+        "Verify docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt against files under docs/ccdp/.",
+        "Verify DOI resolves to the Zenodo CCDP v0.1 record."
       ],
       "not_legal_advice": true,
-      "not_clinical_guidance": true
+      "not_clinical_guidance": true,
+      "doi_url": "https://doi.org/10.5281/zenodo.20190648",
+      "zenodo_doi": "10.5281/zenodo.20190648",
+      "zenodo_record_url": "https://zenodo.org/records/20190648",
+      "concept_doi": "10.5281/zenodo.20190647",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.20190647",
+      "zenodo_status": "published",
+      "zenodo_publication_date": "2026-05-15",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
+      "public_surface_deposit": true,
+      "sensitive_controlled_in_zenodo": false,
+      "package_zip_on_zenodo": true,
+      "package_zip_in_repo": false,
+      "zenodo_files": [
+        "CCDP_v0.1_public_surface_2026-05-15.zip",
+        "CCDP_v0.1_public_surface_2026-05-15.zip.sha256.txt"
+      ],
+      "linkedin_status": "deferred_until_doi_backfill_complete",
+      "release_status": "published",
+      "signed_tag": "ccdp-v0.1",
+      "signed_tag_status": "published"
     }
   ]
 }
