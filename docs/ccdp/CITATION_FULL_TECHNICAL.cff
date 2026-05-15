@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use the full CCDP technical corpus, please cite it as below."
+title: "CCDP v0.1 - Full Technical Corpus and Sensitive-Controlled Review Artifacts"
+type: report
+authors:
+  - family-names: Kotov
+    given-names: Ivan
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+version: "0.1"
+date-released: "2026-05-15"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+url: "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/ccdp"
+abstract: "Full technical corpus for CCDP v0.1, including public documents, technical companion documents, machine metadata, schemas, and sensitive-controlled review artifacts for child-facing persistent AI entities under the c = a + b / SER / L4 corpus. This corpus is not legal advice, clinical guidance, product certification, implementation approval, child-protection law, or public UX guidance."
+keywords:
+  - "Child-c Development Protocol"
+  - "CCDP"
+  - "full technical corpus"
+  - "sensitive-controlled review artifacts"
+  - "child-facing AI"
+  - "persistent AI entities"
+  - "c = a + b"
+  - "L4 Reality Boundary"
+  - "AI safety"
+  - "Soft Safety"
+  - "adult migration"
+  - "witness discipline"
+license: "MIT"

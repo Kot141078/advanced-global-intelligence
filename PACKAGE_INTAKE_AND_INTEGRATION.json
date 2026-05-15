@@ -179,7 +179,10 @@
         "linkedin",
         "ser_erb_crosslinks",
         "country_specific_legal_annexes",
-        "clinical_developmental_specialist_validation"
+        "clinical_developmental_specialist_validation",
+        "full_technical_zenodo_upload",
+        "full_technical_doi_backfill",
+        "website_optional_full_technical_link_decision"
       ],
       "sensitive_controlled_present": true,
       "public_subset_ready_for_next_contract": true,
@@ -215,7 +218,21 @@
       "github_release_status": "published_prerelease",
       "signed_tag": "ccdp-v0.1",
       "signed_tag_status": "published",
-      "zenodo_published": true
+      "zenodo_published": true,
+      "full_technical_corpus": {
+        "visible_on_github": true,
+        "entry_point": "docs/ccdp/FULL_TECHNICAL_CORPUS.md",
+        "manifest": "docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json",
+        "citation": "docs/ccdp/CITATION_FULL_TECHNICAL.cff",
+        "sensitive_controlled_included": true,
+        "website_public_cards": false,
+        "zenodo_status": "prepared",
+        "doi": null
+      },
+      "public_surface_doi": "10.5281/zenodo.20190648",
+      "public_surface_doi_url": "https://doi.org/10.5281/zenodo.20190648",
+      "full_technical_corpus_doi": null,
+      "full_technical_zenodo_ready_for_later_contract": true
     }
   ]
 }

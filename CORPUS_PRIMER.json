@@ -240,7 +240,20 @@
       "sensitive_controlled_in_zenodo": false,
       "package_zip_on_zenodo": true,
       "package_zip_in_repo": false,
-      "linkedin_status": "deferred_until_doi_backfill_complete"
+      "linkedin_status": "deferred_until_doi_backfill_complete",
+      "full_technical_corpus": {
+        "visible_on_github": true,
+        "entry_point": "docs/ccdp/FULL_TECHNICAL_CORPUS.md",
+        "manifest": "docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json",
+        "citation": "docs/ccdp/CITATION_FULL_TECHNICAL.cff",
+        "sensitive_controlled_included": true,
+        "website_public_cards": false,
+        "zenodo_status": "prepared",
+        "doi": null
+      },
+      "public_surface_doi": "10.5281/zenodo.20190648",
+      "public_surface_doi_url": "https://doi.org/10.5281/zenodo.20190648",
+      "full_technical_corpus_doi": null
     }
   ]
 }

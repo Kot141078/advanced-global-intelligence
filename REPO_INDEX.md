@@ -66,6 +66,19 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - `docs/ccdp/README.md` — CCDP v0.1, Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance; not legal advice, clinical guidance, product certification, or implementation approval
   - Machine metadata: `docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json`; package citation: `docs/ccdp/CITATION.cff`; memory-map schema: `docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json`
   - Integrity: `docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt`; split: public package files, technical companions, sensitive-controlled review artifacts; GitHub pre-release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1; DOI: https://doi.org/10.5281/zenodo.20190648; Zenodo public-surface deposit excludes sensitive-controlled material; LinkedIn deferred
+
+### CCDP full technical corpus
+
+The full CCDP v0.1 technical corpus, including technical companion documents and sensitive-controlled review artifacts, is visible in GitHub for specialist review, architecture review, safety research, audit, and criticism.
+
+Sensitive-controlled does not mean hidden. It means these files are not public UX guidance, not legal advice, not clinical guidance, not product certification, and not deployment approval.
+
+Entry point: `docs/ccdp/FULL_TECHNICAL_CORPUS.md`
+
+Machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json`
+
+Citation metadata: `docs/ccdp/CITATION_FULL_TECHNICAL.cff`
+
 - `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` — Anchor Class Boundaries v0.1, a protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`; PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 
 ## Secondary local-state / promotion surfaces

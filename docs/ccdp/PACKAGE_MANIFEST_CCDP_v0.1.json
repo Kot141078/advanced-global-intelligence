@@ -659,7 +659,11 @@
     "public_surface_checksum_file": "CCDP_v0.1_public_surface_2026-05-15.zip.sha256.txt",
     "sensitive_controlled_in_zenodo": false,
     "package_zip": "external_zenodo_public_surface_zip",
-    "package_zip_in_repo": false
+    "package_zip_in_repo": false,
+    "public_surface_doi": "10.5281/zenodo.20190648",
+    "public_surface_doi_url": "https://doi.org/10.5281/zenodo.20190648",
+    "full_technical_corpus_doi": null,
+    "full_technical_zenodo_status": "prepared"
   },
   "integrity": {
     "sha256_manifest": "docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
@@ -678,5 +682,15 @@
       "VXCX / visibility-control surfaces"
     ],
     "not_legal_or_clinical_standard": true
+  },
+  "full_technical_corpus": {
+    "visible_on_github": true,
+    "entry_point": "docs/ccdp/FULL_TECHNICAL_CORPUS.md",
+    "manifest": "docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json",
+    "citation": "docs/ccdp/CITATION_FULL_TECHNICAL.cff",
+    "sensitive_controlled_included": true,
+    "website_public_cards": false,
+    "zenodo_status": "prepared",
+    "doi": null
   }
 }

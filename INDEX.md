@@ -23,6 +23,19 @@ Start here:
 - Core protocol (v1.1 + L4): `protocols/`
 - C-Node Boundary Documents v0.1.1 package facade: `docs/c-node-boundary-docs/README.md`
 - CCDP v0.1 — Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance. It is not legal advice, clinical guidance, product certification, or implementation approval. Root: `docs/ccdp/`; split: public package files, technical companions, sensitive-controlled review artifacts.
+
+### CCDP full technical corpus
+
+The full CCDP v0.1 technical corpus, including technical companion documents and sensitive-controlled review artifacts, is visible in GitHub for specialist review, architecture review, safety research, audit, and criticism.
+
+Sensitive-controlled does not mean hidden. It means these files are not public UX guidance, not legal advice, not clinical guidance, not product certification, and not deployment approval.
+
+Entry point: `docs/ccdp/FULL_TECHNICAL_CORPUS.md`
+
+Machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json`
+
+Citation metadata: `docs/ccdp/CITATION_FULL_TECHNICAL.cff`
+
 - Anchor Class Boundaries v0.1: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` | PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 - Beacon profile v0.1: `protocols/beacon/`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`

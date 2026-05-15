@@ -6,6 +6,20 @@
 
 ---
 
+### CCDP full technical corpus
+
+The full CCDP v0.1 technical corpus, including technical companion documents and sensitive-controlled review artifacts, is visible in GitHub for specialist review, architecture review, safety research, audit, and criticism.
+
+Sensitive-controlled does not mean hidden. It means these files are not public UX guidance, not legal advice, not clinical guidance, not product certification, and not deployment approval.
+
+Entry point: `docs/ccdp/FULL_TECHNICAL_CORPUS.md`
+
+Machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json`
+
+Citation metadata: `docs/ccdp/CITATION_FULL_TECHNICAL.cff`
+
+---
+
 ## 0. Purpose
 
 This file is the package-level document registry for the CCDP corpus.

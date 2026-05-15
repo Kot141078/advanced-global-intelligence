@@ -120,6 +120,19 @@ This repository is easier to understand when related protocol and manifesto docu
 - `Economic Layer for Experience Artifacts v0.1` — canonical here; economic admissibility and provenance package. Path: `docs/economic-layer/README.md`
 - `C-Node Boundary Documents v0.1.1` — package facade for anchor-class taxonomy, raw-local experience refinement, third-party sensor exposure, and the minimum local `c-node` profile. Path: `docs/c-node-boundary-docs/README.md`
 - `CCDP v0.1` — Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance. It is not legal advice, clinical guidance, product certification, or implementation approval. Path: `docs/ccdp/`; split: public package files, technical companions, sensitive-controlled review artifacts.
+
+### CCDP full technical corpus
+
+The full CCDP v0.1 technical corpus, including technical companion documents and sensitive-controlled review artifacts, is visible in GitHub for specialist review, architecture review, safety research, audit, and criticism.
+
+Sensitive-controlled does not mean hidden. It means these files are not public UX guidance, not legal advice, not clinical guidance, not product certification, and not deployment approval.
+
+Entry point: `docs/ccdp/FULL_TECHNICAL_CORPUS.md`
+
+Machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json`
+
+Citation metadata: `docs/ccdp/CITATION_FULL_TECHNICAL.cff`
+
 - `Anchor Class Boundaries v0.1` — protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`. Path: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` | PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 - `Pre-Lineage Boundary Note v0.1` — canonical here; manifesto-level boundary note. Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - `Qubit-state c v0.1` — conceptual note here; a derived state of `c`, not a replacement for `c = a + b`. Path: `concepts/QUBIT_STATE_C_v0.1.md`. DOI: `10.5281/zenodo.20090368`.
@@ -199,7 +212,7 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 
 Where:
 
-- **a** — responsible human anchor  
+- **a** — responsible human anchor
   (biological, legal, and explicitly accountable)
 
 - **b** — procedures, models, and operational constraints
@@ -232,21 +245,21 @@ This is **not a feature comparison**, but a comparison of underlying architectur
 | **Governance** | Anti-oligarchy, decay, liability | Organizational | None |
 | **Primary goal** | **Stability** under real constraints | Availability & control | Task completion |
 
-> **Note:**  
-> The AGI / SER stack does not attempt to replace these approaches.  
-> They operate at different layers and solve different classes of problems.  
+> **Note:**
+> The AGI / SER stack does not attempt to replace these approaches.
+> They operate at different layers and solve different classes of problems.
 > Direct feature-level comparison is therefore intentionally avoided.
 
 ---
 
 ## Repository Structure
 
-- **manifesto/**  
-  Architectural syntheses and high-level principles  
+- **manifesto/**
+  Architectural syntheses and high-level principles
   (AGI framing, cybernetic stability, systemic context)
 
-- **protocols/**  
-  Formal protocol specifications  
+- **protocols/**
+  Formal protocol specifications
   (c = a + b, L4, federation, governance layers)
 
 - **protocols/beacon/**
@@ -261,29 +274,29 @@ This is **not a feature comparison**, but a comparison of underlying architectur
   EA-L4 / EATP package
   (training provenance, experience artifacts, and consequence-preserving layer)
 
-- **ontology/**  
-  Foundational axioms and conceptual primitives  
+- **ontology/**
+  Foundational axioms and conceptual primitives
   (non-algorithmic grounding of sovereignty and responsibility)
 
 - **concepts/**
   Derived authored concepts and maturity-state notes
   (including Qubit-state `c` / `c[q]`)
 
-- **architecture/**  
-  Whitepapers and system-level designs  
+- **architecture/**
+  Whitepapers and system-level designs
   (decentralized confidential AI, execution models, summaries)
 
-- **background/**  
-  Supporting material and regulatory context  
+- **background/**
+  Supporting material and regulatory context
   (EU AI Safety, cybernetic governance background)
 
-- **experiments/**  
-  Early-phase and exploratory protocol experiments  
+- **experiments/**
+  Early-phase and exploratory protocol experiments
   (non-normative, Phase 0)
 
 - `official/` — canonical authorial premises and cross-layer architectural principles, including `KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md`.
 
-- **hashes/**  
+- **hashes/**
   SHA-256 integrity manifests for released and cross-repository artifacts
   Includes `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256`.
 
@@ -295,24 +308,24 @@ This is **not a feature comparison**, but a comparison of underlying architectur
 
 This release publishes the canonical **v1.1 document pack**, including:
 
-- **Protocol:** `c = a + b`  
+- **Protocol:** `c = a + b`
   (with L4 as an explicit reality-boundary layer)
 
-- **EWCEP v0.1:**  
-  Experience-Weighted Co-Evolution Protocol  
+- **EWCEP v0.1:**
+  Experience-Weighted Co-Evolution Protocol
   (observed, practice-derived)
 
-- **AI Safety (EU):**  
+- **AI Safety (EU):**
   cybernetic approach (background)
 
-- **Decentralized confidential AI architecture:**  
+- **Decentralized confidential AI architecture:**
   whitepaper and technical roadmap
 
-- **Executive summaries:**  
+- **Executive summaries:**
   EN / FR / RU / DE / NL
 
-**Integrity:**  
-Primary SHA-256 manifest:  
+**Integrity:**
+Primary SHA-256 manifest:
 `hashes/SHA256SUMS_v1.1.txt`
 
 ---
@@ -322,16 +335,16 @@ Primary SHA-256 manifest:
 The following architectural texts were added **after the v1.1 release**
 and are covered by a **separate integrity addendum**:
 
-- **Cybernetic Stability Manifest v2.0**  
+- **Cybernetic Stability Manifest v2.0**
   (architectural synthesis)
 
-- **Axiom of Volition Inheritance (`c = a + b`)**  
+- **Axiom of Volition Inheritance (`c = a + b`)**
   Languages: EN / RU
 
-**Integrity (addendum):**  
+**Integrity (addendum):**
 `hashes/SHA256SUMS_v1.1_addendum_2026-01-20.txt`
 
-These additions **do not modify the normative scope of v1.1**.  
+These additions **do not modify the normative scope of v1.1**.
 They extend the architectural and ontological context of the ecosystem.
 
 ### Beacon Profile v0.1
@@ -352,7 +365,7 @@ scope of v1.1.
 
 ## Cross-Repository Integrity
 
-A cross-repository integrity manifest covering the full  
+A cross-repository integrity manifest covering the full
 **SER / AGI architectural stack** is provided here:
 
 - `hashes/SHA256SUMS_stack_v2.0.txt`
@@ -485,7 +498,7 @@ It marks reserved territory rather than claiming closure.
 
 ## License
 
-Text content is released under the **MIT License**  
+Text content is released under the **MIT License**
 (see `LICENSE`).
 
 ---
