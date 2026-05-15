@@ -36,6 +36,15 @@ Machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json`
 
 Citation metadata: `docs/ccdp/CITATION_FULL_TECHNICAL.cff`
 
+### CCDP DOI layers
+
+- Public-surface DOI: https://doi.org/10.5281/zenodo.20190648
+- Full technical corpus DOI: https://doi.org/10.5281/zenodo.20196219
+
+The public-surface DOI archives the bounded public CCDP surface.
+
+The full technical corpus DOI archives the complete GitHub technical corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review.
+
 - Anchor Class Boundaries v0.1: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` | PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 - Beacon profile v0.1: `protocols/beacon/`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`

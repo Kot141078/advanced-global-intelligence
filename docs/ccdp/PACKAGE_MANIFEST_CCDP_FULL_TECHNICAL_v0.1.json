@@ -9,8 +9,8 @@
   "public_surface_doi": "10.5281/zenodo.20190648",
   "public_surface_doi_url": "https://doi.org/10.5281/zenodo.20190648",
   "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1",
-  "full_technical_zenodo_status": "prepared",
-  "full_technical_doi": null,
+  "full_technical_zenodo_status": "published",
+  "full_technical_doi": "10.5281/zenodo.20196219",
   "sensitive_controlled_included": true,
   "website_public_cards": false,
   "non_claims": [
@@ -471,6 +471,13 @@
   "integrity": {
     "package_sha_manifest": "docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt",
     "public_surface_doi": "10.5281/zenodo.20190648",
-    "github_release_tag": "ccdp-v0.1"
-  }
+    "github_release_tag": "ccdp-v0.1",
+    "full_technical_doi": "10.5281/zenodo.20196219",
+    "full_technical_zenodo_record_url": "https://zenodo.org/records/20196219"
+  },
+  "full_technical_doi_url": "https://doi.org/10.5281/zenodo.20196219",
+  "full_technical_zenodo_record_url": "https://zenodo.org/records/20196219",
+  "full_technical_concept_doi": "10.5281/zenodo.20196218",
+  "full_technical_concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
+  "sensitive_controlled_included_in_full_technical_zenodo": true
 }

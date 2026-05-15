@@ -141,6 +141,15 @@ Machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json`
 
 Citation metadata: `docs/ccdp/CITATION_FULL_TECHNICAL.cff`
 
+### CCDP DOI layers
+
+- Public-surface DOI: https://doi.org/10.5281/zenodo.20190648
+- Full technical corpus DOI: https://doi.org/10.5281/zenodo.20196219
+
+The public-surface DOI archives the bounded public CCDP surface.
+
+The full technical corpus DOI archives the complete GitHub technical corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review.
+
 - boundary: not legal advice, not clinical guidance, not product certification, and not implementation approval.
 
 ## Stable corpus refs

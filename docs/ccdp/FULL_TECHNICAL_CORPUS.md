@@ -158,20 +158,23 @@ docs/ccdp/sensitive/CCDP_Red_Team_Playbook_v0_1.md
 
 ## 7. Zenodo layers
 
-Current Zenodo layer:
-
 Public-surface DOI:
 https://doi.org/10.5281/zenodo.20190648
 
-That DOI archives the public CCDP surface only.
+Full technical corpus DOI:
+https://doi.org/10.5281/zenodo.20196219
 
-A separate full technical corpus Zenodo package may be created later.
+Full technical corpus concept DOI:
+https://doi.org/10.5281/zenodo.20196218
 
-If created, it should be clearly named as:
+The public-surface DOI archives the bounded public CCDP surface.
 
-CCDP v0.1 — Full Technical Corpus and Sensitive-Controlled Review Artifacts
+The full technical DOI archives the complete CCDP GitHub technical corpus, including technical companion documents and sensitive-controlled review artifacts.
 
-It should not replace the public-surface DOI.
+The existing public-surface DOI remains:
+https://doi.org/10.5281/zenodo.20190648
+
+This full technical DOI does not replace the public-surface DOI.
 
 ## 8. Reading discipline
 

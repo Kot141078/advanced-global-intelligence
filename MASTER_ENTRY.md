@@ -59,6 +59,15 @@ Machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json`
 
 Citation metadata: `docs/ccdp/CITATION_FULL_TECHNICAL.cff`
 
+### CCDP DOI layers
+
+- Public-surface DOI: https://doi.org/10.5281/zenodo.20190648
+- Full technical corpus DOI: https://doi.org/10.5281/zenodo.20196219
+
+The public-surface DOI archives the bounded public CCDP surface.
+
+The full technical corpus DOI archives the complete GitHub technical corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review.
+
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - Qubit-state `c` (`c[q]`) / Кубитная `c`: `concepts/QUBIT_STATE_C_v0.1.md` — DOI: `10.5281/zenodo.20090368`
 - Qubit-state `c` -> SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; DOI `10.5281/zenodo.20112537`

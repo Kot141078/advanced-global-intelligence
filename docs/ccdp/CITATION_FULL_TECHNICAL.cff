@@ -8,8 +8,13 @@ authors:
     orcid: "https://orcid.org/0009-0009-6002-9845"
 version: "0.1"
 date-released: "2026-05-15"
+doi: 10.5281/zenodo.20196219
 repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
-url: "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/ccdp"
+url: "https://doi.org/10.5281/zenodo.20196219"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20196218"
+    description: "Full technical corpus concept DOI"
 abstract: "Full technical corpus for CCDP v0.1, including public documents, technical companion documents, machine metadata, schemas, and sensitive-controlled review artifacts for child-facing persistent AI entities under the c = a + b / SER / L4 corpus. This corpus is not legal advice, clinical guidance, product certification, implementation approval, child-protection law, or public UX guidance."
 keywords:
   - "Child-c Development Protocol"
