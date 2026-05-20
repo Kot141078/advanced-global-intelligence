@@ -29,7 +29,14 @@
       "relation": "isSupplementTo",
       "resource_type": "publication-technicalnote",
       "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1",
+      "relation": "isIdenticalTo",
+      "resource_type": "software",
+      "scheme": "url"
     }
   ],
-  "notes": "Official EUSurvey confirmation records are retained privately by the author and excluded from the public package. No Contribution ID is included."
+  "notes": "Official EUSurvey confirmation records are retained privately by the author and excluded from the public package. No Contribution ID is included.",
+  "doi": "10.5281/zenodo.20315439"
 }

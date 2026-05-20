@@ -114,10 +114,13 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - manifest_json: `official/article50-transparency-submission/v0_1/article50_transparency_submission_v0_1.manifest.json`
 - zenodo_metadata: `official/article50-transparency-submission/v0_1/zenodo_metadata_article50_v0_1.json`
 - sha256_manifest: `official/article50-transparency-submission/v0_1/SHA256SUMS`
+- github_release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1
+- zenodo_doi: `10.5281/zenodo.20315439`
+- zenodo_doi_url: https://doi.org/10.5281/zenodo.20315439
 - status: public redacted technical evidence-chain contribution; not legal advice, not certification, not a conformity assessment.
 - official_submission_date: `2026-05-20`
 - private_boundary: official EUSurvey administrative confirmation records are retained privately and are excluded from this public package.
-- doi_status: no DOI minted yet.
+- doi_status: Zenodo DOI added to repository metadata.
 
 ## CCDP v0.1 package
 

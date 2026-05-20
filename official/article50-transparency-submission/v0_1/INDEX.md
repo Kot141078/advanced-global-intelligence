@@ -1,5 +1,13 @@
 # Article 50 Transparency Submission Pack v0.1 - Index
 
+## Package metadata
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.20315439
+
+GitHub release:
+https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1
+
 | Path | Role | Public status | Notes |
 |---|---|---|---|
 | `README.md` | Package entry point | Public | Human-facing package summary and boundary note. |

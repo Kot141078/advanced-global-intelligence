@@ -46,61 +46,61 @@
     {
       "path": "CITATION.cff",
       "role": "package_citation",
-      "sha256": "a688e9b043e0ba5f423db1d650e0068621524ac2efa2051c6e25fef1b69f6194",
+      "sha256": "a68e9e2446dffc9105a2706a8624e1a4396c960e6f2f933828ee0fab18e45039",
       "public_status": "public_redacted"
     },
     {
       "path": "docs/00_Cover_Note.md",
       "role": "cover_note",
-      "sha256": "8bfa649dbd530e73d56a8d4fbf72567efb19a9576fa7bf61ab0289fcf0f26afd",
+      "sha256": "1fae1d6816af0c654676c06dd6401c3a5c8abb49a38a00b3e2707fdd5c17700c",
       "public_status": "public_redacted"
     },
     {
       "path": "docs/01_Article_50_Compliance_Mapping_Pack_v0_1.md",
       "role": "article_50_compliance_mapping_pack",
-      "sha256": "eb30aad2622a792c508ce74a220faa6cab24c0377648e0b91f0b47b2f84f38f5",
+      "sha256": "efb1e031e6ea73f2a6257caf9ce44d1023623f043935fa1ee0e7e822c141c6c3",
       "public_status": "public_redacted"
     },
     {
       "path": "docs/02_System_Role_Obligation_Control_Evidence_Table_v0_1.md",
       "role": "system_role_obligation_control_evidence_table",
-      "sha256": "aa420df16924bf46ebab3e62e55431636834b7874fd9bd57d37fbd2b2a9899a1",
+      "sha256": "69c3e5acbebbc41b8b38e0f85e4a09d4a43f4a6adcc2e224fab50e3104e81b58",
       "public_status": "public_redacted"
     },
     {
       "path": "docs/03_L4_Witness_and_Provenance_Bridge_v0_1.md",
       "role": "l4_witness_and_provenance_bridge",
-      "sha256": "2e7ea8c8bdae3c48bad3349a6eadd30343647ec90b218759b9772c6011bff8db",
+      "sha256": "9f174f13349e4c404ffaee572c1d6e4c1a70162cd485bb43a76d1d2ceb5df427",
       "public_status": "public_redacted"
     },
     {
       "path": "docs/04_Non_Claims_Open_Issues_and_Legal_Review_v0_1.md",
       "role": "non_claims_open_issues_and_legal_review",
-      "sha256": "e9c4ca1d2bcc33b9a3224f827374474d98270e698e738cf8cb660f6651adb84d",
+      "sha256": "1fd6912b27d3c24df043b65a3a0932a45b2b913f081170c7ab44cc48575416ad",
       "public_status": "public_redacted"
     },
     {
       "path": "docs/05_EUSurvey_Response_Draft_v0_1.md",
       "role": "eusurvey_response_draft_support",
-      "sha256": "1eee3c8872de3043af0d44a108b4d7580de90722ac1b1df7901578c455a174de",
+      "sha256": "45b32c116f23ee11ac7553a14424b9d55c9da1b9ce0cc1bc01597ae74f9691b9",
       "public_status": "public_redacted"
     },
     {
       "path": "docs/06_PDF_Build_Order_and_Submission_Checklist_v0_1.md",
       "role": "pdf_build_order_and_submission_checklist",
-      "sha256": "7dab164ed2fcb55d119be1d5932e9d07029f451c606ea728625b18958d22c8f0",
+      "sha256": "d9600ee867ea6930beb263d21de81a7c7e22d52ed2955dcd09b13b402c3f7292",
       "public_status": "public_redacted"
     },
     {
       "path": "docs/07_Human_Review_Record_Template_v0_1.md",
       "role": "human_review_record_template",
-      "sha256": "82557eb1d43ea4c0dac01b39a9740fa215b5be227a24387429972edfcee6327f",
+      "sha256": "e8c52c898071eea821f5ac8142ce976f0ba75e7be64b45dcf8c6d97319115444",
       "public_status": "public_redacted"
     },
     {
       "path": "INDEX.md",
       "role": "package_index",
-      "sha256": "ea285a3cdce8ba0464f19b3d66f5274836d28845b1cb05d72a563a5b850d482d",
+      "sha256": "8b84bc426db41866ff9653736577adc0b09ab3d12a38f52fd81bc3eb8e0e6a1d",
       "public_status": "public_redacted"
     },
     {
@@ -118,25 +118,25 @@
     {
       "path": "README.md",
       "role": "package_readme",
-      "sha256": "f6df3096d072566889b3cd21473588b4d8ed5de6f6ba2c26fd69dac34db248ab",
+      "sha256": "77c255077707bf6ef131dea0c775a29314637670923c1c14af3d54170d7f96e5",
       "public_status": "public_redacted"
     },
     {
       "path": "RELEASE_NOTES.md",
       "role": "release_notes",
-      "sha256": "0a34a7a72077486b88f0dfef3bcad5fe7e80c27ddd8f07b210bcba49b40320ae",
+      "sha256": "02053a08539befccdb9f6877ddcd84f499993239a40c7c5f9dbe37603410bb51",
       "public_status": "public_redacted"
     },
     {
       "path": "reports/Article50_Transparency_Submission_v0_1_BUILD_REPORT.md",
       "role": "full_draft_build_report",
-      "sha256": "cf76829c6c7b311800dc6ca71607e351681caffa9f7ecf7f5effba302b74a6da",
+      "sha256": "961bba0186a8b28a83a0cd1cde37029fb2172f4aefd243663fa2d76d3d4f76dc",
       "public_status": "public_redacted"
     },
     {
       "path": "reports/Article50_Transparency_Submission_v0_1_SHORT_CLEAN_BUILD_REPORT.md",
       "role": "short_clean_build_report",
-      "sha256": "8f2463a122eeedf45a58b67cc5e073ea42e51d98ea4a01de35be6fb8d7142e97",
+      "sha256": "a2290a72d0a17965d3dfae63573fbd182b15a94b0cf9dc23ee1481ccaa490deb",
       "public_status": "public_redacted"
     },
     {
@@ -154,7 +154,13 @@
     {
       "path": "zenodo_metadata_article50_v0_1.json",
       "role": "zenodo_metadata_preparation",
-      "sha256": "992df6cb85cdc2c0caf310dab3ca979fdc01c6a4d176caedc6ad817c621948e1",
+      "sha256": "dc8a6740ff0c31c59d86728e161488941e3b34ef61bf86728b7936361a4532f9",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "reports/ITERATION_005_ZENODO_DOI_METADATA_UPDATE_REPORT.md",
+      "role": "iteration_005_zenodo_doi_metadata_update_report",
+      "sha256": "bd33bab858d56c2be9e09a7a178fb9e87f6641fb531fd9327a3588d84dff6c37",
       "public_status": "public_redacted"
     }
   ],
@@ -183,7 +189,21 @@
     {
       "label": "Zenodo preparation metadata",
       "path": "zenodo_metadata_article50_v0_1.json"
+    },
+    {
+      "label": "Article 50 Transparency Submission Pack v0.1 Zenodo DOI",
+      "url": "https://doi.org/10.5281/zenodo.20315439",
+      "relation": "persistent archive identifier"
+    },
+    {
+      "label": "Article 50 Transparency Submission Pack v0.1 GitHub release",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1",
+      "relation": "GitHub release"
     }
   ],
-  "generated_at": "2026-05-20T19:11:39Z"
+  "generated_at": "2026-05-20T19:56:21Z",
+  "persistent_identifiers": {
+    "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1",
+    "zenodo_doi": "https://doi.org/10.5281/zenodo.20315439"
+  }
 }

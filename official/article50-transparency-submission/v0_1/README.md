@@ -24,6 +24,21 @@ The administrative EUSurvey confirmation record is retained privately by the aut
 
 Public package contains technical supporting materials only. Private EUSurvey confirmation records are excluded.
 
+## Persistent identifiers
+
+GitHub release:
+https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.20315439
+
+Boundary:
+
+- Not legal advice.
+- Not certification.
+- Not a conformity assessment.
+- Formal compliance remains deployment-specific and subject to legal review.
+
 ## Files
 
 - `docs/` - Markdown supporting documents.
@@ -46,4 +61,5 @@ See `article50_transparency_submission_v0_1.manifest.json`.
 
 See `zenodo_metadata_article50_v0_1.json`.
 
-DOI not minted yet.
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.20315439

@@ -5,6 +5,8 @@ authors:
     given-names: Ivan
 date-released: "2026-05-20"
 version: "v0.1"
+doi: 10.5281/zenodo.20315439
+url: "https://doi.org/10.5281/zenodo.20315439"
 message: "If you use this package, please cite it as a technical evidence-chain contribution related to Article 50 transparency implementation."
 abstract: "A technical evidence-chain contribution related to the European Commission / AI Office consultation on draft Article 50 transparency guidelines under the EU AI Act. The package maps system boundaries, actor roles, transparency triggers, disclosure and marking controls, witness/audit evidence, human review, and responsible actors. It does not claim formal compliance, certification, or legal sufficiency for any concrete deployment."
 keywords:

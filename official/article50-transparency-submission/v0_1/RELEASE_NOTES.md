@@ -27,7 +27,17 @@ An official response was submitted through EUSurvey on 2026-05-20.
 
 ## DOI Status
 
-No DOI yet.
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.20315439
+
+## Zenodo archive
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.20315439
+
+The official EUSurvey confirmation record remains private and is not included in the public package.
+
+This archive does not claim legal compliance, certification, or conformity assessment.
 
 ## Integrity
 
