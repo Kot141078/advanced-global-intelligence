@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Article 50 Transparency Submission Pack v0.1: Evidence-Chain Mapping for AI Act Transparency Implementation"
+authors:
+  - family-names: Kotov
+    given-names: Ivan
+date-released: "2026-05-20"
+version: "v0.1"
+message: "If you use this package, please cite it as a technical evidence-chain contribution related to Article 50 transparency implementation."
+abstract: "A technical evidence-chain contribution related to the European Commission / AI Office consultation on draft Article 50 transparency guidelines under the EU AI Act. The package maps system boundaries, actor roles, transparency triggers, disclosure and marking controls, witness/audit evidence, human review, and responsible actors. It does not claim formal compliance, certification, or legal sufficiency for any concrete deployment."
+keywords:
+  - EU AI Act
+  - Article 50
+  - AI transparency
+  - AI-generated content
+  - provenance
+  - audit trail
+  - L4 Witness
+  - Actor Grounding Layer
+  - C-Governed CLI Agent Mesh
+license: MIT

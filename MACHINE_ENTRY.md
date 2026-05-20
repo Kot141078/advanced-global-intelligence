@@ -107,6 +107,18 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - manifest: `hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt`
 - facade_manifest: `docs/c-node-boundary-docs/hashes/SHA256SUMS_cnode_boundary_docs_facade_v0.1.1_2026-05-13.txt`
 
+## Article 50 Transparency Submission Pack v0.1
+
+- package_root: `official/article50-transparency-submission/v0_1/`
+- README: `official/article50-transparency-submission/v0_1/README.md`
+- manifest_json: `official/article50-transparency-submission/v0_1/article50_transparency_submission_v0_1.manifest.json`
+- zenodo_metadata: `official/article50-transparency-submission/v0_1/zenodo_metadata_article50_v0_1.json`
+- sha256_manifest: `official/article50-transparency-submission/v0_1/SHA256SUMS`
+- status: public redacted technical evidence-chain contribution; not legal advice, not certification, not a conformity assessment.
+- official_submission_date: `2026-05-20`
+- private_boundary: official EUSurvey administrative confirmation records are retained privately and are excluded from this public package.
+- doi_status: no DOI minted yet.
+
 ## CCDP v0.1 package
 
 - title: Child-`c` Development Protocol (CCDP) v0.1

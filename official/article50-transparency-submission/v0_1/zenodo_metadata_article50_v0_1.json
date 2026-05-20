@@ -1,0 +1,35 @@
+{
+  "title": "Article 50 Transparency Submission Pack v0.1: Evidence-Chain Mapping for AI Act Transparency Implementation",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "affiliation": "Independent researcher, Bruxelles, Belgium"
+    }
+  ],
+  "description": "A public redacted technical evidence-chain contribution related to the European Commission / AI Office consultation on draft Article 50 transparency guidelines under the EU AI Act. The package maps system boundaries, actor roles, transparency triggers, disclosure and marking controls, witness/audit evidence, human review, and responsible actors. It does not claim formal compliance, certification, or legal sufficiency for any concrete deployment.",
+  "keywords": [
+    "EU AI Act",
+    "Article 50",
+    "AI transparency",
+    "AI-generated content",
+    "provenance",
+    "audit trail",
+    "L4 Witness",
+    "Actor Grounding Layer",
+    "C-Governed CLI Agent Mesh"
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "version": "v0.1",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.20257232",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-technicalnote",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Official EUSurvey confirmation records are retained privately by the author and excluded from the public package. No Contribution ID is included."
+}

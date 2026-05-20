@@ -1,0 +1,189 @@
+{
+  "package_id": "article50_transparency_submission_v0_1",
+  "title": "Article 50 Transparency Submission Pack v0.1: Evidence-Chain Mapping for AI Act Transparency Implementation",
+  "version": "v0.1",
+  "author": "Kotov Ivan",
+  "location": "Bruxelles, Belgium",
+  "date": "2026-05-20",
+  "status": "Public redacted technical evidence-chain contribution; draft supporting package; not legal advice; not certification; not a conformity assessment.",
+  "legal_status": [
+    "Not legal advice",
+    "Not certification",
+    "Not a conformity assessment",
+    "Formal compliance remains deployment-specific and subject to legal review"
+  ],
+  "official_submission": {
+    "submitted": true,
+    "date": "2026-05-20",
+    "channel": "European Commission EUSurvey online questionnaire",
+    "contribution_id_included_publicly": false,
+    "administrative_confirmation_publicly_included": false
+  },
+  "public_private_boundary": {
+    "public_package_contains": "technical supporting materials only",
+    "private_records_excluded": true,
+    "private_records_summary": "Official EUSurvey administrative confirmation records are retained privately by the author and are excluded from this public package.",
+    "contribution_id_publicly_included": false,
+    "private_administrative_urls_publicly_included": false,
+    "private_account_or_export_links_publicly_included": false
+  },
+  "core_mapping_chain": [
+    "system",
+    "role",
+    "obligation trigger",
+    "disclosure / marking control",
+    "evidence artifact",
+    "responsible actor",
+    "legal review path"
+  ],
+  "files": [
+    {
+      "path": "CANONICAL_READING_ORDER.md",
+      "role": "canonical_reading_order",
+      "sha256": "43c6be70d01fab51b6a83a3a50d3d7fe254c2fb899315487cc9ecb2c7f921415",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "CITATION.cff",
+      "role": "package_citation",
+      "sha256": "a688e9b043e0ba5f423db1d650e0068621524ac2efa2051c6e25fef1b69f6194",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "docs/00_Cover_Note.md",
+      "role": "cover_note",
+      "sha256": "8bfa649dbd530e73d56a8d4fbf72567efb19a9576fa7bf61ab0289fcf0f26afd",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "docs/01_Article_50_Compliance_Mapping_Pack_v0_1.md",
+      "role": "article_50_compliance_mapping_pack",
+      "sha256": "eb30aad2622a792c508ce74a220faa6cab24c0377648e0b91f0b47b2f84f38f5",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "docs/02_System_Role_Obligation_Control_Evidence_Table_v0_1.md",
+      "role": "system_role_obligation_control_evidence_table",
+      "sha256": "aa420df16924bf46ebab3e62e55431636834b7874fd9bd57d37fbd2b2a9899a1",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "docs/03_L4_Witness_and_Provenance_Bridge_v0_1.md",
+      "role": "l4_witness_and_provenance_bridge",
+      "sha256": "2e7ea8c8bdae3c48bad3349a6eadd30343647ec90b218759b9772c6011bff8db",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "docs/04_Non_Claims_Open_Issues_and_Legal_Review_v0_1.md",
+      "role": "non_claims_open_issues_and_legal_review",
+      "sha256": "e9c4ca1d2bcc33b9a3224f827374474d98270e698e738cf8cb660f6651adb84d",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "docs/05_EUSurvey_Response_Draft_v0_1.md",
+      "role": "eusurvey_response_draft_support",
+      "sha256": "1eee3c8872de3043af0d44a108b4d7580de90722ac1b1df7901578c455a174de",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "docs/06_PDF_Build_Order_and_Submission_Checklist_v0_1.md",
+      "role": "pdf_build_order_and_submission_checklist",
+      "sha256": "7dab164ed2fcb55d119be1d5932e9d07029f451c606ea728625b18958d22c8f0",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "docs/07_Human_Review_Record_Template_v0_1.md",
+      "role": "human_review_record_template",
+      "sha256": "82557eb1d43ea4c0dac01b39a9740fa215b5be227a24387429972edfcee6327f",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "INDEX.md",
+      "role": "package_index",
+      "sha256": "ea285a3cdce8ba0464f19b3d66f5274836d28845b1cb05d72a563a5b850d482d",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "pdf/Kotov_Ivan_Article50_Transparency_Submission_v0_1_FULL_DRAFT.pdf",
+      "role": "full_draft_public_pdf",
+      "sha256": "8e5c024fbc53bebd3e7f208b018b389f12fc0e51ec6a2edf0a6402197654e7a6",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "pdf/Kotov_Ivan_Article50_Transparency_Submission_v0_1_SHORT_CLEAN.pdf",
+      "role": "short_clean_public_pdf",
+      "sha256": "c165ff6cf3738c2a150dcffe15a8e1f37aa075a182d755f36b3397f3394b6ae5",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "README.md",
+      "role": "package_readme",
+      "sha256": "f6df3096d072566889b3cd21473588b4d8ed5de6f6ba2c26fd69dac34db248ab",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "role": "release_notes",
+      "sha256": "0a34a7a72077486b88f0dfef3bcad5fe7e80c27ddd8f07b210bcba49b40320ae",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "reports/Article50_Transparency_Submission_v0_1_BUILD_REPORT.md",
+      "role": "full_draft_build_report",
+      "sha256": "cf76829c6c7b311800dc6ca71607e351681caffa9f7ecf7f5effba302b74a6da",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "reports/Article50_Transparency_Submission_v0_1_SHORT_CLEAN_BUILD_REPORT.md",
+      "role": "short_clean_build_report",
+      "sha256": "8f2463a122eeedf45a58b67cc5e073ea42e51d98ea4a01de35be6fb8d7142e97",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "reports/ITERATION_001_PREFLIGHT_AND_PUBLIC_PACKAGE_REPORT.md",
+      "role": "iteration_001_preflight_and_public_package_report",
+      "sha256": "c26d5c27ee3e5ea0def9562f1eb9c21fd86288e904f92c02852d8e081f4543db",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "reports/ITERATION_002_COMMIT_PREFLIGHT_REPORT.md",
+      "role": "iteration_002_commit_preflight_report",
+      "sha256": "c38ad9c36afa208aa8664255cf18e2a6c96ffbe07914ede3ef31dc31ae639eb9",
+      "public_status": "public_redacted"
+    },
+    {
+      "path": "zenodo_metadata_article50_v0_1.json",
+      "role": "zenodo_metadata_preparation",
+      "sha256": "992df6cb85cdc2c0caf310dab3ca979fdc01c6a4d176caedc6ad817c621948e1",
+      "public_status": "public_redacted"
+    }
+  ],
+  "excluded_private_files": [
+    "official EUSurvey confirmation PDFs",
+    "private official submission archive",
+    "files containing official administrative submission identifier values",
+    "files containing private administrative submission URLs",
+    "files containing private account or export links",
+    "private e-mail confirmation metadata"
+  ],
+  "references": [
+    {
+      "label": "C-Governed CLI Agent Mesh DOI",
+      "url": "https://doi.org/10.5281/zenodo.20257232",
+      "relation": "related technical governance package"
+    },
+    {
+      "label": "Package README",
+      "path": "README.md"
+    },
+    {
+      "label": "Canonical reading order",
+      "path": "CANONICAL_READING_ORDER.md"
+    },
+    {
+      "label": "Zenodo preparation metadata",
+      "path": "zenodo_metadata_article50_v0_1.json"
+    }
+  ],
+  "generated_at": "2026-05-20T19:11:39Z"
+}
