@@ -442,3 +442,16 @@ Zenodo records:
 
 - Literary companion repository: `Kot141078/qubit-of-hope-volume-i` — multilingual reading repository for *Qubit of Hope — Volume I*
 - Corpus role: human-facing narrative companion
+
+## c Hardening Pack v0.1
+
+Canonical local package:
+- `hardening/c_hardening_pack_v0_1/`
+
+Role:
+- draft hardening package for `c = a + b`;
+- closes criticism-driven boundary issues around post-anchor continuity, claim-strength separation, L4 anti-autarky, clean experience value, Temporal AI Presence, local cognitive infrastructure, SYNAPS triadic experiments, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository patch control.
+
+Boundary:
+- does not prove personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty;
+- does not override root `c = a + b`, SER, L4, Beacon, AGL, ARL, L4 Witness, Continuity Bundle, VXCX, or applicable law.

@@ -275,3 +275,13 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 
 - Verify content using `hashes/` and the repo's SHA-256 manifest files rather than GitHub-generated archives.
 - Current main-doc temporal-presence manifest: `hashes/SHA256SUMS_main_temporal_presence_2026-04-12.txt`
+
+## Machine entry: c Hardening Pack v0.1
+
+- package_id: `c_hardening_pack_v0_1`
+- path: `hardening/c_hardening_pack_v0_1/`
+- manifest: `hardening/c_hardening_pack_v0_1/c_hardening_pack_v0_1.manifest.json`
+- integrity_manifest: `hardening/c_hardening_pack_v0_1/SHA256SUMS`
+- status: `draft hardening package`
+- assertion_class: `C-A4` for normative proposals; `C-A10` for package-control and conformance-support claims; `C-A7` where witness/hash/signature mechanisms are referenced.
+- non_claims: no personhood proof; no consciousness proof; no AGI proof; no legal status; no final safety proof; no automatic post-anchor authority; no self-funded sovereignty.

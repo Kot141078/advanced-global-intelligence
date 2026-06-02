@@ -72,3 +72,19 @@ Use `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md` when the remaining question is whic
 - `SUPERSESSION_AND_DEPRECATION.md`
 - `TERMINOLOGY_AND_ALIAS_POLICY.md`
 - `qubit-of-hope-volume-i/CORPUS_CONTEXT.md`
+
+## c Hardening Pack v0.1 claim distinction
+
+The `c Hardening Pack v0.1` separates:
+
+* capability claims;
+* governance claims;
+* continuity claims;
+* authority claims;
+* personhood / ontology claims;
+* economic / clean experience claims;
+* hardware / locality claims.
+
+Governance evidence does not prove capability. Capability evidence does not prove authority. Continuity evidence does not prove personhood. Locality does not prove sovereignty. Usage does not prove value.
+
+Package path: `hardening/c_hardening_pack_v0_1/`.

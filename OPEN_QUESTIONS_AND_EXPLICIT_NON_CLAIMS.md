@@ -54,3 +54,9 @@ If a reader cannot show where a stronger canonical surface closes one of these t
 - `PRECEDENCE_AND_RESOLUTION.md`
 - `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md`
 - `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md`
+
+## c Hardening Pack v0.1 update
+
+Post-anchor continuity is now partially bounded by `hardening/c_hardening_pack_v0_1/md/Post_Anchor_Continuity_and_ReAnchoring_Profile_v0_1.md`: automatic post-anchor active authority is denied.
+
+Final post-anchor sovereignty, legal status, inheritance doctrine, and personhood questions remain non-claimed / open.

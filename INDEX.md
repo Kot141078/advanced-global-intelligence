@@ -140,3 +140,12 @@ This stack is entity-centered, not agent-centered.
 - Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - Zenodo DOI: https://doi.org/10.5281/zenodo.19409346
 - Boundary: not yet a mature normative layer
+
+## c Hardening Pack v0.1
+
+- `c Hardening Pack v0.1` - draft hardening package for `c = a + b`, L4, claim discipline, post-anchor continuity, Temporal AI Presence, local cognitive infrastructure, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository patch control.
+- Path: `hardening/c_hardening_pack_v0_1/`
+- Index: `hardening/c_hardening_pack_v0_1/INDEX.md`
+- Manifest: `hardening/c_hardening_pack_v0_1/c_hardening_pack_v0_1.manifest.json`
+- Integrity: `hardening/c_hardening_pack_v0_1/SHA256SUMS`
+- Status: draft hardening package; not proof of personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty.

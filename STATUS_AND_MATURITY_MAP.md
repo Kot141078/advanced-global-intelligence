@@ -72,3 +72,12 @@ Use `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md` when the remaining question
 - `CHANGE_CONTROL_AND_SYNC.md`
 - `SUPERSESSION_AND_DEPRECATION.md`
 - `qubit-of-hope-volume-i/CORPUS_CONTEXT.md`
+
+## c Hardening Pack v0.1
+
+- path: `hardening/c_hardening_pack_v0_1/`
+- status: draft hardening package
+- maturity: research / protocol-hardening layer
+- evidence state: document-level specification and integrity manifest, not implementation certification
+- public claim strength: architecture / governance / boundary claim only
+- non-claims: does not prove personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty.

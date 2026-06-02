@@ -67,3 +67,11 @@ If two surfaces appear to conflict and precedence is unclear, prefer the stronge
 - `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md`
 - `PUBLIC_HISTORY_ANNOTATION_AND_RELEASE_NOTE_POLICY.md`
 - `PUBLIC_CORRECTION_AND_ERRATA_POLICY.md`
+
+## c Hardening Pack v0.1 precedence
+
+The `c Hardening Pack v0.1` does not override root `c = a + b`, SER, L4, Beacon, AGL, ARL, L4 Witness, Continuity Bundle, VXCX, or applicable law.
+
+It specializes hardening boundaries and must fail closed where it conflicts with load-bearing parent invariants.
+
+Package path: `hardening/c_hardening_pack_v0_1/`.
