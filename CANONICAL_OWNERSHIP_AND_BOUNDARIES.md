@@ -65,3 +65,10 @@ If maintainers cannot determine whether a package is canonically owned here or e
 - `PACKAGE_INTAKE_AND_INTEGRATION.md`
 - `qubit-of-hope-volume-i/CORPUS_CONTEXT.md`
 - `CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md`
+
+## c Hardening Pack v0.1 ownership
+
+- canonical owner repository: `advanced-global-intelligence`
+- canonical package path: `hardening/c_hardening_pack_v0_1/`
+- role: cross-corpus hardening package and package-control surface for `c = a + b` criticism-driven boundary closures
+- boundary: this package does not reassign ownership of SER, L4, Beacon, AGL, ARL, L4 Witness, Continuity Bundle, VXCX, `ester-clean-code`, or applicable law.

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this hardening package, please cite it as below."
+title: "c Hardening Pack v0.1"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+year: 2026
+date-released: "2026-06-03"
+version: "v0.1"
+abstract: "Draft hardening profile package for the c = a + b architecture, covering post-anchor continuity, claim-strength discipline, L4 anti-autarky, clean experience value boundaries, Temporal AI Presence, Local Cognitive Infrastructure, SYNAPS triadic experiments, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository-control integration."
+keywords:
+  - "c=a+b"
+  - "AI architecture"
+  - "L4"
+  - "Temporal AI Presence"
+  - "AI safety"
+  - "post-anchor continuity"
+  - "hardening"
+  - "claim strength"
+  - "anti-autarky"
+license: "MIT"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"

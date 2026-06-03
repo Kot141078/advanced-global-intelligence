@@ -544,3 +544,10 @@ A separate public repository now preserves the multilingual reading editions of 
 
 This is a literary work, not a technical specification repository.
 It is linked here as related public work by the same author.
+
+## c Hardening Pack v0.1
+
+- Path: `hardening/c_hardening_pack_v0_1/`
+- Status: draft hardening package / `C-A4` where normative proposals are stated / `C-A10` where package-control and conformance-support claims are stated / `C-A7` where witness, hash, and signature mechanisms are referenced.
+- Summary: draft hardening package for `c = a + b`, closing criticism-driven boundary issues around post-anchor continuity, claim-strength separation, L4 anti-autarky, clean experience value, Temporal AI Presence, local cognitive infrastructure, SYNAPS triadic experiments, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository patch control.
+- Non-claims: this package does not prove personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty.

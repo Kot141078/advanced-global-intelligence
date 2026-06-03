@@ -280,3 +280,12 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 ## Related public work
 - `Kot141078/qubit-of-hope-volume-i` — multilingual reading repository for *Qubit of Hope — Volume I* (literary work)
 - corpus role: human-facing narrative companion
+
+## c Hardening Pack v0.1
+- Title: `c Hardening Pack v0.1`
+- Path: `hardening/c_hardening_pack_v0_1/`
+- Package index: `hardening/c_hardening_pack_v0_1/INDEX.md`
+- Manifest: `hardening/c_hardening_pack_v0_1/c_hardening_pack_v0_1.manifest.json`
+- Integrity: `hardening/c_hardening_pack_v0_1/SHA256SUMS`
+- Summary: draft hardening package for `c = a + b`, closing criticism-driven boundary issues around post-anchor continuity, claim-strength separation, L4 anti-autarky, clean experience value, Temporal AI Presence, local cognitive infrastructure, SYNAPS triadic experiments, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository patch control.
+- Non-claims: does not prove personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty.

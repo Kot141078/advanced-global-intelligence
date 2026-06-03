@@ -87,3 +87,13 @@ the candidate should remain local or pointer-only until clarified and must not e
 - `PRECEDENCE_AND_RESOLUTION.md`
 - `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md`
 - `OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md`
+
+## Intake record: c Hardening Pack v0.1
+
+- Package: c Hardening Pack v0.1
+- Source: local prepared 14-document hardening pack
+- Target: `hardening/c_hardening_pack_v0_1`
+- Integration date: 2026-06-03
+- Intake status: integrated locally, pending website / release / Zenodo staging
+- Files: 14 Markdown + 14 PDF + package control files + manifest + SHA256SUMS
+- Boundary: no GitHub release, website update, or Zenodo deposition in this iteration.
