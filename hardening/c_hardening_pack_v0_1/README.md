@@ -80,3 +80,9 @@ See [`c_hardening_pack_v0_1.manifest.json`](c_hardening_pack_v0_1.manifest.json)
 ## Integrity
 
 See [`SHA256SUMS`](SHA256SUMS).
+
+## License
+
+This package is released under the MIT License.
+
+See [`LICENSE`](LICENSE) and the root repository license.
