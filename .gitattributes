@@ -2,3 +2,8 @@
 hashes/*.txt text eol=lf
 *.pdf binary
 *.docx binary
+
+# c Hardening Pack v0.1 integrity-sensitive text files
+hardening/c_hardening_pack_v0_1/*.json text eol=lf
+hardening/c_hardening_pack_v0_1/*.cff text eol=lf
+hardening/c_hardening_pack_v0_1/SHA256SUMS text eol=lf
