@@ -5,6 +5,7 @@
   "author": "Kotov Ivan",
   "location_year": "Bruxelles, 2026",
   "status": "Draft hardening package",
+  "license": "MIT",
   "assertion_class": "C-A4 draft normative proposals; C-A10 package-control and conformance-support claims; C-A7 where witness, hash, and signature mechanisms are referenced",
   "package_root": "hardening/c_hardening_pack_v0_1",
   "generated_at": "2026-06-02T23:18:31Z",
