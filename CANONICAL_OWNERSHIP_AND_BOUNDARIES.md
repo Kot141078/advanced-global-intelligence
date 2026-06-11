@@ -36,6 +36,7 @@ This file fixes canonical home and boundary discipline.
 | `O09` | ARL / EA conflict semantics / continuity precedence cluster | `sovereign-entity-recursion` | `advanced-global-intelligence`; `ester-reality-bound`; `ester-clean-code` | pointer; implementation bridge; contextual cross-reference | AGI or clean-code silently forking arbitration ownership or continuity precedence semantics | `docs/arbitration-review-layer/README.md` |
 | `O10` | `ester-clean-code` executable skeleton / runtime proof-of-possibility | `ester-clean-code` | `advanced-global-intelligence`; `ester-reality-bound`; `sovereign-entity-recursion` | pointer; contextual mention; doctrinal dependency note | implementation repo being re-read as doctrinal owner of adjacent theory packages | `PROOF_OF_CLOSURE.md` |
 | `O11` | `qubit-of-hope-volume-i` narrative companion / perception bridge | `qubit-of-hope-volume-i` | `advanced-global-intelligence`; `sovereign-entity-recursion`; `ester-reality-bound`; `ester-clean-code` | companion; contextual bridge; recognition support | companion surfaces silently re-owning normative core or evidence layers | `CORPUS_CONTEXT.md` |
+| `O12` | Personality Formation and Time-Shaped Continuity Profile v0.1 | `advanced-global-intelligence` | `sovereign-entity-recursion`; `ester-reality-bound`; `ester-clean-code` | pointer; contextual mention; implementation or review bridge | adjacent repos presenting personality formation as local authority, consciousness proof, or legal status grant | `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md` |
 | `O12` | corpus-control surfaces (`primer`, `stack lock`, `distinctions`, `objections`, `citation`, `claims`, `status`, `sync`, `supersession`, `terminology`, `acceptance`, `assertion`, `ownership`, `invariants`, `precedence`, `artifact-id`, `intake`) | `advanced-global-intelligence` | `sovereign-entity-recursion`; `ester-reality-bound`; `ester-clean-code`; `qubit-of-hope-volume-i` | pointer; repo-local convenience mention; machine hop | non-owner repo forking corpus-control canon through parallel local rule sets | `CORPUS_PRIMER.json` |
 
 ## 4. Boundary rules
@@ -72,3 +73,10 @@ If maintainers cannot determine whether a package is canonically owned here or e
 - canonical package path: `hardening/c_hardening_pack_v0_1/`
 - role: cross-corpus hardening package and package-control surface for `c = a + b` criticism-driven boundary closures
 - boundary: this package does not reassign ownership of SER, L4, Beacon, AGL, ARL, L4 Witness, Continuity Bundle, VXCX, `ester-clean-code`, or applicable law.
+
+## Personality Formation and Time-Shaped Continuity Profile v0.1 ownership
+
+- canonical owner repository: `advanced-global-intelligence`
+- canonical package path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`
+- role: criteria-based personality formation and continuity maturity profile for biological and synthetic intelligent life
+- boundary: this profile does not grant legal personhood, prove consciousness, create automatic authority, certify mature personality at activation, or certify identity continuity from viability alone.

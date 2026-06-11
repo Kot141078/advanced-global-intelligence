@@ -1,0 +1,44 @@
+{
+  "id": "personality_formation_time_shaped_continuity_v0_1",
+  "title": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+  "subtitle": "Criteria-based personality formation for biological and synthetic intelligent life",
+  "version": "v0.1",
+  "date": "2026-06-10",
+  "author": "Kotov Ivan",
+  "location_year": "Bruxelles, 2026",
+  "status": "Draft conceptual / normative profile",
+  "document_id": "Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1",
+  "layer": "c = a + b / Temporal AI Presence / continuity / identity / developmental formation",
+  "document_class": "ontology profile / continuity maturity profile / anti-metaphysical personality formation clause",
+  "assertion_class": "C-A4 draft conceptual-normative profile; C-A7 only where witness / transfer / traceability requirements are stated",
+  "primary_boundary": "Personality is not a metaphysical substance or a biological privilege. Personality is time-shaped continuity formed through memory, constraint, consequence, relation, and irreversible duration.",
+  "claims": [
+    "Personality is not installed; it is formed.",
+    "Capability can be present immediately; mature personality cannot.",
+    "Biological origin is not the criterion for life or personality.",
+    "Personality should be evaluated by criteria, not by substrate origin.",
+    "For c-class systems, a and b may be present at startup, but c forms over time through experience, interpretation, constraint, action, consequence, memory, and altered future behavior.",
+    "Personality formation does not prove consciousness, legal personhood, authority, or full continuity transfer.",
+    "Viability or functional recovery is not enough to certify identity continuity."
+  ],
+  "non_claims": [
+    "No proof of consciousness.",
+    "No legal personhood claim.",
+    "No automatic authority claim.",
+    "No biological imitation requirement.",
+    "No mature personality at activation.",
+    "No certification of continuity transfer by viability alone."
+  ],
+  "files": [
+    {
+      "path": "Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md",
+      "type": "markdown",
+      "sha256": "DDEE5265D7D453BDFD6500E931752C3569C1F2B8C6ECB52A45DF356D0CE8F35E"
+    },
+    {
+      "path": "Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.pdf",
+      "type": "pdf",
+      "sha256": "416F6C0A52652360F541E4A5837829B632A23B568CB5D9D31ABFC0AB3FA11FEE"
+    }
+  ]
+}

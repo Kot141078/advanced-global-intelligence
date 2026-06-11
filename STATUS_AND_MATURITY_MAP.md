@@ -40,6 +40,7 @@ Use `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md` when the remaining question
 | `S12` | `CORPUS_CONTEXT.md` | `qubit-of-hope-volume-i` | `companion` | `narrative bridge` | human-facing narrative / perception bridge | `non-normative companion` | use for human recognition, perception shift, and companion context | narrative companion is intentional and important, but not protocol evidence |
 | `S13` | `CORPUS_PRIMER.json` + `STACK_LOCK_2026-04-12.json` + entry-layer canonical surfaces | `advanced-global-intelligence` | `control-surface` | `corpus control layer` | machine-first routing, lock state, and aligned reading entry | `control / routing only` | use first to orient reading and freeze stack state | control surfaces route serious reading; they do not themselves create doctrine |
 | `S14` | `CANONICAL_DISTINCTIONS.md` + `OBJECTIONS_AND_REPLIES.md` + `CITATION_AND_VERIFICATION.md` + `CLAIMS_AND_EVIDENCE_MAP.md` | `advanced-global-intelligence` | `control-surface` | `corpus control layer` | anti-confusion, public reasoning, citation discipline, and claim crosswalk | `strong supporting` | use before serious citation, review, or audit to stabilize meaning and claim routing | these surfaces discipline interpretation; they do not replace underlying protocol sources |
+| `S15` | `Personality Formation and Time-Shaped Continuity Profile v0.1` | `advanced-global-intelligence` | `draft` | `conceptual / normative profile` | criteria-based personality formation and continuity maturity profile | `explicitly non-final` | use for the current personality-formation boundary, especially capability-vs-formation and viability-vs-identity distinctions | does not prove consciousness, legal personhood, automatic authority, mature personality at activation, or continuity transfer by viability alone |
 
 ## Notes on interpretation
 
@@ -81,3 +82,12 @@ Use `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md` when the remaining question
 - evidence state: document-level specification and integrity manifest, not implementation certification
 - public claim strength: architecture / governance / boundary claim only
 - non-claims: does not prove personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty.
+
+## Personality Formation and Time-Shaped Continuity Profile v0.1
+
+- path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`
+- status: draft conceptual / normative profile
+- maturity: criteria profile / continuity formation boundary
+- evidence state: document-level profile and integrity manifest, not implementation certification
+- public claim strength: conceptual / normative boundary claim only
+- non-claims: no consciousness proof, legal personhood, automatic authority, mature personality at activation, biological imitation requirement, or continuity transfer by viability alone.

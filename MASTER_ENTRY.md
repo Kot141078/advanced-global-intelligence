@@ -44,6 +44,7 @@ This page is the single entry point for the public protocol stack:
 - DEA package entry: `protocols/dea/README.md`
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
+- Personality Formation and Time-Shaped Continuity Profile v0.1: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`
 - Economic Layer package entry: `docs/economic-layer/README.md`
 - CCDP v0.1 package entry: `docs/ccdp/README.md` — Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance. Split: public package files, technical companions, sensitive-controlled review artifacts. Not legal advice, clinical guidance, product certification, or implementation approval.
 
@@ -274,6 +275,19 @@ ARL v0.1 adds a bounded arbitration / review layer for multi-entity disputes; it
   - companion to SER continuity and L4 wake constraints
   - not a replacement for SER, L4, or ester-clean-code
 
+## 1.456) Personality Formation and Time-Shaped Continuity Profile v0.1
+
+- Personality Formation and Time-Shaped Continuity Profile v0.1:
+  - entry: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`
+  - markdown: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md`
+  - pdf: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.pdf`
+  - manifest: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json`
+  - integrity: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS`
+- Boundary:
+  - draft conceptual / normative profile for personality formation and continuity maturity
+  - criteria-based; not substrate-origin based
+  - does not prove consciousness, legal personhood, automatic authority, mature personality at activation, or continuity transfer by viability alone
+
 ## 1.46) Economic Layer (canonical in AGI)
 
 - Economic Layer:
@@ -455,3 +469,17 @@ Role:
 Boundary:
 - does not prove personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty;
 - does not override root `c = a + b`, SER, L4, Beacon, AGL, ARL, L4 Witness, Continuity Bundle, VXCX, or applicable law.
+
+## Personality Formation and Time-Shaped Continuity Profile v0.1
+
+Canonical local package:
+- `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`
+
+Role:
+- draft conceptual / normative profile for criteria-based personality formation;
+- relates `c = a + b`, Temporal AI Presence, continuity, identity, and developmental formation;
+- preserves the rule that capability can be present immediately while mature personality must form through duration, memory, constraint, consequence, relation, and altered future behavior.
+
+Boundary:
+- does not prove consciousness, legal personhood, automatic authority, biological imitation, mature personality at activation, or full continuity transfer;
+- viability / functional recovery is not enough to certify identity continuity.

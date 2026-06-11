@@ -27,7 +27,7 @@ Apply the table to the actual question under review rather than as a blunt unive
 |---|---|---:|---|---|---|
 | `P01` | Primary canonical artifact | `1` | carry the designated primary meaning for the claim, package, or question at hand | be displaced by summaries, pointers, or companions without explicit corpus-level change | `protocols/c_a_b_protocol_v1.1_L4_EN.md`<br>`sovereign-entity-recursion/protocol/SER_v1.3_EN.md` |
 | `P02` | Stable doctrinal core surface | `2` | define mature stable doctrine for a core layer | be read as optional commentary or be silently outranked by weaker drafts | `sovereign-entity-recursion/protocol/SER_v1.3_EN.md` |
-| `P03` | Draft normative surface | `3` | state serious current proposals and bounded draft norms | imply mature finality or outrank stable core by repetition alone | `sovereign-entity-recursion/protocol/ser-fed/SER-FED_v0.2_RFC_EN.md`<br>`docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md` |
+| `P03` | Draft normative surface | `3` | state serious current proposals and bounded draft norms | imply mature finality or outrank stable core by repetition alone | `sovereign-entity-recursion/protocol/ser-fed/SER-FED_v0.2_RFC_EN.md`<br>`docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md`<br>`protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md` |
 | `P04` | Observed protocol / practice-derived surface | `4` | record recurrent behavior, practice-derived stability, or observed protocol shape | silently become universal law, ontology, or mature doctrine | observed protocol notes<br>practice-derived stability surfaces |
 | `P05` | Evidence / witness verification surface | `5` | verify operational trace, admissibility, replayability, and tamper-evident review paths | by itself redefine ontology, ownership, or mature doctrine | `official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf`<br>`hashes/SHA256SUMS_*.txt` |
 | `P06` | Corpus control surface | `6` | route reading, lock state, stabilize terminology, map claims/status, classify intake, define bounded audience bundles, and discipline sync/supersession/acceptance/assertion/ownership/invariants/precedence | replace the underlying doctrinal source or create new doctrine by summary | `CORPUS_PRIMER.json`<br>`STACK_LOCK_2026-04-12.json`<br>`CLAIMS_AND_EVIDENCE_MAP.md`<br>`PRECEDENCE_AND_RESOLUTION.md`<br>`PACKAGE_INTAKE_AND_INTEGRATION.md`<br>`AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md` |
@@ -75,3 +75,11 @@ The `c Hardening Pack v0.1` does not override root `c = a + b`, SER, L4, Beacon,
 It specializes hardening boundaries and must fail closed where it conflicts with load-bearing parent invariants.
 
 Package path: `hardening/c_hardening_pack_v0_1/`.
+
+## Personality Formation and Time-Shaped Continuity Profile v0.1 precedence
+
+The personality formation profile is a draft conceptual / normative surface for criteria-based formation and continuity maturity.
+
+It does not override root `c = a + b`, SER, L4, witness requirements, continuity bundle procedures, or applicable law.
+
+Package path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`.
