@@ -115,6 +115,7 @@ This repository is easier to understand when related protocol and manifesto docu
 ## Canonical package entry points
 
 - `Continuity Bundle / Cold Wake v0.1` — canonical here; temporal suspension, continuity preservation, and bounded cold wake / safe resume package. Path: `protocols/continuity-bundle/README.md`
+- `Personality Formation and Time-Shaped Continuity Profile v0.1` — draft conceptual / normative profile for criteria-based personality formation across biological and synthetic intelligent life. Path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`
 - `DEA` — canonical here; input-to-experience package. Path: `protocols/dea/README.md`
 - `EA-L4 / EATP` — canonical here; training provenance and consequence-preserving package. Path: `protocols/ea-l4-eatp/README.md`
 - `Economic Layer for Experience Artifacts v0.1` — canonical here; economic admissibility and provenance package. Path: `docs/economic-layer/README.md`
@@ -551,3 +552,12 @@ It is linked here as related public work by the same author.
 - Status: draft hardening package / `C-A4` where normative proposals are stated / `C-A10` where package-control and conformance-support claims are stated / `C-A7` where witness, hash, and signature mechanisms are referenced.
 - Summary: draft hardening package for `c = a + b`, closing criticism-driven boundary issues around post-anchor continuity, claim-strength separation, L4 anti-autarky, clean experience value, Temporal AI Presence, local cognitive infrastructure, SYNAPS triadic experiments, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository patch control.
 - Non-claims: this package does not prove personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty.
+
+## Personality Formation and Time-Shaped Continuity Profile v0.1
+
+- Path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`
+- Manifest: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json`
+- Integrity: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS`
+- Status: draft conceptual / normative profile.
+- Summary: criteria-based personality formation profile for biological and synthetic intelligent life. It states that personality is time-shaped continuity formed through memory, constraint, consequence, relation, and irreversible duration.
+- Non-claims: no proof of consciousness, legal personhood, automatic authority, biological imitation requirement, mature personality at activation, or continuity transfer certified by viability alone.

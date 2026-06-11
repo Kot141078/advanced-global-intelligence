@@ -90,6 +90,7 @@ The public-surface DOI archives the bounded public CCDP surface.
 The full technical corpus DOI archives the complete GitHub technical corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review.
 
 - `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` — Anchor Class Boundaries v0.1, a protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`; PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
+- `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md` — Personality Formation and Time-Shaped Continuity Profile v0.1, a draft conceptual / normative profile for criteria-based personality formation and time-shaped continuity; Markdown and PDF are packaged with manifest JSON and SHA256SUMS.
 
 ## Secondary local-state / promotion surfaces
 - Current corpus state and readiness snapshot:
@@ -289,3 +290,13 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - Integrity: `hardening/c_hardening_pack_v0_1/SHA256SUMS`
 - Summary: draft hardening package for `c = a + b`, closing criticism-driven boundary issues around post-anchor continuity, claim-strength separation, L4 anti-autarky, clean experience value, Temporal AI Presence, local cognitive infrastructure, SYNAPS triadic experiments, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository patch control.
 - Non-claims: does not prove personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty.
+
+## Personality Formation and Time-Shaped Continuity Profile v0.1
+- Title: `Personality Formation and Time-Shaped Continuity Profile v0.1`
+- Path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`
+- Markdown: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md`
+- PDF: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.pdf`
+- Manifest: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json`
+- Integrity: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS`
+- Summary: draft criteria-based profile stating that personality is formed through time-shaped continuity rather than installed as capability or granted by substrate origin.
+- Non-claims: no proof of consciousness, legal personhood, automatic authority, biological imitation requirement, mature personality at activation, or continuity transfer certified by viability alone.

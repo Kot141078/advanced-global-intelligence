@@ -48,6 +48,7 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - Anchor Class Boundaries v0.1: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` | PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 - Beacon profile v0.1: `protocols/beacon/`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
+- Personality Formation and Time-Shaped Continuity Profile v0.1: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`
 - DEA package: `protocols/dea/README.md`
 - EA-L4 / EATP package: `protocols/ea-l4-eatp/README.md`
 - Economic Layer package: `docs/economic-layer/README.md`
@@ -149,3 +150,12 @@ This stack is entity-centered, not agent-centered.
 - Manifest: `hardening/c_hardening_pack_v0_1/c_hardening_pack_v0_1.manifest.json`
 - Integrity: `hardening/c_hardening_pack_v0_1/SHA256SUMS`
 - Status: draft hardening package; not proof of personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty.
+
+## Personality Formation and Time-Shaped Continuity Profile v0.1
+
+- `Personality Formation and Time-Shaped Continuity Profile v0.1` - draft conceptual / normative profile for criteria-based personality formation across biological and synthetic intelligent life.
+- Path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`
+- README: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`
+- Manifest: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json`
+- Integrity: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS`
+- Status: draft conceptual / normative profile; not proof of consciousness, legal personhood, automatic authority, mature personality at activation, or continuity transfer certified by viability alone.

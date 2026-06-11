@@ -97,3 +97,13 @@ the candidate should remain local or pointer-only until clarified and must not e
 - Intake status: integrated locally, pending website / release / Zenodo staging
 - Files: 14 Markdown + 14 PDF + package control files + manifest + SHA256SUMS
 - Boundary: no GitHub release, website update, or Zenodo deposition in this iteration.
+
+## Intake record: Personality Formation and Time-Shaped Continuity Profile v0.1
+
+- Package: Personality Formation and Time-Shaped Continuity Profile v0.1
+- Source: exact Markdown and PDF source files provided by Ivan for this integration
+- Target: `protocols/personality/personality_formation_time_shaped_continuity_v0_1`
+- Integration date: 2026-06-11
+- Intake status: added on a PR branch for review
+- Files: 1 Markdown profile + 1 PDF + package README + manifest JSON + SHA256SUMS
+- Boundary: no website update, GitHub release, tag, Zenodo record, DOI creation, or PDF regeneration in this iteration.

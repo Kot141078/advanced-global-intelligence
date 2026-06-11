@@ -167,6 +167,21 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 
 - boundary: not legal advice, not clinical guidance, not product certification, and not implementation approval.
 
+## Personality Formation and Time-Shaped Continuity Profile v0.1
+
+- id: `personality_formation_time_shaped_continuity_v0_1`
+- title: `Personality Formation and Time-Shaped Continuity Profile v0.1`
+- status: `Draft conceptual / normative profile`
+- assertion_class: `C-A4 draft conceptual-normative profile; C-A7 only where witness / transfer / traceability requirements are stated`
+- package_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`
+- markdown_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md`
+- pdf_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.pdf`
+- manifest_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json`
+- sha256sums_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS`
+- relation: `c = a + b`; Temporal AI Presence; continuity; identity; developmental formation
+- core_rule: `Capability can be installed. Personality must be formed.`
+- non_claims: no proof of consciousness; no legal personhood; no automatic authority; no biological imitation requirement; no mature personality at activation; no continuity transfer certified by viability alone.
+
 ## Stable corpus refs
 
 - `CORPUS_PRIMER.json`

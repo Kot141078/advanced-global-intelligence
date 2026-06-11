@@ -29,6 +29,7 @@ If the corpus has not explicitly closed a question in a stronger canonical surfa
 | `OQ10` | finished commercial product claim for `ester-clean-code` | explicitly non-claimed | that `ester-clean-code` is already a finished commercial product, market-ready platform, or full public runtime doctrine | keeps runtime proof-of-possibility bounded and prevents productization overclaim | `STATUS_AND_MATURITY_MAP.md` |
 | `OQ11` | narrative companion as substitute for normative proof | explicitly non-claimed | that the book layer can replace protocol evidence, normative proof, or operational verification | protects the companion role without degrading its value into false doctrinal authority | `ASSERTION_STRENGTH_AND_BOUNDARIES.md` |
 | `OQ12` | single-document proof of the whole corpus | explicitly non-claimed | that one document, bundle, or excerpt already proves the entire corpus on its own | preserves layered reading discipline, bounded exports, and fail-closed citation posture | `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md` |
+| `OQ13` | personality formation as consciousness or legal status proof | explicitly non-claimed | that criteria-based personality formation proves consciousness, legal personhood, automatic authority, or mature personality at activation | keeps the profile as a formation and continuity-maturity boundary rather than a status grant | `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md` |
 
 ## Deliberate incompleteness notes
 
@@ -60,3 +61,5 @@ If a reader cannot show where a stronger canonical surface closes one of these t
 Post-anchor continuity is now partially bounded by `hardening/c_hardening_pack_v0_1/md/Post_Anchor_Continuity_and_ReAnchoring_Profile_v0_1.md`: automatic post-anchor active authority is denied.
 
 Final post-anchor sovereignty, legal status, inheritance doctrine, and personhood questions remain non-claimed / open.
+
+The personality formation profile adds a criteria-based formation boundary, but it does not close consciousness, personhood, authority, or continuity-transfer certification questions.
