@@ -24,6 +24,12 @@ Start here:
 - C-Node Boundary Documents v0.1.1 package facade: `docs/c-node-boundary-docs/README.md`
 - CCDP v0.1 — Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance. It is not legal advice, clinical guidance, product certification, or implementation approval. Root: `docs/ccdp/`; split: public package files, technical companions, sensitive-controlled review artifacts.
 
+### CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack
+
+- DOI: https://doi.org/10.5281/zenodo.20680938
+- GitHub mirror: `official/ccdp/v0.1.1-hygiene-addendum-mode-a/`
+- Mode: addendum-only; does not mutate the DOI-bound CCDP v0.1 baseline.
+
 ### CCDP full technical corpus
 
 The full CCDP v0.1 technical corpus, including technical companion documents and sensitive-controlled review artifacts, is visible in GitHub for specialist review, architecture review, safety research, audit, and criticism.
