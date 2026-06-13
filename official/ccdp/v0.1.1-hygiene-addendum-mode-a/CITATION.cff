@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this CCDP v0.1.1 Hygiene Addendum, please cite it as below."
+type: dataset
+title: "CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+date-released: "2026-06-13"
+version: "v0.1.1"
+doi: "10.5281/zenodo.20680938"
+url: "https://github.com/Kot141078/advanced-global-intelligence/tree/main/official/ccdp/v0.1.1-hygiene-addendum-mode-a"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+abstract: >-
+  Mode A / addendum-only hygiene addendum for the Child-c Development Protocol
+  corpus. The addendum defines current release-control reading for the
+  DOI-bound CCDP v0.1 baseline without mutating or replacing the baseline
+  artifacts.
+keywords:
+  - "CCDP"
+  - "Child-c Development Protocol"
+  - "c=a+b"
+  - "L4"
+  - "AI safety"
+  - "AI governance"
+  - "addendum-only patching"
+  - "DOI-safe patching"
+license: "MIT"

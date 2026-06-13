@@ -144,6 +144,14 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - sensitive-controlled material: excluded from the Zenodo public-surface package.
 - linkedin_status: deferred until DOI backfill is complete.
 
+### CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack
+
+- package_root: `official/ccdp/v0.1.1-hygiene-addendum-mode-a/`
+- DOI: `10.5281/zenodo.20680938`
+- Zenodo record: https://zenodo.org/records/20680938
+- current_operational_reading: `CCDP v0.1 baseline + CCDP v0.1.1 Hygiene Addendum`
+- mode: addendum-only; read with CCDP v0.1 baseline; does not mutate DOI-bound CCDP v0.1 artifacts.
+
 ### CCDP full technical corpus
 
 The full CCDP v0.1 technical corpus, including technical companion documents and sensitive-controlled review artifacts, is visible in GitHub for specialist review, architecture review, safety research, audit, and criticism.

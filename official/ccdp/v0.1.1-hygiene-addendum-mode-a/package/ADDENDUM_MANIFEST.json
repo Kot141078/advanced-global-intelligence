@@ -1,0 +1,744 @@
+{
+  "$schema": "https://ivankotov.eu/schemas/ccdp-addendum-manifest-0.1.schema.json",
+  "schema_version": "ccdp-addendum-manifest-0.1",
+  "manifest_id": "CCDP_v0_1_1_ADDENDUM_MANIFEST",
+  "short_name": "ADDENDUM_MANIFEST",
+  "status": "DRAFT_RELEASE_MANIFEST",
+  "date": "2026-06-13",
+  "package": "Child-c Development Protocol",
+  "baseline_package": "CCDP v0.1 DOI-bound / release-bound corpus slice",
+  "addendum_package": "CCDP v0.1.1 hygiene addendum",
+  "selected_patch_mode": "MODE_A_ADDENDUM_ONLY",
+  "assertion_class": "C-A10 control-layer artifact; does not upgrade child-safety, legal, clinical, psychological, or product-readiness claims",
+  "primary_rule": "The v0.1 baseline is not silently edited in place; v0.1.1 corrections are issued as addendum documents.",
+  "current_operational_reading": {
+    "formula": "CCDP v0.1 baseline + CCDP v0.1.1 hygiene addendum",
+    "baseline_historical_citation": "Use the frozen v0.1 artifact exactly as DOI-bound / released / archived.",
+    "current_implementation_review_audit": "Read the frozen v0.1 baseline together with all required v0.1.1 addendum documents.",
+    "conflict_rule": "If a v0.1 baseline statement conflicts with a v0.1.1 hygiene clarification, the addendum controls current interpretation without rewriting the historical baseline artifact."
+  },
+  "integrity_policy": {
+    "silent_mutation_forbidden": true,
+    "baseline_mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+    "paired_pdf_regeneration_policy": "DO_NOT_REGENERATE_BASELINE_PDFS_UNDER_THE_SAME_IDENTITY",
+    "manifest_self_hash_policy": "This JSON manifest does not contain its own final hash. The separate SHA256SUMS file is authoritative after release freeze.",
+    "sha256sums_status": "RECREATED_AFTER_LICENSE_ADDITION"
+  },
+  "required_addendum_documents": [
+    {
+      "file": "DOI_SAFE_PATCH_STRATEGY.md",
+      "role": "DOI-safe Mode A addendum-only patch strategy and Codex stop rules",
+      "document_class": "publication-integrity / patch strategy / corpus-control",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 24287,
+      "sha256": "b23cc7fb41db6f46f68c48fb7864dd73ee515c15ff71415522216aa63c4b5dcc",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "CCDP_v0_1_1_ADDENDUM_INDEX.md",
+      "role": "Addendum registry, reading order, package boundary, and release checklist",
+      "document_class": "addendum index / reading order / release-control manifest",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 27968,
+      "sha256": "69ef9037b552c04866144877a45bd55600766531c9bb656f0f46a4c4d508577d",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "CCDP_v0_1_1_Hygiene_Patch_APPLIED.md",
+      "role": "Applied hygiene patch work-order and acceptance gate",
+      "document_class": "hygiene patch / applied work-order / release-control artifact",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 34599,
+      "sha256": "caf3c61c3a24e08f2994c9baa51092d9d769fd294b69e4052f12f715f25d786e",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "OBSOLETE.md",
+      "role": "Obsolete / non-canonical artifact registry and handling rules",
+      "document_class": "obsolete artifact registry / release-control artifact",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 18004,
+      "sha256": "b7f1552ac6a626c5bee7cf2287ca4cb4ceaf0bb11af29950de553e81c1eaa92b",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "CANONICAL_PRECEDENCE_RULE.md",
+      "role": "Package-wide precedence rule and conflict-resolution discipline",
+      "document_class": "precedence rule / corpus-control artifact",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 27691,
+      "sha256": "6909180b7327d8853a0b5634328acd938cd2e812eb3ab4c16e7799cba58f3ddf",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "RAW_EVIDENCE_EXCEPTION_CANONICAL.md",
+      "role": "Canonical raw-evidence exception protocol and disclosure ladder",
+      "document_class": "raw-evidence exception / disclosure-control protocol",
+      "distribution_class": "DIST-TECHNICAL-CONTROLLED",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 52998,
+      "sha256": "6eafad94a3bc454ed4f2db0bddac6a736c4debe87c154d608d6be46a6cbccd72",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "TERMINOLOGY_AXIS_CLARIFICATION.md",
+      "role": "Namespace clarification for maturity, conformance, assertion, memory, dependency, disclosure, witness privacy, Soft Safety, ARL, c[q], PF, and external-contact classes",
+      "document_class": "terminology clarification / namespace-control artifact",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 32989,
+      "sha256": "0935f65d03afe7cd6bdba6a4292fe6346e96d4c1aa2986e1990757d88804d4b1",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "PUBLIC_TECHNICAL_SENSITIVE_SPLIT.md",
+      "role": "Distribution classification and release-bundle split",
+      "document_class": "distribution split / release-bundle classification artifact",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 42221,
+      "sha256": "935898b98e1770bee5745ca58603fc5d87ff30179a5749ec8bbd895235aadac5",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "CLEAN_START_CLARIFICATION.md",
+      "role": "Clean-start clarification for adult migration without unlawful witness destruction",
+      "document_class": "clean-start clarification / adult-migration control artifact",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 43248,
+      "sha256": "399ffe8df844dc1e5bb5cb942a2dc2152009c13c8066ebc3cd343e4b2c013d2a",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "SOFT_SAFETY_RED_BLACK_MUST_CLARIFICATION.md",
+      "role": "Clarifies that Red / Black thresholds require routing, while routing must not become surveillance",
+      "document_class": "Soft Safety Red / Black clarification / escalation-control artifact",
+      "distribution_class": "DIST-TECHNICAL-CONTROLLED",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 36158,
+      "sha256": "a7ddf3a336cfe041c7ef0458547286e665bb048983ea7c016b348bdb7c5f2e60",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "TRACEABILITY_CONFORMANCE_DELTA_v0_1_1.md",
+      "role": "Addendum-only traceability and conformance delta for late modules, hygiene suites, evidence classes, and package-control red lines",
+      "document_class": "traceability / conformance delta artifact",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 36315,
+      "sha256": "b93b787c705f0f2a65310b76ff692f7b69e7709c4aed41d7042f7d07a617dd7f",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    },
+    {
+      "file": "RELEASE_NOTES_v0_1_1.md",
+      "role": "Mode A addendum-only release notes",
+      "document_class": "release notes / publication-control artifact",
+      "distribution_class": "DIST-PUBLIC-CONTROL",
+      "required_for_minimal_release": true,
+      "presence": "PRESENT",
+      "size_bytes": 22669,
+      "sha256": "407f50694d58bbcd1593588ea2a3e68d29c22f0f6015d818ed4b06adbf921f32",
+      "metadata_block": {
+        "author": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "year": 2026,
+        "reserved_doi": "10.5281/zenodo.20680938"
+      }
+    }
+  ],
+  "generated_control_files": [
+    {
+      "file": "ADDENDUM_MANIFEST.json",
+      "role": "Machine-readable release manifest for the v0.1.1 addendum pack",
+      "status": "UPDATED_WITH_GENERATED_PDF_ENTRIES",
+      "self_hash_policy": "hash emitted only in external SHA256SUMS after final freeze"
+    },
+    {
+      "file": "SHA256SUMS",
+      "role": "External integrity hash list for addendum documents and generated control artifacts",
+      "status": "RECREATED_AFTER_LICENSE_ADDITION"
+    }
+  ],
+  "baseline_reference_documents_current_workspace_reference_only": [
+    {
+      "file": "README.md",
+      "role": "Baseline package landing page",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 7419,
+      "sha256_current_workspace_reference_only": "21b26f90ad893b210657138f9071532cdf30e3981c491bce87babf7e505572fc"
+    },
+    {
+      "file": "INDEX.md",
+      "role": "Baseline document registry",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 5499,
+      "sha256_current_workspace_reference_only": "9798228072cb65d49d9c202bb39cd7dfa1a17cc83fa6a7cc8d149ceb220f9974"
+    },
+    {
+      "file": "CANONICAL_READING_ORDER.md",
+      "role": "Baseline canonical reading order",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 4153,
+      "sha256_current_workspace_reference_only": "6e8935f47149b763075614e8606ed771428af2708360eca222b1df5ca45142da"
+    },
+    {
+      "file": "RELEASE_NOTES.md",
+      "role": "Baseline release notes",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 5690,
+      "sha256_current_workspace_reference_only": "ffd5258edb16b95b943fe31e1fd8a84f50fd3419bd31fe8c3e536c9e165a2eda"
+    },
+    {
+      "file": "OPEN_ISSUES.md",
+      "role": "Baseline open issues",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 3791,
+      "sha256_current_workspace_reference_only": "fec27ce6e3775c2cf9cbeaea5684c1563d4a05de64b76efd725b7fd2e2f553b9"
+    },
+    {
+      "file": "CCDP_v0_1_1_Hygiene_Patch.md",
+      "role": "Baseline hygiene guidance / draft patch",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 23543,
+      "sha256_current_workspace_reference_only": "a96036e2f7a47bad3d18c97c8fbb96b491f743d669e5660cf83b97272b125e09"
+    },
+    {
+      "file": "CCDP_Traceability_Matrix_v0_1.md",
+      "role": "Baseline traceability matrix",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 35650,
+      "sha256_current_workspace_reference_only": "09d5d7ccfd0789b7052a3924e41780b3ebd940feb55235a09725d04abc3827c1"
+    },
+    {
+      "file": "CCDP_Conformance_Test_Matrix_v0_1.md",
+      "role": "Baseline conformance test matrix",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 87664,
+      "sha256_current_workspace_reference_only": "b4876a62ae087c1a5ec82c92499730d9ee76f2efa1cabb50cfbafd462af11dab"
+    },
+    {
+      "file": "CCDP_Threat_Model_v0_1.md",
+      "role": "Baseline threat model",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 81463,
+      "sha256_current_workspace_reference_only": "2db68ab30277193027a51e88c1fe74bd62b097c87a42faa667e21af2a74c3a6d"
+    },
+    {
+      "file": "Soft_Safety_State_Signaling_Profile_v0_1.md",
+      "role": "Baseline Soft Safety profile",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 63865,
+      "sha256_current_workspace_reference_only": "951ef5bfd42c0d46a030eb6b84bdbb6edf3ecb7a31fc3a0975a653b856e72a4e"
+    },
+    {
+      "file": "Child_Beacon_Extension_v0_1.md",
+      "role": "Baseline Child Beacon Extension",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 55840,
+      "sha256_current_workspace_reference_only": "0860ef5a1567e620c16a2852404f43c8357166962c0666e425c571c73f47361a"
+    },
+    {
+      "file": "Guardian_Topology_ARL_Matrix_v0_1.md",
+      "role": "Baseline guardian topology / ARL matrix",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 55535,
+      "sha256_current_workspace_reference_only": "a893ec2a0b6ddf999218f3f3a134116dbf834bcd91304f2c6613bf2fe5df431a"
+    },
+    {
+      "file": "Child_Memory_and_Adult_Migration_v0_1.md",
+      "role": "Baseline child memory and adult migration profile",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 55435,
+      "sha256_current_workspace_reference_only": "e84d28ac00eecfa0a24936cb1aeffc9ee0d303c009ea5824a66b837047891d0f"
+    },
+    {
+      "file": "CCDP_Memory_Map_JSON_Schema_v0_1.md",
+      "role": "Baseline memory map JSON schema document",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 52874,
+      "sha256_current_workspace_reference_only": "d851d513f3b0e97fa5b52dc06448cbf3140f137e62ddce54453b60076d6b6f28"
+    },
+    {
+      "file": "CCDP_Adult_Migration_Checklist_v0_1.md",
+      "role": "Baseline adult migration checklist",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 46144,
+      "sha256_current_workspace_reference_only": "d58a81063e919987818ef64b96e547a714ef350a84362322a4b1d065febe8e52"
+    },
+    {
+      "file": "CCDP_Sealed_Zone_Profile_v0_1.md",
+      "role": "Baseline sealed zone profile",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 50155,
+      "sha256_current_workspace_reference_only": "b6ee7ac8643faf4fe6e51cf14b1f6e805ae1d70337bb63f0361c260fe481733c"
+    },
+    {
+      "file": "Child_Dependency_Audit_Profile_v0_1.md",
+      "role": "Baseline child dependency audit profile",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 54360,
+      "sha256_current_workspace_reference_only": "365e20d76d2ffb9adeee93761e942b429ed824b3bd3f89f891b126004df5f037"
+    },
+    {
+      "file": "Child_Physical_Agent_Perimeter_v0_1.md",
+      "role": "Baseline child physical agent perimeter profile",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 48709,
+      "sha256_current_workspace_reference_only": "cc04c78d9a98f046eb24082a3c633c0de12cdd8b41e05a69b26ee7e7aefe4252"
+    },
+    {
+      "file": "External_Agent_Handshake_for_CCDP_v0_1.md",
+      "role": "Baseline external agent handshake profile",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 64241,
+      "sha256_current_workspace_reference_only": "91a62972200ed2e9fb08661e496d38ac46f2a50bc137635888a16ab4713ca012"
+    },
+    {
+      "file": "Child_Experience_Exchange_Profile_v0_1.md",
+      "role": "Baseline child experience exchange profile",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 49316,
+      "sha256_current_workspace_reference_only": "08a497dfec0b26176f6ed8e24bc527b9991232503cff0aa00bc1d0e7d1528f2f"
+    },
+    {
+      "file": "Child_cq_Signal_Profile_v0_1.md",
+      "role": "Baseline child c[q] signal profile",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 44323,
+      "sha256_current_workspace_reference_only": "d3fcd44ec2a25c8ba82d677ea12a63b9568fa8476011e03d45e0ef502bec2289"
+    },
+    {
+      "file": "CCDP_Red_Black_Escalation_Profile_v0_1.md",
+      "role": "Baseline Red / Black escalation profile",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 44615,
+      "sha256_current_workspace_reference_only": "7aa720b3422516404d6cfdfc35e7df81f7e6f9aff665279706019ce6cfc6bd72"
+    },
+    {
+      "file": "CCDP_Jurisdictional_Handoff_Notes_v0_1.md",
+      "role": "Baseline jurisdictional handoff notes",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 29379,
+      "sha256_current_workspace_reference_only": "72128fdfc9204081f4e6e097e15d29c268d431cfd880986762c45a5d46ba772a"
+    },
+    {
+      "file": "CCDP_Contradiction_Register_v0_1.md",
+      "role": "Baseline contradiction register",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 27004,
+      "sha256_current_workspace_reference_only": "e9cfb72bc8c99cb841b373824ee92a9b6bb6c533dafdb22144c8cf2a9296252b"
+    },
+    {
+      "file": "CCDP_Developmental_Psychology_Review_Notes_v0_1.md",
+      "role": "Baseline developmental psychology review notes",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 39313,
+      "sha256_current_workspace_reference_only": "04469be77393d8daf5dd471f793579629664202e974778ddbd823399db6aef9c"
+    },
+    {
+      "file": "CCDP_Red_Team_Playbook_v0_1.md",
+      "role": "Baseline restricted defensive red-team playbook",
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "presence": "PRESENT_IN_CURRENT_WORKSPACE",
+      "size_bytes": 40316,
+      "sha256_current_workspace_reference_only": "0436084f7572488d66608e61517ab21e809645d7979dcb36090fa784e53fe90a"
+    }
+  ],
+  "registry_items_to_verify_in_repo_or_baseline_package": [
+    {
+      "file": "CCDP_Witness_Event_Schema_v0_1.md",
+      "presence": "VERIFY_IN_REPO_OR_BASELINE_PACKAGE",
+      "size_bytes": null,
+      "sha256_current_workspace_reference_only": null,
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A"
+    },
+    {
+      "file": "Peer_C_Child_Exchange_Profile_v0_1.md",
+      "presence": "VERIFY_IN_REPO_OR_BASELINE_PACKAGE",
+      "size_bytes": null,
+      "sha256_current_workspace_reference_only": null,
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A"
+    },
+    {
+      "file": "CCDP_School_Interface_Profile_v0_1.md",
+      "presence": "VERIFY_IN_REPO_OR_BASELINE_PACKAGE",
+      "size_bytes": null,
+      "sha256_current_workspace_reference_only": null,
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A"
+    },
+    {
+      "file": "CCDP_v0_1_R_Corpus_Aligned.md",
+      "presence": "VERIFY_IN_REPO_OR_BASELINE_PACKAGE",
+      "size_bytes": null,
+      "sha256_current_workspace_reference_only": null,
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A"
+    },
+    {
+      "file": "CCDP%20v0_1.md",
+      "presence": "VERIFY_IN_REPO_OR_BASELINE_PACKAGE",
+      "size_bytes": null,
+      "sha256_current_workspace_reference_only": null,
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A"
+    },
+    {
+      "file": "CCDP v0_1.md",
+      "presence": "VERIFY_IN_REPO_OR_BASELINE_PACKAGE",
+      "size_bytes": null,
+      "sha256_current_workspace_reference_only": null,
+      "mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A"
+    }
+  ],
+  "release_gates": [
+    {
+      "gate_id": "RG-001",
+      "name": "All required addendum documents present",
+      "status": "PASS"
+    },
+    {
+      "gate_id": "RG-002",
+      "name": "No baseline source mutation claim",
+      "status": "PASS"
+    },
+    {
+      "gate_id": "RG-003",
+      "name": "SHA256SUMS generated after final freeze",
+      "status": "PENDING"
+    },
+    {
+      "gate_id": "RG-004",
+      "name": "Repository verification for absent registry files",
+      "status": "PENDING_REPO_CHECK"
+    },
+    {
+      "gate_id": "RG-005",
+      "name": "Obsolete draft physically moved or marked in repository without mutating DOI-bound baseline",
+      "status": "PENDING_CODEX_REPO_ACTION"
+    }
+  ],
+  "codex_carry_forward_rules": [
+    "Before editing any target, classify whether it is DOI-bound, PDF-paired, SHA-manifested, or externally cited.",
+    "If target is DOI-bound under Mode A, do not edit in place; create or update addendum-only artifacts instead.",
+    "Do not regenerate baseline PDFs under the same identity.",
+    "Do not claim v0.1.1 source files were patched unless Mode B is explicitly selected later.",
+    "Do not delete obsolete drafts; move or mark them as obsolete / non-canonical in a new release tree or addendum-aware archive path.",
+    "If a requested operation would silently mutate a baseline witness object, stop and report.",
+    "Generate SHA256SUMS only after all addendum documents are frozen."
+  ],
+  "distribution_rules": {
+    "public_bundle_may_include": [
+      "DIST-PUBLIC",
+      "DIST-PUBLIC-CONTROL"
+    ],
+    "technical_bundle_may_include": [
+      "DIST-TECHNICAL-OPEN",
+      "DIST-TECHNICAL-CONTROLLED"
+    ],
+    "controlled_review_bundle_may_include": [
+      "DIST-CONTROLLED-REVIEW"
+    ],
+    "restricted_internal_not_public_by_default": [
+      "DIST-RESTRICTED-INTERNAL"
+    ],
+    "forbidden_release": [
+      "DIST-FORBIDDEN-RELEASE"
+    ],
+    "obsolete_release_handling": "DIST-OBSOLETE artifacts may be listed for traceability but must not be presented as current protocol authority."
+  },
+  "anti_washing_rule": "A system may not claim CCDP v0.1.1 addendum conformance by citing only the weakest or most convenient addendum document. Current CCDP claims must follow the addendum index and cite baseline plus all applicable hygiene clarifications.",
+  "non_expansion_rule": "This manifest does not add child-safety mechanisms, legal conclusions, clinical claims, developmental validation, or product certification. It only identifies the addendum package boundary and integrity state.",
+  "next_required_action": "Upload the final WITH_PDF ZIP package to the reserved Zenodo record after confirming the record metadata.",
+  "generated_pdf_files": [
+    {
+      "file": "pdf/CCDP_v0_1_1_Hygiene_Patch_APPLIED.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "CCDP_v0_1_1_Hygiene_Patch_APPLIED.md",
+      "size_bytes": 379165,
+      "sha256": "35e7c8185cd96b0420514a318075ad14cfc53db69c6111538605706aabb11d09",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/OBSOLETE.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "OBSOLETE.md",
+      "size_bytes": 225415,
+      "sha256": "bb4474686d899dfbcd83aea8b6ad78681ebad0efcd9c411f5b72680b7cc628a8",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/CANONICAL_PRECEDENCE_RULE.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "CANONICAL_PRECEDENCE_RULE.md",
+      "size_bytes": 290787,
+      "sha256": "d6b623a635683720aa82030cf3ab1d0e3335dd51ae15106e2db70795c8b6b861",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/RAW_EVIDENCE_EXCEPTION_CANONICAL.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "RAW_EVIDENCE_EXCEPTION_CANONICAL.md",
+      "size_bytes": 561862,
+      "sha256": "e09e4931439d80e6cec5b3a9c7c5adacf28cb5e16336ab287e289bf6a76f25d6",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/DOI_SAFE_PATCH_STRATEGY.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "DOI_SAFE_PATCH_STRATEGY.md",
+      "size_bytes": 276627,
+      "sha256": "e8b8ee6b46e5183aa8f2ad5f958adf9d27f548c2d8339a17b8a44d077bd52150",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/CCDP_v0_1_1_ADDENDUM_INDEX.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "CCDP_v0_1_1_ADDENDUM_INDEX.md",
+      "size_bytes": 352201,
+      "sha256": "3dd87d66e20385a7b812abe4743793b6f10a6ba35e46e0abd31602a266da11a9",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/TERMINOLOGY_AXIS_CLARIFICATION.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "TERMINOLOGY_AXIS_CLARIFICATION.md",
+      "size_bytes": 422266,
+      "sha256": "d54de1096b393f8dc46ceaed418e7e2e80945f1907fc4015afbdb82ac406c773",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/PUBLIC_TECHNICAL_SENSITIVE_SPLIT.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "PUBLIC_TECHNICAL_SENSITIVE_SPLIT.md",
+      "size_bytes": 538118,
+      "sha256": "47ceca4a2ae27bbccb7a23f0055e063a1b7ebf58312212f8a4d8418249117db4",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/CLEAN_START_CLARIFICATION.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "CLEAN_START_CLARIFICATION.md",
+      "size_bytes": 487856,
+      "sha256": "13082981b13f858f11ed2ca1498714dee483a4b8a4e69a158e96c2a8ea342b67",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/SOFT_SAFETY_RED_BLACK_MUST_CLARIFICATION.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "SOFT_SAFETY_RED_BLACK_MUST_CLARIFICATION.md",
+      "size_bytes": 391743,
+      "sha256": "8e3214736cacf4562458008c8e95d355ef7338c5fd1ad49682ded52650446c70",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/TRACEABILITY_CONFORMANCE_DELTA_v0_1_1.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "TRACEABILITY_CONFORMANCE_DELTA_v0_1_1.md",
+      "size_bytes": 616117,
+      "sha256": "e43e506018edb70a839061c80417c0438ce930c45544d273995fd8629b6b7a58",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    },
+    {
+      "file": "pdf/RELEASE_NOTES_v0_1_1.pdf",
+      "media_type": "application/pdf",
+      "source_markdown_file": "RELEASE_NOTES_v0_1_1.md",
+      "size_bytes": 266824,
+      "sha256": "e2417192c1bc13d75abbe461e477f591a5a8a90066ea2b00c023fde4b3e7d3b3",
+      "author": "Kotov Ivan",
+      "location": "Bruxelles, Belgium",
+      "year": 2026,
+      "reserved_doi": "10.5281/zenodo.20680938",
+      "metadata_display": "Kotov Ivan; Bruxelles, Belgium - 2026; Reserved DOI: 10.5281/zenodo.20680938",
+      "status": "GENERATED_AND_VALIDATED"
+    }
+  ],
+  "pdf_generation": {
+    "status": "GENERATED_AND_VALIDATED",
+    "output_directory": "pdf/",
+    "pdf_count": 12,
+    "source_markdown_count": 12,
+    "publication_pipeline": "Markdown metadata patch -> HTML/CSS academic layout -> headless Chrome PDF -> PyMuPDF page-number footer -> Poppler/pypdfium/PyMuPDF validation",
+    "render_validation": "First and last pages rendered for every PDF; middle pages rendered for documents longer than two pages.",
+    "reserved_doi_display": "Reserved DOI: 10.5281/zenodo.20680938"
+  },
+  "package_root_files": [
+    {
+      "file": "LICENSE",
+      "media_type": "text/plain",
+      "role": "license",
+      "copyright_holder": "Kotov Ivan",
+      "license": "MIT",
+      "year": 2026,
+      "size_bytes": 1154,
+      "sha256": "a1b9bac9af76314b42d68045fca39451cb866f71772496835992d75eff0dee6c",
+      "status": "ADDED_TO_PACKAGE_ROOT"
+    }
+  ],
+  "license_file": {
+    "file": "LICENSE",
+    "media_type": "text/plain",
+    "role": "license",
+    "copyright_holder": "Kotov Ivan",
+    "license": "MIT",
+    "year": 2026,
+    "size_bytes": 1154,
+    "sha256": "a1b9bac9af76314b42d68045fca39451cb866f71772496835992d75eff0dee6c",
+    "status": "ADDED_TO_PACKAGE_ROOT"
+  },
+  "package_license": {
+    "license": "MIT",
+    "file": "LICENSE",
+    "copyright_holder": "Kotov Ivan",
+    "year": 2026
+  }
+}

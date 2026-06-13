@@ -1,0 +1,29 @@
+{
+  "id": "ccdp-v0.1.1-hygiene-addendum-mode-a",
+  "title": "CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack",
+  "version": "v0.1.1",
+  "date": "2026-06-13",
+  "author": "Kotov Ivan",
+  "orcid": "0009-0009-6002-9845",
+  "doi": "10.5281/zenodo.20680938",
+  "doi_url": "https://doi.org/10.5281/zenodo.20680938",
+  "zenodo_record_url": "https://zenodo.org/records/20680938",
+  "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1.1-hygiene-addendum-mode-a",
+  "github_mirror_path": "official/ccdp/v0.1.1-hygiene-addendum-mode-a/",
+  "patch_mode": "MODE_A_ADDENDUM_ONLY",
+  "current_operational_reading": "CCDP v0.1 baseline + CCDP v0.1.1 Hygiene Addendum",
+  "baseline_mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+  "license": "MIT",
+  "zip_sha256": "4f1b574d769ecccfc74561288df2c285663f522177eb57628db308b328d594ff",
+  "contents": {
+    "markdown_files": 12,
+    "pdf_files": 12,
+    "manifest": "package/ADDENDUM_MANIFEST.json",
+    "checksums": "package/SHA256SUMS",
+    "license": "package/LICENSE"
+  },
+  "not_legal_advice": true,
+  "not_clinical_guidance": true,
+  "not_product_certification": true,
+  "does_not_replace_baseline": true
+}

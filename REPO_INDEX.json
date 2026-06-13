@@ -810,6 +810,23 @@
       "full_technical_concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
       "full_technical_zenodo_status": "published",
       "full_technical_sensitive_controlled_included": true
+    },
+    {
+      "id": "ccdp-v0-1-1-hygiene-addendum-mode-a",
+      "title": "CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack",
+      "version": "v0.1.1",
+      "date": "2026-06-13",
+      "path": "official/ccdp/v0.1.1-hygiene-addendum-mode-a/",
+      "readme_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/ccdp/v0.1.1-hygiene-addendum-mode-a/README.md",
+      "citation_cff_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/ccdp/v0.1.1-hygiene-addendum-mode-a/CITATION.cff",
+      "release_metadata_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/ccdp/v0.1.1-hygiene-addendum-mode-a/RELEASE_METADATA.json",
+      "doi": "10.5281/zenodo.20680938",
+      "doi_url": "https://doi.org/10.5281/zenodo.20680938",
+      "zenodo_record_url": "https://zenodo.org/records/20680938",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1.1-hygiene-addendum-mode-a",
+      "zip_sha256": "4f1b574d769ecccfc74561288df2c285663f522177eb57628db308b328d594ff",
+      "patch_mode": "MODE_A_ADDENDUM_ONLY",
+      "baseline_mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A"
     }
   ],
   "highlight_documents": [
