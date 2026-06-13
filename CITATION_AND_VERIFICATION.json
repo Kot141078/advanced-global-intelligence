@@ -134,6 +134,38 @@
       "full_technical_concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
       "full_technical_zenodo_status": "published",
       "full_technical_sensitive_controlled_included": true
+    },
+    {
+      "id": "ccdp-v0-1-1-hygiene-addendum-mode-a",
+      "title": "CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack",
+      "package_root": "official/ccdp/v0.1.1-hygiene-addendum-mode-a/",
+      "citation_file": "official/ccdp/v0.1.1-hygiene-addendum-mode-a/CITATION.cff",
+      "release_metadata": "official/ccdp/v0.1.1-hygiene-addendum-mode-a/RELEASE_METADATA.json",
+      "package_manifest": "official/ccdp/v0.1.1-hygiene-addendum-mode-a/package/ADDENDUM_MANIFEST.json",
+      "sha256_manifest": "official/ccdp/v0.1.1-hygiene-addendum-mode-a/package/SHA256SUMS",
+      "license": "MIT",
+      "doi": "10.5281/zenodo.20680938",
+      "doi_url": "https://doi.org/10.5281/zenodo.20680938",
+      "zenodo_record_url": "https://zenodo.org/records/20680938",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1.1-hygiene-addendum-mode-a",
+      "public_surface_deposit": true,
+      "addendum_only": true,
+      "baseline_mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A",
+      "release_status": "published",
+      "zenodo_publication_date": "2026-06-13",
+      "zip_sha256": "4f1b574d769ecccfc74561288df2c285663f522177eb57628db308b328d594ff",
+      "not_legal_advice": true,
+      "not_clinical_guidance": true,
+      "not_product_certification": true,
+      "verification_steps": [
+        "Parse package ADDENDUM_MANIFEST.json as JSON.",
+        "Parse package SHA256SUMS.",
+        "Parse package-level CITATION.cff as YAML.",
+        "Verify ZIP SHA-256 against the published GitHub release / Zenodo asset.",
+        "Verify DOI resolves to Zenodo record.",
+        "Verify package/ contains 12 Markdown files and 12 matching PDFs.",
+        "Verify Mode A statement: baseline files are not modified in place."
+      ]
     }
   ]
 }

@@ -122,6 +122,22 @@ This repository is easier to understand when related protocol and manifesto docu
 - `C-Node Boundary Documents v0.1.1` — package facade for anchor-class taxonomy, raw-local experience refinement, third-party sensor exposure, and the minimum local `c-node` profile. Path: `docs/c-node-boundary-docs/README.md`
 - `CCDP v0.1` — Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance. It is not legal advice, clinical guidance, product certification, or implementation approval. Path: `docs/ccdp/`; split: public package files, technical companions, sensitive-controlled review artifacts.
 
+### CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack
+
+The CCDP v0.1.1 Hygiene Addendum is a Mode A / addendum-only release-control package for the CCDP v0.1 corpus.
+
+It does not mutate, rewrite, or replace the DOI-bound CCDP v0.1 baseline. Current operational reading:
+
+```text
+CCDP v0.1 baseline + CCDP v0.1.1 Hygiene Addendum
+```
+
+* DOI: https://doi.org/10.5281/zenodo.20680938
+* Zenodo record: https://zenodo.org/records/20680938
+* GitHub mirror: `official/ccdp/v0.1.1-hygiene-addendum-mode-a/`
+* GitHub release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1.1-hygiene-addendum-mode-a
+* ZIP SHA-256: `4f1b574d769ecccfc74561288df2c285663f522177eb57628db308b328d594ff`
+
 ### CCDP full technical corpus
 
 The full CCDP v0.1 technical corpus, including technical companion documents and sensitive-controlled review artifacts, is visible in GitHub for specialist review, architecture review, safety research, audit, and criticism.
