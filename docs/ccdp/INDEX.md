@@ -29,6 +29,24 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 
 ---
 
+### CCDP AMDR/PAMDC Addendum v0.1.1
+
+A post-baseline addendum has been published for active memory degradation, recalibration, lifestream/write-path health, and post-anchor memory continuity discipline.
+
+- DOI: https://doi.org/10.5281/zenodo.20691716
+- GitHub path: `docs/ccdp/addenda/amdr-pamdc/`
+- Relation: addendum-only delta; does not replace CCDP v0.1 baseline or CCDP v0.1.1 Hygiene Addendum.
+
+Operational reading:
+
+```text
+CCDP v0.1 Full Technical Corpus
++ CCDP v0.1.1 Hygiene Addendum
++ CCDP AMDR/PAMDC Addendum v0.1.1
+```
+
+---
+
 ## 0. Purpose
 
 This file is the package-level document registry for the CCDP corpus.

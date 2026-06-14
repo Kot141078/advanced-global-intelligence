@@ -6,6 +6,25 @@
 
 ---
 
+## v0.1.1-addendum — CCDP AMDR/PAMDC Addendum
+
+**Date:** 2026-06-14
+**DOI:** https://doi.org/10.5281/zenodo.20691716
+
+### Added
+
+- `docs/ccdp/addenda/amdr-pamdc/Active_Memory_Degradation_and_Recalibration_Profile_v0_1.md`
+- `docs/ccdp/addenda/amdr-pamdc/AMDR_v0_1_1_Lifestream_Judge_and_Write_Failure_Patch.md`
+- `docs/ccdp/addenda/amdr-pamdc/Post_Anchor_Memory_Degradation_and_Continuity_Profile_v0_1.md`
+- `docs/ccdp/addenda/amdr-pamdc/PAMDC_v0_1_1_Scope_Bootstrap_and_Freshness_Patch.md`
+- PDF companions and package-control metadata for the AMDR/PAMDC addendum.
+
+### Boundary
+
+This addendum is a bounded post-baseline extension. It does not rewrite, replace, or supersede CCDP v0.1 or the CCDP v0.1.1 Hygiene Addendum.
+
+---
+
 ## v0.1 — Initial corpus-aligned protocol pack
 
 ### Added

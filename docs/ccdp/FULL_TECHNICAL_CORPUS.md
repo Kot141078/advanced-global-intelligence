@@ -201,7 +201,16 @@ For technical readers, use this full GitHub corpus.
 
 For machine readers, start from `PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json`.
 
-## 9. Core warning
+## 9. Post-baseline addenda
+
+### CCDP AMDR/PAMDC Addendum v0.1.1
+
+- DOI: https://doi.org/10.5281/zenodo.20691716
+- Path: `docs/ccdp/addenda/amdr-pamdc/`
+- Role: active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.
+- Status: addendum-only delta; does not replace the CCDP v0.1 Full Technical Corpus or CCDP v0.1.1 Hygiene Addendum.
+
+## 10. Core warning
 
 The full CCDP corpus is intentionally visible.
 

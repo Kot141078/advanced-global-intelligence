@@ -32,6 +32,18 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 
 ---
 
+## Post-baseline addenda
+
+The following post-baseline addendum extends CCDP with memory and continuity discipline:
+
+- **CCDP AMDR/PAMDC Addendum v0.1.1** — active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity profiles.
+  DOI: https://doi.org/10.5281/zenodo.20691716
+  Path: `docs/ccdp/addenda/amdr-pamdc/`
+
+This addendum does not replace the CCDP v0.1 baseline or CCDP v0.1.1 Hygiene Addendum.
+
+---
+
 ## 0. Executive summary
 
 CCDP defines a child-specific protocol layer for persistent AI presences that may live, learn, protect, and mature with a child.

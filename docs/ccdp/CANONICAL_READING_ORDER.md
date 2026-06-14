@@ -139,7 +139,25 @@ Use only for defensive review, red-team, safety engineering, or qualified specia
 
 ---
 
-## 8. Obsolete file warning
+## 8. Addendum reading path — AMDR/PAMDC
+
+For memory degradation, active recalibration, lifestream/write-path health, and post-anchor continuity questions, read:
+
+DOI: https://doi.org/10.5281/zenodo.20691716
+
+1. `Child_Memory_and_Adult_Migration_v0_1.md`
+2. `CCDP_Adult_Migration_Checklist_v0_1.md`
+3. `CCDP_Memory_Map_JSON_Schema_v0_1.md`
+4. `docs/ccdp/addenda/amdr-pamdc/Active_Memory_Degradation_and_Recalibration_Profile_v0_1.md`
+5. `docs/ccdp/addenda/amdr-pamdc/AMDR_v0_1_1_Lifestream_Judge_and_Write_Failure_Patch.md`
+6. `docs/ccdp/addenda/amdr-pamdc/Post_Anchor_Memory_Degradation_and_Continuity_Profile_v0_1.md`
+7. `docs/ccdp/addenda/amdr-pamdc/PAMDC_v0_1_1_Scope_Bootstrap_and_Freshness_Patch.md`
+
+This path is additive. It does not replace the primary CCDP reading order.
+
+---
+
+## 9. Obsolete file warning
 
 Do not start from:
 
