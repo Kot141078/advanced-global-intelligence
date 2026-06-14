@@ -159,6 +159,26 @@ The public-surface DOI archives the bounded public CCDP surface.
 
 The full technical corpus DOI archives the complete GitHub technical corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review.
 
+### CCDP AMDR/PAMDC Addendum v0.1.1
+
+The CCDP AMDR/PAMDC Addendum v0.1.1 is a post-baseline technical addendum for active memory degradation, recalibration, lifestream/write-path health, Judge integration, and post-anchor continuity discipline.
+
+It is an addendum-only delta. It does not replace the CCDP v0.1 baseline or the CCDP v0.1.1 Hygiene Addendum.
+
+- DOI: https://doi.org/10.5281/zenodo.20691716
+- GitHub path: `docs/ccdp/addenda/amdr-pamdc/`
+- Addenda index: `docs/ccdp/addenda/ADDENDA_INDEX.json`
+- Citation metadata: `docs/ccdp/addenda/amdr-pamdc/CITATION.cff`
+- Package manifest: `docs/ccdp/addenda/amdr-pamdc/_PACKAGE_CONTROL/PACKAGE_MANIFEST.json`
+
+Operational reading:
+
+```text
+CCDP v0.1 Full Technical Corpus
++ CCDP v0.1.1 Hygiene Addendum
++ CCDP AMDR/PAMDC Addendum v0.1.1
+```
+
 - `Anchor Class Boundaries v0.1` — protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`. Path: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` | PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 - `Pre-Lineage Boundary Note v0.1` — canonical here; manifesto-level boundary note. Path: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - `Qubit-state c v0.1` — conceptual note here; a derived state of `c`, not a replacement for `c = a + b`. Path: `concepts/QUBIT_STATE_C_v0.1.md`. DOI: `10.5281/zenodo.20090368`.

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use the CCDP AMDR/PAMDC Addendum v0.1.1, please cite it as below."
+title: "CCDP AMDR/PAMDC Addendum v0.1.1 — Active Memory Degradation and Post-Anchor Continuity Profiles"
+type: report
+authors:
+  - family-names: Kotov
+    given-names: Ivan
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+version: "0.1.1"
+date-released: "2026-06-14"
+doi: 10.5281/zenodo.20691716
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+url: "https://doi.org/10.5281/zenodo.20691716"
+abstract: "Technical addendum to the Child-c Development Protocol corpus focused on active memory degradation, recalibration, lifestream/write-path health, Judge integration, post-anchor memory degradation, and post-anchor continuity discipline. This addendum is a bounded delta and does not replace the CCDP v0.1 baseline or CCDP v0.1.1 Hygiene Addendum."
+keywords:
+  - "CCDP"
+  - "Child-c Development Protocol"
+  - "AMDR"
+  - "PAMDC"
+  - "active memory degradation"
+  - "memory recalibration"
+  - "post-anchor continuity"
+  - "write-path failure"
+  - "lifestream ingestion"
+  - "Judge synthesis"
+  - "L4 Witness"
+  - "persistent AI entities"
+  - "c = a + b"
+license: "MIT"

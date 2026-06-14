@@ -69,6 +69,14 @@ The public-surface DOI archives the bounded public CCDP surface.
 
 The full technical corpus DOI archives the complete GitHub technical corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review.
 
+### CCDP AMDR/PAMDC Addendum v0.1.1
+
+- DOI: https://doi.org/10.5281/zenodo.20691716
+- GitHub path: `docs/ccdp/addenda/amdr-pamdc/`
+- Machine index: `docs/ccdp/addenda/ADDENDA_INDEX.json`
+- Citation metadata: `docs/ccdp/addenda/amdr-pamdc/CITATION.cff`
+- Role: active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.
+
 - Pre-Lineage boundary note: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
 - Qubit-state `c` (`c[q]`) / Кубитная `c`: `concepts/QUBIT_STATE_C_v0.1.md` — DOI: `10.5281/zenodo.20090368`
 - Qubit-state `c` -> SER ARQ `c[q]` addendum pointer: `Kot141078/sovereign-entity-recursion` commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; DOI `10.5281/zenodo.20112537`

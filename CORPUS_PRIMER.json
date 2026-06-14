@@ -279,6 +279,20 @@
       "full_technical_concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
       "full_technical_zenodo_status": "published",
       "full_technical_sensitive_controlled_included": true
+    },
+    {
+      "id": "ccdp-amdr-pamdc-addendum-v0.1.1",
+      "title": "CCDP AMDR/PAMDC Addendum v0.1.1 — Active Memory Degradation and Post-Anchor Continuity Profiles",
+      "version": "0.1.1",
+      "date": "2026-06-14",
+      "status": "published_addendum",
+      "package_root": "docs/ccdp/addenda/amdr-pamdc/",
+      "addenda_index": "docs/ccdp/addenda/ADDENDA_INDEX.json",
+      "citation_cff": "docs/ccdp/addenda/amdr-pamdc/CITATION.cff",
+      "doi": "10.5281/zenodo.20691716",
+      "doi_url": "https://doi.org/10.5281/zenodo.20691716",
+      "role": "active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline",
+      "relationship": "addendum-only delta; does not replace CCDP v0.1 baseline or CCDP v0.1.1 Hygiene Addendum"
     }
   ]
 }

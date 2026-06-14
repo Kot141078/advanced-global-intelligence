@@ -1,0 +1,51 @@
+{
+  "schema": "agi.ccdp.addenda_index.v0.1",
+  "package": "Child-c Development Protocol",
+  "root_path": "docs/ccdp/addenda/",
+  "updated_utc": "2026-06-14T00:00:00Z",
+  "addenda": [
+    {
+      "id": "ccdp-amdr-pamdc-addendum-v0.1.1",
+      "title": "CCDP AMDR/PAMDC Addendum v0.1.1 — Active Memory Degradation and Post-Anchor Continuity Profiles",
+      "version": "0.1.1",
+      "date": "2026-06-14",
+      "doi": "10.5281/zenodo.20691716",
+      "doi_url": "https://doi.org/10.5281/zenodo.20691716",
+      "github_path": "docs/ccdp/addenda/amdr-pamdc/",
+      "citation_cff": "docs/ccdp/addenda/amdr-pamdc/CITATION.cff",
+      "package_manifest": "docs/ccdp/addenda/amdr-pamdc/_PACKAGE_CONTROL/PACKAGE_MANIFEST.json",
+      "sha256sums": "docs/ccdp/addenda/amdr-pamdc/_PACKAGE_CONTROL/SHA256SUMS.txt",
+      "status": "published_addendum",
+      "resource_type": "technical_note",
+      "author": {
+        "name": "Kotov Ivan",
+        "location": "Bruxelles, Belgium",
+        "orcid": "https://orcid.org/0009-0009-6002-9845"
+      },
+      "relationship": {
+        "type": "addendum_only_delta",
+        "supplements": [
+          "https://doi.org/10.5281/zenodo.20196219",
+          "https://doi.org/10.5281/zenodo.20680938"
+        ],
+        "does_not_replace": [
+          "CCDP v0.1 baseline",
+          "CCDP v0.1 Full Technical Corpus",
+          "CCDP v0.1.1 Hygiene Addendum"
+        ]
+      },
+      "documents": [
+        "docs/ccdp/addenda/amdr-pamdc/Active_Memory_Degradation_and_Recalibration_Profile_v0_1.md",
+        "docs/ccdp/addenda/amdr-pamdc/AMDR_v0_1_1_Lifestream_Judge_and_Write_Failure_Patch.md",
+        "docs/ccdp/addenda/amdr-pamdc/Post_Anchor_Memory_Degradation_and_Continuity_Profile_v0_1.md",
+        "docs/ccdp/addenda/amdr-pamdc/PAMDC_v0_1_1_Scope_Bootstrap_and_Freshness_Patch.md"
+      ],
+      "pdf_companions": [
+        "docs/ccdp/addenda/amdr-pamdc/pdf/Active_Memory_Degradation_and_Recalibration_Profile_v0_1.pdf",
+        "docs/ccdp/addenda/amdr-pamdc/pdf/AMDR_v0_1_1_Lifestream_Judge_and_Write_Failure_Patch.pdf",
+        "docs/ccdp/addenda/amdr-pamdc/pdf/Post_Anchor_Memory_Degradation_and_Continuity_Profile_v0_1.pdf",
+        "docs/ccdp/addenda/amdr-pamdc/pdf/PAMDC_v0_1_1_Scope_Bootstrap_and_Freshness_Patch.pdf"
+      ]
+    }
+  ]
+}

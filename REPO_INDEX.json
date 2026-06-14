@@ -827,6 +827,20 @@
       "zip_sha256": "4f1b574d769ecccfc74561288df2c285663f522177eb57628db308b328d594ff",
       "patch_mode": "MODE_A_ADDENDUM_ONLY",
       "baseline_mutation_policy": "DO_NOT_EDIT_IN_PLACE_UNDER_MODE_A"
+    },
+    {
+      "id": "ccdp-amdr-pamdc-addendum-v0.1.1",
+      "title": "CCDP AMDR/PAMDC Addendum v0.1.1 — Active Memory Degradation and Post-Anchor Continuity Profiles",
+      "version": "0.1.1",
+      "date": "2026-06-14",
+      "path": "docs/ccdp/addenda/amdr-pamdc/",
+      "addenda_index": "docs/ccdp/addenda/ADDENDA_INDEX.json",
+      "citation_cff": "docs/ccdp/addenda/amdr-pamdc/CITATION.cff",
+      "package_manifest": "docs/ccdp/addenda/amdr-pamdc/_PACKAGE_CONTROL/PACKAGE_MANIFEST.json",
+      "doi": "10.5281/zenodo.20691716",
+      "doi_url": "https://doi.org/10.5281/zenodo.20691716",
+      "status": "published_addendum",
+      "role": "active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline"
     }
   ],
   "highlight_documents": [

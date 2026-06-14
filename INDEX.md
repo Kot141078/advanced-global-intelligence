@@ -51,6 +51,14 @@ The public-surface DOI archives the bounded public CCDP surface.
 
 The full technical corpus DOI archives the complete GitHub technical corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review.
 
+### CCDP AMDR/PAMDC Addendum v0.1.1
+
+- DOI: https://doi.org/10.5281/zenodo.20691716
+- GitHub path: `docs/ccdp/addenda/amdr-pamdc/`
+- Machine index: `docs/ccdp/addenda/ADDENDA_INDEX.json`
+- Citation metadata: `docs/ccdp/addenda/amdr-pamdc/CITATION.cff`
+- Role: active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.
+
 - Anchor Class Boundaries v0.1: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` | PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
 - Beacon profile v0.1: `protocols/beacon/`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
