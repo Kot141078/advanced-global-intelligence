@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/a6_resource_and_custodian_map_v0_1_1.schema.json",
+  "title": "A6 Resource and Custodian Map v0.1.1",
+  "type": "object",
+  "required": [
+    "resource_id",
+    "resource_class",
+    "provider",
+    "payer",
+    "owner",
+    "operator",
+    "custodian",
+    "key_custodian",
+    "access_scope",
+    "cost_exposure",
+    "billing_path",
+    "credential_scope",
+    "revocation_route",
+    "failure_mode",
+    "witness_requirement"
+  ],
+  "properties": {
+    "resource_id": {
+      "type": "string"
+    },
+    "resource_class": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "payer": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "operator": {
+      "type": "string"
+    },
+    "custodian": {
+      "type": "string"
+    },
+    "key_custodian": {
+      "type": "string"
+    },
+    "access_scope": {
+      "type": "string"
+    },
+    "cost_exposure": {
+      "type": "string"
+    },
+    "billing_path": {
+      "type": "string"
+    },
+    "credential_scope": {
+      "type": "string"
+    },
+    "revocation_route": {
+      "type": "string"
+    },
+    "failure_mode": {
+      "type": "string"
+    },
+    "witness_requirement": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

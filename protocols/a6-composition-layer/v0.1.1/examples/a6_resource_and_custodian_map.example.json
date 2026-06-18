@@ -1,0 +1,17 @@
+{
+  "resource_id": "res_local_node_001",
+  "resource_class": "local_compute_and_vector_store",
+  "provider": "local lab infrastructure",
+  "payer": "lab_alpha",
+  "owner": "lab_alpha",
+  "operator": "operator_01",
+  "custodian": "custodian_01",
+  "key_custodian": "hsm_or_key_holder_01",
+  "access_scope": "A6 mapped research compartments only",
+  "cost_exposure": "bounded monthly operating budget",
+  "billing_path": "lab_alpha accounting",
+  "credential_scope": "least privilege; no raw A0 export",
+  "revocation_route": "revoke token, rotate key, freeze affected compartment",
+  "failure_mode": "A6-DEGRADE to local_custody_only",
+  "witness_requirement": "emit A6 witness packet before externalization"
+}

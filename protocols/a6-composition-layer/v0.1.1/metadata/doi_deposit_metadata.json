@@ -1,0 +1,44 @@
+{
+  "title": "A6 Composition Layer: Hybrid / Federated Anchor Composition Profile for A6 in c = a + b",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "affiliation": "Independent researcher, Bruxelles, Belgique"
+    }
+  ],
+  "description": "A DOI-ready release of the A6 Composition Layer profile for the c = a + b architecture. The package formalizes A6 as an anchor-composition state over A0-A5, not a merged super-anchor, and includes final Markdown, PDF, citation metadata, release notes, QA notes, schemas, and examples. The PDFs include explicit authorship: Kotov Ivan, Bruxelles. Belgique 2026.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "c=a+b",
+    "A6",
+    "anchor composition",
+    "federated anchors",
+    "digital entities",
+    "L4 reality boundary",
+    "standing",
+    "authority",
+    "memory governance",
+    "Experience Artifacts"
+  ],
+  "version": "0.1.1",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20752182",
+      "relation": "isIdenticalTo",
+      "scheme": "doi",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.20752182",
+      "relation": "isIdenticalTo",
+      "scheme": "url",
+      "resource_type": "publication-technicalnote"
+    }
+  ],
+  "communities": [],
+  "notes": "Canonical DOI: 10.5281/zenodo.20752182. DOI URL: https://doi.org/10.5281/zenodo.20752182. This research protocol does not create legal personhood, legal authority, product certification, clinical validity, public-law activation, post-anchor sovereignty, or merged identity."
+}

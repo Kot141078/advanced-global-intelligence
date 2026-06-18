@@ -1,0 +1,30 @@
+{
+  "a6_event_id": "a6evt_2026_06_18_example_001",
+  "composition_mode": "A6-EXIT",
+  "participating_anchor_ids": [
+    "lab_alpha",
+    "lab_beta",
+    "human_anchor_01"
+  ],
+  "base_anchor_classes": [
+    "A2",
+    "A2",
+    "A0"
+  ],
+  "authority_basis": "mapped agreement; exit is disputed only for shared compartment cpt_003",
+  "standing_map_hash": "sha256:PLACEHOLDER",
+  "memory_compartment_map_hash": "sha256:PLACEHOLDER",
+  "sensor_scope_hash": "sha256:PLACEHOLDER",
+  "jurisdiction_map_hash": "sha256:PLACEHOLDER",
+  "resource_and_custodian_map_hash": "sha256:PLACEHOLDER",
+  "EA_scope_hash": "sha256:PLACEHOLDER",
+  "revocation_paths": [
+    "revoke lab_beta access token",
+    "rotate shared key for cpt_003"
+  ],
+  "exit_policy": "revoke-and-continue",
+  "split_fork_policy": "freeze-and-escalate if full composition split occurs",
+  "review_route": "ARL:example-route",
+  "created_at": "2026-06-18T00:00:00Z",
+  "expires_at": null
+}

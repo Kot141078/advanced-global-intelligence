@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this protocol, cite it as below."
+title: "A6 Composition Layer: Hybrid / Federated Anchor Composition Profile for A6 in c = a + b"
+type: report
+authors:
+  - family-names: Kotov
+    given-names: Ivan
+    affiliation: "Independent researcher, Bruxelles, Belgique"
+version: "0.1.1"
+date-released: "2026-06-18"
+doi: "10.5281/zenodo.20752182"
+url: "https://doi.org/10.5281/zenodo.20752182"
+abstract: >-
+  A boundary profile for hybrid and federated anchor composition in the c = a + b architecture. The profile formalizes A6 as an anchor-composition state over A0-A5, not a merged super-anchor, and defines exit, split, witness, resource/custodian, and fail-closed requirements.
+keywords:
+  - c=a+b
+  - A6
+  - anchor composition
+  - federated anchors
+  - digital entities
+  - L4 reality boundary
+  - standing
+  - authority
+  - memory governance
+license: CC-BY-4.0
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"

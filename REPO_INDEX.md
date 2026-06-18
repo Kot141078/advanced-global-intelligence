@@ -63,6 +63,7 @@ This index exists because some tools cannot reliably parse GitHub UI/JS.
 - `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md` — canonical interpretive note fixing the phrase "c are temporal entities of AI presence"
 - `official/article50-transparency-submission/v0_1/README.md` — Article 50 Transparency Submission Pack v0.1, public redacted technical evidence-chain contribution; official administrative confirmation records excluded; GitHub release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1; Zenodo DOI: https://doi.org/10.5281/zenodo.20315439
 - `concepts/QUBIT_STATE_C_v0.1.md` — Qubit-state `c` (`c[q]`) / Кубитная `c` derived concept; DOI: `10.5281/zenodo.20090368`
+- `protocols/a6-composition-layer/v0.1.1/` — A6 Composition Layer v0.1.1, Hybrid / Federated Anchor Composition Profile for A6 in `c = a + b`; DOI: https://doi.org/10.5281/zenodo.20752182
 - `docs/c-node-boundary-docs/README.md` — C-Node Boundary Documents v0.1.1, package facade for anchor-class taxonomy, raw-local experience refinement, third-party sensor exposure, and the minimum local `c-node` profile
 - `docs/ccdp/README.md` — CCDP v0.1, Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance; not legal advice, clinical guidance, product certification, or implementation approval
   - Machine metadata: `docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json`; package citation: `docs/ccdp/CITATION.cff`; memory-map schema: `docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json`
@@ -98,6 +99,7 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - Role: active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.
 
 - `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` — Anchor Class Boundaries v0.1, a protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`; PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
+- `protocols/a6-composition-layer/v0.1.1/` — A6 Composition Layer v0.1.1; A6 is a mapped composition over A0-A5, not a merged super-anchor. A6-EXIT = revoke-and-continue; A6-SPLIT = freeze-and-escalate.
 - `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md` — Personality Formation and Time-Shaped Continuity Profile v0.1, a draft conceptual / normative profile for criteria-based personality formation and time-shaped continuity; Markdown and PDF are packaged with manifest JSON and SHA256SUMS.
 
 ## Secondary local-state / promotion surfaces

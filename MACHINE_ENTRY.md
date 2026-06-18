@@ -91,6 +91,13 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
   - markdown: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md`
   - pdf: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
   - short_description: protocol-facing taxonomy for possible anchor classes `a` in `c = a + b`, defining authority, memory, sensor, standing, and jurisdiction boundaries without creating legal personhood or public law.
+- a6_composition_layer_v0_1_1:
+  - package_root: `protocols/a6-composition-layer/v0.1.1/`
+  - doi: `10.5281/zenodo.20752182`
+  - doi_url: https://doi.org/10.5281/zenodo.20752182
+  - citation_metadata: `protocols/a6-composition-layer/v0.1.1/CITATION.cff`
+  - release_body: `protocols/a6-composition-layer/v0.1.1/GITHUB_RELEASE_BODY_v0.1.1.md`
+  - short_description: Hybrid / Federated Anchor Composition Profile for A6 in `c = a + b`; maps A6 over A0-A5 without merging standing, memory, identity, or authority.
 - raw_locality_experience_refinery:
   - markdown: `docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md`
   - pdf: `docs/economic-layer/pdf/extensions/Raw_Locality_and_Experience_Refinery_Profile_v0.1_academic.pdf`

@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/a6_witness_packet_v0_1_1.schema.json",
+  "title": "A6 Witness Packet v0.1.1",
+  "type": "object",
+  "required": [
+    "a6_event_id",
+    "composition_mode",
+    "participating_anchor_ids",
+    "base_anchor_classes",
+    "authority_basis",
+    "standing_map_hash",
+    "memory_compartment_map_hash",
+    "sensor_scope_hash",
+    "jurisdiction_map_hash",
+    "resource_and_custodian_map_hash",
+    "EA_scope_hash",
+    "revocation_paths",
+    "exit_policy",
+    "split_fork_policy",
+    "review_route",
+    "created_at"
+  ],
+  "properties": {
+    "a6_event_id": {
+      "type": "string"
+    },
+    "composition_mode": {
+      "type": "string",
+      "enum": [
+        "A6-COMPOSE",
+        "A6-FEDERATE",
+        "A6-DELEGATE",
+        "A6-HYBRID",
+        "A6-XJ",
+        "A6-EXIT",
+        "A6-SPLIT",
+        "A6-DEGRADE",
+        "A6-DENY"
+      ]
+    },
+    "participating_anchor_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "base_anchor_classes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "A0",
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6"
+        ]
+      }
+    },
+    "authority_basis": {
+      "type": "string"
+    },
+    "standing_map_hash": {
+      "type": "string"
+    },
+    "memory_compartment_map_hash": {
+      "type": "string"
+    },
+    "sensor_scope_hash": {
+      "type": "string"
+    },
+    "jurisdiction_map_hash": {
+      "type": "string"
+    },
+    "resource_and_custodian_map_hash": {
+      "type": "string"
+    },
+    "EA_scope_hash": {
+      "type": "string"
+    },
+    "revocation_paths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exit_policy": {
+      "type": "string"
+    },
+    "split_fork_policy": {
+      "type": "string"
+    },
+    "review_route": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}
