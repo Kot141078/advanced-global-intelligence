@@ -180,7 +180,7 @@ Root package documents in `docs/economic-layer/`:
 - `Publication_and_Integrity_Notes_Economic_Layer_v0.1.md`
 - `Consistency_Pass_Notes_Economic_Layer_v0.1.md`
 
-Published extension / satellite clauses in `extensions/`:
+Economic Layer extensions (in-package) in `extensions/`:
 - `ARL_vs_C_Continuity_Precedence_Clause_v0.1.md`
 - `EA_Circulation_Rights_v0.1.md`
 - `EA_Non_Transferability_Criteria_v0.1.md`
@@ -195,9 +195,11 @@ Published extension / satellite clauses in `extensions/`:
 - `Jurisdiction_Bounded_Interop_Clause_v0.1.md`
 - `Lineage_Linked_EA_Value_and_Risk_Clause_v0.1.md`
 - `Property_Status_of_EA_v0.1.md`
-- `RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md`
 - `Scar_Bearing_EA_Clause_v0.1.md`
 - `Synthetic_Laundering_and_Source_Class_Clause_v0.1.md`
+
+Adjacent c-node boundary notes (separate package, not in the Economic Layer SHA manifest) in `extensions/`:
+- `RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md`
 - `THIRD_PARTY_SENSOR_BOUNDARY_v0.1.md`
 
 Human-facing PDFs:
