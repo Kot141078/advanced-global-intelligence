@@ -137,6 +137,8 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - zenodo_metadata: `official/article50-transparency-implementation-briefs/v0_1/.zenodo.json`
 - citation: `official/article50-transparency-implementation-briefs/v0_1/CITATION.cff`
 - sha256_manifest: `official/article50-transparency-implementation-briefs/v0_1/SHA256SUMS`
+- package_doi: `10.5281/zenodo.20784845`
+- package_doi_url: https://doi.org/10.5281/zenodo.20784845
 - status: supporting implementation briefs / technical notes derived from the Article 50 Transparency Submission Pack v0.1.
 - derived_from_doi: `10.5281/zenodo.20315439`
 - derived_from_doi_url: https://doi.org/10.5281/zenodo.20315439
@@ -144,6 +146,7 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
   - `01_For_AI_Office_Policy_Reader.md` — policy-reader note on Article 50 transparency as an evidence chain.
   - `02_For_Engineers_CGAM_Witness_Oracle_Degradation.md` — engineering note on CGAM, witness events, oracle degradation, human gates, and rollback paths.
 - boundary: not legal advice, not certification, not a conformity assessment, not a formal Article 50 compliance claim.
+- doi_status: Zenodo DOI recorded for implementation briefs package.
 
 ## CCDP v0.1 package
 
