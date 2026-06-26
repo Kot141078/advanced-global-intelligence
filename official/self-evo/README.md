@@ -8,6 +8,8 @@ Versioned document packages for bounded self-evolution of `c = a + b` systems.
 |---|---|---|---|---|
 | v0.1.1 | [`v0.1.1/`](./v0.1.1/) | <https://doi.org/10.5281/zenodo.20938909> | Draft document-level governance corpus | Markdown sources, checked academic PDFs, review records, patch notes, package-control artifacts, manifests, and checksums. |
 
+Note: v0.1.1 has 10 semantic review records and 11 physical review-record files because a byte-identical SEOI duplicate is retained to mirror the Zenodo archival package.
+
 ## Human entry
 
 Start with:

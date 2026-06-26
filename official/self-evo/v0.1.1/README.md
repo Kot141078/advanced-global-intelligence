@@ -63,7 +63,7 @@ Machine reading route:
 - `controls/patch_notes/`
 - `controls/audits/PDF_LAYOUT_AUDIT_v3.md`
 
-The SEOI v0.1 and v0.1-1 review-record filenames are byte-identical in this staging mirror; the duplicate is retained for archival correspondence with the Zenodo package.
+The package has 10 semantic review records covering SELF-EVO-01..10. The `controls/review_records/` directory contains 11 physical review-record files because the byte-identical `SEOI_REVIEW_RECORD_v0_1.md` and `SEOI_REVIEW_RECORD_v0_1-1.md` filenames are retained for archival correspondence with the Zenodo package.
 
 ## Bridge map
 

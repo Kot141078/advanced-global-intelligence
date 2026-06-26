@@ -43,7 +43,9 @@
   "package_summary": {
     "core_document_count": 10,
     "core_missing_count": 0,
-    "review_records_found_count": 10,
+    "core_review_record_count": 10,
+    "review_record_file_count": 11,
+    "review_record_count_note": "core_review_record_count is semantic review coverage for SELF-EVO-01..10; review_record_file_count is the physical review-record file count and is 11 because the byte-identical SEOI v0.1 / v0.1-1 duplicate is retained for archival correspondence with the Zenodo package.",
     "patch_notes_found_count": 10,
     "current_core_versions": "v0.1.1 corrected revisions for SELF-EVO-01..10",
     "document_core_review_state": "all ten core documents have at least v0.1 review evidence; several v0.1.1 corrections are operator-accepted; SELF-EVO-10 v0.1.1 exact repeat-review record is pending in this workspace",
@@ -55,9 +57,7 @@
       "extract JSON schemas where appropriate",
       "build semantic checker plan/reference implementation only after checker-ready caveats are closed",
       "build fixture runner only after fixture manifest/annotation caveats are closed"
-    ],
-    "review_record_file_count": 11,
-    "duplicate_review_record_note": "The SEOI v0.1 and v0.1-1 review-record filenames are byte-identical in this staging mirror; the duplicate is retained for archival correspondence with the Zenodo package."
+    ]
   },
   "caveats": [
     {

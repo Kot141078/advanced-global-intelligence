@@ -10,7 +10,7 @@
   "author": "Kotov Ivan",
   "location": "Bruxelles, Belgique",
   "year": 2026,
-  "generated_at": "2026-06-26T19:31:33.139835+00:00",
+  "generated_at": "2026-06-26T19:58:54.102571+00:00",
   "status": "staging; not public-release certification; not conformance; not deployment authorization",
   "license": {
     "documentation": "CC-BY-4.0",
@@ -21,6 +21,7 @@
     "files_pre_manifest": 51,
     "markdown_documents": 10,
     "academic_pdfs": 10,
+    "core_review_records": 10,
     "review_record_files": 11,
     "patch_note_files": 10
   },
@@ -263,13 +264,13 @@
     },
     {
       "path": "package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json",
-      "size": 43153,
-      "sha256": "769fa02d305a3186a3b130236a0a5767681653a7c9ab535bd84680eb27922d31"
+      "size": 43247,
+      "sha256": "315ad87d38c0f31320570cfac40f63695b569c52530a63feb19ced953774cc50"
     },
     {
       "path": "README.md",
-      "size": 4219,
-      "sha256": "e5d0cfe784bc62306737ba835ce7929c8b5ec9a7f9d23d33155c422b38d44a56"
+      "size": 4366,
+      "sha256": "d5b10236fdb515b750e5147b8682d466e0a4c1cf961e5af83c58f5e372ac797d"
     },
     {
       "path": "STATUS.md",
