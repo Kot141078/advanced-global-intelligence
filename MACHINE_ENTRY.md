@@ -148,6 +148,27 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - boundary: not legal advice, not certification, not a conformity assessment, not a formal Article 50 compliance claim.
 - doi_status: Zenodo DOI recorded for implementation briefs package.
 
+## Self-Evo Document Package v0.1.1
+
+- package_root: `official/self-evo/v0.1.1/`
+- parent_entry: `official/self-evo/README.md`
+- human_entry: `official/self-evo/v0.1.1/README.md`
+- package_index: `official/self-evo/v0.1.1/package_control/SELF_EVO_PACKAGE_INDEX_AND_READING_ORDER_v0_1.md`
+- package_manifest: `official/self-evo/v0.1.1/package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json`
+- sha256_manifest: `official/self-evo/v0.1.1/SHA256SUMS.txt`
+- markdown_root: `official/self-evo/v0.1.1/docs/markdown/`
+- pdf_root: `official/self-evo/v0.1.1/docs/pdf/`
+- review_records: `official/self-evo/v0.1.1/controls/review_records/`
+- patch_notes: `official/self-evo/v0.1.1/controls/patch_notes/`
+- pdf_layout_audit: `official/self-evo/v0.1.1/controls/audits/PDF_LAYOUT_AUDIT_v3.md`
+- package_version: `0.1.1-safe-layout`
+- zenodo_doi: `10.5281/zenodo.20938909`
+- zenodo_doi_url: https://doi.org/10.5281/zenodo.20938909
+- zenodo_record_url: https://zenodo.org/records/20938909
+- status: draft document-level governance corpus
+- bridge: `c = a + b`; CGAM; SRLM; TRIAD-SYNAPS; Memory Gate; EA-L4; Anti-Autarky; Resource Actor Grounding; Local Checker; conformance fixtures; contradiction register; open-issues backlog.
+- boundary: not a conformance certificate, not deployment authorization, not a safety proof, not a personhood or consciousness claim, and not live self-evolution permission.
+
 ## CCDP v0.1 package
 
 - title: Child-`c` Development Protocol (CCDP) v0.1

@@ -1,30 +1,120 @@
-# Self-Evo Document Package v0.1.1 - Zenodo Staging (Safe Layout)
+# Self-Evo Document Package v0.1.1
 
-Author: Kotov Ivan  
-Location: Bruxelles, Belgique  
+Author: Kotov Ivan
+Location: Bruxelles, Belgique
 Year: 2026
+Version: 0.1.1-safe-layout
+DOI: <https://doi.org/10.5281/zenodo.20938909>
 
-This staging package contains the Self-Evo document core for c = a + b systems, including final Markdown sources, rebuilt academic PDFs with safe table/identifier wrapping, review records, patch notes, and package-control artifacts.
+## Status
 
-Status: staging package for archival preparation. Not a public-release certification, not a conformance certificate, not deployment authorization, and not live self-evolution permission.
+Draft document-level governance corpus for bounded self-evolution of `c = a + b` systems.
 
-## Contents
+This package includes accepted v0.1.1 Markdown sources, checked academic PDFs, advisory review records, append-first patch notes, package-control artifacts, manifests, and SHA-256 checksums.
 
-- `docs/markdown/`: accepted v0.1.1 Markdown sources SELF-EVO-01..10.
-- `docs/pdf/`: academic PDF renderings rebuilt with safe layout.
-- `controls/review_records/`: advisory review records.
-- `controls/patch_notes/`: append-first patch notes.
-- `controls/audits/PDF_LAYOUT_AUDIT_v3.md`: PDF layout audit. All PDFs report 0 bad text blocks/spans.
-- `package_control/`: package index and manifest.
-- `manifests/`: generated staging manifest and CSV file inventory.
+## DOI and archival record
 
-## License
+- DOI: `10.5281/zenodo.20938909`
+- DOI URL: <https://doi.org/10.5281/zenodo.20938909>
+- Zenodo record: <https://zenodo.org/records/20938909>
 
-Dual license:
+## Start here
 
-- Documentation, Markdown, PDF, review records, patch notes: Creative Commons Attribution 4.0 International (CC BY 4.0).
-- Machine-readable JSON, CSV, CFF, checksums, manifests, and future schema/checker artifacts: MIT License.
+Human reading route:
+
+1. `README.md`
+2. `package_control/SELF_EVO_PACKAGE_INDEX_AND_READING_ORDER_v0_1.md`
+3. `docs/pdf/`
+4. `docs/markdown/`
+
+Machine reading route:
+
+1. `package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json`
+2. `SHA256SUMS.txt`
+3. `manifests/`
+4. `docs/markdown/`
+
+## Core documents
+
+| ID | Markdown | PDF |
+|---|---|---|
+| SELF-EVO-01 | `docs/markdown/C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1_1.md` | `docs/pdf/C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1_1_academic.pdf` |
+| SELF-EVO-02 | `docs/markdown/02_SRLM_Bounded_Growth_Contour_Profile_v0_1_1.md` | `docs/pdf/02_SRLM_Bounded_Growth_Contour_Profile_v0_1_1_academic.pdf` |
+| SELF-EVO-03 | `docs/markdown/03_Self_Evo_Proposal_Packet_Schema_v0_1_1.md` | `docs/pdf/03_Self_Evo_Proposal_Packet_Schema_v0_1_1_academic.pdf` |
+| SELF-EVO-04 | `docs/markdown/04_Self_Evo_Local_Checker_Rules_v0_1_1.md` | `docs/pdf/04_Self_Evo_Local_Checker_Rules_v0_1_1_academic.pdf` |
+| SELF-EVO-05 | `docs/markdown/05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1_1.md` | `docs/pdf/05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1_1_academic.pdf` |
+| SELF-EVO-06 | `docs/markdown/06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1_1.md` | `docs/pdf/06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1_1_academic.pdf` |
+| SELF-EVO-07 | `docs/markdown/07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1_1.md` | `docs/pdf/07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1_1_academic.pdf` |
+| SELF-EVO-08 | `docs/markdown/08_Self_Evo_Conformance_Fixture_Pack_v0_1_1.md` | `docs/pdf/08_Self_Evo_Conformance_Fixture_Pack_v0_1_1_academic.pdf` |
+| SELF-EVO-09 | `docs/markdown/09_Self_Evo_Contradiction_Register_v0_1_1.md` | `docs/pdf/09_Self_Evo_Contradiction_Register_v0_1_1_academic.pdf` |
+| SELF-EVO-10 | `docs/markdown/10_Self_Evo_Open_Issues_v0_1_1.md` | `docs/pdf/10_Self_Evo_Open_Issues_v0_1_1_academic.pdf` |
+
+## Package-control artifacts
+
+- `package_control/SELF_EVO_PACKAGE_INDEX_AND_READING_ORDER_v0_1.md`
+- `package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json`
+- `manifests/ZENODO_STAGING_MANIFEST_v0_1_1_SAFE_LAYOUT.json`
+- `manifests/ZENODO_FILE_MANIFEST_v0_1_1_SAFE_LAYOUT.csv`
+- `SHA256SUMS.txt`
+
+## Review and patch materials
+
+- `controls/review_records/`
+- `controls/patch_notes/`
+- `controls/audits/PDF_LAYOUT_AUDIT_v3.md`
+
+The SEOI v0.1 and v0.1-1 review-record filenames are byte-identical in this staging mirror; the duplicate is retained for archival correspondence with the Zenodo package.
+
+## Bridge map
+
+The package connects:
+
+- `c = a + b`;
+- CGAM bounded workers;
+- SRLM bounded growth / shadow / candidate discipline;
+- TRIAD-SYNAPS sister witness and anti-echo;
+- Memory Gate and Experience Artifact boundaries;
+- EA-L4 / consequence-bearing evidence;
+- Anti-Autarky and Resource Actor Grounding;
+- Local Checker rules;
+- synthetic conformance fixtures;
+- contradiction and open-issue registers.
+
+## Verification
+
+Run checksum verification from this directory:
+
+```bash
+sha256sum -c SHA256SUMS.txt
+```
+
+Expected package audit:
+
+```text
+bad text blocks: 0
+bad text spans: 0
+```
+
+See:
+
+```text
+controls/audits/PDF_LAYOUT_AUDIT_v3.md
+```
 
 ## Boundary
 
-A coherent document package is not an implementation. An implementation is not conformance. Conformance is not deployment safety. No document in this package authorizes live self-evolution.
+This package is not:
+
+* an implementation;
+* a conformance certificate;
+* deployment authorization;
+* a safety proof;
+* a public-release certification;
+* a personhood or consciousness claim;
+* live self-evolution permission;
+* autonomous resource-acquisition permission.
+
+## License
+
+* Documentation, Markdown, PDF, review records, and patch notes: CC BY 4.0.
+* Machine-readable JSON, CSV, CFF, checksum, manifest, and future schema/checker artifacts: MIT.

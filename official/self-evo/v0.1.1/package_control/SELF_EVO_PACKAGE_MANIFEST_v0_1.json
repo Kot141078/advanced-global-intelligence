@@ -4,8 +4,13 @@
   "package": "C Self-Evolution Gate Document Core",
   "package_short_name": "SELF-EVO",
   "package_version": "0.1",
+  "zenodo": {
+    "doi": "10.5281/zenodo.20938909",
+    "doi_url": "https://doi.org/10.5281/zenodo.20938909",
+    "record_url": "https://zenodo.org/records/20938909"
+  },
   "created_at_utc": "2026-06-25T09:01:26Z",
-  "created_from": "/mnt/data conversation workspace; source reference pack and generated Self-Evo artifacts",
+  "created_from": "accepted Self-Evo v0.1.1 source artifacts and package-control build process",
   "document_class": "package_manifest / package-control artifact / private reference artifact",
   "assertion_class": "C-A10 package-control artifact; not C-A7 unless externally sealed",
   "status": "draft package manifest v0.1",
@@ -50,7 +55,9 @@
       "extract JSON schemas where appropriate",
       "build semantic checker plan/reference implementation only after checker-ready caveats are closed",
       "build fixture runner only after fixture manifest/annotation caveats are closed"
-    ]
+    ],
+    "review_record_file_count": 11,
+    "duplicate_review_record_note": "The SEOI v0.1 and v0.1-1 review-record filenames are byte-identical in this staging mirror; the duplicate is retained for archival correspondence with the Zenodo package."
   },
   "caveats": [
     {
@@ -1115,7 +1122,8 @@
     "real_incident_evidence_included": false,
     "secrets_included": false,
     "private_memory_included": false,
-    "sha256_algorithm": "SHA-256 over UTF-8 file bytes as stored in /mnt/data"
+    "sha256_algorithm": "SHA-256 over file bytes as stored in this package"
   },
-  "notes": "Generated after the user elected to continue without a separate review of the package index. This manifest records current artifacts and caveats; it does not upgrade the package status."
+  "notes": "Generated after the user elected to continue without a separate review of the package index. This manifest records current artifacts and caveats; it does not upgrade the package status. DOI metadata has been added for the Zenodo record. The retained duplicate SEOI review-record filename is documented for archival correspondence.",
+  "duplicate_review_record_note": "The SEOI v0.1 and v0.1-1 review-record filenames are byte-identical in this staging mirror; the duplicate is retained for archival correspondence with the Zenodo package."
 }

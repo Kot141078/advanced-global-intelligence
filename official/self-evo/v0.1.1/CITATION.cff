@@ -2,6 +2,10 @@ cff-version: 1.2.0
 title: "Self-Evo Document Package v0.1.1"
 message: "If you use this package, please cite it as below."
 type: dataset
+doi: "10.5281/zenodo.20938909"
+url: "https://doi.org/10.5281/zenodo.20938909"
+version: "0.1.1-safe-layout"
+date-released: "2026-06-26"
 authors:
   - family-names: "Kotov"
     given-names: "Ivan"
