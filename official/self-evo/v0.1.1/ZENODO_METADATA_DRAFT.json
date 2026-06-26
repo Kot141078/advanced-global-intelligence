@@ -1,0 +1,25 @@
+{
+  "title": "Self-Evo Document Package v0.1.1",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "affiliation": "Independent researcher, Bruxelles, Belgique"
+    }
+  ],
+  "description": "Draft document-level governance corpus for bounded self-evolution of c = a + b systems. This safe-layout staging package includes Markdown sources, academic PDFs, review records, patch notes, and package-control artifacts. Not a conformance certificate, not deployment authorization, and not live self-evolution permission.",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "self-evolution",
+    "c=a+b",
+    "CGAM",
+    "TRIAD-SYNAPS",
+    "SRLM",
+    "memory gate",
+    "anti-autarky",
+    "resource governance"
+  ],
+  "publication_date": "2026-06-26",
+  "version": "0.1.1-safe-layout",
+  "language": "eng",
+  "notes": "Dual license: CC BY 4.0 for documentation/PDF/Markdown/review materials; MIT for machine-readable JSON/CSV/CFF/checksum and future schema/checker artifacts."
+}

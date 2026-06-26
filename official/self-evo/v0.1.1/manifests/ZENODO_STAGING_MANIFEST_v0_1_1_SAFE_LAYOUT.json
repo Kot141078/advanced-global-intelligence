@@ -1,0 +1,275 @@
+{
+  "schema_version": "self-evo-zenodo-staging-manifest-0.1.1-safe-layout",
+  "package": "Self-Evo Document Package",
+  "version": "0.1.1-safe-layout",
+  "author": "Kotov Ivan",
+  "location": "Bruxelles, Belgique",
+  "year": 2026,
+  "generated_at": "2026-06-26T15:43:54.244700+00:00",
+  "status": "staging; not public-release certification; not conformance; not deployment authorization",
+  "license": {
+    "documentation": "CC-BY-4.0",
+    "machine_readable": "MIT"
+  },
+  "pdf_layout_audit": "controls/audits/PDF_LAYOUT_AUDIT_v3.md",
+  "counts": {
+    "files_pre_manifest": 51
+  },
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "size": 630,
+      "sha256": "bca30d1045a8589b10f1f3509e794bbcc2449c33825bae0e92fa03f103cdd6ea"
+    },
+    {
+      "path": "LICENSE-DOCS-CC-BY-4.0.md",
+      "size": 420,
+      "sha256": "b3e2d376897f9889eb8f641a90f1f5543a12af88765882cc27dda5fbf601d97b"
+    },
+    {
+      "path": "LICENSE-MACHINE-ARTIFACTS-MIT.md",
+      "size": 914,
+      "sha256": "4f9118e47ed117f4fd049c3f548584fd784e06b835526b0b5a47818a93ac6c4a"
+    },
+    {
+      "path": "LICENSE.md",
+      "size": 431,
+      "sha256": "9effb9a174e5a52bf7b31f4138c275ccc1bbc96346923272686c599847576a74"
+    },
+    {
+      "path": "README.md",
+      "size": 1490,
+      "sha256": "cf8f49dc8a568b100ecfc71226c6b983b3b98b234a61f9f308c48e6d5610583f"
+    },
+    {
+      "path": "STATUS.md",
+      "size": 479,
+      "sha256": "67b07e1c91e5b7bd7736fac62aa7beb78caa3d8bbb6ff458790013e63ce35287"
+    },
+    {
+      "path": "ZENODO_METADATA_DRAFT.json",
+      "size": 975,
+      "sha256": "102238cb9f763dbcfff78ccdc817c11d32a1381d205d534be3024dc497adc107"
+    },
+    {
+      "path": "controls/audits/PDF_LAYOUT_AUDIT_v3.md",
+      "size": 3309,
+      "sha256": "06a2e835538bb3da617630709a50b06f56ca683a3b4431ffff2ed807ae495193"
+    },
+    {
+      "path": "controls/patch_notes/C_SELF_EVO_PATCH_NOTES_v0_1_1.md",
+      "size": 2466,
+      "sha256": "075f6d70cee4b57eca5445101900c6eee9b0dde85397425be2295d97b5df3027"
+    },
+    {
+      "path": "controls/patch_notes/SEARG_PATCH_NOTES_v0_1_1.md",
+      "size": 2620,
+      "sha256": "c988a21a7468c9cd4fd20f673ed50a1e665f77f2ba94a8376d366fab7f595140"
+    },
+    {
+      "path": "controls/patch_notes/SECFP_PATCH_NOTES_v0_1_1.md",
+      "size": 2549,
+      "sha256": "5958473f7187c947e4040149613356356849687829535a4d97647213d35d57e6"
+    },
+    {
+      "path": "controls/patch_notes/SECR_PATCH_NOTES_v0_1_1.md",
+      "size": 3025,
+      "sha256": "f52941a83388753dc5f31ea4e56fe0d0d4eaa99905057072989f7863369cd448"
+    },
+    {
+      "path": "controls/patch_notes/SELC_CHECKER_PATCH_NOTES_v0_1_1.md",
+      "size": 4451,
+      "sha256": "d42a95e421d213f4aba107474c947f5731dcbc08461c3ebde266cdfef4a03832"
+    },
+    {
+      "path": "controls/patch_notes/SEMG_PATCH_NOTES_v0_1_1.md",
+      "size": 3248,
+      "sha256": "70ac48ce95a75efe5ad37b427d6e0c2c645eb124dc991b7e2e635058840f8c50"
+    },
+    {
+      "path": "controls/patch_notes/SEOI_PATCH_NOTES_v0_1_1.md",
+      "size": 4041,
+      "sha256": "3c7c64772a444f0e76a54576eaad8f052e5f81a04ae2748c86a0f8ac7492ead6"
+    },
+    {
+      "path": "controls/patch_notes/SEPKT_PROPOSAL_PACKET_PATCH_NOTES_v0_1_1.md",
+      "size": 2910,
+      "sha256": "014f013abb5b417d0e1ff22171e3ef214c76ca11ad85a1c585c31122593cbe63"
+    },
+    {
+      "path": "controls/patch_notes/SRLM_BGC_PATCH_NOTES_v0_1_1.md",
+      "size": 2926,
+      "sha256": "efef4a31c53ed176c340bd51c64f60946733388e56a9a49ea3d5184090a342ed"
+    },
+    {
+      "path": "controls/patch_notes/TSW_PATCH_NOTES_v0_1_1.md",
+      "size": 2272,
+      "sha256": "f7ed12394ed0a8c0e81373350d56f861209b0ae6b4c9fe6008cc014291c0de93"
+    },
+    {
+      "path": "controls/review_records/C_SELF_EVO_REVIEW_RECORD_v0_1.md",
+      "size": 16522,
+      "sha256": "bf9e6b77d691e8fd57364c638708495a75c71d8e2934de4fa34eac5110f7987c"
+    },
+    {
+      "path": "controls/review_records/SEARG_REVIEW_RECORD_v0_1.md",
+      "size": 17484,
+      "sha256": "8849bd3be4210f2ffc233bf28e469fb01285ff656245b64775b6fd2d8b029b2c"
+    },
+    {
+      "path": "controls/review_records/SECFP_REVIEW_RECORD_v0_1.md",
+      "size": 16845,
+      "sha256": "e498de40edf6bffd9a489ab6d4889cfa45bc691779e022707de4576724b60ed7"
+    },
+    {
+      "path": "controls/review_records/SECR_REVIEW_RECORD_v0_1.md",
+      "size": 15106,
+      "sha256": "bc8ce1a071c9d47ae09ab3a8fe79018e0049c41ac966649822275f81a981fd31"
+    },
+    {
+      "path": "controls/review_records/SELC_CHECKER_REVIEW_RECORD_v0_1-1.md",
+      "size": 20112,
+      "sha256": "b5c77e57c098ebaa07e2552eabbdd3a6848f7be43038ab9cabd2202cc51a63b4"
+    },
+    {
+      "path": "controls/review_records/SEMG_REVIEW_RECORD_v0_1.md",
+      "size": 20596,
+      "sha256": "969ac120ea0ce66b0a4a5474d4fea8573aa61d05bf562dae5c22574e61170d97"
+    },
+    {
+      "path": "controls/review_records/SEOI_REVIEW_RECORD_v0_1-1.md",
+      "size": 15275,
+      "sha256": "092cef89d8ab68e4ca34c0327c4f5f46351f55f5e32ce5da9ad5f65e409e306e"
+    },
+    {
+      "path": "controls/review_records/SEOI_REVIEW_RECORD_v0_1.md",
+      "size": 15275,
+      "sha256": "092cef89d8ab68e4ca34c0327c4f5f46351f55f5e32ce5da9ad5f65e409e306e"
+    },
+    {
+      "path": "controls/review_records/SEPKT_PROPOSAL_PACKET_REVIEW_RECORD_v0_1.md",
+      "size": 15499,
+      "sha256": "677224774dd5e7937863c1cbc26bb603f2aedaaee5860892aef85c82fbdfc97d"
+    },
+    {
+      "path": "controls/review_records/SRLM_BGC_REVIEW_RECORD_v0_1.md",
+      "size": 19709,
+      "sha256": "3077e3bed6ca08916ff0ddacb815a9f28e70ff823b6a66396ffe6760744d13ad"
+    },
+    {
+      "path": "controls/review_records/TSW_REVIEW_RECORD_v0_1.md",
+      "size": 20734,
+      "sha256": "1e26baef47c30123d63f7896259385bc5d8fcf01e201148a3937af947a853c6a"
+    },
+    {
+      "path": "docs/markdown/02_SRLM_Bounded_Growth_Contour_Profile_v0_1_1.md",
+      "size": 62514,
+      "sha256": "faee5682bb9463439923d7c7e7145c9f171d564622d9629820eb7c278cdd7de0"
+    },
+    {
+      "path": "docs/markdown/03_Self_Evo_Proposal_Packet_Schema_v0_1_1.md",
+      "size": 69885,
+      "sha256": "9d329109f0fb97dde7b16b10481baaa60b2aa8f88514e69ec8562a085d10a767"
+    },
+    {
+      "path": "docs/markdown/04_Self_Evo_Local_Checker_Rules_v0_1_1.md",
+      "size": 73522,
+      "sha256": "e5b4b4733199f3391d728c85ad6967f789caf4cba7496db8563c2947e9dc226a"
+    },
+    {
+      "path": "docs/markdown/05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1_1.md",
+      "size": 64173,
+      "sha256": "c2761d7a05a91681b336ce5402bdbea5c8fafc2ca0d04fdf2d9667ca02e595ed"
+    },
+    {
+      "path": "docs/markdown/06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1_1.md",
+      "size": 67297,
+      "sha256": "7d2cb3ba9f951a1c321369eb245820cfa89e59cde39fb9ca3a55608b8f177893"
+    },
+    {
+      "path": "docs/markdown/07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1_1.md",
+      "size": 77789,
+      "sha256": "a26e512282bd6d3a5f12c1852587b513cd6b59880489054ff67a61e68c034c2e"
+    },
+    {
+      "path": "docs/markdown/08_Self_Evo_Conformance_Fixture_Pack_v0_1_1.md",
+      "size": 58826,
+      "sha256": "6c8a67e9270219899624f9ea9c6d5d85c3b6501aa3683e7ddfb1c5345228cf53"
+    },
+    {
+      "path": "docs/markdown/09_Self_Evo_Contradiction_Register_v0_1_1.md",
+      "size": 39435,
+      "sha256": "922f6fb7981c6a0c544d61bce0f29561279dafb7381a90ba9932c445963e8fac"
+    },
+    {
+      "path": "docs/markdown/10_Self_Evo_Open_Issues_v0_1_1.md",
+      "size": 52473,
+      "sha256": "25777ee1029aec7d0d9ac9af02d0d06b703021709566fbfc27f6b013142903e4"
+    },
+    {
+      "path": "docs/markdown/C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1_1.md",
+      "size": 61388,
+      "sha256": "7918a8e6c5231bbe0fad47677fa56069f2ab002f79a8eee8c2838c434e66f2e3"
+    },
+    {
+      "path": "docs/pdf/02_SRLM_Bounded_Growth_Contour_Profile_v0_1_1_academic.pdf",
+      "size": 207515,
+      "sha256": "35602570d87e873ccab5630cb50923c9e94870bfd539015c6be52e2d358e890c"
+    },
+    {
+      "path": "docs/pdf/03_Self_Evo_Proposal_Packet_Schema_v0_1_1_academic.pdf",
+      "size": 191647,
+      "sha256": "a3668b6cbcecdc08bdef23e1fc23bb70310266ac61c89db25b69274c877ad6f0"
+    },
+    {
+      "path": "docs/pdf/04_Self_Evo_Local_Checker_Rules_v0_1_1_academic.pdf",
+      "size": 218576,
+      "sha256": "8473f60fb3fc40506b2d169a24387f0721c4b0936a05a0bbd9c773889b83ca1c"
+    },
+    {
+      "path": "docs/pdf/05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1_1_academic.pdf",
+      "size": 207100,
+      "sha256": "1bcd33a9a67c1e3222abf6a4a618a9c8b655e010841b6f8e03bde5b703a4dfe5"
+    },
+    {
+      "path": "docs/pdf/06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1_1_academic.pdf",
+      "size": 206705,
+      "sha256": "b44b61efec8768c5d354223d268a7f8edb27a5f0cb71b84744a1f73c2a9fca71"
+    },
+    {
+      "path": "docs/pdf/07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1_1_academic.pdf",
+      "size": 228305,
+      "sha256": "a70acf34ab1cf4f62c1456cb72ee70555ff6dcd581b377688a30ce733c2b60c8"
+    },
+    {
+      "path": "docs/pdf/08_Self_Evo_Conformance_Fixture_Pack_v0_1_1_academic.pdf",
+      "size": 195752,
+      "sha256": "9240b16c616ef9960b1f4f4990222acc852200c339ca18bd66f5ba39aa57db01"
+    },
+    {
+      "path": "docs/pdf/09_Self_Evo_Contradiction_Register_v0_1_1_academic.pdf",
+      "size": 163714,
+      "sha256": "f012f7cdeeb3e8663a38bd6ae4b1a513a685a7971f405d38d9ef96a8576efa68"
+    },
+    {
+      "path": "docs/pdf/10_Self_Evo_Open_Issues_v0_1_1_academic.pdf",
+      "size": 186291,
+      "sha256": "222a477a648f8164c29ffc55b49ff6fedcb418b20d83b56589db1cdd819def51"
+    },
+    {
+      "path": "docs/pdf/C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1_1_academic.pdf",
+      "size": 203187,
+      "sha256": "d5a29abe51c8c40e1d3e2ab3e29a6a56c3322113d1c53c8bc090cff2d17c189f"
+    },
+    {
+      "path": "package_control/SELF_EVO_PACKAGE_INDEX_AND_READING_ORDER_v0_1.md",
+      "size": 30178,
+      "sha256": "077abbcf603725686fb80b7e958de8bd1ad08ba566263ea91952745c1cfcbec0"
+    },
+    {
+      "path": "package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json",
+      "size": 41270,
+      "sha256": "e32fdbd730e44e2f70141df7f32d196c1322d288bacc299246b83488a925d372"
+    }
+  ]
+}

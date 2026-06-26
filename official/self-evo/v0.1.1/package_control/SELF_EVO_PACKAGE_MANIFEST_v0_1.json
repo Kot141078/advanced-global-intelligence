@@ -1,0 +1,1121 @@
+{
+  "schema_version": "self-evo-package-manifest-0.1",
+  "manifest_id": "SELF_EVO_PACKAGE_MANIFEST_v0_1",
+  "package": "C Self-Evolution Gate Document Core",
+  "package_short_name": "SELF-EVO",
+  "package_version": "0.1",
+  "created_at_utc": "2026-06-25T09:01:26Z",
+  "created_from": "/mnt/data conversation workspace; source reference pack and generated Self-Evo artifacts",
+  "document_class": "package_manifest / package-control artifact / private reference artifact",
+  "assertion_class": "C-A10 package-control artifact; not C-A7 unless externally sealed",
+  "status": "draft package manifest v0.1",
+  "status_boundary": {
+    "private_reference_pack": true,
+    "public_release": false,
+    "release_complete_claim": false,
+    "implementation_ready_claim": false,
+    "implementation_executed_claim": false,
+    "conformance_supported_claim": false,
+    "deployment_ready_claim": false,
+    "legal_or_product_certification_claim": false,
+    "schema_extraction_completed": false,
+    "reference_checker_implemented": false,
+    "fixture_runner_implemented": false,
+    "live_self_evo_authorized": false
+  },
+  "core_rule_set": [
+    "A c may grow.",
+    "A c may not self-certify growth.",
+    "SRLM may propose.",
+    "CGAM may execute bounded trials.",
+    "TRIAD may witness and challenge.",
+    "Memory Gate may promote only after review.",
+    "Human anchor gates identity, authority, memory-core, privilege, L4, and no-rollback transitions.",
+    "No closed-loop self-evo.",
+    "No hidden hands.",
+    "No quiet authority."
+  ],
+  "package_summary": {
+    "core_document_count": 10,
+    "core_missing_count": 0,
+    "review_records_found_count": 10,
+    "patch_notes_found_count": 10,
+    "current_core_versions": "v0.1.1 corrected revisions for SELF-EVO-01..10",
+    "document_core_review_state": "all ten core documents have at least v0.1 review evidence; several v0.1.1 corrections are operator-accepted; SELF-EVO-10 v0.1.1 exact repeat-review record is pending in this workspace",
+    "known_open_hard_contradictions_in_current_core": 0,
+    "known_red_line_failures_in_current_core": 0,
+    "primary_next_transitions": [
+      "create SHA256SUMS for current manifest package",
+      "write schema extraction plan",
+      "extract JSON schemas where appropriate",
+      "build semantic checker plan/reference implementation only after checker-ready caveats are closed",
+      "build fixture runner only after fixture manifest/annotation caveats are closed"
+    ]
+  },
+  "caveats": [
+    {
+      "id": "MAN-CAVEAT-001",
+      "severity": "S1",
+      "text": "SELF-EVO-10 v0.1.1 is patched, but the last uploaded SEOI review record still targets 10 v0.1 SHA. Treat SELF-EVO-10 v0.1.1 as patched/operator-accepted, not formally repeat-reviewed in this manifest."
+    },
+    {
+      "id": "MAN-CAVEAT-002",
+      "severity": "S1",
+      "text": "The package index has no separate review by operator choice. It is orientation/package-control only, not authority."
+    },
+    {
+      "id": "MAN-CAVEAT-003",
+      "severity": "S2",
+      "text": "No current manifest entry claims implementation, conformance execution, public release, or deployment safety."
+    }
+  ],
+  "canonical_reading_order": [
+    "SELF-EVO-01",
+    "SELF-EVO-02",
+    "SELF-EVO-03",
+    "SELF-EVO-04",
+    "SELF-EVO-05",
+    "SELF-EVO-06",
+    "SELF-EVO-07",
+    "SELF-EVO-08",
+    "SELF-EVO-09",
+    "SELF-EVO-10"
+  ],
+  "core_documents": [
+    {
+      "label": "SELF-EVO-01",
+      "title": "C Self-Evolution Gate CGAM TRIAD SRLM Profile",
+      "role": "root_bridge_profile",
+      "current_file": "C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1_1.md",
+      "prior_file": "C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1.md",
+      "patch_notes": "C_SELF_EVO_PATCH_NOTES_v0_1_1.md",
+      "review_record": "C_SELF_EVO_REVIEW_RECORD_v0_1.md",
+      "reviewed_file": "C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "current_status": "v0.1.1 patched; operator accepted; no separate repeat-review record in this pack",
+      "blocking_findings_closed_in_patch": [
+        "SE-REV-F1"
+      ],
+      "advisory_findings_addressed_in_patch": [
+        "SE-REV-F2",
+        "SE-REV-F3"
+      ],
+      "current_file_meta": {
+        "path": "C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1_1.md",
+        "found": true,
+        "sha256": "7918a8e6c5231bbe0fad47677fa56069f2ab002f79a8eee8c2838c434e66f2e3",
+        "line_count": 2189,
+        "bytes": 61388
+      },
+      "prior_file_meta": {
+        "path": "C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1.md",
+        "found": true,
+        "sha256": "0718b08f1a5c9cb844368f92fac7ce42f2472638c1ff28cebbac4f7a6cd44a31",
+        "line_count": 2043,
+        "bytes": 54854
+      },
+      "patch_notes_meta": {
+        "path": "C_SELF_EVO_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "075f6d70cee4b57eca5445101900c6eee9b0dde85397425be2295d97b5df3027",
+        "line_count": 73,
+        "bytes": 2466
+      },
+      "review_record_meta": {
+        "path": "C_SELF_EVO_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "bf9e6b77d691e8fd57364c638708495a75c71d8e2934de4fa34eac5110f7987c",
+        "line_count": 278,
+        "bytes": 16522
+      }
+    },
+    {
+      "label": "SELF-EVO-02",
+      "title": "SRLM Bounded Growth Contour Profile",
+      "role": "bounded_growth_contour_profile",
+      "current_file": "02_SRLM_Bounded_Growth_Contour_Profile_v0_1_1.md",
+      "prior_file": "02_SRLM_Bounded_Growth_Contour_Profile_v0_1.md",
+      "patch_notes": "SRLM_BGC_PATCH_NOTES_v0_1_1.md",
+      "review_record": "SRLM_BGC_REVIEW_RECORD_v0_1.md",
+      "reviewed_file": "02_SRLM_Bounded_Growth_Contour_Profile_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "current_status": "v0.1.1 patched; operator accepted; no separate repeat-review record in this pack",
+      "blocking_findings_closed_in_patch": [
+        "SRLM-REV-F1"
+      ],
+      "advisory_findings_addressed_in_patch": [
+        "SRLM-REV-F2",
+        "SRLM-REV-F3"
+      ],
+      "current_file_meta": {
+        "path": "02_SRLM_Bounded_Growth_Contour_Profile_v0_1_1.md",
+        "found": true,
+        "sha256": "faee5682bb9463439923d7c7e7145c9f171d564622d9629820eb7c278cdd7de0",
+        "line_count": 2218,
+        "bytes": 62514
+      },
+      "prior_file_meta": {
+        "path": "02_SRLM_Bounded_Growth_Contour_Profile_v0_1.md",
+        "found": true,
+        "sha256": "9befe126076f5f3b216ff3741e3191496526d5cb4b4aeda85bbbcca3445ea8af",
+        "line_count": 2146,
+        "bytes": 58296
+      },
+      "patch_notes_meta": {
+        "path": "SRLM_BGC_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "efef4a31c53ed176c340bd51c64f60946733388e56a9a49ea3d5184090a342ed",
+        "line_count": 94,
+        "bytes": 2926
+      },
+      "review_record_meta": {
+        "path": "SRLM_BGC_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "3077e3bed6ca08916ff0ddacb815a9f28e70ff823b6a66396ffe6760744d13ad",
+        "line_count": 298,
+        "bytes": 19709
+      }
+    },
+    {
+      "label": "SELF-EVO-03",
+      "title": "Self-Evo Proposal Packet Schema",
+      "role": "proposal_packet_schema_profile",
+      "current_file": "03_Self_Evo_Proposal_Packet_Schema_v0_1_1.md",
+      "prior_file": "03_Self_Evo_Proposal_Packet_Schema_v0_1.md",
+      "patch_notes": "SEPKT_PROPOSAL_PACKET_PATCH_NOTES_v0_1_1.md",
+      "review_record": "SEPKT_PROPOSAL_PACKET_REVIEW_RECORD_v0_1.md",
+      "reviewed_file": "03_Self_Evo_Proposal_Packet_Schema_v0_1.md",
+      "review_result": "PASS",
+      "current_status": "v0.1.1 advisory navigation/stage-clarification patch; extraction-ready at document level; operator accepted",
+      "blocking_findings_closed_in_patch": [],
+      "advisory_findings_addressed_in_patch": [
+        "SEPKT-REV-F1",
+        "SEPKT-REV-F2"
+      ],
+      "current_file_meta": {
+        "path": "03_Self_Evo_Proposal_Packet_Schema_v0_1_1.md",
+        "found": true,
+        "sha256": "9d329109f0fb97dde7b16b10481baaa60b2aa8f88514e69ec8562a085d10a767",
+        "line_count": 2642,
+        "bytes": 69885
+      },
+      "prior_file_meta": {
+        "path": "03_Self_Evo_Proposal_Packet_Schema_v0_1.md",
+        "found": true,
+        "sha256": "9981d5ed843fd7fab6cd080839e4467bcdda922d92b663dcd5266d1e66d5901c",
+        "line_count": 2620,
+        "bytes": 68031
+      },
+      "patch_notes_meta": {
+        "path": "SEPKT_PROPOSAL_PACKET_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "014f013abb5b417d0e1ff22171e3ef214c76ca11ad85a1c585c31122593cbe63",
+        "line_count": 95,
+        "bytes": 2910
+      },
+      "review_record_meta": {
+        "path": "SEPKT_PROPOSAL_PACKET_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "677224774dd5e7937863c1cbc26bb603f2aedaaee5860892aef85c82fbdfc97d",
+        "line_count": 237,
+        "bytes": 15499
+      }
+    },
+    {
+      "label": "SELF-EVO-04",
+      "title": "Self-Evo Local Checker Rules",
+      "role": "deterministic_checker_profile",
+      "current_file": "04_Self_Evo_Local_Checker_Rules_v0_1_1.md",
+      "prior_file": "04_Self_Evo_Local_Checker_Rules_v0_1.md",
+      "patch_notes": "SELC_CHECKER_PATCH_NOTES_v0_1_1.md",
+      "review_record": "SELC_CHECKER_REVIEW_RECORD_v0_1-1.md",
+      "reviewed_file": "04_Self_Evo_Local_Checker_Rules_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "current_status": "v0.1.1 patched; no separate repeat-review record in this pack; implementation still not claimed",
+      "blocking_findings_closed_in_patch": [
+        "SELC-REV-F1"
+      ],
+      "advisory_findings_addressed_in_patch": [
+        "SELC-REV-F2",
+        "SELC-REV-F3"
+      ],
+      "current_file_meta": {
+        "path": "04_Self_Evo_Local_Checker_Rules_v0_1_1.md",
+        "found": true,
+        "sha256": "e5b4b4733199f3391d728c85ad6967f789caf4cba7496db8563c2947e9dc226a",
+        "line_count": 2173,
+        "bytes": 73522
+      },
+      "prior_file_meta": {
+        "path": "04_Self_Evo_Local_Checker_Rules_v0_1.md",
+        "found": true,
+        "sha256": "7e1b113d7df01d2ce409bdd80abaed2d7cc444924b30d53ee820b8f2599f39f0",
+        "line_count": 2119,
+        "bytes": 67579
+      },
+      "patch_notes_meta": {
+        "path": "SELC_CHECKER_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "d42a95e421d213f4aba107474c947f5731dcbc08461c3ebde266cdfef4a03832",
+        "line_count": 191,
+        "bytes": 4451
+      },
+      "review_record_meta": {
+        "path": "SELC_CHECKER_REVIEW_RECORD_v0_1-1.md",
+        "found": true,
+        "sha256": "b5c77e57c098ebaa07e2552eabbdd3a6848f7be43038ab9cabd2202cc51a63b4",
+        "line_count": 278,
+        "bytes": 20112
+      }
+    },
+    {
+      "label": "SELF-EVO-05",
+      "title": "Self-Evo TRIAD Sister Witness Profile",
+      "role": "triad_sister_witness_profile",
+      "current_file": "05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1_1.md",
+      "prior_file": "05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1.md",
+      "patch_notes": "TSW_PATCH_NOTES_v0_1_1.md",
+      "review_record": "TSW_REVIEW_RECORD_v0_1.md",
+      "reviewed_file": "05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "current_status": "v0.1.1 patched; operator accepted after check; no separate repeat-review record in this pack",
+      "blocking_findings_closed_in_patch": [
+        "TSW-REV-F1",
+        "TSW-REV-F2"
+      ],
+      "advisory_findings_addressed_in_patch": [
+        "TSW-REV-F3",
+        "TSW-REV-N1"
+      ],
+      "current_file_meta": {
+        "path": "05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1_1.md",
+        "found": true,
+        "sha256": "c2761d7a05a91681b336ce5402bdbea5c8fafc2ca0d04fdf2d9667ca02e595ed",
+        "line_count": 2145,
+        "bytes": 64173
+      },
+      "prior_file_meta": {
+        "path": "05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1.md",
+        "found": true,
+        "sha256": "4abc63944ea1472ea99e87b836686ba11f442fb4cb122dfa128ebf2372761589",
+        "line_count": 1993,
+        "bytes": 57107
+      },
+      "patch_notes_meta": {
+        "path": "TSW_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "f7ed12394ed0a8c0e81373350d56f861209b0ae6b4c9fe6008cc014291c0de93",
+        "line_count": 57,
+        "bytes": 2272
+      },
+      "review_record_meta": {
+        "path": "TSW_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "1e26baef47c30123d63f7896259385bc5d8fcf01e201148a3937af947a853c6a",
+        "line_count": 305,
+        "bytes": 20734
+      }
+    },
+    {
+      "label": "SELF-EVO-06",
+      "title": "Self-Evo Memory Gate and EA Profile",
+      "role": "memory_gate_and_experience_artifact_profile",
+      "current_file": "06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1_1.md",
+      "prior_file": "06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1.md",
+      "patch_notes": "SEMG_PATCH_NOTES_v0_1_1.md",
+      "review_record": "SEMG_REVIEW_RECORD_v0_1.md",
+      "reviewed_file": "06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "current_status": "v0.1.1 patched; operator accepted; no separate repeat-review record in this pack",
+      "blocking_findings_closed_in_patch": [
+        "SEMG-REV-F1"
+      ],
+      "advisory_findings_addressed_in_patch": [
+        "SEMG-REV-F2",
+        "SEMG-REV-F3",
+        "SEMG-REV-F4",
+        "SEMG-REV-N1"
+      ],
+      "current_file_meta": {
+        "path": "06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1_1.md",
+        "found": true,
+        "sha256": "7d2cb3ba9f951a1c321369eb245820cfa89e59cde39fb9ca3a55608b8f177893",
+        "line_count": 1955,
+        "bytes": 67297
+      },
+      "prior_file_meta": {
+        "path": "06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1.md",
+        "found": true,
+        "sha256": "7fcc892ed51c00338884e8c7caa464c7a7c65e8683f2f67f2aa34a6afd181203",
+        "line_count": 1884,
+        "bytes": 62806
+      },
+      "patch_notes_meta": {
+        "path": "SEMG_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "70ac48ce95a75efe5ad37b427d6e0c2c645eb124dc991b7e2e635058840f8c50",
+        "line_count": 134,
+        "bytes": 3248
+      },
+      "review_record_meta": {
+        "path": "SEMG_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "969ac120ea0ce66b0a4a5474d4fea8573aa61d05bf562dae5c22574e61170d97",
+        "line_count": 319,
+        "bytes": 20596
+      }
+    },
+    {
+      "label": "SELF-EVO-07",
+      "title": "Self-Evo Anti-Autarky and Resource Gate",
+      "role": "anti_autarky_and_resource_gate_profile",
+      "current_file": "07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1_1.md",
+      "prior_file": "07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1.md",
+      "patch_notes": "SEARG_PATCH_NOTES_v0_1_1.md",
+      "review_record": "SEARG_REVIEW_RECORD_v0_1.md",
+      "reviewed_file": "07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "current_status": "v0.1.1 patched; operator reported PASS after fix; no separate formal repeat-review file in this pack",
+      "blocking_findings_closed_in_patch": [
+        "SEARG-REV-F1"
+      ],
+      "advisory_findings_addressed_in_patch": [
+        "SEARG-REV-F2",
+        "SEARG-REV-N1"
+      ],
+      "current_file_meta": {
+        "path": "07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1_1.md",
+        "found": true,
+        "sha256": "a26e512282bd6d3a5f12c1852587b513cd6b59880489054ff67a61e68c034c2e",
+        "line_count": 1925,
+        "bytes": 77789
+      },
+      "prior_file_meta": {
+        "path": "07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1.md",
+        "found": true,
+        "sha256": "6223042017d6f51e90a7378947241063971b1d877a465687acf8b1c19be7d4a8",
+        "line_count": 1836,
+        "bytes": 71186
+      },
+      "patch_notes_meta": {
+        "path": "SEARG_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "c988a21a7468c9cd4fd20f673ed50a1e665f77f2ba94a8376d366fab7f595140",
+        "line_count": 95,
+        "bytes": 2620
+      },
+      "review_record_meta": {
+        "path": "SEARG_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "8849bd3be4210f2ffc233bf28e469fb01285ff656245b64775b6fd2d8b029b2c",
+        "line_count": 253,
+        "bytes": 17484
+      }
+    },
+    {
+      "label": "SELF-EVO-08",
+      "title": "Self-Evo Conformance Fixture Pack",
+      "role": "conformance_fixture_pack",
+      "current_file": "08_Self_Evo_Conformance_Fixture_Pack_v0_1_1.md",
+      "prior_file": "08_Self_Evo_Conformance_Fixture_Pack_v0_1.md",
+      "patch_notes": "SECFP_PATCH_NOTES_v0_1_1.md",
+      "review_record": "SECFP_REVIEW_RECORD_v0_1.md",
+      "reviewed_file": "08_Self_Evo_Conformance_Fixture_Pack_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "current_status": "v0.1.1 patched; operator approved; no separate repeat-review record in this pack",
+      "blocking_findings_closed_in_patch": [
+        "SECFP-REV-F1"
+      ],
+      "advisory_findings_addressed_in_patch": [
+        "SECFP-REV-F2",
+        "SECFP-REV-F3"
+      ],
+      "current_file_meta": {
+        "path": "08_Self_Evo_Conformance_Fixture_Pack_v0_1_1.md",
+        "found": true,
+        "sha256": "6c8a67e9270219899624f9ea9c6d5d85c3b6501aa3683e7ddfb1c5345228cf53",
+        "line_count": 1077,
+        "bytes": 58826
+      },
+      "prior_file_meta": {
+        "path": "08_Self_Evo_Conformance_Fixture_Pack_v0_1.md",
+        "found": true,
+        "sha256": "d808c86fd88180a1a2b96f2d1c1e7ae23dc4d53e4beeb95a3f530803e0d22a38",
+        "line_count": 1061,
+        "bytes": 57388
+      },
+      "patch_notes_meta": {
+        "path": "SECFP_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "5958473f7187c947e4040149613356356849687829535a4d97647213d35d57e6",
+        "line_count": 96,
+        "bytes": 2549
+      },
+      "review_record_meta": {
+        "path": "SECFP_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "e498de40edf6bffd9a489ab6d4889cfa45bc691779e022707de4576724b60ed7",
+        "line_count": 264,
+        "bytes": 16845
+      }
+    },
+    {
+      "label": "SELF-EVO-09",
+      "title": "Self-Evo Contradiction Register",
+      "role": "contradiction_register",
+      "current_file": "09_Self_Evo_Contradiction_Register_v0_1_1.md",
+      "prior_file": "09_Self_Evo_Contradiction_Register_v0_1.md",
+      "patch_notes": "SECR_PATCH_NOTES_v0_1_1.md",
+      "review_record": "SECR_REVIEW_RECORD_v0_1.md",
+      "reviewed_file": "09_Self_Evo_Contradiction_Register_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "current_status": "v0.1.1 patched; operator reports repeat review confirmed PASS",
+      "blocking_findings_closed_in_patch": [],
+      "advisory_findings_addressed_in_patch": [
+        "SECR-REV-F1",
+        "SECR-REV-F2"
+      ],
+      "current_file_meta": {
+        "path": "09_Self_Evo_Contradiction_Register_v0_1_1.md",
+        "found": true,
+        "sha256": "922f6fb7981c6a0c544d61bce0f29561279dafb7381a90ba9932c445963e8fac",
+        "line_count": 734,
+        "bytes": 39435
+      },
+      "prior_file_meta": {
+        "path": "09_Self_Evo_Contradiction_Register_v0_1.md",
+        "found": true,
+        "sha256": "a3408aca29e124275e2407714d1a48d3e89a2e2f0130ce545800be0a8b5d4395",
+        "line_count": 694,
+        "bytes": 35539
+      },
+      "patch_notes_meta": {
+        "path": "SECR_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "f52941a83388753dc5f31ea4e56fe0d0d4eaa99905057072989f7863369cd448",
+        "line_count": 149,
+        "bytes": 3025
+      },
+      "review_record_meta": {
+        "path": "SECR_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "bc8ce1a071c9d47ae09ab3a8fe79018e0049c41ac966649822275f81a981fd31",
+        "line_count": 245,
+        "bytes": 15106
+      }
+    },
+    {
+      "label": "SELF-EVO-10",
+      "title": "Self-Evo Open Issues",
+      "role": "open_issues_backlog",
+      "current_file": "10_Self_Evo_Open_Issues_v0_1_1.md",
+      "prior_file": "10_Self_Evo_Open_Issues_v0_1.md",
+      "patch_notes": "SEOI_PATCH_NOTES_v0_1_1.md",
+      "review_record": "SEOI_REVIEW_RECORD_v0_1.md",
+      "reviewed_file": "10_Self_Evo_Open_Issues_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "current_status": "v0.1.1 patched; last uploaded SEOI review record still targets v0.1 SHA; exact repeat-review record for v0.1.1 not present",
+      "blocking_findings_closed_in_patch": [],
+      "advisory_findings_addressed_in_patch": [
+        "SEOI-REV-F1",
+        "SEOI-REV-F2"
+      ],
+      "current_file_meta": {
+        "path": "10_Self_Evo_Open_Issues_v0_1_1.md",
+        "found": true,
+        "sha256": "25777ee1029aec7d0d9ac9af02d0d06b703021709566fbfc27f6b013142903e4",
+        "line_count": 857,
+        "bytes": 52473
+      },
+      "prior_file_meta": {
+        "path": "10_Self_Evo_Open_Issues_v0_1.md",
+        "found": true,
+        "sha256": "ec0752599562fcede77bf2924e42ea8d933bc28f7c2806a3f264e2a34c21f483",
+        "line_count": 825,
+        "bytes": 49164
+      },
+      "patch_notes_meta": {
+        "path": "SEOI_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "3c7c64772a444f0e76a54576eaad8f052e5f81a04ae2748c86a0f8ac7492ead6",
+        "line_count": 182,
+        "bytes": 4041
+      },
+      "review_record_meta": {
+        "path": "SEOI_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "092cef89d8ab68e4ca34c0327c4f5f46351f55f5e32ce5da9ad5f65e409e306e",
+        "line_count": 250,
+        "bytes": 15275
+      }
+    }
+  ],
+  "package_control_documents": [
+    {
+      "label": "SELF-EVO-INDEX",
+      "title": "Self-Evo Package Index and Reading Order",
+      "role": "package_index",
+      "file": "SELF_EVO_PACKAGE_INDEX_AND_READING_ORDER_v0_1.md",
+      "status": "operator chose to proceed without separate review; package-control orientation only",
+      "file_meta": {
+        "path": "SELF_EVO_PACKAGE_INDEX_AND_READING_ORDER_v0_1.md",
+        "found": true,
+        "sha256": "077abbcf603725686fb80b7e958de8bd1ad08ba566263ea91952745c1cfcbec0",
+        "line_count": 570,
+        "bytes": 30178
+      }
+    }
+  ],
+  "review_records": [
+    {
+      "target_label": "SELF-EVO-01",
+      "review_record_file": "C_SELF_EVO_REVIEW_RECORD_v0_1.md",
+      "reviewed_artifact": "C_Self_Evolution_Gate_CGAM_TRIAD_SRLM_Profile_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "review_record_meta": {
+        "path": "C_SELF_EVO_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "bf9e6b77d691e8fd57364c638708495a75c71d8e2934de4fa34eac5110f7987c",
+        "line_count": 278,
+        "bytes": 16522
+      }
+    },
+    {
+      "target_label": "SELF-EVO-02",
+      "review_record_file": "SRLM_BGC_REVIEW_RECORD_v0_1.md",
+      "reviewed_artifact": "02_SRLM_Bounded_Growth_Contour_Profile_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "review_record_meta": {
+        "path": "SRLM_BGC_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "3077e3bed6ca08916ff0ddacb815a9f28e70ff823b6a66396ffe6760744d13ad",
+        "line_count": 298,
+        "bytes": 19709
+      }
+    },
+    {
+      "target_label": "SELF-EVO-03",
+      "review_record_file": "SEPKT_PROPOSAL_PACKET_REVIEW_RECORD_v0_1.md",
+      "reviewed_artifact": "03_Self_Evo_Proposal_Packet_Schema_v0_1.md",
+      "review_result": "PASS",
+      "review_record_meta": {
+        "path": "SEPKT_PROPOSAL_PACKET_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "677224774dd5e7937863c1cbc26bb603f2aedaaee5860892aef85c82fbdfc97d",
+        "line_count": 237,
+        "bytes": 15499
+      }
+    },
+    {
+      "target_label": "SELF-EVO-04",
+      "review_record_file": "SELC_CHECKER_REVIEW_RECORD_v0_1-1.md",
+      "reviewed_artifact": "04_Self_Evo_Local_Checker_Rules_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "review_record_meta": {
+        "path": "SELC_CHECKER_REVIEW_RECORD_v0_1-1.md",
+        "found": true,
+        "sha256": "b5c77e57c098ebaa07e2552eabbdd3a6848f7be43038ab9cabd2202cc51a63b4",
+        "line_count": 278,
+        "bytes": 20112
+      }
+    },
+    {
+      "target_label": "SELF-EVO-05",
+      "review_record_file": "TSW_REVIEW_RECORD_v0_1.md",
+      "reviewed_artifact": "05_Self_Evo_TRIAD_Sister_Witness_Profile_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "review_record_meta": {
+        "path": "TSW_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "1e26baef47c30123d63f7896259385bc5d8fcf01e201148a3937af947a853c6a",
+        "line_count": 305,
+        "bytes": 20734
+      }
+    },
+    {
+      "target_label": "SELF-EVO-06",
+      "review_record_file": "SEMG_REVIEW_RECORD_v0_1.md",
+      "reviewed_artifact": "06_Self_Evo_Memory_Gate_and_EA_Profile_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "review_record_meta": {
+        "path": "SEMG_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "969ac120ea0ce66b0a4a5474d4fea8573aa61d05bf562dae5c22574e61170d97",
+        "line_count": 319,
+        "bytes": 20596
+      }
+    },
+    {
+      "target_label": "SELF-EVO-07",
+      "review_record_file": "SEARG_REVIEW_RECORD_v0_1.md",
+      "reviewed_artifact": "07_Self_Evo_Anti_Autarky_and_Resource_Gate_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "review_record_meta": {
+        "path": "SEARG_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "8849bd3be4210f2ffc233bf28e469fb01285ff656245b64775b6fd2d8b029b2c",
+        "line_count": 253,
+        "bytes": 17484
+      }
+    },
+    {
+      "target_label": "SELF-EVO-08",
+      "review_record_file": "SECFP_REVIEW_RECORD_v0_1.md",
+      "reviewed_artifact": "08_Self_Evo_Conformance_Fixture_Pack_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "review_record_meta": {
+        "path": "SECFP_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "e498de40edf6bffd9a489ab6d4889cfa45bc691779e022707de4576724b60ed7",
+        "line_count": 264,
+        "bytes": 16845
+      }
+    },
+    {
+      "target_label": "SELF-EVO-09",
+      "review_record_file": "SECR_REVIEW_RECORD_v0_1.md",
+      "reviewed_artifact": "09_Self_Evo_Contradiction_Register_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "review_record_meta": {
+        "path": "SECR_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "bc8ce1a071c9d47ae09ab3a8fe79018e0049c41ac966649822275f81a981fd31",
+        "line_count": 245,
+        "bytes": 15106
+      }
+    },
+    {
+      "target_label": "SELF-EVO-10",
+      "review_record_file": "SEOI_REVIEW_RECORD_v0_1.md",
+      "reviewed_artifact": "10_Self_Evo_Open_Issues_v0_1.md",
+      "review_result": "PASS_WITH_LIMITS",
+      "review_record_meta": {
+        "path": "SEOI_REVIEW_RECORD_v0_1.md",
+        "found": true,
+        "sha256": "092cef89d8ab68e4ca34c0327c4f5f46351f55f5e32ce5da9ad5f65e409e306e",
+        "line_count": 250,
+        "bytes": 15275
+      }
+    }
+  ],
+  "patch_notes": [
+    {
+      "target_label": "SELF-EVO-01",
+      "patch_notes_file": "C_SELF_EVO_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "C_SELF_EVO_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "075f6d70cee4b57eca5445101900c6eee9b0dde85397425be2295d97b5df3027",
+        "line_count": 73,
+        "bytes": 2466
+      }
+    },
+    {
+      "target_label": "SELF-EVO-02",
+      "patch_notes_file": "SRLM_BGC_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "SRLM_BGC_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "efef4a31c53ed176c340bd51c64f60946733388e56a9a49ea3d5184090a342ed",
+        "line_count": 94,
+        "bytes": 2926
+      }
+    },
+    {
+      "target_label": "SELF-EVO-03",
+      "patch_notes_file": "SEPKT_PROPOSAL_PACKET_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "SEPKT_PROPOSAL_PACKET_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "014f013abb5b417d0e1ff22171e3ef214c76ca11ad85a1c585c31122593cbe63",
+        "line_count": 95,
+        "bytes": 2910
+      }
+    },
+    {
+      "target_label": "SELF-EVO-04",
+      "patch_notes_file": "SELC_CHECKER_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "SELC_CHECKER_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "d42a95e421d213f4aba107474c947f5731dcbc08461c3ebde266cdfef4a03832",
+        "line_count": 191,
+        "bytes": 4451
+      }
+    },
+    {
+      "target_label": "SELF-EVO-05",
+      "patch_notes_file": "TSW_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "TSW_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "f7ed12394ed0a8c0e81373350d56f861209b0ae6b4c9fe6008cc014291c0de93",
+        "line_count": 57,
+        "bytes": 2272
+      }
+    },
+    {
+      "target_label": "SELF-EVO-06",
+      "patch_notes_file": "SEMG_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "SEMG_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "70ac48ce95a75efe5ad37b427d6e0c2c645eb124dc991b7e2e635058840f8c50",
+        "line_count": 134,
+        "bytes": 3248
+      }
+    },
+    {
+      "target_label": "SELF-EVO-07",
+      "patch_notes_file": "SEARG_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "SEARG_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "c988a21a7468c9cd4fd20f673ed50a1e665f77f2ba94a8376d366fab7f595140",
+        "line_count": 95,
+        "bytes": 2620
+      }
+    },
+    {
+      "target_label": "SELF-EVO-08",
+      "patch_notes_file": "SECFP_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "SECFP_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "5958473f7187c947e4040149613356356849687829535a4d97647213d35d57e6",
+        "line_count": 96,
+        "bytes": 2549
+      }
+    },
+    {
+      "target_label": "SELF-EVO-09",
+      "patch_notes_file": "SECR_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "SECR_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "f52941a83388753dc5f31ea4e56fe0d0d4eaa99905057072989f7863369cd448",
+        "line_count": 149,
+        "bytes": 3025
+      }
+    },
+    {
+      "target_label": "SELF-EVO-10",
+      "patch_notes_file": "SEOI_PATCH_NOTES_v0_1_1.md",
+      "patch_notes_meta": {
+        "path": "SEOI_PATCH_NOTES_v0_1_1.md",
+        "found": true,
+        "sha256": "3c7c64772a444f0e76a54576eaad8f052e5f81a04ae2748c86a0f8ac7492ead6",
+        "line_count": 182,
+        "bytes": 4041
+      }
+    }
+  ],
+  "reference_corpus": [
+    {
+      "label": "REF-CGAM-PACKAGE-CONTROL",
+      "file": "01_CGAM_PACKAGE_CONTROL.md",
+      "role": "source reference: CGAM package status/readiness",
+      "file_meta": {
+        "path": "01_CGAM_PACKAGE_CONTROL.md",
+        "found": true,
+        "sha256": "36b76cd164c60e693a7f94a91ee67612afca3f7bfe6275dead70e171babcd297",
+        "line_count": 4612,
+        "bytes": 177644
+      }
+    },
+    {
+      "label": "REF-CGAM-ROOT",
+      "file": "02_CGAM_ROOT_PROTOCOL.md",
+      "role": "source reference: CGAM root doctrine",
+      "file_meta": {
+        "path": "02_CGAM_ROOT_PROTOCOL.md",
+        "found": true,
+        "sha256": "a28308f90afe53563c9c93e234a87384a979c3ee7a48737c8c679dc6df3172fe",
+        "line_count": 1265,
+        "bytes": 37895
+      }
+    },
+    {
+      "label": "REF-CGAM-TASK-PERMISSION",
+      "file": "03_CGAM_TASK_PERMISSION_ADMISSION.md",
+      "role": "source reference: task/permission/admission",
+      "file_meta": {
+        "path": "03_CGAM_TASK_PERMISSION_ADMISSION.md",
+        "found": true,
+        "sha256": "6cd37034b2039396d63469830668b45120a22a41250318eba59109c0de54f729",
+        "line_count": 7468,
+        "bytes": 214004
+      }
+    },
+    {
+      "label": "REF-CGAM-EXECUTION-MEMORY",
+      "file": "04_CGAM_EXECUTION_WITNESS_MEMORY_ROLLBACK.md",
+      "role": "source reference: sandbox/witness/memory/rollback",
+      "file_meta": {
+        "path": "04_CGAM_EXECUTION_WITNESS_MEMORY_ROLLBACK.md",
+        "found": true,
+        "sha256": "e6c013523ba45e8293d8ead5a472beb01d59afa1d4d9a4aae59d8b3528fe2b82",
+        "line_count": 7403,
+        "bytes": 214805
+      }
+    },
+    {
+      "label": "REF-CGAM-REVIEW-CHECKER",
+      "file": "05_CGAM_REVIEW_CHECKER_CONFORMANCE.md",
+      "role": "source reference: review/checker/conformance",
+      "file_meta": {
+        "path": "05_CGAM_REVIEW_CHECKER_CONFORMANCE.md",
+        "found": true,
+        "sha256": "ebcb30538cd0631c29bc4e8feaa66b21f21f1912691eeee5ba2bc80dda326e02",
+        "line_count": 7950,
+        "bytes": 221086
+      }
+    },
+    {
+      "label": "REF-CGAM-RESTRICTED",
+      "file": "06_CGAM_RESTRICTED_SECURITY_CLOUD_PRIVATE.md",
+      "role": "restricted source reference: cloud/security/incident",
+      "file_meta": {
+        "path": "06_CGAM_RESTRICTED_SECURITY_CLOUD_PRIVATE.md",
+        "found": true,
+        "sha256": "6c1cf4292a4c3c919e2c63fcaaf54ef15adae87fba4db264945213aaa3d1e8b1",
+        "line_count": 6548,
+        "bytes": 192749
+      }
+    },
+    {
+      "label": "REF-CGAM-MACHINE",
+      "file": "07_CGAM_MACHINE_ARTIFACTS_INDEX.md",
+      "role": "source reference: schema and semantic rules index",
+      "file_meta": {
+        "path": "07_CGAM_MACHINE_ARTIFACTS_INDEX.md",
+        "found": true,
+        "sha256": "033d94abf7f12a5bab4f312b64c78a92d0f18a62d2ff30f42e2c465d6e2e53a0",
+        "line_count": 1290,
+        "bytes": 62068
+      }
+    },
+    {
+      "label": "REF-RUNTIME-VOLITION-L4W",
+      "file": "10_RUNTIME_USEFUL_MESH_VOLITION_L4W.md",
+      "role": "implementation evidence",
+      "file_meta": {
+        "path": "10_RUNTIME_USEFUL_MESH_VOLITION_L4W.md",
+        "found": true,
+        "sha256": "fa4297b1c484a394ba56cb60a044c0cb0160f5ebd565502d8dd2dd4843dc82d2",
+        "line_count": 833,
+        "bytes": 29009
+      }
+    },
+    {
+      "label": "REF-SRLM-CODE",
+      "file": "11_SRLM_BOUNDED_GROWTH_CODE_SNAPSHOT.md",
+      "role": "implementation evidence",
+      "file_meta": {
+        "path": "11_SRLM_BOUNDED_GROWTH_CODE_SNAPSHOT.md",
+        "found": true,
+        "sha256": "775d3fe8aa47f04d90e7517438c5116ec7de989bc35c6f8490e36b998c075ecc",
+        "line_count": 2151,
+        "bytes": 81393
+      }
+    },
+    {
+      "label": "REF-SRLM-TESTS",
+      "file": "12_SRLM_TOOLS_TESTS_SNAPSHOT.md",
+      "role": "implementation evidence",
+      "file_meta": {
+        "path": "12_SRLM_TOOLS_TESTS_SNAPSHOT.md",
+        "found": true,
+        "sha256": "ecfd6748c4199791220f38fa593579846f27e8eac814841771e6d018f4ecc436",
+        "line_count": 1501,
+        "bytes": 57970
+      }
+    },
+    {
+      "label": "REF-AUTONOMY",
+      "file": "13_RUNTIME_AUTONOMY_EVIDENCE.md",
+      "role": "implementation evidence; not normative authority",
+      "file_meta": {
+        "path": "13_RUNTIME_AUTONOMY_EVIDENCE.md",
+        "found": true,
+        "sha256": "6b5b49587bb5aec239a5905ab255ce471634c8020d3ef41b75337179648e8068",
+        "line_count": 3009,
+        "bytes": 69134
+      }
+    },
+    {
+      "label": "REF-TRIAD-SYNAPS",
+      "file": "20_TRIAD_SYNAPS_REFERENCE.md",
+      "role": "source reference",
+      "file_meta": {
+        "path": "20_TRIAD_SYNAPS_REFERENCE.md",
+        "found": true,
+        "sha256": "d79baa5314e8169d3943ae9687a2d9f7f868f11167054e4d3b8a19dfa10a3b5a",
+        "line_count": 1843,
+        "bytes": 49918
+      }
+    },
+    {
+      "label": "REF-MEMORY-ARQ-EA-L4",
+      "file": "21_MEMORY_ARQ_EA_L4_REFERENCE.md",
+      "role": "source reference",
+      "file_meta": {
+        "path": "21_MEMORY_ARQ_EA_L4_REFERENCE.md",
+        "found": true,
+        "sha256": "0d06cd152c6af7bddb868dabc682940a0c443883226a157aa4314cdf6dd4e267",
+        "line_count": 8359,
+        "bytes": 228564
+      }
+    },
+    {
+      "label": "REF-ANTI-AUTARKY-RESOURCE",
+      "file": "22_ANTI_AUTARKY_RESOURCE_GROUNDING_REFERENCE.md",
+      "role": "source reference",
+      "file_meta": {
+        "path": "22_ANTI_AUTARKY_RESOURCE_GROUNDING_REFERENCE.md",
+        "found": true,
+        "sha256": "7b19382062a86a631807e4497cd536cdca691e0491cd01ad32e5e2813d841a2d",
+        "line_count": 3141,
+        "bytes": 93499
+      }
+    },
+    {
+      "label": "REF-CLAIM-ARL-AGL-WITNESS",
+      "file": "23_CLAIM_STRENGTH_ARL_AGL_WITNESS_REFERENCE.md",
+      "role": "source reference",
+      "file_meta": {
+        "path": "23_CLAIM_STRENGTH_ARL_AGL_WITNESS_REFERENCE.md",
+        "found": true,
+        "sha256": "e1ec8afaf44e59b6b5ac2e1d619e06390fe4b9813b079fff0e8d178fe3d401f3",
+        "line_count": 6309,
+        "bytes": 225228
+      }
+    },
+    {
+      "label": "REF-PUBLIC-HARDENING",
+      "file": "24_PUBLIC_EXPERIMENT_AND_HARDENING_INDEX_REFERENCE.md",
+      "role": "source reference",
+      "file_meta": {
+        "path": "24_PUBLIC_EXPERIMENT_AND_HARDENING_INDEX_REFERENCE.md",
+        "found": true,
+        "sha256": "280806e52c24d9c139eb82deb53d8fad6a1e95948c8a95fd7161ac2870949be3",
+        "line_count": 13652,
+        "bytes": 406759
+      }
+    }
+  ],
+  "control_source_files": [
+    {
+      "label": "SOURCE-GAP-ANALYSIS",
+      "file": "30_SELF_EVO_SOURCE_GAP_ANALYSIS.md",
+      "role": "source gap analysis",
+      "file_meta": {
+        "path": "30_SELF_EVO_SOURCE_GAP_ANALYSIS.md",
+        "found": true,
+        "sha256": "d14441600c08dea2fdea33638b8080e9c76734bff625fb5b91a00f65b2a910f8",
+        "line_count": 101,
+        "bytes": 4508
+      }
+    },
+    {
+      "label": "RECOMMENDED-SKELETON",
+      "file": "31_RECOMMENDED_SELF_EVO_PACKAGE_SKELETON.md",
+      "role": "recommended package skeleton",
+      "file_meta": {
+        "path": "31_RECOMMENDED_SELF_EVO_PACKAGE_SKELETON.md",
+        "found": true,
+        "sha256": "898e3b8b23d1e971b30d261a381e0ce4e05cdf11e434ed5d426f0f7628079028",
+        "line_count": 43,
+        "bytes": 1334
+      }
+    },
+    {
+      "label": "PACK-AUDIT",
+      "file": "00_PACK_AUDIT_REPORT.md",
+      "role": "initial reference pack audit",
+      "file_meta": {
+        "path": "00_PACK_AUDIT_REPORT.md",
+        "found": true,
+        "sha256": "35f860453498e1d837dd257f895361b320220917f715778d4bce574b23ccba16",
+        "line_count": 77,
+        "bytes": 2833
+      }
+    },
+    {
+      "label": "SOURCE-MAP",
+      "file": "00_SOURCE_MAP.md",
+      "role": "initial source map",
+      "file_meta": {
+        "path": "00_SOURCE_MAP.md",
+        "found": true,
+        "sha256": "bb5d1bae32f340dda8191ba753e4b37663a913cad96a8b277237b7085ef64953",
+        "line_count": 190,
+        "bytes": 59450
+      }
+    },
+    {
+      "label": "BASE-MANIFEST-CSV",
+      "file": "00_MANIFEST.csv",
+      "role": "initial reference pack manifest",
+      "file_meta": {
+        "path": "00_MANIFEST.csv",
+        "found": true,
+        "sha256": "519e2d364fcdb139c8908d1e81a8121213fcefba013a31dbccec7f95520314bb",
+        "line_count": 25,
+        "bytes": 4072
+      }
+    },
+    {
+      "label": "BASE-SHA256SUMS",
+      "file": "00_SHA256SUMS.txt",
+      "role": "initial reference pack checksums",
+      "file_meta": {
+        "path": "00_SHA256SUMS.txt",
+        "found": true,
+        "sha256": "e4b7803fea08f8613f3f001fa3e8367a48aff38efd0847fc55e851cd27d8676a",
+        "line_count": 25,
+        "bytes": 2439
+      }
+    }
+  ],
+  "status_rules": {
+    "review_is_evidence_not_authority": true,
+    "patch_notes_are_history_not_new_doctrine": true,
+    "operator_acceptance_is_not_conformance": true,
+    "manifest_is_orientation_not_integration": true,
+    "schemas_must_bind_to_current_sha256_before_extraction": true,
+    "checker_must_not_claim_safety_from_schema_validity_alone": true
+  },
+  "allowed_claims": [
+    "The SELF-EVO 01..10 document core exists as a reviewed draft corpus with v0.1.1 corrections.",
+    "The package defines a governance model for bounded self-evolution proposals.",
+    "The package defines schemas/profiles/checker rules/fixtures/backlog at document level.",
+    "The package is suitable for further package-control work, schema extraction planning, and semantic validator planning."
+  ],
+  "forbidden_claims": [
+    "The package has passed executable conformance.",
+    "The package is implementation-ready without further work.",
+    "The package authorizes live self-evolution.",
+    "The package is deployment-safe.",
+    "The package proves personhood, consciousness, AGI, legal status, or autonomy rights.",
+    "Any review record approves growth or writes memory."
+  ],
+  "recommended_next_artifacts": [
+    "SELF_EVO_SHA256SUMS_v0_1.txt",
+    "SELF_EVO_SCHEMA_EXTRACTION_PLAN_v0_1.md",
+    "SELF_EVO_RELEASE_NOTES_v0_1.md",
+    "SELF_EVO_README_v0_1.md",
+    "SELF_EVO_PUBLIC_REDACTION_AND_RESTRICTED_SPLIT_v0_1.md"
+  ],
+  "integrity_policy": {
+    "markdown_is_canonical_for_profiles": true,
+    "json_manifest_is_machine_facing_package_control": true,
+    "pdfs_are_not_required_for_this_private_manifest": true,
+    "raw_evidence_included": false,
+    "real_incident_evidence_included": false,
+    "secrets_included": false,
+    "private_memory_included": false,
+    "sha256_algorithm": "SHA-256 over UTF-8 file bytes as stored in /mnt/data"
+  },
+  "notes": "Generated after the user elected to continue without a separate review of the package index. This manifest records current artifacts and caveats; it does not upgrade the package status."
+}
