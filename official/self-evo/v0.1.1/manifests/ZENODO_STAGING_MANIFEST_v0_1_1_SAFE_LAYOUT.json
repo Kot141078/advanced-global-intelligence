@@ -264,8 +264,8 @@
     },
     {
       "path": "package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json",
-      "size": 43247,
-      "sha256": "315ad87d38c0f31320570cfac40f63695b569c52530a63feb19ced953774cc50"
+      "size": 42118,
+      "sha256": "2360e21754b33939f45e6a0e2e5b21dd01f92c63342e15418f2bc1bc070ad490"
     },
     {
       "path": "README.md",
@@ -279,8 +279,8 @@
     },
     {
       "path": "ZENODO_METADATA_DRAFT.json",
-      "size": 1151,
-      "sha256": "0e8a61b5ac2b142f4490a94c924e2d1a59333fd649f351001175c61f2953ccb1"
+      "size": 1123,
+      "sha256": "ac9c56fbd7b5e7b41f2f82a830a935bfaf8c1c5b9846557f55886ae7b53cd85a"
     }
   ]
 }
