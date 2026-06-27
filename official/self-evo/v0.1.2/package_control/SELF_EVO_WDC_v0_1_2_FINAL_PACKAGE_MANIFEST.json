@@ -1,0 +1,760 @@
+{
+  "package_name": "Self-Evo WDC v0.1.2",
+  "package_state": "zenodo_staging_package_with_academic_pdfs",
+  "author": "Kotov Ivan",
+  "place": "Bruxelles, Belgique",
+  "year": "2026",
+  "created_at_utc": "2026-06-27T20:22:14Z",
+  "parent_release": {
+    "title": "Self-Evo Document Package v0.1.1",
+    "doi": "10.5281/zenodo.20938909"
+  },
+  "file_count_excluding_manifest_files": 120,
+  "counts": {
+    "metadata": 2,
+    "markdown_source": 59,
+    "academic_pdf": 59
+  },
+  "gate_state": {
+    "WDC-ASM-001": "CLOSED_LOCAL_ASSEMBLY",
+    "WDC-ASM-002": "CLOSED",
+    "WDC-ASM-003": "CLOSED",
+    "WDC-ASM-004": "CLOSED",
+    "WDC-ASM-005": "CLOSED",
+    "WDC-ASM-006": "CLOSED_AS_RETAINED"
+  },
+  "nonclaims": {
+    "conformance_certificate": false,
+    "deployment_authorization": false,
+    "witness_independence_certification": false,
+    "checker_implementation_certified": false,
+    "fixture_runner_executed": false,
+    "implementation_ready": false,
+    "runtime_self_evolution_authorized": false,
+    "autonomous_resource_acquisition_authorized": false,
+    "personhood_or_consciousness_claim": false,
+    "agi_or_sovereignty_claim": false
+  },
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "size": 778,
+      "sha256": "8a2bb03b93aa28dded903a7df14c882c6519e1610b9a8c853ba6d9bf59476b99",
+      "kind": "metadata"
+    },
+    {
+      "path": "LICENSE-DOCS-CC-BY-4.0.md",
+      "size": 376,
+      "sha256": "1305f60fe43f940aa9573bfdddeb0720fab38f59e37267137e9dc3fcf092cdc1",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "LICENSE-MACHINE-ARTIFACTS-MIT.md",
+      "size": 959,
+      "sha256": "b53931f20bc7641d916e8a11cad05c6ab7f47810a67c620b960171de4456e188",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "LICENSE.md",
+      "size": 595,
+      "sha256": "c3d60823b2e0d397c0a3d04641df1970dfedc207070a2aa007f787743dde9daa",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "README.md",
+      "size": 2277,
+      "sha256": "f81436ad97e9754347eff6bbe5c46f96adf1fdee09416ce827bbeff1504e43f4",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "ZENODO_METADATA_DRAFT.json",
+      "size": 1174,
+      "sha256": "9ab5f2752d8accea3b00f1f4e28b431909821e2f7018b171c1713cde4d9f0a39",
+      "kind": "metadata"
+    },
+    {
+      "path": "academic_pdfs/LICENSE-DOCS-CC-BY-4.0_academic.pdf",
+      "size": 45255,
+      "sha256": "0b6edc3cb276d398cdaeb3d5bef69e03a4c906f23c666551fbd23585af983569",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/LICENSE-MACHINE-ARTIFACTS-MIT_academic.pdf",
+      "size": 45793,
+      "sha256": "a1f6642273434fba22f4a7ca5577af7c2b841a0a16e3501bdee13ee59d4cc8f1",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/LICENSE_academic.pdf",
+      "size": 45443,
+      "sha256": "2d6bb53facf4f2290bf5710f3db829e8dca8bbb71226e0c66dda96cb1913b42a",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/README_academic.pdf",
+      "size": 66192,
+      "sha256": "27fe0cdadf4e12ed4bd5ce0bb161559d44c8450dd47ecf591e174708c1ba291f",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/audits/PDF_LAYOUT_AUDIT_v0_1_academic.pdf",
+      "size": 66966,
+      "sha256": "9dfab76bf1f2fad5d71339cc4ec4412f87969a053994f330162d32eb27e81268",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/gate_records/WDC_ASM_002_GATE_CLOSURE_RECORD_v0_1_academic.pdf",
+      "size": 86703,
+      "sha256": "c3a97bc4434532d6efafb93b6b14706446fbdec295f4dcb98960639705e6c02a",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/gate_records/WDC_ASM_002_TEXTUAL_HARMONIZATION_RECORD_v0_1_1_academic.pdf",
+      "size": 73544,
+      "sha256": "241c680a6ffa1550a6214e752788c95d73c39172f6e40fb91a914b66d704cbc9",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/gate_records/WDC_ASM_003_GATE_CLOSURE_RECORD_v0_1_academic.pdf",
+      "size": 91778,
+      "sha256": "7aaef87e22679749a00586c56a7e6b24b4234f6a128cf067e6766d5d67ca2b62",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/gate_records/WDC_ASM_003_WRCG_CST_PROJECTION_VERIFICATION_RECORD_v0_1_academic.pdf",
+      "size": 85300,
+      "sha256": "2a4491de9ceea76980aa5fdc30cf12b15c9eab0bc9619da3cfe0a7c2d307c594",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/gate_records/WDC_ASM_004_FIXTURE_GATE_VERIFICATION_RECORD_v0_1_academic.pdf",
+      "size": 87086,
+      "sha256": "56bc3b3d42070fcbbb4cebde002f31921d6eafb5c7d9f6a6a737a58f16157052",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/gate_records/WDC_ASM_004_GATE_CLOSURE_RECORD_v0_1_academic.pdf",
+      "size": 87753,
+      "sha256": "4b3e6da18bb4292aa169aedb95d74c95f54840530b1229a7fc1191cf4977f390",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/gate_records/WDC_ASM_005_BOUNDARY_NONCLAIM_SCAN_RECORD_v0_1_academic.pdf",
+      "size": 83741,
+      "sha256": "245aa6cd6755bcdadd8810898d48b9283650b736e185f8c7765645cd2b80691f",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/gate_records/WDC_ASM_005_GATE_CLOSURE_RECORD_v0_1_academic.pdf",
+      "size": 70674,
+      "sha256": "9923be8f0f51fd4091b7d6ad63ae8f643733db9148d23f4024759eb54eb3e4f0",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/gate_records/WDC_ASM_006_IMPLEMENTATION_OPEN_ISSUES_RETENTION_RECORD_v0_1_academic.pdf",
+      "size": 69163,
+      "sha256": "fb2822b63fdfd143be98605403883e9e8dcb4a83026c470c07d4f24468baefec",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/inventories/WDC_v0_1_2_REVIEW_CORPUS_INTEGRITY_INVENTORY_v0_1_academic.pdf",
+      "size": 74937,
+      "sha256": "fa03001db067eb3ae288d84667c4648b1381620d237494d11f4cc775f7d9bf10",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/SEARG_WDC_DELTA_PATCH_NOTES_v0_1_1_academic.pdf",
+      "size": 69792,
+      "sha256": "922d2a5ee69038aa859f79db6a9b7902ea8b893df814e25db347dfb75a857a23",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/SECR_WDC_DELTA_PATCH_NOTES_v0_1_1_academic.pdf",
+      "size": 67700,
+      "sha256": "3ca18ca10dbf0ebb6a15f381c08e2cca1697bdd9c75bc01f1a33d3b5ebfd4840",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/SEFX_WDC_DELTA_PATCH_NOTES_v0_1_2_academic.pdf",
+      "size": 66913,
+      "sha256": "4448468559a8e8fab472b5773c8c4e19e784e67a4012955e37d442d03ef9a29a",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/SELC_WDC_DELTA_PATCH_NOTES_v0_1_1_academic.pdf",
+      "size": 69990,
+      "sha256": "c90adb466d9685d357461c5f46df001d85135fc2379ae80630c014bc04666e91",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/SELF_EVO_ADDENDUM_01_WDC_PATCH_NOTES_v0_1_1_academic.pdf",
+      "size": 67590,
+      "sha256": "4a220354ef478a32d3eac9359c3b8e959945235b62443263abb654ee91670eaa",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_PATCH_NOTES_v0_1_4_academic.pdf",
+      "size": 69131,
+      "sha256": "509769cf485a5f96bec0327d6f6ed9b17b60c4d710f37b9b7478a2b94516e2e1",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/SELF_EVO_v0_1_2_PATCH_INDEX_PATCH_NOTES_v0_1_1_academic.pdf",
+      "size": 67978,
+      "sha256": "e05dfcb71dc9d89aa8f541e3287b81f190ebec72b9ed17f49d3cacb276655be3",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/SEOI_WDC_DELTA_PATCH_NOTES_v0_1_1_academic.pdf",
+      "size": 69302,
+      "sha256": "ea8ea41b56714538ff7c5337ed71bfff5fdc81b317f5f8dc7da690d7a9ec111f",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/SEPKT_WDC_DELTA_PATCH_NOTES_v0_1_1_academic.pdf",
+      "size": 69194,
+      "sha256": "b93a2b5c5a53afce94044710b614c99316d4daeabae2cbb409436e319860f8b2",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/TSW_WDC_DELTA_PATCH_NOTES_v0_1_1_academic.pdf",
+      "size": 69386,
+      "sha256": "a2c332c2956e02bca67fc2a9ecd30df3e7bb509f1ea8cee4a1f5de93550e44f9",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/patch_notes/WDC_ASM_002_TEXTUAL_HARMONIZATION_PATCH_NOTES_v0_1_1_academic.pdf",
+      "size": 67158,
+      "sha256": "a5d2090b82c23346d9da307fc8e32a85ae71567eb7cc268b515b975ea6dff243",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/SEARG_WDC_DELTA_REVIEW_RECORD_v0_1_1_academic.pdf",
+      "size": 72387,
+      "sha256": "2f8c5485d8aed75fd0ffc7170aa9d89067bdf771085c7e3ec45a17a606867b0d",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/SECR_WDC_DELTA_REVIEW_RECORD_v0_1_1_academic.pdf",
+      "size": 71177,
+      "sha256": "95c985550c07914522bbc8b7234fb84ebcbdf3bc7d3410213034c57069e82ccb",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/SEFX_WDC_DELTA_REVIEW_RECORD_v0_1_2_academic.pdf",
+      "size": 71432,
+      "sha256": "6850640de3a97b717d8d6da9f27e0bc6fdec05ecf00a8bda00f42aa32b0bf9a9",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/SELC_WDC_DELTA_REVIEW_RECORD_v0_1_1_academic.pdf",
+      "size": 71828,
+      "sha256": "7348840f5f36e80ac8eb9f6d77ae1330905e324a85d2c3613c2e955c8bd34ecf",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/SELF_EVO_ADDENDUM_01_WDC_REVIEW_RECORD_v0_1_1_academic.pdf",
+      "size": 72499,
+      "sha256": "4e64fd2caf567468f6298026db0aac5e4d320d26d85bd450f4417574fb7896e0",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_REVIEW_RECORD_v0_1_4_academic.pdf",
+      "size": 71946,
+      "sha256": "7581999941c4128e71d40b9055da853480dadc4069bcf211ab3a7c1316fab744",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/SELF_EVO_v0_1_2_PATCH_INDEX_REVIEW_RECORD_v0_1_1_academic.pdf",
+      "size": 72441,
+      "sha256": "d909f433b33496564bd0e68db9faeb8d0a14bb3c9721dd61fb2c6edf8331b238",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/SEOI_WDC_DELTA_REVIEW_RECORD_v0_1_1_academic.pdf",
+      "size": 72529,
+      "sha256": "0835c20a178c1593a6f6d86cc22e9869fddf9c73f639ba54361a1fac18866835",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/SEPKT_WDC_DELTA_REVIEW_RECORD_v0_1_1_academic.pdf",
+      "size": 70953,
+      "sha256": "090947e8357002278b89f7bd165b1986210a801b9705a24bc659d3a6bb94840b",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/TSW_WDC_DELTA_REVIEW_RECORD_v0_1_1_academic.pdf",
+      "size": 71238,
+      "sha256": "d16e998c49991ffc641222444162e98ace7f19c33a901d9f5e16ffe6fb35e264",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/WDC_ASM_002_GATE_CLOSURE_REVIEW_RECORD_v0_1_academic.pdf",
+      "size": 74923,
+      "sha256": "b8ef1cfbae55226c037311ae1fa18e0cd605bd188af4aaf36f095603cb0fe4f7",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/WDC_ASM_002_TEXTUAL_HARMONIZATION_REVIEW_RECORD_v0_1_1_academic.pdf",
+      "size": 74436,
+      "sha256": "56b666197131278e7767206ac42949f900b69d0b319534179cb440902f737aad",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/WDC_ASM_003_GATE_CLOSURE_REVIEW_RECORD_v0_1_academic.pdf",
+      "size": 74006,
+      "sha256": "cba40c44561682850f1c368fd7420a392b9fcc9425ac8f1a17bfd9c23821f1b0",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/WDC_ASM_003_WRCG_CST_PROJECTION_VERIFICATION_REVIEW_RECORD_v0_1_academic.pdf",
+      "size": 76591,
+      "sha256": "6ffc1d89c6ff9b596899a4acb0977b05cc641ca1a9c0331d17c933b12ad0e989",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/WDC_ASM_004_FIXTURE_GATE_VERIFICATION_REVIEW_RECORD_v0_1_academic.pdf",
+      "size": 75055,
+      "sha256": "c780dc18e227de065811b841e25d7bc474c5d90f49b7f3a646200099830fef51",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/WDC_ASM_004_GATE_CLOSURE_REVIEW_RECORD_v0_1_academic.pdf",
+      "size": 74373,
+      "sha256": "3f3b35376e84f0059de27c377f3ada106621b8f808f547faad6d32a21a996fd8",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/controls/review_records/WDC_ASM_005_BOUNDARY_NONCLAIM_SCAN_REVIEW_RECORD_v0_1_academic.pdf",
+      "size": 77097,
+      "sha256": "86f2452622521858e1f34ab28155a527ee78fba3c484dce60132bc17da514fd3",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/docs/00_addendum/SELF_EVO_ADDENDUM_01_Witness_Dependency_Capture_Profile_v0_1_1_academic.pdf",
+      "size": 95696,
+      "sha256": "f07c78dd59831d79a1d362ac3abc74d3fa68ecae1fb75f477e371276f472b52d",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/docs/01_patch_index/SELF_EVO_v0_1_2_PATCH_INDEX_v0_1_3_academic.pdf",
+      "size": 98396,
+      "sha256": "a0d6b3b717a9dba8b7727e7bbd698cfa7c4101ce0549c77e84e1b1fb8e45a77c",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/docs/affected/03_Self_Evo_Proposal_Packet_Schema_WDC_Delta_v0_1_2_v0_1_2_academic.pdf",
+      "size": 99727,
+      "sha256": "968007dab6ade8d2618865b0eb8eafe1721edf984973989215bcde35c9eb2304",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/docs/affected/04_Self_Evo_Local_Checker_Rules_WDC_Delta_v0_1_2_v0_1_1_academic.pdf",
+      "size": 108075,
+      "sha256": "994a1c5aba4e6b55e25b3b9554f100c778082985ea78c1e98324c3360b82c6ec",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/docs/affected/05_Self_Evo_TRIAD_Sister_Witness_WDC_Delta_v0_1_2_v0_1_1_academic.pdf",
+      "size": 112725,
+      "sha256": "17d289d9058f3b21de3dc58b930af1b50d2684e199a735697127ca3bafc0bdb5",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/docs/affected/07_Self_Evo_Anti_Autarky_and_Resource_Gate_WDC_Delta_v0_1_2_v0_1_1_academic.pdf",
+      "size": 113278,
+      "sha256": "6fff7601a15caf556bdd76484d01115b99d7e1a46a387475ad3046ecf67041e4",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/docs/affected/08_Self_Evo_Conformance_Fixture_Pack_WDC_Delta_v0_1_2_v0_1_2_academic.pdf",
+      "size": 122722,
+      "sha256": "24c321ed20b8c216b45c448664c1ade0fef9eb9f8d14a0fd6b2089ac9a09a225",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/docs/affected/09_Self_Evo_Contradiction_Register_WDC_Delta_v0_1_2_v0_1_1_academic.pdf",
+      "size": 97152,
+      "sha256": "b5d1ad4ddac135ecb3ec3f8235b972a2e5a7d6d56d37c91e1283e180e3feed20",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/docs/affected/10_Self_Evo_Open_Issues_WDC_Delta_v0_1_2_v0_1_1_academic.pdf",
+      "size": 106290,
+      "sha256": "ef8eb5ff8665bc4866b7acb5f29f904cac0cb8f29d88f95a687073acc4568f1c",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/package_control/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_5_academic.pdf",
+      "size": 70854,
+      "sha256": "98cc681873e4f0b82fe7ae7648c6ca020760f760b18fc0f69e054984b23a99d4",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/package_control/WDC_ASM_001_FINAL_ASSEMBLY_RECORD_v0_1_academic.pdf",
+      "size": 68412,
+      "sha256": "432346533aaaa8e407b06e7a8b63abf0421dd401955bbb4ba0e42baf520eaaeb",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_1_academic.pdf",
+      "size": 88972,
+      "sha256": "569cc9d3f448cba31f868ade61798359b3c538ae3009300f01f376bf82d40209",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_2_academic.pdf",
+      "size": 94269,
+      "sha256": "620304e20677c01b7cddebe7e31a248bae471c572808a4fc9bf3c0a7a257aede",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_3_academic.pdf",
+      "size": 95397,
+      "sha256": "ca5083fbc9969a243d2fcb6f800113642cd91cabd1092f69e618713719562381",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_4_academic.pdf",
+      "size": 101768,
+      "sha256": "91eb04b05122010773aca178cd76f4478c15f5ca16678a2d6e5a6e215a742d81",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "academic_pdfs/package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_REVIEW_RECORD_v0_1_4_academic.pdf",
+      "size": 71949,
+      "sha256": "00b4244e328579dd2b2d9881e49bddf1b2b54a22fa8ade7712945e90284e3024",
+      "kind": "academic_pdf"
+    },
+    {
+      "path": "controls/audits/PDF_LAYOUT_AUDIT_v0_1.md",
+      "size": 7131,
+      "sha256": "2376bd60acd1a18bdbd9058b57effa8e70d6aca60d6344a641a300706de07e57",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/gate_records/WDC_ASM_002_GATE_CLOSURE_RECORD_v0_1.md",
+      "size": 21733,
+      "sha256": "6c4c92516162043a562983fe128be13a0cf965a3d17659d363d1cb0142d96107",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/gate_records/WDC_ASM_002_TEXTUAL_HARMONIZATION_RECORD_v0_1_1.md",
+      "size": 8681,
+      "sha256": "d40f97cfd2572c97ae48511653960fc09e97992aef696fb4ab8d78bbb9f11658",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/gate_records/WDC_ASM_003_GATE_CLOSURE_RECORD_v0_1.md",
+      "size": 24010,
+      "sha256": "1a91abea28f6ab41b0df2424c3e800e9a9d6aee2e37ed4acf29e0fffd5516273",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/gate_records/WDC_ASM_003_WRCG_CST_PROJECTION_VERIFICATION_RECORD_v0_1.md",
+      "size": 20241,
+      "sha256": "39a686045bf04a76e9c2941f68a7b390bfb265b936db0d80b5601d4ae927c8f3",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/gate_records/WDC_ASM_004_FIXTURE_GATE_VERIFICATION_RECORD_v0_1.md",
+      "size": 25311,
+      "sha256": "ff2c0431b98245f53603dcdef74be8bd03f46d9e6276710d5826087c23e521ed",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/gate_records/WDC_ASM_004_GATE_CLOSURE_RECORD_v0_1.md",
+      "size": 21950,
+      "sha256": "b43be26458a82456b7ab0cfd4b15d400ce46b92e8726f32ae508266ac93e3ec6",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/gate_records/WDC_ASM_005_BOUNDARY_NONCLAIM_SCAN_RECORD_v0_1.md",
+      "size": 19465,
+      "sha256": "b228956d03966a77f2b34dfb46d4ce3f93e1078c298b194f4bd1828709b5b64a",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/gate_records/WDC_ASM_005_GATE_CLOSURE_RECORD_v0_1.md",
+      "size": 6723,
+      "sha256": "3028f92aa7b49c8c8f07cdfe6aa2048a910eed70b09fa76763fb5ba20871f479",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/gate_records/WDC_ASM_006_IMPLEMENTATION_OPEN_ISSUES_RETENTION_RECORD_v0_1.md",
+      "size": 4684,
+      "sha256": "b0a99263f8d742da4ed9ef66a7504eb9f39112c2a35977fc1d5f1d9953b4b019",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/inventories/WDC_v0_1_2_REVIEW_CORPUS_INTEGRITY_INVENTORY_v0_1.md",
+      "size": 14654,
+      "sha256": "76da9b1471b5b3838e4f404025b161a9c8426a90b99a782276fbf25297d43e7f",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/SEARG_WDC_DELTA_PATCH_NOTES_v0_1_1.md",
+      "size": 4704,
+      "sha256": "9ecd2a014d2b52f468530c595a7ff65b603dd4f4a3c9a1ea1b2fcdab9410ce4c",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/SECR_WDC_DELTA_PATCH_NOTES_v0_1_1.md",
+      "size": 3266,
+      "sha256": "325acd6daf38d88719d65cb026b9329f4b6ad9f43d7a6dbb26b752ca806da9d0",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/SEFX_WDC_DELTA_PATCH_NOTES_v0_1_2.md",
+      "size": 2790,
+      "sha256": "57ecbf8eacc7257af4262a398aaf4133b315ed62d0eaeb67e2df5f944d05c857",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/SELC_WDC_DELTA_PATCH_NOTES_v0_1_1.md",
+      "size": 5463,
+      "sha256": "22174efaa5c7a5123a7f6814fd17c8285961a4a0cba2f13bd1a0a4e1b0531c14",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/SELF_EVO_ADDENDUM_01_WDC_PATCH_NOTES_v0_1_1.md",
+      "size": 3335,
+      "sha256": "16e613aac3aeb7c1eb2bfaad4983feaf0419c63fdef574a7c6d54f303be49626",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_PATCH_NOTES_v0_1_4.md",
+      "size": 4458,
+      "sha256": "3970e1a8ef839d2ed1347104e29c17e84b792ab130370913ed4662e174ba9f6b",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/SELF_EVO_v0_1_2_PATCH_INDEX_PATCH_NOTES_v0_1_1.md",
+      "size": 3918,
+      "sha256": "689183631b5bc76462460e65aee2e1798edb4ebe0ca30ea313e6194ed26588f5",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/SEOI_WDC_DELTA_PATCH_NOTES_v0_1_1.md",
+      "size": 4514,
+      "sha256": "c508d091b8d00caf21a41b9ac43da0dd1151bb20bafa190871c7011e79acebf3",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/SEPKT_WDC_DELTA_PATCH_NOTES_v0_1_1.md",
+      "size": 4375,
+      "sha256": "63764519ff39b99d4628c90baed76e0190af821c196fed4cbf87b4105bb26f4e",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/TSW_WDC_DELTA_PATCH_NOTES_v0_1_1.md",
+      "size": 3956,
+      "sha256": "0e78947ba5079a72573c0427124bb2d342793cb798f35cd6db9eda0562567395",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/patch_notes/WDC_ASM_002_TEXTUAL_HARMONIZATION_PATCH_NOTES_v0_1_1.md",
+      "size": 3016,
+      "sha256": "7365d9fc194d27be1284b77d496b43c587720af851b616d1d105e7a9750433c9",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/SEARG_WDC_DELTA_REVIEW_RECORD_v0_1_1.md",
+      "size": 9917,
+      "sha256": "8301029cad47e4265fbdf62a6f52d017610f2a649f997e71818f6f3cebf2dd5e",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/SECR_WDC_DELTA_REVIEW_RECORD_v0_1_1.md",
+      "size": 7731,
+      "sha256": "68580c68134390d8122c4761c6a04dc6de68fafabb1dac3b0abbe94212e1b964",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/SEFX_WDC_DELTA_REVIEW_RECORD_v0_1_2.md",
+      "size": 8195,
+      "sha256": "effcd108e6df56de9c1d840ed5c090352aab7dc60df01692fe0122ef18c08f00",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/SELC_WDC_DELTA_REVIEW_RECORD_v0_1_1.md",
+      "size": 8867,
+      "sha256": "6a366d4eea862daec29262a1b0d7c29738ec9277375b7e3110d3751331c448f9",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/SELF_EVO_ADDENDUM_01_WDC_REVIEW_RECORD_v0_1_1.md",
+      "size": 9618,
+      "sha256": "653150b3f8c054545a282d5b80c21044a1d27744cbc6acfc09827c9f84e21fd8",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_REVIEW_RECORD_v0_1_4.md",
+      "size": 9350,
+      "sha256": "3c24424784f3f85b3950eb53d45fba90d839704e6616d893d6638760099e9395",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/SELF_EVO_v0_1_2_PATCH_INDEX_REVIEW_RECORD_v0_1_1.md",
+      "size": 9587,
+      "sha256": "74b3c2851afa1e0c65812fd0d16f0078e8548342d2d759c5017df8f7c99ba1e5",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/SEOI_WDC_DELTA_REVIEW_RECORD_v0_1_1.md",
+      "size": 10086,
+      "sha256": "c4db6ef14ec27dc5a5c4a618a59cbb5b4be41ab06d9fce3f575940b9f992fc2c",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/SEPKT_WDC_DELTA_REVIEW_RECORD_v0_1_1.md",
+      "size": 7453,
+      "sha256": "e89cab15a6f4235c9df9875a38b64b01a6f5df483812b9c840c225024ef93b5b",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/TSW_WDC_DELTA_REVIEW_RECORD_v0_1_1.md",
+      "size": 7805,
+      "sha256": "bab488a95f7b5808ca1ae6f75dbfe0c79afefc9ab24f9f62438f4b4c5d8e1d47",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/WDC_ASM_002_GATE_CLOSURE_REVIEW_RECORD_v0_1.md",
+      "size": 12315,
+      "sha256": "031071b4cb49efa0ab88b76c1732e113eb63752fe603a29bf547f97cd38fad82",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/WDC_ASM_002_TEXTUAL_HARMONIZATION_REVIEW_RECORD_v0_1_1.md",
+      "size": 11490,
+      "sha256": "254680ae52ad03eccb4b0da4ed272478a3e1c714116dfb7e6268de8f83222d94",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/WDC_ASM_003_GATE_CLOSURE_REVIEW_RECORD_v0_1.md",
+      "size": 10914,
+      "sha256": "2adbb89336aad2ad7417388c892bf373237a56d4c32f64f137360e9908dc8c1d",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/WDC_ASM_003_WRCG_CST_PROJECTION_VERIFICATION_REVIEW_RECORD_v0_1.md",
+      "size": 13562,
+      "sha256": "95321fcb23838b9d5b95352633f831cf0d21041d312ff3e1efbd39c3e772e232",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/WDC_ASM_004_FIXTURE_GATE_VERIFICATION_REVIEW_RECORD_v0_1.md",
+      "size": 12617,
+      "sha256": "90c6b1912c62da02fc6d7086ccd64b387a98ec877fd67f54ee61ae48ed986ee3",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/WDC_ASM_004_GATE_CLOSURE_REVIEW_RECORD_v0_1.md",
+      "size": 11954,
+      "sha256": "3de710284edbb18289b55890a7b5dac408b742027362b5172ce6bac7c254381d",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "controls/review_records/WDC_ASM_005_BOUNDARY_NONCLAIM_SCAN_REVIEW_RECORD_v0_1.md",
+      "size": 14515,
+      "sha256": "7c1e803283d6c5ae8c5f6344a7ea907d27839f054d45f210bfd236cf5e536a8e",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "docs/00_addendum/SELF_EVO_ADDENDUM_01_Witness_Dependency_Capture_Profile_v0_1_1.md",
+      "size": 29220,
+      "sha256": "1307cf208593c40c688bd1e9beb45de35f29a1b05d71506b1c3e981ccc13d318",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "docs/01_patch_index/SELF_EVO_v0_1_2_PATCH_INDEX_v0_1_3.md",
+      "size": 34972,
+      "sha256": "af01b1b443a87c111ab7dab2e001d01e8bffc0710362b89da7781238447ea28b",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "docs/affected/03_Self_Evo_Proposal_Packet_Schema_WDC_Delta_v0_1_2_v0_1_2.md",
+      "size": 34810,
+      "sha256": "5a7e6af6bc83d3b7ccde875eae1a0e928600cf509b494bd773c43c29537264f3",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "docs/affected/04_Self_Evo_Local_Checker_Rules_WDC_Delta_v0_1_2_v0_1_1.md",
+      "size": 40770,
+      "sha256": "fcb7826ea432473b5677faf7b46cc5a1c47400c02fceec24429794b15064af40",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "docs/affected/05_Self_Evo_TRIAD_Sister_Witness_WDC_Delta_v0_1_2_v0_1_1.md",
+      "size": 41536,
+      "sha256": "fdce8893da1e8630cb382dbc972a0a7c4ffc32bb848d065943c58442904cf621",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "docs/affected/07_Self_Evo_Anti_Autarky_and_Resource_Gate_WDC_Delta_v0_1_2_v0_1_1.md",
+      "size": 44490,
+      "sha256": "804a8e341e30a2a86fa43429618f24e62458366e236c7b6ef8c12762d94da7af",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "docs/affected/08_Self_Evo_Conformance_Fixture_Pack_WDC_Delta_v0_1_2_v0_1_2.md",
+      "size": 60639,
+      "sha256": "4aa5b85e0a0af4c06fc56f30ba355ec6c378133fe3d70caee352fb93b3944389",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "docs/affected/09_Self_Evo_Contradiction_Register_WDC_Delta_v0_1_2_v0_1_1.md",
+      "size": 35189,
+      "sha256": "35b892a4fcfce6f241d3f25978ea58a624ae8077487bb69d6cf21063221c2bc4",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "docs/affected/10_Self_Evo_Open_Issues_WDC_Delta_v0_1_2_v0_1_1.md",
+      "size": 39914,
+      "sha256": "bd87725ddf72ddeac09db597900c465492d570dbaaf68391e26b327aabba5790",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "package_control/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_5.md",
+      "size": 7752,
+      "sha256": "b2b6a1eb5582a222008a72e97f5b31924888672d06e0d76615f725d6628fa1bd",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "package_control/WDC_ASM_001_FINAL_ASSEMBLY_RECORD_v0_1.md",
+      "size": 5470,
+      "sha256": "56a94828d252414fe576113934b14721acf2c4a77c0fd20023d3e8a17a373d28",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_1.md",
+      "size": 25568,
+      "sha256": "cde9178adf686bd4a463592325424462852ad0fb1314017642183fd78542f177",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_2.md",
+      "size": 30934,
+      "sha256": "a3b919bbd4289b9ff6547153eb28de1f617907b7ff255fbf7e0c03593e4522b8",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_3.md",
+      "size": 32945,
+      "sha256": "aa5fb978000d96df74c03dc735bcbd1c8170b9d34644e85b8297fd114759f917",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_4.md",
+      "size": 41229,
+      "sha256": "ad9adcddff485f28f78f4d741add275232a0d86413d45c14277a2bb5286c4301",
+      "kind": "markdown_source"
+    },
+    {
+      "path": "package_control/history/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_REVIEW_RECORD_v0_1_4.md",
+      "size": 9350,
+      "sha256": "3c24424784f3f85b3950eb53d45fba90d839704e6616d893d6638760099e9395",
+      "kind": "markdown_source"
+    }
+  ]
+}

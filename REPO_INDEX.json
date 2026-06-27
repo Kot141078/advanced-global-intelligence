@@ -848,6 +848,32 @@
       "doi_url": "https://doi.org/10.5281/zenodo.20691716",
       "status": "published_addendum",
       "role": "active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline"
+    },
+    {
+      "id": "self-evo-wdc-v0.1.2",
+      "title": "Self-Evo WDC v0.1.2 — Witness Dependency Capture Release-Candidate Document Package",
+      "version": "0.1.2",
+      "date": "2026-06-27",
+      "path": "official/self-evo/v0.1.2/",
+      "readme_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/self-evo/v0.1.2/README.md",
+      "status_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/self-evo/v0.1.2/STATUS.md",
+      "citation_cff_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/self-evo/v0.1.2/CITATION.cff",
+      "package_manifest": "official/self-evo/v0.1.2/package_control/SELF_EVO_WDC_v0_1_2_FINAL_PACKAGE_MANIFEST.json",
+      "sha256_manifest": "official/self-evo/v0.1.2/package_control/GITHUB_PLACEMENT_SHA256SUMS.txt",
+      "source_checksum_manifest": "official/self-evo/v0.1.2/SELF_EVO_WDC_v0_1_2_ZENODO_SHA256SUMS.txt",
+      "doi": "10.5281/zenodo.20975581",
+      "doi_url": "https://doi.org/10.5281/zenodo.20975581",
+      "zenodo_record_url": "https://zenodo.org/records/20975581",
+      "parent_package_path": "official/self-evo/v0.1.1/",
+      "parent_doi": "10.5281/zenodo.20938909",
+      "parent_doi_url": "https://doi.org/10.5281/zenodo.20938909",
+      "status": "release-candidate documentation package / package-control artifact",
+      "not_conformance_certificate": true,
+      "not_deployment_authorization": true,
+      "not_witness_independence_certification": true,
+      "not_checker_implementation_certification": true,
+      "not_fixture_runner_execution": true,
+      "not_implementation_ready": true
     }
   ],
   "highlight_documents": [

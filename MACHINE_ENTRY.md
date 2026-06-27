@@ -163,6 +163,27 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - boundary: not legal advice, not certification, not a conformity assessment, not a formal Article 50 compliance claim.
 - doi_status: Zenodo DOI recorded for implementation briefs package.
 
+## Self-Evo WDC v0.1.2
+
+- package_root: `official/self-evo/v0.1.2/`
+- parent_entry: `official/self-evo/README.md`
+- human_entry: `official/self-evo/v0.1.2/README.md`
+- status_entry: `official/self-evo/v0.1.2/STATUS.md`
+- package_manifest: `official/self-evo/v0.1.2/package_control/SELF_EVO_WDC_v0_1_2_FINAL_PACKAGE_MANIFEST.json`
+- source_checksum_manifest: `official/self-evo/v0.1.2/SELF_EVO_WDC_v0_1_2_ZENODO_SHA256SUMS.txt`
+- github_placement_checksum_manifest: `official/self-evo/v0.1.2/package_control/GITHUB_PLACEMENT_SHA256SUMS.txt`
+- markdown_root: `official/self-evo/v0.1.2/docs/`
+- pdf_root: `official/self-evo/v0.1.2/academic_pdfs/`
+- package_control: `official/self-evo/v0.1.2/package_control/`
+- package_version: `0.1.2`
+- zenodo_doi: `10.5281/zenodo.20975581`
+- zenodo_doi_url: https://doi.org/10.5281/zenodo.20975581
+- zenodo_record_url: https://zenodo.org/records/20975581
+- parent_package: `official/self-evo/v0.1.1/`
+- parent_zenodo_doi: `10.5281/zenodo.20938909`
+- status: release-candidate documentation package / package-control artifact
+- boundary: not a conformance certificate, not deployment authorization, not witness-independence certification, not checker implementation certification, not fixture-runner execution, and not live self-evolution permission.
+
 ## Self-Evo Document Package v0.1.1
 
 - package_root: `official/self-evo/v0.1.1/`

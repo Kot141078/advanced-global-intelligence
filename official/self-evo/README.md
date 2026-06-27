@@ -6,6 +6,7 @@ Versioned document packages for bounded self-evolution of `c = a + b` systems.
 
 | Version | Path | DOI | Status | Notes |
 |---|---|---|---|---|
+| v0.1.2 | [`v0.1.2/`](./v0.1.2/) | <https://doi.org/10.5281/zenodo.20975581> | Release-candidate documentation package / package-control artifact | Witness Dependency Capture package with Markdown sources, academic PDFs, gate records, review records, manifests, and checksums. Not a conformance certificate, not deployment authorization, not witness-independence certification, not checker implementation certification, and not fixture-runner execution. |
 | v0.1.1 | [`v0.1.1/`](./v0.1.1/) | <https://doi.org/10.5281/zenodo.20938909> | Draft document-level governance corpus | Markdown sources, checked academic PDFs, review records, patch notes, package-control artifacts, manifests, and checksums. |
 
 Note: v0.1.1 has 10 semantic review records and 11 physical review-record files because a byte-identical SEOI duplicate is retained to mirror the Zenodo archival package.
@@ -14,24 +15,30 @@ Note: v0.1.1 has 10 semantic review records and 11 physical review-record files 
 
 Start with:
 
-1. [`v0.1.1/README.md`](./v0.1.1/README.md)
-2. [`v0.1.1/package_control/SELF_EVO_PACKAGE_INDEX_AND_READING_ORDER_v0_1.md`](./v0.1.1/package_control/SELF_EVO_PACKAGE_INDEX_AND_READING_ORDER_v0_1.md)
-3. The academic PDFs in [`v0.1.1/docs/pdf/`](./v0.1.1/docs/pdf/)
+1. [`v0.1.2/README.md`](./v0.1.2/README.md)
+2. [`v0.1.2/STATUS.md`](./v0.1.2/STATUS.md)
+3. [`v0.1.2/package_control/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_5.md`](./v0.1.2/package_control/SELF_EVO_WDC_v0_1_2_PACKAGE_ASSEMBLY_MANIFEST_v0_1_5.md)
+4. The academic PDFs in [`v0.1.2/academic_pdfs/`](./v0.1.2/academic_pdfs/)
+5. Parent package: [`v0.1.1/README.md`](./v0.1.1/README.md)
 
 ## Machine entry
 
 Start with:
 
-1. [`v0.1.1/package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json`](./v0.1.1/package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json)
-2. [`v0.1.1/SHA256SUMS.txt`](./v0.1.1/SHA256SUMS.txt)
-3. [`v0.1.1/manifests/`](./v0.1.1/manifests/)
-4. [`v0.1.1/docs/markdown/`](./v0.1.1/docs/markdown/)
+1. [`v0.1.2/package_control/SELF_EVO_WDC_v0_1_2_FINAL_PACKAGE_MANIFEST.json`](./v0.1.2/package_control/SELF_EVO_WDC_v0_1_2_FINAL_PACKAGE_MANIFEST.json)
+2. [`v0.1.2/package_control/GITHUB_PLACEMENT_SHA256SUMS.txt`](./v0.1.2/package_control/GITHUB_PLACEMENT_SHA256SUMS.txt)
+3. [`v0.1.2/SELF_EVO_WDC_v0_1_2_ZENODO_SHA256SUMS.txt`](./v0.1.2/SELF_EVO_WDC_v0_1_2_ZENODO_SHA256SUMS.txt)
+4. [`v0.1.2/package_control/`](./v0.1.2/package_control/)
+5. Parent package machine entry: [`v0.1.1/package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json`](./v0.1.1/package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json)
 
 ## DOI
 
-- DOI: `10.5281/zenodo.20938909`
-- DOI URL: <https://doi.org/10.5281/zenodo.20938909>
-- Zenodo record: <https://zenodo.org/records/20938909>
+- Current WDC v0.1.2 DOI: `10.5281/zenodo.20975581`
+- Current WDC v0.1.2 DOI URL: <https://doi.org/10.5281/zenodo.20975581>
+- Current WDC v0.1.2 Zenodo record: <https://zenodo.org/records/20975581>
+- Parent v0.1.1 DOI: `10.5281/zenodo.20938909`
+- Parent v0.1.1 DOI URL: <https://doi.org/10.5281/zenodo.20938909>
+- Parent v0.1.1 Zenodo record: <https://zenodo.org/records/20938909>
 
 ## Corpus bridge set
 

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this WDC v0.1.2 document package, please cite it as below."
+title: "Self-Evo WDC v0.1.2: Witness Dependency Capture Release-Candidate Document Package"
+version: "0.1.2"
+doi: "10.5281/zenodo.20975581"
+url: "https://doi.org/10.5281/zenodo.20975581"
+type: report
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    affiliation: "Bruxelles, Belgique"
+date-released: "2026-06-27"
+abstract: "Document-level WDC release-candidate package for bounded self-evolution governance in c = a + b systems. Not a conformance certificate, not deployment authorization, and not witness-independence certification."
+license: "CC-BY-4.0"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+references:
+  - type: report
+    title: "Self-Evo Document Package v0.1.1"
+    doi: "10.5281/zenodo.20938909"

@@ -1,0 +1,35 @@
+{
+  "title": "Self-Evo WDC v0.1.2: Witness Dependency Capture Release-Candidate Document Package",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "affiliation": "Bruxelles, Belgique"
+    }
+  ],
+  "publication_date": "2026-06-27",
+  "version": "0.1.2",
+  "language": "eng",
+  "keywords": [
+    "AI governance",
+    "AI safety",
+    "self-evolution",
+    "witness dependency capture",
+    "c=a+b",
+    "agent governance",
+    "bounded self-evolution"
+  ],
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20938909",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ],
+  "description": "Self-Evo WDC v0.1.2 is a document-level release-candidate package for Witness Dependency Capture controls in bounded self-evolution governance for c = a + b systems. It includes Markdown sources, academic PDF renderings, review records, gate records, manifests, and checksums. It is not a conformance certificate, not deployment authorization, not a safety proof, not witness-independence certification, and not live self-evolution permission.",
+  "doi": "10.5281/zenodo.20975581",
+  "doi_url": "https://doi.org/10.5281/zenodo.20975581",
+  "record_url": "https://zenodo.org/records/20975581"
+}
