@@ -1,0 +1,86 @@
+{
+  "schema_version": "bcec-citation-registry-record-0.2.1",
+  "artifact": {
+    "title": "Bounded Capability Extraction Clause v0.2.1",
+    "long_title": "Bounded Capability Extraction Clause v0.2.1: Egress Metering, Extraction Source-Class, and Anti-Distillation Discipline for c-class Capability Extraction from External Oracles",
+    "short_name": "BCEC v0.2.1",
+    "version": "v0.2.1-final",
+    "year": 2026,
+    "language": "en",
+    "document_type": "technical note",
+    "status": "final textual clause / b-layer PASS reviewed draft"
+  },
+  "creator": {
+    "canonical_display": "Kotov Ivan",
+    "family_name": "Kotov",
+    "given_names": "Ivan",
+    "affiliation": "Independent researcher, Bruxelles, Belgium",
+    "orcid": "0009-0009-6002-9845"
+  },
+  "identifiers": {
+    "doi": "10.5281/zenodo.20953796",
+    "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+    "zenodo_record_url": "https://zenodo.org/records/20953796",
+    "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+    "website_url": "https://ivankotov.eu/publications/bounded-capability-extraction-clause-v0-2-1/",
+    "corpus_path": "docs/capability-egress/bcec/v0_2_1/",
+    "corpus_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/docs/capability-egress/bcec/v0_2_1"
+  },
+  "canonical_files": {
+    "markdown": {
+      "path": "docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md",
+      "sha256": "421f82cce59bf10c93b360543332cab2cba2961794d9f2345716a036b3ae064f"
+    },
+    "pdf": {
+      "path": "docs/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf",
+      "sha256": "afa4820d364101fd9ba17d80af9ed53f6c9376e4c8a3e1609c58365b6c3f5c9c"
+    },
+    "zenodo_package_zip": {
+      "sha256": "764b45d9eee01e3a6096663be8e49962bd24574041dce8dc59ffc04333d7bbfe"
+    }
+  },
+  "citation": {
+    "plain_text": "Kotov, Ivan. Bounded Capability Extraction Clause v0.2.1. 2026. DOI: 10.5281/zenodo.20953796.",
+    "bibtex_key": "kotov_bcec_2026",
+    "cff_path": "CITATION.cff",
+    "zenodo_metadata_path": ".zenodo.json",
+    "source_package_metadata_note": "CITATION.cff and .zenodo.json are preserved from the Zenodo package copy; current DOI binding is recorded here without rewriting package files."
+  },
+  "status_non_claims": [
+    "not sealed integration",
+    "not legal certification",
+    "not product certification",
+    "not conformance acceptance",
+    "not memory write",
+    "not a claim that distillation is impossible"
+  ],
+  "bridge_map": [
+    "A6 Composition Layer",
+    "Synthetic Laundering",
+    "EA Value",
+    "ARQ",
+    "L4 Witness",
+    "ARL",
+    "Beacon",
+    "CGAM"
+  ],
+  "date_roles": {
+    "revision_lineage": [
+      "2026-06-25",
+      "2026-06-26"
+    ],
+    "publication_date": "2026-06-27",
+    "website_publication_date": "2026-06-27",
+    "github_release_published_at_utc": "2026-06-27T06:09:28Z",
+    "visibility_pass_date_utc": "2026-06-27T06:31:13Z",
+    "citation_registry_sync_date_utc": "2026-06-27T06:52:17Z"
+  },
+  "registry_sync": {
+    "orcid_public_check": "absent",
+    "orcid_public_url": "https://orcid.org/0009-0009-6002-9845",
+    "zenodo_related_identifier_note_created": true,
+    "github_release_checked": "pass",
+    "website_checked": "pass",
+    "machine_indexes_checked": "pass"
+  }
+}
