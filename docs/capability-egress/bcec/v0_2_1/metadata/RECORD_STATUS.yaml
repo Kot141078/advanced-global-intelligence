@@ -1,0 +1,15 @@
+record_status:
+  package: BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan
+  author: Kotov Ivan
+  version: 0.2.1-final
+  package_date: 2026-06-26
+  reviewed_artifact_sha256: 421f82cce59bf10c93b360543332cab2cba2961794d9f2345716a036b3ae064f
+  review_verdict: PASS
+  review_level: b_layer_review
+  record_sha256: PLACEHOLDER_SEALED_AT_INTEGRATION
+  status_boundary:
+    sealed_integration: false
+    memory_write: false
+    legal_certification: false
+    product_certification: false
+    deployment_approval: false

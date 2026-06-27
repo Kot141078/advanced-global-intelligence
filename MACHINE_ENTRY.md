@@ -114,6 +114,21 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - manifest: `hashes/SHA256SUMS_cnode_boundary_docs_v0.1_2026-05-13.txt`
 - facade_manifest: `docs/c-node-boundary-docs/hashes/SHA256SUMS_cnode_boundary_docs_facade_v0.1.1_2026-05-13.txt`
 
+## BCEC v0.2.1 capability-egress package
+
+- package_root: `docs/capability-egress/bcec/v0_2_1/`
+- publication_record: `docs/capability-egress/bcec/v0_2_1/metadata/PUBLICATION_RECORD.json`
+- canonical_markdown: `docs/capability-egress/bcec/v0_2_1/docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md`
+- academic_pdf: `docs/capability-egress/bcec/v0_2_1/docs/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf`
+- review_record: `docs/capability-egress/bcec/v0_2_1/reviews/BCEC_v0_2_1_final_WITNESS_REVIEW_b_layer.md`
+- doi: `10.5281/zenodo.20953796`
+- doi_url: https://doi.org/10.5281/zenodo.20953796
+- github_release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1
+- release_tag: `bcec-v0.2.1`
+- status: final textual clause / b-layer PASS reviewed draft; not sealed integration
+- bridge: A6 egress companion; anti-distillation; extraction source-class; Synthetic Laundering handoff; ARQ boundedness; L4 Witness packet; Beacon remains upstream recognition/gate discipline; CGAM agents remain workers, not authority.
+- non_claims: not legal certification; not product certification; not conformance acceptance; not sealed integration; no memory write.
+
 ## Article 50 Transparency Submission Pack v0.1
 
 - package_root: `official/article50-transparency-submission/v0_1/`

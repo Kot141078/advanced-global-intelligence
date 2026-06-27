@@ -1,0 +1,28 @@
+{
+  "schema": "bcec-zenodo-package-0.1",
+  "package_name": "BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan",
+  "title": "Bounded Capability Extraction Clause v0.2.1",
+  "author": "Kotov Ivan",
+  "version": "0.2.1-final",
+  "package_date": "2026-06-26",
+  "language": "eng",
+  "license": "CC-BY-4.0",
+  "status": "Final textual clause / b-layer PASS reviewed draft / not sealed integration",
+  "canonical_source": "docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md",
+  "academic_pdf": "docs/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf",
+  "current_review": "reviews/BCEC_v0_2_1_final_WITNESS_REVIEW_b_layer.md",
+  "prior_review": "reviews/prior/BCEC_v0_2_final_WITNESS_REVIEW_b_layer.md",
+  "known_hashes": {
+    "source_md_sha256": "421f82cce59bf10c93b360543332cab2cba2961794d9f2345716a036b3ae064f",
+    "academic_pdf_sha256": "afa4820d364101fd9ba17d80af9ed53f6c9376e4c8a3e1609c58365b6c3f5c9c",
+    "current_review_sha256": "6a4c8cd58750dce99f4b5aa3086a1f794af7f568060aeb1b97fdaba9e33a1be5"
+  },
+  "non_claims": [
+    "not legal advice",
+    "not product certification",
+    "not conformance approval",
+    "not sealed integration",
+    "not memory write",
+    "not deployment approval"
+  ]
+}

@@ -49,6 +49,16 @@ The PDFs in this package have been rebuilt in an academic layout with cover page
 - Added a temporary high-risk rule for nested A6 recursion.
 - Reduced `Anchor Class Boundaries` Section 12 to a stable summary and pointer, avoiding duplicate operational doctrine.
 
+## Related capability-egress companion
+
+`docs/capability-egress/bcec/v0_2_1/` contains Bounded Capability Extraction Clause v0.2.1-final by Kotov Ivan.
+
+BCEC is a companion publication for A6 egress discipline: anchor composition must not pool extraction. It links A6 to anti-distillation handling, extraction source-class discipline, Synthetic Laundering handoff, EA value / contamination classes, ARQ boundedness, L4 Witness packets, ARL conflict routing, Beacon gate discipline, and CGAM worker boundaries.
+
+DOI: https://doi.org/10.5281/zenodo.20953796
+
+Status: final textual clause / b-layer PASS reviewed draft; not sealed integration.
+
 ## Minimal citation
 
 ```text

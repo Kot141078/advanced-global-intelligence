@@ -22,6 +22,7 @@ Start here:
 - Zenodo citation: `10.5281/zenodo.19384668` (all versions: `10.5281/zenodo.19384667`)
 - Core protocol (v1.1 + L4): `protocols/`
 - C-Node Boundary Documents v0.1.1 package facade: `docs/c-node-boundary-docs/README.md`
+- Bounded Capability Extraction Clause v0.2.1-final: `docs/capability-egress/bcec/v0_2_1/` | DOI: https://doi.org/10.5281/zenodo.20953796 | status: final textual clause / b-layer PASS reviewed draft; not sealed integration.
 - CCDP v0.1 — Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance. It is not legal advice, clinical guidance, product certification, or implementation approval. Root: `docs/ccdp/`; split: public package files, technical companions, sensitive-controlled review artifacts.
 
 ### CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack

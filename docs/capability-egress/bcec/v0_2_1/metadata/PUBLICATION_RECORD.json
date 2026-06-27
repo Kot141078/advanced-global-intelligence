@@ -1,0 +1,48 @@
+{
+  "schema_version": "bcec-publication-record-0.2.1",
+  "title": "Bounded Capability Extraction Clause v0.2.1-final",
+  "short_name": "BCEC v0.2.1",
+  "author": "Kotov Ivan",
+  "year": 2026,
+  "doi": "10.5281/zenodo.20953796",
+  "doi_url": "https://doi.org/10.5281/zenodo.20953796",
+  "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/bcec-v0.2.1",
+  "release_tag": "bcec-v0.2.1",
+  "version": "v0.2.1-final",
+  "status": "final textual clause / b-layer PASS reviewed draft",
+  "not_claims": [
+    "not sealed integration",
+    "not legal certification",
+    "not product certification",
+    "not conformance acceptance",
+    "not memory write"
+  ],
+  "canonical_markdown": "docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md",
+  "academic_pdf": "docs/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf",
+  "review_record": "reviews/BCEC_v0_2_1_final_WITNESS_REVIEW_b_layer.md",
+  "zenodo_package": "BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan",
+  "sha256": {
+    "canonical_markdown": "421f82cce59bf10c93b360543332cab2cba2961794d9f2345716a036b3ae064f",
+    "academic_pdf": "afa4820d364101fd9ba17d80af9ed53f6c9376e4c8a3e1609c58365b6c3f5c9c"
+  },
+  "bridge_targets": [
+    "A6 Composition Layer",
+    "Synthetic Laundering and Source-Class Clause",
+    "EA Value Taxonomy",
+    "ARQ",
+    "L4 Witness",
+    "ARL / Conflict Class",
+    "Beacon",
+    "CGAM / CLI Agent Mesh"
+  ],
+  "r3_release_record": {
+    "risk_class": "R3",
+    "executor_role": "publication placement executor",
+    "review_role": "not reviewer and not final authority",
+    "human_gate": "operator-supplied ITERATION2 contract requested public GitHub placement",
+    "c_gate_record": "b-layer PASS review record included; sealing and integration remain separate steps",
+    "self_approval": false
+  },
+  "created_from": "C:\\Users\\kotov\\Downloads\\BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan",
+  "repository_path": "docs/capability-egress/bcec/v0_2_1"
+}

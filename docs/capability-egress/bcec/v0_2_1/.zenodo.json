@@ -1,0 +1,30 @@
+{
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "affiliation": "Independent Researcher, Brussels, Belgium"
+    }
+  ],
+  "title": "Bounded Capability Extraction Clause v0.2.1",
+  "version": "0.2.1-final",
+  "publication_date": "2026-06-26",
+  "description": "<p><em>Bounded Capability Extraction Clause v0.2.1</em> defines egress metering, extraction source-classes, anti-distillation discipline, composition caps, witness packet requirements, and re-admission handoff for c-class capability extraction from external oracles.</p><p>The package contains the canonical Markdown source, an academic PDF rendering, and a witness-compatible b-layer review record. The b-layer review verdict is PASS, while sealing and integration remain separate steps.</p>",
+  "keywords": [
+    "AI governance",
+    "c=a+b",
+    "bounded capability extraction",
+    "external oracle",
+    "anti-distillation",
+    "provenance",
+    "A6 composition",
+    "L4 Witness",
+    "synthetic laundering",
+    "capability egress"
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "language": "eng",
+  "access_right": "open",
+  "notes": "Final textual clause and academic rendering. b-layer PASS reviewed draft. Not sealed integration, not legal advice, not product certification, and not deployment approval."
+}

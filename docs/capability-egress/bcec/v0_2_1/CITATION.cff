@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Bounded Capability Extraction Clause v0.2.1"
+version: "0.2.1-final"
+date-released: "2026-06-26"
+type: generic
+license: "CC-BY-4.0"
+message: "If you use this document, please cite the Zenodo DOI once assigned."
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    affiliation: "Independent Researcher, Brussels, Belgium"
+abstract: >-
+  Bounded Capability Extraction Clause v0.2.1 defines egress metering,
+  extraction source classes, anti-distillation discipline, composition caps,
+  witness packet requirements, and re-admission handoff for c-class capability
+  extraction from external oracles.
+keywords:
+  - AI governance
+  - c=a+b
+  - bounded capability extraction
+  - external oracles
+  - anti-distillation
+  - provenance
+  - A6 composition
+  - witness records
+  - synthetic laundering

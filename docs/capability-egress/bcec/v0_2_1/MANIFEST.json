@@ -1,0 +1,74 @@
+{
+  "schema": "bcec-package-manifest-0.2.1-repository-placement",
+  "package": "BCEC_v0_2_1_Zenodo_Package_Kotov_Ivan",
+  "generated_at": "2026-06-27T00:00:00Z",
+  "hash_algorithm": "SHA-256",
+  "self_hashing_note": "MANIFEST and SHA256SUMS are repository-placement generated artifacts; SHA256SUMS intentionally excludes itself.",
+  "files": [
+    {
+      "path": ".zenodo.json",
+      "size_bytes": 1345,
+      "sha256": "2a32ff865bb22cf8138aaeb5731b27d7ecbbbbe134176c2f979a9da0c1776a59"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 827,
+      "sha256": "4630fa19100c9b01bec6c63e13bc01377e0129d56842d7677fdbd453689e8d9b"
+    },
+    {
+      "path": "docs/BCEC_v0_2_1_final_Kotov_Ivan_academic.pdf",
+      "size_bytes": 156158,
+      "sha256": "afa4820d364101fd9ba17d80af9ed53f6c9376e4c8a3e1609c58365b6c3f5c9c"
+    },
+    {
+      "path": "docs/Bounded_Capability_Extraction_Clause_v0_2_1_final.md",
+      "size_bytes": 57137,
+      "sha256": "421f82cce59bf10c93b360543332cab2cba2961794d9f2345716a036b3ae064f"
+    },
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 688,
+      "sha256": "77d07c3c1a67a84bb0817256b1c78ddb36dffe6bc926c8921931ae3abcccee15"
+    },
+    {
+      "path": "metadata/BCEC_v0_2_1_package_metadata.json",
+      "size_bytes": 1190,
+      "sha256": "4b82797b0b2eb554a5fff629139a488fb706eb060b5bfcd0164c05184aea3d82"
+    },
+    {
+      "path": "metadata/PUBLICATION_RECORD.json",
+      "size_bytes": 1957,
+      "sha256": "c42a1712814135e391595abdfc7d389ad36df801106d7589146befc09ada6ae4"
+    },
+    {
+      "path": "metadata/RECORD_STATUS.yaml",
+      "size_bytes": 501,
+      "sha256": "ec9869120a51690e74ebd37e48b494c8fc0154e7881fac48e365414ccc1ca099"
+    },
+    {
+      "path": "PACKAGE_AUDIT.md",
+      "size_bytes": 685,
+      "sha256": "e9695f5f805d4c037a83be3e075722f37e2d9402642469183228826ee7f95265"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3368,
+      "sha256": "93b051d85541a2705c9a32a36d189e260778a90d73cc74fa77a7d48ee23fddc6"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size_bytes": 1138,
+      "sha256": "7b841dc6a0ca6b3fbcebc53fde5681054cd55a4091e83e1690d8eb55a41a774a"
+    },
+    {
+      "path": "reviews/BCEC_v0_2_1_final_WITNESS_REVIEW_b_layer.md",
+      "size_bytes": 13142,
+      "sha256": "6a4c8cd58750dce99f4b5aa3086a1f794af7f568060aeb1b97fdaba9e33a1be5"
+    },
+    {
+      "path": "reviews/prior/BCEC_v0_2_final_WITNESS_REVIEW_b_layer.md",
+      "size_bytes": 15480,
+      "sha256": "a7b8de2da483f5ad838e6b628306fdf0dd9f61326dcd65d63b5bf0a46c743f17"
+    }
+  ]
+}

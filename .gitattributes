@@ -3,6 +3,11 @@ hashes/*.txt text eol=lf
 *.pdf binary
 *.docx binary
 
+# BCEC v0.2.1 package mirrors public Markdown artifacts with intentional
+# hard-break trailing spaces; preserve bytes instead of rewriting hashes.
+docs/capability-egress/bcec/v0_2_1/*.md whitespace=-blank-at-eol
+docs/capability-egress/bcec/v0_2_1/docs/*.md whitespace=-blank-at-eol
+
 # c Hardening Pack v0.1 integrity-sensitive text files
 hardening/c_hardening_pack_v0_1/*.json text eol=lf
 hardening/c_hardening_pack_v0_1/*.cff text eol=lf
