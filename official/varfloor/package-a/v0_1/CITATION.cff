@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use VARFLOOR Package A v0.1, please cite it as below."
+title: "VARFLOOR Package A v0.1: Theory, Methodology, and Appendix Ledger for Variety Floor Monitoring"
+version: "v0.1"
+doi: "10.5281/zenodo.21125117"
+url: "https://doi.org/10.5281/zenodo.21125117"
+type: report
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+date-released: "2026-07-02"
+abstract: "Theory, methodology, and appendix-ledger package for VARFLOOR variety floor monitoring. The public archive contains 18 PDFs and 18 Markdown companions. Package B and Package C are not included."
+license: "CC-BY-4.0"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+

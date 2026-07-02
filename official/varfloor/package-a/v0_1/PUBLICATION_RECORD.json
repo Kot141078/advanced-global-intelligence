@@ -1,0 +1,37 @@
+{
+  "title": "VARFLOOR Package A v0.1: Theory, Methodology, and Appendix Ledger for Variety Floor Monitoring",
+  "doi": "10.5281/zenodo.21125117",
+  "doi_url": "https://doi.org/10.5281/zenodo.21125117",
+  "zenodo_record_url": "https://zenodo.org/records/21125117",
+  "publication_date": "2026-07-02",
+  "record_id": "21125117",
+  "uploaded_file_name": "VARFLOOR_Package_A_v0_1.zip",
+  "uploaded_file_sha256": "2D3945333BC6AED62F7797464121D3626A83D81F26BB2A091D45CCF8A5CFDA59",
+  "license": "CC-BY-4.0",
+  "version": "v0.1",
+  "author": {
+    "name": "Kotov Ivan",
+    "orcid": "0009-0009-6002-9845"
+  },
+  "github_metadata_bridge_path": "official/varfloor/package-a/v0_1/",
+  "website_url": "https://ivankotov.eu/publications/varfloor-package-a-v0-1/",
+  "canonical_archive": "Zenodo",
+  "package_contents_summary": {
+    "pdf_documents": 18,
+    "markdown_companions": 18,
+    "package_b_included": false,
+    "package_c_included": false
+  },
+  "non_claims": [
+    "No conformance claim.",
+    "No live-c readiness claim.",
+    "No all-gaps-found claim.",
+    "No Article 50 compliance-certification claim.",
+    "No AI Act conformity-assessment claim.",
+    "No child-safety certification claim.",
+    "No deployment approval claim.",
+    "No Package B publication.",
+    "No Package C publication."
+  ]
+}
+
