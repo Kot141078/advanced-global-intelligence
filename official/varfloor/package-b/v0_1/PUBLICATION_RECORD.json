@@ -1,0 +1,51 @@
+{
+  "title": "VARFLOOR Package B v0.1: Pure Validator External Bench Software Package",
+  "doi": "10.5281/zenodo.21137756",
+  "doi_url": "https://doi.org/10.5281/zenodo.21137756",
+  "zenodo_record_url": "https://zenodo.org/records/21137756",
+  "concept_doi": "10.5281/zenodo.21137755",
+  "version_doi": "10.5281/zenodo.21137756",
+  "publication_date": "2026-07-02",
+  "record_id": "21137756",
+  "uploaded_file_name": "VARFLOOR_Package_B_Pure_Validator_v0_1.zip",
+  "uploaded_file_sha256": "1866d6f5d75af34e2aa55480e0f5b2fba2b2a567ae211d74093e207225b84315",
+  "record_license": "AGPL-3.0-only",
+  "documentation_reports_license": "CC-BY-4.0",
+  "version": "v0.1",
+  "resource_type": "Software",
+  "author": {
+    "name": "Kotov Ivan",
+    "orcid": "0009-0009-6002-9845"
+  },
+  "github_metadata_bridge_path": "official/varfloor/package-b/v0_1/",
+  "website_url": "https://ivankotov.eu/publications/varfloor-package-b-v0-1/",
+  "canonical_archive": "Zenodo",
+  "package_contents_summary": {
+    "public_pdf_count": 2,
+    "public_markdown_companions": 2,
+    "public_package_file_count": 74,
+    "software_freeze_included": true,
+    "unpacked_software_freeze_included": true,
+    "source_intake_archive_included": true,
+    "package_a_included": false,
+    "package_c_included": false
+  },
+  "license_split": {
+    "code_and_software": "AGPL-3.0-only",
+    "documentation_and_reports": "CC-BY-4.0"
+  },
+  "non_claims": [
+    "No implementation conformance claim.",
+    "No live-c readiness claim.",
+    "No all-gaps-found claim.",
+    "No Tomara integration claim.",
+    "No runtime adapter claim.",
+    "No runtime integration claim.",
+    "No Article 50 compliance-certification claim.",
+    "No AI Act conformity-assessment claim.",
+    "No child-safety certification claim.",
+    "No deployment approval claim.",
+    "No Package C publication.",
+    "No legal advice."
+  ]
+}

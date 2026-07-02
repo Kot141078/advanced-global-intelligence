@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use VARFLOOR Package B v0.1, please cite it as below."
+title: "VARFLOOR Package B v0.1: Pure Validator External Bench Software Package"
+version: "v0.1"
+doi: "10.5281/zenodo.21137756"
+url: "https://doi.org/10.5281/zenodo.21137756"
+type: software
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+date-released: "2026-07-02"
+abstract: "Pure validator external bench software package for VARFLOOR. The public archive contains the software freeze, unpacked freeze, source-intake archive, 2 PDFs, 2 Markdown companions, manifests, and selected reports. Package C is not included."
+license: "AGPL-3.0-only"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
