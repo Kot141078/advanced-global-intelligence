@@ -3,6 +3,13 @@ hashes/*.txt text eol=lf
 *.pdf binary
 *.docx binary
 
+# C-Calculus / Governed Binding Stack v0.1 publication surface.
+# Keep text line endings stable for SHA256SUMS; preserve ZIP/PDF bytes.
+publications/ccalc-full-stack-v0-1/** text eol=lf
+publications/ccalc-full-stack-v0-1/**/*.zip binary
+publications/ccalc-full-stack-v0-1/**/*.pdf binary
+publications/ccalc-full-stack-v0-1/** whitespace=-blank-at-eol
+
 # BCEC v0.2.1 package mirrors public Markdown artifacts with intentional
 # hard-break trailing spaces; preserve bytes instead of rewriting hashes.
 docs/capability-egress/bcec/v0_2_1/*.md whitespace=-blank-at-eol

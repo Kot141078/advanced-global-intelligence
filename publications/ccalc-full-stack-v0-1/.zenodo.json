@@ -1,0 +1,42 @@
+{
+  "title": "C-Calculus / Governed Binding Stack v0.1: Operational Algebra for c = a + b, Continuity, Self-Evolution, Runtime Authority, Public Evidence, Interoperability, Deployment, and Protected Plus Boundary",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "affiliation": "Independent Researcher, Bruxelles, Belgique",
+      "orcid": "0009-0009-6002-9845"
+    }
+  ],
+  "description": "This package contains the CCALC / C-calculus governed binding stack v0.1. It defines a typed, governed operational stack for c = a + b. It treats + as a governed non-collapsing binding boundary and protects it from reduction to b. It includes continuity, self-evolution, runtime authority, public evidence, interoperability, deployment/release, and plus-boundary layers. DOI-bound GitHub publication bridge for https://doi.org/10.5281/zenodo.21205427.",
+  "publication_date": "2026-07-05",
+  "doi": "10.5281/zenodo.21205427",
+  "keywords": [
+    "c-calculus",
+    "c = a + b",
+    "governed binding",
+    "operational algebra",
+    "continuity semantics",
+    "self-evolution gate",
+    "runtime authority",
+    "public evidence redaction",
+    "interoperability",
+    "regulated release",
+    "protected incompleteness",
+    "AI governance",
+    "witness records",
+    "memory gate",
+    "L4 reality boundary"
+  ],
+  "access_right": "open",
+  "notes": "Primary Zenodo license: CC BY 4.0 for the documentation/research corpus. Executable checker/helper code included in component packages is available under MIT unless a component package states otherwise. This package is not legal advice, not privacy-law certification, not safety certification, not deployment authorization, not standards compliance certification, not regulated approval, not C-A1 ratification, not personhood proof, not consciousness proof, not live-substrate truth, and not proof of completeness. + is not what computes c; + is what prevents c from being reduced to b.",
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/ccalc-full-stack-v0-1",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "C-Calculus / Governed Binding Stack v0.1: Operational Algebra for c = a + b, Continuity, Self-Evolution, Runtime Authority, Public Evidence, Interoperability, Deployment, and Protected Plus Boundary",
+  "author": "Kotov Ivan",
+  "author_line": "Kotov Ivan, Bruxelles, Belgique - 2026",
+  "orcid": "0009-0009-6002-9845",
+  "publication_date": "2026-07-05",
+  "doi": "10.5281/zenodo.21205427",
+  "doi_url": "https://doi.org/10.5281/zenodo.21205427",
+  "github_repository": "Kot141078/advanced-global-intelligence",
+  "github_path": "publications/ccalc-full-stack-v0-1",
+  "package_zip": "package/CCALC_FULL_STACK_01_10_ZENODO_PACKAGE_v0_1__zenodo_21205427__CLEAN.zip",
+  "package_zip_sha256": "8281cc61d83623133319aa00c7cab85a03d2e6b08ec205363e3afbdface64f26",
+  "status": "GitHub publication bridge prepared for DOI-bound Zenodo package; no Zenodo mutation, no GitHub Release creation, and no push performed by this run.",
+  "summary": {
+    "source_markdown_count": 29,
+    "pdf_count": 29,
+    "component_zip_count": 45,
+    "checker_runs_total": 47,
+    "checker_runs_fail_or_error": 0,
+    "sidecar_mismatch_count_from_clean_audit": 4,
+    "duplicate_conflict_count": 0
+  },
+  "non_claims": [
+    "not legal advice",
+    "not privacy-law certification",
+    "not safety certification",
+    "not deployment authorization",
+    "not standards compliance certification",
+    "not regulated approval",
+    "not C-A1 ratification",
+    "not personhood proof",
+    "not consciousness proof",
+    "not live-substrate truth",
+    "not proof of completeness"
+  ],
+  "license": {
+    "primary_zenodo_license": "cc-by-4.0",
+    "documentation_and_corpus": "CC-BY-4.0",
+    "code_and_checker_seeds": "MIT"
+  },
+  "human_decisions_required": [
+    "Manual review before any push or GitHub Release creation."
+  ]
+}
