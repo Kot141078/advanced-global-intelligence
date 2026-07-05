@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use VARFLOOR Package C v0.1, please cite it as below."
+title: "VARFLOOR Package C v0.1: Safe External Validation and Deployment Guidance"
+version: "v0.1"
+doi: "10.5281/zenodo.21141532"
+url: "https://doi.org/10.5281/zenodo.21141532"
+type: report
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+date-released: "2026-07-02"
+abstract: "Safe external validation and deployment guidance package for VARFLOOR. The public archive contains 2 PDFs, 7 Markdown guides, metadata, manifests, checksums, source-use notes, redaction summaries, and review summaries. Package A and Package B are related context only and are not republished."
+license: "CC-BY-4.0"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+

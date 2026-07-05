@@ -1,0 +1,52 @@
+{
+  "title": "VARFLOOR Package C v0.1: Safe External Validation and Deployment Guidance",
+  "doi": "10.5281/zenodo.21141532",
+  "doi_url": "https://doi.org/10.5281/zenodo.21141532",
+  "zenodo_record_url": "https://zenodo.org/records/21141532",
+  "publication_date": "2026-07-02",
+  "record_id": "21141532",
+  "uploaded_file_name": "VARFLOOR_Package_C_Safe_External_Validation_Guidance_v0_1.zip",
+  "uploaded_file_sha256": "d35ca5535afc93c299fbf1c51f82da2150818c7efdf4e305f018e5283fe8b6fe",
+  "license": "CC-BY-4.0",
+  "version": "v0.1",
+  "resource_type": "Publication / Report",
+  "author": {
+    "name": "Kotov Ivan",
+    "orcid": "0009-0009-6002-9845"
+  },
+  "github_metadata_bridge_path": "official/varfloor/package-c/v0_1/",
+  "website_url": "https://ivankotov.eu/publications/varfloor-package-c-v0-1/",
+  "canonical_archive": "Zenodo",
+  "package_contents_summary": {
+    "pdf_count": 2,
+    "markdown_guide_count": 7,
+    "metadata_manifests_checksums_included": true,
+    "source_use_notes_included": true,
+    "redaction_summaries_included": true,
+    "review_summaries_included": true,
+    "source_intake_zip_included": false,
+    "package_a_included": false,
+    "package_b_included": false
+  },
+  "related_context_only": [
+    "VARFLOOR Package A v0.1",
+    "VARFLOOR Package B v0.1"
+  ],
+  "non_claim_boundary": "This package provides public guidance for safe external validation and deployment review. It is documentation-only and does not claim implementation conformance, live-c readiness, all-gaps-found coverage, Tomara integration, runtime adapter inclusion, runtime integration, production deployment approval, ordinary-user safe deployment of c without governance, AI Act conformity assessment, Article 50 compliance certification, child-safety certification, legal advice, or Package A/B republication.",
+  "non_claims": [
+    "No implementation conformance claim.",
+    "No live-c readiness claim.",
+    "No all-gaps-found coverage claim.",
+    "No Tomara integration claim.",
+    "No runtime adapter inclusion claim.",
+    "No runtime integration claim.",
+    "No production deployment approval claim.",
+    "No ordinary-user safe deployment of c without governance claim.",
+    "No AI Act conformity assessment claim.",
+    "No Article 50 compliance certification claim.",
+    "No child-safety certification claim.",
+    "No legal advice.",
+    "No Package A/B republication."
+  ]
+}
+
