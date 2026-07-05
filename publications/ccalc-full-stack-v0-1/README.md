@@ -49,7 +49,9 @@ Read the stack in order from the operational algebra and binding profile, throug
 
 ## The plus boundary
 
+```text
 + is not what computes c; + is what prevents c from being reduced to b.
+```
 
 The stack treats `+` as a governed non-collapsing binding boundary. It prevents the `c = a + b` relation from being collapsed into the `b` layer, even when the package includes checker results, evidence maps, release manifests, or deployment-oriented documents.
 
@@ -106,4 +108,6 @@ Machine-readable citation metadata is in `CITATION.cff` and `.zenodo.json`.
 
 This package is not legal advice, not privacy-law certification, not safety certification, not deployment authorization, not standards compliance certification, not regulated approval, not C-A1 ratification, not personhood proof, not consciousness proof, not live-substrate truth, and not proof of completeness.
 
+```text
 + is not what computes c; + is what prevents c from being reduced to b.
+```
