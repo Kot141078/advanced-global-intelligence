@@ -166,6 +166,51 @@
         "Verify package/ contains 12 Markdown files and 12 matching PDFs.",
         "Verify Mode A statement: baseline files are not modified in place."
       ]
+    },
+    {
+      "id": "adult-owner-dependency-d4-detection-v0-1-1",
+      "title": "Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1",
+      "package_root": "publications/adult-owner-dependency-d4-detection-v0-1-1/",
+      "citation_file": "publications/adult-owner-dependency-d4-detection-v0-1-1/CITATION.cff",
+      "publication_record": "publications/adult-owner-dependency-d4-detection-v0-1-1/PUBLICATION_RECORD.json",
+      "zenodo_record": "publications/adult-owner-dependency-d4-detection-v0-1-1/ZENODO_RECORD.md",
+      "sha256_manifest": "publications/adult-owner-dependency-d4-detection-v0-1-1/SHA256SUMS.txt",
+      "license": "CC BY 4.0",
+      "doi": "10.5281/zenodo.21207504",
+      "doi_url": "https://doi.org/10.5281/zenodo.21207504",
+      "concept_doi": "10.5281/zenodo.21207503",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21207503",
+      "zenodo_record_url": "https://zenodo.org/records/21207504",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/adult-owner-dependency-d4-detection-v0.1.1",
+      "github_release_tag": "adult-owner-dependency-d4-detection-v0.1.1",
+      "release_status": "published",
+      "publication_date": "2026-07-05",
+      "status": "Final assembled draft v0.1.1 — not ratified; pending a-gate review.",
+      "zip_sha256": "07387ff100e0a0af004d18c619c2d7aa4da31ff18fb07ca2bb3a71c258d1e373",
+      "master_pdf_sha256": "314789500566e31ccfe9f2461fcb7dd17b7499e7c9c18951a7363b64e86b4dcd",
+      "package_zip_in_repo": false,
+      "release_assets": [
+        "ADULT_OWNER_DEPENDENCY_AND_D4_DETECTION_ZENODO_PACKAGE_v0_1_1.zip",
+        "ADULT_OWNER_DEPENDENCY_AND_D4_DETECTION_BOUNDARY_PACKET_MASTER_v0_1_1.pdf"
+      ],
+      "non_claims": [
+        "Not clinical validation.",
+        "Not certified safety.",
+        "Not deployment authorization.",
+        "Not legal crisis-reporting compliance.",
+        "Not personhood or consciousness claim.",
+        "Detection is estimate over observable signals, not internal-state measurement.",
+        "Calibration improves the operating point; it does not make the estimate true.",
+        "Fully sovereign adult owner cannot be guaranteed protection from self-induced dependency inside a closed private box."
+      ],
+      "verification_steps": [
+        "Parse PUBLICATION_RECORD.json as JSON.",
+        "Parse package-level CITATION.cff as YAML.",
+        "Verify Zenodo DOI resolves to the published record.",
+        "Verify ZIP SHA-256 against the published Zenodo package asset.",
+        "Verify GitHub release assets after release creation.",
+        "Verify package status remains not ratified and pending a-gate review."
+      ]
     }
   ]
 }

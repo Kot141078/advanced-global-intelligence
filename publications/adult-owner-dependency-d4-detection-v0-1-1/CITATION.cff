@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: If you use this package, cite it as below.
+title: Adult-Owner Dependency and D4 Detection Boundary Packet v0.1.1
+authors:
+- family-names: Kotov
+  given-names: Ivan
+  affiliation: Independent researcher, Bruxelles, Belgique
+version: v0.1.1
+doi: 10.5281/zenodo.21207504
+license: CC-BY-4.0
+date-released: '2026-07-05'
+abstract: 'Publication package for Adult-Owner Dependency and D4 Detection Boundary
+  Packet v0.1.1. Status: Final assembled draft v0.1.1 — not ratified; pending a-gate
+  review. Claude / b-channel provenance remains advisory provenance where present
+  and is not publication authorship.'
