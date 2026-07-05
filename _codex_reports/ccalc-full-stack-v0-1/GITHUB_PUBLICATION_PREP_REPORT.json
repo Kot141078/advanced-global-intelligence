@@ -1,0 +1,57 @@
+{
+  "contract": "CODEX_ITERATION_GITHUB_PUBLICATION_03.md",
+  "repository_root": "Kot141078/advanced-global-intelligence",
+  "repository_local_path_redacted": true,
+  "branch": "release/ccalc-full-stack-v0.1-zenodo-21205427",
+  "commit_sha": "pending until local commit",
+  "pushed": false,
+  "github_release_created": false,
+  "publication_folder": "publications/ccalc-full-stack-v0-1",
+  "reports_folder": "_codex_reports/ccalc-full-stack-v0-1",
+  "doi": "https://doi.org/10.5281/zenodo.21205427",
+  "final_clean_zip_sha256_expected": "8281cc61d83623133319aa00c7cab85a03d2e6b08ec205363e3afbdface64f26",
+  "final_clean_zip_sha256_observed": "8281cc61d83623133319aa00c7cab85a03d2e6b08ec205363e3afbdface64f26",
+  "package_zip_path": "package/CCALC_FULL_STACK_01_10_ZENODO_PACKAGE_v0_1__zenodo_21205427__CLEAN.zip",
+  "package_zip_readable": true,
+  "clean_package_member_count": 492,
+  "counts": {
+    "publication_files_hashed": 192,
+    "academic_pdf_count": 29,
+    "source_markdown_count": 29,
+    "component_zip_count": 45,
+    "component_zip_sidecar_count": 45,
+    "release_evidence_file_count": 8
+  },
+  "checks": {
+    "sha256sums_generated": true,
+    "sha256sums_verified": true,
+    "sha256sums_error_count": 0,
+    "cff_ok": true,
+    "zenodo_json_ok": true,
+    "zenodo_json_parsed": true,
+    "publication_record_parsed": true,
+    "path_leak_scan_hit_count": 0,
+    "secret_scan_hit_count": 0,
+    "prepublication_doi_wording_hit_count": 0,
+    "non_claims_exact_sentence_present": true,
+    "plus_boundary_exact_sentence_present": true,
+    "root_readme_updated": true,
+    "gitattributes_publication_rule_added": true
+  },
+  "leak_hits": null,
+  "secret_hits": null,
+  "prepublication_doi_wording_hits": null,
+  "human_decisions": [
+    "Review branch before push.",
+    "Set PUSH_TO_REMOTE=1 in a separate explicit instruction before any push.",
+    "Set CREATE_GITHUB_RELEASE=1 in a separate explicit instruction before any GitHub Release creation."
+  ],
+  "diff_summary": [
+    "Added publications/ccalc-full-stack-v0-1 GitHub publication surface.",
+    "Added sanitized compact release evidence and corrected component ZIP sidecars.",
+    "Added publication prep report under _codex_reports/ccalc-full-stack-v0-1.",
+    "Updated root README with a compact publication entry only.",
+    "Added a narrow .gitattributes rule for stable publication-folder text line endings and ZIP/PDF binary preservation."
+  ],
+  "open_issues": []
+}

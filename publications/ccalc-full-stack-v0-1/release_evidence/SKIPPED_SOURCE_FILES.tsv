@@ -1,0 +1,8 @@
+file	reason	sha256
+00_FULL_STACK_AUDIT_PREPASS_REPORT_v0_1.md	source prepass report, copied under audit/source_reports	a09320693e892a6ea0af26393383a68489a880d01ceaafc76941823c6cd3df70
+CODEX_FULL_STACK_AUDIT_CONTRACT_v0_1.md	operator contract, copied under audit/contract if needed, not a source document	5e4abbff66f1ddacb0dc56fd74a4204638c3214b51942dc9b5549784dbc6499e
+CODEX_ITERATION_ZENODO_PDF_PACKAGE_01.md	operator contract, copied under audit/contract, not a source document	3dc1d4d6188cac5fe58ec8ad855df1a8c75d1184dcc7d12b7cbe4c08d86e5f8a
+Fable 5.txt	not a canonical CCALC stack source document for this Zenodo package	1dfd4d1bfd3d5db9126eef10e5c5d431ee35e19173e967e5b405cb6fe13d37eb
+FULL_STACK_AUDIT_ARTIFACTS_SHA256SUMS.txt	source prepass checksum report, copied under audit/source_reports	757fac1d3aa118766bd55d2f9b0d5460b8139c7c7534a11d176fcacd90b15d1f
+FULL_STACK_AUDIT_REPORT_SANDBOX_PREPASS_v0_1.json	source prepass report, copied under audit/source_reports	24d03ca3d114d9b5346281e8c9aa19f7d7f7ffeee134f8ba785300d3fe54cf54
+Self-evo c - Architectural Concept Design.pdf	standalone source PDF, not requested as a canonical CCALC 01-10 source PDF	291c85636066453e3690a99effea672fc168df82524ac8ad9a513fe8e21ef845

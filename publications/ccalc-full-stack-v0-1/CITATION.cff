@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "C-Calculus / Governed Binding Stack v0.1: Operational Algebra for c = a + b, Continuity, Self-Evolution, Runtime Authority, Public Evidence, Interoperability, Deployment, and Protected Plus Boundary"
+message: "If you use this package, cite the Zenodo DOI."
+type: report
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+date-released: "2026-07-05"
+doi: "10.5281/zenodo.21205427"
+url: "https://doi.org/10.5281/zenodo.21205427"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+license: CC-BY-4.0
+abstract: "This package contains the CCALC / C-calculus governed binding stack v0.1. It defines a typed, governed operational stack for c = a + b. It treats + as a governed non-collapsing binding boundary and protects it from reduction to b. It includes continuity, self-evolution, runtime authority, public evidence, interoperability, deployment/release, and plus-boundary layers."
