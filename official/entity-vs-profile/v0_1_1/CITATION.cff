@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Entity vs. Profile: A Witness-Root Custody Criterion for Persistent Digital Entities"
+version: "v0.1.1"
+doi: "10.5281/zenodo.21204415"
+url: "https://doi.org/10.5281/zenodo.21204415"
+type: report
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+date-released: "2026-07-05"
+abstract: "Technical note defining witness-root custody as a custodial criterion for distinguishing persistent digital entities from persistent digital profiles."
+license: "CC-BY-4.0"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
