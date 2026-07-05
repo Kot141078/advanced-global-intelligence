@@ -12,7 +12,22 @@
 **Zenodo record:** <https://zenodo.org/records/21204415>  
 **Canonical archive:** Zenodo  
 
-This directory is the GitHub metadata bridge for the Zenodo-published v0.1.1 technical note.
+## What this is
+
+This directory is not the full archive payload. It is the GitHub metadata bridge for the Zenodo-published v0.1.1 technical note. Zenodo remains the canonical archive for the ZIP and academic PDF.
+
+The note defines a custody-based distinction between persistent digital entities and persistent digital profiles.
+
+## Why this exists
+
+Persistent AI systems can be marketed as companions, assistants, AI twins, or entities. Behaviour alone cannot distinguish whether the system is internally rooted or externally controlled. The note proposes witness-root custody as the standards-facing criterion.
+
+## Core criterion
+
+```text
+Internal closed-box a-side custody -> entity possible.
+External custody, escrow, registry root, platform root, usable root copy, or override -> profile.
+```
 
 Zenodo is the canonical archive for the uploaded ZIP package. This GitHub path records the DOI, citation metadata, integrity checksum, source boundary, review disposition, open issues, and non-claim boundary.
 
@@ -53,4 +68,3 @@ Maximum claim strength: **EVP-C3 — evidence model proposal**.
 - `OPEN_ISSUES.md` — carried open issues for v0.2.
 - `RELEASE_NOTES.md` — release notes.
 - `LICENSE.md` — CC BY 4.0 license note.
-
