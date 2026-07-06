@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "A6 Composition Transition Predicate Addendum v0.1.4: EXIT / SPLIT / HOLD / DISSOLVE Classification for Governed Composition"
+version: "v0.1.4"
+doi: "10.5281/zenodo.21227129"
+date-released: 2026-07-06
+license: "CC-BY-4.0"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21227129"
+    description: "Version DOI"
+  - type: doi
+    value: "10.5281/zenodo.21227128"
+    description: "Concept DOI"
+  - type: doi
+    value: "10.5281/zenodo.20752182"
+    description: "Parent A6 DOI"
+abstract: >-
+  Bounded addendum defining the A6 composition transition predicate for
+  EXIT, SPLIT, HOLD, and DISSOLVE classification under governed binding.
+  The package includes the reviewed Markdown source, academic PDF,
+  b-layer review records, and hash-verification records. It supplements
+  A6 Composition Layer v0.1.1 and does not replace, silently amend, or
+  supersede the parent DOI artifact.
+keywords:
+  - c=a+b
+  - A6
+  - A6-CTP
+  - governed binding
+  - composition transition
+  - EXIT
+  - SPLIT
+  - HOLD
+  - DISSOLVE
+  - unique lawful successor
+  - lawful successor
+  - standing
+  - witness lineage
+  - ARL
+  - CGAM
+  - L4 Witness
+  - AI governance
+  - continuity
+  - predicate classification
+  - claim strength
+  - anti-laundering
+  - bounded addendum
+references:
+  - type: generic
+    title: "A6 Composition Layer v0.1.1"
+    doi: "10.5281/zenodo.20752182"

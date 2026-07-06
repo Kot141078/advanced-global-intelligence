@@ -1,0 +1,57 @@
+{
+  "access_right": "open",
+  "creators": [
+    {
+      "affiliation": "Independent researcher",
+      "name": "Kotov, Ivan",
+      "orcid": "0009-0009-6002-9845"
+    }
+  ],
+  "description": "Bounded addendum defining the A6 composition transition predicate for EXIT, SPLIT, HOLD, and DISSOLVE classification under governed binding. The package publishes the reviewed Markdown source, academic PDF, b-layer review records, and hash-verification records. It supplements A6 Composition Layer v0.1.1 and does not replace, silently amend, or supersede the parent DOI artifact. Status: draft bounded addendum, not deployment-ready, no conformance claim, not legal advice, not product certification, and not a safety proof.",
+  "doi": "10.5281/zenodo.21227129",
+  "keywords": [
+    "c=a+b",
+    "A6",
+    "A6-CTP",
+    "governed binding",
+    "composition transition",
+    "EXIT",
+    "SPLIT",
+    "HOLD",
+    "DISSOLVE",
+    "unique lawful successor",
+    "lawful successor",
+    "standing",
+    "witness lineage",
+    "ARL",
+    "CGAM",
+    "L4 Witness",
+    "AI governance",
+    "continuity",
+    "predicate classification",
+    "claim strength",
+    "anti-laundering",
+    "bounded addendum"
+  ],
+  "license": "cc-by-4.0",
+  "notes": "Version DOI: 10.5281/zenodo.21227129. Concept DOI: 10.5281/zenodo.21227128. Parent A6 DOI: 10.5281/zenodo.20752182. The reviewed Markdown artifact header still contains Parent DOI: TBD and is intentionally not rewritten after b-layer review closure; the parent DOI is supplied in package metadata and sidecar files.",
+  "publication_date": "2026-07-06",
+  "publication_type": "technicalnote",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21227128",
+      "relation": "isVersionOf",
+      "resource_type": "publication-technicalnote",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.20752182",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-technicalnote",
+      "scheme": "doi"
+    }
+  ],
+  "title": "A6 Composition Transition Predicate Addendum v0.1.4: EXIT / SPLIT / HOLD / DISSOLVE Classification for Governed Composition",
+  "upload_type": "publication",
+  "version": "v0.1.4"
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "a6-ctp-zenodo-package-manifest-0.2-github-placement",
+  "package_id": "A6_CTP_v0_1_4_Zenodo_10_5281_zenodo_21227129",
+  "title": "A6 Composition Transition Predicate Addendum v0.1.4: EXIT / SPLIT / HOLD / DISSOLVE Classification for Governed Composition",
+  "version": "v0.1.4",
+  "version_doi": "10.5281/zenodo.21227129",
+  "concept_doi": "10.5281/zenodo.21227128",
+  "parent_a6_doi": "10.5281/zenodo.20752182",
+  "license": "CC-BY-4.0",
+  "created_at_utc": "2026-07-06T20:04:27Z",
+  "github_placement_updated_at_utc": "2026-07-06T21:44:07Z",
+  "author": {
+    "name": "Kotov Ivan",
+    "orcid": "0009-0009-6002-9845",
+    "location": "Bruxelles, Belgium"
+  },
+  "primary_hashes": {
+    "markdown": "61126c2d8a71a03eaa301f181168d02c1334ad0a3c5b68d778a6565707eb6152",
+    "pdf": "b371dace3e74e59e32fa736f5ac3bf13d9665f9856c1e7c5c30e9190955d4c89"
+  },
+  "status": {
+    "document_class": "bounded addendum / transition-predicate clarification / control-layer companion",
+    "predicate_review_cycle": "closed at draft level",
+    "remaining_work": "fixtures/checker implementation",
+    "conformance_claim": false,
+    "deployment_ready": false,
+    "replacement_of_parent": false,
+    "parent_doi_in_artifact": "TBD in reviewed artifact; supplied through README, citation, Zenodo, and sidecar metadata"
+  },
+  "files": [
+    {
+      "path": ".zenodo.json",
+      "role": "package_metadata",
+      "mime": "application/json",
+      "bytes": 2188,
+      "sha256": "8850d43f1068296b738b25b649d8585af22c436f112862910217e2170d2921b3"
+    },
+    {
+      "path": "CITATION.cff",
+      "role": "package_metadata",
+      "mime": "text/x-yaml",
+      "bytes": 1551,
+      "sha256": "e948702a0b5ee0712e552ba8b1560b76b89f6dde9f7eb6474354c9a08f25920f"
+    },
+    {
+      "path": "LICENSE-DOCS-CC-BY-4.0.md",
+      "role": "package_metadata",
+      "mime": "text/markdown",
+      "bytes": 468,
+      "sha256": "f306eddcc6423e0305770196f9d11c1ee925e41d2617876be581c2224add3d36"
+    },
+    {
+      "path": "README.md",
+      "role": "package_metadata",
+      "mime": "text/markdown",
+      "bytes": 4345,
+      "sha256": "f69199c8af397d651d153de75cbe694325ba37b696eae318f6965c9ac2419bff"
+    },
+    {
+      "path": "artifact/A6_Composition_Transition_Predicate_Addendum_v0_1_4.md",
+      "role": "primary_artifact",
+      "mime": "text/markdown",
+      "bytes": 58322,
+      "sha256": "61126c2d8a71a03eaa301f181168d02c1334ad0a3c5b68d778a6565707eb6152"
+    },
+    {
+      "path": "artifact/A6_Composition_Transition_Predicate_Addendum_v0_1_4_academic.pdf",
+      "role": "primary_artifact",
+      "mime": "application/pdf",
+      "bytes": 130263,
+      "sha256": "b371dace3e74e59e32fa736f5ac3bf13d9665f9856c1e7c5c30e9190955d4c89"
+    },
+    {
+      "path": "artifact/SHA256SUMS_A6_CTP_v0_1_4.txt",
+      "role": "primary_artifact_checksum",
+      "mime": "text/plain",
+      "bytes": 270,
+      "sha256": "573a77cea3a18daaa3991ce7195f1cb259f15c510cafc2127d999a8c5f3393c7"
+    },
+    {
+      "path": "metadata/DOI_RESERVED_NOTE_A6_CTP_v0_1_4.md",
+      "role": "metadata_sidecar",
+      "mime": "text/markdown",
+      "bytes": 1066,
+      "sha256": "6a3515032151667be32f81f38a053893a4f07d9c7a31791c50eba1da2b770c0e"
+    },
+    {
+      "path": "metadata/ZENODO_FORM_VALUES_A6_CTP_v0_1_4.md",
+      "role": "metadata_sidecar",
+      "mime": "text/markdown",
+      "bytes": 1729,
+      "sha256": "8d2ef4bdaea087f972c5a2a92713235ceb09a4e659d65c40c2ba1ef061be31e4"
+    },
+    {
+      "path": "review/A6-CTP_v0_1_1_b_layer_review_record.md",
+      "role": "review_record",
+      "mime": "text/markdown",
+      "bytes": 7556,
+      "sha256": "d0ba9a6bd03432e8263d46d56014cc5896630ff17f36353803296bf97e6380ae"
+    },
+    {
+      "path": "review/A6-CTP_v0_1_2_b_layer_review_record.md",
+      "role": "review_record",
+      "mime": "text/markdown",
+      "bytes": 9954,
+      "sha256": "f7b8d536ff03999a5aac549e86f47ead8a0799111cd10d6b3c24a704d296d048"
+    },
+    {
+      "path": "review/A6-CTP_v0_1_3_b_layer_review_record.md",
+      "role": "review_record",
+      "mime": "text/markdown",
+      "bytes": 8570,
+      "sha256": "2e988238ecb00a3814499adbc9ca44666697439b004e0b47d19272b09d29e052"
+    },
+    {
+      "path": "review/A6-CTP_v0_1_4_b_layer_review_record.md",
+      "role": "review_record",
+      "mime": "text/markdown",
+      "bytes": 7370,
+      "sha256": "b1ba2221cf0ec7e6958a91cdd767ec43fec3e5988f9581fbc020ca062c3cceeb"
+    },
+    {
+      "path": "review/A6-CTP_v0_1_4_integration_hash_verification_record.md",
+      "role": "review_record",
+      "mime": "text/markdown",
+      "bytes": 1420,
+      "sha256": "b1d5569cb9afdd9a83690b9a75d2bcdc3e1fe5bc964d1ef54a890dc8b2a0bcf8"
+    },
+    {
+      "path": "review/SHA256SUMS_A6_CTP_v0_1_4_REVIEW_RECORDS.txt",
+      "role": "review_record_checksum",
+      "mime": "text/plain",
+      "bytes": 575,
+      "sha256": "004240b9a15d67e317d2369270ec0f3805537476b6903e48d1ce62b11bba22a1"
+    }
+  ]
+}
