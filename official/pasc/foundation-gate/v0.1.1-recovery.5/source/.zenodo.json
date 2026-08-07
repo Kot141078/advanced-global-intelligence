@@ -1,0 +1,31 @@
+{
+  "title": "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-08-07",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "affiliation": "Independent Researcher, Brussels, Belgium",
+      "orcid": "0009-0009-6002-9845"
+    }
+  ],
+  "description": "A negative-only technical research framework for post-anchor succession and custody reasoning. PASC evaluates which exact negative actions may preserve evidence and reduce exposure without converting property, credentials, custody, relationship, archive access, provider control, or institutional force into successor authority. Recovery Build 5 provides an English-only public release surface, a primary academic PDF, a canonical-inventory supplement, and machine-readable Markdown and JSON sources. F0_OUTCOME=NOT_PASSED; FOUNDATION_SEMANTICS_LOCKED=false. Publication does not constitute conformance, legal advice, implementation readiness, deployment readiness, or authority to perform any operation described by the package.",
+  "access_right": "open",
+  "license": "cc-by-nc-nd-4.0",
+  "version": "v0.1.1-recovery.5",
+  "language": "eng",
+  "keywords": [
+    "artificial intelligence governance",
+    "digital entity continuity",
+    "post-anchor governance",
+    "succession",
+    "custody",
+    "negative-only authority",
+    "provenance",
+    "finality",
+    "protected-person boundary",
+    "machine-readable research package"
+  ],
+  "notes": "Technical research candidate only. F0 has not passed; foundation semantics are not locked; F1 drafting, formalization, validator work, implementation, and deployment remain prohibited."
+}

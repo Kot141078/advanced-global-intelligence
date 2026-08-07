@@ -1,0 +1,87 @@
+name: Publish PASC Foundation Gate Recovery 5 release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "official/pasc/foundation-gate/v0.1.1-recovery.5/PUBLICATION_RECORD.json"
+      - "official/pasc/foundation-gate/v0.1.1-recovery.5/GITHUB_RELEASE_NOTES.md"
+      - ".github/workflows/publish-pasc-foundation-gate-r5.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-pasc-foundation-gate-r5
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'Kot141078/advanced-global-intelligence'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TAG: pasc-foundation-gate-v0.1.1-recovery.5
+      RECORD: https://zenodo.org/records/21843823
+      ROOT: official/pasc/foundation-gate/v0.1.1-recovery.5
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download exact Zenodo files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release-assets
+          for file in \
+            PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf \
+            PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf \
+            PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip \
+            PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt
+          do
+            curl --fail --location --retry 5 --retry-all-errors \
+              "$RECORD/files/$file?download=1" \
+              --output "release-assets/$file"
+          done
+
+      - name: Verify SHA-256 and archive transport
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > release-assets/EXPECTED_SHA256SUMS.txt <<'EOF'
+          ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf  PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf
+          ef3e3d7ad4f96222fb1d9ff928957cdcc0e269d8168fb966433c942d9fcdb151  PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf
+          640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888  PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip
+          3d017ad1b3606dc13d7a4ef0d1fc84a7e34b6c9ca7b4632807623dc6500c18dc  PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt
+          EOF
+          (cd release-assets && sha256sum -c EXPECTED_SHA256SUMS.txt)
+          (cd release-assets && unzip -t PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip)
+          diff -u \
+            "$ROOT/source/SHA256SUMS.txt" \
+            <(unzip -p release-assets/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip \
+              pasc_foundation_gate_v0_1_1_recovery_5/SHA256SUMS.txt)
+
+      - name: Create or update GitHub pre-release
+        shell: bash
+        run: |
+          set -euo pipefail
+          assets=(
+            release-assets/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf
+            release-assets/PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf
+            release-assets/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip
+            release-assets/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt
+          )
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "${assets[@]}" --clobber
+            gh release edit "$TAG" \
+              --title "PASC Foundation Gate v0.1.1 — Recovery Build 5" \
+              --notes-file "$ROOT/GITHUB_RELEASE_NOTES.md" \
+              --prerelease
+          else
+            gh release create "$TAG" "${assets[@]}" \
+              --target "$GITHUB_SHA" \
+              --title "PASC Foundation Gate v0.1.1 — Recovery Build 5" \
+              --notes-file "$ROOT/GITHUB_RELEASE_NOTES.md" \
+              --prerelease
+          fi

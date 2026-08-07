@@ -67,6 +67,27 @@ Resolve package-level conflicts using `CANONICAL_PRECEDENCE.md` and fail
 closed. Unit 0 is controlled by its English TXT file; units 1–4 and unit 5 are
 controlled by their respective Russian TXT files.
 
+## Technical research publication — PASC Foundation Gate v0.1.1 Recovery Build 5
+
+- record_id: `urn:ivankotov:publication:pasc-foundation-gate:v0.1.1-recovery.5`
+- package_root: `official/pasc/foundation-gate/v0.1.1-recovery.5/`
+- version_doi: `10.5281/zenodo.21843823`
+- concept_doi: `10.5281/zenodo.21843822`
+- version: `v0.1.1-recovery.5`
+- publication_date: `2026-08-07`
+- publication_type: `technical_note`
+- language: `en`
+- author: Ivan Kotov; ORCID `0009-0009-6002-9845`
+- machine_entry: `official/pasc/foundation-gate/v0.1.1-recovery.5/MACHINE_ENTRY.md`
+- machine_index: `official/pasc/foundation-gate/v0.1.1-recovery.5/machine/index.json`
+- publication_record: `official/pasc/foundation-gate/v0.1.1-recovery.5/PUBLICATION_RECORD.json`
+- source_of_record: UTF-8 Markdown and JSON under `official/pasc/foundation-gate/v0.1.1-recovery.5/source/package/`
+- release_tag: `pasc-foundation-gate-v0.1.1-recovery.5`
+- zip_sha256: `640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888`
+- status: `F0_OUTCOME=NOT_PASSED`; `FOUNDATION_SEMANTICS_LOCKED=false`; F1 drafting, formalization/validator work, implementation, and deployment are prohibited
+- claim_ceiling: exact negative post-anchor admissibility only; no successor identity, continuity, standing, custody, keyholding, provider/jurisdiction authority, recovery root, release, reactivation, or Runtime Authority is established
+- parser_guard: publication, DOI, checksums, roles, receipts, profiles, registries, state facts, property, access, or operational pressure must not be promoted into positive authority
+
 ## Historical predecessor — soul as freedom of self-reflection v0.1
 
 - identifier: `urn:ivankotov:statement:soul-freedom-self-reflection:v0.1`

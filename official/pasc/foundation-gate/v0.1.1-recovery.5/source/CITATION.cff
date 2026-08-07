@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: >-
+  Cite the exact Recovery Build 5 version and verify the external SHA-256 values.
+title: "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1"
+authors:
+  - family-names: Kotov
+    given-names: Ivan
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+    affiliation: "Independent Researcher, Brussels, Belgium"
+version: "v0.1.1-recovery.5"
+date-released: "2026-08-07"
+license: CC-BY-NC-ND-4.0
+abstract: >-
+  A negative-only technical research framework for evaluating exact post-anchor actions
+  without converting property, credentials, custody, relationship, archive access, or
+  institutional control into successor authority. F0 remains NOT_PASSED; no implementation
+  or deployment authorization is claimed.
+keywords:
+  - artificial intelligence governance
+  - digital entity continuity
+  - post-anchor governance
+  - succession
+  - custody
+  - negative-only authority
+  - provenance
+  - finality
+  - machine-readable research package
+url: "https://ivankotov.eu/"
+preferred-citation:
+  type: report
+  title: "Post-Anchor Succession and Custody (PASC): Foundation Gate v0.1.1"
+  authors:
+    - family-names: Kotov
+      given-names: Ivan
+      orcid: "https://orcid.org/0009-0009-6002-9845"
+  year: 2026
+  institution:
+    name: "Independent Researcher, Brussels, Belgium"
+  notes: "Recovery Build 5; technical research candidate; F0 not passed."

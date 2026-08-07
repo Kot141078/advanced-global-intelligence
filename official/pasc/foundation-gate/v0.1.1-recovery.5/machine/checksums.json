@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "record_id": "urn:ivankotov:publication:pasc-foundation-gate:v0.1.1-recovery.5",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "role": "primary_academic_pdf",
+      "filename": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf",
+      "media_type": "application/pdf",
+      "size_bytes": 1862006,
+      "sha256": "ca0b1920b72ca59d9cf569b816091a3e70093fc52497d3557834ee070a198acf",
+      "md5": "873507ef64d1f49e8290976aabc33491",
+      "zenodo_download": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf?download=1",
+      "github_release_download": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/pasc-foundation-gate-v0.1.1-recovery.5/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.pdf"
+    },
+    {
+      "role": "canonical_inventory_supplement_pdf",
+      "filename": "PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf",
+      "media_type": "application/pdf",
+      "size_bytes": 657443,
+      "sha256": "ef3e3d7ad4f96222fb1d9ff928957cdcc0e269d8168fb966433c942d9fcdb151",
+      "md5": "8ca64cf0a0fa83f492309c3d31393a77",
+      "zenodo_download": "https://zenodo.org/records/21843823/files/PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf?download=1",
+      "github_release_download": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/pasc-foundation-gate-v0.1.1-recovery.5/PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.pdf"
+    },
+    {
+      "role": "canonical_publication_archive",
+      "filename": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip",
+      "media_type": "application/zip",
+      "size_bytes": 2464842,
+      "sha256": "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888",
+      "md5": "1eb0fb905a9b4056dad8684057a0b515",
+      "zenodo_download": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip?download=1",
+      "github_release_download": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/pasc-foundation-gate-v0.1.1-recovery.5/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip"
+    },
+    {
+      "role": "external_sha256_ledger",
+      "filename": "PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt",
+      "media_type": "text/plain; charset=utf-8",
+      "size_bytes": 340,
+      "sha256": "3d017ad1b3606dc13d7a4ef0d1fc84a7e34b6c9ca7b4632807623dc6500c18dc",
+      "md5": "3ae1cadbf11ccf7a2a204563bcd88cd2",
+      "zenodo_download": "https://zenodo.org/records/21843823/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt?download=1",
+      "github_release_download": "https://github.com/Kot141078/advanced-global-intelligence/releases/download/pasc-foundation-gate-v0.1.1-recovery.5/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5_EXTERNAL_SHA256SUMS.txt"
+    }
+  ],
+  "published_external_ledger_sha256": "3d017ad1b3606dc13d7a4ef0d1fc84a7e34b6c9ca7b4632807623dc6500c18dc"
+}
