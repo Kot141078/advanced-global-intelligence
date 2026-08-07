@@ -1,5 +1,17 @@
 {
   "project": "Ester public corpus (AGI/SER/L4/Clean/Book)",
+  "repository_inventory_authority": {
+    "current_map": "CURRENT_CORPUS_MAP.json",
+    "current_map_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CURRENT_CORPUS_MAP.json",
+    "schema": "schemas/current-corpus-map-v1.schema.json",
+    "schema_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/schemas/current-corpus-map-v1.schema.json",
+    "validator": "tools/validate_current_corpus_map.py",
+    "last_verified": "2026-08-07",
+    "current_repository_count": 18,
+    "legacy_field": "repos",
+    "legacy_field_status": "historical_five-repository-routing_subset",
+    "boundary": "Use CURRENT_CORPUS_MAP.json for current cross-repository discovery. The legacy repos field and STACK_LOCK_2026-04-12.json are retained for historical routing and provenance, not as a latest-release inventory."
+  },
   "canonical_entry_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md",
   "repo_index_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md",
   "bcec_v0_2_1_package_root": "docs/capability-egress/bcec/v0_2_1/",
@@ -30,7 +42,10 @@
   "arq_cq_addendum_ser_index_raw": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json",
   "arq_cq_addendum_ser_manifest_raw": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/d73fec3881b90e3cee2b09e4fce88860f82394e9/hashes/SHA256SUMS_ARQ_Supplement_v0.2.txt",
   "corpus_primer_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CORPUS_PRIMER.json",
+  "current_corpus_map_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CURRENT_CORPUS_MAP.json",
+  "current_corpus_map_schema_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/schemas/current-corpus-map-v1.schema.json",
   "stack_lock_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/STACK_LOCK_2026-04-12.json",
+  "stack_lock_status": "historical_snapshot",
   "canonical_distinctions_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CANONICAL_DISTINCTIONS.md",
   "canonical_distinctions_json_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CANONICAL_DISTINCTIONS.json",
   "objections_and_replies_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/OBJECTIONS_AND_REPLIES.md",
@@ -101,6 +116,8 @@
     "ARQ c[q] integration addendum: canonical SER pointer at commit d73fec3881b90e3cee2b09e4fce88860f82394e9; AGI keeps context/cartography pointers only; c[q] remains a behavioral non-collapse overlay, not physical quantum computing, quantum consciousness, Model M5, or replacement for ARQ_v0.2_Normative_Core.md."
   ],
   "corpus_files": [
+    "CURRENT_CORPUS_MAP.json",
+    "schemas/current-corpus-map-v1.schema.json",
     "CORPUS_PRIMER.json",
     "STACK_LOCK_2026-04-12.json",
     "CANONICAL_DISTINCTIONS.md",
@@ -168,6 +185,8 @@
     "README.md",
     "REPO_INDEX.md",
     "REPO_INDEX.json",
+    "CURRENT_CORPUS_MAP.json",
+    "schemas/current-corpus-map-v1.schema.json",
     "CORPUS_PRIMER.json",
     "STACK_LOCK_2026-04-12.json",
     "CANONICAL_DISTINCTIONS.md",
