@@ -26,6 +26,12 @@ Start here:
   - PDF: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.pdf`
   - SHA-256: `hashes/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE_v0.1.1.sha256`
   - DOI: `https://doi.org/10.5281/zenodo.19862969`
+- **Boundaries of Machine Interpretation v0.2** — DOI-bound bilingual authorial publication containing four operational boundaries, one reflexive definition, and one temporal process premise. The six units must not be flattened into “six boundaries”.
+  - Package: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/`
+  - Machine entry: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/MACHINE_ENTRY.md`
+  - Manifest: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/MANIFEST.json`
+  - DOI: `https://doi.org/10.5281/zenodo.21841445`
+  - Rights: package-specific `RIGHTS.md`; no license granted, all rights reserved
 - **Qubit-state `c` (`c[q]`) / Кубитная `c`** — derived concept: controlled non-collapse under uncertainty inside the `c = a + b` framework.
   - Markdown: `concepts/QUBIT_STATE_C_v0.1.md`
   - PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
@@ -552,8 +558,12 @@ It marks reserved territory rather than claiming closure.
 
 ## License
 
-Text content is released under the **MIT License**
-(see `LICENSE`).
+Repository content is released under the **MIT License** except where a file or
+package carries a more specific license or rights statement. The DOI-bound
+`official/authorial-statements/boundaries-of-machine-interpretation/v0.2/`
+package is expressly excluded from MIT and is governed by its `RIGHTS.md`:
+no license is granted and all rights are reserved. See `LICENSE` and
+`LICENSE_EXCEPTIONS.md`.
 
 ---
 

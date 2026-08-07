@@ -211,6 +211,35 @@
         "Verify GitHub release assets after release creation.",
         "Verify package status remains not ratified and pending a-gate review."
       ]
+    },
+    {
+      "id": "boundaries-of-machine-interpretation-v0.2",
+      "title": "Boundaries of Machine Interpretation",
+      "package_root": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/",
+      "citation_file": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/CITATION.cff",
+      "package_manifest": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/MANIFEST.json",
+      "sha256_manifest": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/SHA256SUMS",
+      "rights_file": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/RIGHTS.md",
+      "license": "No license granted - all rights reserved",
+      "doi": "10.5281/zenodo.21841445",
+      "doi_url": "https://doi.org/10.5281/zenodo.21841445",
+      "concept_doi": "10.5281/zenodo.21841444",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21841444",
+      "zenodo_record_url": "https://zenodo.org/records/21841445",
+      "publication_date": "2026-08-07",
+      "release_status": "published",
+      "source_archive": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2.zip",
+      "source_archive_sha256": "8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e",
+      "reader_pdf": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2_READER.pdf",
+      "reader_pdf_sha256": "29cb86d49e72792bb7afbe203f9ed8f88b31d0422860d373c4762b6024d69986",
+      "verification_steps": [
+        "Parse MANIFEST.json, machine/index.json, machine/statements.json, machine/work.jsonld, and citation.csl.json as JSON.",
+        "Parse CITATION.cff as YAML.",
+        "Run sha256sum -c SHA256SUMS from the package root.",
+        "Verify the source ZIP sidecar and CRC, safe paths, no duplicate members, no symlink members, 29 files and 6 directory entries.",
+        "Verify the four controlling Russian boundary files are byte-identical to their v0.1 predecessors.",
+        "Verify DOI resolves to the published Zenodo record and rights remain no-license-granted-all-rights-reserved."
+      ]
     }
   ]
 }

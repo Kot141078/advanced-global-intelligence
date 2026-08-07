@@ -16,6 +16,7 @@ This page is the single entry point for the public protocol stack:
 
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
+- Boundaries of Machine Interpretation v0.2: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/` — published DOI-bound bilingual authorial publication; four operational boundaries, one reflexive definition, one temporal process premise; DOI: <https://doi.org/10.5281/zenodo.21841445>.
 - Corpus primer: `CORPUS_PRIMER.json`
 - Stack lock: `STACK_LOCK_2026-04-12.json`
 - Canonical distinctions: `CANONICAL_DISTINCTIONS.md`

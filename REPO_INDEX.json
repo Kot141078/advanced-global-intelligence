@@ -893,6 +893,49 @@
       "not_checker_implementation_certification": true,
       "not_fixture_runner_execution": true,
       "not_implementation_ready": true
+    },
+    {
+      "id": "boundaries-of-machine-interpretation-v0.2",
+      "title": "Boundaries of Machine Interpretation",
+      "version": "0.2",
+      "date": "2026-08-07",
+      "path": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/",
+      "human_entry": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/BOUNDARIES_OF_MACHINE_INTERPRETATION.md",
+      "machine_entry": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/machine/index.json",
+      "package_manifest": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/MANIFEST.json",
+      "sha256_manifest": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/SHA256SUMS",
+      "citation_file": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/CITATION.cff",
+      "rights_file": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/RIGHTS.md",
+      "doi": "10.5281/zenodo.21841445",
+      "doi_url": "https://doi.org/10.5281/zenodo.21841445",
+      "concept_doi": "10.5281/zenodo.21841444",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.21841444",
+      "zenodo_status": "published",
+      "status": "authorial-philosophical-architectural-publication",
+      "counts": {
+        "boundary_count": 4,
+        "authorial_definition_count": 1,
+        "process_premise_count": 1,
+        "unit_count": 6
+      },
+      "source_archive": "official/authorial-statements/boundaries-of-machine-interpretation/v0.2/KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2.zip",
+      "source_archive_sha256": "8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e",
+      "reader_pdf_sha256": "29cb86d49e72792bb7afbe203f9ed8f88b31d0422860d373c4762b6024d69986",
+      "rights": "no-license-granted-all-rights-reserved",
+      "predecessors": [
+        {
+          "id": "urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1",
+          "path": "official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/",
+          "relation": "incorporated-four-controlling-files-byte-identically",
+          "state": "retained"
+        },
+        {
+          "id": "urn:ivankotov:statement:soul-freedom-self-reflection:v0.1",
+          "path": "official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/",
+          "relation": "superseded-by-expanded-v0.2-definition",
+          "state": "superseded-retained-for-provenance"
+        }
+      ]
     }
   ],
   "highlight_documents": [

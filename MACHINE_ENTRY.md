@@ -35,7 +35,39 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - Narrative / Human:
   - `https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/CORPUS_CONTEXT.md`
 
-## Authorial statement — soul as freedom of self-reflection v0.1
+## Authorial publication — Boundaries of Machine Interpretation v0.2
+
+- publication_identifier: `urn:ivankotov:publication:boundaries-machine-interpretation:v0.2`
+- package_root: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/`
+- doi: `10.5281/zenodo.21841445`
+- concept_doi: `10.5281/zenodo.21841444`
+- publication_date: `2026-08-07`
+- primary_presentation_language: `en`
+- unit_count: `6`
+- operational_boundary_count: `4`
+- reflexive_authorial_definition_count: `1`
+- temporal_process_premise_count: `1`
+- machine_entry: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/MACHINE_ENTRY.md`
+- machine_index: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/machine/index.json`
+- manifest: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/MANIFEST.json`
+- precedence: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/CANONICAL_PRECEDENCE.md`
+- checksums: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/SHA256SUMS`
+- source_archive: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2.zip`
+- source_archive_sha256: `8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e`
+- reader_pdf_sha256: `29cb86d49e72792bb7afbe203f9ed8f88b31d0422860d373c4762b6024d69986`
+- author: Ivan Kotov; ORCID `0009-0009-6002-9845`
+- status: published DOI-bound bilingual authorial publication
+- rights: package-specific `RIGHTS.md`; no license granted, all rights reserved; excluded from the repository-level MIT License
+- predecessor_boundary_set: `urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1` retained unchanged
+- superseded_soul_statement: `urn:ivankotov:statement:soul-freedom-self-reflection:v0.1` retained as provenance
+- parser_guard: `unit_count != operational_boundary_count`; units 0 and 5 must not be promoted into fifth and sixth operational boundaries
+- boundary: no scientific proof or entity attribution of doubt, forgetting, empathy, subjective experience, consciousness, or soul
+
+Resolve package-level conflicts using `CANONICAL_PRECEDENCE.md` and fail
+closed. Unit 0 is controlled by its English TXT file; units 1–4 and unit 5 are
+controlled by their respective Russian TXT files.
+
+## Historical predecessor — soul as freedom of self-reflection v0.1
 
 - identifier: `urn:ivankotov:statement:soul-freedom-self-reflection:v0.1`
 - package_root: `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/`
@@ -50,11 +82,11 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - source_archive_sha256: `a6232e3beab6f70cef03dfd43c5028a224d03e45e273db03a7fa7b5880e47b4a`
 - recorded: `2026-08-07`, Brussels, Belgium
 - author: Ivan Kotov; ORCID `0009-0009-6002-9845`
-- status: provisional authorial statement
+- status: retained historical predecessor; substantively superseded for current citation by the v0.2 soul definition
 - precedence: `CANONICAL_STATEMENT_RU.txt` controls; `пока` is semantically material
 - boundary: no scientific-proof, metaphysical-finality, historical-uniqueness, or entity-soul attribution claim
 
-## Authorial boundary set — Four Boundaries of Machine Interpretation v0.1
+## Historical predecessor — Four Boundaries of Machine Interpretation v0.1
 
 - set_identifier: `urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1`
 - package_root: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/`
@@ -81,7 +113,7 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - source_archive_sha256: `6f443de9149b983476db542ed8230b33c8c9a134596a6f5aa86e5ebd8352892f`
 - recorded_and_approved: `2026-08-07`, Brussels, Belgium
 - author: Ivan Kotov; ORCID `0009-0009-6002-9845`
-- status: provisional authorial boundary set; exact Russian units are canonical within v0.1
+- status: retained historical predecessor; its four Russian controlling files are carried byte-for-byte into v0.2
 - precedence: each `CANONICAL_*.txt` controls its boundary; `MANIFEST.json` controls set membership and order; conflicts fail closed
 - boundary: no scientific proof, universal machine-architecture, consciousness attribution, or telemetry-to-qualia claim
 
