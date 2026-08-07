@@ -80,9 +80,10 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # The bootstrap removes its own one-off files. Restore them before the bot commit:
-          # GitHub's workflow token may not create/delete workflow files during a workflow run.
+          # Keep workflow-path changes out of the bot commit. The permanent release
+          # workflow is installed separately through an owner-authorized repository write.
           git restore --source=HEAD -- tools/_register_pasc_r5.py .github/workflows/_register-pasc-r5.yml
+          rm -f .github/workflows/publish-pasc-foundation-gate-r5.yml
           git add -A
           if git diff --cached --quiet; then
             exit 0
