@@ -1,0 +1,88 @@
+name: Register PASC Recovery 5 discovery entries
+
+on:
+  push:
+    branches:
+      - "publish/pasc-foundation-gate-r5"
+    paths:
+      - "official/pasc/foundation-gate/v0.1.1-recovery.5/**"
+      - "tools/_register_pasc_r5.py"
+      - ".github/workflows/_register-pasc-r5.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      RECORD: https://zenodo.org/records/21843823
+      ROOT: official/pasc/foundation-gate/v0.1.1-recovery.5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: publish/pasc-foundation-gate-r5
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Download and verify published ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 5 --retry-all-errors \
+            "$RECORD/files/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip?download=1" \
+            --output /tmp/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip
+          echo "640f2a66109cad6105fd22f33d76e0c062bede01a40474d408dbe601ec4c1888  /tmp/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip" | sha256sum -c -
+          unzip -t /tmp/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip
+
+      - name: Materialize exact text and JSON source mirror
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/pasc-r5-extract "$ROOT/source"
+          mkdir -p /tmp/pasc-r5-extract "$ROOT/source"
+          unzip -q /tmp/PASC_FOUNDATION_GATE_v0_1_1_RECOVERY_5.zip -d /tmp/pasc-r5-extract
+          SRC=/tmp/pasc-r5-extract/pasc_foundation_gate_v0_1_1_recovery_5
+          test -f "$SRC/SHA256SUMS.txt"
+          while IFS= read -r -d '' file; do
+            rel="${file#$SRC/}"
+            case "$rel" in
+              *.pdf) continue ;;
+            esac
+            mkdir -p "$ROOT/source/$(dirname "$rel")"
+            cp --preserve=mode,timestamps "$file" "$ROOT/source/$rel"
+          done < <(find "$SRC" -type f -print0 | sort -z)
+          test ! -d "$ROOT/source/review"
+          test ! -e "$ROOT/source/ZENODO_DEPOSITION_NOTES_RU.md"
+          test ! -d "$ROOT/source/archive"
+
+      - name: Register discovery entries
+        run: python tools/_register_pasc_r5.py
+
+      - name: Validate JSON and exact mirrored source hashes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m json.tool "$ROOT/PUBLICATION_RECORD.json" >/dev/null
+          python -m json.tool "$ROOT/machine/index.json" >/dev/null
+          python -m json.tool "$ROOT/machine/checksums.json" >/dev/null
+          python -m json.tool "$ROOT/machine/work.jsonld" >/dev/null
+          cd "$ROOT/source"
+          grep -v 'PASC_.*\.pdf$' SHA256SUMS.txt > /tmp/pasc-text-sums.txt
+          sha256sum -c /tmp/pasc-text-sums.txt
+
+      - name: Commit exact source mirror and discovery update
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Register PASC Foundation Gate Recovery 5"
+          git push origin HEAD:publish/pasc-foundation-gate-r5
