@@ -55,3 +55,23 @@ A bridge does not stay standing because of the ribbon-cutting day.
 It stays standing because load, fatigue, corrosion, inspection, repair, and maintenance are handled as an ongoing process.
 
 That is the sense in which this corpus uses the word “future”.
+
+## Provisional Authorial Statement — Soul and Self-Reflection
+
+> Душа? Ну, пока я думаю, что это свобода размышлять о себе.
+> — Ivan Kotov
+
+**Status:** Provisional authorial statement
+
+**Recorded:** 2026-08-07, Brussels, Belgium
+
+**Canonical package:** `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/`
+
+The package preserves the exact Russian statement, its provenance, a
+machine-readable JSON-LD record, citation metadata, and integrity checksums.
+`CANONICAL_STATEMENT_RU.txt` controls if any wording differs between files.
+The qualifier `пока` is semantically material and must not be silently removed.
+
+This registry pointer does not expand the statement into a final doctrine and
+does not assert scientific proof, metaphysical finality, historical uniqueness,
+or the presence or absence of a soul in any particular entity.

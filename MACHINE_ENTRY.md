@@ -23,6 +23,25 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - Narrative / Human:
   - `https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/CORPUS_CONTEXT.md`
 
+## Authorial statement — soul as freedom of self-reflection v0.1
+
+- identifier: `urn:ivankotov:statement:soul-freedom-self-reflection:v0.1`
+- package_root: `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/`
+- canonical_text: `Душа? Ну, пока я думаю, что это свобода размышлять о себе.`
+- canonical_language: `ru`
+- canonical_file: `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/CANONICAL_STATEMENT_RU.txt`
+- human_record: `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/STATEMENT.md`
+- machine_record: `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/statement.jsonld`
+- manifest: `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/MANIFEST.json`
+- checksums: `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/SHA256SUMS`
+- source_archive: `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/KOTOV_SOUL_AS_FREEDOM_OF_SELF_REFLECTION_v0_1.zip`
+- source_archive_sha256: `a6232e3beab6f70cef03dfd43c5028a224d03e45e273db03a7fa7b5880e47b4a`
+- recorded: `2026-08-07`, Brussels, Belgium
+- author: Ivan Kotov; ORCID `0009-0009-6002-9845`
+- status: provisional authorial statement
+- precedence: `CANONICAL_STATEMENT_RU.txt` controls; `пока` is semantically material
+- boundary: no scientific-proof, metaphysical-finality, historical-uniqueness, or entity-soul attribution claim
+
 ## ARQ v0.2 canonical route
 
 - canonical repo: `Kot141078/sovereign-entity-recursion`
