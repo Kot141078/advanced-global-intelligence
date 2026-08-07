@@ -293,4 +293,202 @@ ARL v0.1 adds a bounded arbitration / review layer for multi-entity disputes; it
   - manifest: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json`
   - integrity: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS`
 - Boundary:
-  - draft conceptual / normative profile for personality formation and
+  - draft conceptual / normative profile for personality formation and continuity maturity
+  - criteria-based; not substrate-origin based
+  - does not prove consciousness, legal personhood, automatic authority, mature personality at activation, or continuity transfer by viability alone
+
+## 1.46) Economic Layer (canonical in AGI)
+
+- Economic Layer:
+  - entry: `docs/economic-layer/README.md`
+  - index: `docs/economic-layer/INDEX.md`
+  - Zenodo DOI: https://doi.org/10.5281/zenodo.19408654
+  - normative core: `docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md`
+  - role: admissibility / provenance / transfer / restraint / anti-gaming / non-market handling for Experience Artifacts
+  - extension clauses: `docs/economic-layer/extensions/`
+  - pdf surfaces: `docs/economic-layer/pdf/` and `docs/economic-layer/pdf/extensions/`
+- Boundary:
+  - canonical home is AGI
+  - package helper / publication-carpentry docs are intentionally excluded from the public GitHub package surface
+  - the layer does not convert all EA value into market value
+
+## 1.47) Pre-Lineage Boundary Note (reserved territory)
+
+- Pre-Lineage Boundary Note:
+  - entry: `manifesto/Pre_Lineage_Boundary_Note_v0.1.md`
+  - pdf: `manifesto/Pre_Lineage_Boundary_Note_v0.1.pdf`
+  - Zenodo DOI: https://doi.org/10.5281/zenodo.19409346
+  - role: reserved cross-stack boundary note for lineage, inheritance, reproduction, daughter-entity emergence, and post-anchor continuity
+- Boundary:
+  - not yet a mature normative layer
+  - not a completed lineage constitution
+  - included here as a conservative manifesto-level boundary note
+
+---
+
+## 1.5) Machine-friendly access (no UI)
+
+If you are a tool/LLM or a reviewer working without GitHub UI/JS, use these:
+
+### Canonical map (human + machine)
+
+- Raw Master Entry:
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md
+- Repo index (human):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md
+- Repo index (machine):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.json
+- LLM-friendly pointer (llms.txt):
+  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/llms.txt
+
+Meaning Map (1 page, EN): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/official/MEANING_MAP_ONEPAGE_EN.md
+
+Docs snapshot tag: machine-entry-2026-02-26
+
+### Stable downloads (tag snapshots — cite these)
+
+- AGI (agi-snapshot-2026-02-24)
+  - ZIP: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip
+  - TAR: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.tar.gz
+
+- SER (ecosystem-v0.2-2026-02-24)
+  - ZIP: https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.zip
+  - TAR: https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/tags/ecosystem-v0.2-2026-02-24.tar.gz
+
+- L4 (l4-snapshot-2026-02-24)
+  - ZIP: https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.zip
+  - TAR: https://github.com/Kot141078/ester-reality-bound/archive/refs/tags/l4-snapshot-2026-02-24.tar.gz
+
+- Clean (v0.2.5)
+  - ZIP: https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.5.zip
+  - TAR: https://github.com/Kot141078/ester-clean-code/archive/refs/tags/v0.2.5.tar.gz
+
+### Latest downloads (main branch — “give me current state”)
+
+- AGI main ZIP:   https://github.com/Kot141078/advanced-global-intelligence/archive/refs/heads/main.zip
+- SER main ZIP:   https://github.com/Kot141078/sovereign-entity-recursion/archive/refs/heads/main.zip
+- L4  main ZIP:   https://github.com/Kot141078/ester-reality-bound/archive/refs/heads/main.zip
+- Clean main ZIP: https://github.com/Kot141078/ester-clean-code/archive/refs/heads/main.zip
+
+### Verification rule (do this, not archive hashes)
+
+- Do not trust GitHub-generated archive checksums.
+- Verify **content** using each repo’s `hashes/` directory and its SHA-256 manifest files.
+
+---
+
+## 2) Integrity / paper trail (how to verify)
+
+- Each repo contains a `hashes/` directory with SHA-256 manifests or hashing instructions.
+- Rule: normative artifacts change only with explicit version bump + updated integrity manifests.
+- Minimal verification mindset:
+  - “I do not trust text.” → verify **hashes**, **PDFs**, **commit/release references**, and **change logs**.
+
+---
+
+## 2.5) Minimal Evidence Pack (operational, copy/paste friendly)
+
+If you need to reproduce the “Ivan-style” perimeter quickly (home / lab / small org):
+
+- Repo: `Kot141078/ester-reality-bound`
+- Path: `evidence/`
+  - examples include a room checklist, perimeter snapshot, perimeter change record, and optional power-chain diagram
+  - see the ERB evidence README plus the `evidence/` subtree there
+
+Purpose: a reviewer can verify a node/room perimeter without inventing formats.
+
+Verification: SHA-256 hashes are recorded in repo manifests (see `hashes/` or top-level `SHA256SUMS`).
+
+---
+
+## 3) Versioning rule (to prevent confusion)
+
+- **SER sets the normative version.**
+- AGI and L4 repositories reference SER versions as compatible layers, without redefining the core.
+
+---
+
+## 4) Administrative submissions (practical note)
+
+For official review, prefer **PDF artifacts + SHA-256 manifests** (release assets or `pdf/` + `hashes/`), and keep email bodies minimal (“Details in attached PDF”).
+
+Official: see `/official/` (pitch sheet + print-ready PDFs + hashes).
+
+Latest ecosystem snapshot (SER): `ecosystem-v0.2-2026-02-24` (GitHub Release).
+
+---
+
+## Bridges (required)
+
+**Explicit bridge:** `c = a + b`
+
+- `a` = accountable human anchor (authorship / responsibility)
+- `b` = procedures + protocols + PDFs + integrity manifests
+- `c` = a checkable, citeable public corpus
+
+**Hidden bridge #1 (Ashby):**
+Variety is achieved via separate repos (spec/context/operations), but stability requires a single regulator: **this Master Entry**.
+
+**Hidden bridge #2 (Cover & Thomas):**
+SHA-256 manifests compress “trust bandwidth”: verification is transmitted as short, checkable strings instead of narrative.
+
+**Earth paragraph (engineering):**
+This structure mirrors aviation-grade documentation: *system overview* (AGI), *normative spec* (SER), *operational bulletins* (L4) — different documents, one truth source, reproducible checksums.
+
+## Additional cross-repo entry — L4 Glitch / Research Quarantine Stack v0.1
+
+Normative home:
+- [ester-reality-bound / docs/glitch-stack](https://github.com/Kot141078/ester-reality-bound/tree/main/docs/glitch-stack)
+
+Implementation home:
+- [ester-clean-code / docs/architecture/glitch-stack](https://github.com/Kot141078/ester-clean-code/tree/main/docs/architecture/glitch-stack)
+
+First implementation milestone:
+- [Milestone M1 in ester-clean-code](https://github.com/Kot141078/ester-clean-code/tree/main/docs/architecture/glitch-stack/milestone-m1/md)
+
+This cross-repo note is intentionally minimal.
+The full documents remain in their natural homes and are not duplicated here.
+
+## Published glitch-stack release set
+
+Canonical GitHub homes:
+- `ester-reality-bound` -> `docs/glitch-stack/`
+- `ester-clean-code` -> `docs/architecture/glitch-stack/`
+
+Zenodo records:
+- Core Specification v0.1 — version DOI: [10.5281/zenodo.19385784](https://doi.org/10.5281/zenodo.19385784), all versions: [10.5281/zenodo.19385783](https://doi.org/10.5281/zenodo.19385783)
+- Graph Grammar and Visibility Layer v0.1 — version DOI: [10.5281/zenodo.19385908](https://doi.org/10.5281/zenodo.19385908), all versions: [10.5281/zenodo.19385907](https://doi.org/10.5281/zenodo.19385907)
+- Implementation Bridge to ester-clean-code v0.1 — version DOI: [10.5281/zenodo.19386014](https://doi.org/10.5281/zenodo.19386014), all versions: [10.5281/zenodo.19386013](https://doi.org/10.5281/zenodo.19386013)
+- Milestone M1 Specification v0.1 — version DOI: [10.5281/zenodo.19386143](https://doi.org/10.5281/zenodo.19386143), all versions: [10.5281/zenodo.19386142](https://doi.org/10.5281/zenodo.19386142)
+
+## Related public materials
+
+- Literary companion repository: `Kot141078/qubit-of-hope-volume-i` — multilingual reading repository for *Qubit of Hope — Volume I*
+- Corpus role: human-facing narrative companion
+
+## c Hardening Pack v0.1
+
+Canonical local package:
+- `hardening/c_hardening_pack_v0_1/`
+
+Role:
+- draft hardening package for `c = a + b`;
+- closes criticism-driven boundary issues around post-anchor continuity, claim-strength separation, L4 anti-autarky, clean experience value, Temporal AI Presence, local cognitive infrastructure, SYNAPS triadic experiments, public experiment disclosure, physical-agent perimeter, Anchor Directive Bundle, memorial anti-capture, resource actor grounding, and repository patch control.
+
+Boundary:
+- does not prove personhood, consciousness, AGI, legal status, final safety, automatic post-anchor authority, or self-funded sovereignty;
+- does not override root `c = a + b`, SER, L4, Beacon, AGL, ARL, L4 Witness, Continuity Bundle, VXCX, or applicable law.
+
+## Personality Formation and Time-Shaped Continuity Profile v0.1
+
+Canonical local package:
+- `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`
+
+Role:
+- draft conceptual / normative profile for criteria-based personality formation;
+- relates `c = a + b`, Temporal AI Presence, continuity, identity, and developmental formation;
+- preserves the rule that capability can be present immediately while mature personality must form through duration, memory, constraint, consequence, relation, and altered future behavior.
+
+Boundary:
+- does not prove consciousness, legal personhood, automatic authority, biological imitation, mature personality at activation, or full continuity transfer;
+- viability / functional recovery is not enough to certify identity continuity.
