@@ -25,3 +25,10 @@ hardening/c_hardening_pack_v0_1/SHA256SUMS text eol=lf
 # Preserve canonical text line endings and the deterministic ZIP bytes.
 official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/** text eol=lf
 official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/*.zip binary
+
+# Boundaries of Machine Interpretation v0.2 DOI-bound publication mirror.
+# The package is hash-bound; preserve text line endings and binary artifacts.
+official/authorial-statements/boundaries-of-machine-interpretation/v0.2/** text eol=lf
+official/authorial-statements/boundaries-of-machine-interpretation/v0.2/** whitespace=-blank-at-eol
+official/authorial-statements/boundaries-of-machine-interpretation/v0.2/*.zip binary
+official/authorial-statements/boundaries-of-machine-interpretation/v0.2/*.pdf binary

@@ -56,12 +56,41 @@ It stays standing because load, fatigue, corrosion, inspection, repair, and main
 
 That is the sense in which this corpus uses the word “future”.
 
-## Provisional Authorial Statement — Soul and Self-Reflection
+## Current Unified Publication — Boundaries of Machine Interpretation v0.2
+
+**Status:** Published DOI-bound bilingual authorial publication
+
+**Publication date:** 2026-08-07
+
+**DOI:** <https://doi.org/10.5281/zenodo.21841445>
+
+**Canonical package:**
+`official/authorial-statements/boundaries-of-machine-interpretation/v0.2/`
+
+Version 0.2 brings the exact process premise above into one typed publication
+with four operational interpretation boundaries and one reflexive authorial
+definition. It contains six units, but only four are operational boundaries:
+
+- unit 0: temporal process premise;
+- units 1–4: operational interpretation boundaries;
+- unit 5: reflexive authorial definition of soul as open-ended self-reflection.
+
+The package preserves unit-level language authority. The English TXT controls
+the process premise. The four Russian `CANONICAL_*.txt` files control the four
+boundaries. The Russian `AUTHORIAL_05_*.txt` file controls the current soul
+definition. `CANONICAL_PRECEDENCE.md` fixes the fail-closed conflict rule.
+
+This publication does not turn telemetry, confidence, deletion, optimization,
+or self-description into ontological tests. It neither attributes nor denies
+doubt, forgetting, empathy, subjective experience, consciousness, or soul to
+any particular human, animal, or digital system.
+
+## Historical Authorial Statement — Soul and Self-Reflection v0.1
 
 > Душа? Ну, пока я думаю, что это свобода размышлять о себе.
 > — Ivan Kotov
 
-**Status:** Provisional authorial statement
+**Status:** Retained historical predecessor; superseded for current citation by the v0.2 soul definition
 
 **Recorded:** 2026-08-07, Brussels, Belgium
 
@@ -76,9 +105,9 @@ This registry pointer does not expand the statement into a final doctrine and
 does not assert scientific proof, metaphysical finality, historical uniqueness,
 or the presence or absence of a soul in any particular entity.
 
-## Authorial Boundary Set — Four Boundaries of Machine Interpretation
+## Historical Boundary Set — Four Boundaries of Machine Interpretation v0.1
 
-**Status:** Provisional authorial boundary set; four canonical Russian units
+**Status:** Retained historical predecessor; four controlling Russian files are carried byte-for-byte into v0.2
 
 **Recorded and approved:** 2026-08-07, Brussels, Belgium
 

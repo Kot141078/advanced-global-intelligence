@@ -6,6 +6,7 @@ a distributed, plural, cybernetic ecosystem.
 Start here:
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
+- Boundaries of Machine Interpretation v0.2: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/` | DOI: <https://doi.org/10.5281/zenodo.21841445> | six typed units = four operational boundaries + one reflexive definition + one temporal process premise.
 - Topology map: `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - **Kotov Principle of L4-Bound Experience** — Authorial Principle / Architectural Thesis on scarcity inversion in long-lived AI systems: as cognitive generation becomes cheap, long-term value shifts from generative capacity to L4-bound temporal continuity.
   - Markdown: `official/KOTOV_PRINCIPLE_L4_BOUND_EXPERIENCE.md`

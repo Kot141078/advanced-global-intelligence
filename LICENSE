@@ -1,3 +1,11 @@
+License scope notice
+
+The MIT License below does not apply to paths that carry an explicit, more
+specific license or rights statement. In particular, every file under
+`official/authorial-statements/boundaries-of-machine-interpretation/v0.2/`
+is governed by that package's `RIGHTS.md`: copyright © 2026 Ivan Kotov; no
+license is granted; all rights are reserved. See `LICENSE_EXCEPTIONS.md`.
+
 MIT License
 
 Copyright (c) 2026 Kot141078

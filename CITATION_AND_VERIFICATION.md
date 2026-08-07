@@ -69,3 +69,21 @@ Use `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md` when the question is which bounded 
 - `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md`
 - `MASTER_ENTRY.md`
 - `https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-i/main/CORPUS_CONTEXT.md`
+
+## 7. Boundaries of Machine Interpretation v0.2
+
+For the current unified authorial publication, cite the version DOI
+<https://doi.org/10.5281/zenodo.21841445>. The repository mirror is
+`official/authorial-statements/boundaries-of-machine-interpretation/v0.2/`.
+
+Minimum verification route:
+
+1. read `MACHINE_ENTRY.md` and `CANONICAL_PRECEDENCE.md`;
+2. parse `MANIFEST.json` and the files under `machine/`;
+3. run `sha256sum -c SHA256SUMS` from the package root;
+4. verify the deterministic source ZIP against its sidecar and SHA-256
+   `8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e`;
+5. preserve the semantic count boundary: six units contain four operational
+   boundaries, one reflexive definition, and one temporal process premise;
+6. apply the package-specific `RIGHTS.md`: no license is granted and all
+   rights are reserved.

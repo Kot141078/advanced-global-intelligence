@@ -35,7 +35,39 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - Narrative / Human:
   - `https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/CORPUS_CONTEXT.md`
 
-## Authorial statement — soul as freedom of self-reflection v0.1
+## Authorial publication — Boundaries of Machine Interpretation v0.2
+
+- publication_identifier: `urn:ivankotov:publication:boundaries-machine-interpretation:v0.2`
+- package_root: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/`
+- doi: `10.5281/zenodo.21841445`
+- concept_doi: `10.5281/zenodo.21841444`
+- publication_date: `2026-08-07`
+- primary_presentation_language: `en`
+- unit_count: `6`
+- operational_boundary_count: `4`
+- reflexive_authorial_definition_count: `1`
+- temporal_process_premise_count: `1`
+- machine_entry: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/MACHINE_ENTRY.md`
+- machine_index: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/machine/index.json`
+- manifest: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/MANIFEST.json`
+- precedence: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/CANONICAL_PRECEDENCE.md`
+- checksums: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/SHA256SUMS`
+- source_archive: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/KOTOV_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_2.zip`
+- source_archive_sha256: `8933e5aabeb8ee8532e6da7721d85d0a3265e30979480294313622f80da3e91e`
+- reader_pdf_sha256: `29cb86d49e72792bb7afbe203f9ed8f88b31d0422860d373c4762b6024d69986`
+- author: Ivan Kotov; ORCID `0009-0009-6002-9845`
+- status: published DOI-bound bilingual authorial publication
+- rights: package-specific `RIGHTS.md`; no license granted, all rights reserved; excluded from the repository-level MIT License
+- predecessor_boundary_set: `urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1` retained unchanged
+- superseded_soul_statement: `urn:ivankotov:statement:soul-freedom-self-reflection:v0.1` retained as provenance
+- parser_guard: `unit_count != operational_boundary_count`; units 0 and 5 must not be promoted into fifth and sixth operational boundaries
+- boundary: no scientific proof or entity attribution of doubt, forgetting, empathy, subjective experience, consciousness, or soul
+
+Resolve package-level conflicts using `CANONICAL_PRECEDENCE.md` and fail
+closed. Unit 0 is controlled by its English TXT file; units 1–4 and unit 5 are
+controlled by their respective Russian TXT files.
+
+## Historical predecessor — soul as freedom of self-reflection v0.1
 
 - identifier: `urn:ivankotov:statement:soul-freedom-self-reflection:v0.1`
 - package_root: `official/authorial-statements/soul-as-freedom-of-self-reflection/v0.1/`
@@ -50,11 +82,11 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - source_archive_sha256: `a6232e3beab6f70cef03dfd43c5028a224d03e45e273db03a7fa7b5880e47b4a`
 - recorded: `2026-08-07`, Brussels, Belgium
 - author: Ivan Kotov; ORCID `0009-0009-6002-9845`
-- status: provisional authorial statement
+- status: retained historical predecessor; substantively superseded for current citation by the v0.2 soul definition
 - precedence: `CANONICAL_STATEMENT_RU.txt` controls; `пока` is semantically material
 - boundary: no scientific-proof, metaphysical-finality, historical-uniqueness, or entity-soul attribution claim
 
-## Authorial boundary set — Four Boundaries of Machine Interpretation v0.1
+## Historical predecessor — Four Boundaries of Machine Interpretation v0.1
 
 - set_identifier: `urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1`
 - package_root: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/`
@@ -81,7 +113,7 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - source_archive_sha256: `6f443de9149b983476db542ed8230b33c8c9a134596a6f5aa86e5ebd8352892f`
 - recorded_and_approved: `2026-08-07`, Brussels, Belgium
 - author: Ivan Kotov; ORCID `0009-0009-6002-9845`
-- status: provisional authorial boundary set; exact Russian units are canonical within v0.1
+- status: retained historical predecessor; its four Russian controlling files are carried byte-for-byte into v0.2
 - precedence: each `CANONICAL_*.txt` controls its boundary; `MANIFEST.json` controls set membership and order; conflicts fail closed
 - boundary: no scientific proof, universal machine-architecture, consciousness attribution, or telemetry-to-qualia claim
 
@@ -191,276 +223,4 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - bridge: A6 egress companion; anti-distillation; extraction source-class; Synthetic Laundering handoff; ARQ boundedness; L4 Witness packet; Beacon remains upstream recognition/gate discipline; CGAM agents remain workers, not authority.
 - non_claims: not legal certification; not product certification; not conformance acceptance; not sealed integration; no memory write.
 
-## Article 50 Transparency Submission Pack v0.1
-
-- package_root: `official/article50-transparency-submission/v0_1/`
-- README: `official/article50-transparency-submission/v0_1/README.md`
-- manifest_json: `official/article50-transparency-submission/v0_1/article50_transparency_submission_v0_1.manifest.json`
-- zenodo_metadata: `official/article50-transparency-submission/v0_1/zenodo_metadata_article50_v0_1.json`
-- sha256_manifest: `official/article50-transparency-submission/v0_1/SHA256SUMS`
-- github_release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/article50-transparency-submission-v0.1
-- zenodo_doi: `10.5281/zenodo.20315439`
-- zenodo_doi_url: https://doi.org/10.5281/zenodo.20315439
-- status: public redacted technical evidence-chain contribution; not legal advice, not certification, not a conformity assessment.
-- official_submission_date: `2026-05-20`
-- private_boundary: official EUSurvey administrative confirmation records are retained privately and are excluded from this public package.
-- doi_status: Zenodo DOI added to repository metadata.
-
-## Article 50 Transparency Implementation Briefs v0.1
-
-- package_root: `official/article50-transparency-implementation-briefs/v0_1/`
-- README: `official/article50-transparency-implementation-briefs/v0_1/README.md`
-- package_manifest: `official/article50-transparency-implementation-briefs/v0_1/PACKAGE_MANIFEST.json`
-- zenodo_metadata: `official/article50-transparency-implementation-briefs/v0_1/.zenodo.json`
-- citation: `official/article50-transparency-implementation-briefs/v0_1/CITATION.cff`
-- sha256_manifest: `official/article50-transparency-implementation-briefs/v0_1/SHA256SUMS`
-- package_doi: `10.5281/zenodo.20784845`
-- package_doi_url: https://doi.org/10.5281/zenodo.20784845
-- status: supporting implementation briefs / technical notes derived from the Article 50 Transparency Submission Pack v0.1.
-- derived_from_doi: `10.5281/zenodo.20315439`
-- derived_from_doi_url: https://doi.org/10.5281/zenodo.20315439
-- contains:
-  - `01_For_AI_Office_Policy_Reader.md` — policy-reader note on Article 50 transparency as an evidence chain.
-  - `02_For_Engineers_CGAM_Witness_Oracle_Degradation.md` — engineering note on CGAM, witness events, oracle degradation, human gates, and rollback paths.
-- boundary: not legal advice, not certification, not a conformity assessment, not a formal Article 50 compliance claim.
-- doi_status: Zenodo DOI recorded for implementation briefs package.
-
-## Self-Evo WDC v0.1.2
-
-- package_root: `official/self-evo/v0.1.2/`
-- parent_entry: `official/self-evo/README.md`
-- human_entry: `official/self-evo/v0.1.2/README.md`
-- status_entry: `official/self-evo/v0.1.2/STATUS.md`
-- package_manifest: `official/self-evo/v0.1.2/package_control/SELF_EVO_WDC_v0_1_2_FINAL_PACKAGE_MANIFEST.json`
-- source_checksum_manifest: `official/self-evo/v0.1.2/SELF_EVO_WDC_v0_1_2_ZENODO_SHA256SUMS.txt`
-- github_placement_checksum_manifest: `official/self-evo/v0.1.2/package_control/GITHUB_PLACEMENT_SHA256SUMS.txt`
-- markdown_root: `official/self-evo/v0.1.2/docs/`
-- pdf_root: `official/self-evo/v0.1.2/academic_pdfs/`
-- package_control: `official/self-evo/v0.1.2/package_control/`
-- package_version: `0.1.2`
-- zenodo_doi: `10.5281/zenodo.20975581`
-- zenodo_doi_url: https://doi.org/10.5281/zenodo.20975581
-- zenodo_record_url: https://zenodo.org/records/20975581
-- parent_package: `official/self-evo/v0.1.1/`
-- parent_zenodo_doi: `10.5281/zenodo.20938909`
-- status: release-candidate documentation package / package-control artifact
-- boundary: not a conformance certificate, not deployment authorization, not witness-independence certification, not checker implementation certification, not fixture-runner execution, and not live self-evolution permission.
-
-## Self-Evo Document Package v0.1.1
-
-- package_root: `official/self-evo/v0.1.1/`
-- parent_entry: `official/self-evo/README.md`
-- human_entry: `official/self-evo/v0.1.1/README.md`
-- package_index: `official/self-evo/v0.1.1/package_control/SELF_EVO_PACKAGE_INDEX_AND_READING_ORDER_v0_1.md`
-- package_manifest: `official/self-evo/v0.1.1/package_control/SELF_EVO_PACKAGE_MANIFEST_v0_1.json`
-- sha256_manifest: `official/self-evo/v0.1.1/SHA256SUMS.txt`
-- markdown_root: `official/self-evo/v0.1.1/docs/markdown/`
-- pdf_root: `official/self-evo/v0.1.1/docs/pdf/`
-- review_records: `official/self-evo/v0.1.1/controls/review_records/`
-- patch_notes: `official/self-evo/v0.1.1/controls/patch_notes/`
-- pdf_layout_audit: `official/self-evo/v0.1.1/controls/audits/PDF_LAYOUT_AUDIT_v3.md`
-- package_version: `0.1.1-safe-layout`
-- zenodo_doi: `10.5281/zenodo.20938909`
-- zenodo_doi_url: https://doi.org/10.5281/zenodo.20938909
-- zenodo_record_url: https://zenodo.org/records/20938909
-- status: draft document-level governance corpus
-- bridge: `c = a + b`; CGAM; SRLM; TRIAD-SYNAPS; Memory Gate; EA-L4; Anti-Autarky; Resource Actor Grounding; Local Checker; conformance fixtures; contradiction register; open-issues backlog.
-- boundary: not a conformance certificate, not deployment authorization, not a safety proof, not a personhood or consciousness claim, and not live self-evolution permission.
-
-## CCDP v0.1 package
-
-- title: Child-`c` Development Protocol (CCDP) v0.1
-- status: draft research protocol pack; child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance.
-- package_root: `docs/ccdp/`
-- package_manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_v0.1.json`
-- package_citation: `docs/ccdp/CITATION.cff`
-- memory_map_schema: `docs/ccdp/schemas/CCDP_MEMORY_MAP_v0.1.schema.json`
-- sha256_manifest: `docs/ccdp/hashes/SHA256SUMS_CCDP_v0.1_2026-05-14.txt`
-- split:
-  - public package files: `docs/ccdp/`
-  - technical companions: `docs/ccdp/technical/`
-  - sensitive-controlled review artifacts: `docs/ccdp/sensitive/`
-- release_status: GitHub pre-release published; signed tag `ccdp-v0.1`; URL: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/ccdp-v0.1
-- DOI: `10.5281/zenodo.20190648`
-- DOI URL: https://doi.org/10.5281/zenodo.20190648
-- Zenodo record: https://zenodo.org/records/20190648
-- Zenodo concept DOI: `10.5281/zenodo.20190647`
-- zenodo_status: published public-surface deposit; package ZIP is on Zenodo, not in the repo.
-- sensitive-controlled material: excluded from the Zenodo public-surface package.
-- linkedin_status: deferred until DOI backfill is complete.
-
-### CCDP v0.1.1 Hygiene Addendum — Mode A DOI-Safe Patch Pack
-
-- package_root: `official/ccdp/v0.1.1-hygiene-addendum-mode-a/`
-- DOI: `10.5281/zenodo.20680938`
-- Zenodo record: https://zenodo.org/records/20680938
-- current_operational_reading: `CCDP v0.1 baseline + CCDP v0.1.1 Hygiene Addendum`
-- mode: addendum-only; read with CCDP v0.1 baseline; does not mutate DOI-bound CCDP v0.1 artifacts.
-
-### CCDP full technical corpus
-
-The full CCDP v0.1 technical corpus, including technical companion documents and sensitive-controlled review artifacts, is visible in GitHub for specialist review, architecture review, safety research, audit, and criticism.
-
-Sensitive-controlled does not mean hidden. It means these files are not public UX guidance, not legal advice, not clinical guidance, not product certification, and not deployment approval.
-
-Entry point: `docs/ccdp/FULL_TECHNICAL_CORPUS.md`
-
-Machine manifest: `docs/ccdp/PACKAGE_MANIFEST_CCDP_FULL_TECHNICAL_v0.1.json`
-
-Citation metadata: `docs/ccdp/CITATION_FULL_TECHNICAL.cff`
-
-### CCDP DOI layers
-
-- Public-surface DOI: https://doi.org/10.5281/zenodo.20190648
-- Full technical corpus DOI: https://doi.org/10.5281/zenodo.20196219
-
-The public-surface DOI archives the bounded public CCDP surface.
-
-The full technical corpus DOI archives the complete GitHub technical corpus, including technical companion documents and sensitive-controlled review artifacts for specialist review.
-
-### CCDP AMDR/PAMDC Addendum v0.1.1
-
-- DOI: https://doi.org/10.5281/zenodo.20691716
-- GitHub path: `docs/ccdp/addenda/amdr-pamdc/`
-- Machine index: `docs/ccdp/addenda/ADDENDA_INDEX.json`
-- Citation metadata: `docs/ccdp/addenda/amdr-pamdc/CITATION.cff`
-- Role: active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.
-
-- boundary: not legal advice, not clinical guidance, not product certification, and not implementation approval.
-
-## Personality Formation and Time-Shaped Continuity Profile v0.1
-
-- id: `personality_formation_time_shaped_continuity_v0_1`
-- title: `Personality Formation and Time-Shaped Continuity Profile v0.1`
-- status: `Draft conceptual / normative profile`
-- assertion_class: `C-A4 draft conceptual-normative profile; C-A7 only where witness / transfer / traceability requirements are stated`
-- package_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`
-- markdown_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md`
-- pdf_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.pdf`
-- manifest_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json`
-- sha256sums_path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS`
-- relation: `c = a + b`; Temporal AI Presence; continuity; identity; developmental formation
-- core_rule: `Capability can be installed. Personality must be formed.`
-- non_claims: no proof of consciousness; no legal personhood; no automatic authority; no biological imitation requirement; no mature personality at activation; no continuity transfer certified by viability alone.
-
-## Stable corpus refs
-
-- `CURRENT_CORPUS_MAP.json` — current cross-repository discovery snapshot
-- `schemas/current-corpus-map-v1.schema.json`
-- `CORPUS_PRIMER.json`
-- `STACK_LOCK_2026-04-12.json` — historical snapshot, 2026-04-12
-- `CANONICAL_DISTINCTIONS.md`
-- `CANONICAL_DISTINCTIONS.json`
-- `OBJECTIONS_AND_REPLIES.md`
-- `OBJECTIONS_AND_REPLIES.json`
-- `CITATION_AND_VERIFICATION.md`
-- `CITATION_AND_VERIFICATION.json`
-- `CLAIMS_AND_EVIDENCE_MAP.md`
-- `CLAIMS_AND_EVIDENCE_MAP.json`
-- `STATUS_AND_MATURITY_MAP.md`
-- `STATUS_AND_MATURITY_MAP.json`
-- `CHANGE_CONTROL_AND_SYNC.md`
-- `CHANGE_CONTROL_AND_SYNC.json`
-- `CONTROL_SURFACE_DEPENDENCY_AND_COUPLING_MAP.md`
-- `CONTROL_LAYER_MINIMALITY_AND_DEDUPLICATION_POLICY.md`
-- `QUESTION_TO_CONTROL_SURFACE_MAP.md`
-- `CONTROL_STACK_COMPLETENESS_AND_STOP_RULE.md`
-- `OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md`
-- `OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.json`
-- `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md`
-- `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.json`
-- `SUPERSESSION_AND_DEPRECATION.md`
-- `SUPERSESSION_AND_DEPRECATION.json`
-- `TERMINOLOGY_AND_ALIAS_POLICY.md`
-- `TERMINOLOGY_AND_ALIAS_POLICY.json`
-- `ENTRY_ACCEPTANCE_AND_REGRESSION.md`
-- `ENTRY_ACCEPTANCE_AND_REGRESSION.json`
-- `ASSERTION_STRENGTH_AND_BOUNDARIES.md`
-- `ASSERTION_STRENGTH_AND_BOUNDARIES.json`
-- `CANONICAL_OWNERSHIP_AND_BOUNDARIES.md`
-- `CANONICAL_OWNERSHIP_AND_BOUNDARIES.json`
-- `CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.md`
-- `CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.json`
-- `PRECEDENCE_AND_RESOLUTION.md`
-- `PRECEDENCE_AND_RESOLUTION.json`
-- `ARTIFACT_ID_AND_REFERENCE_POLICY.md`
-- `ARTIFACT_ID_AND_REFERENCE_POLICY.json`
-- `PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.md`
-- `PUBLIC_SAFE_BOUNDARY_AND_EXCLUSION_POLICY.json`
-- `PACKAGE_INTAKE_AND_INTEGRATION.md`
-- `PACKAGE_INTAKE_AND_INTEGRATION.json`
-- `MASTER_ENTRY.md`
-- `REPO_INDEX.json`
-- `REPO_INDEX.md`
-
-## Secondary local-state / process refs
-
-- `CURRENT_CORPUS_STATE_AND_READINESS_SNAPSHOT.md`
-- `CURRENT_CORPUS_STATE_AND_READINESS_SNAPSHOT.json`
-- `CURRENT_LOCAL_CONTROL_STACK_STAGING_MAP.md`
-- `LOCAL_PROMOTION_DOCKET_AND_BLOCKER_REGISTRY.md`
-- `CONTROL_STACK_STOP_RULE_AUDIT_2026-04-12.md`
-- `LOCAL_TO_PUBLIC_PROMOTION_POLICY.md`
-- `LOCAL_TO_PUBLIC_PROMOTION_POLICY.json`
-- `ATOMIC_PROMOTION_BUNDLES.md`
-- `ATOMIC_PROMOTION_BUNDLES.json`
-- `PROMOTION_SEQUENCE_AND_RELEASE_TRANCHES.md`
-- `PROMOTION_SEQUENCE_AND_RELEASE_TRANCHES.json`
-- `BOOTSTRAP_CUTOVER_AND_PUBLIC_HISTORY_CANDIDATE_SETS.md`
-- `BOOTSTRAP_CUTOVER_AND_PUBLIC_HISTORY_CANDIDATE_SETS.json`
-- `PUBLIC_HISTORY_ANNOTATION_AND_RELEASE_NOTE_POLICY.md`
-- `PUBLIC_HISTORY_ANNOTATION_AND_RELEASE_NOTE_POLICY.json`
-- `PUBLIC_CORRECTION_AND_ERRATA_POLICY.md`
-- `PUBLIC_CORRECTION_AND_ERRATA_POLICY.json`
-- `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md`
-- `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.json`
-- `hashes/SHA256SUMS_main_temporal_presence_2026-04-12.txt`
-
-## Hard invariants
-
-- AGI = Advanced Global Intelligence, not Artificial General Intelligence.
-- `c = a + b` remains the core formula.
-- `c` is not an agent.
-- DEA remains upstream from EA-L4 / EATP.
-- SER remains the SER normative core.
-- `L4` defines feasibility, not permission.
-
-## First files to read
-
-- `CURRENT_CORPUS_MAP.json`
-- `CORPUS_PRIMER.json`
-- `STACK_LOCK_2026-04-12.json` (historical snapshot)
-- `CANONICAL_DISTINCTIONS.md`
-- `OBJECTIONS_AND_REPLIES.md`
-- `CITATION_AND_VERIFICATION.md`
-- `CLAIMS_AND_EVIDENCE_MAP.md`
-- `STATUS_AND_MATURITY_MAP.md`
-- `CHANGE_CONTROL_AND_SYNC.md`
-- `MASTER_ENTRY.md`
-- `README.md`
-- `REPO_INDEX.json`
-
-## Downloads
-
-- Release page (verified): https://github.com/Kot141078/advanced-global-intelligence/releases/tag/agi-snapshot-2026-02-24
-- Tag snapshot (agi-snapshot-2026-02-24)
-  - ZIP: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.zip
-  - TAR: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/tags/agi-snapshot-2026-02-24.tar.gz
-- Latest main
-  - ZIP: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/heads/main.zip
-  - TAR: https://github.com/Kot141078/advanced-global-intelligence/archive/refs/heads/main.tar.gz
-
-## Verification
-
-- Verify content using `hashes/` and the repo's SHA-256 manifest files rather than GitHub-generated archives.
-- Current main-doc temporal-presence manifest: `hashes/SHA256SUMS_main_temporal_presence_2026-04-12.txt`
-
-## Machine entry: c Hardening Pack v0.1
-
-- package_id: `c_hardening_pack_v0_1`
-- path: `hardening/c_hardening_pack_v0_1/`
-- manifest: `hardening/c_hardening_pack_v0_1/c_hardening_pack_v0_1.manifest.json`
-- integrity_manifest: `hardening/c_hardening_pack_v0_1/SHA256SUMS`
-- status: `draft hardening package`
-- assertion_class: `C-A4` for normative proposals; `C-A10` for package-control and conformance-support claims; `C-A7` where witness/hash/signature mechanisms are referenced.
-- non_claims: no personhood proof; no consciousness proof; no AGI proof; no legal status; no final safety proof; no automatic post-anchor authority; no self-funded sovereignty.
+## Article 50 Transparency Submi
