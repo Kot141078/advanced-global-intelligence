@@ -1,0 +1,3710 @@
+{
+  "inventory_id": "PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5",
+  "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+  "generated_at": "2026-08-06T00:00:00Z",
+  "generated_at_semantics": "normalized machine-inventory cut timestamp; not an independent verification receipt",
+  "verification_method": "authenticated GitHub connector fetch at immutable commit; SHA-256 recomputed over returned file bytes",
+  "inventory_status": "MACHINE_PINNED_HUMAN_REVIEW_AND_ADAPTER_CLOSURE_PENDING",
+  "pasc_gb_006": "OPEN_BLOCKING",
+  "normative_weight_granted_by_inventory": false,
+  "moving_branch_used_as_locator": false,
+  "independent_human_reviewers": 0,
+  "source_record_contract": {
+    "record_completeness_required_for_admission": "CLOSURE_COMPLETE",
+    "current_record_completeness": "CLOSURE_INCOMPLETE",
+    "byte_pin_status_is_not_canonical_admission": true,
+    "missing_required_values_are_explicit_typed_unresolved_states": true,
+    "pasc_relation_classes": [
+      "NORMATIVE_IMPORT",
+      "CONSTRAINED_INTERFACE",
+      "CONDITIONAL_PROFILE_INPUT",
+      "INFORMATIVE_CONTEXT",
+      "PARENT_RESULT_ONLY",
+      "EXTERNAL_NEGATIVE_OPERATION_TARGET_ONLY",
+      "BLOCKING_NONCLAIM_ONLY",
+      "BASELINE_CONTROL_INPUT"
+    ]
+  },
+  "repositories": {
+    "Kot141078/advanced-global-intelligence": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+    "Kot141078/sovereign-entity-recursion": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+    "Kot141078/ester-reality-bound": "179ccf4558b4cb81ad55317dbe742c47bbbf6a88",
+    "Kot141078/ester-theoretical-core": "10c2536504f021d546318e547fb00b026ba3c26c",
+    "Kot141078/ai-social-role-separation-memory-custody": "f5d7263181492891032f213c7db1e0c25b701372",
+    "Kot141078/c-hardening-pack": "08d9e36e7f27cc1d573a7aa86fdbe212b59c122e",
+    "Kot141078/c-governed-cli-agent-mesh": "a9180b2a844dd43765b36bbee14c74ea2f2516f0"
+  },
+  "source_records": [
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F01_CORE",
+      "family": "c=a+b / theoretical core / L4",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F01_CORE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v1.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+      "git_blob_sha1": "f898fbfd41971f5d97884119fd2389e450fbc52d",
+      "content_hash_sha256": "08a59f80fa0502a6cd7c3730869f9b814164023253839d49c316dac03e67ce6a",
+      "size_bytes": 4580,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "active draft; non-final",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "active draft; non-final",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "NORMATIVE_IMPORT",
+      "pasc_relation_scope": "NORMATIVE_IMPORT_CLAIM_CEILING_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "NORMATIVE_IMPORT_CLAIM_CEILING_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F01_L4",
+      "family": "c=a+b / theoretical core / L4",
+      "canonical_owner": {
+        "candidate": "Kot141078/ester-reality-bound",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F01_L4",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "UNVERSIONED_DRAFT",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/ester-reality-bound/blob/179ccf4558b4cb81ad55317dbe742c47bbbf6a88/protocol/L4_reality_boundary_layer.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/ester-reality-bound",
+      "immutable_commit_or_release": "179ccf4558b4cb81ad55317dbe742c47bbbf6a88",
+      "path": "protocol/L4_reality_boundary_layer.md",
+      "git_blob_sha1": "721ef86568d3e98bcc67579f2d019defad104384",
+      "content_hash_sha256": "eb6f04d65ddd4bf5efda4a661d02d6ea493fd724450fb5c5d4b2f56734300a04",
+      "size_bytes": 341,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "draft operational L4; canonical home O03",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "draft operational L4; canonical home O03",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "NORMATIVE_IMPORT",
+      "pasc_relation_scope": "NORMATIVE_IMPORT_FEASIBILITY_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "NORMATIVE_IMPORT_FEASIBILITY_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F01_THEORY",
+      "family": "c=a+b / theoretical core / L4",
+      "canonical_owner": {
+        "candidate": "Kot141078/ester-theoretical-core",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F01_THEORY",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.8.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/ester-theoretical-core/blob/10c2536504f021d546318e547fb00b026ba3c26c/docs/centered-agency/esther-rp-001-v0.8.1/ARTICLE/ESTHER_RP_001_v0_8_1_EN.md",
+        "release_doi": "10.5281/zenodo.21443105",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/ester-theoretical-core",
+      "immutable_commit_or_release": "10c2536504f021d546318e547fb00b026ba3c26c",
+      "path": "docs/centered-agency/esther-rp-001-v0.8.1/ARTICLE/ESTHER_RP_001_v0_8_1_EN.md",
+      "git_blob_sha1": "e648e0942745687e4a785c2fe70699fc74405050",
+      "content_hash_sha256": "4cf13d58cc8c5802854f87145427c992393ab46103b7e82fa67888ef2f91e90f",
+      "size_bytes": 19282,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "experimental",
+        "declared_status": "working paper; no entity, empirical-continuity, or personhood claim",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "working paper; no entity, empirical-continuity, or personhood claim",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "INFORMATIVE_CONTEXT",
+      "pasc_relation_scope": "INFORMATIVE_CONTEXT",
+      "current_disposition": "INFORMATIVE_CONTEXT",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "INFORMATIVE_CONTEXT",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F02_SER",
+      "family": "SER / SER-FED",
+      "canonical_owner": {
+        "candidate": "Kot141078/sovereign-entity-recursion",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F02_SER",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v1.3",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/sovereign-entity-recursion/blob/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/protocol/SER_v1.3_EN.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/sovereign-entity-recursion",
+      "immutable_commit_or_release": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+      "path": "protocol/SER_v1.3_EN.md",
+      "git_blob_sha1": "bf8ea1d3f158006e38127906bc99063fb9cd1363",
+      "content_hash_sha256": "6c62dcd21d4a6366c6f638eed41c9eee1b73858f1a0b01aa3f5aa6b0b90c5d53",
+      "size_bytes": 7079,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "stable mature core",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "stable mature core",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "CONSTRAINED_INTERFACE_NO_RESPONSIBILITY_INHERITANCE",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONSTRAINED_INTERFACE_NO_RESPONSIBILITY_INHERITANCE",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F02_SER_FED",
+      "family": "SER / SER-FED",
+      "canonical_owner": {
+        "candidate": "Kot141078/sovereign-entity-recursion",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F02_SER_FED",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.2-RFC",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/sovereign-entity-recursion/blob/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/protocol/ser-fed/SER-FED_v0.2_RFC_EN.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/sovereign-entity-recursion",
+      "immutable_commit_or_release": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+      "path": "protocol/ser-fed/SER-FED_v0.2_RFC_EN.md",
+      "git_blob_sha1": "416cd0dd14a5aa445eb80165d2fc8a37a7f121a0",
+      "content_hash_sha256": "00bed1d5ee15c2cf19d7fed8ee863744f396f24d88cc606bd961aaec22173193",
+      "size_bytes": 8255,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "draft RFC; not release",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "draft RFC; not release",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "CONSTRAINED_INTERFACE_DRAFT_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONSTRAINED_INTERFACE_DRAFT_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F03_PRE_LINEAGE",
+      "family": "Pre-Lineage Boundary",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F03_PRE_LINEAGE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
+        "release_doi": "10.5281/zenodo.19409346",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "manifesto/Pre_Lineage_Boundary_Note_v0.1.md",
+      "git_blob_sha1": "31f1529417cbcb54882e1f7efb8ce8b96af660b7",
+      "content_hash_sha256": "fba6d46bb7dff26a4d72af321ef3ea33b152919fc7434e03cd5bff0ee5b4816f",
+      "size_bytes": 13044,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "experimental",
+        "declared_status": "reserved territory",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "reserved territory",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "BLOCKING_NONCLAIM_ONLY",
+      "pasc_relation_scope": "BLOCKING_NONCLAIM_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "BLOCKING_NONCLAIM_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F04_PAMDC",
+      "family": "PAMDC / PACR",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F04_PAMDC",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1 (published bundle includes v0.1.1 patch)",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/docs/ccdp/addenda/amdr-pamdc/Post_Anchor_Memory_Degradation_and_Continuity_Profile_v0_1.md",
+        "release_doi": "10.5281/zenodo.20691716",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "docs/ccdp/addenda/amdr-pamdc/Post_Anchor_Memory_Degradation_and_Continuity_Profile_v0_1.md",
+      "git_blob_sha1": "383ceb1adf1117a18322b9e497b9383d4afefbe4",
+      "content_hash_sha256": "995ae4655fae4f2e66bdadd066a3ad0c5766edde6288e534284355c8e7626eab",
+      "size_bytes": 47363,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "published addendum / technical note; bounded delta; does not supersede CCDP",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "published addendum / technical note; bounded delta; does not supersede CCDP",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "NORMATIVE_IMPORT",
+      "pasc_relation_scope": "NORMATIVE_IMPORT_DEGRADATION_PRECONDITION_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "NORMATIVE_IMPORT_DEGRADATION_PRECONDITION_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F04_PAMDC_PATCH",
+      "family": "PAMDC / PACR",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F04_PAMDC_PATCH",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/docs/ccdp/addenda/amdr-pamdc/PAMDC_v0_1_1_Scope_Bootstrap_and_Freshness_Patch.md",
+        "release_doi": "10.5281/zenodo.20691716",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "docs/ccdp/addenda/amdr-pamdc/PAMDC_v0_1_1_Scope_Bootstrap_and_Freshness_Patch.md",
+      "git_blob_sha1": "0eee33d1fcb3f1801a65930f51b4c9f844354171",
+      "content_hash_sha256": "273466fc1cb8b19378d1da1fead840e2b6fdb996fa0295864149490b0c36262b",
+      "size_bytes": 9251,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "v0.1.1 patch in published addendum bundle",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "v0.1.1 patch in published addendum bundle",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "NORMATIVE_IMPORT",
+      "pasc_relation_scope": "NORMATIVE_IMPORT_SCOPE_AND_FRESHNESS_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "NORMATIVE_IMPORT_SCOPE_AND_FRESHNESS_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F04_PACR",
+      "family": "PAMDC / PACR",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F04_PACR",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/hardening/c_hardening_pack_v0_1/md/Post_Anchor_Continuity_and_ReAnchoring_Profile_v0_1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "hardening/c_hardening_pack_v0_1/md/Post_Anchor_Continuity_and_ReAnchoring_Profile_v0_1.md",
+      "git_blob_sha1": "7af9fa2a584353c2adc0bdc2f8c5d09537f0089f",
+      "content_hash_sha256": "d7232644099238733425e82608537740e0daf45b4b2359c51d4564ee0ba3a3f8",
+      "size_bytes": 46635,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "integrated AGI hardening draft; not located by this authenticated machine pass in the pinned DOI-bound c-hardening-pack repository tree",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "integrated AGI hardening draft; not located by this authenticated machine pass in the pinned DOI-bound c-hardening-pack repository tree",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "CONSTRAINED_UPSTREAM_COLLAPSE_AND_EXTERNAL_REENTRY_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONSTRAINED_UPSTREAM_COLLAPSE_AND_EXTERNAL_REENTRY_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-001",
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F05_ADB",
+      "family": "Anchor Directive Bundle",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F05_ADB",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/hardening/c_hardening_pack_v0_1/md/Anchor_Directive_Bundle_JSON_Schema_v0_1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "hardening/c_hardening_pack_v0_1/md/Anchor_Directive_Bundle_JSON_Schema_v0_1.md",
+      "git_blob_sha1": "8177f32a33cc80f6a74438d3277dcec6eaf1d6eb",
+      "content_hash_sha256": "e94ab01ccc3e04b34664f2d9dc434b10136a4ac65b668ef775d509156b289b25",
+      "size_bytes": 71411,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "integrated AGI hardening draft; not located by this authenticated machine pass in the pinned DOI-bound c-hardening-pack repository tree",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "integrated AGI hardening draft; not located by this authenticated machine pass in the pinned DOI-bound c-hardening-pack repository tree",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "BOUNDED_HISTORICAL_INPUT_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "BOUNDED_HISTORICAL_INPUT_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-001",
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F06_A6",
+      "family": "A6 / A6-CTP",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F06_A6",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/protocols/a6-composition-layer/v0.1.1/docs/a6/A6_Composition_Layer_v0.1.1.md",
+        "release_doi": "10.5281/zenodo.20752182",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "protocols/a6-composition-layer/v0.1.1/docs/a6/A6_Composition_Layer_v0.1.1.md",
+      "git_blob_sha1": "332ace5762eecf32fe731aede4f1ff0877242703",
+      "content_hash_sha256": "9539856f5f3cd1dca6aeb1ec3e3759987f3b4263a2283b9cb14e9457ec147bf8",
+      "size_bytes": 29947,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "v0.1.1 release; canonical A6 operational behavior; bounded non-authority profile",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "v0.1.1 release; canonical A6 operational behavior; bounded non-authority profile",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "CONSTRAINED_ACTION_COMPOSITION_INTERFACE",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONSTRAINED_ACTION_COMPOSITION_INTERFACE",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F06_A6_CTP",
+      "family": "A6 / A6-CTP",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F06_A6_CTP",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1.4",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/official/a6-ctp/v0.1.4/artifact/A6_Composition_Transition_Predicate_Addendum_v0_1_4.md",
+        "release_doi": "10.5281/zenodo.21227129",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "official/a6-ctp/v0.1.4/artifact/A6_Composition_Transition_Predicate_Addendum_v0_1_4.md",
+      "git_blob_sha1": "50d2ed37439aaed0ef42f552d9f0fe0282604d6a",
+      "content_hash_sha256": "61126c2d8a71a03eaa301f181168d02c1334ad0a3c5b68d778a6565707eb6152",
+      "size_bytes": 58322,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "DOI-bound; predicate-review cycle closed at draft level; no conformance/deployment/safety proof",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "DOI-bound; predicate-review cycle closed at draft level; no conformance/deployment/safety proof",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "CONSTRAINED_TRANSITION_PREDICATE_INTERFACE",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONSTRAINED_TRANSITION_PREDICATE_INTERFACE",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F07_BUNDLE",
+      "family": "Continuity Bundle / Cold Wake / Metric",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F07_BUNDLE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/protocols/continuity-bundle/Continuity_Bundle_JSON_Schema_v0.1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "protocols/continuity-bundle/Continuity_Bundle_JSON_Schema_v0.1.md",
+      "git_blob_sha1": "27636c1adb13ddc62c5de93d89f658792e45a4fe",
+      "content_hash_sha256": "9850176459b19b236509c2fd76913f9d9744be783bf3994b59325295dd0faaec",
+      "size_bytes": 22684,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "operational bounded draft",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "operational bounded draft",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "CONSTRAINED_REFERENCE_ARCHIVE_IS_NOT_CONTINUITY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONSTRAINED_REFERENCE_ARCHIVE_IS_NOT_CONTINUITY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F07_COLD_WAKE",
+      "family": "Continuity Bundle / Cold Wake / Metric",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F07_COLD_WAKE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/protocols/continuity-bundle/Cold_Wake_Checklist_v0.1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "protocols/continuity-bundle/Cold_Wake_Checklist_v0.1.md",
+      "git_blob_sha1": "e8ebb0fcd2b217ccec7309940d45ad109b2b2ecc",
+      "content_hash_sha256": "ff701d9df39037e683b319722d7a9f7db80bea0451322f600159438a65299f92",
+      "size_bytes": 12889,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "operational bounded draft",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "operational bounded draft",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "CONSTRAINED_REFERENCE_FAIL_CLOSED_WAKE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONSTRAINED_REFERENCE_FAIL_CLOSED_WAKE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F07_METRIC",
+      "family": "Continuity Bundle / Cold Wake / Metric",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F07_METRIC",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1.2",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/publications/ccalc-full-stack-v0-1/sources/04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2.md",
+        "release_doi": "10.5281/zenodo.21205427",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "publications/ccalc-full-stack-v0-1/sources/04_C_CONTINUITY_METRIC_AND_EQUIVALENCE_SEMANTICS_v0_1_2.md",
+      "git_blob_sha1": "bfe1de37a602a48cb31f0f61d4e5c1ffaab9b458",
+      "content_hash_sha256": "35861cc5c8c579be07840bcace3f44197343d4c384956672da86a308b7bd6fa9",
+      "size_bytes": 58689,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "experimental",
+        "declared_status": "DOI-bound research stack; no completeness/personhood/live-truth claim",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "DOI-bound research stack; no completeness/personhood/live-truth claim",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "PARENT_RESULT_ONLY",
+      "pasc_relation_scope": "PARENT_RESULT_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "PARENT_RESULT_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F08_BEACON",
+      "family": "Beacon",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F08_BEACON",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/protocols/beacon/Beacon_Profile_v0.1_EN.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "protocols/beacon/Beacon_Profile_v0.1_EN.md",
+      "git_blob_sha1": "15e7ecdc7b1dc45c22397f7f692fbdf05b0a09bb",
+      "content_hash_sha256": "4e5061fc655ce384dcbf75843ff158a10c5e1f39e3c2bdf60e2a85ffed494de1",
+      "size_bytes": 23090,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "v0.1 synthesis profile; no stable/final release status found",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "v0.1 synthesis profile; no stable/final release status found",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "CONSTRAINED_RECOGNITION_REFERENCE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONSTRAINED_RECOGNITION_REFERENCE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F09_AGL",
+      "family": "AGL",
+      "canonical_owner": {
+        "candidate": "Kot141078/ester-reality-bound",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F09_AGL",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/ester-reality-bound/blob/179ccf4558b4cb81ad55317dbe742c47bbbf6a88/docs/actor-grounding-layer/Actor_Grounding_Layer_v0.1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/ester-reality-bound",
+      "immutable_commit_or_release": "179ccf4558b4cb81ad55317dbe742c47bbbf6a88",
+      "path": "docs/actor-grounding-layer/Actor_Grounding_Layer_v0.1.md",
+      "git_blob_sha1": "52036dd00745bf0b4928762e125c3b841d3dc3ea",
+      "content_hash_sha256": "bfeb27dd9e63ddd177f6cad38d47ff6b8dd38618ef2f7c5034c029824cdde678",
+      "size_bytes": 16687,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "draft package v0.1; canonical home ERB",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "draft package v0.1; canonical home ERB",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "NORMATIVE_IMPORT",
+      "pasc_relation_scope": "SOURCE_STATE_GROUNDING_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "SOURCE_STATE_GROUNDING_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F10_ARL_CORE",
+      "family": "ARL",
+      "canonical_owner": {
+        "candidate": "Kot141078/sovereign-entity-recursion",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F10_ARL_CORE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/sovereign-entity-recursion/blob/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/docs/arbitration-review-layer/Multi_Entity_Arbitration_Review_Layer_v0.1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/sovereign-entity-recursion",
+      "immutable_commit_or_release": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+      "path": "docs/arbitration-review-layer/Multi_Entity_Arbitration_Review_Layer_v0.1.md",
+      "git_blob_sha1": "8e3709c9adc0f77fc5adac75dae8b73a719ee4a1",
+      "content_hash_sha256": "7f1f90eab31fec29afbc490fbce9c9cc6aa6db38b907b605c5ef4b705de6ca97",
+      "size_bytes": 9075,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "draft package v0.1; canonical home SER",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "draft package v0.1; canonical home SER",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "PROCEDURAL_CONFLICT_INTERFACE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "PROCEDURAL_CONFLICT_INTERFACE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F10_ARL_STANDING",
+      "family": "ARL",
+      "canonical_owner": {
+        "candidate": "Kot141078/sovereign-entity-recursion",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F10_ARL_STANDING",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/sovereign-entity-recursion/blob/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/docs/arbitration-review-layer/Evidence_Admissibility_and_Standing_v0.1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/sovereign-entity-recursion",
+      "immutable_commit_or_release": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+      "path": "docs/arbitration-review-layer/Evidence_Admissibility_and_Standing_v0.1.md",
+      "git_blob_sha1": "ebc0df984684c2bba4a908ff46b80c7aa93a221a",
+      "content_hash_sha256": "b992daf0392f72c63b519dcd79898b5bcac1a1237dd64bd5b2171fcbfb9e1648",
+      "size_bytes": 15814,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "draft package v0.1",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "draft package v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "PROCEDURAL_STANDING_INTERFACE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "PROCEDURAL_STANDING_INTERFACE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F10_ARL_FREEZE",
+      "family": "ARL",
+      "canonical_owner": {
+        "candidate": "Kot141078/sovereign-entity-recursion",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F10_ARL_FREEZE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/sovereign-entity-recursion/blob/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/docs/arbitration-review-layer/Freeze_Hold_Quarantine_Semantics_v0.1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/sovereign-entity-recursion",
+      "immutable_commit_or_release": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+      "path": "docs/arbitration-review-layer/Freeze_Hold_Quarantine_Semantics_v0.1.md",
+      "git_blob_sha1": "5499f564d759215a0a835541e9364b4dd57185c2",
+      "content_hash_sha256": "862582e8e6b1d918d2342ad17cd9baa054c90844f3f37888887ea3da16dd63d8",
+      "size_bytes": 14441,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "draft package v0.1",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "draft package v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "PROCEDURAL_FREEZE_INTERFACE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "PROCEDURAL_FREEZE_INTERFACE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F10_ARL_FINALITY",
+      "family": "ARL",
+      "canonical_owner": {
+        "candidate": "Kot141078/sovereign-entity-recursion",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F10_ARL_FINALITY",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/sovereign-entity-recursion/blob/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/docs/arbitration-review-layer/Decision_Outcomes_and_Appeal_Window_v0.1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/sovereign-entity-recursion",
+      "immutable_commit_or_release": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+      "path": "docs/arbitration-review-layer/Decision_Outcomes_and_Appeal_Window_v0.1.md",
+      "git_blob_sha1": "d1e61d214ae4d12de8f93b173419e8329257b111",
+      "content_hash_sha256": "0efa28f28fb7a65801bdf013b76e2cb4b7fb171f0441a0ac6ecfac6002a7c211",
+      "size_bytes": 17683,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "draft package v0.1",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "draft package v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "PROCEDURAL_FINALITY_INTERFACE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "PROCEDURAL_FINALITY_INTERFACE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F11_L4_WITNESS",
+      "family": "L4 Witness",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F11_L4_WITNESS",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.2",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "official/pdf/L4_Witness_Protocol_Normative_Draft_v0.2.pdf",
+      "git_blob_sha1": "b1f0f78213effe772d4c444135ad3e337612bef0",
+      "content_hash_sha256": "33f8ef366032f0aed5713047c10203353c499eed8835e3540a5cdb6650378f0d",
+      "size_bytes": 78830,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "active draft; non-final; canonical PDF",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "active draft; non-final; canonical PDF",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "PROFILE_ADAPTER_WITNESS_IS_NOT_TRUTH_OR_PERMISSION",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "PROFILE_ADAPTER_WITNESS_IS_NOT_TRUTH_OR_PERMISSION",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F12_ENTITY_PROFILE_BRIDGE",
+      "family": "Entity versus Profile",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F12_ENTITY_PROFILE_BRIDGE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/official/entity-vs-profile/v0_1_1/README.md",
+        "release_doi": "10.5281/zenodo.21204415",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "official/entity-vs-profile/v0_1_1/README.md",
+      "git_blob_sha1": "4cfa05f5b8812a6ac15dce36da1a119d18b4021e",
+      "content_hash_sha256": "c9c6100509e777d9b9cb04c31393ef3c681220c683d082da56f96847702cf854",
+      "size_bytes": 3361,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "published metadata bridge; canonical source bytes were not located on the pinned GitHub surface by this machine pass; claim ceiling EVP-C3",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "published metadata bridge; canonical source bytes were not located on the pinned GitHub surface by this machine pass; claim ceiling EVP-C3",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONSTRAINED_INTERFACE",
+      "pasc_relation_scope": "PARENT_INPUT_ENTITY_PROFILE_CLASS_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "PARENT_INPUT_ENTITY_PROFILE_CLASS_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-002",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F13_ROLE_CUSTODY",
+      "family": "AI Social Role Separation and Memory Custody",
+      "canonical_owner": {
+        "candidate": "Kot141078/ai-social-role-separation-memory-custody",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F13_ROLE_CUSTODY",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v1.0",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/blob/f5d7263181492891032f213c7db1e0c25b701372/docs/AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_EN.md",
+        "release_doi": "10.5281/zenodo.21751985",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/ai-social-role-separation-memory-custody",
+      "immutable_commit_or_release": "f5d7263181492891032f213c7db1e0c25b701372",
+      "path": "docs/AI_SOCIAL_ROLE_SEPARATION_AND_MEMORY_CUSTODY_v1.0_CANONICAL_EN.md",
+      "git_blob_sha1": "5798090701ea930a8d561e8ae06b0e0a29835213",
+      "content_hash_sha256": "10dc6d9388c807af7d8b3b47363a625ca4d699522f47de03c5f2acf43bbceb55",
+      "size_bytes": 54545,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "frozen published v1.0 technical note; no peer-review, empirical, legal, or deployment claim",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "frozen published v1.0 technical note; no peer-review, empirical, legal, or deployment claim",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "NORMATIVE_IMPORT",
+      "pasc_relation_scope": "ROLE_MEMORY_INFERENCE_VERSION_SESSION_CUSTODY_DISTINCTIONS_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "ROLE_MEMORY_INFERENCE_VERSION_SESSION_CUSTODY_DISTINCTIONS_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F14_RUNTIME_MAIN",
+      "family": "Runtime Authority",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F14_RUNTIME_MAIN",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/publications/ccalc-full-stack-v0-1/sources/06_C_RUNTIME_AUTHORITY_AND_MULTI_CONTOUR_DEPLOYMENT_BOUNDARY_v0_1.md",
+        "release_doi": "10.5281/zenodo.21205427",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "publications/ccalc-full-stack-v0-1/sources/06_C_RUNTIME_AUTHORITY_AND_MULTI_CONTOUR_DEPLOYMENT_BOUNDARY_v0_1.md",
+      "git_blob_sha1": "6c8d3b22d30f8b23d6de69689304ff017470053e",
+      "content_hash_sha256": "b72d6f558442a13d1718a9d22343a412490e7ff4c75ed006b6f3bfcaafb1ace2",
+      "size_bytes": 25159,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "experimental",
+        "declared_status": "DOI-bound research stack; not deployment authorization, safety certification, or completeness proof",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "DOI-bound research stack; not deployment authorization, safety certification, or completeness proof",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "EXTERNAL_NEGATIVE_OPERATION_TARGET_ONLY",
+      "pasc_relation_scope": "EXTERNAL_NEGATIVE_OPERATION_TARGET_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "EXTERNAL_NEGATIVE_OPERATION_TARGET_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F14_RUNTIME_REVOKE",
+      "family": "Runtime Authority",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F14_RUNTIME_REVOKE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/publications/ccalc-full-stack-v0-1/sources/06d_RUNTIME_AUTHORITY_REVOCATION_AND_POST_SESSION_AUDIT_v0_1.md",
+        "release_doi": "10.5281/zenodo.21205427",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "publications/ccalc-full-stack-v0-1/sources/06d_RUNTIME_AUTHORITY_REVOCATION_AND_POST_SESSION_AUDIT_v0_1.md",
+      "git_blob_sha1": "3d3b050372af6e8a65c50c24f484098a068e4e62",
+      "content_hash_sha256": "3f6ebffcf067dfa8a222ae7692965428848bdf49e9098ffa37221f4de5b55d45",
+      "size_bytes": 7420,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "experimental",
+        "declared_status": "same DOI-bound research stack; revocation/post-session audit source",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "same DOI-bound research stack; revocation/post-session audit source",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "EXTERNAL_NEGATIVE_OPERATION_TARGET_ONLY",
+      "pasc_relation_scope": "EXTERNAL_NEGATIVE_OPERATION_TARGET_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "EXTERNAL_NEGATIVE_OPERATION_TARGET_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F14_CGAM_CAP",
+      "family": "Runtime Authority",
+      "canonical_owner": {
+        "candidate": "Kot141078/c-governed-cli-agent-mesh",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F14_CGAM_CAP",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "source v0.1 in CGAM v0.1.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/c-governed-cli-agent-mesh/blob/a9180b2a844dd43765b36bbee14c74ea2f2516f0/docs/markdown/CLI_Agent_Permission_and_Capability_Model_v0_1.md",
+        "release_doi": "10.5281/zenodo.20257232",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/c-governed-cli-agent-mesh",
+      "immutable_commit_or_release": "a9180b2a844dd43765b36bbee14c74ea2f2516f0",
+      "path": "docs/markdown/CLI_Agent_Permission_and_Capability_Model_v0_1.md",
+      "git_blob_sha1": "af50f2b5cf3c4c88b947ec261fdaa6862c3d7ffa",
+      "content_hash_sha256": "499911347c3747ab06753b2d4f5dbc57ca77811fd2e86f53b379e020eca07af8",
+      "size_bytes": 37295,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "CGAM v0.1.1 draft; non-conformance; non-deployment",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "CGAM v0.1.1 draft; non-conformance; non-deployment",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "INFORMATIVE_CONTEXT",
+      "pasc_relation_scope": "INFORMATIVE_IMPLEMENTATION_ADAPTER_ONLY",
+      "current_disposition": "INFORMATIVE_CONTEXT",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "INFORMATIVE_IMPLEMENTATION_ADAPTER_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F14_CGAM_SEPARATION",
+      "family": "Runtime Authority",
+      "canonical_owner": {
+        "candidate": "Kot141078/c-governed-cli-agent-mesh",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F14_CGAM_SEPARATION",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "source v0.1 in CGAM v0.1.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/c-governed-cli-agent-mesh/blob/a9180b2a844dd43765b36bbee14c74ea2f2516f0/docs/markdown/CLI_Agent_Executor_Reviewer_Separation_v0_1.md",
+        "release_doi": "10.5281/zenodo.20257232",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/c-governed-cli-agent-mesh",
+      "immutable_commit_or_release": "a9180b2a844dd43765b36bbee14c74ea2f2516f0",
+      "path": "docs/markdown/CLI_Agent_Executor_Reviewer_Separation_v0_1.md",
+      "git_blob_sha1": "1550cee4deb7eae826e1313fcb27102f83d316b8",
+      "content_hash_sha256": "0b0a4ed861276e21b72b2d60f09d9e3e60b7f9a4d338b6e44a5e1ef31a41610e",
+      "size_bytes": 34850,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "CGAM v0.1.1 draft; non-conformance; non-deployment",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "CGAM v0.1.1 draft; non-conformance; non-deployment",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "INFORMATIVE_CONTEXT",
+      "pasc_relation_scope": "INFORMATIVE_ROLE_SEPARATION_DESIGN_ONLY",
+      "current_disposition": "INFORMATIVE_CONTEXT",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "INFORMATIVE_ROLE_SEPARATION_DESIGN_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-005",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F15_CCDP_ROOT",
+      "family": "CCDP / CMAM / AMCL",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F15_CCDP_ROOT",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/docs/ccdp/CCDP_v0_1_R_Corpus_Aligned.md",
+        "release_doi": "10.5281/zenodo.20196219",
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "docs/ccdp/CCDP_v0_1_R_Corpus_Aligned.md",
+      "git_blob_sha1": "016315174e997bce386043d95c5864bdde123303",
+      "content_hash_sha256": "1fdcba4c7b23ee8415286469e19a8586617b85ec3cae7f3467cfdd376b7b54fb",
+      "size_bytes": 58482,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "draft research protocol; public DOI 10.5281/zenodo.20190648; hygiene DOI 10.5281/zenodo.20680938",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "draft research protocol; public DOI 10.5281/zenodo.20190648; hygiene DOI 10.5281/zenodo.20680938",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONDITIONAL_PROFILE_INPUT",
+      "pasc_relation_scope": "CONDITIONAL_PROTECTIVE_PROFILE_INPUT_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONDITIONAL_PROTECTIVE_PROFILE_INPUT_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-004",
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F15_CMAM",
+      "family": "CCDP / CMAM / AMCL",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F15_CMAM",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/docs/ccdp/technical/Child_Memory_and_Adult_Migration_v0_1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "docs/ccdp/technical/Child_Memory_and_Adult_Migration_v0_1.md",
+      "git_blob_sha1": "3fa49edc76c63e037bca151c6b9ba1a9175f9352",
+      "content_hash_sha256": "285c48cb8b87bf70309250ea674c976e421b6b803df9d115269d8b953591b093",
+      "size_bytes": 55416,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "canonical CCDP profile in draft research corpus",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "canonical CCDP profile in draft research corpus",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONDITIONAL_PROFILE_INPUT",
+      "pasc_relation_scope": "CONDITIONAL_PROFILE_INPUT_NO_PASC_MIGRATION",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONDITIONAL_PROFILE_INPUT_NO_PASC_MIGRATION",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-004",
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F15_AMCL",
+      "family": "CCDP / CMAM / AMCL",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F15_AMCL",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/docs/ccdp/technical/CCDP_Adult_Migration_Checklist_v0_1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "docs/ccdp/technical/CCDP_Adult_Migration_Checklist_v0_1.md",
+      "git_blob_sha1": "158f233328146ddc341355915929da1e89c08fda",
+      "content_hash_sha256": "4b317c11254ee325641052cd6be813440ec371505544e45c4cc4ac076f04d21a",
+      "size_bytes": 46118,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "canonical checklist in draft research corpus",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "canonical checklist in draft research corpus",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONDITIONAL_PROFILE_INPUT",
+      "pasc_relation_scope": "CONDITIONAL_PROFILE_INPUT_NO_PASC_MIGRATION",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONDITIONAL_PROFILE_INPUT_NO_PASC_MIGRATION",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-004",
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F15_PROTECTED_GUARDIAN",
+      "family": "CCDP / CMAM / AMCL",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F15_PROTECTED_GUARDIAN",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "v0.1",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/docs/ccdp/sensitive/Guardian_Topology_ARL_Matrix_v0_1.md",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "docs/ccdp/sensitive/Guardian_Topology_ARL_Matrix_v0_1.md",
+      "git_blob_sha1": "6f2b7826dff27df0a04c8637f4ff39bc900c86a8",
+      "content_hash_sha256": "783ce15149d87ed1e99cd6a59d9d24e43efbb87314734969b71847a591f04d62",
+      "size_bytes": 55503,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "draft",
+        "declared_status": "canonical sensitive profile in draft research corpus",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "canonical sensitive profile in draft research corpus",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "CONDITIONAL_PROFILE_INPUT",
+      "pasc_relation_scope": "CONDITIONAL_PROTECTIVE_PROFILE_INPUT_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "CONDITIONAL_PROTECTIVE_PROFILE_INPUT_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-004",
+        "BASE-GAP-005",
+        "BASE-GAP-003",
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F16_ASSERTION",
+      "family": "corpus control",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F16_ASSERTION",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "UNVERSIONED_COMMIT_PIN",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/ASSERTION_STRENGTH_AND_BOUNDARIES.json",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "ASSERTION_STRENGTH_AND_BOUNDARIES.json",
+      "git_blob_sha1": "98c5f60dc93d0e545c393ec67fa8468574065375",
+      "content_hash_sha256": "3117ff44f0fa83c7e4529f351e4071e119e56a04ea024064317f45b2561bbe8b",
+      "size_bytes": 7817,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "corpus-control surface",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "corpus-control surface",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "BASELINE_CONTROL_INPUT",
+      "pasc_relation_scope": "BASELINE_ASSERTION_DISCIPLINE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "BASELINE_ASSERTION_DISCIPLINE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F16_OWNERSHIP",
+      "family": "corpus control",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F16_OWNERSHIP",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "UNVERSIONED_COMMIT_PIN",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/CANONICAL_OWNERSHIP_AND_BOUNDARIES.json",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "CANONICAL_OWNERSHIP_AND_BOUNDARIES.json",
+      "git_blob_sha1": "aeb2fe9483692c56073d9113232bc543ab841492",
+      "content_hash_sha256": "4dc464e29032474e7776437257439de653fd7ec0efdeaa75aabef89328361a48",
+      "size_bytes": 7429,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "corpus-control surface",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "corpus-control surface",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "BASELINE_CONTROL_INPUT",
+      "pasc_relation_scope": "BASELINE_OWNERSHIP_DISCIPLINE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "BASELINE_OWNERSHIP_DISCIPLINE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F16_PRECEDENCE",
+      "family": "corpus control",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F16_PRECEDENCE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "UNVERSIONED_COMMIT_PIN",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/PRECEDENCE_AND_RESOLUTION.json",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "PRECEDENCE_AND_RESOLUTION.json",
+      "git_blob_sha1": "d0911ce65f8c0c4080216bab968f8f77cc21943a",
+      "content_hash_sha256": "5f78774a78610da9b38b705e6e192853ef8ab48d968f94b250122e6242d2918f",
+      "size_bytes": 7598,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "corpus-control surface",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "corpus-control surface",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "BASELINE_CONTROL_INPUT",
+      "pasc_relation_scope": "BASELINE_PRECEDENCE_DISCIPLINE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "BASELINE_PRECEDENCE_DISCIPLINE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F16_INVARIANTS",
+      "family": "corpus control",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F16_INVARIANTS",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "UNVERSIONED_COMMIT_PIN",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.json",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "CROSS_LAYER_INVARIANTS_AND_CONTRADICTION_POLICY.json",
+      "git_blob_sha1": "39b7a91f69fa128b3663da911cc7da467c466b2e",
+      "content_hash_sha256": "faf7a6d1747acdbfc26f4d1b582c370c646525629fbe405ae7153900cd551e5b",
+      "size_bytes": 8311,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "corpus-control surface",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "corpus-control surface",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "BASELINE_CONTROL_INPUT",
+      "pasc_relation_scope": "BASELINE_CROSS_LAYER_INVARIANTS_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "BASELINE_CROSS_LAYER_INVARIANTS_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F16_INTAKE",
+      "family": "corpus control",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F16_INTAKE",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "UNVERSIONED_COMMIT_PIN",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/PACKAGE_INTAKE_AND_INTEGRATION.json",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "PACKAGE_INTAKE_AND_INTEGRATION.json",
+      "git_blob_sha1": "1e95cee23edb2964d3fb31afdca608b424945131",
+      "content_hash_sha256": "2ccc7b7227f0d5d01afe3f867fc00ae8650c4ebd09fe3c9ba21113228f99cd10",
+      "size_bytes": 12148,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "corpus-control surface",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "corpus-control surface",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "BASELINE_CONTROL_INPUT",
+      "pasc_relation_scope": "BASELINE_INTAKE_DISCIPLINE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "BASELINE_INTAKE_DISCIPLINE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F16_SUPERSESSION",
+      "family": "corpus control",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F16_SUPERSESSION",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "UNVERSIONED_COMMIT_PIN",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/SUPERSESSION_AND_DEPRECATION.json",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "SUPERSESSION_AND_DEPRECATION.json",
+      "git_blob_sha1": "73d6a34223e67632d4f9923d85805316e6ac8587",
+      "content_hash_sha256": "5e17459e2fe57def15c4c91a08524aa0768e09d95613288a434550a98d579012",
+      "size_bytes": 5805,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "corpus-control surface",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "corpus-control surface",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "BASELINE_CONTROL_INPUT",
+      "pasc_relation_scope": "BASELINE_SUPERSESSION_DISCIPLINE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "BASELINE_SUPERSESSION_DISCIPLINE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    },
+    {
+      "source_record_schema_id": "PASC_CANONICAL_SOURCE_RECORD_v0_1_1_RECOVERY_5",
+      "source_id": "F16_TERMINOLOGY",
+      "family": "corpus control",
+      "canonical_owner": {
+        "candidate": "Kot141078/advanced-global-intelligence",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "artifact_id": {
+        "candidate": "F16_TERMINOLOGY",
+        "verification_status": "UNRESOLVED_AUTHORITATIVE_ID"
+      },
+      "version": {
+        "candidate": "UNVERSIONED_COMMIT_PIN",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "authoritative_locator": {
+        "candidate_github_byte_locator": "https://github.com/Kot141078/advanced-global-intelligence/blob/1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d/TERMINOLOGY_AND_ALIAS_POLICY.json",
+        "release_doi": null,
+        "verification_status": "UNRESOLVED_CANONICAL_RELEASE_RELATION"
+      },
+      "repository": "Kot141078/advanced-global-intelligence",
+      "immutable_commit_or_release": "1f50e1436d944c55db4bdb9b8df8cf6b3ae00a1d",
+      "path": "TERMINOLOGY_AND_ALIAS_POLICY.json",
+      "git_blob_sha1": "9b9f0a38b6b234eefbd2319b60b9d10b8cd9507c",
+      "content_hash_sha256": "17e8686a3f237d935ceabbbfb24ec0ffeddd0d89ca10b632b199bb1d981b0ca8",
+      "size_bytes": 8892,
+      "schema_hash": {
+        "value": null,
+        "status": "NOT_APPLICABLE_OR_UNRESOLVED"
+      },
+      "status": {
+        "class": "stable",
+        "declared_status": "corpus-control surface",
+        "verification_status": "MACHINE_METADATA_ONLY"
+      },
+      "maturity": {
+        "candidate": "corpus-control surface",
+        "verification_status": "UNRESOLVED_INDEPENDENT_REVIEW"
+      },
+      "supersedes": [],
+      "superseded_by": [],
+      "supersession_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "controlling_sections": [],
+      "controlling_sections_review_status": "UNRESOLVED_NOT_SECTION_REVIEWED",
+      "pasc_relation_class": "BASELINE_CONTROL_INPUT",
+      "pasc_relation_scope": "BASELINE_TERMINOLOGY_DISCIPLINE_ONLY",
+      "current_disposition": "DEFERRED_UNPINNED",
+      "byte_pin_status": "PINNED_GITHUB_BYTES",
+      "canonical_admission_status": "OPEN_BLOCKING",
+      "adapter_binding": {
+        "binding": null,
+        "status": "ABSENT_OR_NOT_APPLICABLE_UNRESOLVED"
+      },
+      "claim_ceiling": {
+        "candidate_scope": "BASELINE_TERMINOLOGY_DISCIPLINE_ONLY",
+        "status": "UNRESOLVED_NOT_INDEPENDENTLY_ACCEPTED"
+      },
+      "reserved_territory": [],
+      "reserved_territory_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "known_conflicts": [],
+      "known_conflicts_review_status": "UNRESOLVED_NOT_INDEPENDENTLY_REVIEWED",
+      "verified_at": "2026-08-06T00:00:00Z",
+      "verification_scope": "MACHINE_BYTE_PIN_ONLY",
+      "verification_receipt_binding": {
+        "binding": null,
+        "status": "NO_INDEPENDENT_RECEIPT"
+      },
+      "independent_reviewer_dispositions": [],
+      "record_completeness": "CLOSURE_INCOMPLETE",
+      "unresolved_required_fields": [
+        "canonical_owner",
+        "artifact_id",
+        "version",
+        "authoritative_locator",
+        "schema_hash",
+        "maturity",
+        "supersedes",
+        "superseded_by",
+        "controlling_sections",
+        "adapter_binding",
+        "claim_ceiling",
+        "reserved_territory",
+        "known_conflicts",
+        "verification_receipt_binding",
+        "independent_reviewer_dispositions"
+      ],
+      "gap_ids": [
+        "BASE-GAP-006"
+      ],
+      "normative_weight_in_pasc": false
+    }
+  ],
+  "blocking_gaps": [
+    {
+      "gap_id": "BASE-GAP-001",
+      "mechanism": "PACR and Anchor Directive Bundle were located in the integrated AGI hardening tree but not in the pinned dedicated DOI-bound c-hardening-pack repository tree by this authenticated machine pass; no absence receipt is claimed, and release identity, ownership, and supersession remain unresolved."
+    },
+    {
+      "gap_id": "BASE-GAP-002",
+      "mechanism": "Entity-versus-Profile GitHub path is a metadata bridge; canonical source/PDF bytes and controlling sections were not retrieved."
+    },
+    {
+      "gap_id": "BASE-GAP-003",
+      "mechanism": "Versioned content-bound PASC adapters and claim ceilings are absent for constrained and conditional parent interfaces."
+    },
+    {
+      "gap_id": "BASE-GAP-004",
+      "mechanism": "No exact competent-jurisdiction protected-person applicability record is pinned."
+    },
+    {
+      "gap_id": "BASE-GAP-005",
+      "mechanism": "Draft, RFC, research, and reserved-territory sources cannot be promoted by immutable commit or DOI alone."
+    },
+    {
+      "gap_id": "BASE-GAP-006",
+      "mechanism": "Two independent human reviewers have not reproduced hashes, ownership, supersession, reserved-territory dispositions, adapters, and claim ceilings."
+    }
+  ],
+  "closure_effect": "NONE",
+  "claim_ceiling": "This inventory establishes retrievable byte identity only. It does not establish provenance truth, canonical precedence, compatibility, authority, continuity, F0 passage, or permission to draft F1 or implement PASC."
+}

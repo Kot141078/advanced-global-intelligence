@@ -66,6 +66,7 @@ authorization, or evidence that F0 has passed.
 | 8 | [`PASC_F0_ACCEPTANCE_EVIDENCE_MATRIX_v0_1_1_RECOVERY_5.md`](./source/package/PASC_F0_ACCEPTANCE_EVIDENCE_MATRIX_v0_1_1_RECOVERY_5.md) | Maps each acceptance criterion to artifact aliases, evidence state, gaps, and the non-passage rule. |
 | 9 | [`PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.json`](./source/package/PASC_CANONICAL_BASELINE_INVENTORY_v0_1_1_RECOVERY_5.json) | Machine-prepared inventory of pinned source records. It is evidence for review, not self-authorizing proof that the canonical baseline is closed. |
 
+
 The sequence moves from **boundary**, to **expected decisions**, to **threat model**, to
 **conflict ownership**, to **baseline closure**, to **protected-profile closure**, to
 **field maturation**, and finally to the **evidence matrix**. Reversing that order invites a
