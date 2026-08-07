@@ -37,6 +37,12 @@
       "role": "human-facing narrative companion / perception bridge for c as a new class of AI beyond purely instrumental framing"
     }
   ],
+  "repo_roles_scope": {
+    "status": "historical_core_subset",
+    "boundary": "repo_roles preserves the original five-repository core routing set; it is not the current public-repository inventory.",
+    "current_inventory": "CURRENT_CORPUS_MAP.json",
+    "current_inventory_schema": "schemas/current-corpus-map-v1.schema.json"
+  },
   "negative_definitions": [
     "AGI is not a claim that one model replaces the stack.",
     "SER is not the home of every adjacent package.",
@@ -61,6 +67,9 @@
       "ester-clean-code/README.md"
     ],
     "machine": [
+      "advanced-global-intelligence/CURRENT_CORPUS_MAP.json",
+      "advanced-global-intelligence/schemas/current-corpus-map-v1.schema.json",
+      "advanced-global-intelligence/tools/validate_current_corpus_map.py",
       "advanced-global-intelligence/CORPUS_PRIMER.json",
       "advanced-global-intelligence/STACK_LOCK_2026-04-12.json",
       "advanced-global-intelligence/CANONICAL_DISTINCTIONS.json",
@@ -199,7 +208,17 @@
       "agi_role": "context/cartography pointer only"
     }
   ],
+  "current_corpus_map": {
+    "path": "CURRENT_CORPUS_MAP.json",
+    "schema": "schemas/current-corpus-map-v1.schema.json",
+    "validator": "tools/validate_current_corpus_map.py",
+    "last_verified": "2026-08-07",
+    "repository_count": 18,
+    "authority": "current cross-repository discovery snapshot"
+  },
   "stable_stack_lock": "STACK_LOCK_2026-04-12.json",
+  "stable_stack_lock_status": "historical_snapshot",
+  "stable_stack_lock_boundary": "The dated lock preserves the five-repository reading stack observed on 2026-04-12; it is not the current repository inventory or a latest-release assertion.",
   "verification": [
     "Prefer repo hash manifests over GitHub-generated archives.",
     "Use tagged snapshots where available; otherwise lock by exact commit."

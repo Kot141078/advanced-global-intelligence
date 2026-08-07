@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/schemas/current-corpus-map-v1.schema.json",
+  "title": "AGI Current Public Corpus Map v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema",
+    "schema_version",
+    "map_id",
+    "last_verified",
+    "canonical_owner",
+    "scope",
+    "authority",
+    "claim_boundaries",
+    "current_pointer_policy",
+    "historical_locks",
+    "repositories"
+  ],
+  "properties": {
+    "$schema": {"const": "schemas/current-corpus-map-v1.schema.json"},
+    "schema": {"const": "agi.current_corpus_map.v1"},
+    "schema_version": {"const": "1.0.0"},
+    "map_id": {"type": "string", "pattern": "^urn:ivankotov:corpus-map:public:[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "last_verified": {"type": "string", "format": "date"},
+    "canonical_owner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "github", "orcid"],
+      "properties": {
+        "name": {"const": "Ivan Kotov"},
+        "github": {"const": "Kot141078"},
+        "orcid": {"const": "https://orcid.org/0009-0009-6002-9845"}
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["visibility", "repository_count", "description", "excluded"],
+      "properties": {
+        "visibility": {"const": "public"},
+        "repository_count": {"const": 18},
+        "description": {"type": "string", "minLength": 1},
+        "excluded": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["map_status", "authoritative_for", "not_authoritative_for", "precedence"],
+      "properties": {
+        "map_status": {"const": "derived current-discovery snapshot"},
+        "authoritative_for": {"$ref": "#/$defs/nonEmptyStringArray"},
+        "not_authoritative_for": {"$ref": "#/$defs/nonEmptyStringArray"},
+        "precedence": {"$ref": "#/$defs/nonEmptyStringArray"}
+      }
+    },
+    "claim_boundaries": {"$ref": "#/$defs/nonEmptyStringArray"},
+    "current_pointer_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mutable_pointer", "immutable_observation", "verification_rule", "release_rule"],
+      "properties": {
+        "mutable_pointer": {"type": "string", "minLength": 1},
+        "immutable_observation": {"type": "string", "minLength": 1},
+        "verification_rule": {"type": "string", "minLength": 1},
+        "release_rule": {"type": "string", "minLength": 1}
+      }
+    },
+    "historical_locks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "date", "status", "sha256", "scope", "boundary"],
+        "properties": {
+          "path": {"type": "string", "minLength": 1},
+          "date": {"type": "string", "format": "date"},
+          "status": {"const": "historical_snapshot"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "scope": {"type": "string", "minLength": 1},
+          "boundary": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "repositories": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {"$ref": "#/$defs/repository"}
+    }
+  },
+  "$defs": {
+    "nonEmptyStringArray": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "nullableString": {
+      "type": ["string", "null"]
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository",
+        "corpus_class",
+        "role",
+        "lifecycle",
+        "authority_scope",
+        "current_pointer",
+        "declared_release",
+        "entrypoints"
+      ],
+      "properties": {
+        "repository": {"type": "string", "pattern": "^Kot141078/[a-z0-9][a-z0-9.-]*$"},
+        "corpus_class": {
+          "enum": ["research", "research_software", "software", "literary", "book", "navigation", "legacy_navigation"]
+        },
+        "role": {"type": "string", "minLength": 1},
+        "lifecycle": {"enum": ["active", "archived"]},
+        "authority_scope": {"type": "string", "minLength": 1},
+        "current_pointer": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "ref_type",
+            "ref",
+            "branch_url",
+            "raw_branch_base",
+            "observed_head_commit",
+            "observed_commit_url",
+            "raw_observed_base",
+            "observed_at"
+          ],
+          "properties": {
+            "ref_type": {"const": "branch"},
+            "ref": {"const": "main"},
+            "branch_url": {"type": "string", "pattern": "^https://github\\.com/Kot141078/.+/tree/main$"},
+            "raw_branch_base": {"type": "string", "pattern": "^https://raw\\.githubusercontent\\.com/Kot141078/.+/main/$"},
+            "observed_head_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+            "observed_commit_url": {"type": "string", "pattern": "^https://github\\.com/Kot141078/.+/tree/[0-9a-f]{40}$"},
+            "raw_observed_base": {"type": "string", "pattern": "^https://raw\\.githubusercontent\\.com/Kot141078/.+/[0-9a-f]{40}/$"},
+            "observed_at": {"type": "string", "format": "date"}
+          }
+        },
+        "declared_release": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["version", "version_source", "doi", "doi_source", "metadata_consistency", "note"],
+          "properties": {
+            "version": {"$ref": "#/$defs/nullableString"},
+            "version_source": {"$ref": "#/$defs/nullableString"},
+            "doi": {
+              "anyOf": [
+                {"type": "null"},
+                {"type": "string", "pattern": "^10\\.5281/zenodo\\.[0-9]+$"}
+              ]
+            },
+            "doi_source": {"$ref": "#/$defs/nullableString"},
+            "metadata_consistency": {
+              "enum": ["aligned", "known_conflict", "not_declared", "repository_container_no_single_version"]
+            },
+            "note": {"$ref": "#/$defs/nullableString"}
+          }
+        },
+        "entrypoints": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"
+          }
+        }
+      }
+    }
+  }
+}
