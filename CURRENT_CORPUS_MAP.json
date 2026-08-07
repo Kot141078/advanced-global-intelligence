@@ -1,0 +1,629 @@
+{
+  "$schema": "schemas/current-corpus-map-v1.schema.json",
+  "schema": "agi.current_corpus_map.v1",
+  "schema_version": "1.0.0",
+  "map_id": "urn:ivankotov:corpus-map:public:2026-08-07",
+  "last_verified": "2026-08-07",
+  "canonical_owner": {
+    "name": "Ivan Kotov",
+    "github": "Kot141078",
+    "orcid": "https://orcid.org/0009-0009-6002-9845"
+  },
+  "scope": {
+    "visibility": "public",
+    "repository_count": 18,
+    "description": "Current discovery snapshot for the public authored corpus, implementation-evidence repositories, literary repositories, and public navigation repositories.",
+    "excluded": [
+      "private repositories",
+      "unpublished local work",
+      "third-party mirrors",
+      "generated GitHub source archives as integrity authorities"
+    ]
+  },
+  "authority": {
+    "map_status": "derived current-discovery snapshot",
+    "authoritative_for": [
+      "public repository membership observed on 2026-08-07",
+      "repository roles and discovery routes",
+      "the exact default-branch commits inspected on 2026-08-07",
+      "routing between current branch views and immutable observed snapshots"
+    ],
+    "not_authoritative_for": [
+      "the byte contents of DOI deposits or tagged releases",
+      "a claim that a default-branch head is a release",
+      "legal, clinical, safety, certification, personhood, consciousness, or deployment conclusions",
+      "semantic ownership of payloads whose canonical home is another repository"
+    ],
+    "precedence": [
+      "A DOI-bound or tag-bound manifest controls the bytes of that frozen release.",
+      "A repository's own current machine metadata controls that repository's payload semantics.",
+      "This map controls cross-repository discovery only and must not override either source above.",
+      "The historical stack lock remains evidence of its dated snapshot and is not a current-repository inventory."
+    ]
+  },
+  "claim_boundaries": [
+    "Repository inclusion establishes discoverability, not endorsement or external validation.",
+    "An observed default-branch commit establishes a reproducible inspection point, not a stable release.",
+    "Research software and fixtures are implementation evidence, not universal safety proof or deployment authorization.",
+    "Literary repositories provide the narrative and book layer; they do not replace technical or normative sources.",
+    "The public site is a derived navigation and projection layer; canonical source and release records remain in their named repositories and DOI deposits.",
+    "Archived navigation is retained for provenance and must not be treated as the current site."
+  ],
+  "current_pointer_policy": {
+    "mutable_pointer": "current_pointer.branch_url and current_pointer.raw_branch_base",
+    "immutable_observation": "current_pointer.observed_commit_url and current_pointer.raw_observed_base",
+    "verification_rule": "Use observed_head_commit to reproduce this audit snapshot; re-resolve main for newer work and record a new last_verified date.",
+    "release_rule": "Use a declared release tag, DOI record, and its manifest when release identity or byte integrity matters."
+  },
+  "historical_locks": [
+    {
+      "path": "STACK_LOCK_2026-04-12.json",
+      "date": "2026-04-12",
+      "status": "historical_snapshot",
+      "sha256": "311260d60017bfba56f1f0f095e0a614a0d83a4bca04a921a047a54fb68c3583",
+      "scope": "Five-repository aligned reading stack as recorded on 2026-04-12.",
+      "boundary": "Retained unchanged for provenance. It is neither the current public-repository inventory nor an assertion of latest releases."
+    }
+  ],
+  "repositories": [
+    {
+      "repository": "Kot141078/advanced-global-intelligence",
+      "corpus_class": "research",
+      "role": "primary technical corpus and cross-repository discovery entry",
+      "lifecycle": "active",
+      "authority_scope": "Canonical home for AGI ecosystem framing and AGI-hosted packages; discovery authority only for payloads canonically hosted elsewhere.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/",
+        "observed_head_commit": "a0606a6768eb608347fd0709ac6569d3a9600ab3",
+        "observed_commit_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/a0606a6768eb608347fd0709ac6569d3a9600ab3",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/a0606a6768eb608347fd0709ac6569d3a9600ab3/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": null,
+        "version_source": null,
+        "doi": "10.5281/zenodo.18311148",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "repository_container_no_single_version",
+        "note": "The repository contains multiple independently versioned packages; no single current repository version is asserted."
+      },
+      "entrypoints": [
+        "MACHINE_ENTRY.md",
+        "REPO_INDEX.json",
+        "CORPUS_PRIMER.json",
+        "MASTER_ENTRY.md"
+      ]
+    },
+    {
+      "repository": "Kot141078/ai-social-role-separation-memory-custody",
+      "corpus_class": "research",
+      "role": "technical note and memory-custody boundary",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public package for separation and composition of AI social roles and custody of memory and interpretations.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/ai-social-role-separation-memory-custody/main/",
+        "observed_head_commit": "f5d7263181492891032f213c7db1e0c25b701372",
+        "observed_commit_url": "https://github.com/Kot141078/ai-social-role-separation-memory-custody/tree/f5d7263181492891032f213c7db1e0c25b701372",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/ai-social-role-separation-memory-custody/f5d7263181492891032f213c7db1e0c25b701372/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "1.0",
+        "version_source": "CITATION.cff",
+        "doi": "10.5281/zenodo.21751985",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "README.md",
+        "machine/publication-metadata.json",
+        "machine/files-manifest.json",
+        "schema.org.jsonld"
+      ]
+    },
+    {
+      "repository": "Kot141078/c-governed-cli-agent-mesh",
+      "corpus_class": "research",
+      "role": "governed executable-agent protocol package",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public CGAM package; worker-agent execution does not confer memory, identity, policy, witness, or continuity authority.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/c-governed-cli-agent-mesh/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/c-governed-cli-agent-mesh/main/",
+        "observed_head_commit": "c3b004d7439a8c608f08233fc17be1150c442b44",
+        "observed_commit_url": "https://github.com/Kot141078/c-governed-cli-agent-mesh/tree/c3b004d7439a8c608f08233fc17be1150c442b44",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/c-governed-cli-agent-mesh/c3b004d7439a8c608f08233fc17be1150c442b44/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "0.1.1",
+        "version_source": "CITATION.cff",
+        "doi": "10.5281/zenodo.20257232",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "README.md",
+        "manifests/PUBLIC_PACKAGE_MANIFEST.json",
+        "schemas/SCHEMA_INDEX.json",
+        "validator/SEMANTIC_RULES_INDEX.json",
+        "CHECKSUM_SCOPE.json"
+      ]
+    },
+    {
+      "repository": "Kot141078/c-hardening-pack",
+      "corpus_class": "research",
+      "role": "earlier standalone hardening-package provenance",
+      "lifecycle": "active",
+      "authority_scope": "Canonical standalone v0.1 hardening package retained as package provenance; later or embedded hardening material must identify its own authority.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/c-hardening-pack/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/c-hardening-pack/main/",
+        "observed_head_commit": "9a33e3866cde19939be22a903967bc94f566db76",
+        "observed_commit_url": "https://github.com/Kot141078/c-hardening-pack/tree/9a33e3866cde19939be22a903967bc94f566db76",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/c-hardening-pack/9a33e3866cde19939be22a903967bc94f566db76/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "v0.1",
+        "version_source": "CITATION.cff",
+        "doi": "10.5281/zenodo.20348436",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "README.md",
+        "manifest.json",
+        "manifests/PACKAGE_MANIFEST.json",
+        "manifests/SHA256SUMS.txt",
+        "CHECKSUM_DOMAIN.json"
+      ]
+    },
+    {
+      "repository": "Kot141078/cleanroom-arm-p-open-verification",
+      "corpus_class": "research_software",
+      "role": "open verification release and fixture plane",
+      "lifecycle": "active",
+      "authority_scope": "Canonical open-verification package for Cleanroom ARM-P v1.0.1 and its bounded evidence plane; not certification of deployments outside its stated scope.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/cleanroom-arm-p-open-verification/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/cleanroom-arm-p-open-verification/main/",
+        "observed_head_commit": "4fc6c29753d039eb0d3ec4decbc1deb258b53751",
+        "observed_commit_url": "https://github.com/Kot141078/cleanroom-arm-p-open-verification/tree/4fc6c29753d039eb0d3ec4decbc1deb258b53751",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/cleanroom-arm-p-open-verification/4fc6c29753d039eb0d3ec4decbc1deb258b53751/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "1.0.1",
+        "version_source": "CITATION.cff",
+        "doi": "10.5281/zenodo.21401893",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "README.md",
+        "publication/v1.0.1/MACHINE_INDEX.json",
+        "publication/v1.0.1/PUBLICATION_SURFACE_MANIFEST.json",
+        "codemeta.json",
+        "schemaorg.jsonld"
+      ]
+    },
+    {
+      "repository": "Kot141078/ester-clean-code",
+      "corpus_class": "software",
+      "role": "public implementation substrate",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public implementation substrate and proof-of-possibility layer; not the semantic definition of c or the sole normative authority for the corpus.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/ester-clean-code/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/ester-clean-code/main/",
+        "observed_head_commit": "54cd0c8754587f5e9daf82b16eb84c66a7ac94ef",
+        "observed_commit_url": "https://github.com/Kot141078/ester-clean-code/tree/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/ester-clean-code/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "v0.2.7",
+        "version_source": "VERSION",
+        "doi": null,
+        "doi_source": null,
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "MACHINE_ENTRY.md",
+        "README.md",
+        "VERSION",
+        "CITATION.cff"
+      ]
+    },
+    {
+      "repository": "Kot141078/ester-reality-bound",
+      "corpus_class": "research",
+      "role": "L4 Boundary notes, protocol, and evidence routes",
+      "lifecycle": "active",
+      "authority_scope": "Canonical reality-bound operational layer for L4 Boundary feasibility, perimeter, witness-friendly constraints, and real-world boundary discipline.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/ester-reality-bound/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/ester-reality-bound/main/",
+        "observed_head_commit": "179ccf4558b4cb81ad55317dbe742c47bbbf6a88",
+        "observed_commit_url": "https://github.com/Kot141078/ester-reality-bound/tree/179ccf4558b4cb81ad55317dbe742c47bbbf6a88",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/ester-reality-bound/179ccf4558b4cb81ad55317dbe742c47bbbf6a88/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": null,
+        "version_source": null,
+        "doi": "10.5281/zenodo.18311218",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "repository_container_no_single_version",
+        "note": "No single current repository version is declared at the root."
+      },
+      "entrypoints": [
+        "MACHINE_ENTRY.md",
+        "README.md",
+        "protocol/L4_reality_boundary_layer.md"
+      ]
+    },
+    {
+      "repository": "Kot141078/ester-site",
+      "corpus_class": "legacy_navigation",
+      "role": "archived legacy site",
+      "lifecycle": "archived",
+      "authority_scope": "Provenance-only legacy navigation surface; it is not the current public site or current machine projection.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/ester-site/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/ester-site/main/",
+        "observed_head_commit": "3d87989c63fea6167b33ce211d1c3d24c8238ad0",
+        "observed_commit_url": "https://github.com/Kot141078/ester-site/tree/3d87989c63fea6167b33ce211d1c3d24c8238ad0",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/ester-site/3d87989c63fea6167b33ce211d1c3d24c8238ad0/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": null,
+        "version_source": null,
+        "doi": null,
+        "doi_source": null,
+        "metadata_consistency": "not_declared",
+        "note": "Archived repository; retained only for provenance."
+      },
+      "entrypoints": [
+        "README.md",
+        "index.html"
+      ]
+    },
+    {
+      "repository": "Kot141078/ester-theoretical-core",
+      "corpus_class": "research_software",
+      "role": "theoretical core, executable review, and personality-formation evidence",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public ESTHER-RP-001 package and its scoped executable-review evidence.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/ester-theoretical-core/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/ester-theoretical-core/main/",
+        "observed_head_commit": "b3fe82057afc8f9c9734612b5afbc3513d0d5e73",
+        "observed_commit_url": "https://github.com/Kot141078/ester-theoretical-core/tree/b3fe82057afc8f9c9734612b5afbc3513d0d5e73",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/ester-theoretical-core/b3fe82057afc8f9c9734612b5afbc3513d0d5e73/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "0.8.1",
+        "version_source": "CITATION.cff",
+        "doi": "10.5281/zenodo.21443105",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "README.md",
+        "CITATION.cff",
+        "codemeta.json",
+        ".zenodo.json",
+        "ROOT_MACHINE_INDEX.json"
+      ]
+    },
+    {
+      "repository": "Kot141078/instrumental-c-public-portfolio",
+      "corpus_class": "research",
+      "role": "public portfolio for work-bound c",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public concept and authorship package for instrumental-c, enterprise-c, work-bound-c, and agent-OS-c within its stated boundary.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/instrumental-c-public-portfolio/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/instrumental-c-public-portfolio/main/",
+        "observed_head_commit": "1ae1508cec71b4b11c3493352f1c7bde6f77d719",
+        "observed_commit_url": "https://github.com/Kot141078/instrumental-c-public-portfolio/tree/1ae1508cec71b4b11c3493352f1c7bde6f77d719",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/instrumental-c-public-portfolio/1ae1508cec71b4b11c3493352f1c7bde6f77d719/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "v0.1",
+        "version_source": "CITATION.cff",
+        "doi": null,
+        "doi_source": null,
+        "metadata_consistency": "aligned",
+        "note": "No DOI is declared in the inspected root citation metadata."
+      },
+      "entrypoints": [
+        "README.md",
+        "CITATION.cff",
+        ".zenodo.json"
+      ]
+    },
+    {
+      "repository": "Kot141078/kot141078.github.io",
+      "corpus_class": "navigation",
+      "role": "current public site and machine-readable projection layer",
+      "lifecycle": "active",
+      "authority_scope": "Derived public navigation and machine-projection layer for ivankotov.eu; source repositories and DOI records retain payload and release authority.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/kot141078.github.io/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/kot141078.github.io/main/",
+        "observed_head_commit": "cfd1a7e2d7c996b381461c11ef0e02cca3de9e47",
+        "observed_commit_url": "https://github.com/Kot141078/kot141078.github.io/tree/cfd1a7e2d7c996b381461c11ef0e02cca3de9e47",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/kot141078.github.io/cfd1a7e2d7c996b381461c11ef0e02cca3de9e47/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": null,
+        "version_source": null,
+        "doi": null,
+        "doi_source": null,
+        "metadata_consistency": "not_declared",
+        "note": "Continuously deployed navigation repository; no release identity is inferred."
+      },
+      "entrypoints": [
+        "index.html",
+        "llms.txt",
+        "works-index.json",
+        "corpus-protocol-map.json"
+      ]
+    },
+    {
+      "repository": "Kot141078/qubit-of-hope-volume-i",
+      "corpus_class": "literary",
+      "role": "Qubit of Hope Volume I multilingual release and narrative bridge",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public reading and release repository for Qubit of Hope Volume I; it does not replace technical or normative corpus sources.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-i/main/",
+        "observed_head_commit": "e767d412848698ba864b3f0c0d5f28087fbe728b",
+        "observed_commit_url": "https://github.com/Kot141078/qubit-of-hope-volume-i/tree/e767d412848698ba864b3f0c0d5f28087fbe728b",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-i/e767d412848698ba864b3f0c0d5f28087fbe728b/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "1.0.2",
+        "version_source": "CITATION.cff",
+        "doi": "10.5281/zenodo.21505133",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "MACHINE_ENTRY.md",
+        "REPO_INDEX.json",
+        "CORPUS_CONTEXT.md",
+        "CITATION.cff"
+      ]
+    },
+    {
+      "repository": "Kot141078/qubit-of-hope-volume-ii",
+      "corpus_class": "literary",
+      "role": "Qubit of Hope Volume II multilingual release",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public reading and release repository for Qubit of Hope Volume II; it does not replace technical or normative corpus sources.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-ii/main/",
+        "observed_head_commit": "30e41d3fd6a0069252c56dfa1c589914a52e5bbf",
+        "observed_commit_url": "https://github.com/Kot141078/qubit-of-hope-volume-ii/tree/30e41d3fd6a0069252c56dfa1c589914a52e5bbf",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-ii/30e41d3fd6a0069252c56dfa1c589914a52e5bbf/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "1.0.2",
+        "version_source": "CITATION.cff",
+        "doi": "10.5281/zenodo.21506200",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "MACHINE_ENTRY.md",
+        "REPO_INDEX.json",
+        "CITATION.cff"
+      ]
+    },
+    {
+      "repository": "Kot141078/qubit-of-hope-volume-iii",
+      "corpus_class": "literary",
+      "role": "Qubit of Hope Volume III multilingual release",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public reading and release repository for Qubit of Hope Volume III; it does not replace technical or normative corpus sources.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-iii/main/",
+        "observed_head_commit": "313446385327c7b88312ca7df732b530a8acdad4",
+        "observed_commit_url": "https://github.com/Kot141078/qubit-of-hope-volume-iii/tree/313446385327c7b88312ca7df732b530a8acdad4",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-iii/313446385327c7b88312ca7df732b530a8acdad4/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "1.0.2",
+        "version_source": "CITATION.cff",
+        "doi": "10.5281/zenodo.21507090",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "MACHINE_ENTRY.md",
+        "REPO_INDEX.json",
+        "CITATION.cff"
+      ]
+    },
+    {
+      "repository": "Kot141078/sovereign-entity-recursion",
+      "corpus_class": "research",
+      "role": "continuity, sovereignty, arbitration, and bounded governance",
+      "lifecycle": "active",
+      "authority_scope": "Canonical home for the SER continuity and bounded-governance stack, including canonical ARQ payloads named by SER.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/sovereign-entity-recursion/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/main/",
+        "observed_head_commit": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+        "observed_commit_url": "https://github.com/Kot141078/sovereign-entity-recursion/tree/94dcab585b5c179cf4f4e0da4ebf63261c7fb984",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/sovereign-entity-recursion/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": null,
+        "version_source": null,
+        "doi": "10.5281/zenodo.18311183",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "repository_container_no_single_version",
+        "note": "No single current repository version is declared at the root."
+      },
+      "entrypoints": [
+        "MACHINE_ENTRY.md",
+        "README.md",
+        "DOC_MAP.md",
+        "protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json"
+      ]
+    },
+    {
+      "repository": "Kot141078/tap-sec-reference-implementation",
+      "corpus_class": "research_software",
+      "role": "TAP-SEC reference implementation and validation evidence",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public TAP-SEC M4 v0.3.2 reference implementation and scoped validation evidence; not certification of unrelated deployments.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/tap-sec-reference-implementation/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/tap-sec-reference-implementation/main/",
+        "observed_head_commit": "0e8850e4cde357287764f6c2dc5aec2d950954b9",
+        "observed_commit_url": "https://github.com/Kot141078/tap-sec-reference-implementation/tree/0e8850e4cde357287764f6c2dc5aec2d950954b9",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/tap-sec-reference-implementation/0e8850e4cde357287764f6c2dc5aec2d950954b9/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "0.3.2",
+        "version_source": "CITATION.cff",
+        "doi": "10.5281/zenodo.21688521",
+        "doi_source": "CITATION.cff",
+        "metadata_consistency": "aligned",
+        "note": null
+      },
+      "entrypoints": [
+        "README.md",
+        "MANIFEST.json",
+        "codemeta.json",
+        "ro-crate-metadata.json",
+        "metadata/schema-org.jsonld"
+      ]
+    },
+    {
+      "repository": "Kot141078/world-intelligence",
+      "corpus_class": "book",
+      "role": "complete multilingual World Intelligence edition",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public repository for the complete multilingual World Intelligence v1.1.0 edition; it is a book layer, not a technical conformance source.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/world-intelligence/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/world-intelligence/main/",
+        "observed_head_commit": "210124f75a9fd8d813d9c809b4737b70693402e8",
+        "observed_commit_url": "https://github.com/Kot141078/world-intelligence/tree/210124f75a9fd8d813d9c809b4737b70693402e8",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/world-intelligence/210124f75a9fd8d813d9c809b4737b70693402e8/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "1.1.0",
+        "version_source": "CITATION.cff",
+        "doi": null,
+        "doi_source": null,
+        "metadata_consistency": "aligned",
+        "note": "metadata/DOI.json marks the v1.1.0 version DOI as pending; 10.5281/zenodo.21497097 is the concept DOI and is not substituted here."
+      },
+      "entrypoints": [
+        "MACHINE_ENTRY.md",
+        "REPO_INDEX.json",
+        "BOOK_METADATA.json",
+        "metadata/DOI.json",
+        "MANIFEST.json",
+        "CHECKSUM_DOMAIN.json"
+      ]
+    },
+    {
+      "repository": "Kot141078/world-intelligence-serial-edition-01",
+      "corpus_class": "book",
+      "role": "World Intelligence serial edition 01",
+      "lifecycle": "active",
+      "authority_scope": "Canonical public repository for the bounded free serial edition containing chapters 1 through 4 in English; not the complete multilingual edition.",
+      "current_pointer": {
+        "ref_type": "branch",
+        "ref": "main",
+        "branch_url": "https://github.com/Kot141078/world-intelligence-serial-edition-01/tree/main",
+        "raw_branch_base": "https://raw.githubusercontent.com/Kot141078/world-intelligence-serial-edition-01/main/",
+        "observed_head_commit": "2c510483939af5e77f4fac48de8007590ce2824a",
+        "observed_commit_url": "https://github.com/Kot141078/world-intelligence-serial-edition-01/tree/2c510483939af5e77f4fac48de8007590ce2824a",
+        "raw_observed_base": "https://raw.githubusercontent.com/Kot141078/world-intelligence-serial-edition-01/2c510483939af5e77f4fac48de8007590ce2824a/",
+        "observed_at": "2026-08-07"
+      },
+      "declared_release": {
+        "version": "Serial Edition 01",
+        "version_source": "CITATION.cff",
+        "doi": null,
+        "doi_source": null,
+        "metadata_consistency": "aligned",
+        "note": "No DOI is declared in the inspected root citation metadata."
+      },
+      "entrypoints": [
+        "README.md",
+        "metadata.json",
+        "manifest.json",
+        "CITATION.cff"
+      ]
+    }
+  ]
+}
