@@ -20,3 +20,8 @@ hardening/c_hardening_pack_v0_1/*.json text eol=lf
 hardening/c_hardening_pack_v0_1/*.cff text eol=lf
 hardening/c_hardening_pack_v0_1/LICENSE text eol=lf
 hardening/c_hardening_pack_v0_1/SHA256SUMS text eol=lf
+
+# Four Boundaries of Machine Interpretation v0.1 canonical package.
+# Preserve canonical text line endings and the deterministic ZIP bytes.
+official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/** text eol=lf
+official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/*.zip binary

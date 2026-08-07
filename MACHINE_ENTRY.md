@@ -42,6 +42,37 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - precedence: `CANONICAL_STATEMENT_RU.txt` controls; `пока` is semantically material
 - boundary: no scientific-proof, metaphysical-finality, historical-uniqueness, or entity-soul attribution claim
 
+## Authorial boundary set — Four Boundaries of Machine Interpretation v0.1
+
+- set_identifier: `urn:ivankotov:statement-set:four-boundaries-machine-interpretation:v0.1`
+- package_root: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/`
+- canonical_language: `ru`
+- canonical_unit_count: `4`
+- canonical_units:
+  - `urn:ivankotov:statement:doubt-numerical-uncertainty-boundary:v0.1`
+    - file: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/CANONICAL_01_DOUBT_AND_NUMERICAL_UNCERTAINTY_RU.txt`
+    - sha256: `81beacfba0257e33aea6a74e71de392459d1e2e57a67d4a8665f233c3a74bf9c`
+  - `urn:ivankotov:statement:forgetting-data-loss-boundary:v0.1`
+    - file: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/CANONICAL_02_FORGETTING_AND_DATA_LOSS_RU.txt`
+    - sha256: `0eaf76e52f9e962d6635c896078c93d32526e4442e87121ccb7620ba59fbf1dc`
+  - `urn:ivankotov:statement:empathy-optimization-boundary:v0.1`
+    - file: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/CANONICAL_03_EMPATHY_AND_OPTIMIZATION_RU.txt`
+    - sha256: `4f9accac33823beb9c2f63adbd3821f48c49fbc791e2d2ce318c87648a694b24`
+  - `urn:ivankotov:statement:subjective-experience-telemetry-boundary:v0.1`
+    - file: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/CANONICAL_04_SUBJECTIVE_EXPERIENCE_AND_TELEMETRY_RU.txt`
+    - sha256: `06d3c524cc128fd25299dca1bb216bc9271bf9757481462d7d51d4caa6f11aca`
+- human_record: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/STATEMENT_SET.md`
+- machine_record: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/statement-set.jsonld`
+- manifest: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/MANIFEST.json`
+- checksums: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/SHA256SUMS`
+- source_archive: `official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/KOTOV_FOUR_BOUNDARIES_OF_MACHINE_INTERPRETATION_v0_1.zip`
+- source_archive_sha256: `6f443de9149b983476db542ed8230b33c8c9a134596a6f5aa86e5ebd8352892f`
+- recorded_and_approved: `2026-08-07`, Brussels, Belgium
+- author: Ivan Kotov; ORCID `0009-0009-6002-9845`
+- status: provisional authorial boundary set; exact Russian units are canonical within v0.1
+- precedence: each `CANONICAL_*.txt` controls its boundary; `MANIFEST.json` controls set membership and order; conflicts fail closed
+- boundary: no scientific proof, universal machine-architecture, consciousness attribution, or telemetry-to-qualia claim
+
 ## ARQ v0.2 canonical route
 
 - canonical repo: `Kot141078/sovereign-entity-recursion`
