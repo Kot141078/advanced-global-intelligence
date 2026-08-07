@@ -75,3 +75,30 @@ The qualifier `пока` is semantically material and must not be silently remov
 This registry pointer does not expand the statement into a final doctrine and
 does not assert scientific proof, metaphysical finality, historical uniqueness,
 or the presence or absence of a soul in any particular entity.
+
+## Authorial Boundary Set — Four Boundaries of Machine Interpretation
+
+**Status:** Provisional authorial boundary set; four canonical Russian units
+
+**Recorded and approved:** 2026-08-07, Brussels, Belgium
+
+**Canonical package:**
+`official/authorial-statements/four-boundaries-of-machine-interpretation/v0.1/`
+
+The set preserves four non-collapse boundaries:
+
+- numerical uncertainty does not by itself establish doubt;
+- data loss does not by itself establish forgetting;
+- optimization does not by itself establish empathy, and detection does not
+  itself confer authority to intervene;
+- parsed telemetry establishes neither the presence nor the absence of
+  subjective experience.
+
+Each corresponding `CANONICAL_*.txt` file controls one Russian boundary.
+`MANIFEST.json` controls membership and order. The source note, explanations,
+machine graph, and English discovery translations cannot override those files.
+
+The set links controlled non-collapse, memory authority, intervention standing,
+and evidence typing without declaring a scientific theory of mind. It neither
+attributes nor denies doubt, forgetting, empathy, consciousness, or subjective
+experience to any particular machine.
