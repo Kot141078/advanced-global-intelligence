@@ -1,0 +1,40 @@
+name: Current corpus map
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/current-corpus-map.yml"
+      - "CORPUS_PRIMER.json"
+      - "CURRENT_CORPUS_MAP.json"
+      - "MACHINE_ENTRY.md"
+      - "REPO_INDEX.json"
+      - "llms.txt"
+      - "schemas/current-corpus-map-v1.schema.json"
+      - "tools/validate_current_corpus_map.py"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/current-corpus-map.yml"
+      - "CORPUS_PRIMER.json"
+      - "CURRENT_CORPUS_MAP.json"
+      - "MACHINE_ENTRY.md"
+      - "REPO_INDEX.json"
+      - "llms.txt"
+      - "schemas/current-corpus-map-v1.schema.json"
+      - "tools/validate_current_corpus_map.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate current corpus map
+        run: python tools/validate_current_corpus_map.py
