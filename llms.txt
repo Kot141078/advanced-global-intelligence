@@ -7,6 +7,7 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 - README (raw): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/README.md
 - MACHINE_ENTRY.md (raw): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MACHINE_ENTRY.md
 - MASTER_ENTRY.md (raw): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/MASTER_ENTRY.md
+- CURRENT_CORPUS_MAP.json (raw): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CURRENT_CORPUS_MAP.json
 
 ## Download / Release
 - Release page: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/agi-snapshot-2026-02-24
@@ -18,6 +19,10 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 - Main-doc temporal-presence manifest: `hashes/SHA256SUMS_main_temporal_presence_2026-04-07.txt`
 
 ## Canonical map
+- Current public-repository map (18 repositories; verified 2026-08-07): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/CURRENT_CORPUS_MAP.json
+- Current-map JSON Schema: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/schemas/current-corpus-map-v1.schema.json
+- Current-map validator: `tools/validate_current_corpus_map.py`
+- Dated stack lock: `STACK_LOCK_2026-04-12.json` (`historical_snapshot`; five-repository reading stack only, not the current inventory)
 - REPO_INDEX.md (raw): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.md
 - REPO_INDEX.json (raw): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/REPO_INDEX.json
 - Canonical authorial process premise: `official/AUTHORIAL_PREMISES.md`
@@ -44,8 +49,7 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 - Integrity manifest:
   `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`
 
-## Canonical repos (4)
-- AGI: https://github.com/Kot141078/advanced-global-intelligence
-- SER: https://github.com/Kot141078/sovereign-entity-recursion
-- L4:  https://github.com/Kot141078/ester-reality-bound
-- Clean (impl ref): https://github.com/Kot141078/ester-clean-code
+## Current public repository inventory
+- Count: 18 (`17` active, `1` archived legacy navigation repository).
+- Membership, roles, authority scopes, mutable `main` pointers, and immutable observed commits: `CURRENT_CORPUS_MAP.json`.
+- Payload authority remains with each named canonical repository; DOI-bound or tag-bound manifests control frozen release bytes.
