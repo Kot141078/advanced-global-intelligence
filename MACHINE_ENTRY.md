@@ -4,6 +4,18 @@
 
 ecosystem framing / canonical corpus entry / public research stack for `c = a + b`, `L4`, and adjacent layers.
 
+## Current cross-repository discovery
+
+- current_map: `CURRENT_CORPUS_MAP.json`
+- schema: `schemas/current-corpus-map-v1.schema.json`
+- validator: `tools/validate_current_corpus_map.py`
+- validation_command: `python3 tools/validate_current_corpus_map.py`
+- last_verified: `2026-08-07`
+- public_repository_count: `18`
+- authority: current cross-repository discovery snapshot only; each canonical repository and DOI-bound release retains payload and release-byte authority
+- historical_lock: `STACK_LOCK_2026-04-12.json`
+- historical_lock_status: `historical_snapshot`; retained unchanged for its dated five-repository reading stack, not a current inventory or latest-release assertion
+
 ## What this repo is not
 
 - not a monolithic super-model
@@ -333,8 +345,10 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 
 ## Stable corpus refs
 
+- `CURRENT_CORPUS_MAP.json` — current cross-repository discovery snapshot
+- `schemas/current-corpus-map-v1.schema.json`
 - `CORPUS_PRIMER.json`
-- `STACK_LOCK_2026-04-12.json`
+- `STACK_LOCK_2026-04-12.json` — historical snapshot, 2026-04-12
 - `CANONICAL_DISTINCTIONS.md`
 - `CANONICAL_DISTINCTIONS.json`
 - `OBJECTIONS_AND_REPLIES.md`
@@ -413,8 +427,9 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 
 ## First files to read
 
+- `CURRENT_CORPUS_MAP.json`
 - `CORPUS_PRIMER.json`
-- `STACK_LOCK_2026-04-12.json`
+- `STACK_LOCK_2026-04-12.json` (historical snapshot)
 - `CANONICAL_DISTINCTIONS.md`
 - `OBJECTIONS_AND_REPLIES.md`
 - `CITATION_AND_VERIFICATION.md`
