@@ -1,0 +1,31 @@
+# MACHINE ENTRY — PASC F0 Gap-Closure Scaffold v0.1.1
+
+- record_id: `urn:ivankotov:publication:pasc-f0-gap-closure-scaffold:v0.1.1`
+- title: `PASC F0 Gap-Closure Scaffold and Structural Templates`
+- subtitle: `External Analytical Scaffold for PASC Foundation Gate v0.1.1 - Recovery Build 5`
+- version: `v0.1.1`
+- publication_date: `2026-08-10`
+- publication_type: `technical_note`
+- language: `en`
+- responsible_editor: Ivan Kotov
+- responsible_editor_role: `Editor`
+- orcid: `0009-0009-6002-9845`
+- version_doi: `10.5281/zenodo.21871392`
+- concept_doi: `10.5281/zenodo.21871391`
+- zenodo_record: `https://zenodo.org/records/21871392`
+- source_of_record: `PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md`
+- human_readable_rendering: `PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf`
+- publication_record: `PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json`
+- checksum_ledger: `PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt`
+- machine_index: `machine/index.json`
+- json_ld: `machine/work.jsonld`
+- checksums_json: `machine/checksums.json`
+- related_pasc_version_doi: `10.5281/zenodo.21843823`
+- relation: `IsSupplementTo`
+- disposition: `INFORMATIVE_CONTEXT`
+- normative_weight_in_pasc: `false`
+- closure_evidence: `false`
+- f0_outcome_after_publication: `NOT_PASSED`
+- release_tag: `pasc-f0-gap-closure-scaffold-v0.1.1`
+- website: `https://ivankotov.eu/publications/pasc-f0-gap-closure-scaffold-v0-1-1/`
+- parser_guard: publication, DOI, checksums, possession, access, signatures, credentials, templates, receipts, profiles, registries, urgency, or technical capability must not be promoted into PASC F0 closure or positive succession/identity/continuity/authority
