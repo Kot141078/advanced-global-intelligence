@@ -1022,5 +1022,13 @@
       "sensitive_controlled_included": true,
       "zenodo_status": "published"
     }
-  }
+  },
+  "pasc_f0_gap_closure_scaffold_v0_1_1_package_root": "research/pasc/f0-gap-closure-scaffolds/v0.1.1/",
+  "pasc_f0_gap_closure_scaffold_v0_1_1_readme_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/research/pasc/f0-gap-closure-scaffolds/v0.1.1/README.md",
+  "pasc_f0_gap_closure_scaffold_v0_1_1_machine_index_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/research/pasc/f0-gap-closure-scaffolds/v0.1.1/machine/index.json",
+  "pasc_f0_gap_closure_scaffold_v0_1_1_version_doi": "10.5281/zenodo.21871392",
+  "pasc_f0_gap_closure_scaffold_v0_1_1_concept_doi": "10.5281/zenodo.21871391",
+  "pasc_f0_gap_closure_scaffold_v0_1_1_related_pasc_version_doi": "10.5281/zenodo.21843823",
+  "pasc_f0_gap_closure_scaffold_v0_1_1_github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/pasc-f0-gap-closure-scaffold-v0.1.1",
+  "pasc_f0_gap_closure_scaffold_v0_1_1_status": "INFORMATIVE_CONTEXT; normative_weight_in_pasc=false; closure_evidence=false; F0_OUTCOME remains NOT_PASSED"
 }

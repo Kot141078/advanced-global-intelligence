@@ -32,6 +32,15 @@ Start here:
   - Manifest: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/MANIFEST.json`
   - DOI: `https://doi.org/10.5281/zenodo.21841445`
   - Rights: package-specific `RIGHTS.md`; no license granted, all rights reserved
+- **PASC F0 Gap-Closure Scaffold and Structural Templates v0.1.1** — DOI-bound external analytical scaffold for the six PASC F0 criteria that remain `NOT_SATISFIED`. It organizes author acceptance, canonical-source projection, adapter artifacts, independent human review, blind field replay, protected-boundary preservation, reserved-territory audit, and closure sequencing without modifying Recovery Build 5 or supplying closure evidence.
+  - Package: `research/pasc/f0-gap-closure-scaffolds/v0.1.1/`
+  - Machine entry: `research/pasc/f0-gap-closure-scaffolds/v0.1.1/MACHINE_ENTRY.md`
+  - Machine index: `research/pasc/f0-gap-closure-scaffolds/v0.1.1/machine/index.json`
+  - Version DOI: `https://doi.org/10.5281/zenodo.21871392`
+  - Concept DOI: `https://doi.org/10.5281/zenodo.21871391`
+  - Related PASC Recovery 5 DOI: `https://doi.org/10.5281/zenodo.21843823`
+  - Status: `INFORMATIVE_CONTEXT`; `normative_weight_in_pasc=false`; `closure_evidence=false`; `F0_OUTCOME` remains `NOT_PASSED`
+
 - **Qubit-state `c` (`c[q]`) / Кубитная `c`** — derived concept: controlled non-collapse under uncertainty inside the `c = a + b` framework.
   - Markdown: `concepts/QUBIT_STATE_C_v0.1.md`
   - PDF: `pdf/QUBIT_STATE_C_v0.1.pdf`
