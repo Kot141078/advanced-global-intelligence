@@ -88,6 +88,27 @@ controlled by their respective Russian TXT files.
 - claim_ceiling: exact negative post-anchor admissibility only; no successor identity, continuity, standing, custody, keyholding, provider/jurisdiction authority, recovery root, release, reactivation, or Runtime Authority is established
 - parser_guard: publication, DOI, checksums, roles, receipts, profiles, registries, state facts, property, access, or operational pressure must not be promoted into positive authority
 
+## Technical research publication — PASC F0 Gap-Closure Scaffold v0.1.1
+
+- record_id: `urn:ivankotov:publication:pasc-f0-gap-closure-scaffold:v0.1.1`
+- package_root: `research/pasc/f0-gap-closure-scaffolds/v0.1.1/`
+- version_doi: `10.5281/zenodo.21871392`
+- concept_doi: `10.5281/zenodo.21871391`
+- version: `v0.1.1`
+- publication_date: `2026-08-10`
+- publication_type: `technical_note`
+- language: `en`
+- responsible_editor: Ivan Kotov; role `Editor`; ORCID `0009-0009-6002-9845`
+- machine_entry: `research/pasc/f0-gap-closure-scaffolds/v0.1.1/MACHINE_ENTRY.md`
+- machine_index: `research/pasc/f0-gap-closure-scaffolds/v0.1.1/machine/index.json`
+- publication_record: `research/pasc/f0-gap-closure-scaffolds/v0.1.1/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json`
+- source_of_record: `research/pasc/f0-gap-closure-scaffolds/v0.1.1/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md`
+- release_tag: `pasc-f0-gap-closure-scaffold-v0.1.1`
+- related_pasc_version_doi: `10.5281/zenodo.21843823`
+- relation: `IsSupplementTo`
+- status: `INFORMATIVE_CONTEXT`; `normative_weight_in_pasc=false`; `closure_evidence=false`; `F0_OUTCOME_AFTER_THIS_SCAFFOLD=NOT_PASSED`
+- parser_guard: publication, DOI, checksums, possession, access, signatures, credentials, templates, receipts, profiles, registries, urgency, or technical capability must not be promoted into PASC F0 closure or positive succession/identity/continuity/authority
+
 ## Historical predecessor — soul as freedom of self-reflection v0.1
 
 - identifier: `urn:ivankotov:statement:soul-freedom-self-reflection:v0.1`
