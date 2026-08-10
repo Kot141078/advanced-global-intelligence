@@ -1,0 +1,84 @@
+name: Publish PASC F0 Gap-Closure Scaffold v0.1.1 release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "research/pasc/f0-gap-closure-scaffolds/v0.1.1/**"
+      - ".github/workflows/publish-pasc-f0-gap-closure-scaffold-v011.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-pasc-f0-gap-closure-scaffold-v011
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'Kot141078/advanced-global-intelligence'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TAG: pasc-f0-gap-closure-scaffold-v0.1.1
+      ROOT: research/pasc/f0-gap-closure-scaffolds/v0.1.1
+      RECORD: https://zenodo.org/records/21871392
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download exact DOI-bound files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release-assets
+          for file in \
+            PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf \
+            PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md \
+            PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json \
+            PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt
+          do
+            curl --fail --location --retry 5 --retry-all-errors \
+              "$RECORD/files/$file?download=1" \
+              --output "release-assets/$file"
+          done
+
+      - name: Verify exact file identities
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > release-assets/EXPECTED_SHA256SUMS.txt <<'EOF'
+          b886090c2e55f49ad1fb1efc8135621bc7144c8e6801c660ef1c356e58278fb9  PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf
+          7fbe84fd1aa6571347076239aaf0667242e3c9097dfc2c816626c8717137e427  PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md
+          54ec921bf6ee140ce4e2e973a78d1f45674159f7866938d3035053f48d7c2a5a  PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json
+          a7f5c47935cb8df52a4fed2ab8dcabf2682b5e4d62ead364f8a890160345d760  PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt
+          EOF
+          (cd release-assets && sha256sum -c EXPECTED_SHA256SUMS.txt)
+          diff -u "$ROOT/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md" release-assets/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md
+          diff -u "$ROOT/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json" release-assets/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json
+          diff -u "$ROOT/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt" release-assets/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt
+
+      - name: Create or update GitHub release
+        shell: bash
+        run: |
+          set -euo pipefail
+          assets=(
+            release-assets/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf
+            release-assets/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md
+            release-assets/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json
+            release-assets/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt
+          )
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "${assets[@]}" --clobber
+            gh release edit "$TAG" \
+              --title "PASC F0 Gap-Closure Scaffold v0.1.1" \
+              --notes-file "$ROOT/GITHUB_RELEASE_NOTES.md" \
+              --latest=false
+          else
+            gh release create "$TAG" "${assets[@]}" \
+              --target "$GITHUB_SHA" \
+              --title "PASC F0 Gap-Closure Scaffold v0.1.1" \
+              --notes-file "$ROOT/GITHUB_RELEASE_NOTES.md" \
+              --latest=false
+          fi
