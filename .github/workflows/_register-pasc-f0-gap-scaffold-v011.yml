@@ -28,12 +28,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Materialize exact DOI-bound text assets
+      - name: Materialize exact DOI-bound assets
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p "$ROOT" /tmp/pasc-scaffold-v011
           for file in \
+            PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf \
             PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md \
             PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json \
             PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt
@@ -41,9 +42,13 @@ jobs:
             curl --fail --location --retry 5 --retry-all-errors \
               "$RECORD/files/$file?download=1" \
               --output "/tmp/pasc-scaffold-v011/$file"
-            cp "/tmp/pasc-scaffold-v011/$file" "$ROOT/$file"
           done
 
+          cp /tmp/pasc-scaffold-v011/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md "$ROOT/"
+          cp /tmp/pasc-scaffold-v011/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json "$ROOT/"
+          cp /tmp/pasc-scaffold-v011/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt "$ROOT/"
+
+          echo "b886090c2e55f49ad1fb1efc8135621bc7144c8e6801c660ef1c356e58278fb9  /tmp/pasc-scaffold-v011/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.pdf" | sha256sum -c -
           echo "7fbe84fd1aa6571347076239aaf0667242e3c9097dfc2c816626c8717137e427  /tmp/pasc-scaffold-v011/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1.md" | sha256sum -c -
           echo "54ec921bf6ee140ce4e2e973a78d1f45674159f7866938d3035053f48d7c2a5a  /tmp/pasc-scaffold-v011/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_PUBLICATION_RECORD.json" | sha256sum -c -
           echo "a7f5c47935cb8df52a4fed2ab8dcabf2682b5e4d62ead364f8a890160345d760  /tmp/pasc-scaffold-v011/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt" | sha256sum -c -
@@ -51,7 +56,7 @@ jobs:
       - name: Register human and machine discovery entries
         run: python tools/_register_pasc_f0_gap_scaffold_v011.py
 
-      - name: Validate publication JSON and package checksums
+      - name: Validate publication JSON and exact publication ledger
         shell: bash
         run: |
           set -euo pipefail
@@ -61,7 +66,7 @@ jobs:
           python -m json.tool "$ROOT/machine/checksums.json" >/dev/null
           python -m json.tool REPO_INDEX.json >/dev/null
           (
-            cd "$ROOT"
+            cd /tmp/pasc-scaffold-v011
             sha256sum -c PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt
           )
           test "$(sha256sum "$ROOT/PASC_F0_GAP_CLOSURE_SCAFFOLD_v0_1_1_SHA256SUMS.txt" | awk '{print $1}')" = "a7f5c47935cb8df52a4fed2ab8dcabf2682b5e4d62ead364f8a890160345d760"
