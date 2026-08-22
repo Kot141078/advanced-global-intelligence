@@ -1,0 +1,37 @@
+name: Finalize MOT-c release metadata and verification surfaces
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/mot-c-finalize-metadata.yml
+      - tools/finalize_mot_c_metadata.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Finalize release metadata, stable source and verification maps
+        run: python tools/finalize_mot_c_metadata.py
+      - name: Commit finalized metadata
+        run: |
+          if git diff --quiet; then
+            echo "No changes required."
+            exit 0
+          fi
+          git config user.name "Ivan Kotov"
+          git config user.email "kotovivan78@gmail.com"
+          git add -A
+          git commit -m "Finalize MOT-c v0.1 release metadata and verification surfaces"
+          git push origin HEAD:main
