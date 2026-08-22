@@ -69,5 +69,11 @@
     "no automatic authority",
     "no automatic entitlement to another participant's resources",
     "no mature-population empirical validation claim"
-  ]
+  ],
+  "github_corpus_entry": "https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1",
+  "github_living_mirror": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+  "source_tag": "mot-c-v0.1",
+  "source_commit": "35fa9007f61836aed686c0f62404e1ae47301939",
+  "source_commit_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/35fa9007f61836aed686c0f62404e1ae47301939/publications/motivational-formation-c-v0-1",
+  "immutable_release_authority": "https://doi.org/10.5281/zenodo.22060517"
 }

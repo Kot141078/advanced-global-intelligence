@@ -54,6 +54,49 @@
   ],
   "package_citations": [
     {
+      "id": "mot-c-v0-1",
+      "title": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
+      "package_root": "publications/motivational-formation-c-v0-1/",
+      "source_of_record": "publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_CANONICAL_EN.md",
+      "russian_source": "publications/motivational-formation-c-v0-1/release/MOT_c_Foundation_Theory_v0_1_CANONICAL_RU.md",
+      "citation_file": "publications/motivational-formation-c-v0-1/CITATION.cff",
+      "machine_index": "publications/motivational-formation-c-v0-1/machine/index.json",
+      "schema_org": "publications/motivational-formation-c-v0-1/schema.org.jsonld",
+      "release_manifest": "publications/motivational-formation-c-v0-1/release/manifest.json",
+      "release_checksums": "publications/motivational-formation-c-v0-1/release/SHA256SUMS.txt",
+      "mirror_manifest": "publications/motivational-formation-c-v0-1/MIRROR_MANIFEST.json",
+      "license": "CC BY 4.0",
+      "languages": [
+        "English",
+        "Russian"
+      ],
+      "doi": "10.5281/zenodo.22060517",
+      "doi_url": "https://doi.org/10.5281/zenodo.22060517",
+      "concept_doi": "10.5281/zenodo.22060516",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.22060516",
+      "zenodo_record_url": "https://zenodo.org/records/22060517",
+      "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1",
+      "source_tag": "mot-c-v0.1",
+      "source_tag_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1",
+      "source_commit": "35fa9007f61836aed686c0f62404e1ae47301939",
+      "source_commit_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/35fa9007f61836aed686c0f62404e1ae47301939/publications/motivational-formation-c-v0-1",
+      "archive_sha256": "8054dd1136dac794df1ce90e2e7816b0194348538cdcc45aa136b723322a5eed",
+      "verification_steps": [
+        "Verify MOT_c_v0_1_ZENODO_22060517_FINAL.zip has SHA-256 8054dd1136dac794df1ce90e2e7816b0194348538cdcc45aa136b723322a5eed.",
+        "Verify the extracted release against release/SHA256SUMS.txt and release/manifest.json.",
+        "Parse machine/index.json and schema.org.jsonld as JSON.",
+        "Use the Zenodo DOI as immutable release authority and the tag/commit as readable GitHub mirrors."
+      ],
+      "non_claims": [
+        "proof of consciousness or phenomenal desire",
+        "proof of free will or legal personhood",
+        "universal motives shared by all c-class entities",
+        "automatic self-preservation drive",
+        "automatic authority or rights created by a motive",
+        "empirical validation across a mature population of long-lived c-class entities"
+      ]
+    },
+    {
       "id": "ccdp-v0-1",
       "title": "Child-c Development Protocol (CCDP) v0.1",
       "package_root": "docs/ccdp/",
@@ -241,5 +284,6 @@
         "Verify DOI resolves to the published Zenodo record and rights remain no-license-granted-all-rights-reserved."
       ]
     }
-  ]
+  ],
+  "last_updated": "2026-08-22"
 }

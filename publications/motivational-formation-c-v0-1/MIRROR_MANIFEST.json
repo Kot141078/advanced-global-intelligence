@@ -1,0 +1,72 @@
+{
+  "schema_version": "mot-c-github-mirror.v1",
+  "publication_id": "motivational-formation-c-v0-1",
+  "version_doi": "https://doi.org/10.5281/zenodo.22060517",
+  "concept_doi": "https://doi.org/10.5281/zenodo.22060516",
+  "immutable_release_authority": "Zenodo",
+  "stable_source_tag": "mot-c-v0.1",
+  "source_commit": "35fa9007f61836aed686c0f62404e1ae47301939",
+  "tag_source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1",
+  "commit_source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/35fa9007f61836aed686c0f62404e1ae47301939/publications/motivational-formation-c-v0-1",
+  "living_source_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1",
+  "github_release_url": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1",
+  "archive_sha256": "8054dd1136dac794df1ce90e2e7816b0194348538cdcc45aa136b723322a5eed",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 4134,
+      "sha256": "edaf57ce86c0d78b2e03f0cbbe803c0a57603572cc410c3fb32c58979f0be3c9"
+    },
+    {
+      "path": "MACHINE_ENTRY.md",
+      "size": 1267,
+      "sha256": "06bf9ab961781869eea6803cf224be172738d3f81df1ff82e745c0fee945df16"
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 578,
+      "sha256": "76966da0fd563f278fa1b86454a7e64cd49d294239fa24e01a514d05ee5e25ad"
+    },
+    {
+      "path": "DOI_BRIDGE.md",
+      "size": 870,
+      "sha256": "bab39acc1efc3ef577b4df0d7f6a21f1aec947d2b93f0a0fccfaedb8fc46097d"
+    },
+    {
+      "path": "ZENODO_RELEASE_FILES.md",
+      "size": 624,
+      "sha256": "1d77a4c7ff7147ff42ef0b38e37bbc7f05008d9e611c5143d32f23942644d066"
+    },
+    {
+      "path": "LICENSE.md",
+      "size": 282,
+      "sha256": "0a7be92d9e87a6a44caaa1a8562811238379ca89f1627e603429db1c5cd80305"
+    },
+    {
+      "path": "GITHUB_RELEASE_NOTES.md",
+      "size": 574,
+      "sha256": "12b6202ade766caf7c12dfa05e57ae51fa3a17e1992c51176ccb37de55b8f838"
+    },
+    {
+      "path": "machine/index.json",
+      "size": 3929,
+      "sha256": "e785cbe442f716a88f0f4dd8707964616b9e89304fd165438223525c6ed072cc"
+    },
+    {
+      "path": "schema.org.jsonld",
+      "size": 3455,
+      "sha256": "d4407b7ec2d76c3f753b6a0088e386fbf4451aa6788cc858b02b9ee6e06987fb"
+    },
+    {
+      "path": "MOT_c_v0_1_ZENODO_22060517_FINAL.zip",
+      "size": 2978152,
+      "sha256": "8054dd1136dac794df1ce90e2e7816b0194348538cdcc45aa136b723322a5eed"
+    },
+    {
+      "path": "MOT_c_v0_1_ZENODO_22060517_FINAL.zip.sha256",
+      "size": 103,
+      "sha256": "f95726b45ba0c97794972cf87a6e626584009fcebef15a3f5693711dc7842d48"
+    }
+  ],
+  "claim_boundary": "This manifest proves file identity for the GitHub mirror only; it does not prove consciousness, personhood, empirical validity, safety or deployment authorization."
+}

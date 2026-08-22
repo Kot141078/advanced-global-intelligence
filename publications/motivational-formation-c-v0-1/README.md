@@ -12,6 +12,15 @@
 
 This directory is the readable GitHub corpus mirror for the DOI-bound Zenodo publication. **Zenodo remains the immutable authority for the deposited release bytes.** GitHub exposes the full source tree, definitions, formal core, red-team material, schemas, examples, figures and machine metadata for human review and crawler discovery.
 
+## Stable GitHub source
+
+- Release tag: [`mot-c-v0.1`](https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1)
+- Commit-pinned mirror: [`35fa9007f61836aed686c0f62404e1ae47301939`](https://github.com/Kot141078/advanced-global-intelligence/tree/35fa9007f61836aed686c0f62404e1ae47301939/publications/motivational-formation-c-v0-1)
+- Living mirror: [main](https://github.com/Kot141078/advanced-global-intelligence/tree/mot-c-v0.1/publications/motivational-formation-c-v0-1)
+- GitHub Release assets: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1
+
+Zenodo remains the immutable publication authority; the tag and commit provide stable readable GitHub mirrors.
+
 ## Central boundary
 
 A `c`-class entity may begin with high cognitive capability because capability can be supplied by the technological substrate `b`. It cannot begin with a completed motivational biography.
