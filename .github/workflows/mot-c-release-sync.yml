@@ -1,0 +1,54 @@
+name: One-shot MOT-c release mirror synchronization
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/mot-c-release-sync.yml
+      - tools/sync_mot_c_release.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Download, verify and expose the DOI release
+        run: python tools/sync_mot_c_release.py
+      - name: Commit readable corpus mirror
+        run: |
+          git config user.name "Ivan Kotov"
+          git config user.email "kotovivan78@gmail.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No repository changes required."
+          else
+            git commit -m "Mirror DOI-bound MOT-c v0.1 release and machine corpus"
+            git push origin HEAD:main
+          fi
+      - name: Create or refresh GitHub Release assets
+        run: |
+          NOTES="publications/motivational-formation-c-v0-1/GITHUB_RELEASE_NOTES.md"
+          ROOT="publications/motivational-formation-c-v0-1"
+          if gh release view mot-c-v0.1 >/dev/null 2>&1; then
+            gh release edit mot-c-v0.1 --title "MOT-c v0.1 — Motivational Formation Foundation Theory" --notes-file "$NOTES"
+          else
+            gh release create mot-c-v0.1 --target "$(git rev-parse HEAD)" --title "MOT-c v0.1 — Motivational Formation Foundation Theory" --notes-file "$NOTES"
+          fi
+          gh release upload mot-c-v0.1 \
+            "$ROOT/release/MOT_c_Foundation_Theory_v0_1_EN.pdf" \
+            "$ROOT/release/MOT_c_Foundation_Theory_v0_1_RU.pdf" \
+            "$ROOT/MOT_c_v0_1_ZENODO_22060517_FINAL.zip" \
+            "$ROOT/MOT_c_v0_1_ZENODO_22060517_FINAL.zip.sha256" \
+            --clobber
