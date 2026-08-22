@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the Zenodo version DOI."
+title: "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory"
+version: "0.1"
+date-released: 2026-08-22
+type: article
+authors:
+  - family-names: Kotov
+    given-names: Ivan
+    orcid: https://orcid.org/0009-0009-6002-9845
+doi: 10.5281/zenodo.22060517
+url: https://ivankotov.eu/publications/motivational-formation-c-v0-1/
+license: CC-BY-4.0
