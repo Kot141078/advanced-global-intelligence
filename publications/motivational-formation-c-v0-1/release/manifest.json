@@ -1,0 +1,272 @@
+{
+  "schema": "mot-c.release-manifest.v0.1",
+  "title": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory v0.1",
+  "version": "0.1",
+  "doi": "10.5281/zenodo.22060517",
+  "publication_date": "2026-08-22",
+  "author": "Ivan Kotov",
+  "orcid": "0009-0009-6002-9845",
+  "license": "CC-BY-4.0",
+  "build_status": "READY_FOR_ZENODO_UPLOAD",
+  "entries": [
+    {
+      "path": ".zenodo.json",
+      "size_bytes": 2315,
+      "sha256": "2e47cd1077d6b1271080f4c10472bdd7f2fbf58dc3771a2e0cbd8c933095e173",
+      "mime_type": "application/json",
+      "role": "zenodo_metadata"
+    },
+    {
+      "path": "AUTHORIAL_PREMISES_v0_1.md",
+      "size_bytes": 2349,
+      "sha256": "d2a0917319d4c613fcdb5b8d5ef6e6b32b5e5ed81f7bb8870f36678fe8a0561f",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 1956,
+      "sha256": "59e142ae3b00541d39a6acd276b3839e0925fff1189b2b924b2d9cd75a86c956",
+      "mime_type": "application/octet-stream",
+      "role": "citation_metadata"
+    },
+    {
+      "path": "CORPUS_BRIDGE_AND_CLAIM_MAP_v0_1.md",
+      "size_bytes": 4446,
+      "sha256": "7ddadfe92ca89299015ae9ad0e264b967999c1645ea675b158671cd88d457a9f",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "FINAL_QA_REPORT.md",
+      "size_bytes": 2404,
+      "sha256": "59b90cea611d687eb964030724abdd00be6289a66ddf1c1b00f41aa61bda5418",
+      "mime_type": "text/markdown",
+      "role": "qa_report"
+    },
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 859,
+      "sha256": "ae143d95089842615eabb0672b20c441fc1ec585506840d084d7d7de27705168",
+      "mime_type": "text/markdown",
+      "role": "license"
+    },
+    {
+      "path": "MOT_c_ADVERSARIAL_REVIEW_AND_RED_TEAM_v0_1.md",
+      "size_bytes": 12759,
+      "sha256": "dc59b6f98d64a002afff9246107f89d1651b41501328dc0287a81ac5ea744169",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "MOT_c_COMPARATIVE_LANDSCAPE_v0_1.md",
+      "size_bytes": 13654,
+      "sha256": "bb94b37c2c8544198185433ba64de79b3bcf16cbf5438654f94316b4badd1c1b",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "MOT_c_COMPARATIVE_LANDSCAPE_v0_1.pdf",
+      "size_bytes": 68785,
+      "sha256": "eb6e7608c26a550c79b36102054eef5481f80c3c912f3e41d6b81a87f4ea6f46",
+      "mime_type": "application/pdf",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "MOT_c_FORMAL_CORE_v0_1_EN.md",
+      "size_bytes": 13416,
+      "sha256": "5de85c578d7ec02d9727130e8222bbe0d9a8ae07cc449b308e7aef51677f10c8",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "MOT_c_FORMAL_CORE_v0_1_EN.pdf",
+      "size_bytes": 68006,
+      "sha256": "4a851b4060107f45085384762b6e9c3388dea9e316514fe03d464c4647d99473",
+      "mime_type": "application/pdf",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "MOT_c_FORMAL_CORE_v0_1_RU.md",
+      "size_bytes": 23610,
+      "sha256": "f499180492a9bbed435f96d941248b473ef6b3e408492accfd6797f65e85ddf5",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "MOT_c_FORMAL_CORE_v0_1_RU.pdf",
+      "size_bytes": 77998,
+      "sha256": "93662c704d7bf8942c186126d1cbcf84bc00de387a5732bf334251f394de4809",
+      "mime_type": "application/pdf",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "MOT_c_Foundation_Theory_v0_1_EN.md",
+      "size_bytes": 76618,
+      "sha256": "8ca0de6c61929b831d857e835fc8cba6e7bf167e13a12d0a0aaaff784079ea7b",
+      "mime_type": "text/markdown",
+      "role": "canonical_english_source"
+    },
+    {
+      "path": "MOT_c_Foundation_Theory_v0_1_EN.pdf",
+      "size_bytes": 875300,
+      "sha256": "2346fb43875e7fb137ef7408126ff5cf3f66c02099c8d0d293089d136318801b",
+      "mime_type": "application/pdf",
+      "role": "primary_english_reader_pdf"
+    },
+    {
+      "path": "MOT_c_Foundation_Theory_v0_1_RU.md",
+      "size_bytes": 129568,
+      "sha256": "5e0a1c356f13185109d7c23878e34ae1a931895226207e0f980fd66f413e6be7",
+      "mime_type": "text/markdown",
+      "role": "canonical_russian_source"
+    },
+    {
+      "path": "MOT_c_Foundation_Theory_v0_1_RU.pdf",
+      "size_bytes": 947606,
+      "sha256": "4a50e6a8d8444b7960715ae4035d3e5ad6fe58c21000066d48f4d45f880384a5",
+      "mime_type": "application/pdf",
+      "role": "primary_russian_reader_pdf"
+    },
+    {
+      "path": "MOT_c_THEORY_CLOSURE_MATRIX_v0_1.md",
+      "size_bytes": 7662,
+      "sha256": "de9f9288e4895cdc43e7372e141ca403d09ec4a264f4730023a1f7f4c9f2580f",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "NO_CLAIM_UPGRADE.md",
+      "size_bytes": 1115,
+      "sha256": "f01aaacc01c06ff2156c99614aebde325554c916a2d46d975826855697b57ad8",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "PACKAGE_STATUS.md",
+      "size_bytes": 639,
+      "sha256": "89c12f8295a4b1044263a663277c42eafc38fb1733e7732da3745953d23ee710",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "size_bytes": 2392,
+      "sha256": "18e9b032726cdecf98e7a7e8db251cacafe7890b618fc05b3881957149bdb056",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3523,
+      "sha256": "20b270033cff57d60b183871b9006615ebfd77bf7c4c2d51649dcddbfc5aa723",
+      "mime_type": "text/markdown",
+      "role": "package_readme"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size_bytes": 1899,
+      "sha256": "b4378b13140cd3b07107db51a9c1e2758f642748f7aee7481794ac6e4ff77ee7",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "TERM_CONCORDANCE_RU_EN_v0_1.md",
+      "size_bytes": 3401,
+      "sha256": "e4091922f2d44659f83da5914c1bc412799b161ff2148d8d2eea8ad4fbb408a5",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "ZENODO_METADATA.md",
+      "size_bytes": 2620,
+      "sha256": "0e3648d5a7a9bc345195eb106cb52f7890bb62f32e50a3e34aac485be4ca23d2",
+      "mime_type": "text/markdown",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "examples/motivational-intervention-record.example.json",
+      "size_bytes": 711,
+      "sha256": "c9145a72b4e3493d775393a315c527edb7f6e6c3bdad80e289fa34be7ec5ca49",
+      "mime_type": "application/json",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "examples/motivational-transition.example.json",
+      "size_bytes": 682,
+      "sha256": "966d5671390891fba357756a9204c59ed454d36a4647d3be9ba9b8013cd989c5",
+      "mime_type": "application/json",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "examples/motive-record.example.json",
+      "size_bytes": 1578,
+      "sha256": "67bae592c30fab9627ce369b3b924974d87110dc1a33b36450e06ac7170fc709",
+      "mime_type": "application/json",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "figures/mot_c_formation_cycle_en.png",
+      "size_bytes": 212977,
+      "sha256": "60b69619506b736c95d436b916ebfbbf3ed85975fb92ce3d3e171bd699343fa2",
+      "mime_type": "image/png",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "figures/mot_c_formation_cycle_ru.png",
+      "size_bytes": 242434,
+      "sha256": "b037c85c0c90d79665456b17acbd2d0a32274ca13225af9cfb1e95b13f7368db",
+      "mime_type": "image/png",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "figures/mot_c_motivational_field_en.png",
+      "size_bytes": 204169,
+      "sha256": "b42860c5a922b3ac6934376a408ee8dc686c465009dcf4ffec760d68b10353e3",
+      "mime_type": "image/png",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "figures/mot_c_motivational_field_ru.png",
+      "size_bytes": 211037,
+      "sha256": "3cbe2faad298193ebbfb6ccb40a1ae3c6cd3c55f42d9ddde966af3ed81b1702a",
+      "mime_type": "image/png",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "figures/mot_c_privacy_witness_boundary_en.png",
+      "size_bytes": 194263,
+      "sha256": "4c2ad4cfda150f5388bed0b44ed61bd3842e6630eec4a40000b82338894d74ae",
+      "mime_type": "image/png",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "figures/mot_c_privacy_witness_boundary_ru.png",
+      "size_bytes": 204848,
+      "sha256": "8a03bfd9e8505afc6499e021c6478e1988f30bb025c765a23cec0c676ae747c3",
+      "mime_type": "image/png",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "motivational-intervention-record.schema.json",
+      "size_bytes": 2850,
+      "sha256": "cccaef88130ab590cda2b6b1cdbb617df951b952077c48b362ecf473e62ec073",
+      "mime_type": "application/json",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "motivational-transition.schema.json",
+      "size_bytes": 3367,
+      "sha256": "c827e6c24e8e61d90d8b2435c83e7a5ae194c67d127d964fa77249f20e9092ee",
+      "mime_type": "application/json",
+      "role": "supporting_artifact"
+    },
+    {
+      "path": "motive-record.schema.json",
+      "size_bytes": 10921,
+      "sha256": "5d0353369a7dff50c865da6e168f2e5790d8e4ee3c4cd456fea86295da5958d7",
+      "mime_type": "application/json",
+      "role": "supporting_artifact"
+    }
+  ]
+}

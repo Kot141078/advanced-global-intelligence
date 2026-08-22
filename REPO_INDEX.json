@@ -1030,5 +1030,15 @@
   "pasc_f0_gap_closure_scaffold_v0_1_1_concept_doi": "10.5281/zenodo.21871391",
   "pasc_f0_gap_closure_scaffold_v0_1_1_related_pasc_version_doi": "10.5281/zenodo.21843823",
   "pasc_f0_gap_closure_scaffold_v0_1_1_github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/pasc-f0-gap-closure-scaffold-v0.1.1",
-  "pasc_f0_gap_closure_scaffold_v0_1_1_status": "INFORMATIVE_CONTEXT; normative_weight_in_pasc=false; closure_evidence=false; F0_OUTCOME remains NOT_PASSED"
+  "pasc_f0_gap_closure_scaffold_v0_1_1_status": "INFORMATIVE_CONTEXT; normative_weight_in_pasc=false; closure_evidence=false; F0_OUTCOME remains NOT_PASSED",
+  "mot_c_v0_1_package_root": "publications/motivational-formation-c-v0-1/",
+  "mot_c_v0_1_readme_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/motivational-formation-c-v0-1/README.md",
+  "mot_c_v0_1_machine_index_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/motivational-formation-c-v0-1/machine/index.json",
+  "mot_c_v0_1_schema_org_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/motivational-formation-c-v0-1/schema.org.jsonld",
+  "mot_c_v0_1_version_doi": "10.5281/zenodo.22060517",
+  "mot_c_v0_1_version_doi_url": "https://doi.org/10.5281/zenodo.22060517",
+  "mot_c_v0_1_concept_doi": "10.5281/zenodo.22060516",
+  "mot_c_v0_1_concept_doi_url": "https://doi.org/10.5281/zenodo.22060516",
+  "mot_c_v0_1_github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1",
+  "mot_c_v0_1_status": "published DOI-bound foundation theory; no consciousness, personhood, universal-motive or automatic-authority claim"
 }

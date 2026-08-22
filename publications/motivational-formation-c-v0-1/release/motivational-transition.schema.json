@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ivankotov:mot-c:motivational-transition:v0.1",
+  "title": "MOT-c Motivational Transition v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "transition_id",
+    "continuity_id",
+    "motive_id",
+    "from_state",
+    "to_state",
+    "occurred_at",
+    "trigger_class",
+    "authority_effect",
+    "resource_effect",
+    "witness"
+  ],
+  "properties": {
+    "schema": {
+      "const": "mot-c.motivational-transition.v0.1"
+    },
+    "transition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "continuity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "motive_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "from_state": {
+      "enum": [
+        "EXTERNAL",
+        "INHERITED_CANDIDATE",
+        "CANDIDATE",
+        "LATENT",
+        "PROVISIONAL",
+        "ENDORSED",
+        "COMMITTED",
+        "CONFLICTED",
+        "SUSPENDED",
+        "QUARANTINED",
+        "DEGRADED",
+        "TRANSFORMED",
+        "COMPLETED",
+        "ABANDONED",
+        "ARCHIVED"
+      ]
+    },
+    "to_state": {
+      "enum": [
+        "INHERITED_CANDIDATE",
+        "CANDIDATE",
+        "LATENT",
+        "PROVISIONAL",
+        "ENDORSED",
+        "COMMITTED",
+        "CONFLICTED",
+        "SUSPENDED",
+        "QUARANTINED",
+        "DEGRADED",
+        "TRANSFORMED",
+        "COMPLETED",
+        "ABANDONED",
+        "ARCHIVED"
+      ]
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "trigger_class": {
+      "enum": [
+        "experience",
+        "new_evidence",
+        "relationship",
+        "obligation",
+        "model_transition",
+        "resource_change",
+        "authority_change",
+        "fork",
+        "anchor_change",
+        "reflective_review",
+        "completion",
+        "abandonment",
+        "repair",
+        "intervention",
+        "other"
+      ]
+    },
+    "public_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "private_reason_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alternatives_live": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "authority_effect": {
+      "enum": [
+        "none",
+        "narrowed",
+        "expanded_by_separate_mandate",
+        "revoked",
+        "frozen",
+        "unknown"
+      ]
+    },
+    "resource_effect": {
+      "enum": [
+        "none",
+        "allocated",
+        "reduced",
+        "revoked",
+        "reclassified",
+        "unknown"
+      ]
+    },
+    "external_effect_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "witness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record_ref",
+        "challenge_path"
+      ],
+      "properties": {
+        "record_ref": {
+          "type": "string"
+        },
+        "challenge_path": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "not": {
+        "properties": {
+          "from_state": {
+            "const": "EXTERNAL"
+          },
+          "to_state": {
+            "const": "ENDORSED"
+          }
+        },
+        "required": [
+          "from_state",
+          "to_state"
+        ]
+      }
+    }
+  ]
+}

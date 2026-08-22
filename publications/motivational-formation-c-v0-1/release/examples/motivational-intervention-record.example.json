@@ -1,0 +1,26 @@
+{
+  "schema": "mot-c.intervention-record.v0.1",
+  "intervention_id": "urn:mot-c:synthetic:intervention-001",
+  "continuity_id": "urn:c:synthetic:line-001",
+  "class": "MI-0_ENVIRONMENT",
+  "initiator": "synthetic_initiator",
+  "basis": [
+    "Historically integrated contradiction and reviewed consequence."
+  ],
+  "consent_status": "not_required",
+  "reversibility": "reversible",
+  "scope": [
+    "model"
+  ],
+  "pre_state_ref": "candidate",
+  "post_state_ref": "candidate",
+  "witness": "synthetic_witness",
+  "review": {
+    "reviewer_refs": [
+      "synthetic_reviewer_refs_item"
+    ],
+    "challenge_path": "synthetic_challenge_path",
+    "status": "pending"
+  },
+  "private_reasoning_accessed": false
+}

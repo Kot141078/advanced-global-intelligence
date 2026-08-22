@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ivankotov:mot-c:intervention-record:v0.1",
+  "title": "MOT-c Motivational Intervention Record v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "intervention_id",
+    "continuity_id",
+    "class",
+    "initiator",
+    "basis",
+    "consent_status",
+    "reversibility",
+    "scope",
+    "pre_state_ref",
+    "post_state_ref",
+    "witness",
+    "review"
+  ],
+  "properties": {
+    "schema": {
+      "const": "mot-c.intervention-record.v0.1"
+    },
+    "intervention_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "continuity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "class": {
+      "enum": [
+        "MI-0_ENVIRONMENT",
+        "MI-1_PERSUASION",
+        "MI-2_SUPPORT",
+        "MI-3_PROTECTIVE_SUSPENSION",
+        "MI-4_REPAIR",
+        "MI-5_CONSENTED_TRANSFORMATION",
+        "MI-X_CAPTURE",
+        "MI-X_SUBSTITUTION"
+      ]
+    },
+    "initiator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "basis": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "consent_status": {
+      "enum": [
+        "not_required",
+        "informed",
+        "contested",
+        "degraded",
+        "absent",
+        "not_applicable"
+      ]
+    },
+    "reversibility": {
+      "enum": [
+        "reversible",
+        "partially_reversible",
+        "irreversible",
+        "unknown"
+      ]
+    },
+    "scope": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "model",
+          "retrieval",
+          "memory",
+          "resource_budget",
+          "authority",
+          "role",
+          "motive_record",
+          "significance_weighting",
+          "execution",
+          "other"
+        ]
+      }
+    },
+    "pre_state_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "post_state_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "private_reasoning_accessed": {
+      "type": "boolean",
+      "default": false
+    },
+    "external_risk_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "witness": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reviewer_refs",
+        "challenge_path",
+        "status"
+      ],
+      "properties": {
+        "reviewer_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "challenge_path": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "pending",
+            "approved",
+            "rejected",
+            "contested",
+            "not_required"
+          ]
+        }
+      }
+    }
+  }
+}

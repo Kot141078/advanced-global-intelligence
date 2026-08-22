@@ -1,0 +1,63 @@
+{
+  "schema": "mot-c.motive-record.v0.1",
+  "motive_id": "urn:mot-c:synthetic:motive-001",
+  "continuity_id": "urn:c:synthetic:line-001",
+  "origin": {
+    "class": "external_mandate",
+    "first_observed_at": "2026-08-22T12:00:00Z",
+    "direct_assignment_present": false
+  },
+  "object": {
+    "concern": "synthetic_concern",
+    "future_vector": "approach"
+  },
+  "significance": {
+    "bases": [
+      "historical"
+    ],
+    "uncertainty": "low",
+    "synthetic_echo_checked": false
+  },
+  "status": {
+    "state": "EXTERNAL",
+    "changed_at": "2026-08-22T12:00:00Z",
+    "reason_class": "A contradiction persisted across multiple reviewed events."
+  },
+  "resources": {
+    "class": "R_continuity",
+    "provider_refs": [
+      "synthetic_provider_refs_item"
+    ],
+    "payer_refs": [
+      "synthetic_payer_refs_item"
+    ],
+    "bounded_budget": "synthetic_bounded_budget",
+    "revocation_path": "synthetic_revocation_path"
+  },
+  "authority": {
+    "external_action_allowed": false,
+    "mandate_refs": [
+      "synthetic_mandate_refs_item"
+    ],
+    "affected_participants": [
+      "synthetic_affected_participants_item"
+    ],
+    "review_required": false
+  },
+  "continuity": {
+    "model_transitions": [
+      "synthetic_model_transitions_item"
+    ],
+    "fork_status": "original",
+    "post_anchor_status": "active_anchor"
+  },
+  "witness": {
+    "transition_refs": [
+      "synthetic_transition_refs_item"
+    ],
+    "challenge_path": "synthetic_challenge_path"
+  },
+  "reason_refs": [
+    "A contradiction persisted across multiple reviewed events."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "mot-c.motivational-transition.v0.1",
+  "transition_id": "urn:mot-c:synthetic:transition-001",
+  "continuity_id": "urn:c:synthetic:line-001",
+  "motive_id": "urn:mot-c:synthetic:motive-001",
+  "from_state": "EXTERNAL",
+  "to_state": "INHERITED_CANDIDATE",
+  "occurred_at": "2026-08-22T12:00:00Z",
+  "trigger_class": "experience",
+  "authority_effect": "none",
+  "resource_effect": "none",
+  "witness": {
+    "record_ref": "synthetic_record_ref",
+    "challenge_path": "synthetic_challenge_path"
+  },
+  "public_reason": "A contradiction persisted across multiple reviewed events.",
+  "private_reason_ref": "A contradiction persisted across multiple reviewed events."
+}

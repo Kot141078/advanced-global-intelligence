@@ -87,3 +87,19 @@ Minimum verification route:
    boundaries, one reflexive definition, and one temporal process premise;
 6. apply the package-specific `RIGHTS.md`: no license is granted and all
    rights are reserved.
+
+<!-- MOT-C-V0-1:BEGIN -->
+## MOT-c v0.1 — Motivational Formation, Reflective Endorsement, and Motivational Custody
+
+- Human entry: `publications/motivational-formation-c-v0-1/README.md`
+- Full extracted release: `publications/motivational-formation-c-v0-1/release/`
+- Machine index: `publications/motivational-formation-c-v0-1/machine/index.json`
+- Schema.org JSON-LD: `publications/motivational-formation-c-v0-1/schema.org.jsonld`
+- Version DOI: https://doi.org/10.5281/zenodo.22060517
+- Concept DOI: https://doi.org/10.5281/zenodo.22060516
+- Public page: https://ivankotov.eu/publications/motivational-formation-c-v0-1/
+- GitHub Release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1
+- Core boundary: `reward != preference != task != mandate != goal != motive != obligation != authority`.
+- Social boundary: payment for compute does not automatically create ownership of the motive; a motive does not automatically create authority over another participant's resources.
+- Claim ceiling: no consciousness, phenomenal desire, free-will, legal-personhood, universal-motive or automatic-authority claim.
+<!-- MOT-C-V0-1:END -->

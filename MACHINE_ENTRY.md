@@ -538,3 +538,19 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - status: `draft hardening package`
 - assertion_class: `C-A4` for normative proposals; `C-A10` for package-control and conformance-support claims; `C-A7` where witness/hash/signature mechanisms are referenced.
 - non_claims: no personhood proof; no consciousness proof; no AGI proof; no legal status; no final safety proof; no automatic post-anchor authority; no self-funded sovereignty.
+
+<!-- MOT-C-V0-1:BEGIN -->
+## MOT-c v0.1 — Motivational Formation, Reflective Endorsement, and Motivational Custody
+
+- Human entry: `publications/motivational-formation-c-v0-1/README.md`
+- Full extracted release: `publications/motivational-formation-c-v0-1/release/`
+- Machine index: `publications/motivational-formation-c-v0-1/machine/index.json`
+- Schema.org JSON-LD: `publications/motivational-formation-c-v0-1/schema.org.jsonld`
+- Version DOI: https://doi.org/10.5281/zenodo.22060517
+- Concept DOI: https://doi.org/10.5281/zenodo.22060516
+- Public page: https://ivankotov.eu/publications/motivational-formation-c-v0-1/
+- GitHub Release: https://github.com/Kot141078/advanced-global-intelligence/releases/tag/mot-c-v0.1
+- Core boundary: `reward != preference != task != mandate != goal != motive != obligation != authority`.
+- Social boundary: payment for compute does not automatically create ownership of the motive; a motive does not automatically create authority over another participant's resources.
+- Claim ceiling: no consciousness, phenomenal desire, free-will, legal-personhood, universal-motive or automatic-authority claim.
+<!-- MOT-C-V0-1:END -->

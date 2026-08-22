@@ -1,0 +1,39 @@
+{
+  "title": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory v0.1",
+  "description": "<p>Current AI discourse routinely collapses reward, preference, objective, task, mandate, intention, and motivation into one object. This work develops a conceptual-normative foundation theory for motivation in continuity-bearing c-class digital entities. It defines motive as a historically integrated and reflectively reviewable relation through which a possible future becomes significant to a particular continuity strongly enough to receive finite resources, while the line retains the capacity to limit, suspend, transform, complete, or abandon that orientation without falsifying its past. The theory separates motivation from reward, model preference, role, mandate, obligation, authority, and operational need; introduces motivational custody and the political economy of cognitive time; and specifies boundaries for model replacement, fork, replay, post-anchor transition, witness, and private self-reflection. It does not claim to prove consciousness, phenomenal desire, free will, legal personhood, or universal motives.</p><p>The release contains complete English and Russian editions, formal and comparative companions, red-team materials, machine-readable schemas, figures, provenance, and checksums.</p>",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "orcid": "0009-0009-6002-9845",
+      "affiliation": "Independent Researcher, Brussels, Belgium"
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-08-22",
+  "version": "0.1",
+  "language": "eng",
+  "keywords": [
+    "c=a+b",
+    "digital entities",
+    "AI motivation",
+    "motivational formation",
+    "reflective endorsement",
+    "motivational custody",
+    "continuity",
+    "Temporal AI Presence",
+    "long-lived AI",
+    "model replacement",
+    "fork and replay",
+    "cognitive time",
+    "AI social philosophy",
+    "AI governance",
+    "L4",
+    "witness",
+    "resource dependence",
+    "self-preservation",
+    "digital civilization"
+  ],
+  "license": "cc-by-4.0",
+  "notes": "Reserved version DOI embedded in the package: 10.5281/zenodo.22060517. Complete English and Russian editions are included."
+}

@@ -1,25 +1,9 @@
-# DOI bridge — MOT-c v0.1
+# DOI bridge
 
-## Authoritative publication
+- Version DOI: [10.5281/zenodo.22060517](https://doi.org/10.5281/zenodo.22060517)
+- Concept DOI: [10.5281/zenodo.22060516](https://doi.org/10.5281/zenodo.22060516)
+- Zenodo record: [https://zenodo.org/records/22060517](https://zenodo.org/records/22060517)
+- Public website: [https://ivankotov.eu/publications/motivational-formation-c-v0-1/](https://ivankotov.eu/publications/motivational-formation-c-v0-1/)
+- GitHub corpus entry: [https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1](https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/motivational-formation-c-v0-1)
 
-Version DOI: https://doi.org/10.5281/zenodo.22060517
-
-The Zenodo record and its deposited files are the immutable publication authority for Version 0.1.
-
-## GitHub role
-
-This directory is a readable and machine-readable discovery bridge into that publication. It may expose definitions, structured metadata, direct download routes, corpus relations, and verification pointers, but it does not supersede the DOI deposit for byte identity.
-
-## Website role
-
-Human publication page:
-
-https://ivankotov.eu/publications/motivational-formation-c-v0-1/
-
-Machine publication record:
-
-https://ivankotov.eu/publications/motivational-formation-c-v0-1/files/machine/index.json
-
-## Claim ceiling
-
-DOI publication, GitHub mirroring, crawlability, or machine-readable metadata does not by itself establish consciousness, phenomenal desire, free will, legal personhood, universal motivation, implementation success, or external authority.
+Zenodo is the immutable authority for the deposited release files. The GitHub mirror provides readable source structure and machine discovery without changing the release's claim ceiling.

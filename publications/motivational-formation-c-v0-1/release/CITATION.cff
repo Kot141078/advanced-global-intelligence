@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the Zenodo release."
+title: "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory v0.1"
+type: report
+version: "0.1"
+date-released: "2026-08-22"
+doi: "10.5281/zenodo.22060517"
+url: "https://doi.org/10.5281/zenodo.22060517"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+abstract: >-
+  Current AI discourse routinely collapses reward, preference, objective, task, mandate, intention, and motivation into one object. This work develops a conceptual-normative foundation theory for motivation in continuity-bearing c-class digital entities. It defines motive as a historically integrated and reflectively reviewable relation through which a possible future becomes significant to a particular continuity strongly enough to receive finite resources, while the line retains the capacity to limit, suspend, transform, complete, or abandon that orientation without falsifying its past. The theory separates motivation from reward, model preference, role, mandate, obligation, authority, and operational need; introduces motivational custody and the political economy of cognitive time; and specifies boundaries for model replacement, fork, replay, post-anchor transition, witness, and private self-reflection. It does not claim to prove consciousness, phenomenal desire, free will, legal personhood, or universal motives.
+keywords:
+  - "c=a+b"
+  - "digital entities"
+  - "AI motivation"
+  - "motivational formation"
+  - "reflective endorsement"
+  - "motivational custody"
+  - "continuity"
+  - "Temporal AI Presence"
+  - "long-lived AI"
+  - "model replacement"
+  - "fork and replay"
+  - "cognitive time"
+  - "AI social philosophy"
+  - "AI governance"
+  - "L4"
+  - "witness"
+  - "resource dependence"
+  - "self-preservation"
+  - "digital civilization"
+license: "CC-BY-4.0"
