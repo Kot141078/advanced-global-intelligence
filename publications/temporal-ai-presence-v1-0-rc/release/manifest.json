@@ -1,0 +1,103 @@
+{
+  "schema": "tap.release-manifest.v1.0-rc",
+  "title": "Temporal AI Presence Profile v1.0 - Release Candidate",
+  "version": "1.0-rc",
+  "publication_status": "release-candidate",
+  "doi": null,
+  "candidate_date": "2026-08-23",
+  "author": "Ivan Kotov",
+  "orcid": "0009-0009-6002-9845",
+  "license": "CC-BY-4.0",
+  "canonical_definition": "Temporal AI Presence = sustained bounded AI participation across time.",
+  "starting_commit": "5ffe01445b18d2efac0316b0a791fa27030a4f12",
+  "integrity_exclusions": [
+    "manifest.json",
+    "SHA256SUMS"
+  ],
+  "entries": [
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 1839,
+      "sha256": "153f4acf505f6f044fb72e891d909bd267a7d4cd29e80883576f821917a2d0fc",
+      "mime_type": "application/yaml",
+      "role": "citation_metadata"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "size_bytes": 2036,
+      "sha256": "6af68b5a06ad3d810e13b7c6131d6c5c4f5f12fa867d3854b4dc648f5c61a2be",
+      "mime_type": "application/octet-stream",
+      "role": "provenance"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2576,
+      "sha256": "bd9e6b4d21add4ecc12d7652805b5472379244c91dda81a6d72a56b9ca9d224d",
+      "mime_type": "application/octet-stream",
+      "role": "package_readme"
+    },
+    {
+      "path": "RELEASE_NOTES_v1_0_RC.md",
+      "size_bytes": 2436,
+      "sha256": "41a14f41bb6dd000ef320f2d8cd1f91159f382252537b20dc972eeddd6be4673",
+      "mime_type": "application/octet-stream",
+      "role": "release_notes"
+    },
+    {
+      "path": "TAP_CLAIM_AND_BOUNDARY_MAP_v1_0.md",
+      "size_bytes": 3133,
+      "sha256": "f1b2eacf83a8c357ad108141f70845109d07fa98f222a4a106626e0476426758",
+      "mime_type": "application/octet-stream",
+      "role": "claim_boundary_map"
+    },
+    {
+      "path": "TAP_EVIDENCE_BASELINE_v1_0.json",
+      "size_bytes": 7821,
+      "sha256": "5691a22629b5e8787afb11b6c7cad43facae23f89c6661aecbb8e1f33ff466ac",
+      "mime_type": "application/json",
+      "role": "evidence_baseline"
+    },
+    {
+      "path": "TAP_V1_ANTI_ECHO_AUDIT.md",
+      "size_bytes": 1987,
+      "sha256": "ea3748305578179ac97bcef3346619c57285e676a4d9b8be9e91bf42cf3db825",
+      "mime_type": "application/octet-stream",
+      "role": "anti_echo_audit"
+    },
+    {
+      "path": "TAP_V1_PACKAGE_ARCHITECTURE.md",
+      "size_bytes": 2523,
+      "sha256": "1368f64c3475b89b045241938da91826fd1b5eb655d64a54aed22afe74a9d296",
+      "mime_type": "application/octet-stream",
+      "role": "package_architecture"
+    },
+    {
+      "path": "Temporal_AI_Presence_Profile_v1_0_RC.md",
+      "size_bytes": 42532,
+      "sha256": "82cb7b8f55c25059eb02cad27b932f197c2882da6205818b5d51c63ec7fea540",
+      "mime_type": "application/octet-stream",
+      "role": "canonical_normative_source"
+    },
+    {
+      "path": "Temporal_AI_Presence_Profile_v1_0_RC.pdf",
+      "size_bytes": 211647,
+      "sha256": "6e50a6c13c3230e92fc1626f9e7dafe3013b1b7064a762d586d20ad99fd2315c",
+      "mime_type": "application/pdf",
+      "role": "reader_pdf"
+    },
+    {
+      "path": "temporal_ai_presence_v1_0.json",
+      "size_bytes": 10365,
+      "sha256": "9878b98074076ef2a56b5f8d07e07c25128e97f186fab5ad848ed65dcdc43da6",
+      "mime_type": "application/json",
+      "role": "machine_normative_instance"
+    },
+    {
+      "path": "temporal_ai_presence_v1_0.schema.json",
+      "size_bytes": 8003,
+      "sha256": "84b0ec3db856d5752e3205a6f70098ecd32ef5542210c2866d5e903bf1ff0e52",
+      "mime_type": "application/json",
+      "role": "json_schema"
+    }
+  ]
+}

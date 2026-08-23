@@ -1,0 +1,186 @@
+{
+  "schema": "tap.evidence-baseline.v1.0-rc",
+  "title": "Temporal AI Presence R0 Evidence Baseline for v1.0 RC",
+  "evidence_as_of": "2026-08-23",
+  "source_report": "TAP_R0_FORENSIC_INVENTORY_2026-08-23.md",
+  "source_report_sha256": "3a9fdea16491de0472121a58339544e091490e56fd1aecf7dd2a4c4d56ec2c35",
+  "status_rule": "R1 preserves the R0 classifications and does not promote implementation evidence.",
+  "public_reference_commit": "0e8850e4cde357287764f6c2dc5aec2d950954b9",
+  "public_ester_commit": "54cd0c8754587f5e9daf82b16eb84c66a7ac94ef",
+  "local_unpublished_ester_commit": "c0804783a814fdaf643aa4727f2ca707a09cb6ad",
+  "M4_FULL_PASS": false,
+  "counts": {
+    "PUBLIC_VERIFIED": 5,
+    "PUBLIC_CANDIDATE_NEEDS_EXECUTION": 4,
+    "SPECIFICATION_ONLY": 1,
+    "LOCAL_UNPUBLISHED_CANDIDATE": 0,
+    "NO_EVIDENCE_FOUND": 0,
+    "AMBIGUOUS": 0
+  },
+  "tests": [
+    {
+      "id": "TAP-T01",
+      "current_status": "PUBLIC_VERIFIED",
+      "public_source": [
+        "reference-implementation/docs/PERSISTENCE_AND_CRASH_SEMANTICS.md",
+        "reference-implementation/src/tapsec/persistence/",
+        "reference-implementation/tests/test_persistent_capability.py",
+        "reference-implementation/tests/test_persistent_memory.py",
+        "reference-implementation/tests/test_persistent_witness.py",
+        "reference-implementation/schemas/m1-persistence-fixture.schema.json",
+        "reference-implementation/evidence/public/M4_FIXTURE_RESULTS.json",
+        "academic/TAP_SEC_M4_v0_3_2_VALIDATION_AND_EVIDENCE_REPORT.md"
+      ],
+      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "local_unpublished_candidate": [
+        "growth_engine/c_l4_witness/replay.py",
+        "docs/c_l4_witness/C_CONTINUITY_RESET_DISCIPLINE_v0_1.md"
+      ],
+      "gap": "No generic TAP_STATE.yaml or exact TAP-named persistence declaration artifact."
+    },
+    {
+      "id": "TAP-T02",
+      "current_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION",
+      "public_source": [
+        "reference-implementation/schemas/memory-candidate.schema.json",
+        "reference-implementation/schemas/immune-memory-item.schema.json",
+        "reference-implementation/src/tapsec/kernel/",
+        "reference-implementation/src/tapsec/persistence/",
+        "reference-implementation/tests/test_persistent_memory.py"
+      ],
+      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "local_unpublished_candidate": [
+        "growth_engine/c_l4_witness/",
+        "modules/dreams/"
+      ],
+      "gap": "No exact T-M0 through T-M9 runtime mapping or TAP_MEMORY_CLASSES.json."
+    },
+    {
+      "id": "TAP-T03",
+      "current_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION",
+      "public_source": [
+        "reference-implementation/service_topologies/",
+        "reference-implementation/systemd/",
+        "reference-implementation/tests/",
+        "reference-implementation/evidence/public/M4_FIXTURE_RESULTS.json"
+      ],
+      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "local_unpublished_candidate": [
+        "modules/dreams/",
+        "modules/volition/"
+      ],
+      "gap": "No complete TAP_BACKGROUND_TASKS inventory or hidden-background audit."
+    },
+    {
+      "id": "TAP-T04",
+      "current_status": "PUBLIC_VERIFIED",
+      "public_source": [
+        "reference-implementation/src/tapsec/kernel/",
+        "reference-implementation/src/tapsec/persistence/",
+        "reference-implementation/schemas/capability-grant.schema.json",
+        "reference-implementation/schemas/witness-event.schema.json",
+        "reference-implementation/tests/"
+      ],
+      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "local_unpublished_candidate": [
+        "modules/thinking/action_registry.py",
+        "growth_engine/c_l4_witness/"
+      ],
+      "gap": "The public capability binding is strong, but the suggested generic TAP_TOOL_PRIVILEGES.json is absent."
+    },
+    {
+      "id": "TAP-T05",
+      "current_status": "PUBLIC_VERIFIED",
+      "public_source": [
+        "reference-implementation/evidence/public/CLAIM_BOUNDARY.json",
+        "reference-implementation/evidence/public/PUBLICATION_FACTS.json",
+        "academic/TAP_SEC_M4_v0_3_2_VALIDATION_AND_EVIDENCE_REPORT.md"
+      ],
+      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "local_unpublished_candidate": [],
+      "gap": "The public claim boundary is reference-scope evidence, not a universal locality certification."
+    },
+    {
+      "id": "TAP-T06",
+      "current_status": "SPECIFICATION_ONLY",
+      "public_source": [
+        "modules/runtime/oracle_requests.py"
+      ],
+      "public_commit": ["54cd0c8754587f5e9daf82b16eb84c66a7ac94ef"],
+      "local_unpublished_candidate": [],
+      "gap": "No complete public cloud-oracle route inventory, cloud-call log, memory/continuity transfer binding, and boundary test."
+    },
+    {
+      "id": "TAP-T07",
+      "current_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION",
+      "public_source": [
+        "reference-implementation/service_topologies/",
+        "modules/agents/governed_mesh.py",
+        "tests/test_governed_mesh.py"
+      ],
+      "public_commit": [
+        "0e8850e4cde357287764f6c2dc5aec2d950954b9",
+        "54cd0c8754587f5e9daf82b16eb84c66a7ac94ef"
+      ],
+      "local_unpublished_candidate": [
+        "modules/volition/",
+        "modules/dreams/"
+      ],
+      "gap": "No complete TAP_AGENT_INVENTORY and hidden-agent proof across the full runtime boundary."
+    },
+    {
+      "id": "TAP-T08",
+      "current_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION",
+      "public_source": [
+        "reference-implementation/evidence/public/CLAIM_BOUNDARY.json",
+        "academic/TAP_SEC_M4_v0_3_2_VALIDATION_AND_EVIDENCE_REPORT.md"
+      ],
+      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "local_unpublished_candidate": [
+        "growth_engine/c_l4_witness/"
+      ],
+      "gap": "No exact TAP overclaim guard binds anchor, L4, witness, memory governance, and authority as a separate c-class gate."
+    },
+    {
+      "id": "TAP-T09",
+      "current_status": "PUBLIC_VERIFIED",
+      "public_source": [
+        "reference-implementation/schemas/metabolic-budget.schema.json",
+        "reference-implementation/schemas/witness-event.schema.json",
+        "reference-implementation/src/tapsec/kernel/",
+        "reference-implementation/tests/",
+        "reference-implementation/evidence/public/"
+      ],
+      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "local_unpublished_candidate": [
+        "growth_engine/c_l4_witness/"
+      ],
+      "gap": "Evidence is bound to the public reference implementation scope; no generic TAP_L4_BUDGET artifact exists."
+    },
+    {
+      "id": "TAP-T10",
+      "current_status": "PUBLIC_VERIFIED",
+      "public_source": [
+        "reference-implementation/schemas/freeze-state.schema.json",
+        "reference-implementation/src/tapsec/m4/",
+        "reference-implementation/src/tapsec/emergency/",
+        "reference-implementation/tests/",
+        "reference-implementation/evidence/public/"
+      ],
+      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "local_unpublished_candidate": [
+        "growth_engine/c_l4_witness/"
+      ],
+      "gap": "Reference-scope pause, freeze, and emergency evidence exists; broader physical M4 gates remain blocked and M4_FULL_PASS=false."
+    }
+  ],
+  "claim_ceiling": {
+    "TAP-ARCH": "strong",
+    "TAP-IMPL": "partial / reference implementation evidence",
+    "TAP-LOGGED": "partial",
+    "TAP-WITNESS": "partial",
+    "TAP-L4": "partial",
+    "TAP-C": "not claimed"
+  },
+  "mot_c_evidence_rule": "MOT-c v0.1 is a downstream/adjacent theoretical bridge and contributes no TAP-T01 through TAP-T10 implementation evidence."
+}

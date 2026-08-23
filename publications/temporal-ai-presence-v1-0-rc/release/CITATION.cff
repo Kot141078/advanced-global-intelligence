@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "This is pre-publication citation metadata for the Temporal AI Presence v1.0 release candidate; no standalone DOI is assigned."
+title: "Temporal AI Presence Profile v1.0 - Release Candidate"
+type: report
+version: "1.0-rc"
+date-released: "2026-08-23"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+abstract: >-
+  Temporal AI Presence is sustained bounded AI participation across time. This
+  canonical release candidate defines the temporal-presence category, preserves
+  the distinction between TAP and c-class systems, normalizes ten mandatory TAP
+  tests, records provenance and current evidence limits, and supplies a
+  machine-readable normative contract. It does not claim implementation
+  closure, TAP conformance, consciousness, personhood, sovereignty, or an
+  assigned standalone DOI.
+keywords:
+  - "Temporal AI Presence"
+  - "sustained AI participation"
+  - "persistent AI"
+  - "AI governance"
+  - "memory governance"
+  - "agentic AI"
+  - "c=a+b"
+  - "L4"
+  - "witness"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+url: "https://github.com/Kot141078/advanced-global-intelligence"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20532198"
+    description: "Parent publication: c Hardening Pack v0.1, containing the historical TAP v0.1 profile; not the TAP v1.0 DOI."
+  - type: doi
+    value: "10.5281/zenodo.22060517"
+    description: "Related later work: MOT-c v0.1; not the TAP v1.0 DOI."
+references:
+  - type: report
+    title: "c Hardening Pack v0.1"
+    doi: "10.5281/zenodo.20532198"
+  - type: report
+    title: "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory v0.1"
+    doi: "10.5281/zenodo.22060517"

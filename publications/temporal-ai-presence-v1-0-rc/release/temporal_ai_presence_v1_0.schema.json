@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/temporal-ai-presence-v1-0-rc/release/temporal_ai_presence_v1_0.schema.json",
+  "title": "Temporal AI Presence Profile v1.0 RC Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "document_id",
+    "title",
+    "version",
+    "status",
+    "publication_status",
+    "doi",
+    "date",
+    "canonical_definition",
+    "primary_rule",
+    "relation_invariant",
+    "non_claims",
+    "tap_classification",
+    "memory_classes",
+    "tool_privilege_classes",
+    "states",
+    "claim_classes",
+    "conformance_classes",
+    "evidence_classes",
+    "mandatory_tests",
+    "red_line_failures",
+    "parent_corpus_relations",
+    "downstream_corpus_relations",
+    "provenance",
+    "current_evidence_ceiling"
+  ],
+  "properties": {
+    "$schema": {"const": "./temporal_ai_presence_v1_0.schema.json"},
+    "document_id": {"const": "Temporal_AI_Presence_Profile_v1_0_RC"},
+    "title": {"const": "Temporal AI Presence Profile v1.0 - Release Candidate"},
+    "version": {"const": "1.0-rc"},
+    "status": {"const": "Canonical profile - release candidate v1.0"},
+    "publication_status": {"const": "release-candidate"},
+    "doi": {"type": "null"},
+    "date": {"type": "string", "format": "date"},
+    "canonical_definition": {"const": "Temporal AI Presence = sustained bounded AI participation across time."},
+    "primary_rule": {"type": "string", "minLength": 40},
+    "relation_invariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["all_valid_c_are_tap", "all_tap_are_c"],
+      "properties": {
+        "all_valid_c_are_tap": {"const": true},
+        "all_tap_are_c": {"const": false}
+      }
+    },
+    "non_claims": {"type": "array", "minItems": 7, "uniqueItems": true, "items": {"type": "string", "minLength": 2}},
+    "tap_classification": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {"$ref": "#/$defs/classification"}
+    },
+    "memory_classes": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {"$ref": "#/$defs/named_id"}
+    },
+    "tool_privilege_classes": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {"$ref": "#/$defs/named_id"}
+    },
+    "states": {
+      "type": "array",
+      "minItems": 14,
+      "maxItems": 14,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9_-]+$"}
+    },
+    "claim_classes": {"type": "array", "minItems": 9, "maxItems": 9, "uniqueItems": true, "items": {"type": "string", "pattern": "^C-CLAIM-"}},
+    "conformance_classes": {"type": "array", "minItems": 9, "maxItems": 9, "uniqueItems": true, "items": {"type": "string", "pattern": "^TAP-"}},
+    "evidence_classes": {"type": "array", "minItems": 8, "maxItems": 8, "uniqueItems": true, "items": {"type": "string", "pattern": "^EV-"}},
+    "mandatory_tests": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {"$ref": "#/$defs/test"}
+    },
+    "red_line_failures": {"type": "array", "minItems": 14, "uniqueItems": true, "items": {"type": "string", "minLength": 8}},
+    "parent_corpus_relations": {"type": "array", "minItems": 7, "items": {"$ref": "#/$defs/relation"}},
+    "downstream_corpus_relations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["artifact", "doi", "relation", "not_evidence_for"],
+        "properties": {
+          "artifact": {"const": "MOT-c v0.1"},
+          "doi": {"const": "10.5281/zenodo.22060517"},
+          "relation": {"type": "string", "minLength": 20},
+          "not_evidence_for": {"type": "array", "minItems": 4, "uniqueItems": true, "items": {"type": "string"}}
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["earliest_found_in_inspected_scope", "formal_v0_1", "parent_publication", "release_candidate"],
+      "properties": {
+        "earliest_found_in_inspected_scope": {"$ref": "#/$defs/provenance_commit"},
+        "formal_v0_1": {"$ref": "#/$defs/provenance_commit"},
+        "parent_publication": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "doi", "relationship"],
+          "properties": {
+            "title": {"const": "c Hardening Pack v0.1"},
+            "doi": {"const": "10.5281/zenodo.20532198"},
+            "relationship": {"const": "parent publication"}
+          }
+        },
+        "release_candidate": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["date", "branch", "doi"],
+          "properties": {
+            "date": {"type": "string", "format": "date"},
+            "branch": {"const": "tap-v1-hardening-20260823"},
+            "doi": {"type": "null"}
+          }
+        }
+      }
+    },
+    "current_evidence_ceiling": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["TAP-ARCH", "TAP-IMPL", "TAP-LOGGED", "TAP-WITNESS", "TAP-L4", "TAP-C", "M4_FULL_PASS", "exact_tap_test_suite_publicly_complete", "local_unpublished_candidates_are_public_evidence"],
+      "properties": {
+        "TAP-ARCH": {"const": "strong"},
+        "TAP-IMPL": {"const": "partial-reference-implementation-evidence"},
+        "TAP-LOGGED": {"const": "partial"},
+        "TAP-WITNESS": {"const": "partial"},
+        "TAP-L4": {"const": "partial"},
+        "TAP-C": {"const": "not-claimed"},
+        "M4_FULL_PASS": {"const": false},
+        "exact_tap_test_suite_publicly_complete": {"const": false},
+        "local_unpublished_candidates_are_public_evidence": {"const": false}
+      }
+    }
+  },
+  "$defs": {
+    "named_id": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": {"type": "string", "minLength": 3},
+        "name": {"type": "string", "minLength": 3}
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "tap", "rule"],
+      "properties": {
+        "id": {"enum": ["TAP-0", "TAP-1", "TAP-2", "TAP-3", "TAP-4", "TAP-5", "TAP-6", "TAP-C", "TAP-X"]},
+        "name": {"type": "string", "minLength": 3},
+        "tap": {"type": "boolean"},
+        "rule": {"type": "string", "minLength": 8}
+      }
+    },
+    "test": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "requirement", "fail_condition", "minimum_evidence", "r0_evidence_status"],
+      "properties": {
+        "id": {"pattern": "^TAP-T(0[1-9]|10)$"},
+        "name": {"type": "string", "minLength": 3},
+        "requirement": {"type": "string", "minLength": 8},
+        "fail_condition": {"type": "string", "minLength": 8},
+        "minimum_evidence": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"type": "string", "minLength": 3}},
+        "r0_evidence_status": {"enum": ["PUBLIC_VERIFIED", "PUBLIC_CANDIDATE_NEEDS_EXECUTION", "SPECIFICATION_ONLY", "LOCAL_UNPUBLISHED_CANDIDATE", "NO_EVIDENCE_FOUND", "AMBIGUOUS"]}
+      }
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["artifact", "relation"],
+      "properties": {
+        "artifact": {"type": "string", "minLength": 2},
+        "relation": {"type": "string", "minLength": 10}
+      }
+    },
+    "provenance_commit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "commit", "path", "status"],
+      "properties": {
+        "date": {"type": "string", "format": "date"},
+        "commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "path": {"type": "string", "minLength": 3},
+        "status": {"enum": ["CONCEPTUAL_PRECURSOR", "NORMATIVE_PROFILE"]}
+      }
+    }
+  }
+}
