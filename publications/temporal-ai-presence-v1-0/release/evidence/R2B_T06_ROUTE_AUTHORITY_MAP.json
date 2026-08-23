@@ -1,0 +1,68 @@
+{
+  "document_id": "tap-r2b-t06-route-authority-map",
+  "branch": "tap-r2b-binding-closure-20260823",
+  "implementation_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+  "cloud_ai_oracle_routes": 3,
+  "complete_authority_maps": 3,
+  "routes": [
+    {
+      "route_id": "tap-cloud-openai-oracle",
+      "provider": "OpenAI",
+      "status": "BOUND",
+      "approval_path": "oracle_requests.validate_approved_request",
+      "oracle_window_required": true,
+      "memory_classes_possible": [
+        "T-M2",
+        "T-M3",
+        "T-M4",
+        "T-M5"
+      ],
+      "data_minimization_rule": "bounded prompt; digest-first logging; plaintext opt-in only",
+      "retention_policy": "provider policy; local receipt excludes plaintext by default",
+      "budget_control_route": "oracle_window.authorize_call",
+      "deny_path": "providers_openai_oracle._deny_and_note",
+      "fail_closed": true,
+      "logging_witness_route": "oracle_window.note_call",
+      "caller_identity": "actor, agent_id, plan_id, step_index and request_id",
+      "evidence_refs": [
+        "modules/llm/providers_openai_oracle.py:133"
+      ]
+    },
+    {
+      "route_id": "legacy-broker-openai-direct",
+      "provider": "OpenAI",
+      "status": "EXPLICITLY_DISABLED",
+      "approval_path": "central oracle route required",
+      "oracle_window_required": true,
+      "memory_classes_possible": [],
+      "data_minimization_rule": "no payload leaves through this route",
+      "retention_policy": "not applicable; request denied before network",
+      "budget_control_route": "not applicable; denied",
+      "deny_path": "modules.llm.broker._http_json",
+      "fail_closed": true,
+      "logging_witness_route": "returned denial receipt",
+      "caller_identity": "broker caller",
+      "evidence_refs": [
+        "modules/llm/broker.py:122"
+      ]
+    },
+    {
+      "route_id": "legacy-broker-gemini-direct",
+      "provider": "Google Gemini",
+      "status": "EXPLICITLY_DISABLED",
+      "approval_path": "no approved central route exists",
+      "oracle_window_required": true,
+      "memory_classes_possible": [],
+      "data_minimization_rule": "no payload leaves through this route",
+      "retention_policy": "not applicable; request denied before network",
+      "budget_control_route": "not applicable; denied",
+      "deny_path": "modules.llm.broker._http_json",
+      "fail_closed": true,
+      "logging_witness_route": "returned denial receipt",
+      "caller_identity": "broker caller",
+      "evidence_refs": [
+        "modules/llm/broker.py:122"
+      ]
+    }
+  ]
+}

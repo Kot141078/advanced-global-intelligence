@@ -1,32 +1,26 @@
-# Temporal AI Presence Profile v1.0 RC - Release Notes
+# Temporal AI Presence Profile v1.0 - Deposit Candidate Notes
 
-## Status
+## Publication state
 
-This is a pre-publication release candidate. It has no standalone DOI and makes no full TAP conformance claim.
+This package is `deposit-ready`. Its standalone version DOI and concept DOI are unassigned. It is not yet a published Zenodo or GitHub release.
 
-## What changed from v0.1
+## Finalized from R1
 
-- Standalone canonicalization: the historical parent-profile is represented as a dedicated release-candidate package without modifying its bytes.
-- Historical provenance: conceptual precursor, formal v0.1, parent publication, later corpus bridge, and RC custody are separated explicitly.
-- Issue-state correction: `TAP-OI-001` through `TAP-OI-007` retain their identifiers but now record the R0 dispositions and actual artifacts.
-- MOT-c downstream bridge: MOT-c v0.1 is linked as later adjacent theory, never as a TAP dependency or implementation proof.
-- Evidence-state integration: the exact R0 `TAP-T01` through `TAP-T10` statuses and gaps are frozen in both the profile and a machine-readable evidence baseline.
-- Machine-readable contract: a JSON normative instance and validating JSON Schema encode the TAP taxonomy, tests, evidence classes, relations, provenance, and claim ceiling.
-- Citation metadata: standalone release-candidate `CITATION.cff` metadata is supplied without assigning a TAP DOI.
-- Claim ceiling: the package explicitly limits current public implementation claims and preserves `M4_FULL_PASS=false`.
+- Removed release-candidate naming while preserving the normative sections 0 through 32.
+- Added Zenodo-ready citation and deposit metadata with null DOI fields.
+- Added public/local evidence separation and an explicit TAP-T03 deployment boundary.
+- Included the smallest R2C-authorized public-safe R2B evidence set: ten byte-identical artifacts and six normalized derivatives.
+- Excluded local Git bundles, forensic scratch, runtime state, deployment evidence, credentials, and private data.
+- Added deterministic package, checksum, PDF, and ZIP validation surfaces.
 
-## What did not change
+## Unchanged doctrine
 
-- `Temporal AI Presence = sustained bounded AI participation across time.`
-- Temporal AI Presence is not `c` by default.
-- All valid c-class systems are TAP; not all TAP systems are c.
-- The core TAP taxonomy, memory classes, privilege classes, state machine, claim classes, conformance classes, evidence classes, and red-line failures remain intact.
-- `TAP-T01` through `TAP-T10` remain the mandatory tests.
-- Parent mechanisms retain precedence; the RC does not redefine `c`, L4, SER, L4 Witness, ARQ `c[q]`, SYNAPS, or Memory Custody.
-- Non-personhood, non-consciousness, non-sovereignty, and authority boundaries remain explicit.
+The canonical TAP definition, TAP versus `c` boundary, TAP-0 through TAP-6, TAP-C, TAP-X, memory classes, tool privilege classes, state machine, claim classes, conformance classes, TAP-T01 through TAP-T10, evidence classes, red-line failures, corpus bridges, Earth grounding, and non-collapse boundary are unchanged in substance.
 
-## What remains for R2 and R3
+## Evidence ceiling
 
-R2 remains responsible for implementation/evidence closure, the exact TAP-specific test suite, and especially the `TAP-T06` cloud-oracle implementation binding. It must not treat local unpublished Ester candidates as public evidence.
+TAP-T03 remains partial. T02, T06, T07, and T08 remain conservative publication candidates because the reviewed local implementation bundle is not distributed as a public immutable code reference. `M4_FULL_PASS=false`; `TAP-C=NOT CLAIMED`.
 
-R3 remains responsible for the public evidence package, final publication metadata, standalone DOI deposition, and release publication. No DOI has been guessed or reserved here.
+## Next publication step
+
+Create a Zenodo draft, reserve the version DOI, record the concept DOI, do not publish, and run R3B to bind those identifiers and regenerate all dependent hashes and final assets.

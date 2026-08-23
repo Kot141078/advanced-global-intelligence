@@ -1,0 +1,10 @@
+result=EXACT_EQUIVALENCE_PASS
+pytest_exit_code=0
+files_diff_rows=0
+directories_diff_rows=0
+HEAD=a668e0501dd9b975fa5e455da781611f9534e509
+HEAD=a668e0501dd9b975fa5e455da781611f9534e509
+-- file diff --
+
+-- dir diff --
+

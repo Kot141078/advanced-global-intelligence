@@ -1,0 +1,215 @@
+{
+  "document_id": "tap-evidence-derivative-map-v1.0",
+  "publication_status": "deposit-ready",
+  "included_byte_identical_count": 9,
+  "included_derivative_count": 7,
+  "reviewed_core_count": 32,
+  "approved_core_count": 25,
+  "excluded_raw_bundle_count": 1,
+  "artifacts": [
+    {
+      "public_artifact": "evidence/R2B_BRANCH_ANCESTRY.txt",
+      "public_sha256": "b1638e6a30727884818c536c025421386cdaa30be2b166f2c63ee554f89f12c2",
+      "source_artifact": "TAP_R2B_BRANCH_ANCESTRY.txt",
+      "source_sha256": "b1638e6a30727884818c536c025421386cdaa30be2b166f2c63ee554f89f12c2",
+      "transformation_class": "BYTE_IDENTICAL",
+      "fields_removed_or_normalized": [],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_APPROVED"
+    },
+    {
+      "public_artifact": "evidence/R2B_CORE_EVIDENCE_MANIFEST_POLICY.md",
+      "public_sha256": "8778cb748d6d48ed810c929696306fca3404f9368438cb4fcbcb838b8ee270cb",
+      "source_artifact": "TAP_R2B_CORE_EVIDENCE_MANIFEST_POLICY.md",
+      "source_sha256": "8778cb748d6d48ed810c929696306fca3404f9368438cb4fcbcb838b8ee270cb",
+      "transformation_class": "BYTE_IDENTICAL",
+      "fields_removed_or_normalized": [],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_APPROVED"
+    },
+    {
+      "public_artifact": "evidence/R2B_PRE_POST_EQUIVALENCE.txt",
+      "public_sha256": "28f40dc6a4d0ba819161e70e8d6fee69b99569c290acefae89cb6d3c9b3bd41d",
+      "source_artifact": "TAP_R2B_PRE_POST_EQUIVALENCE.txt",
+      "source_sha256": "28f40dc6a4d0ba819161e70e8d6fee69b99569c290acefae89cb6d3c9b3bd41d",
+      "transformation_class": "BYTE_IDENTICAL",
+      "fields_removed_or_normalized": [],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_APPROVED"
+    },
+    {
+      "public_artifact": "evidence/R2B_T03_BACKGROUND_SURFACE_INVENTORY.json",
+      "public_sha256": "761ebe655924a56e782bac63466f7f9625464d8e583c41b1e85b185690433b7c",
+      "source_artifact": "TAP_R2B_T03_BACKGROUND_SURFACE_INVENTORY.json",
+      "source_sha256": "761ebe655924a56e782bac63466f7f9625464d8e583c41b1e85b185690433b7c",
+      "transformation_class": "BYTE_IDENTICAL",
+      "fields_removed_or_normalized": [],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_APPROVED"
+    },
+    {
+      "public_artifact": "evidence/R2B_T06_CALL_SITE_INVENTORY.json",
+      "public_sha256": "240523d1936e44208379441d0fb679d213b60d4d27b2e86352776b52ebc6a963",
+      "source_artifact": "TAP_R2B_T06_CALL_SITE_INVENTORY.json",
+      "source_sha256": "240523d1936e44208379441d0fb679d213b60d4d27b2e86352776b52ebc6a963",
+      "transformation_class": "BYTE_IDENTICAL",
+      "fields_removed_or_normalized": [],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_APPROVED"
+    },
+    {
+      "public_artifact": "evidence/R2B_T06_DISCOVERY_DELTA.json",
+      "public_sha256": "a7dc8578b0e0d33f45219c716c4964f888d986c111eff44e1b5183fc56455616",
+      "source_artifact": "TAP_R2B_T06_DISCOVERY_DELTA.json",
+      "source_sha256": "a7dc8578b0e0d33f45219c716c4964f888d986c111eff44e1b5183fc56455616",
+      "transformation_class": "BYTE_IDENTICAL",
+      "fields_removed_or_normalized": [],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_APPROVED"
+    },
+    {
+      "public_artifact": "evidence/R2B_T06_ROUTE_AUTHORITY_MAP.json",
+      "public_sha256": "96c341fc6eb2767d1aac9a4b5cfee4fe87cb5d6c795be8eb953bd6aafe739b7f",
+      "source_artifact": "TAP_R2B_T06_ROUTE_AUTHORITY_MAP.json",
+      "source_sha256": "96c341fc6eb2767d1aac9a4b5cfee4fe87cb5d6c795be8eb953bd6aafe739b7f",
+      "transformation_class": "BYTE_IDENTICAL",
+      "fields_removed_or_normalized": [],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_APPROVED"
+    },
+    {
+      "public_artifact": "evidence/R2B_T07_AGENT_SURFACE_COVERAGE.json",
+      "public_sha256": "27de7a35b92360e1816dc48db6fbcfd87b43db3f7f5c71923ce0d684d7def70a",
+      "source_artifact": "TAP_R2B_T07_AGENT_SURFACE_COVERAGE.json",
+      "source_sha256": "27de7a35b92360e1816dc48db6fbcfd87b43db3f7f5c71923ce0d684d7def70a",
+      "transformation_class": "BYTE_IDENTICAL",
+      "fields_removed_or_normalized": [],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_APPROVED"
+    },
+    {
+      "public_artifact": "evidence/R2B_VALIDATION_RESULTS.txt",
+      "public_sha256": "5eddd642dba48afb4b7eca3cf1a3493e1bbc02118434491b931b6481a4cc9829",
+      "source_artifact": "TAP_R2B_VALIDATION_RESULTS.txt",
+      "source_sha256": "5eddd642dba48afb4b7eca3cf1a3493e1bbc02118434491b931b6481a4cc9829",
+      "transformation_class": "BYTE_IDENTICAL",
+      "fields_removed_or_normalized": [],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_APPROVED"
+    },
+    {
+      "public_artifact": "evidence/R2B_BINDING_CLOSURE_REPORT_NORMALIZED.md",
+      "public_sha256": "ef8beb2939f0835735da33a92f92c6684f0e2d0ec5f7e6cf6977f63923ae84fc",
+      "source_artifact": "TAP_R2B_BINDING_CLOSURE_REPORT_2026-08-23.md",
+      "source_sha256": "4c3e9d464e223c342c8ceae2da44c7f7c94184451366fae665e50242931ebb11",
+      "transformation_class": "NORMALIZED_PUBLIC_SAFE_DERIVATIVE",
+      "fields_removed_or_normalized": [
+        "local absolute paths",
+        "local evidence roots",
+        "local worktree paths"
+      ],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_DERIVATIVE_REQUIRED"
+    },
+    {
+      "public_artifact": "evidence/R2B_BUNDLE_VERIFY_NORMALIZED.txt",
+      "public_sha256": "4df79bc8b17d9fdc1285ef2c9263037721e41f9d4466eae8f2c189042d6e490a",
+      "source_artifact": "bundle/bundle_verify.txt",
+      "source_sha256": "9d38c719dca41b3e6d08ada6e8e5c616bf889016f41e012705528772949b9743",
+      "transformation_class": "NORMALIZED_PUBLIC_SAFE_DERIVATIVE",
+      "fields_removed_or_normalized": [
+        "local absolute paths",
+        "local evidence roots",
+        "local worktree paths"
+      ],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_DERIVATIVE_REQUIRED"
+    },
+    {
+      "public_artifact": "evidence/R2B_R1_BASELINE_CUSTODY_NORMALIZED.txt",
+      "public_sha256": "b66362b0a162b5f65fbba136258aeb7ecbdf22aaddfccf7b57d2d14b903d75d2",
+      "source_artifact": "TAP_R2B_R1_BASELINE_CUSTODY.txt",
+      "source_sha256": "da206fc8a015af0c12fb14aa863c487d30b1f19ca0062d1261759e3333336651",
+      "transformation_class": "NORMALIZED_PUBLIC_SAFE_DERIVATIVE",
+      "fields_removed_or_normalized": [
+        "local absolute paths",
+        "local evidence roots",
+        "local worktree paths"
+      ],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_DERIVATIVE_REQUIRED"
+    },
+    {
+      "public_artifact": "evidence/R2B_R2A_BASELINE_CUSTODY_NORMALIZED.txt",
+      "public_sha256": "93af4d57bad4ffe97c4d5d37d08da2773fd067a2598e0ab82e447db143d38e64",
+      "source_artifact": "TAP_R2B_R2A_BASELINE_CUSTODY.txt",
+      "source_sha256": "1d795fa66b01a610aed347c7eb257ce3e58e743f7723fef024f4197cca05cfe6",
+      "transformation_class": "NORMALIZED_PUBLIC_SAFE_DERIVATIVE",
+      "fields_removed_or_normalized": [
+        "local absolute paths",
+        "local evidence roots",
+        "local worktree paths"
+      ],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_DERIVATIVE_REQUIRED"
+    },
+    {
+      "public_artifact": "evidence/R2B_C_L4_SMOKE_NORMALIZED.txt",
+      "public_sha256": "2d589e27ea4e578f80afb9b600d3738abce3dfe2a3eff69383c70d1f39be6dec",
+      "source_artifact": "test_receipts/c_l4_smoke_final.txt",
+      "source_sha256": "09154a9b4b50b265de275632a28e6056ad91d9558854c0792f69043362dc68de",
+      "transformation_class": "NORMALIZED_PUBLIC_SAFE_DERIVATIVE",
+      "fields_removed_or_normalized": [
+        "local absolute paths",
+        "local evidence roots",
+        "local worktree paths"
+      ],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_DERIVATIVE_REQUIRED"
+    },
+    {
+      "public_artifact": "evidence/R2B_GATE3_TEST_OUTPUT_NORMALIZED.txt",
+      "public_sha256": "208cd8fe6b46a190154c72499ffb3d8f06b9c8c9dec060ce908a6f0c8c6cbf21",
+      "source_artifact": "test_receipts/gate3_r2b.txt",
+      "source_sha256": "fa43978ddb329a2a86c1507f65c09c338f256979b06e05d8db2ce17f02789d51",
+      "transformation_class": "NORMALIZED_PUBLIC_SAFE_DERIVATIVE",
+      "fields_removed_or_normalized": [
+        "local absolute paths",
+        "local evidence roots",
+        "local worktree paths"
+      ],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_DERIVATIVE_REQUIRED"
+    },
+    {
+      "public_artifact": "evidence/R2B_GATE4_COMBINED_OUTPUT_NORMALIZED.txt",
+      "public_sha256": "c45615a04a31e420638c8029fefe94d8a6802718200a32faceda40554e5b3e55",
+      "source_artifact": "test_receipts/gate4_combined.txt",
+      "source_sha256": "45fcffee8caee6f113600516ee9303588a01ccff9126bb20056dd797b8bda983",
+      "transformation_class": "NORMALIZED_PUBLIC_SAFE_DERIVATIVE",
+      "fields_removed_or_normalized": [
+        "local absolute paths",
+        "local evidence roots",
+        "local worktree paths"
+      ],
+      "substantive_content_preserved": true,
+      "claim_effect": "No claim promotion.",
+      "review_status": "R2C_DERIVATIVE_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+result=PASS
+branch_tip=8fd36a38e97f240a934ea095551f8a2323c1547b
+bundle_sha256=2fec5171ba951f63c73a6dba5b18f68267c164ce9aa176c8802c2af29699fdf5
+bundle_verify_rc=0
+The bundle contains this ref:
+<LOCAL_R2A_EVIDENCE_ROOT>/bundle/ester-clean-code-r2a-tap-conformance.bundle is okay
+8fd36a38e97f240a934ea095551f8a2323c1547b refs/heads/tap-r2a-exact-conformance-suite-20260823
+The bundle records a complete history.
+The bundle uses this hash algorithm: sha1

@@ -1,0 +1,19 @@
+TAP R2B branch ancestry evidence
+date=2026-08-23
+origin_main=54cd0c8754587f5e9daf82b16eb84c66a7ac94ef
+merge_base=54cd0c8754587f5e9daf82b16eb84c66a7ac94ef
+r2a_head=8fd36a38e97f240a934ea095551f8a2323c1547b
+origin_main_ahead=0
+r2a_head_ahead=6
+
+0b978d423a00a5620340945c37ffc964d4a86dd8|INHERITED_BASELINE|parent=d1dbd54ba63154698074c13f9742d84c6e327bc8|wip(preserve): capture pre-reconciliation Ester local work
+c0804783a814fdaf643aa4727f2ca707a09cb6ad|INHERITED_BASELINE|parents=0b978d423a00a5620340945c37ffc964d4a86dd8,54cd0c8754587f5e9daf82b16eb84c66a7ac94ef|merge: reconcile origin/main with preserved Ester work
+4ff7cbabe555e0b90f3b1cd6860b2c1354e3e87c|R2A|parent=c0804783a814fdaf643aa4727f2ca707a09cb6ad|feat(tap): add exact T01-T10 declarations and validators
+90f027139761a558bc0053fd7c7904c129a3f933|R2A|parent=4ff7cbabe555e0b90f3b1cd6860b2c1354e3e87c|test(tap): add exact conformance and negative fixture suite
+8ad25ecb713760b8f56c995748dda3077aab0abc|R2A|parent=90f027139761a558bc0053fd7c7904c129a3f933|docs(tap): bind Ester runtime and preserve evidence ceiling
+8fd36a38e97f240a934ea095551f8a2323c1547b|R2A|parent=8ad25ecb713760b8f56c995748dda3077aab0abc|fix(tap): track witness event declaration
+
+INHERITED_BASELINE_COMMITS=2
+R2A_COMMITS=4
+UNKNOWN_COMMITS=0
+RESULT=PASS

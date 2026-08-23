@@ -1,0 +1,27 @@
+{
+  "document_id": "tap-r2b-t06-discovery-delta",
+  "old_discovered": 179,
+  "new_discovered": 177,
+  "added_count": 0,
+  "removed_count": 2,
+  "added": [],
+  "removed": [
+    {
+      "id": "cloud:modules/ester/net_will_adapter.py:46:client.get",
+      "path": "modules/ester/net_will_adapter.py",
+      "symbol": "get_autonomy",
+      "old_classification": "UNRESOLVED",
+      "new_classification": "REMOVED_FALSE_POSITIVE",
+      "reason": "lexical client.get match is Flask test_client.get or dict.get, not a network primitive"
+    },
+    {
+      "id": "cloud:modules/garage/invoice.py:33:client.get",
+      "path": "modules/garage/invoice.py",
+      "symbol": "_md_invoice",
+      "old_classification": "UNRESOLVED",
+      "new_classification": "REMOVED_FALSE_POSITIVE",
+      "reason": "lexical client.get match is Flask test_client.get or dict.get, not a network primitive"
+    }
+  ],
+  "denominator_change_explained": true
+}

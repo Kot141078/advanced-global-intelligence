@@ -1,6 +1,6 @@
 {
   "schema": "tap.evidence-baseline.v1.0-rc",
-  "title": "Temporal AI Presence R0 Evidence Baseline for v1.0 RC",
+  "title": "Temporal AI Presence Profile v1.0 Evidence Baseline",
   "evidence_as_of": "2026-08-23",
   "source_report": "TAP_R0_FORENSIC_INVENTORY_2026-08-23.md",
   "source_report_sha256": "3a9fdea16491de0472121a58339544e091490e56fd1aecf7dd2a4c4d56ec2c35",
@@ -31,7 +31,9 @@
         "reference-implementation/evidence/public/M4_FIXTURE_RESULTS.json",
         "academic/TAP_SEC_M4_v0_3_2_VALIDATION_AND_EVIDENCE_REPORT.md"
       ],
-      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "public_commit": [
+        "0e8850e4cde357287764f6c2dc5aec2d950954b9"
+      ],
       "local_unpublished_candidate": [
         "growth_engine/c_l4_witness/replay.py",
         "docs/c_l4_witness/C_CONTINUITY_RESET_DISCIPLINE_v0_1.md"
@@ -48,7 +50,9 @@
         "reference-implementation/src/tapsec/persistence/",
         "reference-implementation/tests/test_persistent_memory.py"
       ],
-      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "public_commit": [
+        "0e8850e4cde357287764f6c2dc5aec2d950954b9"
+      ],
       "local_unpublished_candidate": [
         "growth_engine/c_l4_witness/",
         "modules/dreams/"
@@ -64,7 +68,9 @@
         "reference-implementation/tests/",
         "reference-implementation/evidence/public/M4_FIXTURE_RESULTS.json"
       ],
-      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "public_commit": [
+        "0e8850e4cde357287764f6c2dc5aec2d950954b9"
+      ],
       "local_unpublished_candidate": [
         "modules/dreams/",
         "modules/volition/"
@@ -81,7 +87,9 @@
         "reference-implementation/schemas/witness-event.schema.json",
         "reference-implementation/tests/"
       ],
-      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "public_commit": [
+        "0e8850e4cde357287764f6c2dc5aec2d950954b9"
+      ],
       "local_unpublished_candidate": [
         "modules/thinking/action_registry.py",
         "growth_engine/c_l4_witness/"
@@ -96,7 +104,9 @@
         "reference-implementation/evidence/public/PUBLICATION_FACTS.json",
         "academic/TAP_SEC_M4_v0_3_2_VALIDATION_AND_EVIDENCE_REPORT.md"
       ],
-      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "public_commit": [
+        "0e8850e4cde357287764f6c2dc5aec2d950954b9"
+      ],
       "local_unpublished_candidate": [],
       "gap": "The public claim boundary is reference-scope evidence, not a universal locality certification."
     },
@@ -106,7 +116,9 @@
       "public_source": [
         "modules/runtime/oracle_requests.py"
       ],
-      "public_commit": ["54cd0c8754587f5e9daf82b16eb84c66a7ac94ef"],
+      "public_commit": [
+        "54cd0c8754587f5e9daf82b16eb84c66a7ac94ef"
+      ],
       "local_unpublished_candidate": [],
       "gap": "No complete public cloud-oracle route inventory, cloud-call log, memory/continuity transfer binding, and boundary test."
     },
@@ -135,7 +147,9 @@
         "reference-implementation/evidence/public/CLAIM_BOUNDARY.json",
         "academic/TAP_SEC_M4_v0_3_2_VALIDATION_AND_EVIDENCE_REPORT.md"
       ],
-      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "public_commit": [
+        "0e8850e4cde357287764f6c2dc5aec2d950954b9"
+      ],
       "local_unpublished_candidate": [
         "growth_engine/c_l4_witness/"
       ],
@@ -151,7 +165,9 @@
         "reference-implementation/tests/",
         "reference-implementation/evidence/public/"
       ],
-      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "public_commit": [
+        "0e8850e4cde357287764f6c2dc5aec2d950954b9"
+      ],
       "local_unpublished_candidate": [
         "growth_engine/c_l4_witness/"
       ],
@@ -167,7 +183,9 @@
         "reference-implementation/tests/",
         "reference-implementation/evidence/public/"
       ],
-      "public_commit": ["0e8850e4cde357287764f6c2dc5aec2d950954b9"],
+      "public_commit": [
+        "0e8850e4cde357287764f6c2dc5aec2d950954b9"
+      ],
       "local_unpublished_candidate": [
         "growth_engine/c_l4_witness/"
       ],
@@ -182,5 +200,27 @@
     "TAP-L4": "partial",
     "TAP-C": "not claimed"
   },
-  "mot_c_evidence_rule": "MOT-c v0.1 is a downstream/adjacent theoretical bridge and contributes no TAP-T01 through TAP-T10 implementation evidence."
+  "mot_c_evidence_rule": "MOT-c v0.1 is a downstream/adjacent theoretical bridge and contributes no TAP-T01 through TAP-T10 implementation evidence.",
+  "publication_status": "deposit-ready",
+  "doi": null,
+  "concept_doi": null,
+  "r2b_local_status": {
+    "TAP-T01": "LOCAL_VERIFIED_CANDIDATE",
+    "TAP-T02": "LOCAL_VERIFIED_CANDIDATE",
+    "TAP-T03": "LOCAL_PARTIAL_CANDIDATE",
+    "TAP-T04": "LOCAL_VERIFIED_CANDIDATE",
+    "TAP-T05": "LOCAL_VERIFIED_CANDIDATE",
+    "TAP-T06": "LOCAL_VERIFIED_CANDIDATE",
+    "TAP-T07": "LOCAL_VERIFIED_CANDIDATE",
+    "TAP-T08": "LOCAL_VERIFIED_CANDIDATE",
+    "TAP-T09": "LOCAL_VERIFIED_CANDIDATE",
+    "TAP-T10": "LOCAL_VERIFIED_CANDIDATE"
+  },
+  "r3a_boundary": {
+    "public_status_promoted": false,
+    "TAP-T03": "PUBLIC_CANDIDATE_PARTIAL_DEPLOYMENT_BOUNDARY",
+    "public_immutable_code_reference_complete": false,
+    "M4_FULL_PASS": false,
+    "TAP-C": "NOT CLAIMED"
+  }
 }

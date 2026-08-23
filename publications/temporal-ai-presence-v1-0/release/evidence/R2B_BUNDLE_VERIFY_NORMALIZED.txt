@@ -1,0 +1,5 @@
+The bundle contains this ref:
+a668e0501dd9b975fa5e455da781611f9534e509 refs/heads/tap-r2b-binding-closure-20260823
+The bundle records a complete history.
+The bundle uses this hash algorithm: sha1
+<LOCAL_R2B_EVIDENCE_ROOT>/bundle/ester-clean-code-r2b-binding-closure.bundle is okay

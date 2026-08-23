@@ -1,0 +1,49 @@
+{
+  "document_id": "tap-validation-summary-v1.0",
+  "publication_status": "deposit-ready",
+  "public_historical_evidence": "Public parent-profile and TAP-SEC references only where exactly mapped.",
+  "R2A": {
+    "regression": {
+      "passed": 104,
+      "failed": 0
+    },
+    "tap_suite": {
+      "passed": 70,
+      "failed": 0
+    },
+    "combined": {
+      "passed": 174,
+      "failed": 0
+    },
+    "evidence_scope": "local-unpublished-candidate"
+  },
+  "R2B": {
+    "regression": {
+      "passed": 104,
+      "failed": 0
+    },
+    "tap_r2a": {
+      "passed": 70,
+      "failed": 0
+    },
+    "r2b": {
+      "passed": 25,
+      "skipped": 1,
+      "failed": 0
+    },
+    "combined": {
+      "collected": 200,
+      "passed": 199,
+      "skipped": 1,
+      "failed": 0
+    },
+    "skip_reason": "Optional Windows symlink/junction fixture unavailable on that host.",
+    "repository_equivalence": "PASS",
+    "evidence_scope": "local-unpublished-candidate"
+  },
+  "deployment_evidence_completed": false,
+  "TAP-T03": "partial",
+  "independent_external_replication_completed": false,
+  "TAP-C": "NOT CLAIMED",
+  "M4_FULL_PASS": false
+}

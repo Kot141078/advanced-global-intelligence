@@ -1,15 +1,17 @@
-# Temporal AI Presence Profile v1.0 - Release Candidate
+# Temporal AI Presence Profile v1.0
 
 ## Sustained AI participation across time, local cognitive infrastructure, agentic hives, and the boundary between presence and `c`
 
-**Status:** Canonical profile - release candidate v1.0
-**Version:** v1.0 RC
+**Status:** Standalone DOI deposit candidate
+**Version:** v1.0
 **Date:** 2026-08-23
+**Publication status:** Standalone DOI deposit candidate
+**DOI:** not assigned
 **Layer:** `c = a + b` / Temporal AI Presence / Local Cognitive Infrastructure / Agentic AI / Memory Governance / L4 / Claim Strength / L4 Witness
-**Document ID:** `Temporal_AI_Presence_Profile_v1_0_RC`
-**Short name:** `TAP-1.0-RC`
+**Document ID:** `Temporal_AI_Presence_Profile_v1_0`
+**Short name:** `TAP-1.0`
 **Document class:** standalone canonical profile / public-term discipline / temporal-system boundary
-**Assertion class:** `C-A4` normative release candidate; `C-A10` control-layer artifact where integration, claim-separation, and conformance obligations are stated; no upgrade to model capability, legal status, personhood, sovereignty, or implementation-conformance claims
+**Assertion class:** `C-A4` normative standalone deposit candidate; `C-A10` control-layer artifact where integration, claim-separation, and conformance obligations are stated; no upgrade to model capability, legal status, personhood, sovereignty, or implementation-conformance claims
 **Primary subject:** AI systems whose primary operational unit is sustained bounded participation over time rather than one prompt, one session, one task, or one output
 **Primary rule:** **Temporal AI Presence is not `c` by default. `c` is the stricter anchored, governed, L4-bound form of Temporal AI Presence.**
 
@@ -288,14 +290,14 @@ and why that does not automatically make it c.
 
 ### 4.3 Historical provenance and version lineage
 
-This release candidate distinguishes three different custody layers:
+This standalone deposit candidate distinguishes three different custody layers:
 
 | Layer | Date | Commit / identifier | Artifact | Status |
 |---|---|---|---|---|
 | Conceptual precursor | 2026-04-07 | `e13464c951f2e1dfd373c30d71e3b13e6456c51f` | `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md` | `EARLIEST_FOUND_IN_INSPECTED_SCOPE` conceptual precursor; not the formal TAP profile. |
 | Formal profile introduction | 2026-06-03 | `973b21d069712a4131abf5dde5ab95c5946859d3` | `hardening/c_hardening_pack_v0_1/md/Temporal_AI_Presence_Profile_v0_1.md` | Historical TAP v0.1 normative profile. |
 | Parent publication | 2026 | DOI `10.5281/zenodo.20532198` | `c Hardening Pack v0.1` | Parent publication containing TAP v0.1; this DOI is not a standalone TAP v1.0 DOI. |
-| Standalone canonicalization | 2026-08-23 | This release-candidate branch and package | `Temporal_AI_Presence_Profile_v1_0_RC.md` | Standalone v1.0 release candidate; not yet DOI-published. |
+| Standalone canonicalization | 2026-08-23 | R1 hardening and R3A deposit-package branch | `Temporal_AI_Presence_Profile_v1_0.md` | Standalone v1.0 DOI deposit candidate; DOI not assigned and not yet published. |
 
 The historical v0.1 Markdown and PDF remain immutable ancestors. This document does not replace their provenance or retroactively alter their status.
 
@@ -1090,7 +1092,7 @@ A system MUST NOT claim `TAP-C` merely by satisfying TAP-ARCH or TAP-IMPL.
 
 ### 20.1 Current implementation claim ceiling
 
-The evidence baseline for this release candidate is descriptive and non-promotional:
+The evidence baseline for this standalone deposit candidate is descriptive and non-promotional:
 
 | Class | Current ceiling |
 |---|---|

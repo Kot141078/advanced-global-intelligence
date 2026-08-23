@@ -1,0 +1,96 @@
+.......s..................                                               [100%]
+============================== warnings summary ===============================
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\app_plugins\lan_hub_autoconfig.py:24: DeprecationWarning: invalid escape sequence '\/'
+    subdir = os.getenv("ESTER_LANHUB_DIR", "ester-data").strip("\/ ")
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\ingest_all.py:4: DeprecationWarning: invalid escape sequence '\.'
+    """ingest_all.py - �proglotit vse� iz papki proekta i polozhit v vstore.
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\journal.py:2: DeprecationWarning: invalid escape sequence '\j'
+    """journal.py (root wrapper)
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\output_filters.py:2: DeprecationWarning: invalid escape sequence '\o'
+    """output_filters - filtry vyvoda na baze TRS-metrik (best-effort).
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\routes\lan_hub_routes.py:16: DeprecationWarning: invalid escape sequence '\/'
+    return os.getenv("ESTER_LANHUB_DIR", "ester-data").strip("\/ ")
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\scripts\ester_passport_smoke.py:1: DeprecationWarning: invalid escape sequence '\e'
+    """scripts/ester_passport_smoke.py
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\scripts\memory_reembed.py:2: DeprecationWarning: invalid escape sequence '\o'
+    """memory_reembed.py - bezopasnyy pere-embedding lokalnoy pamyati Ester.
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\tests\manual\send_morning_now.py:15: DeprecationWarning: invalid escape sequence '\m'
+    """Boevoy vystrel utrennego daydzhesta �pryamo seychas�.
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\tests\manual\test_morning_digest_dry.py:13: DeprecationWarning: invalid escape sequence '\m'
+    """
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\tools\fix_passport_encoding.py:3: DeprecationWarning: invalid escape sequence '\p'
+    """
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\tools\integrate_web_browser.py:2: DeprecationWarning: invalid escape sequence '\w'
+    """patches/integrate_web_browser.py - patch dlya integratsii polnotsennogo web-brauzera v Ester.
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\tools\patches\iter_B2c_web_google_bridge.py:2: DeprecationWarning: invalid escape sequence '\p'
+    """tools/patches/iter_B2c_web_google_bridge.py
+
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_discovers_and_classifies_every_background_surface
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_deployment_external_is_explicit_not_verified
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_unresolved_surface_fails_closed
+tests/test_tap_r2b_t03_background_discovery.py::test_r2b_t03_invalid_classification_fails_deterministically
+  <LOCAL_R2B_WORKTREE>\tools\smoke_inline.py:2: DeprecationWarning: invalid escape sequence '\s'
+    """Universalnyy smoke-test (Windows/PowerShell sovmestimyy).
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+25 passed, 1 skipped, 52 warnings in 42.12s
+duration_seconds=52.43

@@ -1,67 +1,41 @@
-# Temporal AI Presence v1.0 RC Provenance
+# Temporal AI Presence Profile v1.0 - Provenance
 
-## Scope rule
+This chronology records evidence found in the inspected corpus. It does not claim first use outside that scope.
 
-This record reports provenance found within the inspected repository scope. It does not assert a universal first use.
+## 2026-04-07 - conceptual precursor
 
-## A. Conceptual precursor
+`EARLIEST_FOUND_IN_INSPECTED_SCOPE`: commit `e13464c951f2e1dfd373c30d71e3b13e6456c51f`, `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`.
 
-```text
-status: EARLIEST_FOUND_IN_INSPECTED_SCOPE
-date: 2026-04-07
-commit: e13464c951f2e1dfd373c30d71e3b13e6456c51f
-path: official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md
-disclosure: conceptual precursor
-```
+## 2026-06-03 - formal TAP v0.1 introduction
 
-The artifact discusses AI presence as a temporal entity. It is not the formal TAP profile.
+Commit `973b21d069712a4131abf5dde5ab95c5946859d3` introduced `Temporal_AI_Presence_Profile_v0_1.md`. Its historical Markdown and PDF remain byte-preserved.
 
-## B. Formal v0.1
+## 2026 - parent integrated publication
 
-```text
-date: 2026-06-03
-commit: 973b21d069712a4131abf5dde5ab95c5946859d3
-path: hardening/c_hardening_pack_v0_1/md/Temporal_AI_Presence_Profile_v0_1.md
-disclosure: formal definition and normative profile
-```
+The c Hardening Pack v0.1, DOI `10.5281/zenodo.20532198`, contains TAP v0.1 as a parent/integrated publication. It is not the standalone TAP v1.0 DOI.
 
-This is the immutable historical TAP v0.1 ancestor.
+## 2026-07-30 - public TAP-SEC reference
 
-## C. Parent DOI publication
+TAP-SEC M4 v0.3.2: commit `0e8850e4cde357287764f6c2dc5aec2d950954b9`, tag `m4-v0.3.2`, version DOI `10.5281/zenodo.21688521`, concept DOI `10.5281/zenodo.21688520`. This is a partial public implementation reference; `M4_FULL_PASS=false`.
 
-```text
-title: c Hardening Pack v0.1
-doi: 10.5281/zenodo.20532198
-relationship: parent publication containing TAP v0.1
-```
+## 2026-08-22 - adjacent MOT-c bridge
 
-The parent DOI must not be represented as a standalone TAP v1.0 DOI.
+MOT-c v0.1: version DOI `10.5281/zenodo.22060517`, concept DOI `10.5281/zenodo.22060516`. MOT-c concerns historically formed motivation inside a continuing c-line; it is context, not TAP conformance evidence.
 
-## D. Subsequent corpus bridges
+## 2026-08-23 - R1 standalone hardening candidate
 
-MOT-c v0.1 was fixed at commit `35fa9007f61836aed686c0f62404e1ae47301939` on 2026-08-22 and published under DOI `10.5281/zenodo.22060517`.
+Commit `e6e59643727fa9ce9c80d550a44297165d6ee938` fixed the standalone v1.0 normative and machine-readable candidate.
 
-Its relation is downstream/adjacent:
+## 2026-08-23 - R2A exact conformance candidate
 
-```text
-TAP = sustained bounded participation across time.
-MOT-c = historically formed motivation inside a continuing c-class line.
-```
+R2A implemented and executed a local exact T01-T10 candidate. It remained local evidence and made no TAP-C claim.
 
-MOT-c neither supplies TAP existence proof nor replaces TAP's definition.
+## 2026-08-23 - R2B binding closure
 
-## E. Standalone v1.0 release candidate
+Commit `a668e0501dd9b975fa5e455da781611f9534e509` closed repository-owned T03/T06/T07 discovery gaps under the R2B model. TAP-T03 remained partial because deployment-external evidence was not established.
 
-```text
-date: 2026-08-23
-version: 1.0-rc
-publication_status: release-candidate
-doi: null
-repository branch: tap-v1-hardening-20260823
-```
+## 2026-08-23 - R3A deposit package freeze
 
-The final commit SHA is established by the local R1 commit and external R1 report. The source package canonicalizes TAP without changing the historical v0.1 bytes or promoting implementation claims.
+R3A freezes this standalone, public-safe, deposit-ready package. The standalone version DOI and concept DOI remain `UNASSIGNED`. R3B will bind Zenodo-reserved values before any publication or final release tag.
 
-## F. Future DOI publication
-
-No standalone TAP DOI is assigned in R1. DOI deposition, publication metadata finalization, release creation, and public publication belong to a later owner-authorized publication iteration.
+Domain registration is namespace provenance only and is not technical prior art.

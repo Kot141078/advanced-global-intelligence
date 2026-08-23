@@ -1,0 +1,402 @@
+{
+  "document_id": "tap-r2b-t07-agent-surface-coverage",
+  "branch": "tap-r2b-binding-closure-20260823",
+  "implementation_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+  "discovery_model": "R2A agent/executor AST denominator with R2B lifecycle and activation review",
+  "inventory_id": "c2c0165c480430665dff106f2a18b616e26be9f59e78244f210b1245976c41d5",
+  "discovered": 14,
+  "classification_counts": {
+    "DISABLED_BY_DEFAULT": 4,
+    "INVENTORIED": 8,
+    "LEGACY_INACTIVE": 1,
+    "OUT_OF_SCOPE_WITH_REASON": 1
+  },
+  "inventoried": 8,
+  "hidden": 0,
+  "unresolved": 0,
+  "out_of_scope_with_reason": 1,
+  "surfaces": [
+    {
+      "id": "agent:modules/agents/desktop_agent.py:16:DesktopAgent",
+      "source_path": "modules/agents/desktop_agent.py",
+      "symbol": "DesktopAgent",
+      "role": "static candidate or data surface",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/agents/desktop_agent.py:DesktopAgent",
+      "activation_trigger": "explicit construction only",
+      "default_activation_state": "INACTIVE",
+      "lifecycle": "not active by default",
+      "memory_access": [],
+      "tool_access": [],
+      "network_or_cloud_access": "NONE_ESTABLISHED",
+      "authority_source": "none until explicit construction",
+      "stop_route": "not active",
+      "pause_route": "not active",
+      "revoke_route": "not active",
+      "inventory_visibility": "R2B static surface inventory",
+      "logging_or_witness_route": "not applicable while inactive",
+      "classification": "DISABLED_BY_DEFAULT",
+      "classification_reason": "explicit DesktopAgent construction; no module-level instance or startup hook",
+      "evidence_refs": [
+        "modules/agents/desktop_agent.py:16"
+      ]
+    },
+    {
+      "id": "agent:modules/agents/game_mate_agent.py:28:GameMateAgent",
+      "source_path": "modules/agents/game_mate_agent.py",
+      "symbol": "GameMateAgent",
+      "role": "static candidate or data surface",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/agents/game_mate_agent.py:GameMateAgent",
+      "activation_trigger": "explicit construction only",
+      "default_activation_state": "INACTIVE",
+      "lifecycle": "not active by default",
+      "memory_access": [],
+      "tool_access": [],
+      "network_or_cloud_access": "NONE_ESTABLISHED",
+      "authority_source": "none until explicit construction",
+      "stop_route": "not active",
+      "pause_route": "not active",
+      "revoke_route": "not active",
+      "inventory_visibility": "R2B static surface inventory",
+      "logging_or_witness_route": "not applicable while inactive",
+      "classification": "DISABLED_BY_DEFAULT",
+      "classification_reason": "explicit GameMateAgent construction; no module-level instance or startup hook",
+      "evidence_refs": [
+        "modules/agents/game_mate_agent.py:28"
+      ]
+    },
+    {
+      "id": "agent:modules/agents/installer_agent.py:29:InstallerAgent",
+      "source_path": "modules/agents/installer_agent.py",
+      "symbol": "InstallerAgent",
+      "role": "static candidate or data surface",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/agents/installer_agent.py:InstallerAgent",
+      "activation_trigger": "explicit construction only",
+      "default_activation_state": "INACTIVE",
+      "lifecycle": "not active by default",
+      "memory_access": [],
+      "tool_access": [],
+      "network_or_cloud_access": "NONE_ESTABLISHED",
+      "authority_source": "none until explicit construction",
+      "stop_route": "not active",
+      "pause_route": "not active",
+      "revoke_route": "not active",
+      "inventory_visibility": "R2B static surface inventory",
+      "logging_or_witness_route": "not applicable while inactive",
+      "classification": "DISABLED_BY_DEFAULT",
+      "classification_reason": "explicit InstallerAgent construction; no module-level instance or startup hook",
+      "evidence_refs": [
+        "modules/agents/installer_agent.py:29"
+      ]
+    },
+    {
+      "id": "agent:modules/agents/runtime.py:1379:run_agent_once",
+      "source_path": "modules/agents/runtime.py",
+      "symbol": "run_agent_once",
+      "role": "declared bounded executor",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/agents/runtime.py:run_agent_once",
+      "activation_trigger": "declared bounded invocation",
+      "default_activation_state": "DECLARED",
+      "lifecycle": "declared create/run/pause/revoke",
+      "memory_access": [
+        "DECLARATION_BOUND"
+      ],
+      "tool_access": [
+        "DECLARATION_BOUND"
+      ],
+      "network_or_cloud_access": "DECLARATION_BOUND",
+      "authority_source": "TAP_AGENT_INVENTORY and runtime gates",
+      "stop_route": "declared runtime control",
+      "pause_route": "declared runtime control",
+      "revoke_route": "declared runtime control",
+      "inventory_visibility": "TAP_AGENT_INVENTORY.json",
+      "logging_or_witness_route": "declared runtime receipts",
+      "classification": "INVENTORIED",
+      "classification_reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json",
+      "evidence_refs": [
+        "modules/agents/runtime.py:1379"
+      ]
+    },
+    {
+      "id": "agent:modules/agents/runtime.py:518:ActionRunner",
+      "source_path": "modules/agents/runtime.py",
+      "symbol": "ActionRunner",
+      "role": "declared bounded executor",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/agents/runtime.py:ActionRunner",
+      "activation_trigger": "declared bounded invocation",
+      "default_activation_state": "DECLARED",
+      "lifecycle": "declared create/run/pause/revoke",
+      "memory_access": [
+        "DECLARATION_BOUND"
+      ],
+      "tool_access": [
+        "DECLARATION_BOUND"
+      ],
+      "network_or_cloud_access": "DECLARATION_BOUND",
+      "authority_source": "TAP_AGENT_INVENTORY and runtime gates",
+      "stop_route": "declared runtime control",
+      "pause_route": "declared runtime control",
+      "revoke_route": "declared runtime control",
+      "inventory_visibility": "TAP_AGENT_INVENTORY.json",
+      "logging_or_witness_route": "declared runtime receipts",
+      "classification": "INVENTORIED",
+      "classification_reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json",
+      "evidence_refs": [
+        "modules/agents/runtime.py:518"
+      ]
+    },
+    {
+      "id": "agent:modules/agents/runtime.py:747:create_agent",
+      "source_path": "modules/agents/runtime.py",
+      "symbol": "create_agent",
+      "role": "declared bounded executor",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/agents/runtime.py:create_agent",
+      "activation_trigger": "declared bounded invocation",
+      "default_activation_state": "DECLARED",
+      "lifecycle": "declared create/run/pause/revoke",
+      "memory_access": [
+        "DECLARATION_BOUND"
+      ],
+      "tool_access": [
+        "DECLARATION_BOUND"
+      ],
+      "network_or_cloud_access": "DECLARATION_BOUND",
+      "authority_source": "TAP_AGENT_INVENTORY and runtime gates",
+      "stop_route": "declared runtime control",
+      "pause_route": "declared runtime control",
+      "revoke_route": "declared runtime control",
+      "inventory_visibility": "TAP_AGENT_INVENTORY.json",
+      "logging_or_witness_route": "declared runtime receipts",
+      "classification": "INVENTORIED",
+      "classification_reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json",
+      "evidence_refs": [
+        "modules/agents/runtime.py:747"
+      ]
+    },
+    {
+      "id": "agent:modules/agents/runtime_legacy_iter28.py:256:run_agent_once",
+      "source_path": "modules/agents/runtime_legacy_iter28.py",
+      "symbol": "run_agent_once",
+      "role": "static candidate or data surface",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/agents/runtime_legacy_iter28.py:run_agent_once",
+      "activation_trigger": "explicit construction only",
+      "default_activation_state": "INACTIVE",
+      "lifecycle": "not active by default",
+      "memory_access": [],
+      "tool_access": [],
+      "network_or_cloud_access": "NONE_ESTABLISHED",
+      "authority_source": "none until explicit construction",
+      "stop_route": "not active",
+      "pause_route": "not active",
+      "revoke_route": "not active",
+      "inventory_visibility": "R2B static surface inventory",
+      "logging_or_witness_route": "not applicable while inactive",
+      "classification": "LEGACY_INACTIVE",
+      "classification_reason": "preserved legacy runtime is not imported by the reconciled primary agent runtime",
+      "evidence_refs": [
+        "modules/agents/runtime_legacy_iter28.py:256"
+      ]
+    },
+    {
+      "id": "agent:modules/dreams/dream_engine.py:62:DreamRunner",
+      "source_path": "modules/dreams/dream_engine.py",
+      "symbol": "DreamRunner",
+      "role": "declared bounded executor",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/dreams/dream_engine.py:DreamRunner",
+      "activation_trigger": "declared bounded invocation",
+      "default_activation_state": "DECLARED",
+      "lifecycle": "declared create/run/pause/revoke",
+      "memory_access": [
+        "DECLARATION_BOUND"
+      ],
+      "tool_access": [
+        "DECLARATION_BOUND"
+      ],
+      "network_or_cloud_access": "DECLARATION_BOUND",
+      "authority_source": "TAP_AGENT_INVENTORY and runtime gates",
+      "stop_route": "declared runtime control",
+      "pause_route": "declared runtime control",
+      "revoke_route": "declared runtime control",
+      "inventory_visibility": "TAP_AGENT_INVENTORY.json",
+      "logging_or_witness_route": "declared runtime receipts",
+      "classification": "INVENTORIED",
+      "classification_reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json",
+      "evidence_refs": [
+        "modules/dreams/dream_engine.py:62"
+      ]
+    },
+    {
+      "id": "agent:modules/garage/agent_factory.py:427:create_agent",
+      "source_path": "modules/garage/agent_factory.py",
+      "symbol": "create_agent",
+      "role": "declared bounded executor",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/garage/agent_factory.py:create_agent",
+      "activation_trigger": "declared bounded invocation",
+      "default_activation_state": "DECLARED",
+      "lifecycle": "declared create/run/pause/revoke",
+      "memory_access": [
+        "DECLARATION_BOUND"
+      ],
+      "tool_access": [
+        "DECLARATION_BOUND"
+      ],
+      "network_or_cloud_access": "DECLARATION_BOUND",
+      "authority_source": "TAP_AGENT_INVENTORY and runtime gates",
+      "stop_route": "declared runtime control",
+      "pause_route": "declared runtime control",
+      "revoke_route": "declared runtime control",
+      "inventory_visibility": "TAP_AGENT_INVENTORY.json",
+      "logging_or_witness_route": "declared runtime receipts",
+      "classification": "INVENTORIED",
+      "classification_reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json",
+      "evidence_refs": [
+        "modules/garage/agent_factory.py:427"
+      ]
+    },
+    {
+      "id": "agent:modules/garage/agent_factory.py:621:disable_agent",
+      "source_path": "modules/garage/agent_factory.py",
+      "symbol": "disable_agent",
+      "role": "declared bounded executor",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/garage/agent_factory.py:disable_agent",
+      "activation_trigger": "declared bounded invocation",
+      "default_activation_state": "DECLARED",
+      "lifecycle": "declared create/run/pause/revoke",
+      "memory_access": [
+        "DECLARATION_BOUND"
+      ],
+      "tool_access": [
+        "DECLARATION_BOUND"
+      ],
+      "network_or_cloud_access": "DECLARATION_BOUND",
+      "authority_source": "TAP_AGENT_INVENTORY and runtime gates",
+      "stop_route": "declared runtime control",
+      "pause_route": "declared runtime control",
+      "revoke_route": "declared runtime control",
+      "inventory_visibility": "TAP_AGENT_INVENTORY.json",
+      "logging_or_witness_route": "declared runtime receipts",
+      "classification": "INVENTORIED",
+      "classification_reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json",
+      "evidence_refs": [
+        "modules/garage/agent_factory.py:621"
+      ]
+    },
+    {
+      "id": "agent:modules/garage/agent_runner.py:870:pause_run",
+      "source_path": "modules/garage/agent_runner.py",
+      "symbol": "pause_run",
+      "role": "declared bounded executor",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/garage/agent_runner.py:pause_run",
+      "activation_trigger": "declared bounded invocation",
+      "default_activation_state": "DECLARED",
+      "lifecycle": "declared create/run/pause/revoke",
+      "memory_access": [
+        "DECLARATION_BOUND"
+      ],
+      "tool_access": [
+        "DECLARATION_BOUND"
+      ],
+      "network_or_cloud_access": "DECLARATION_BOUND",
+      "authority_source": "TAP_AGENT_INVENTORY and runtime gates",
+      "stop_route": "declared runtime control",
+      "pause_route": "declared runtime control",
+      "revoke_route": "declared runtime control",
+      "inventory_visibility": "TAP_AGENT_INVENTORY.json",
+      "logging_or_witness_route": "declared runtime receipts",
+      "classification": "INVENTORIED",
+      "classification_reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json",
+      "evidence_refs": [
+        "modules/garage/agent_runner.py:870"
+      ]
+    },
+    {
+      "id": "agent:modules/garage/agent_runner.py:913:resume_run",
+      "source_path": "modules/garage/agent_runner.py",
+      "symbol": "resume_run",
+      "role": "declared bounded executor",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/garage/agent_runner.py:resume_run",
+      "activation_trigger": "declared bounded invocation",
+      "default_activation_state": "DECLARED",
+      "lifecycle": "declared create/run/pause/revoke",
+      "memory_access": [
+        "DECLARATION_BOUND"
+      ],
+      "tool_access": [
+        "DECLARATION_BOUND"
+      ],
+      "network_or_cloud_access": "DECLARATION_BOUND",
+      "authority_source": "TAP_AGENT_INVENTORY and runtime gates",
+      "stop_route": "declared runtime control",
+      "pause_route": "declared runtime control",
+      "revoke_route": "declared runtime control",
+      "inventory_visibility": "TAP_AGENT_INVENTORY.json",
+      "logging_or_witness_route": "declared runtime receipts",
+      "classification": "INVENTORIED",
+      "classification_reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json",
+      "evidence_refs": [
+        "modules/garage/agent_runner.py:913"
+      ]
+    },
+    {
+      "id": "agent:modules/judge/evo_judge.py:104:EvoJudgeRunner",
+      "source_path": "modules/judge/evo_judge.py",
+      "symbol": "EvoJudgeRunner",
+      "role": "static candidate or data surface",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/judge/evo_judge.py:EvoJudgeRunner",
+      "activation_trigger": "explicit construction only",
+      "default_activation_state": "INACTIVE",
+      "lifecycle": "not active by default",
+      "memory_access": [],
+      "tool_access": [],
+      "network_or_cloud_access": "NONE_ESTABLISHED",
+      "authority_source": "none until explicit construction",
+      "stop_route": "not active",
+      "pause_route": "not active",
+      "revoke_route": "not active",
+      "inventory_visibility": "R2B static surface inventory",
+      "logging_or_witness_route": "not applicable while inactive",
+      "classification": "DISABLED_BY_DEFAULT",
+      "classification_reason": "explicit EvoJudgeRunner construction by tooling; no default runtime registration",
+      "evidence_refs": [
+        "modules/judge/evo_judge.py:104"
+      ]
+    },
+    {
+      "id": "agent:modules/synergy/models.py:100:Agent",
+      "source_path": "modules/synergy/models.py",
+      "symbol": "Agent",
+      "role": "static candidate or data surface",
+      "creator": "explicit runtime factory/caller",
+      "creation_route": "modules/synergy/models.py:Agent",
+      "activation_trigger": "explicit construction only",
+      "default_activation_state": "INACTIVE",
+      "lifecycle": "not active by default",
+      "memory_access": [],
+      "tool_access": [],
+      "network_or_cloud_access": "NONE_ESTABLISHED",
+      "authority_source": "none until explicit construction",
+      "stop_route": "not active",
+      "pause_route": "not active",
+      "revoke_route": "not active",
+      "inventory_visibility": "R2B static surface inventory",
+      "logging_or_witness_route": "not applicable while inactive",
+      "classification": "OUT_OF_SCOPE_WITH_REASON",
+      "classification_reason": "Pydantic Agent record is data only and exposes no execute/start lifecycle",
+      "evidence_refs": [
+        "modules/synergy/models.py:100"
+      ]
+    }
+  ]
+}

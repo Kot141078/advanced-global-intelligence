@@ -1,0 +1,28 @@
+{
+  "document_id": "tap-code-references-v1.0",
+  "publication_status": "deposit-ready",
+  "references": [
+    {
+      "name": "TAP-SEC M4 v0.3.2",
+      "visibility": "public",
+      "commit": "0e8850e4cde357287764f6c2dc5aec2d950954b9",
+      "tag": "m4-v0.3.2",
+      "version_doi": "10.5281/zenodo.21688521",
+      "concept_doi": "10.5281/zenodo.21688520",
+      "release_zip_sha256": "6760ee89bc92b9d8fea0de6a1642399ae3b126e7fa4508ac8f4921ab3de65942",
+      "claim_ceiling": "partial public implementation reference",
+      "M4_FULL_PASS": false
+    },
+    {
+      "name": "R2B local implementation candidate",
+      "visibility": "local-not-distributed",
+      "commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+      "bundle_sha256": "d50bb0e50520d3991fed68cee8d02bf2b97cfc393cf22b84a8d6726675426308",
+      "included_in_package": false,
+      "reason": "Raw full bundle excluded by R2C public-safety and package policy.",
+      "TAP-C": "NOT CLAIMED",
+      "M4_FULL_PASS": false
+    }
+  ],
+  "public_immutable_code_reference_complete": false
+}

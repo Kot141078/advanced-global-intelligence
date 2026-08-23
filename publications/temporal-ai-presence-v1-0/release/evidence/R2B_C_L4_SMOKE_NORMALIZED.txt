@@ -1,0 +1,3 @@
+C-L4 smoke complete: 10 fixtures
+Report: <LOCAL_R2B_EVIDENCE_ROOT>\runtime_sandbox\c_l4_smoke_final\latest_shadow_report.md
+exit_code=0

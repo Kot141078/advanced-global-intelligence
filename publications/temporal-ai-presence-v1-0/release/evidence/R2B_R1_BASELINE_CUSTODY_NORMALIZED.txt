@@ -1,0 +1,15 @@
+result=PASS
+branch=tap-v1-hardening-20260823
+HEAD=e6e59643727fa9ce9c80d550a44297165d6ee938
+worktree_rows=0
+bundle_sha256=8a2e9c0d5e97f3de31515be5a19e6fe66e4cd91c45def0a1355b553559b20d70
+bundle_verify_rc=0
+temporal_ai_presence_v1_0.json sha256=9878b98074076ef2a56b5f8d07e07c25128e97f186fab5ad848ed65dcdc43da6 match=True
+temporal_ai_presence_v1_0.schema.json sha256=84b0ec3db856d5752e3205a6f70098ecd32ef5542210c2866d5e903bf1ff0e52 match=True
+TAP_EVIDENCE_BASELINE_v1_0.json sha256=5691a22629b5e8787afb11b6c7cad43facae23f89c6661aecbb8e1f33ff466ac match=True
+-- bundle verify --
+The bundle contains this ref:
+e6e59643727fa9ce9c80d550a44297165d6ee938 refs/heads/tap-v1-hardening-20260823
+The bundle records a complete history.
+The bundle uses this hash algorithm: sha1
+<LOCAL_R2A_EVIDENCE_ROOT>/baseline/tap-v1-hardening-r1.bundle is okay
