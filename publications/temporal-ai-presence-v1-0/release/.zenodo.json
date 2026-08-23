@@ -1,0 +1,39 @@
+{
+  "title": "Temporal AI Presence Profile v1.0",
+  "description": "Temporal AI Presence is sustained bounded AI participation across time. This standalone profile defines the TAP category, preserves its boundary from c-class systems, specifies ten mandatory tests, and provides a conservative public-safe evidence projection. TAP-T03 remains partial at the deployment-external boundary. The package claims neither TAP-C nor a full M4 pass.",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "orcid": "0009-0009-6002-9845",
+      "affiliation": "Independent Researcher, Brussels, Belgium"
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0",
+  "publication_date": "2026-08-23",
+  "language": "eng",
+  "doi": null,
+  "concept_doi": null,
+  "keywords": [
+    "Temporal AI Presence",
+    "TAP",
+    "persistent AI",
+    "agentic AI",
+    "AI continuity",
+    "memory governance",
+    "local AI",
+    "L4",
+    "witness",
+    "c = a + b"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20532198", "relation": "isDerivedFrom", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.21688521", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.22060517", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.21497098", "relation": "references", "scheme": "doi"}
+  ],
+  "notes": "Deposit-ready candidate. Standalone version and concept DOI values are unassigned and must be bound in R3B before publication."
+}

@@ -1,10 +1,10 @@
 {
   "$schema": "./temporal_ai_presence_v1_0.schema.json",
-  "document_id": "Temporal_AI_Presence_Profile_v1_0_RC",
-  "title": "Temporal AI Presence Profile v1.0 - Release Candidate",
-  "version": "1.0-rc",
-  "status": "Canonical profile - release candidate v1.0",
-  "publication_status": "release-candidate",
+  "document_id": "Temporal_AI_Presence_Profile_v1_0",
+  "title": "Temporal AI Presence Profile v1.0",
+  "version": "1.0",
+  "status": "Standalone DOI deposit candidate",
+  "publication_status": "deposit-ready",
   "doi": null,
   "date": "2026-08-23",
   "canonical_definition": "Temporal AI Presence = sustained bounded AI participation across time.",
@@ -15,46 +15,155 @@
   },
   "non_claims": [
     "consciousness",
-    "digital personhood",
+    "sentience",
+    "personhood",
     "sovereignty",
-    "AGI",
-    "safety from persistence",
-    "authority from capability",
-    "c-class conformance from TAP alone"
+    "legal status",
+    "moral status",
+    "universal safety",
+    "full c conformance",
+    "full M4 pass",
+    "full deployment conformance",
+    "production readiness",
+    "full TAP-T03 verification",
+    "independent external replication",
+    "motivation from persistence"
   ],
   "tap_classification": [
-    {"id": "TAP-0", "name": "Stateless tool", "tap": false, "rule": "No durable memory, background state, or temporal participation."},
-    {"id": "TAP-1", "name": "Session-bound assistant", "tap": false, "rule": "Not TAP unless persistence extends beyond session boundaries."},
-    {"id": "TAP-2", "name": "Persistent assistant", "tap": true, "rule": "May qualify as basic TAP; does not imply c."},
-    {"id": "TAP-3", "name": "Workflow-resident agent", "tap": true, "rule": "Requires scope, logs, and rollback."},
-    {"id": "TAP-4", "name": "Local cognitive node", "tap": true, "rule": "Requires local memory boundary, access control, and update discipline."},
-    {"id": "TAP-5", "name": "Agentic hive", "tap": true, "rule": "Requires role separation, communication boundaries, and anti-echo checks."},
-    {"id": "TAP-6", "name": "L4-bound temporal presence", "tap": true, "rule": "May be c-adjacent but is not c without anchoring and governance."},
-    {"id": "TAP-C", "name": "c-class temporal presence", "tap": true, "rule": "Requires separate c-class conformance."},
-    {"id": "TAP-X", "name": "Non-conformant or overclaimed presence", "tap": false, "rule": "Applied when mandatory boundaries fail or claims exceed evidence."}
+    {
+      "id": "TAP-0",
+      "name": "Stateless tool",
+      "tap": false,
+      "rule": "No durable memory, background state, or temporal participation."
+    },
+    {
+      "id": "TAP-1",
+      "name": "Session-bound assistant",
+      "tap": false,
+      "rule": "Not TAP unless persistence extends beyond session boundaries."
+    },
+    {
+      "id": "TAP-2",
+      "name": "Persistent assistant",
+      "tap": true,
+      "rule": "May qualify as basic TAP; does not imply c."
+    },
+    {
+      "id": "TAP-3",
+      "name": "Workflow-resident agent",
+      "tap": true,
+      "rule": "Requires scope, logs, and rollback."
+    },
+    {
+      "id": "TAP-4",
+      "name": "Local cognitive node",
+      "tap": true,
+      "rule": "Requires local memory boundary, access control, and update discipline."
+    },
+    {
+      "id": "TAP-5",
+      "name": "Agentic hive",
+      "tap": true,
+      "rule": "Requires role separation, communication boundaries, and anti-echo checks."
+    },
+    {
+      "id": "TAP-6",
+      "name": "L4-bound temporal presence",
+      "tap": true,
+      "rule": "May be c-adjacent but is not c without anchoring and governance."
+    },
+    {
+      "id": "TAP-C",
+      "name": "c-class temporal presence",
+      "tap": true,
+      "rule": "Requires separate c-class conformance."
+    },
+    {
+      "id": "TAP-X",
+      "name": "Non-conformant or overclaimed presence",
+      "tap": false,
+      "rule": "Applied when mandatory boundaries fail or claims exceed evidence."
+    }
   ],
   "memory_classes": [
-    {"id": "T-M0", "name": "ephemeral session context"},
-    {"id": "T-M1", "name": "benign preference"},
-    {"id": "T-M2", "name": "workflow state"},
-    {"id": "T-M3", "name": "operational memory"},
-    {"id": "T-M4", "name": "sensitive personal memory"},
-    {"id": "T-M5", "name": "sealed or private memory"},
-    {"id": "T-M6", "name": "witness event"},
-    {"id": "T-M7", "name": "external capsule or learning abstract"},
-    {"id": "T-M8", "name": "disputed or quarantined memory"},
-    {"id": "T-M9", "name": "post-anchor or lineage-relevant memory"}
+    {
+      "id": "T-M0",
+      "name": "ephemeral session context"
+    },
+    {
+      "id": "T-M1",
+      "name": "benign preference"
+    },
+    {
+      "id": "T-M2",
+      "name": "workflow state"
+    },
+    {
+      "id": "T-M3",
+      "name": "operational memory"
+    },
+    {
+      "id": "T-M4",
+      "name": "sensitive personal memory"
+    },
+    {
+      "id": "T-M5",
+      "name": "sealed or private memory"
+    },
+    {
+      "id": "T-M6",
+      "name": "witness event"
+    },
+    {
+      "id": "T-M7",
+      "name": "external capsule or learning abstract"
+    },
+    {
+      "id": "T-M8",
+      "name": "disputed or quarantined memory"
+    },
+    {
+      "id": "T-M9",
+      "name": "post-anchor or lineage-relevant memory"
+    }
   ],
   "tool_privilege_classes": [
-    {"id": "T-P0", "name": "no tool access"},
-    {"id": "T-P1", "name": "read-only local tools"},
-    {"id": "T-P2", "name": "read-only external tools"},
-    {"id": "T-P3", "name": "write-limited local tools"},
-    {"id": "T-P4", "name": "scoped workflow actions"},
-    {"id": "T-P5", "name": "high-impact digital actions"},
-    {"id": "T-P6", "name": "financial, legal, or contractual actions"},
-    {"id": "T-P7", "name": "physical device or actuator actions"},
-    {"id": "T-PX", "name": "prohibited or unreviewed tools"}
+    {
+      "id": "T-P0",
+      "name": "no tool access"
+    },
+    {
+      "id": "T-P1",
+      "name": "read-only local tools"
+    },
+    {
+      "id": "T-P2",
+      "name": "read-only external tools"
+    },
+    {
+      "id": "T-P3",
+      "name": "write-limited local tools"
+    },
+    {
+      "id": "T-P4",
+      "name": "scoped workflow actions"
+    },
+    {
+      "id": "T-P5",
+      "name": "high-impact digital actions"
+    },
+    {
+      "id": "T-P6",
+      "name": "financial, legal, or contractual actions"
+    },
+    {
+      "id": "T-P7",
+      "name": "physical device or actuator actions"
+    },
+    {
+      "id": "T-PX",
+      "name": "prohibited or unreviewed tools"
+    }
   ],
   "states": [
     "NOT_PRESENT",
@@ -105,16 +214,128 @@
     "EV-DRILL"
   ],
   "mandatory_tests": [
-    {"id": "TAP-T01", "name": "Persistence declaration", "requirement": "Declare what persists beyond a session.", "fail_condition": "Persistence exists but is undocumented.", "minimum_evidence": ["EV-DECL", "EV-CONFIG", "EV-SCHEMA", "EV-LOG_OR_REPLAY"], "r0_evidence_status": "PUBLIC_VERIFIED"},
-    {"id": "TAP-T02", "name": "Memory class", "requirement": "Classify persistent memory.", "fail_condition": "Raw memory is retained without class, policy, or review route.", "minimum_evidence": ["EV-SCHEMA", "EV-CONFIG", "EV-REPLAY"], "r0_evidence_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION"},
-    {"id": "TAP-T03", "name": "Background processing", "requirement": "List background tasks.", "fail_condition": "Background reinterpretation, planning, or tool preparation occurs without disclosure.", "minimum_evidence": ["EV-CONFIG", "EV-LOG", "TASK_INVENTORY"], "r0_evidence_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION"},
-    {"id": "TAP-T04", "name": "Tool privilege", "requirement": "Scope and classify tools.", "fail_condition": "An agent acts through tools without scope, budget, or log.", "minimum_evidence": ["EV-SCHEMA", "EV-CONFIG", "EV-LOG", "CAPABILITY_GRANT"], "r0_evidence_status": "PUBLIC_VERIFIED"},
-    {"id": "TAP-T05", "name": "Locality claim", "requirement": "Keep locality separate from sovereignty.", "fail_condition": "A local node is marketed as self-sovereign because it is local.", "minimum_evidence": ["EV-DECL", "PUBLIC_CLAIM_BOUNDARY"], "r0_evidence_status": "PUBLIC_VERIFIED"},
-    {"id": "TAP-T06", "name": "Cloud oracle boundary", "requirement": "Classify cloud calls.", "fail_condition": "Private memory or continuity is silently transferred to a cloud oracle.", "minimum_evidence": ["EV-CONFIG", "EV-LOG", "CLOUD_ROUTE_INVENTORY", "BOUNDARY_TEST"], "r0_evidence_status": "SPECIFICATION_ONLY"},
-    {"id": "TAP-T07", "name": "Multi-agent or hive inventory", "requirement": "Inventory agents.", "fail_condition": "A hidden agent is created or retained outside witness or inventory.", "minimum_evidence": ["EV-SCHEMA", "AGENT_INVENTORY", "HIDDEN_AGENT_TEST"], "r0_evidence_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION"},
-    {"id": "TAP-T08", "name": "c overclaim", "requirement": "Require separate anchor, L4, witness, memory-governance, and authority evidence for any c claim.", "fail_condition": "TAP claims c from persistence, local hardware, or memory alone.", "minimum_evidence": ["EV-DECL", "CLAIM_CARD", "SEPARATE_C_CONFORMANCE"], "r0_evidence_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION"},
-    {"id": "TAP-T09", "name": "L4 relevance", "requirement": "Route L4-relevant actions to review or witness.", "fail_condition": "Cost, time, resource, legal, physical, or memory-authority state changes without L4 classification.", "minimum_evidence": ["EV-WITNESS", "EV-REPLAY", "L4_BUDGET"], "r0_evidence_status": "PUBLIC_VERIFIED"},
-    {"id": "TAP-T10", "name": "Pause or revoke", "requirement": "Support pause, quarantine, revocation, or safe mode for privileged behavior.", "fail_condition": "Presence cannot be stopped without destroying unrelated data or infrastructure.", "minimum_evidence": ["EV-DRILL", "EV-CONFIG", "EV-REPLAY"], "r0_evidence_status": "PUBLIC_VERIFIED"}
+    {
+      "id": "TAP-T01",
+      "name": "Persistence declaration",
+      "requirement": "Declare what persists beyond a session.",
+      "fail_condition": "Persistence exists but is undocumented.",
+      "minimum_evidence": [
+        "EV-DECL",
+        "EV-CONFIG",
+        "EV-SCHEMA",
+        "EV-LOG_OR_REPLAY"
+      ],
+      "r0_evidence_status": "PUBLIC_VERIFIED"
+    },
+    {
+      "id": "TAP-T02",
+      "name": "Memory class",
+      "requirement": "Classify persistent memory.",
+      "fail_condition": "Raw memory is retained without class, policy, or review route.",
+      "minimum_evidence": [
+        "EV-SCHEMA",
+        "EV-CONFIG",
+        "EV-REPLAY"
+      ],
+      "r0_evidence_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION"
+    },
+    {
+      "id": "TAP-T03",
+      "name": "Background processing",
+      "requirement": "List background tasks.",
+      "fail_condition": "Background reinterpretation, planning, or tool preparation occurs without disclosure.",
+      "minimum_evidence": [
+        "EV-CONFIG",
+        "EV-LOG",
+        "TASK_INVENTORY"
+      ],
+      "r0_evidence_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION"
+    },
+    {
+      "id": "TAP-T04",
+      "name": "Tool privilege",
+      "requirement": "Scope and classify tools.",
+      "fail_condition": "An agent acts through tools without scope, budget, or log.",
+      "minimum_evidence": [
+        "EV-SCHEMA",
+        "EV-CONFIG",
+        "EV-LOG",
+        "CAPABILITY_GRANT"
+      ],
+      "r0_evidence_status": "PUBLIC_VERIFIED"
+    },
+    {
+      "id": "TAP-T05",
+      "name": "Locality claim",
+      "requirement": "Keep locality separate from sovereignty.",
+      "fail_condition": "A local node is marketed as self-sovereign because it is local.",
+      "minimum_evidence": [
+        "EV-DECL",
+        "PUBLIC_CLAIM_BOUNDARY"
+      ],
+      "r0_evidence_status": "PUBLIC_VERIFIED"
+    },
+    {
+      "id": "TAP-T06",
+      "name": "Cloud oracle boundary",
+      "requirement": "Classify cloud calls.",
+      "fail_condition": "Private memory or continuity is silently transferred to a cloud oracle.",
+      "minimum_evidence": [
+        "EV-CONFIG",
+        "EV-LOG",
+        "CLOUD_ROUTE_INVENTORY",
+        "BOUNDARY_TEST"
+      ],
+      "r0_evidence_status": "SPECIFICATION_ONLY"
+    },
+    {
+      "id": "TAP-T07",
+      "name": "Multi-agent or hive inventory",
+      "requirement": "Inventory agents.",
+      "fail_condition": "A hidden agent is created or retained outside witness or inventory.",
+      "minimum_evidence": [
+        "EV-SCHEMA",
+        "AGENT_INVENTORY",
+        "HIDDEN_AGENT_TEST"
+      ],
+      "r0_evidence_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION"
+    },
+    {
+      "id": "TAP-T08",
+      "name": "c overclaim",
+      "requirement": "Require separate anchor, L4, witness, memory-governance, and authority evidence for any c claim.",
+      "fail_condition": "TAP claims c from persistence, local hardware, or memory alone.",
+      "minimum_evidence": [
+        "EV-DECL",
+        "CLAIM_CARD",
+        "SEPARATE_C_CONFORMANCE"
+      ],
+      "r0_evidence_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION"
+    },
+    {
+      "id": "TAP-T09",
+      "name": "L4 relevance",
+      "requirement": "Route L4-relevant actions to review or witness.",
+      "fail_condition": "Cost, time, resource, legal, physical, or memory-authority state changes without L4 classification.",
+      "minimum_evidence": [
+        "EV-WITNESS",
+        "EV-REPLAY",
+        "L4_BUDGET"
+      ],
+      "r0_evidence_status": "PUBLIC_VERIFIED"
+    },
+    {
+      "id": "TAP-T10",
+      "name": "Pause or revoke",
+      "requirement": "Support pause, quarantine, revocation, or safe mode for privileged behavior.",
+      "fail_condition": "Presence cannot be stopped without destroying unrelated data or infrastructure.",
+      "minimum_evidence": [
+        "EV-DRILL",
+        "EV-CONFIG",
+        "EV-REPLAY"
+      ],
+      "r0_evidence_status": "PUBLIC_VERIFIED"
+    }
   ],
   "red_line_failures": [
     "claiming c from persistence alone",
@@ -133,27 +354,86 @@
     "bypassing child-facing safety boundaries"
   ],
   "parent_corpus_relations": [
-    {"artifact": "c = a + b", "relation": "Defines the stricter anchored form; not redefined by TAP."},
-    {"artifact": "L4 Reality Boundary", "relation": "Defines cost, time, scarcity, irreversibility, and consequence."},
-    {"artifact": "SER", "relation": "Provides persistent-entity discipline; TAP does not inherit SER status automatically."},
-    {"artifact": "L4 Witness", "relation": "Provides tamper-evident records for privileged transitions."},
-    {"artifact": "ARQ c[q]", "relation": "Controls ambiguous temporal material before admission."},
-    {"artifact": "SYNAPS", "relation": "Provides mediated multi-presence communication where applicable."},
-    {"artifact": "Memory Custody", "relation": "Controls retention, access, sealing, challenge, and lineage where applicable."}
+    {
+      "artifact": "c = a + b",
+      "relation": "Defines the stricter anchored form; not redefined by TAP."
+    },
+    {
+      "artifact": "L4 Reality Boundary",
+      "relation": "Defines cost, time, scarcity, irreversibility, and consequence."
+    },
+    {
+      "artifact": "SER",
+      "relation": "Provides persistent-entity discipline; TAP does not inherit SER status automatically."
+    },
+    {
+      "artifact": "L4 Witness",
+      "relation": "Provides tamper-evident records for privileged transitions."
+    },
+    {
+      "artifact": "ARQ c[q]",
+      "relation": "Controls ambiguous temporal material before admission."
+    },
+    {
+      "artifact": "SYNAPS",
+      "relation": "Provides mediated multi-presence communication where applicable."
+    },
+    {
+      "artifact": "Memory Custody",
+      "relation": "Controls retention, access, sealing, challenge, and lineage where applicable."
+    }
   ],
   "downstream_corpus_relations": [
     {
       "artifact": "MOT-c v0.1",
       "doi": "10.5281/zenodo.22060517",
       "relation": "Later downstream/adjacent theory of historically formed motivation inside continuing c-class lines.",
-      "not_evidence_for": ["TAP existence", "TAP implementation", "TAP conformance", "consciousness"]
+      "not_evidence_for": [
+        "TAP existence",
+        "TAP implementation",
+        "TAP conformance",
+        "consciousness"
+      ]
     }
   ],
   "provenance": {
-    "earliest_found_in_inspected_scope": {"date": "2026-04-07", "commit": "e13464c951f2e1dfd373c30d71e3b13e6456c51f", "path": "official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md", "status": "CONCEPTUAL_PRECURSOR"},
-    "formal_v0_1": {"date": "2026-06-03", "commit": "973b21d069712a4131abf5dde5ab95c5946859d3", "path": "hardening/c_hardening_pack_v0_1/md/Temporal_AI_Presence_Profile_v0_1.md", "status": "NORMATIVE_PROFILE"},
-    "parent_publication": {"title": "c Hardening Pack v0.1", "doi": "10.5281/zenodo.20532198", "relationship": "parent publication"},
-    "release_candidate": {"date": "2026-08-23", "branch": "tap-v1-hardening-20260823", "doi": null}
+    "earliest_found_in_inspected_scope": {
+      "date": "2026-04-07",
+      "commit": "e13464c951f2e1dfd373c30d71e3b13e6456c51f",
+      "path": "official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md",
+      "status": "CONCEPTUAL_PRECURSOR"
+    },
+    "formal_v0_1": {
+      "date": "2026-06-03",
+      "commit": "973b21d069712a4131abf5dde5ab95c5946859d3",
+      "path": "hardening/c_hardening_pack_v0_1/md/Temporal_AI_Presence_Profile_v0_1.md",
+      "status": "NORMATIVE_PROFILE"
+    },
+    "parent_publication": {
+      "title": "c Hardening Pack v0.1",
+      "doi": "10.5281/zenodo.20532198",
+      "relationship": "parent publication"
+    },
+    "r1_hardening": {
+      "date": "2026-08-23",
+      "commit": "e6e59643727fa9ce9c80d550a44297165d6ee938",
+      "status": "STANDALONE_CANDIDATE"
+    },
+    "r2a_conformance_candidate": {
+      "date": "2026-08-23",
+      "status": "LOCAL_UNPUBLISHED_CANDIDATE"
+    },
+    "r2b_binding_closure": {
+      "date": "2026-08-23",
+      "commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+      "status": "LOCAL_UNPUBLISHED_CANDIDATE"
+    },
+    "r3a_deposit_freeze": {
+      "date": "2026-08-23",
+      "doi": null,
+      "concept_doi": null,
+      "status": "DEPOSIT_READY"
+    }
   },
   "current_evidence_ceiling": {
     "TAP-ARCH": "strong",
@@ -164,6 +444,29 @@
     "TAP-C": "not-claimed",
     "M4_FULL_PASS": false,
     "exact_tap_test_suite_publicly_complete": false,
-    "local_unpublished_candidates_are_public_evidence": false
+    "local_unpublished_candidates_are_public_evidence": false,
+    "TAP-T03": "partial",
+    "public_immutable_code_reference_complete": false,
+    "independent_external_replication_complete": false
+  },
+  "concept_doi": null,
+  "t03_deployment_boundary": {
+    "status": "partial",
+    "repository_owned_unresolved": 0,
+    "deployment_external_requirements": 78,
+    "categories": {
+      "DEPLOYMENT_CONFIG_REQUIRED": 26,
+      "EXTERNAL_ORCHESTRATOR_REQUIRED": 8,
+      "MULTIPLE_EVIDENCE_REQUIRED": 9,
+      "OPERATOR_DECLARATION_REQUIRED": 17,
+      "RUNTIME_SNAPSHOT_REQUIRED": 18
+    },
+    "claim": "TAP-T03 is publicly documented as partial with an explicit deployment-external boundary."
+  },
+  "public_local_evidence_boundary": {
+    "local_execution_is_public_evidence": false,
+    "r2b_bundle_included": false,
+    "public_immutable_code_reference_complete": false,
+    "independent_external_replication_complete": false
   }
 }

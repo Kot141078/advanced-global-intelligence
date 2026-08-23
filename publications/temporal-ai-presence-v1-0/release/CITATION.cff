@@ -1,45 +1,58 @@
 cff-version: 1.2.0
-message: "This is pre-publication citation metadata for the Temporal AI Presence v1.0 release candidate; no standalone DOI is assigned."
-title: "Temporal AI Presence Profile v1.0 - Release Candidate"
+message: "Cite this deposit-ready package by title, author, version, date, repository, and package hash until R3B binds the reserved Zenodo DOI."
+title: "Temporal AI Presence Profile"
 type: report
-version: "1.0-rc"
+version: "1.0"
 date-released: "2026-08-23"
 authors:
   - family-names: "Kotov"
     given-names: "Ivan"
     orcid: "https://orcid.org/0009-0009-6002-9845"
+    affiliation: "Independent Researcher, Brussels, Belgium"
 abstract: >-
   Temporal AI Presence is sustained bounded AI participation across time. This
-  canonical release candidate defines the temporal-presence category, preserves
-  the distinction between TAP and c-class systems, normalizes ten mandatory TAP
-  tests, records provenance and current evidence limits, and supplies a
-  machine-readable normative contract. It does not claim implementation
-  closure, TAP conformance, consciousness, personhood, sovereignty, or an
-  assigned standalone DOI.
+  standalone profile defines the temporal-presence category, preserves the
+  boundary between TAP and c-class systems, specifies ten mandatory TAP tests,
+  and publishes a conservative public-safe evidence projection. TAP-T03 remains
+  partial at the deployment boundary. The work claims neither TAP-C nor a full
+  M4 pass and assigns no standalone DOI in this deposit candidate.
 keywords:
   - "Temporal AI Presence"
-  - "sustained AI participation"
+  - "TAP"
   - "persistent AI"
-  - "AI governance"
-  - "memory governance"
   - "agentic AI"
-  - "c=a+b"
+  - "AI continuity"
+  - "memory governance"
+  - "local AI"
   - "L4"
   - "witness"
+  - "c = a + b"
 license: "CC-BY-4.0"
 repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
 url: "https://github.com/Kot141078/advanced-global-intelligence"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.20532198"
-    description: "Parent publication: c Hardening Pack v0.1, containing the historical TAP v0.1 profile; not the TAP v1.0 DOI."
+    description: "Parent/integrated c Hardening Pack publication containing TAP v0.1; not the TAP v1.0 DOI."
+  - type: doi
+    value: "10.5281/zenodo.21688521"
+    description: "Referenced public TAP-SEC implementation release."
   - type: doi
     value: "10.5281/zenodo.22060517"
-    description: "Related later work: MOT-c v0.1; not the TAP v1.0 DOI."
+    description: "Referenced adjacent MOT-c theory; not TAP conformance evidence."
+  - type: doi
+    value: "10.5281/zenodo.21497098"
+    description: "Referenced World Intelligence corpus context."
 references:
   - type: report
     title: "c Hardening Pack v0.1"
     doi: "10.5281/zenodo.20532198"
+  - type: software
+    title: "TAP-SEC M4 v0.3.2"
+    doi: "10.5281/zenodo.21688521"
   - type: report
-    title: "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory v0.1"
+    title: "MOT-c Foundation Theory v0.1"
     doi: "10.5281/zenodo.22060517"
+  - type: book
+    title: "World Intelligence"
+    doi: "10.5281/zenodo.21497098"
