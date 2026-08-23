@@ -1,0 +1,17 @@
+release/.zenodo.json text eol=lf
+release/*.cff text eol=lf
+release/*.csv text eol=lf
+release/*.json text eol=lf
+release/*.md text eol=lf
+release/*.txt text eol=lf
+release/*.sha256 text eol=lf
+
+release/evidence/*.csv text eol=lf
+release/evidence/*.json text eol=lf
+release/evidence/*.md text eol=lf
+release/evidence/*.txt text eol=lf
+
+release/*.pdf -text
+release/*.zip -text
+
+release/evidence/R2B_PRE_POST_EQUIVALENCE.txt -text
