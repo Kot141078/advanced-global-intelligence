@@ -2,12 +2,12 @@
 
 ## Publication state
 
-This package is the final Zenodo deposit package for reserved version DOI `10.5281/zenodo.22070960`. The DOI becomes registered when the corresponding Zenodo record is published. The Concept DOI is pending first publication. This is not yet a published Zenodo or GitHub release.
+This package is the final Zenodo pre-publication package for version DOI `10.5281/zenodo.22070960` and Concept DOI `10.5281/zenodo.22070959`. The version DOI identifies the specific v1.0 record; the Concept DOI identifies all versions. Registration remains pending Zenodo publication. This is not yet a published Zenodo or GitHub release.
 
 ## Finalized from R1
 
 - Removed release-candidate naming while preserving the normative sections 0 through 32.
-- R3A added Zenodo-ready citation and deposit metadata with null DOI fields; R3B binds the owner-reserved version DOI while preserving a null, pending Concept DOI.
+- R3A added Zenodo-ready citation and deposit metadata with null DOI fields; R3B bound the owner-reserved version DOI; R3C binds the exact Zenodo Preview Concept DOI while preserving pending-publication state.
 - Added public/local evidence separation and an explicit TAP-T03 deployment boundary.
 - Included the smallest R2C-authorized public-safe R2B evidence set: ten byte-identical artifacts and six normalized derivatives.
 - Excluded local Git bundles, forensic scratch, runtime state, deployment evidence, credentials, and private data.

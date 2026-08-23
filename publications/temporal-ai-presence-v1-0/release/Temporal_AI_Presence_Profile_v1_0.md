@@ -2,17 +2,18 @@
 
 ## Sustained AI participation across time, local cognitive infrastructure, agentic hives, and the boundary between presence and `c`
 
-**Status:** Final Zenodo deposit package
+**Status:** Final Zenodo pre-publication package
 **Version:** v1.0
 **Date:** 2026-08-23
-**Publication state:** Final Zenodo deposit package
+**Publication state:** Final Zenodo pre-publication package
 **Zenodo version DOI:** 10.5281/zenodo.22070960
-**Concept DOI:** pending first publication
+**Zenodo Concept DOI:** 10.5281/zenodo.22070959
+**DOI registration state:** pending publication
 **Layer:** `c = a + b` / Temporal AI Presence / Local Cognitive Infrastructure / Agentic AI / Memory Governance / L4 / Claim Strength / L4 Witness
 **Document ID:** `Temporal_AI_Presence_Profile_v1_0`
 **Short name:** `TAP-1.0`
 **Document class:** standalone canonical profile / public-term discipline / temporal-system boundary
-**Assertion class:** `C-A4` normative final Zenodo deposit package; `C-A10` control-layer artifact where integration, claim-separation, and conformance obligations are stated; no upgrade to model capability, legal status, personhood, sovereignty, or implementation-conformance claims
+**Assertion class:** `C-A4` normative final Zenodo pre-publication package; `C-A10` control-layer artifact where integration, claim-separation, and conformance obligations are stated; no upgrade to model capability, legal status, personhood, sovereignty, or implementation-conformance claims
 **Primary subject:** AI systems whose primary operational unit is sustained bounded participation over time rather than one prompt, one session, one task, or one output
 **Primary rule:** **Temporal AI Presence is not `c` by default. `c` is the stricter anchored, governed, L4-bound form of Temporal AI Presence.**
 
@@ -298,7 +299,7 @@ This standalone deposit candidate distinguishes three different custody layers:
 | Conceptual precursor | 2026-04-07 | `e13464c951f2e1dfd373c30d71e3b13e6456c51f` | `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md` | `EARLIEST_FOUND_IN_INSPECTED_SCOPE` conceptual precursor; not the formal TAP profile. |
 | Formal profile introduction | 2026-06-03 | `973b21d069712a4131abf5dde5ab95c5946859d3` | `hardening/c_hardening_pack_v0_1/md/Temporal_AI_Presence_Profile_v0_1.md` | Historical TAP v0.1 normative profile. |
 | Parent publication | 2026 | DOI `10.5281/zenodo.20532198` | `c Hardening Pack v0.1` | Parent publication containing TAP v0.1; this DOI is not a standalone TAP v1.0 DOI. |
-| Standalone canonicalization | 2026-08-23 | R1 hardening and R3A deposit-package branch | `Temporal_AI_Presence_Profile_v1_0.md` | Standalone v1.0 pre-publication package; Zenodo version DOI `10.5281/zenodo.22070960` reserved, not yet registered through publication; Concept DOI pending first publication. |
+| Standalone canonicalization | 2026-08-23 | R1 hardening through R3C metadata freeze | `Temporal_AI_Presence_Profile_v1_0.md` | Standalone v1.0 pre-publication package; version DOI `10.5281/zenodo.22070960` identifies this v1.0 record; Concept DOI `10.5281/zenodo.22070959` identifies all versions; DOI registration remains pending Zenodo publication. |
 
 The historical v0.1 Markdown and PDF remain immutable ancestors. This document does not replace their provenance or retroactively alter their status.
 

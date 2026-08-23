@@ -35,7 +35,9 @@
     "public_local_evidence_boundary",
     "publication_state",
     "doi_url",
-    "concept_doi_state"
+    "concept_doi_state",
+    "concept_doi_url",
+    "doi_registration_state"
   ],
   "properties": {
     "$schema": {
@@ -51,10 +53,10 @@
       "const": "1.0"
     },
     "status": {
-      "const": "Final Zenodo deposit package"
+      "const": "Final Zenodo pre-publication package"
     },
     "publication_status": {
-      "const": "final-zenodo-deposit-package"
+      "const": "final-zenodo-pre-publication-package"
     },
     "doi": {
       "const": "10.5281/zenodo.22070960"
@@ -224,7 +226,7 @@
       "type": "object"
     },
     "concept_doi": {
-      "type": "null"
+      "const": "10.5281/zenodo.22070959"
     },
     "t03_deployment_boundary": {
       "type": "object",
@@ -279,13 +281,19 @@
       }
     },
     "publication_state": {
-      "const": "final_zenodo_deposit_package"
+      "const": "final_zenodo_pre_publication_package"
     },
     "doi_url": {
       "const": "https://doi.org/10.5281/zenodo.22070960"
     },
     "concept_doi_state": {
       "const": "pending_first_publication"
+    },
+    "concept_doi_url": {
+      "const": "https://doi.org/10.5281/zenodo.22070959"
+    },
+    "doi_registration_state": {
+      "const": "pending_publication"
     }
   },
   "$defs": {

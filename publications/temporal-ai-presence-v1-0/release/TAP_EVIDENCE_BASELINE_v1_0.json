@@ -201,9 +201,9 @@
     "TAP-C": "not claimed"
   },
   "mot_c_evidence_rule": "MOT-c v0.1 is a downstream/adjacent theoretical bridge and contributes no TAP-T01 through TAP-T10 implementation evidence.",
-  "publication_status": "final-zenodo-deposit-package",
+  "publication_status": "final-zenodo-pre-publication-package",
   "doi": "10.5281/zenodo.22070960",
-  "concept_doi": null,
+  "concept_doi": "10.5281/zenodo.22070959",
   "r2b_local_status": {
     "TAP-T01": "LOCAL_VERIFIED_CANDIDATE",
     "TAP-T02": "LOCAL_VERIFIED_CANDIDATE",
@@ -223,7 +223,9 @@
     "M4_FULL_PASS": false,
     "TAP-C": "NOT CLAIMED"
   },
-  "publication_state": "final_zenodo_deposit_package",
+  "publication_state": "final_zenodo_pre_publication_package",
   "doi_url": "https://doi.org/10.5281/zenodo.22070960",
-  "concept_doi_state": "pending_first_publication"
+  "concept_doi_state": "pending_first_publication",
+  "concept_doi_url": "https://doi.org/10.5281/zenodo.22070959",
+  "doi_registration_state": "pending_publication"
 }

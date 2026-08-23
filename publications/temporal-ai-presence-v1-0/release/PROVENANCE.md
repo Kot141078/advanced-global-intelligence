@@ -40,6 +40,6 @@ R3A froze the standalone public-safe pre-DOI package with both DOI fields unassi
 
 ## 2026-08-23 - R3B reserved DOI binding and final release freeze
 
-R3B binds Zenodo version DOI `10.5281/zenodo.22070960` to the final pre-publication package. The DOI is reserved but is not represented as registered or resolvable before Zenodo publication. The Concept DOI is not guessed. The Zenodo Concept DOI will be recorded after the first version is published and Zenodo exposes the exact all-versions identifier.
+R3B binds Zenodo version DOI `10.5281/zenodo.22070960` to the final pre-publication package. R3C binds the exact Concept DOI `10.5281/zenodo.22070959` exposed by Zenodo Preview. The version DOI identifies the specific v1.0 record; the Concept DOI identifies all versions. Both identifiers remain pending registration until Zenodo publishes the record.
 
 Domain registration is namespace provenance only and is not technical prior art.

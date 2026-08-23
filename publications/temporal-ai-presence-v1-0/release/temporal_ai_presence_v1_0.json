@@ -3,8 +3,8 @@
   "document_id": "Temporal_AI_Presence_Profile_v1_0",
   "title": "Temporal AI Presence Profile v1.0",
   "version": "1.0",
-  "status": "Final Zenodo deposit package",
-  "publication_status": "final-zenodo-deposit-package",
+  "status": "Final Zenodo pre-publication package",
+  "publication_status": "final-zenodo-pre-publication-package",
   "doi": "10.5281/zenodo.22070960",
   "date": "2026-08-23",
   "canonical_definition": "Temporal AI Presence = sustained bounded AI participation across time.",
@@ -441,6 +441,15 @@
       "concept_doi": null,
       "concept_doi_state": "pending_first_publication",
       "status": "FINAL_ZENODO_DEPOSIT_PACKAGE"
+    },
+    "r3c_concept_doi_freeze": {
+      "date": "2026-08-23",
+      "version_doi": "10.5281/zenodo.22070960",
+      "concept_doi": "10.5281/zenodo.22070959",
+      "version_doi_role": "specific_immutable_v1.0_record",
+      "concept_doi_role": "all_versions",
+      "registration_state": "pending_publication",
+      "status": "FINAL_ZENODO_PRE_PUBLICATION_PACKAGE"
     }
   },
   "current_evidence_ceiling": {
@@ -457,7 +466,7 @@
     "public_immutable_code_reference_complete": false,
     "independent_external_replication_complete": false
   },
-  "concept_doi": null,
+  "concept_doi": "10.5281/zenodo.22070959",
   "t03_deployment_boundary": {
     "status": "partial",
     "repository_owned_unresolved": 0,
@@ -477,7 +486,9 @@
     "public_immutable_code_reference_complete": false,
     "independent_external_replication_complete": false
   },
-  "publication_state": "final_zenodo_deposit_package",
+  "publication_state": "final_zenodo_pre_publication_package",
   "doi_url": "https://doi.org/10.5281/zenodo.22070960",
-  "concept_doi_state": "pending_first_publication"
+  "concept_doi_state": "pending_first_publication",
+  "concept_doi_url": "https://doi.org/10.5281/zenodo.22070959",
+  "doi_registration_state": "pending_publication"
 }

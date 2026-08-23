@@ -4,9 +4,10 @@
 **ORCID:** https://orcid.org/0009-0009-6002-9845  
 **Version:** 1.0  
 **Date:** 2026-08-23  
-**Publication state:** `final_zenodo_deposit_package`
+**Publication state:** `final_zenodo_pre_publication_package`
 **Zenodo version DOI:** 10.5281/zenodo.22070960
-**Concept DOI:** pending first publication
+**Zenodo Concept DOI:** 10.5281/zenodo.22070959
+**DOI registration state:** pending publication
 
 > Temporal AI Presence = sustained bounded AI participation across time.
 
@@ -14,7 +15,7 @@ Temporal AI Presence is not `c` by default. All valid `c`-class systems are Temp
 
 ## Source of record
 
-`Temporal_AI_Presence_Profile_v1_0.md` is the governing source. The PDF is its human-readable rendering. This directory is the final Zenodo deposit package, not yet a published DOI record. The DOI `10.5281/zenodo.22070960` is reserved by Zenodo for this version and is registered when the corresponding Zenodo record is published. The Zenodo Concept DOI will be recorded after the first version is published and Zenodo exposes the exact all-versions identifier.
+`Temporal_AI_Presence_Profile_v1_0.md` is the governing source. The PDF is its human-readable rendering. This directory is the final Zenodo pre-publication package, not yet a published DOI record. Version DOI `10.5281/zenodo.22070960` identifies the specific v1.0 record. Concept DOI `10.5281/zenodo.22070959` identifies all versions. Both identifiers remain pending registration until Zenodo publishes the corresponding record.
 
 ## Reading order
 

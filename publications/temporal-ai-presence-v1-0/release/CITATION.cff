@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: Cite Temporal AI Presence Profile v1.0 using DOI 10.5281/zenodo.22070960. The Concept DOI is pending first publication.
+message: Cite Temporal AI Presence Profile v1.0 using version DOI 10.5281/zenodo.22070960. Concept DOI 10.5281/zenodo.22070959 identifies all versions; registration remains pending publication.
 title: Temporal AI Presence Profile
 type: report
 version: '1.0'
@@ -10,7 +10,7 @@ authors:
   given-names: Ivan
   orcid: https://orcid.org/0009-0009-6002-9845
   affiliation: Independent Researcher, Brussels, Belgium
-abstract: Temporal AI Presence is sustained bounded AI participation across time. This standalone profile defines the temporal-presence category, preserves the boundary between TAP and c-class systems, specifies ten mandatory TAP tests, and publishes a conservative public-safe evidence projection. TAP-T03 remains partial at the deployment boundary. The work claims neither TAP-C nor a full M4 pass. The Zenodo version DOI is 10.5281/zenodo.22070960; the Concept DOI is pending first publication.
+abstract: Temporal AI Presence is sustained bounded AI participation across time. This standalone profile defines the temporal-presence category, preserves the boundary between TAP and c-class systems, specifies ten mandatory TAP tests, and publishes a conservative public-safe evidence projection. TAP-T03 remains partial at the deployment boundary. The work claims neither TAP-C nor a full M4 pass. The Zenodo version DOI is 10.5281/zenodo.22070960; Concept DOI 10.5281/zenodo.22070959 identifies all versions. DOI registration remains pending publication.
 keywords:
 - Temporal AI Presence
 - TAP
@@ -26,6 +26,9 @@ license: CC-BY-4.0
 repository-code: https://github.com/Kot141078/advanced-global-intelligence
 url: https://github.com/Kot141078/advanced-global-intelligence
 identifiers:
+- type: doi
+  value: 10.5281/zenodo.22070959
+  description: Concept DOI / all versions of Temporal AI Presence Profile; registration pending Zenodo publication. The primary v1.0 citation DOI remains 10.5281/zenodo.22070960.
 - type: doi
   value: 10.5281/zenodo.20532198
   description: Parent/integrated c Hardening Pack publication containing TAP v0.1; not the TAP v1.0 DOI.

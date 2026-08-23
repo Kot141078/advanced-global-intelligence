@@ -50,5 +50,5 @@
       "scheme": "doi"
     }
   ],
-  "notes": "Zenodo manages the reserved version DOI 10.5281/zenodo.22070960. It is registered when this record is published. Concept DOI state: pending first publication; no Concept DOI has been guessed."
+  "notes": "Zenodo manages version DOI 10.5281/zenodo.22070960 and Concept DOI 10.5281/zenodo.22070959. The version DOI identifies v1.0; the Concept DOI identifies all versions. Registration remains pending publication. The automatic versioning relation is not duplicated as a Related Work."
 }

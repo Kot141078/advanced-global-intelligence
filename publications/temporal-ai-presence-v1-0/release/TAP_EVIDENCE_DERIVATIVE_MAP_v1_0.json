@@ -1,6 +1,6 @@
 {
   "document_id": "tap-evidence-derivative-map-v1.0",
-  "publication_status": "final-zenodo-deposit-package",
+  "publication_status": "final-zenodo-pre-publication-package",
   "included_byte_identical_count": 9,
   "included_derivative_count": 7,
   "reviewed_core_count": 32,
@@ -212,9 +212,11 @@
       "review_status": "R2C_DERIVATIVE_REQUIRED"
     }
   ],
-  "publication_state": "final_zenodo_deposit_package",
+  "publication_state": "final_zenodo_pre_publication_package",
   "doi": "10.5281/zenodo.22070960",
   "doi_url": "https://doi.org/10.5281/zenodo.22070960",
-  "concept_doi": null,
-  "concept_doi_state": "pending_first_publication"
+  "concept_doi": "10.5281/zenodo.22070959",
+  "concept_doi_state": "pending_first_publication",
+  "concept_doi_url": "https://doi.org/10.5281/zenodo.22070959",
+  "doi_registration_state": "pending_publication"
 }

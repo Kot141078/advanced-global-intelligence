@@ -1,6 +1,6 @@
 {
   "document_id": "tap-code-references-v1.0",
-  "publication_status": "final-zenodo-deposit-package",
+  "publication_status": "final-zenodo-pre-publication-package",
   "references": [
     {
       "name": "TAP-SEC M4 v0.3.2",
@@ -25,9 +25,11 @@
     }
   ],
   "public_immutable_code_reference_complete": false,
-  "publication_state": "final_zenodo_deposit_package",
+  "publication_state": "final_zenodo_pre_publication_package",
   "doi": "10.5281/zenodo.22070960",
   "doi_url": "https://doi.org/10.5281/zenodo.22070960",
-  "concept_doi": null,
-  "concept_doi_state": "pending_first_publication"
+  "concept_doi": "10.5281/zenodo.22070959",
+  "concept_doi_state": "pending_first_publication",
+  "concept_doi_url": "https://doi.org/10.5281/zenodo.22070959",
+  "doi_registration_state": "pending_publication"
 }
