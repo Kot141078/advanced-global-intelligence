@@ -2,9 +2,12 @@
   "schema": "tap.release-manifest.v1.0",
   "title": "Temporal AI Presence Profile v1.0",
   "version": "1.0",
-  "publication_status": "deposit-ready",
-  "doi": null,
+  "publication_status": "final-zenodo-deposit-package",
+  "publication_state": "final_zenodo_deposit_package",
+  "doi": "10.5281/zenodo.22070960",
+  "doi_url": "https://doi.org/10.5281/zenodo.22070960",
   "concept_doi": null,
+  "concept_doi_state": "pending_first_publication",
   "date": "2026-08-23",
   "author": "Ivan Kotov",
   "orcid": "0009-0009-6002-9845",
@@ -17,29 +20,29 @@
   "entries": [
     {
       "path": ".zenodo.json",
-      "sha256": "0379f908cb8321e422bf3d28780a3a76b6d9dd1beb5475658b12016ee37c335e",
-      "bytes": 1584,
+      "sha256": "f81654eff5473c1ddb495aa4d1cf607aa99078ecd67c3f62e5ac0d98c29257b1",
+      "bytes": 1736,
       "media_type": "application/json",
       "role": "deposit_metadata",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "CITATION.cff",
-      "sha256": "a3e08a01642824a5dcf16aa93ccbc659a8192394fc40842dd89f4e0a37e787f1",
-      "bytes": 2150,
+      "sha256": "7cb0c97d3c273768fb012b52dbb860c1e21a930c7c53528f289f48036f6d0a16",
+      "bytes": 2044,
       "media_type": "application/yaml",
       "role": "citation_metadata",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "LICENSE.md",
-      "sha256": "104ece1d3e4af0d7b26ef13a9c21abce636a5516fd1c9ff280245c493d26c659",
-      "bytes": 756,
+      "sha256": "b01e74b6ed0f11bb6d02aa7fa731c9042853affdb3769785bda27ddba328c7d1",
+      "bytes": 747,
       "media_type": "text/markdown",
       "role": "license_text",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
@@ -48,7 +51,7 @@
       "bytes": 823,
       "media_type": "text/markdown",
       "role": "license_policy",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
@@ -57,79 +60,79 @@
       "bytes": 1174,
       "media_type": "text/markdown",
       "role": "non_claims",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "PROVENANCE.md",
-      "sha256": "1c98d76ccf5e3334036306926ba87829f03988637d4e73f0507a498a6a01f00e",
-      "bytes": 2183,
+      "sha256": "dcec6f5aaec80cec87944a1cffa71672b3f157b629f53f8eb0644c791219636e",
+      "bytes": 2505,
       "media_type": "text/markdown",
       "role": "provenance",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "README.md",
-      "sha256": "67cd9e10aa1e3b159d753ed095c9b1ffe1d25893f296a1e07868a291190eb2e9",
-      "bytes": 3935,
+      "sha256": "c690a30e864af561b5ed20457c863359824c288f88061518d4bf5874d47c98e6",
+      "bytes": 4158,
       "media_type": "text/markdown",
       "role": "package_readme",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "sha256": "42e81a49a28ec91a502222e06162a6accc756c965a5e9f90b6cad9af41bec41c",
-      "bytes": 1643,
+      "sha256": "1a40e40c92aeb40a4f48516e3209a857f4e106f2c96a7e3e56ece735a0a66196",
+      "bytes": 1842,
       "media_type": "text/markdown",
       "role": "release_notes",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "TAP_CODE_REFERENCES_v1_0.json",
-      "sha256": "95ec25830e01f104bbb4f84234c1de7f0c76388a47a1ccf064bcc59763334920",
-      "bytes": 1054,
+      "sha256": "8c9f9afdddaf434ec855fa9338a3aaddac30d48db050f88f4700073fecff1248",
+      "bytes": 1291,
       "media_type": "application/json",
       "role": "code_references",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "TAP_EVIDENCE_BASELINE_v1_0.json",
-      "sha256": "c61fc5bdddc961c7e8703549c9c6939dcf02acdcaa2dff33a30ec53ee926780b",
-      "bytes": 8733,
+      "sha256": "1f267a7815812916dac0242cdc38accc106c34399229122402ec9630f9397d0a",
+      "bytes": 8932,
       "media_type": "application/json",
       "role": "historical_evidence_baseline",
-      "source": "R1_FINALIZED_FOR_R3A",
+      "source": "R1_FINALIZED_FOR_R3A_AND_DOI_BOUND_IN_R3B",
       "license": "CC-BY-4.0"
     },
     {
       "path": "TAP_EVIDENCE_DERIVATIVE_MAP_v1_0.json",
-      "sha256": "a7d4a4b30071eb654873aa7109e71daf34c4719f2d298e98908e3456e6f16f52",
-      "bytes": 9962,
+      "sha256": "98c930323ac2da6cd29517480766f8fad5bf213aab13bae45abb196a9e50a11d",
+      "bytes": 10199,
       "media_type": "application/json",
       "role": "derivative_map",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "TAP_EVIDENCE_INDEX_v1_0.json",
-      "sha256": "ff2541e8a22f4bcf1a0191083dc3f98831ace02f79e4177c2b6e929aec75df00",
-      "bytes": 21447,
+      "sha256": "30d959c7d4687c39159575e12734c54511ab18516f4165cc1c1a3a3c66a76400",
+      "bytes": 21647,
       "media_type": "application/json",
       "role": "evidence_index",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "TAP_IMPLEMENTATION_CROSSWALK_v1_0.md",
-      "sha256": "1508dc83cbd4d42251f4a5b64ca3caa9db64cb3abab00df3810231c21618f3e3",
-      "bytes": 3185,
+      "sha256": "d7ab01d233f016b7694c3a0fb5db81499e288e0d0e65a912ca0c7b9f5483cfac",
+      "bytes": 3234,
       "media_type": "text/markdown",
       "role": "implementation_crosswalk",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
@@ -138,43 +141,43 @@
       "bytes": 5801,
       "media_type": "text/csv",
       "role": "public_evidence_matrix",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "TAP_T03_DEPLOYMENT_BOUNDARY_v1_0.md",
-      "sha256": "eca69b9c46263ad0f22a0bd2062797139d6c0a6e9e1d347a10d2f28a54425101",
-      "bytes": 1403,
+      "sha256": "afbad57efc02855c2117a0b6b40e650af86a1e74800bd5ecf48365f509934983",
+      "bytes": 1451,
       "media_type": "text/markdown",
       "role": "deployment_boundary",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "TAP_VALIDATION_SUMMARY_v1_0.json",
-      "sha256": "809ceea4b77e3535e1ba4c25f5ea1f0ce507993792099b67db228df002c05330",
-      "bytes": 1143,
+      "sha256": "7a238dbf5d23fc1dac6d4755969cffaeeca21b47913f8bc5366e1702e5d2527f",
+      "bytes": 1380,
       "media_type": "application/json",
       "role": "validation_summary",
-      "source": "R3A_PACKAGE_METADATA",
+      "source": "R3B_PACKAGE_METADATA",
       "license": "CC-BY-4.0"
     },
     {
       "path": "Temporal_AI_Presence_Profile_v1_0.md",
-      "sha256": "b19b2a0568e8330b39fcabafa43a5a74a557f2e444d5d1f5a759005b5bfc5c8f",
-      "bytes": 42625,
+      "sha256": "0a18835948e85c9c396e5ddcf8d4166a35809e2c6c94768c6cc2654978f85833",
+      "bytes": 43118,
       "media_type": "text/markdown",
       "role": "canonical_normative_source",
-      "source": "R1_FINALIZED_FOR_R3A",
+      "source": "R1_FINALIZED_FOR_R3A_AND_DOI_BOUND_IN_R3B",
       "license": "CC-BY-4.0"
     },
     {
       "path": "Temporal_AI_Presence_Profile_v1_0.pdf",
-      "sha256": "109c8cc10259c96e0bf817f71a6355cc8684746b00471fdf2adb453ca8da34f0",
-      "bytes": 211547,
+      "sha256": "2814eea1c6e08cbc6ea15821835996c9ef2469e26cd064a805f572ea114c9a8d",
+      "bytes": 212889,
       "media_type": "application/pdf",
       "role": "reader_pdf",
-      "source": "R1_FINALIZED_FOR_R3A",
+      "source": "R1_FINALIZED_FOR_R3A_AND_DOI_BOUND_IN_R3B",
       "license": "CC-BY-4.0"
     },
     {
@@ -323,20 +326,20 @@
     },
     {
       "path": "temporal_ai_presence_v1_0.json",
-      "sha256": "6b6da5885f6982bbef28f4f4d105044a5fe3ef91723b6b9647b412c3537bc36e",
-      "bytes": 13471,
+      "sha256": "9671197165bedc38b3781e8693380e0558a723d2361db2dd115a5b27f6c20309",
+      "bytes": 13990,
       "media_type": "application/json",
       "role": "machine_normative_instance",
-      "source": "R1_FINALIZED_FOR_R3A",
+      "source": "R1_FINALIZED_FOR_R3A_AND_DOI_BOUND_IN_R3B",
       "license": "CC-BY-4.0"
     },
     {
       "path": "temporal_ai_presence_v1_0.schema.json",
-      "sha256": "48a79d3abcb75fe5e4b3a886437f08e50604197d86b0e9e73252cbff29299296",
-      "bytes": 9484,
+      "sha256": "75ebf83dbacc03562229b7c671bc728bad0b7c139c65ec8e82b9451192b0f0d5",
+      "bytes": 9818,
       "media_type": "application/json",
       "role": "json_schema",
-      "source": "R1_FINALIZED_FOR_R3A",
+      "source": "R1_FINALIZED_FOR_R3A_AND_DOI_BOUND_IN_R3B",
       "license": "CC-BY-4.0"
     }
   ]
