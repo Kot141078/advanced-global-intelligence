@@ -1,6 +1,7 @@
 # TAP-T03 Deployment Boundary v1.0
 
 **Status:** partial
+**Zenodo version DOI:** 10.5281/zenodo.22070960
 
 TAP-T03 remains partial.
 

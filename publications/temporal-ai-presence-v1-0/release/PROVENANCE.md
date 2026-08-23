@@ -36,6 +36,10 @@ Commit `a668e0501dd9b975fa5e455da781611f9534e509` closed repository-owned T03/T0
 
 ## 2026-08-23 - R3A deposit package freeze
 
-R3A freezes this standalone, public-safe, deposit-ready package. The standalone version DOI and concept DOI remain `UNASSIGNED`. R3B will bind Zenodo-reserved values before any publication or final release tag.
+R3A froze the standalone public-safe pre-DOI package with both DOI fields unassigned at that historical stage.
+
+## 2026-08-23 - R3B reserved DOI binding and final release freeze
+
+R3B binds Zenodo version DOI `10.5281/zenodo.22070960` to the final pre-publication package. The DOI is reserved but is not represented as registered or resolvable before Zenodo publication. The Concept DOI is not guessed. The Zenodo Concept DOI will be recorded after the first version is published and Zenodo exposes the exact all-versions identifier.
 
 Domain registration is namespace provenance only and is not technical prior art.

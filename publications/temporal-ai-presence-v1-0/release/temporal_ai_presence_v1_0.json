@@ -3,9 +3,9 @@
   "document_id": "Temporal_AI_Presence_Profile_v1_0",
   "title": "Temporal AI Presence Profile v1.0",
   "version": "1.0",
-  "status": "Standalone DOI deposit candidate",
-  "publication_status": "deposit-ready",
-  "doi": null,
+  "status": "Final Zenodo deposit package",
+  "publication_status": "final-zenodo-deposit-package",
+  "doi": "10.5281/zenodo.22070960",
   "date": "2026-08-23",
   "canonical_definition": "Temporal AI Presence = sustained bounded AI participation across time.",
   "primary_rule": "Temporal AI Presence is not c by default. c is the stricter anchored, governed, L4-bound form of Temporal AI Presence.",
@@ -430,9 +430,17 @@
     },
     "r3a_deposit_freeze": {
       "date": "2026-08-23",
-      "doi": null,
-      "concept_doi": null,
+      "doi_state_at_r3a": "unassigned",
+      "concept_doi_state_at_r3a": "unassigned",
       "status": "DEPOSIT_READY"
+    },
+    "r3b_final_freeze": {
+      "date": "2026-08-23",
+      "doi": "10.5281/zenodo.22070960",
+      "doi_state": "reserved_pending_publication",
+      "concept_doi": null,
+      "concept_doi_state": "pending_first_publication",
+      "status": "FINAL_ZENODO_DEPOSIT_PACKAGE"
     }
   },
   "current_evidence_ceiling": {
@@ -468,5 +476,8 @@
     "r2b_bundle_included": false,
     "public_immutable_code_reference_complete": false,
     "independent_external_replication_complete": false
-  }
+  },
+  "publication_state": "final_zenodo_deposit_package",
+  "doi_url": "https://doi.org/10.5281/zenodo.22070960",
+  "concept_doi_state": "pending_first_publication"
 }

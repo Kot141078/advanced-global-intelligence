@@ -1,5 +1,7 @@
 # TAP Implementation Crosswalk v1.0
 
+**Zenodo version DOI:** 10.5281/zenodo.22070960
+
 One local reference implementation candidate was tested against the TAP contract. It does not define TAP, prove `c`, establish `TAP-C`, or prove consciousness, personhood, sovereignty, legal status, production readiness, or universal safety.
 
 | Test | Normative requirement | Public basis | Local candidate basis | Public-safe artifact | Current public status | Maximum after publication | Remaining limitation |

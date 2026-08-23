@@ -1,6 +1,6 @@
 {
   "document_id": "tap-code-references-v1.0",
-  "publication_status": "deposit-ready",
+  "publication_status": "final-zenodo-deposit-package",
   "references": [
     {
       "name": "TAP-SEC M4 v0.3.2",
@@ -24,5 +24,10 @@
       "M4_FULL_PASS": false
     }
   ],
-  "public_immutable_code_reference_complete": false
+  "public_immutable_code_reference_complete": false,
+  "publication_state": "final_zenodo_deposit_package",
+  "doi": "10.5281/zenodo.22070960",
+  "doi_url": "https://doi.org/10.5281/zenodo.22070960",
+  "concept_doi": null,
+  "concept_doi_state": "pending_first_publication"
 }

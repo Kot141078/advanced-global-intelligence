@@ -32,7 +32,10 @@
     "current_evidence_ceiling",
     "concept_doi",
     "t03_deployment_boundary",
-    "public_local_evidence_boundary"
+    "public_local_evidence_boundary",
+    "publication_state",
+    "doi_url",
+    "concept_doi_state"
   ],
   "properties": {
     "$schema": {
@@ -48,13 +51,13 @@
       "const": "1.0"
     },
     "status": {
-      "const": "Standalone DOI deposit candidate"
+      "const": "Final Zenodo deposit package"
     },
     "publication_status": {
-      "const": "deposit-ready"
+      "const": "final-zenodo-deposit-package"
     },
     "doi": {
-      "type": "null"
+      "const": "10.5281/zenodo.22070960"
     },
     "date": {
       "type": "string",
@@ -274,6 +277,15 @@
           "const": false
         }
       }
+    },
+    "publication_state": {
+      "const": "final_zenodo_deposit_package"
+    },
+    "doi_url": {
+      "const": "https://doi.org/10.5281/zenodo.22070960"
+    },
+    "concept_doi_state": {
+      "const": "pending_first_publication"
     }
   },
   "$defs": {

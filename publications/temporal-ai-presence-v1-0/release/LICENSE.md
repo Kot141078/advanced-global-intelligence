@@ -9,6 +9,6 @@ You may share and adapt the material for any purpose, including commercial use, 
 License deed: https://creativecommons.org/licenses/by/4.0/  
 Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
 
-Recommended pre-DOI attribution:
+Recommended version attribution:
 
-> Kotov, Ivan. *Temporal AI Presence Profile*. Version 1.0, 2026-08-23. Deposit-ready package, DOI unassigned. CC BY 4.0.
+> Kotov, Ivan. *Temporal AI Presence Profile*. Version 1.0, 2026-08-23. DOI: 10.5281/zenodo.22070960. CC BY 4.0.

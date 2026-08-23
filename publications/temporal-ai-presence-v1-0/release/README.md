@@ -4,9 +4,9 @@
 **ORCID:** https://orcid.org/0009-0009-6002-9845  
 **Version:** 1.0  
 **Date:** 2026-08-23  
-**Publication state:** `deposit-ready`  
-**Version DOI:** unassigned  
-**Concept DOI:** unassigned
+**Publication state:** `final_zenodo_deposit_package`
+**Zenodo version DOI:** 10.5281/zenodo.22070960
+**Concept DOI:** pending first publication
 
 > Temporal AI Presence = sustained bounded AI participation across time.
 
@@ -14,7 +14,7 @@ Temporal AI Presence is not `c` by default. All valid `c`-class systems are Temp
 
 ## Source of record
 
-`Temporal_AI_Presence_Profile_v1_0.md` is the governing source. The PDF is its human-readable rendering. This directory is a Zenodo deposit candidate, not yet a published DOI record. Zenodo assigns the standalone DOI externally; R3B will bind the reserved version and concept DOI values before publication.
+`Temporal_AI_Presence_Profile_v1_0.md` is the governing source. The PDF is its human-readable rendering. This directory is the final Zenodo deposit package, not yet a published DOI record. The DOI `10.5281/zenodo.22070960` is reserved by Zenodo for this version and is registered when the corresponding Zenodo record is published. The Zenodo Concept DOI will be recorded after the first version is published and Zenodo exposes the exact all-versions identifier.
 
 ## Reading order
 
@@ -54,7 +54,7 @@ The historical TAP v0.1 profile is integrated in the parent c Hardening Pack v0.
 
 ## Citation
 
-Until R3B binds the Zenodo DOI, cite the title, author, version, date, repository, and package SHA-256. Do not substitute the parent DOI for the unassigned standalone DOI.
+Cite this version using DOI `10.5281/zenodo.22070960` together with the title, author, version, and date. The parent DOI remains a related identifier, not the standalone TAP v1.0 DOI.
 
 ## Verification
 
@@ -62,4 +62,4 @@ From the release directory, verify every line of `SHA256SUMS.txt` against the co
 
 ## Deposit instruction
 
-Create a Zenodo draft, reserve the version DOI, record the concept DOI, do not publish, and return both DOI values for R3B. Do not publish this pre-DOI package as the final record.
+Upload exactly the eight files in the validated `final_upload/` custody set, enter the generated Zenodo form values, save the draft, validate, preview, and do not publish until owner review.

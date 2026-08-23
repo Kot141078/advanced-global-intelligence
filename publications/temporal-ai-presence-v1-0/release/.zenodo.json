@@ -15,8 +15,6 @@
   "version": "1.0",
   "publication_date": "2026-08-23",
   "language": "eng",
-  "doi": null,
-  "concept_doi": null,
   "keywords": [
     "Temporal AI Presence",
     "TAP",
@@ -25,15 +23,32 @@
     "AI continuity",
     "memory governance",
     "local AI",
+    "background processing",
     "L4",
     "witness",
     "c = a + b"
   ],
   "related_identifiers": [
-    {"identifier": "10.5281/zenodo.20532198", "relation": "isDerivedFrom", "scheme": "doi"},
-    {"identifier": "10.5281/zenodo.21688521", "relation": "references", "scheme": "doi"},
-    {"identifier": "10.5281/zenodo.22060517", "relation": "references", "scheme": "doi"},
-    {"identifier": "10.5281/zenodo.21497098", "relation": "references", "scheme": "doi"}
+    {
+      "identifier": "10.5281/zenodo.20532198",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.21688521",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22060517",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.21497098",
+      "relation": "references",
+      "scheme": "doi"
+    }
   ],
-  "notes": "Deposit-ready candidate. Standalone version and concept DOI values are unassigned and must be bound in R3B before publication."
+  "notes": "Zenodo manages the reserved version DOI 10.5281/zenodo.22070960. It is registered when this record is published. Concept DOI state: pending first publication; no Concept DOI has been guessed."
 }
