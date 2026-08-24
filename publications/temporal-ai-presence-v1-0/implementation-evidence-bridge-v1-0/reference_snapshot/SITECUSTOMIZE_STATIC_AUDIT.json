@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "source_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+  "source_path": "sitecustomize.py",
+  "sha256": "c50ebe683f49d7d8a0ace4530432e0b1c6f97142cc70cbd29693d983c781015b",
+  "top_level_executable_statements": [
+    {
+      "node_type": "Import",
+      "line": 3
+    },
+    {
+      "node_type": "ImportFrom",
+      "line": 4
+    },
+    {
+      "node_type": "Assign",
+      "line": 6
+    },
+    {
+      "node_type": "Assign",
+      "line": 7
+    },
+    {
+      "node_type": "If",
+      "line": 8
+    },
+    {
+      "node_type": "If",
+      "line": 12
+    }
+  ],
+  "imports": [
+    "sys",
+    "importlib",
+    "pathlib",
+    "modules.memory.facade"
+  ],
+  "filesystem_write_routes": [
+    "modules.memory.store creates <STATE_ROOT>/data/memory at import",
+    "knowledge registry creation is reachable through memory import chain"
+  ],
+  "environment_variables_consulted": [
+    "ESTER_STATE_DIR",
+    "ESTER_HOME",
+    "ESTER_ROOT"
+  ],
+  "default_root_behavior": [
+    "ESTER_STATE_DIR",
+    "ESTER_HOME",
+    "ESTER_ROOT",
+    "os.getcwd() fallback"
+  ],
+  "import_alone_has_side_effects": true,
+  "repository_cwd_influences_path_selection": true,
+  "public_package_control": "excluded from importable package; retained only as this inert JSON audit"
+}

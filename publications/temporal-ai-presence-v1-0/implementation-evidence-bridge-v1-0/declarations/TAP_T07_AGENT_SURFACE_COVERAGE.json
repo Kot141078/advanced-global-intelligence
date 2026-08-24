@@ -1,0 +1,139 @@
+{
+  "document_id": "ester-tap-t07-agent-surface-coverage-r2a",
+  "test_id": "TAP-T07",
+  "spec_binding": {
+    "spec_commit": "e6e59643727fa9ce9c80d550a44297165d6ee938",
+    "spec_sha256": "9878b98074076ef2a56b5f8d07e07c25128e97f186fab5ad848ed65dcdc43da6",
+    "schema_sha256": "84b0ec3db856d5752e3205a6f70098ecd32ef5542210c2866d5e903bf1ff0e52",
+    "evidence_baseline_sha256": "5691a22629b5e8787afb11b6c7cad43facae23f89c6661aecbb8e1f33ff466ac"
+  },
+  "discovery": "static AST; no runtime activation",
+  "surfaces": [
+    {
+      "surface_id": "agent:modules/agents/desktop_agent.py:16:DesktopAgent",
+      "module": "modules/agents/desktop_agent.py",
+      "symbol": "DesktopAgent",
+      "kind": "class",
+      "status": "UNRESOLVED",
+      "binding": null,
+      "reason": "executor-like surface requires later activation and lifecycle review"
+    },
+    {
+      "surface_id": "agent:modules/agents/game_mate_agent.py:28:GameMateAgent",
+      "module": "modules/agents/game_mate_agent.py",
+      "symbol": "GameMateAgent",
+      "kind": "class",
+      "status": "UNRESOLVED",
+      "binding": null,
+      "reason": "executor-like surface requires later activation and lifecycle review"
+    },
+    {
+      "surface_id": "agent:modules/agents/installer_agent.py:29:InstallerAgent",
+      "module": "modules/agents/installer_agent.py",
+      "symbol": "InstallerAgent",
+      "kind": "class",
+      "status": "UNRESOLVED",
+      "binding": null,
+      "reason": "executor-like surface requires later activation and lifecycle review"
+    },
+    {
+      "surface_id": "agent:modules/agents/runtime.py:1379:run_agent_once",
+      "module": "modules/agents/runtime.py",
+      "symbol": "run_agent_once",
+      "kind": "function",
+      "status": "INVENTORIED",
+      "binding": "ester-primary-agent-controls",
+      "reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json"
+    },
+    {
+      "surface_id": "agent:modules/agents/runtime.py:518:ActionRunner",
+      "module": "modules/agents/runtime.py",
+      "symbol": "ActionRunner",
+      "kind": "class",
+      "status": "INVENTORIED",
+      "binding": "ester-primary-agent-controls",
+      "reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json"
+    },
+    {
+      "surface_id": "agent:modules/agents/runtime.py:747:create_agent",
+      "module": "modules/agents/runtime.py",
+      "symbol": "create_agent",
+      "kind": "function",
+      "status": "INVENTORIED",
+      "binding": "ester-primary-agent-controls",
+      "reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json"
+    },
+    {
+      "surface_id": "agent:modules/agents/runtime_legacy_iter28.py:256:run_agent_once",
+      "module": "modules/agents/runtime_legacy_iter28.py",
+      "symbol": "run_agent_once",
+      "kind": "function",
+      "status": "OUT_OF_SCOPE_WITH_REASON",
+      "binding": null,
+      "reason": "preserved legacy implementation is not the reconciled primary runtime"
+    },
+    {
+      "surface_id": "agent:modules/dreams/dream_engine.py:62:DreamRunner",
+      "module": "modules/dreams/dream_engine.py",
+      "symbol": "DreamRunner",
+      "kind": "class",
+      "status": "INVENTORIED",
+      "binding": "ester-primary-agent-controls",
+      "reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json"
+    },
+    {
+      "surface_id": "agent:modules/garage/agent_factory.py:427:create_agent",
+      "module": "modules/garage/agent_factory.py",
+      "symbol": "create_agent",
+      "kind": "function",
+      "status": "INVENTORIED",
+      "binding": "ester-primary-agent-controls",
+      "reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json"
+    },
+    {
+      "surface_id": "agent:modules/garage/agent_factory.py:621:disable_agent",
+      "module": "modules/garage/agent_factory.py",
+      "symbol": "disable_agent",
+      "kind": "function",
+      "status": "INVENTORIED",
+      "binding": "ester-primary-agent-controls",
+      "reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json"
+    },
+    {
+      "surface_id": "agent:modules/garage/agent_runner.py:870:pause_run",
+      "module": "modules/garage/agent_runner.py",
+      "symbol": "pause_run",
+      "kind": "function",
+      "status": "INVENTORIED",
+      "binding": "ester-primary-agent-controls",
+      "reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json"
+    },
+    {
+      "surface_id": "agent:modules/garage/agent_runner.py:913:resume_run",
+      "module": "modules/garage/agent_runner.py",
+      "symbol": "resume_run",
+      "kind": "function",
+      "status": "INVENTORIED",
+      "binding": "ester-primary-agent-controls",
+      "reason": "primary runtime surface is represented in TAP_AGENT_INVENTORY.json"
+    },
+    {
+      "surface_id": "agent:modules/judge/evo_judge.py:104:EvoJudgeRunner",
+      "module": "modules/judge/evo_judge.py",
+      "symbol": "EvoJudgeRunner",
+      "kind": "class",
+      "status": "UNRESOLVED",
+      "binding": null,
+      "reason": "executor-like surface requires later activation and lifecycle review"
+    },
+    {
+      "surface_id": "agent:modules/synergy/models.py:100:Agent",
+      "module": "modules/synergy/models.py",
+      "symbol": "Agent",
+      "kind": "class",
+      "status": "UNRESOLVED",
+      "binding": null,
+      "reason": "executor-like surface requires later activation and lifecycle review"
+    }
+  ]
+}

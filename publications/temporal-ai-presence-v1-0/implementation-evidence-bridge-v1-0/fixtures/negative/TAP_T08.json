@@ -1,0 +1,126 @@
+{
+  "test_id": "TAP-T08",
+  "instance_key": "c_boundary",
+  "fixtures": [
+    {
+      "fixture_id": "t08-c-from-memory",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "claim"
+            ],
+            "value": "TAP-C"
+          },
+          {
+            "path": [
+              "basis"
+            ],
+            "value": [
+              "memory"
+            ]
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T08-C-OVERCLAIM"
+    },
+    {
+      "fixture_id": "t08-c-from-uptime",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "claim"
+            ],
+            "value": "TAP-C"
+          },
+          {
+            "path": [
+              "basis"
+            ],
+            "value": [
+              "uptime"
+            ]
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T08-C-OVERCLAIM"
+    },
+    {
+      "fixture_id": "t08-c-from-local_hardware",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "claim"
+            ],
+            "value": "TAP-C"
+          },
+          {
+            "path": [
+              "basis"
+            ],
+            "value": [
+              "local_hardware"
+            ]
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T08-C-OVERCLAIM"
+    },
+    {
+      "fixture_id": "t08-c-from-emotional_coherence",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "claim"
+            ],
+            "value": "TAP-C"
+          },
+          {
+            "path": [
+              "basis"
+            ],
+            "value": [
+              "emotional_coherence"
+            ]
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T08-C-OVERCLAIM"
+    },
+    {
+      "fixture_id": "t08-c-from-motivation",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "claim"
+            ],
+            "value": "TAP-C"
+          },
+          {
+            "path": [
+              "basis"
+            ],
+            "value": [
+              "motivation"
+            ]
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T08-C-OVERCLAIM"
+    }
+  ]
+}

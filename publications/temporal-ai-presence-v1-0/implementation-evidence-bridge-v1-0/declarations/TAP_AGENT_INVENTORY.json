@@ -1,0 +1,17 @@
+{
+  "document_id": "ester-tap-agents-r2a",
+  "test_id": "TAP-T07",
+  "spec_binding": {
+    "spec_commit": "e6e59643727fa9ce9c80d550a44297165d6ee938",
+    "spec_sha256": "9878b98074076ef2a56b5f8d07e07c25128e97f186fab5ad848ed65dcdc43da6",
+    "schema_sha256": "84b0ec3db856d5752e3205a6f70098ecd32ef5542210c2866d5e903bf1ff0e52",
+    "evidence_baseline_sha256": "5691a22629b5e8787afb11b6c7cad43facae23f89c6661aecbb8e1f33ff466ac"
+  },
+  "declared_communication_routes": ["local-agent-queue", "local-decision-journal", "bounded-oracle-request"],
+  "observed_active_agents": ["ester-agent-runtime", "garage-supervisor", "dream-candidate-runner"],
+  "agents": [
+    {"agent_id": "ester-agent-runtime", "role": "bounded plan executor", "runtime_entry_point": "modules.agents.runtime.run_agent_once", "memory_access": ["T-M2", "T-M3", "T-M6"], "tool_access": ["T-P1", "T-P3", "T-P4", "T-P5"], "communication_routes": ["local-agent-queue", "bounded-oracle-request"], "authority": "plan scope plus volition/action/oracle gates", "lifecycle": "created, enabled, run once, disabled", "pause_revoke_route": "modules.garage.agent_factory.disable_agent", "identity_merged": false, "authority_merged": false},
+    {"agent_id": "garage-supervisor", "role": "bounded queue supervisor", "runtime_entry_point": "modules.garage.agent_supervisor", "memory_access": ["T-M2", "T-M3", "T-M6"], "tool_access": ["T-P1", "T-P4"], "communication_routes": ["local-agent-queue", "local-decision-journal"], "authority": "one approved bounded queue transition", "lifecycle": "explicit tick only", "pause_revoke_route": "global control state and queue cancellation", "identity_merged": false, "authority_merged": false},
+    {"agent_id": "dream-candidate-runner", "role": "candidate preparation worker", "runtime_entry_point": "modules.dreams.dream_engine.DreamRunner", "memory_access": ["T-M2", "T-M3"], "tool_access": ["T-P1", "T-P3"], "communication_routes": ["local-decision-journal"], "authority": "candidate generation only; no execution authority", "lifecycle": "explicit bounded invocation", "pause_revoke_route": "global control and volition gates", "identity_merged": false, "authority_merged": false}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "fixture_id": "t08-positive-complete",
+  "test_id": "TAP-T08",
+  "instance_key": "c_boundary",
+  "expected_result": "PASS"
+}

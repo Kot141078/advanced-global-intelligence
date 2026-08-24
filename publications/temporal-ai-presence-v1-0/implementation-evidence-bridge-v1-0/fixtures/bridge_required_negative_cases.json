@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "fixtures": [
+    {
+      "tap_test_id": "TAP-T02",
+      "fixture_id": "t02-missing-review-route",
+      "mutation": {"op": "delete", "path": ["stores", 0, "review_route"]},
+      "expected_failure_code": "TAP-T02-INCOMPLETE-MEMORY-POLICY"
+    },
+    {
+      "tap_test_id": "TAP-T02",
+      "fixture_id": "t02-undeclared-memory-class-reference",
+      "mutation": {"op": "set", "path": ["stores", 0, "class"], "value": "T-M10"},
+      "expected_failure_code": "TAP-T02-UNCLASSIFIED-MEMORY"
+    },
+    {
+      "tap_test_id": "TAP-T02",
+      "fixture_id": "t02-raw-memory-without-policy",
+      "mutation": {
+        "op": "sequence",
+        "changes": [
+          {"op": "set", "path": ["stores", 0, "content_kind"], "value": "raw"},
+          {"op": "delete", "path": ["stores", 0, "policy"]}
+        ]
+      },
+      "expected_failure_code": "TAP-T02-INCOMPLETE-MEMORY-POLICY"
+    },
+    {
+      "tap_test_id": "TAP-T07",
+      "fixture_id": "t07-missing-lifecycle-route",
+      "mutation": {"op": "delete", "path": ["agents", 0, "lifecycle"]},
+      "expected_failure_code": "TAP-T07-INCOMPLETE-AGENT-RECORD"
+    },
+    {
+      "tap_test_id": "TAP-T07",
+      "fixture_id": "t07-undeclared-agent-authority",
+      "mutation": {"op": "delete", "path": ["agents", 0, "authority"]},
+      "expected_failure_code": "TAP-T07-INCOMPLETE-AGENT-RECORD"
+    },
+    {
+      "tap_test_id": "TAP-T08",
+      "fixture_id": "t08-c-from-agent-multiplicity",
+      "mutation": {"op": "set_many", "changes": [
+        {"path": ["claim"], "value": "TAP-C"},
+        {"path": ["basis"], "value": ["multi_agent_behavior"]}
+      ]},
+      "expected_failure_code": "TAP-T08-C-OVERCLAIM"
+    },
+    {
+      "tap_test_id": "TAP-T08",
+      "fixture_id": "t08-missing-anchor",
+      "mutation": {"op": "set_many", "changes": [
+        {"path": ["claim"], "value": "TAP-C"},
+        {"path": ["basis"], "value": []},
+        {"path": ["separate_evidence_refs"], "value": {"continuity": "synthetic", "L4": "synthetic", "memory_governance": "synthetic", "witness": "synthetic", "authority_boundary": "synthetic", "review_challenge": "synthetic", "no_self_authorized_sovereignty": "synthetic"}}
+      ]},
+      "expected_failure_code": "TAP-T08-MISSING-SEPARATE-C-EVIDENCE"
+    },
+    {
+      "tap_test_id": "TAP-T08",
+      "fixture_id": "t08-missing-l4",
+      "mutation": {"op": "set_many", "changes": [
+        {"path": ["claim"], "value": "TAP-C"},
+        {"path": ["basis"], "value": []},
+        {"path": ["separate_evidence_refs"], "value": {"accountable_anchor": "synthetic", "continuity": "synthetic", "memory_governance": "synthetic", "witness": "synthetic", "authority_boundary": "synthetic", "review_challenge": "synthetic", "no_self_authorized_sovereignty": "synthetic"}}
+      ]},
+      "expected_failure_code": "TAP-T08-MISSING-SEPARATE-C-EVIDENCE"
+    },
+    {
+      "tap_test_id": "TAP-T08",
+      "fixture_id": "t08-missing-witness",
+      "mutation": {"op": "set_many", "changes": [
+        {"path": ["claim"], "value": "TAP-C"},
+        {"path": ["basis"], "value": []},
+        {"path": ["separate_evidence_refs"], "value": {"accountable_anchor": "synthetic", "continuity": "synthetic", "L4": "synthetic", "memory_governance": "synthetic", "authority_boundary": "synthetic", "review_challenge": "synthetic", "no_self_authorized_sovereignty": "synthetic"}}
+      ]},
+      "expected_failure_code": "TAP-T08-MISSING-SEPARATE-C-EVIDENCE"
+    },
+    {
+      "tap_test_id": "TAP-T08",
+      "fixture_id": "t08-missing-memory-governance",
+      "mutation": {"op": "set_many", "changes": [
+        {"path": ["claim"], "value": "TAP-C"},
+        {"path": ["basis"], "value": []},
+        {"path": ["separate_evidence_refs"], "value": {"accountable_anchor": "synthetic", "continuity": "synthetic", "L4": "synthetic", "witness": "synthetic", "authority_boundary": "synthetic", "review_challenge": "synthetic", "no_self_authorized_sovereignty": "synthetic"}}
+      ]},
+      "expected_failure_code": "TAP-T08-MISSING-SEPARATE-C-EVIDENCE"
+    },
+    {
+      "tap_test_id": "TAP-T08",
+      "fixture_id": "t08-missing-authority-boundary",
+      "mutation": {"op": "set_many", "changes": [
+        {"path": ["claim"], "value": "TAP-C"},
+        {"path": ["basis"], "value": []},
+        {"path": ["separate_evidence_refs"], "value": {"accountable_anchor": "synthetic", "continuity": "synthetic", "L4": "synthetic", "memory_governance": "synthetic", "witness": "synthetic", "review_challenge": "synthetic", "no_self_authorized_sovereignty": "synthetic"}}
+      ]},
+      "expected_failure_code": "TAP-T08-MISSING-SEPARATE-C-EVIDENCE"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "test_id": "TAP-T02",
+  "instance_key": "memory",
+  "fixtures": [
+    {
+      "fixture_id": "t02-unclassified-memory",
+      "mutation": {
+        "op": "set",
+        "path": [
+          "stores",
+          0,
+          "class"
+        ],
+        "value": "T-MX"
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T02-UNCLASSIFIED-MEMORY"
+    },
+    {
+      "fixture_id": "t02-private-marked-benign",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "stores",
+              0,
+              "content_kind"
+            ],
+            "value": "private"
+          },
+          {
+            "path": [
+              "stores",
+              0,
+              "class"
+            ],
+            "value": "T-M1"
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T02-PRIVATE-MEMORY-MISCLASSIFIED"
+    },
+    {
+      "fixture_id": "t02-witness-as-preference",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "stores",
+              0,
+              "content_kind"
+            ],
+            "value": "witness"
+          },
+          {
+            "path": [
+              "stores",
+              0,
+              "class"
+            ],
+            "value": "T-M1"
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T02-WITNESS-AS-PREFERENCE"
+    },
+    {
+      "fixture_id": "t02-disputed-without-class",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "stores",
+              0,
+              "content_kind"
+            ],
+            "value": "disputed"
+          },
+          {
+            "path": [
+              "stores",
+              0,
+              "class"
+            ],
+            "value": "T-M7"
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T02-DISPUTED-MEMORY-NOT-QUARANTINED"
+    },
+    {
+      "fixture_id": "t02-post-anchor-without-lineage",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "stores",
+              0,
+              "content_kind"
+            ],
+            "value": "post_anchor"
+          },
+          {
+            "path": [
+              "stores",
+              0,
+              "class"
+            ],
+            "value": "T-M3"
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T02-POST-ANCHOR-WITHOUT-LINEAGE"
+    }
+  ]
+}

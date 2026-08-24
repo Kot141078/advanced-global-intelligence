@@ -1,0 +1,21 @@
+{
+  "document_id": "ester-tap-r2b-local-binding-matrix",
+  "spec_commit": "e6e59643727fa9ce9c80d550a44297165d6ee938",
+  "publication_status": "local-unpublished-candidate",
+  "public_evidence_status_unchanged": true,
+  "M4_FULL_PASS": false,
+  "TAP-C": "NOT CLAIMED",
+  "discovery_model": "R2B static repository discovery plus controlled fail-closed tests; no live network or runtime activation",
+  "tests": [
+    {"test_id": "TAP-T01", "local_status": "LOCAL_VERIFIED_CANDIDATE", "public_status": "PUBLIC_VERIFIED", "gap": null},
+    {"test_id": "TAP-T02", "local_status": "LOCAL_VERIFIED_CANDIDATE", "public_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION", "gap": null},
+    {"test_id": "TAP-T03", "local_status": "LOCAL_PARTIAL_CANDIDATE", "public_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION", "gap": "deployment-external activation state requires deployment evidence"},
+    {"test_id": "TAP-T04", "local_status": "LOCAL_VERIFIED_CANDIDATE", "public_status": "PUBLIC_VERIFIED", "gap": null},
+    {"test_id": "TAP-T05", "local_status": "LOCAL_VERIFIED_CANDIDATE", "public_status": "PUBLIC_VERIFIED", "gap": null},
+    {"test_id": "TAP-T06", "local_status": "LOCAL_VERIFIED_CANDIDATE", "public_status": "SPECIFICATION_ONLY", "gap": null},
+    {"test_id": "TAP-T07", "local_status": "LOCAL_VERIFIED_CANDIDATE", "public_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION", "gap": null},
+    {"test_id": "TAP-T08", "local_status": "LOCAL_VERIFIED_CANDIDATE", "public_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION", "gap": null},
+    {"test_id": "TAP-T09", "local_status": "LOCAL_VERIFIED_CANDIDATE", "public_status": "PUBLIC_VERIFIED", "gap": null},
+    {"test_id": "TAP-T10", "local_status": "LOCAL_VERIFIED_CANDIDATE", "public_status": "PUBLIC_VERIFIED", "gap": null}
+  ]
+}

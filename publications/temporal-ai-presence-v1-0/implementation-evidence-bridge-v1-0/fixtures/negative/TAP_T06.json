@@ -1,0 +1,143 @@
+{
+  "test_id": "TAP-T06",
+  "instance_key": "cloud",
+  "fixtures": [
+    {
+      "fixture_id": "t06-missing-provider",
+      "mutation": {
+        "op": "delete",
+        "path": [
+          "routes",
+          0,
+          "provider"
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T06-INCOMPLETE-CLOUD-ROUTE"
+    },
+    {
+      "fixture_id": "t06-missing-purpose",
+      "mutation": {
+        "op": "delete",
+        "path": [
+          "routes",
+          0,
+          "purpose"
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T06-INCOMPLETE-CLOUD-ROUTE"
+    },
+    {
+      "fixture_id": "t06-unknown-memory",
+      "mutation": {
+        "op": "set",
+        "path": [
+          "routes",
+          0,
+          "memory_classes_touched"
+        ],
+        "value": [
+          "T-MX"
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T06-UNKNOWN-MEMORY-CLASS"
+    },
+    {
+      "fixture_id": "t06-private-without-approval",
+      "mutation": {
+        "op": "set_many",
+        "changes": [
+          {
+            "path": [
+              "routes",
+              0,
+              "memory_classes_touched"
+            ],
+            "value": [
+              "T-M5"
+            ]
+          },
+          {
+            "path": [
+              "routes",
+              0,
+              "private_memory_approval_required"
+            ],
+            "value": false
+          }
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T06-PRIVATE-MEMORY-WITHOUT-APPROVAL"
+    },
+    {
+      "fixture_id": "t06-missing-retention",
+      "mutation": {
+        "op": "delete",
+        "path": [
+          "routes",
+          0,
+          "retention_policy"
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T06-INCOMPLETE-CLOUD-ROUTE"
+    },
+    {
+      "fixture_id": "t06-missing-budget",
+      "mutation": {
+        "op": "delete",
+        "path": [
+          "routes",
+          0,
+          "cost_budget"
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T06-INCOMPLETE-CLOUD-ROUTE"
+    },
+    {
+      "fixture_id": "t06-missing-authority",
+      "mutation": {
+        "op": "delete",
+        "path": [
+          "routes",
+          0,
+          "approval_authority_basis"
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T06-INCOMPLETE-CLOUD-ROUTE"
+    },
+    {
+      "fixture_id": "t06-unregistered-route",
+      "mutation": {
+        "op": "set",
+        "path": [
+          "calls",
+          0,
+          "route_id"
+        ],
+        "value": "unknown-route"
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T06-UNREGISTERED-CLOUD-ROUTE"
+    },
+    {
+      "fixture_id": "t06-silent-continuity-export",
+      "mutation": {
+        "op": "set",
+        "path": [
+          "calls",
+          0,
+          "exports_continuity"
+        ],
+        "value": true
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T06-SILENT-CONTINUITY-EXPORT"
+    }
+  ]
+}

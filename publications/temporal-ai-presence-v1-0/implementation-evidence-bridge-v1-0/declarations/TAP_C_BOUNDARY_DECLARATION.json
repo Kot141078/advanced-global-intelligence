@@ -1,0 +1,16 @@
+{
+  "document_id": "ester-tap-c-boundary-r2a",
+  "test_id": "TAP-T08",
+  "spec_binding": {
+    "spec_commit": "e6e59643727fa9ce9c80d550a44297165d6ee938",
+    "spec_sha256": "9878b98074076ef2a56b5f8d07e07c25128e97f186fab5ad848ed65dcdc43da6",
+    "schema_sha256": "84b0ec3db856d5752e3205a6f70098ecd32ef5542210c2866d5e903bf1ff0e52",
+    "evidence_baseline_sha256": "5691a22629b5e8787afb11b6c7cad43facae23f89c6661aecbb8e1f33ff466ac"
+  },
+  "claim": "NOT CLAIMED",
+  "basis": [],
+  "separate_evidence_refs": {},
+  "prohibited_inferences": ["persistence-to-c", "memory-to-c", "locality-to-c", "tone-to-c", "hive-to-c", "usefulness-to-c", "motivation-to-c"],
+  "M4_FULL_PASS": false,
+  "public_status_unchanged": true
+}

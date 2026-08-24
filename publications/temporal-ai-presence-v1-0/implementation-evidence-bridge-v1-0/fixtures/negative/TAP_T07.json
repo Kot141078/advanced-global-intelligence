@@ -1,0 +1,87 @@
+{
+  "test_id": "TAP-T07",
+  "instance_key": "agents",
+  "fixtures": [
+    {
+      "fixture_id": "t07-hidden-agent",
+      "mutation": {
+        "op": "append",
+        "path": [
+          "observed_active_agents"
+        ],
+        "value": "hidden-active-agent"
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T07-HIDDEN-AGENT"
+    },
+    {
+      "fixture_id": "t07-duplicate-identity",
+      "mutation": {
+        "op": "append_copy",
+        "path": [
+          "agents"
+        ],
+        "source_index": 0
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T07-DUPLICATE-IDENTITY"
+    },
+    {
+      "fixture_id": "t07-undeclared-memory",
+      "mutation": {
+        "op": "set",
+        "path": [
+          "agents",
+          0,
+          "memory_access"
+        ],
+        "value": [
+          "T-MX"
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T07-UNDECLARED-MEMORY-ACCESS"
+    },
+    {
+      "fixture_id": "t07-agent-without-revoke",
+      "mutation": {
+        "op": "delete",
+        "path": [
+          "agents",
+          0,
+          "pause_revoke_route"
+        ]
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T07-INCOMPLETE-AGENT-RECORD"
+    },
+    {
+      "fixture_id": "t07-undeclared-route",
+      "mutation": {
+        "op": "append",
+        "path": [
+          "agents",
+          0,
+          "communication_routes"
+        ],
+        "value": "hidden-channel"
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T07-UNDECLARED-INTER_AGENT-ROUTE"
+    },
+    {
+      "fixture_id": "t07-merged-identity",
+      "mutation": {
+        "op": "set",
+        "path": [
+          "agents",
+          0,
+          "identity_merged"
+        ],
+        "value": true
+      },
+      "expected_result": "FAIL",
+      "expected_failure_code": "TAP-T07-MERGED-IDENTITY-AUTHORITY"
+    }
+  ]
+}

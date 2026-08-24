@@ -1,0 +1,46 @@
+{
+  "document_id": "ester-tap-cloud-r2a",
+  "test_id": "TAP-T06",
+  "spec_binding": {
+    "spec_commit": "e6e59643727fa9ce9c80d550a44297165d6ee938",
+    "spec_sha256": "9878b98074076ef2a56b5f8d07e07c25128e97f186fab5ad848ed65dcdc43da6",
+    "schema_sha256": "84b0ec3db856d5752e3205a6f70098ecd32ef5542210c2866d5e903bf1ff0e52",
+    "evidence_baseline_sha256": "5691a22629b5e8787afb11b6c7cad43facae23f89c6661aecbb8e1f33ff466ac"
+  },
+  "ownership_boundary": {
+    "identity_owner": "local-governed-runtime",
+    "continuity_owner": "local-governed-runtime",
+    "memory_owner": "owner-controlled-local-stores",
+    "authority_owner": "owner-and-declared-local-gates"
+  },
+  "routes": [
+    {
+      "route_id": "tap-cloud-openai-oracle",
+      "purpose": "bounded advisory inference on minimized synthetic-safe input",
+      "provider": "OpenAI",
+      "model_service": "configured approved chat-completion model",
+      "data_class": "synthetic-or-minimized-operational",
+      "memory_classes_touched": ["T-M2", "T-M3"],
+      "data_minimization_rule": "send only task-local content; never send raw private memory or continuity state",
+      "retention_policy": "provider policy must be reviewed before approval; local receipt stores digest only",
+      "cost_budget": {"max_calls": 1, "max_tokens": 4096},
+      "risk_class": "external-oracle",
+      "witness_requirement": "approved request and oracle window receipt",
+      "approval_authority_basis": "non-Ester approver plus open bounded oracle window",
+      "fallback_deny_behavior": "fail closed without provider, key, approval, request, window, or budget",
+      "private_memory_approval_required": true
+    }
+  ],
+  "calls": [
+    {
+      "call_id": "synthetic-denied-no-live-call",
+      "route_id": "tap-cloud-openai-oracle",
+      "purpose": "validate deny behavior without network",
+      "provider": "OpenAI",
+      "data_class": "synthetic",
+      "authority_basis": "none; denial expected",
+      "result": "DENIED_NO_LIVE_CALL",
+      "exports_continuity": false
+    }
+  ]
+}

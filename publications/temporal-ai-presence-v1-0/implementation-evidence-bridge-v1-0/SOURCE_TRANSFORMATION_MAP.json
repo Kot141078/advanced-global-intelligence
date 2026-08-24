@@ -1,0 +1,59 @@
+{
+  "records": [
+    {
+      "source_path": "tap_conformance/fixtures/negative/TAP_T02.json; TAP_T07.json; TAP_T08.json",
+      "source_sha256": "cec0eaedf159f27bb0a6b931a4a441a396d6b72e9c64305a6eebeaa29d1183cb",
+      "public_path": "fixtures/bridge_required_negative_cases.json",
+      "public_sha256": "58a0a75214542c0ac215dda1d3d9de4d059f417ab701e0c1ba5027425ba48801",
+      "copy_class": "PUBLIC_SAFE_DERIVATIVE",
+      "exact_transformation": "retained original mutation format and added explicit missing-review, raw-memory, lifecycle, authority, agent-multiplicity, and separate-evidence cases required by R3E-A-R1",
+      "reason": "make every contract-required negative boundary directly executable in the public bridge",
+      "semantic_equivalence_validation": "each case is rejected with its exact deterministic validator failure code",
+      "claim_impact": "none; current public status remains unchanged"
+    },
+    {
+      "source_path": "<R3E-A-R1>/TAP_R3E_A_R1_T06_DISCOVERY_RESULT.json",
+      "source_sha256": "848a9a0a876ae9f2bc6c8484e2e63557edca97de0c420c56a7e43237aa8aeaa1",
+      "public_path": "reference_snapshot/T06_DISCOVERY_RESULT.json",
+      "public_sha256": "3b8e0c44f2ade9c1362df5055caa23cfe3f21012455f4abdc3fb9260de952893",
+      "copy_class": "PUBLIC_SAFE_DERIVATIVE",
+      "exact_transformation": "removed machine-specific startup record only",
+      "reason": "public path and host minimization",
+      "semantic_equivalence_validation": "all 177 rows, route counts, and 3 authority routes retained",
+      "claim_impact": "none"
+    },
+    {
+      "source_path": "<R3E-A-R1>/TAP_R3E_A_R1_T07_DISCOVERY_RESULT.json",
+      "source_sha256": "f45f7529254075fac70c7c7219dd5e81213946c7065eb5aa9571a66a7702f3a6",
+      "public_path": "reference_snapshot/T07_DISCOVERY_RESULT.json",
+      "public_sha256": "4274c4cd3298b8f7a1516b3cefe7a473edb954824c061b48e051465827f90242",
+      "copy_class": "PUBLIC_SAFE_DERIVATIVE",
+      "exact_transformation": "removed machine-specific startup record only",
+      "reason": "public path and host minimization",
+      "semantic_equivalence_validation": "all 14 rows and classification counts retained",
+      "claim_impact": "none"
+    },
+    {
+      "source_path": "tests focused on TAP-T02/T06/T07/T08 and tap_test_support.py",
+      "source_sha256": "9495245d753a509c2f2421d88a1c3dc3c083cdd0b4c9c8e4fb84f20db4c614e1",
+      "public_path": "run_offline_validation.py",
+      "public_sha256": "1ea9909c78e176d9371a258a47e883f436be512cd953f2478b1ddfca8c727fb1",
+      "copy_class": "PUBLIC_SAFE_DERIVATIVE",
+      "exact_transformation": "ported assertion logic to one stdlib-only isolated entry point; removed pytest/path coupling; added contract-required negative cases and network/process denial",
+      "reason": "self-contained public validation without pytest, repository startup hooks, or original worktrees",
+      "semantic_equivalence_validation": "clean extracted package reproduces the original denominators, validators, negative failure codes, and zero-side-effect boundary",
+      "claim_impact": "none; current public status remains unchanged"
+    },
+    {
+      "source_path": "tap_conformance/__init__.py",
+      "source_sha256": "a87bcf8d2c357bf449f5e19c498b5e107f4dfcd4bc6dda185d73027ed0b1d4eb",
+      "public_path": "src/tap_conformance/__init__.py",
+      "public_sha256": "fc44a03caacba7c145d6612fcf13ceeb8846f4ec75b67276a13891349b17e549",
+      "copy_class": "PUBLIC_SAFE_DERIVATIVE",
+      "exact_transformation": "removed loader import and exports; retained only an inert package docstring",
+      "reason": "prevent optional PyYAML dependency and any unrelated package import surface",
+      "semantic_equivalence_validation": "validators and static bindings import directly and pass offline tests",
+      "claim_impact": "none; package initialization is not evidence"
+    }
+  ]
+}

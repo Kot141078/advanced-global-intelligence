@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "iteration": "R3E-A-R1",
+  "publication_state": "release-candidate-preparation-only",
+  "current_public_status_changed": false,
+  "tests": {
+    "TAP-T02": "ELIGIBLE_FOR_PUBLIC_VERIFIED_AFTER_R3E_B",
+    "TAP-T06": "ELIGIBLE_FOR_PUBLIC_VERIFIED_AFTER_R3E_B",
+    "TAP-T07": "ELIGIBLE_FOR_PUBLIC_VERIFIED_AFTER_R3E_B",
+    "TAP-T08": "ELIGIBLE_FOR_PUBLIC_VERIFIED_AFTER_R3E_B"
+  },
+  "TAP-T03": "PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY",
+  "M4_FULL_PASS": false,
+  "TAP-C": "NOT CLAIMED",
+  "publication_required_before_status_change": true
+}

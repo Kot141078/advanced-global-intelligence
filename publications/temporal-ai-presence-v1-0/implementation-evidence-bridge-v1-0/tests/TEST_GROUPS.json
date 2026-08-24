@@ -1,0 +1,8 @@
+{
+  "A": "package integrity, hashes, source selection, transformations, and licensing",
+  "B": "TAP-T02 memory classes and fail-closed fixtures",
+  "C": "TAP-T06 179/177 discovery, route authority, denial, and no-network boundary",
+  "D": "TAP-T07 fourteen-surface discovery and lifecycle completeness",
+  "E": "TAP-T08 claim ceiling and separate-evidence negatives",
+  "F": "combined public-status and side-effect boundary"
+}

@@ -1,0 +1,3 @@
+# TAP-ACEB v1.0 release-candidate dependency lock
+# Runtime dependencies: Python standard library only.
+# Minimum interpreter: CPython 3.10.

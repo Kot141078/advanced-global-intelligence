@@ -1,0 +1,6 @@
+{
+  "fixture_id": "t02-positive-complete",
+  "test_id": "TAP-T02",
+  "instance_key": "memory",
+  "expected_result": "PASS"
+}

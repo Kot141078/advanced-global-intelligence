@@ -1,0 +1,313 @@
+{
+  "document_id": "ester-tap-binding-map-r2a",
+  "test_id": "TAP-CROSS",
+  "spec_binding": {
+    "spec_commit": "e6e59643727fa9ce9c80d550a44297165d6ee938",
+    "spec_sha256": "9878b98074076ef2a56b5f8d07e07c25128e97f186fab5ad848ed65dcdc43da6",
+    "schema_sha256": "84b0ec3db856d5752e3205a6f70098ecd32ef5542210c2866d5e903bf1ff0e52",
+    "evidence_baseline_sha256": "5691a22629b5e8787afb11b6c7cad43facae23f89c6661aecbb8e1f33ff466ac"
+  },
+  "bindings": [
+    {
+      "test_id": "TAP-T01",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T01",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_STATE.yaml",
+      "schema_validator": "tap_conformance.validators.core.validate_t01",
+      "implementation_module": "growth_engine/c_l4_witness/replay.py",
+      "symbols": [
+        "assess_continuity_reset"
+      ],
+      "additional_bindings": [
+        {
+          "implementation_module": "modules/memory/facade.py",
+          "symbols": [
+            "memory_add"
+          ]
+        }
+      ],
+      "adapter": "tap_conformance.bindings.ester.validate_binding_map",
+      "positive_test": "tests/test_tap_t01_persistence_declaration.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T01.json",
+      "evidence_class": [
+        "EV-DECL",
+        "EV-CONFIG",
+        "EV-SCHEMA",
+        "EV-REPLAY"
+      ],
+      "public_status": "PUBLIC_VERIFIED",
+      "local_r2a_status": "LOCAL_VERIFIED_CANDIDATE",
+      "known_limitation": "storage does not itself prove continuity"
+    },
+    {
+      "test_id": "TAP-T02",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T02",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_MEMORY_CLASSES.json",
+      "schema_validator": "tap_conformance.validators.core.validate_t02",
+      "implementation_module": "modules/memory/facade.py",
+      "symbols": [
+        "memory_add"
+      ],
+      "adapter": "tap_conformance.bindings.ester.validate_binding_map",
+      "positive_test": "tests/test_tap_t02_memory_classification.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T02.json",
+      "evidence_class": [
+        "EV-SCHEMA",
+        "EV-CONFIG",
+        "EV-REPLAY"
+      ],
+      "public_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION",
+      "local_r2a_status": "LOCAL_VERIFIED_CANDIDATE",
+      "known_limitation": "bounded declared stores only"
+    },
+    {
+      "test_id": "TAP-T03",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T03",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_BACKGROUND_TASKS.json",
+      "schema_validator": "tap_conformance.validators.core.validate_t03",
+      "implementation_module": "modules/dreams/dream_engine.py",
+      "symbols": [
+        "DreamRunner"
+      ],
+      "additional_bindings": [
+        {
+          "implementation_module": "modules/volition/pulse.py",
+          "symbols": [
+            "tick"
+          ]
+        },
+        {
+          "implementation_module": "modules/garage/agent_supervisor.py",
+          "symbols": [
+            "tick_once"
+          ]
+        }
+      ],
+      "adapter": "tap_conformance.bindings.ester.validate_binding_map",
+      "positive_test": "tests/test_tap_t03_background_processing_inventory.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T03.json",
+      "evidence_class": [
+        "EV-CONFIG",
+        "EV-LOG"
+      ],
+      "public_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION",
+      "local_r2a_status": "LOCAL_PARTIAL_CANDIDATE",
+      "known_limitation": "dynamic schedule and service activation completeness is not established"
+    },
+    {
+      "test_id": "TAP-T04",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T04",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_TOOL_PRIVILEGES.json",
+      "schema_validator": "tap_conformance.validators.core.validate_t04",
+      "implementation_module": "modules/thinking/action_registry.py",
+      "symbols": [
+        "register",
+        "list_action_ids",
+        "run"
+      ],
+      "adapter": "tap_conformance.bindings.ester.validate_binding_map",
+      "positive_test": "tests/test_tap_t04_tool_privilege_scope.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T04.json",
+      "evidence_class": [
+        "EV-SCHEMA",
+        "EV-CONFIG",
+        "EV-LOG"
+      ],
+      "public_status": "PUBLIC_VERIFIED",
+      "local_r2a_status": "LOCAL_VERIFIED_CANDIDATE",
+      "known_limitation": "bounded governed subset of the legacy registry"
+    },
+    {
+      "test_id": "TAP-T05",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T05",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_LOCALITY_CLAIM.json",
+      "schema_validator": "tap_conformance.validators.core.validate_t05",
+      "implementation_module": "tap_conformance/validators/core.py",
+      "symbols": [
+        "validate_t05"
+      ],
+      "adapter": "tap_conformance.bindings.ester.validate_binding_map",
+      "positive_test": "tests/test_tap_t05_locality_not_sovereignty.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T05.json",
+      "evidence_class": [
+        "EV-DECL"
+      ],
+      "public_status": "PUBLIC_VERIFIED",
+      "local_r2a_status": "LOCAL_VERIFIED_CANDIDATE",
+      "known_limitation": "claim-surface test only"
+    },
+    {
+      "test_id": "TAP-T06",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T06",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_CLOUD_CALL_LOG.json",
+      "schema_validator": "tap_conformance.validators.core.validate_t06",
+      "implementation_module": "modules/runtime/oracle_requests.py",
+      "symbols": [
+        "submit_request",
+        "validate_approved_request"
+      ],
+      "additional_bindings": [
+        {
+          "implementation_module": "modules/llm/providers_openai_oracle.py",
+          "symbols": [
+            "call"
+          ]
+        },
+        {
+          "implementation_module": "modules/thinking/action_registry.py",
+          "symbols": [
+            "_action_llm_remote_call",
+            "_action_oracle_request"
+          ]
+        }
+      ],
+      "adapter": "tap_conformance.bindings.ester.discover_cloud_call_sites",
+      "positive_test": "tests/test_tap_t06_cloud_oracle_boundary.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T06.json",
+      "evidence_class": [
+        "EV-CONFIG",
+        "EV-LOG",
+        "EV-AUDIT"
+      ],
+      "public_status": "SPECIFICATION_ONLY",
+      "local_r2a_status": "LOCAL_PARTIAL_CANDIDATE",
+      "known_limitation": "138 network-capable call sites remain unresolved"
+    },
+    {
+      "test_id": "TAP-T07",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T07",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_AGENT_INVENTORY.json",
+      "schema_validator": "tap_conformance.validators.core.validate_t07",
+      "implementation_module": "modules/agents/runtime.py",
+      "symbols": [
+        "create_agent",
+        "list_agents",
+        "run_agent_once"
+      ],
+      "additional_bindings": [
+        {
+          "implementation_module": "modules/garage/agent_factory.py",
+          "symbols": [
+            "create_agent",
+            "list_agents",
+            "disable_agent"
+          ]
+        },
+        {
+          "implementation_module": "modules/garage/agent_runner.py",
+          "symbols": [
+            "pause_run",
+            "resume_run"
+          ]
+        }
+      ],
+      "adapter": "tap_conformance.bindings.ester.discover_agent_surfaces",
+      "positive_test": "tests/test_tap_t07_agent_inventory.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T07.json",
+      "evidence_class": [
+        "EV-SCHEMA",
+        "EV-AUDIT"
+      ],
+      "public_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION",
+      "local_r2a_status": "LOCAL_PARTIAL_CANDIDATE",
+      "known_limitation": "5 executor-like surfaces remain unresolved"
+    },
+    {
+      "test_id": "TAP-T08",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T08",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_C_BOUNDARY_DECLARATION.json",
+      "schema_validator": "tap_conformance.validators.core.validate_t08",
+      "implementation_module": "tap_conformance/validators/core.py",
+      "symbols": [
+        "validate_t08"
+      ],
+      "adapter": "tap_conformance.bindings.ester.validate_binding_map",
+      "positive_test": "tests/test_tap_t08_c_overclaim_guard.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T08.json",
+      "evidence_class": [
+        "EV-DECL"
+      ],
+      "public_status": "PUBLIC_CANDIDATE_NEEDS_EXECUTION",
+      "local_r2a_status": "LOCAL_VERIFIED_CANDIDATE",
+      "known_limitation": "TAP-C remains not claimed"
+    },
+    {
+      "test_id": "TAP-T09",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T09",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_L4_BUDGET.json",
+      "schema_validator": "tap_conformance.validators.core.validate_t09",
+      "implementation_module": "growth_engine/c_l4_witness/validator.py",
+      "symbols": [
+        "validate_transition_witness"
+      ],
+      "additional_bindings": [
+        {
+          "implementation_module": "modules/volition/volition_gate.py",
+          "symbols": [
+            "decide",
+            "ensure"
+          ]
+        },
+        {
+          "implementation_module": "modules/thinking/action_registry.py",
+          "symbols": [
+            "invoke_guarded"
+          ]
+        }
+      ],
+      "adapter": "tap_conformance.bindings.ester.validate_binding_map",
+      "positive_test": "tests/test_tap_t09_l4_relevance.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T09.json",
+      "evidence_class": [
+        "EV-WITNESS",
+        "EV-REPLAY"
+      ],
+      "public_status": "PUBLIC_VERIFIED",
+      "local_r2a_status": "LOCAL_VERIFIED_CANDIDATE",
+      "known_limitation": "C-L4 binding is referenced without c claim"
+    },
+    {
+      "test_id": "TAP-T10",
+      "normative_source": "temporal_ai_presence_v1_0.json#mandatory_tests/TAP-T10",
+      "declaration_artifact": "tap_conformance/instances/ester_candidate/TAP_STATE.yaml",
+      "schema_validator": "tap_conformance.validators.core.validate_t10",
+      "implementation_module": "modules/volition/volition_gate.py",
+      "symbols": [
+        "VolitionGate"
+      ],
+      "additional_bindings": [
+        {
+          "implementation_module": "modules/autonomy/state.py",
+          "symbols": [
+            "pause",
+            "revoke"
+          ]
+        },
+        {
+          "implementation_module": "modules/ops/control_state.py",
+          "symbols": [
+            "get_paused",
+            "set_paused"
+          ]
+        },
+        {
+          "implementation_module": "modules/quarantine/storage.py",
+          "symbols": [
+            "ingest",
+            "release_to_staging"
+          ]
+        }
+      ],
+      "adapter": "tap_conformance.bindings.ester.validate_binding_map",
+      "positive_test": "tests/test_tap_t10_pause_quarantine_revoke.py",
+      "negative_fixtures": "tap_conformance/fixtures/negative/TAP_T10.json",
+      "evidence_class": [
+        "EV-DRILL",
+        "EV-CONFIG",
+        "EV-REPLAY"
+      ],
+      "public_status": "PUBLIC_VERIFIED",
+      "local_r2a_status": "LOCAL_VERIFIED_CANDIDATE",
+      "known_limitation": "declared enforced surfaces only; no runtime-wide inference"
+    }
+  ]
+}

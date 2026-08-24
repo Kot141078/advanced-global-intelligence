@@ -1,0 +1,6 @@
+{
+  "fixture_id": "t06-positive-complete",
+  "test_id": "TAP-T06",
+  "instance_key": "cloud",
+  "expected_result": "PASS"
+}
