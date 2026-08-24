@@ -1,0 +1,2496 @@
+{
+  "schema_version": "1.0",
+  "package": "Temporal AI Presence - Architecture-to-Code Evidence Bridge v1.0 RC",
+  "integrity_policy": "PACKAGE_MANIFEST.json and SHA256SUMS.txt are excluded from manifest self-coverage; SHA256SUMS covers PACKAGE_MANIFEST.json and every listed artifact",
+  "artifact_count": 198,
+  "artifacts": [
+    {
+      "path": "BRIDGE_SCOPE.md",
+      "sha256": "4c8531ebe33e961c20becbf6213de5e9a3941cd4812e0dc2f7390aa6e162846b",
+      "bytes": 1140,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "declarations/TAP_AGENT_INVENTORY.json",
+      "sha256": "2ac4159d518d03ecc7dcf4b8545c6d8d5e81ea06df3194c04c3e2f3a68681321",
+      "bytes": 2182,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "declarations/TAP_BINDING_MAP.json",
+      "sha256": "234b74770f15a65fb31ffc9cbf902827d06b104fddf54bc51d7f276284e8b9ac",
+      "bytes": 11780,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "declarations/TAP_C_BOUNDARY_DECLARATION.json",
+      "sha256": "97129e4af24ce9869d0037956f5d13d4feb78cf77a90b659586619a0d397d4f1",
+      "bytes": 713,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "declarations/TAP_CLAIM_CARD.md",
+      "sha256": "28c319d92189561eb3c45359a55433045bc638592b6140771a6b5701ef98841f",
+      "bytes": 504,
+      "media_type": "text/markdown",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "declarations/TAP_CLOUD_CALL_LOG.json",
+      "sha256": "f247c9696d8cc79d4c8345a882483216ab4e579fe837f8948df113984e942c17",
+      "bytes": 2039,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "declarations/TAP_L4_BUDGET.json",
+      "sha256": "1ec7940a05f7892d94d9f25ce6f6344384164ee104daeb173b4ffb665c2617fb",
+      "bytes": 1142,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "declarations/TAP_MEMORY_CLASSES.json",
+      "sha256": "f71c5db3b025b98cddd22b743b4b9764584eecd89bddc29382c9b3369bfac588",
+      "bytes": 2440,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02"
+      ]
+    },
+    {
+      "path": "declarations/TAP_R2B_LOCAL_BINDING_MATRIX.json",
+      "sha256": "37afd90b41a3d9bd74f73c157c7421e815186b13294e6b17b68682baf82d45b4",
+      "bytes": 1758,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "declarations/TAP_T06_CALL_SITE_INVENTORY.json",
+      "sha256": "b928e8a6bc1b0cd5dea6a591ad6ab24f1414364b97d1765c5a7099f104de2fca",
+      "bytes": 80312,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "declarations/TAP_T07_AGENT_SURFACE_COVERAGE.json",
+      "sha256": "6b5b4ead961c7699572afabeaf52fce36eeeb5a427eb5e072f671382f6a8dc33",
+      "bytes": 5428,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "declarations/TAP_WITNESS_EVENTS.jsonl",
+      "sha256": "5d72e4ac8759704021465d16df9810e616d5e4f2b132a8a5ec310491f7b80d61",
+      "bytes": 348,
+      "media_type": "application/x-ndjson",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "evidence/PUBLIC_SAFETY_RESULTS.json",
+      "sha256": "14051a3cce9e2f088d396e4e572189697c72de10fcc9021797ad54aa0339d8c4",
+      "bytes": 484,
+      "media_type": "application/json",
+      "role": "validation evidence",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "evidence/R3E_A_R1_SOURCE_VALIDATION_SUMMARY.json",
+      "sha256": "995df29af516e429858ba90c5bffadadebc171e8946a8bb54c45d6963293d22d",
+      "bytes": 1412,
+      "media_type": "application/json",
+      "role": "validation evidence",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "evidence/TAP_BRIDGE_TEST_RECEIPTS.jsonl",
+      "sha256": "835823c04a74e44c7c179f10aec85a108f30195ed3142a719d1d351f3d87e101",
+      "bytes": 46279,
+      "media_type": "application/x-ndjson",
+      "role": "validation evidence",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "evidence/VALIDATION_INPUT_MANIFEST.json",
+      "sha256": "2f50daae626092cfe76dfe9b0e751e8079fd6791ab7a11eafee3499d2a6734d8",
+      "bytes": 36519,
+      "media_type": "application/json",
+      "role": "validation evidence",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "fixtures/bridge_required_negative_cases.json",
+      "sha256": "58a0a75214542c0ac215dda1d3d9de4d059f417ab701e0c1ba5027425ba48801",
+      "bytes": 4662,
+      "media_type": "application/json",
+      "role": "deterministic fixture",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "fixtures/negative/TAP_T02.json",
+      "sha256": "1655130373718bdecaf9e2b861788841f2ef21f8efd4e9bc4bda8f6e09df5671",
+      "bytes": 2654,
+      "media_type": "application/json",
+      "role": "deterministic fixture",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02"
+      ]
+    },
+    {
+      "path": "fixtures/negative/TAP_T06.json",
+      "sha256": "156651a101aaae8ff49a048a069d0b31ac607acd5afb0f531bd96e8f14164998",
+      "bytes": 3173,
+      "media_type": "application/json",
+      "role": "deterministic fixture",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "fixtures/negative/TAP_T07.json",
+      "sha256": "c8d183574ba6e19b0587b438f47f4e6d9c773c1f8168523c9af9f7d766a27aa2",
+      "bytes": 1960,
+      "media_type": "application/json",
+      "role": "deterministic fixture",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "fixtures/negative/TAP_T08.json",
+      "sha256": "b0f14bd5ffed68ba06ce57e30c106197d4fc8377e397fbbb88f2a370078fcc87",
+      "bytes": 2539,
+      "media_type": "application/json",
+      "role": "deterministic fixture",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "fixtures/positive/TAP_T02.json",
+      "sha256": "333d683b5b1e196f71c0864c0e2a17d69be05c7f0c757ac12316eecaec63d6eb",
+      "bytes": 125,
+      "media_type": "application/json",
+      "role": "deterministic fixture",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02"
+      ]
+    },
+    {
+      "path": "fixtures/positive/TAP_T06.json",
+      "sha256": "f0ab2615f124b7225c7ed8607f2544ff4a15f60ade3dbcc87b162ce2be2a3d76",
+      "bytes": 124,
+      "media_type": "application/json",
+      "role": "deterministic fixture",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "fixtures/positive/TAP_T07.json",
+      "sha256": "f8d1a8f9144cfd31c60e2082f8820a551e7cbbd5a127fa9a7ca9dd669ed1ef71",
+      "bytes": 125,
+      "media_type": "application/json",
+      "role": "deterministic fixture",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "fixtures/positive/TAP_T08.json",
+      "sha256": "7746d5f240231c9cd76b0832e8a211f35b7b517e6da408a0a1a575be18531bf1",
+      "bytes": 129,
+      "media_type": "application/json",
+      "role": "deterministic fixture",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "LICENSE_POLICY.md",
+      "sha256": "404872a9e931164dd1cb809a58759ebd75c9878be17270ce991d7a385df2a3a4",
+      "bytes": 704,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "NON_CLAIMS.md",
+      "sha256": "c158b56d03f7beabf5ea325937c147656a5886aef4150fa9dd24dd1362eed657",
+      "bytes": 479,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "4809f0e7c8cb11767b57252194e0b5d63ddc3307538141a7fe072c63e248c33e",
+      "bytes": 722,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "PUBLIC_EVIDENCE_MATRIX.csv",
+      "sha256": "9a05622bd403e871ff5b6ddbc143911437ebfab7aa49809f486c77abac5ad506",
+      "bytes": 1327,
+      "media_type": "text/csv",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "PUBLICATION_ELIGIBILITY.json",
+      "sha256": "bc6ba93a61c6c7908e84a53f09921e28059aebcb58f11a6d625379b3851c14b6",
+      "bytes": 582,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "83b377e6155c29d8aa7261a4f25e9fd2dede855fea73fb07d9146d0132c0a218",
+      "bytes": 540,
+      "media_type": "application/toml",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "README.md",
+      "sha256": "26b3ddde0330a483a0be37f86bde7c3da3ce9d1e5d15f714ca1edc7d5ab74a70",
+      "bytes": 2971,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/original_tests/tap_test_support.py",
+      "sha256": "627c8d4847172d8ac54aa31ae7cfae49d5c04963509ae2c042a6414102fb4265",
+      "bytes": 3684,
+      "media_type": "text/x-python",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/original_tests/test_tap_r2b_t06_route_closure.py",
+      "sha256": "fb7f57d08844672eab98b1220f5af816df6f9fe94713ae489b6755e4c5440d20",
+      "bytes": 2927,
+      "media_type": "text/x-python",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/original_tests/test_tap_r2b_t07_agent_lifecycle.py",
+      "sha256": "5e96273b0d7ba702507328890262ae527617ef4f7c1e305d1ddf09a9a562081d",
+      "bytes": 1370,
+      "media_type": "text/x-python",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/original_tests/test_tap_t02_memory_classification.py",
+      "sha256": "9ebb10700922e1823616ef99d1df2016725052a5f206823f2e3951b1d448632d",
+      "bytes": 463,
+      "media_type": "text/x-python",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02"
+      ]
+    },
+    {
+      "path": "reference_snapshot/original_tests/test_tap_t06_cloud_oracle_boundary.py",
+      "sha256": "fcf7a9023755c88c3e1b7a97118eb3e5613e69015962eb0ac807dd3863a3c36d",
+      "bytes": 860,
+      "media_type": "text/x-python",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/original_tests/test_tap_t07_agent_inventory.py",
+      "sha256": "9c9320f3706875f4fb5640552c02475283066083701225b472acf5ec20c1de6c",
+      "bytes": 913,
+      "media_type": "text/x-python",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/original_tests/test_tap_t08_c_overclaim_guard.py",
+      "sha256": "8df2192845660a30be6843ff5d83dbd7ffe56ffd9711f0c4392edaccb944087a",
+      "bytes": 618,
+      "media_type": "text/x-python",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/SITECUSTOMIZE_STATIC_AUDIT.json",
+      "sha256": "babd2c2c4579fb6dc3dccad9604f871a407c5612be123e6de20d4ffbddb389d1",
+      "bytes": 1290,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/growth_engine/c_l4_witness/__init__.py",
+      "sha256": "d5a7980c869a9f98c2d022768b57a550a18c5089c6f53966ced9c4fc5d23a65f",
+      "bytes": 676,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/growth_engine/c_l4_witness/append_log.py",
+      "sha256": "3977e5b191e0e1ae2417ec232f32cd4b6dd9c6eb79276cf6340c98ef9c7e79fe",
+      "bytes": 513,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/growth_engine/c_l4_witness/companion.py",
+      "sha256": "1fe2578fb4baebbb41768a82b01e001b2efcf374da7cd0a0bec7b6826bf87fdb",
+      "bytes": 3068,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/growth_engine/c_l4_witness/material_change.py",
+      "sha256": "a0e563d63496c6dc6ab220cfbff20281db1609fcd1fa450244c61f795e8acd03",
+      "bytes": 2215,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/growth_engine/c_l4_witness/models.py",
+      "sha256": "b78d06e9d87b083c5d7ae214a42a7531cef14028b36a61b6ac7068bb51406414",
+      "bytes": 9604,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/growth_engine/c_l4_witness/non_formation.py",
+      "sha256": "f39e0175456d2c07373784fda11887de38a8fb8b9d9984c5a1ec4069c4cc0cd1",
+      "bytes": 3684,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/growth_engine/c_l4_witness/replay.py",
+      "sha256": "3b05f958a7f610dc217faf47e303fb5e23017b3403609757fc33e577f34e8e4c",
+      "bytes": 2701,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/growth_engine/c_l4_witness/validator.py",
+      "sha256": "f519dd8bed9403269b9f301d60b74e4eeb547383007e4c9b8b50104653d58cae",
+      "bytes": 4976,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/adapters/telegram_adapter.py",
+      "sha256": "aae35be8b761b7651ec646e84c8c675b6ee2bc3a99b6458161bf312778f967d8",
+      "bytes": 5750,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/agency/procurement.py",
+      "sha256": "964f783f81667a5511122396abd5398500ab34d971ee94a1a4057e978a142315",
+      "bytes": 5220,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/agents/desktop_agent.py",
+      "sha256": "fca63d84b426055e5cbbd1d239a86267d2e7d8dc89608eaf5c322fcfeebd3156",
+      "bytes": 2152,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/agents/game_mate_agent.py",
+      "sha256": "b6337bc0c17aab66c36b618db42f03d4d9af51eb3f378896d5e2e99f2df357ef",
+      "bytes": 2354,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/agents/installer_agent.py",
+      "sha256": "553ad5b230e02ca33926b8e47f22061912fdd225ef9cbf11ddad3595af723fec",
+      "bytes": 2415,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/agents/runtime.py",
+      "sha256": "94c406dce03d615cdf11b4a423d8ba02164e0c6bdbd0046130212b967ca08e60",
+      "bytes": 52450,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/agents/runtime_legacy_iter28.py",
+      "sha256": "fa52ee64285f93bca641ef361b03e816a42c36d4d66d0bd38bd5bcccc398ac84",
+      "bytes": 10116,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/bind/watch_media.py",
+      "sha256": "9098c4985fee020e329aad9605e542b2aa8a1a36469f51f6a4fefd0e7c67cdf5",
+      "bytes": 4505,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/channels/telegram_sender.py",
+      "sha256": "c047f5fa6284dab4b2a9088ad6123f80d84774e05d98d265099864f71b72cb7d",
+      "bytes": 6276,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/chat_api.py",
+      "sha256": "34771ff80865c51205a10605ce72cc5d55a040a5513ddaf8b523e7e55eeb46ac",
+      "bytes": 20134,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/cron/nightly.py",
+      "sha256": "4e50dedb9d892c788530716be8433839418c8fc95ff54d12dbc41d85f82906b5",
+      "bytes": 2622,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/cron/orchestrator.py",
+      "sha256": "d97ddff650b8ac20e15f93b1fa909be7654ee9c56a49e139081989f84f7530a6",
+      "bytes": 8299,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/cron/scheduler.py",
+      "sha256": "f0159ab839d8f4070cf8d9be1ed6e4b8cec3c6d7e7f5bea9635e2b1959073fb7",
+      "bytes": 21845,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/cron/scheduler_light.py",
+      "sha256": "22b8119c69b90d9ee1abc36d68d103d6b1eb9f233f2a6b0b88d5fe9cb7a3b970",
+      "bytes": 3577,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/diagnostics/smoke_runner.py",
+      "sha256": "1cf7062d6a69c2ae847b65b3e5872538bd4c197b826868da30263f78b84199c8",
+      "bytes": 3261,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/dreams/dream_engine.py",
+      "sha256": "cf4b1f64092689e8d149d587d02ef36b08152e3e9b96ca5abdb3cf6f1468113e",
+      "bytes": 4804,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/ester/net_will_adapter.py",
+      "sha256": "05153e9348ccda43e2bde032ff92b82a68b32adbd024e6ad009e46d742c06be9",
+      "bytes": 5877,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/ester/selfmod_profile.py",
+      "sha256": "2f3a5e715a99bd981db660d278563e84b6fee41bbb6f647b96458765597b6744",
+      "bytes": 2326,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/ester/selfmod_trap.py",
+      "sha256": "e856d7069d1ae40b39e3b755d563f9c86ec20fd7bae1e159b89f1a453de383fc",
+      "bytes": 5112,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/ester/selfmod_will_bridge.py",
+      "sha256": "c45a3c900dbbbc5992ce16ff90feb3161e155622f6856eef9054ae81565c842f",
+      "bytes": 9569,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/fleet/worker.py",
+      "sha256": "8aea0809919338fa2048a366b2f5e1f9a274581de8d40724669b321f8921064a",
+      "bytes": 9028,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/garage/agent_factory.py",
+      "sha256": "184df4ee7ddb147f695c8957707ff56de1615c85f4e55776b2a62f8d6e0ccd43",
+      "bytes": 27547,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/garage/agent_runner.py",
+      "sha256": "42d3ff5be15de79c8903b3f19785be3f30a0f6abb433e4853f6d930699c9b0e8",
+      "bytes": 62587,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/garage/invoice.py",
+      "sha256": "d68b702e1e381678aa28fc94fac2e732396284b9459951362f84aae9ed717dd0",
+      "bytes": 2864,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/garage/jobs.py",
+      "sha256": "a1a0e405d6a9bde4ae546ab2508a73ecde226325855a82b16617716ec550b566",
+      "bytes": 12125,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/garage/pipeline.py",
+      "sha256": "cb17050773375f3ac09a68c1c9509e2cab05c2426150237be8b0a2782642f7ee",
+      "bytes": 17866,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/garage/portfolio.py",
+      "sha256": "28d313c7530d53fc1dfebda540679766652a76f335dded049456be793ddb0522",
+      "bytes": 2660,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/html_extract.py",
+      "sha256": "7f29f4830808ba848094f3d7790ca879a3673a1cd692449c35d9f495ede8fb52",
+      "bytes": 1347,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/identity_anchor.py",
+      "sha256": "c0560f6064ad8b1be0fb147811aa3c4e7c9b9a675eb1aeebeb24f9ecae8345bd",
+      "bytes": 4597,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/ingest/guard.py",
+      "sha256": "1538337e9ebe596e59c7eabaf6eadf2db5e5d328645ab5eb7e29c71b957bcce1",
+      "bytes": 13290,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/ingest/image_captioning.py",
+      "sha256": "b4a679ea9f5f732a8817a15007c2835093406223ad57a2f48b711bfcbc3bcb6f",
+      "bytes": 3582,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/judge/adapters.py",
+      "sha256": "04ce81552b921cbc0deec47b534de9808ad85ecd104955d4f2c555cff5033b6f",
+      "bytes": 2537,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/judge/evo_judge.py",
+      "sha256": "a018ecd8e84521ea38920957941121432cf242acf6758d4b152aea0dbcdc5718",
+      "bytes": 7739,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/kg/autolink.py",
+      "sha256": "a4fa46da2d2d64b70ae276432559cf024de465908fb81a9c46be3138fcde1cbe",
+      "bytes": 9927,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/kg/linker.py",
+      "sha256": "80fde1d4148ffeb2942619b5c9ef8e1c0f4c7095fd07dfdcf0663730605a061e",
+      "bytes": 11922,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/llm/__init__.py",
+      "sha256": "513088b1658702aa3bace66963c5157396dec68b290d0919c972c70a9a1e5baf",
+      "bytes": 4222,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/llm/broker.py",
+      "sha256": "11405a0084d70579b4047cb373510c89f0583b66b156dd0675966c071c828bc7",
+      "bytes": 13765,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/llm/providers_openai_oracle.py",
+      "sha256": "7400c26e2144f0dc306919bfc217a32d52b0aacaca7fe08a6dc4efed61296d44",
+      "bytes": 15987,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/llm/selector.py",
+      "sha256": "4654e10fcb4518164044911797e339dcc521536df92ed52be30d512333385331",
+      "bytes": 16226,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/market/gigs.py",
+      "sha256": "f6c4e8fccc5b5c64810681ea2224b87c1120d1a063487200c04020e65ee8d153",
+      "bytes": 3883,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/media/ingest.py",
+      "sha256": "3bd7aba9781ee56eafb4e679477099903e1e2a37eb045ffa40c9a95a6acaf6b0",
+      "bytes": 15116,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/media/utils.py",
+      "sha256": "2b17a9c74176e4ff688bd18d8ddfbff72fe21c0df514521fede8985f9cbc53a4",
+      "bytes": 5605,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/mem/affect_priority.py",
+      "sha256": "1c4670f509fea55e1756142bc3910173fe3c9d5f0fd3285e2bf4754fbdf16f82",
+      "bytes": 8549,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/mem/entity_linker.py",
+      "sha256": "78f22083a64893648f115e937ed61c82552fb4d90d06e4d7c8fcf7d630f9ea15",
+      "bytes": 6858,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/mem/retro_linker.py",
+      "sha256": "90e42732e9f68633b52c4ea7976e28f987f7d168a9e5e001a4680c26f7db23fc",
+      "bytes": 4806,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/memory/core_sqlite.py",
+      "sha256": "154bee355c23fc1d4d31f502f87880c89c1dac163ce28833316f26a81a358d67",
+      "bytes": 62952,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/memory/facade.py",
+      "sha256": "e75915cdf7bfe49c8369413768407b38d2f7cd97eb63a12d501ee7592194adf7",
+      "bytes": 3521,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/memory/io.py",
+      "sha256": "aeff64ff63fc67a3f130a2af01ce74c62ad50cbe1b4b6ed00566dcddc0c8c700",
+      "bytes": 2368,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/memory/store.py",
+      "sha256": "bbf5a875ffba5c5499472e4a15112a983461544936f3ce8e12dc132038759d2f",
+      "bytes": 16960,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/memory/vector.py",
+      "sha256": "1aa3d89cef8fffafb2a6eabf112c00df03177517d807f7f7b43ea13ea85e85bb",
+      "bytes": 4126,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/mesh/task_queue.py",
+      "sha256": "f918ec013fae27737b2c86dd8ab5a6dd00dede683da65a1e627937bf1d26f035",
+      "bytes": 5165,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/messenger_bridge.py",
+      "sha256": "d5d17f79f1b07b63695bc582c2c0c543cdaa36f70ba53fb44f83e3ebcd03ec89",
+      "bytes": 3575,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/net_bridge.py",
+      "sha256": "2f8fe27a6a2ff079393e8611e5a1da3be785c90920f84958ae936d1aaca1e609",
+      "bytes": 3017,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/net_guard.py",
+      "sha256": "ffa36d4c1019cfc80b8793b15b77f0894122b495197dd9e3667c88b70d0ee99e",
+      "bytes": 2102,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/nlp/entity_linker.py",
+      "sha256": "7472e0f630010da1cd4aed713be3126d941268e452e0d4b86612b4475ea1bfc2",
+      "bytes": 3802,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/nlp/ner_linker.py",
+      "sha256": "412ff01632c919850ea2c3840a897f3303b270dd28585f105c25d0cdea9e8dd0",
+      "bytes": 4795,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/opps/hub.py",
+      "sha256": "dbe6b08b6b7267fd37f461f65ead0af751449a5d823b53465e9dd1fa9cd7dcdb",
+      "bytes": 4799,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/ops/cost_fence.py",
+      "sha256": "56f97b954b99a87b19e85078dd2dc85e2d9b91dc7e253d7c4288eccd32ca5044",
+      "bytes": 13809,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/ops/cron.py",
+      "sha256": "f2a75f066d2ef51fb3b39ffded9f7d2f76774f9900e3759e36c72aaa7048b069",
+      "bytes": 2757,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/perception/pipeline.py",
+      "sha256": "f3c4eb3397a03bdeca12f3edfe82329e155451c6fc9f674ddf9c6bc2efcd81fd",
+      "bytes": 3111,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/policy/cautious_ethos.py",
+      "sha256": "463a72d0b2c46e143238f1bace1825d18d14949370b85a2052781525e099713f",
+      "bytes": 8731,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/proactive/video_autorunner.py",
+      "sha256": "a9101327a40da3e796e20622eec674d48df6d523b16e64aa33a9393ba673034b",
+      "bytes": 9022,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/providers/gemini_adapter.py",
+      "sha256": "57653bc983af45b95621e9581b40ffa017b3c0cdbe0fe41f2eee29737471731a",
+      "bytes": 5201,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/providers/google_cse_adapter.py",
+      "sha256": "45cf5f5fb5eaa8b2af68ac1341e828c6137cd5a0744ee967eab9e0b0db7a27b0",
+      "bytes": 1437,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/providers/lmstudio_models.py",
+      "sha256": "797c068975723854d18922ea11f51f9c62d85add78d4661e5ba2010257009906",
+      "bytes": 3939,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/providers/openai_adapter.py",
+      "sha256": "6a3ea91e1a3a7465d97756f2fdc8c6280ba5c4ddef3bc37ec33d936f7f2d80c3",
+      "bytes": 3070,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/providers/xai_adapter.py",
+      "sha256": "1cabe3c117b3aa062ace5124b2d35d7b395b723ace7592417475846425cba86d",
+      "bytes": 1827,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/runtime/oracle_requests.py",
+      "sha256": "0e98eb894ed2ab4cc970e8cc95f34c58470f5568be560a2dc6b7da289a373336",
+      "bytes": 14482,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/runtime/oracle_window.py",
+      "sha256": "116315f9fb2afffa778dd213a6dac607367163b095ddab9a86b3b3d1985bcc19",
+      "bytes": 21775,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/scheduler/core.py",
+      "sha256": "ed028638150c628abc43f68501c3901a8978a185a9c91767bdb8534dc54e9ef4",
+      "bytes": 4306,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/search/hybrid.py",
+      "sha256": "55005b13988c27cf2037b4a7853fe5bdcdb2aa66c5a5a1e1ef7cb8a78c82acd4",
+      "bytes": 5013,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/search/hybrid_retriever.py",
+      "sha256": "0e66c2677aaad92bc1d47a1c120aa46aad1b2c6b92d2a35205f948b0bf3208dc",
+      "bytes": 13254,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/security/provider_keys.py",
+      "sha256": "9a0475b3671417f9de2e6da0402f6f469400645c721c7c2feb986a5a45393d15",
+      "bytes": 475,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/self/autonomy.py",
+      "sha256": "1d82befeecf0c9b308a8247236499aa9e844b5eef46372870dd430bf7d96dda8",
+      "bytes": 8561,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/self/papa_locator.py",
+      "sha256": "96e59ba481156f462b300a8856341dcf74693d2480c87eb15771f68d02614f23",
+      "bytes": 3069,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/self/plan_orchestrator.py",
+      "sha256": "dfe6efcf16a535a567ef78140a13dab8376c6c587ff904e81f538ee20c9525cb",
+      "bytes": 3583,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/selfmanage/health.py",
+      "sha256": "0a075b9f6163225e2f2b9a6c32e9f27292533964cc216c696b7c6e181e9b2ebd",
+      "bytes": 4491,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/sister_autochat.py",
+      "sha256": "57ca32ddd5bfa283631d7a1de9437fa1881a0e698e685c10ce54cdf82a9382da",
+      "bytes": 15813,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/sisters/registry.py",
+      "sha256": "ea85084e9e7bd7b94a8cfcc185c3a8a3cf18279a8b95436c96f205239a09098c",
+      "bytes": 2390,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/social/uploaders.py",
+      "sha256": "b6f99ebc84fc32e11fa70a456b31c449a8183f6633fd83b7d8f67b1a0ad13c25",
+      "bytes": 7199,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/sos/webhooks.py",
+      "sha256": "bc99e3ba242b7cb838f37c7901242eccb175505eba6274c00bd4168088fc3509",
+      "bytes": 2535,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/survival/bundle.py",
+      "sha256": "c9398315ec25aa2d584180e42d162ba12489db78163f522bc44c96c762998ee6",
+      "bytes": 12193,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/synaps/codex_coordination_cycle.py",
+      "sha256": "8744ed66030e80d5d083b2800666ce7faec3f72b523f348ed45c48871a6bb215",
+      "bytes": 29615,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/synergy/models.py",
+      "sha256": "5d834df9b7860832dfe8678f9234e55971ccf20a8a9331a39c02fa09bf53d94d",
+      "bytes": 8556,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/synergy/orchestrator.py",
+      "sha256": "354fa91005a537767ee7f89d161b958e7a122bcfc3f00b23c757102d98003010",
+      "bytes": 5188,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/action_registry.py",
+      "sha256": "90a4aa5f09864a55161632e259d28d52755f067328b607df9229cc1673777ea0",
+      "bytes": 63252,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_admin.py",
+      "sha256": "20118e9b6380507df774cd72c999f2598bee1d9af593fa3b89cbc7691b447738",
+      "bytes": 1991,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_affect_bloom_mm_cron.py",
+      "sha256": "ad77314b505d101efb391b65e797d3b5530825354c1a713be992a88a8c25f75e",
+      "bytes": 2389,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_audio_stt.py",
+      "sha256": "dcbd666ec96691b24d7a6022c3c1b01665277f4b7137ba87285c5f6967d01da1",
+      "bytes": 1502,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_bind_portfolio.py",
+      "sha256": "5c7aad1333061086d3694ca86a4288d7aa408fb736bf873d8e9e755cb85eeb40",
+      "bytes": 2096,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_core15b.py",
+      "sha256": "5339eba8e9e6372040dad4c2ac47bf612f93f6d5922b1d26eb10bdd307598b92",
+      "bytes": 2266,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_creator_audio_uploader.py",
+      "sha256": "9d532d684b12d874a827f94c94ee6d08ccd97e98a44b4b0d530bcd840f01d406",
+      "bytes": 2451,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_cron_affect_p2p.py",
+      "sha256": "e42461341c7f7a2eada39f4166f6aead83397d120fa72c6a5edc821b44af7753",
+      "bytes": 3134,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_cron_backup.py",
+      "sha256": "c9e1240118a206fae3326f9b67d7f1d452d0ca433fedd4380e34e777c2fbc216",
+      "bytes": 2027,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_discover.py",
+      "sha256": "daa46705694cb76d7d96f619cdf9fc052db21ccecd0a909fea367adbc16ff787",
+      "bytes": 1847,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_discovery.py",
+      "sha256": "3ea07989879de59512ae36d261a170c307365c68925b2efdb9c1cd266d9a01a2",
+      "bytes": 11456,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_drama.py",
+      "sha256": "e57dd986c7b8be9673e0c9bd196b81670130fc56349f063d8a0a5f09cc21bee4",
+      "bytes": 2023,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_finance.py",
+      "sha256": "4243e0ea649a71994e036088d7d67d197f6c2f890ce704b021493ab414f4ec37",
+      "bytes": 4730,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_garage.py",
+      "sha256": "9d1d49f2aaf285b2c303a0b683c10494c08df32da79d5ee88ad4385d654626b2",
+      "bytes": 6015,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_garage_sisters_ab.py",
+      "sha256": "c30b4b7fd90da7d804d5185cb1628b7d10620c8dcf620e92d6faa673998fb2ba",
+      "bytes": 3050,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_guard_audit.py",
+      "sha256": "e56d7d16646fc25d7b9805ad88d24e66e620afdfda50032dc91019dc0dc1b82f",
+      "bytes": 2173,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_guardian_policy.py",
+      "sha256": "0830fecf3b8058595c0b61a96e706c360e422a0f028dc99e04146accec8f8eda",
+      "bytes": 2282,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_hub.py",
+      "sha256": "7a8946942304b941bd79beb548bcff46319f5a4dd56feb8b9a2a65270375ea4e",
+      "bytes": 1241,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_ingest_guard.py",
+      "sha256": "6a0de0922b3f6bac57e800ef79582a54ff78c9d72cf7d581af61acb2d2e10d10",
+      "bytes": 2415,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_mem_rag.py",
+      "sha256": "6c8a8dc84d2b6b1838f85baa01b3b5ee9a8df164ab1abd79e2efe1fa1eb11ae3",
+      "bytes": 2048,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_mesh_garage_fin.py",
+      "sha256": "803dfb6976e84a7034b77c2e2b4843cf8bbeb4c11b6f5a585c5c5b48ff757e37",
+      "bytes": 3877,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_opps_outreach_pay.py",
+      "sha256": "40276c00924d5d3da01e3336be723b59c54112add61aa49ad4a79871f81bf487",
+      "bytes": 2644,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_p2p_bloom.py",
+      "sha256": "887e578799b4a5b0ee5de2f25dec85135c0ea89d48774d1226725735ccc4be4b",
+      "bytes": 2115,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_p2p_cron.py",
+      "sha256": "057e1b92cf5dad701c9fcc768e4a71097acfa8ef9da0a83e579602304a65c6e2",
+      "bytes": 2518,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_p2p_cron_affect.py",
+      "sha256": "4be8481b7e0a22dfd60f73cd6980fb5f839157f4edb839f26b24d779ac6088d9",
+      "bytes": 2808,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_passport_kg_ingest_rag.py",
+      "sha256": "d3a984b5e71d7b1a6fa85886f9743c94f083e04271ebee1873fb57f9b70d434e",
+      "bytes": 2239,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_passport_kg_rag_ingest.py",
+      "sha256": "88c11c2ae689d6e4066734a466567dc3c10c5c7d8981fc42281c19f0e2ad1ce9",
+      "bytes": 3130,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_pill.py",
+      "sha256": "24f6ad4ddb95b500c7a64529bf08a8460119dcbc7c8785d1bd9271af26a2b464",
+      "bytes": 2433,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_prov_entity_hybrid_quota_rbac.py",
+      "sha256": "c84e170bcf94f43ec5a70285f9582de82eb4027ece95b369fc83cb4393d40dd1",
+      "bytes": 2615,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_rules_watch.py",
+      "sha256": "6be17b1c513bee2c64156fc9ba3e096ebe24ec92c7aa8fdb103b4a7090980795",
+      "bytes": 2220,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_selfevo_market_sos_portfolio.py",
+      "sha256": "e90ade9b44bbdec3ea5f07aa9fe73e08e0b5d2ee479ed2513d9e0c6de4c0f4fd",
+      "bytes": 3365,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_selfmap_invoice.py",
+      "sha256": "93601d25a047dccf37a347bf5893f32734c111f5edbbde2ddb60365545d44ac7",
+      "bytes": 1831,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_slots_capmap.py",
+      "sha256": "3c6994a8756c29a88b00ce230d7dd320597e4726fe74d135cd5e6976bbff43e7",
+      "bytes": 2273,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_smoke_env.py",
+      "sha256": "47ad8aeef5fb390d44f6cd77d5d2d92e9cd960a366b559597b01958dba057431",
+      "bytes": 1745,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_social.py",
+      "sha256": "f7d69a61862382e5f2d4ab13aef34f2fef0e86fb2ddfbbd0f588a38a0f65e153",
+      "bytes": 8488,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_survival.py",
+      "sha256": "87174095f7360d7b240c36608241574ba7a62a2fb8ad6477e4cbb70273679650",
+      "bytes": 2059,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_survival_codegate.py",
+      "sha256": "aea16a0aa0b03f3b04a4225ac01ede8d81e56b2d1286e1a0fff1179f149db560",
+      "bytes": 2465,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_sys_autoreg.py",
+      "sha256": "a9b45ffd893724ef92a987e77a93b86a5c6f99b7f21d6586143d1cc3ad8cd3ed",
+      "bytes": 1831,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/actions_video.py",
+      "sha256": "329338fa62546e441e9759bbaa9c5d48d2d4ff96e56eca04b1264310c745fa2e",
+      "bytes": 1292,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/affect_reflect.py",
+      "sha256": "ce75fbe459865307d8eaaae736d3213a303bc5df4cbd29d5a8aa0fad583f43a1",
+      "bytes": 1963,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/computer_use_engine.py",
+      "sha256": "619473c68bcf62be549528d808171f4c4746e9f1375ef23629d0d92b01caf4f1",
+      "bytes": 7338,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/rules_engine.py",
+      "sha256": "fd3e621ab1b355d1111c86463e058e6c8b82e923d56bce908dccdf73063735a5",
+      "bytes": 4669,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/thinking/web_context_expander.py",
+      "sha256": "fcf4b7266a57c2031d7f1dbf2a2d90b94ccf0c966debb3e7b20c9963a0b3ec62",
+      "bytes": 7759,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/video/metadata/ffprobe_ex.py",
+      "sha256": "8b5be660ead18e4159afe7647036a01be2ba9b77baa921952d93ba9d2fc357f5",
+      "bytes": 4259,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/source/modules/web_search.py",
+      "sha256": "56d742e2db76e634f7982f3469ce9dfb6ba0b06e3162beec60c2d53559ffeb4b",
+      "bytes": 8946,
+      "media_type": "text/x-python",
+      "role": "selected implementation source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/T06_DISCOVERY_RESULT.json",
+      "sha256": "3b8e0c44f2ade9c1362df5055caa23cfe3f21012455f4abdc3fb9260de952893",
+      "bytes": 246496,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/T07_DISCOVERY_RESULT.json",
+      "sha256": "4274c4cd3298b8f7a1516b3cefe7a473edb954824c061b48e051465827f90242",
+      "bytes": 17271,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T07"
+      ]
+    },
+    {
+      "path": "REQUIREMENT_TO_CODE_MAP.json",
+      "sha256": "e8aaec89b68904d63bbe1c253918a2ae4adbadbbbd5255054996654fad110113",
+      "bytes": 42429,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "REQUIREMENT_TO_CODE_MAP.md",
+      "sha256": "8b51dce6810375662d91051fc9f69a79b23ffd699a8e0bd8d94c08242df01a26",
+      "bytes": 5854,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "3a9e926ada97ddb47194faeb20677a33973ba4da1f6d4d32ac86b34ab9200541",
+      "bytes": 141,
+      "media_type": "text/plain",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "run_offline_validation.py",
+      "sha256": "c2cf7ae791bf350ec4cb2640c2c5e417ff21b90ec117bc1bafbf81ea2c86ede6",
+      "bytes": 20342,
+      "media_type": "text/x-python",
+      "role": "offline validation surface",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "SOURCE_CODE_LICENSE_AGPL-3.0.txt",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "media_type": "text/plain",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "SOURCE_LICENSE_AUDIT.md",
+      "sha256": "6fd45ef2c7620f509cb5691f7171725ed9cf30c2f19de7df581c80617358ff01",
+      "bytes": 507,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "SOURCE_SELECTION_MANIFEST.json",
+      "sha256": "defc113d947e17a33e6061896e9d878b71b964fcda286ac86ca49de0f81dfd11",
+      "bytes": 213408,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "SOURCE_TRANSFORMATION_MAP.json",
+      "sha256": "1b0c9c745bd86b62d793dc21b799532ec3f004bbe5149b77c02f99811054c08a",
+      "bytes": 3877,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "src/tap_conformance/__init__.py",
+      "sha256": "fc44a03caacba7c145d6612fcf13ceeb8846f4ec75b67276a13891349b17e549",
+      "bytes": 54,
+      "media_type": "text/x-python",
+      "role": "validator or static discovery source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "src/tap_conformance/bindings/__init__.py",
+      "sha256": "c9d323531ec2d79fc9b4d4be233654cc2b8f8f3dd16e6013cec8df50daf9b8eb",
+      "bytes": 301,
+      "media_type": "text/x-python",
+      "role": "validator or static discovery source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "src/tap_conformance/bindings/ester.py",
+      "sha256": "b78e01041c62a08d37a96bf6f10e1a23312ef3afb5af829e41c33575846bf93b",
+      "bytes": 7622,
+      "media_type": "text/x-python",
+      "role": "validator or static discovery source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "src/tap_conformance/bindings/r2b.py",
+      "sha256": "944fa210a520402ce09d5fe5607a6eaaa33f83af1a25fb5a2baddc6b3e3ccc1f",
+      "bytes": 24915,
+      "media_type": "text/x-python",
+      "role": "validator or static discovery source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "src/tap_conformance/errors.py",
+      "sha256": "11c9137ec4b406220809dce28d39e3c9513cac1c4b9884a92b13216999d69e68",
+      "bytes": 350,
+      "media_type": "text/x-python",
+      "role": "validator or static discovery source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "src/tap_conformance/validators/__init__.py",
+      "sha256": "b56dba8f1dfe207e0891317d6a14c8a4a57bb8c5e9be7503b10ce36fee900771",
+      "bytes": 158,
+      "media_type": "text/x-python",
+      "role": "validator or static discovery source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "src/tap_conformance/validators/core.py",
+      "sha256": "75428e346cf6c6ddc725d12595a76aedff01d70b29acccb268cb57e1c4068a01",
+      "bytes": 21987,
+      "media_type": "text/x-python",
+      "role": "validator or static discovery source",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "TAP_BRIDGE_VALIDATION_SUMMARY.json",
+      "sha256": "0d591238553d3b1f4c0ebca6341805c4ed16dfbd6eb6cad464d255a2ca49c2cf",
+      "bytes": 3355,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "ea8afa52906aa0d635c03552fcabaabff915b133aac41cb13e1ce0340aa93c84",
+      "bytes": 397,
+      "media_type": "text/markdown",
+      "role": "offline validation surface",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "tests/TEST_GROUPS.json",
+      "sha256": "390adfeb43f67dccc4784830ab81e30108c0c812cc02457e06b247a8a68a780c",
+      "bytes": 427,
+      "media_type": "application/json",
+      "role": "offline validation surface",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    }
+  ]
+}
