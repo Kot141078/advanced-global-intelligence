@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "title": "Temporal AI Presence v1.0 \u2014 Public Implementation Evidence Attestation",
+  "publication_date": "2026-08-24",
+  "profile_version_doi": "10.5281/zenodo.22070960",
+  "profile_concept_doi": "10.5281/zenodo.22070959",
+  "bridge_tag": "temporal-ai-presence-implementation-bridge-v1.0",
+  "bridge_commit": "60a3e2ae871320c1e4fdf6036e8ba4c069b66117",
+  "github_release": "https://github.com/Kot141078/advanced-global-intelligence/releases/tag/temporal-ai-presence-implementation-bridge-v1.0",
+  "bridge_archive": {
+    "filename": "Temporal_AI_Presence_Architecture_to_Code_Evidence_Bridge_v1_0.zip",
+    "sha256": "7c7d0e0ad88aa7c49af6134604c1686a59ec3cc5df56dd134439fa10a93c39f7"
+  },
+  "three_way_identity": "PASS",
+  "public_download_offline_validation": {
+    "collected": 61,
+    "passed": 61,
+    "failed": 0,
+    "skipped": 0,
+    "result": "PASS",
+    "network_calls": 0,
+    "runtime_starts": 0,
+    "private_data_used": false
+  },
+  "effective_public_matrix": {
+    "TAP-T01": "PUBLIC_VERIFIED",
+    "TAP-T02": "PUBLIC_VERIFIED",
+    "TAP-T03": "PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY",
+    "TAP-T04": "PUBLIC_VERIFIED",
+    "TAP-T05": "PUBLIC_VERIFIED",
+    "TAP-T06": "PUBLIC_VERIFIED",
+    "TAP-T07": "PUBLIC_VERIFIED",
+    "TAP-T08": "PUBLIC_VERIFIED",
+    "TAP-T09": "PUBLIC_VERIFIED",
+    "TAP-T10": "PUBLIC_VERIFIED"
+  },
+  "boundary": "The public bridge establishes complete architecture-to-code evidence mapping for TAP-T02, TAP-T06, TAP-T07 and TAP-T08 under the published bridge scope. It does not establish universal deployment conformance or close the deployment-external TAP-T03 boundary.",
+  "TAP-T03_remaining_boundary": "Deployment activation, external orchestrator state, production pause/revoke enforcement, and deployment-level witness activation are not fully verified.",
+  "M4_FULL_PASS": false,
+  "TAP-C": "NOT CLAIMED"
+}
