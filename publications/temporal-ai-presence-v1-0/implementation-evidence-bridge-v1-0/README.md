@@ -2,9 +2,9 @@
 
 Short identifier: **TAP-ACEB v1.0**
 
-This release candidate makes four implementation-evidence chains inspectable:
+This final publication package, awaiting its immutable public tag, makes four implementation-evidence chains inspectable:
 
-`TAP requirement -> architecture -> selected source -> validator -> synthetic fixture -> receipt -> immutable public code candidate`
+`TAP requirement -> architecture -> selected source -> validator -> synthetic fixture -> receipt -> future immutable public code reference`
 
 The normative source is *Temporal AI Presence Profile v1.0*, Version DOI [10.5281/zenodo.22070960](https://doi.org/10.5281/zenodo.22070960); Concept DOI [10.5281/zenodo.22070959](https://doi.org/10.5281/zenodo.22070959). One local reference implementation candidate supplied the implementation source used for this public evidence bridge. It does not define TAP.
 
@@ -15,7 +15,11 @@ The normative source is *Temporal AI Presence Profile v1.0*, Version DOI [10.528
 - TAP-T07: 14 agent/executor-like surfaces, with 8 inventoried, 4 disabled by default, 1 legacy inactive, 1 out of scope, 0 hidden, and 0 unresolved.
 - TAP-T08: `TAP-C=NOT CLAIMED`, `M4_FULL_PASS=false`, and deterministic rejection of prohibited c inferences.
 
-Current public status is unchanged in R3E-A-R1. `PUBLICATION_ELIGIBILITY.json` states only the maximum supportable status after a later reviewed R3E-B publication.
+Publication state: `final_publication_package_awaiting_public_tag`.
+
+Proposed immutable public tag: `temporal-ai-presence-implementation-bridge-v1.0`.
+
+Current public status remains unchanged until the exact tag, GitHub Release assets, and public offline reproduction are verified. `PUBLICATION_ELIGIBILITY.json` preserves the historical R3E-B eligibility gate; effective status is recorded separately only after public verification.
 
 ## Offline validation
 

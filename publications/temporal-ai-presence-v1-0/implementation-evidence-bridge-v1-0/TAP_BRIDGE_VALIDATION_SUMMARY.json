@@ -1,16 +1,18 @@
 {
   "schema_version": "1.0",
-  "bridge": "Temporal AI Presence - Architecture-to-Code Evidence Bridge v1.0",
+  "bridge": "Temporal AI Presence \u2014 Architecture-to-Code Evidence Bridge v1.0",
   "short_identifier": "TAP-ACEB v1.0",
-  "validation_base_commit": "c871049",
+  "validation_base_commit": "f33cf28a565ccc148dc0f723d5ac1cd72112e2b0",
+  "publication_state": "final_publication_package_awaiting_public_tag",
+  "proposed_immutable_public_tag": "temporal-ai-presence-implementation-bridge-v1.0",
   "source_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
   "offline_suite": {
-    "collected": 60,
-    "passed": 60,
+    "collected": 61,
+    "passed": 61,
     "failed": 0,
     "skipped": 0,
     "exit_code": 0,
-    "duration_seconds": 1.156,
+    "duration_seconds": 1.938,
     "network_calls": 0,
     "runtime_starts": 0,
     "private_data_used": false
@@ -114,5 +116,5 @@
   "network_calls": 0,
   "runtime_starts": 0,
   "private_data_used": false,
-  "verdict": "TAP_BRIDGE_RELEASE_CANDIDATE_VALIDATION_PASS"
+  "verdict": "TAP_BRIDGE_FINAL_PUBLICATION_PACKAGE_VALIDATION_PASS"
 }

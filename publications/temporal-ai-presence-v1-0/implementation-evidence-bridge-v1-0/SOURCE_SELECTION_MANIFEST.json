@@ -1,9 +1,9 @@
 {
   "bridge": "TAP-ACEB v1.0",
   "source_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
-  "discovered_candidates": 174,
+  "discovered_candidates": 179,
   "included_byte_identical": 171,
-  "included_derivatives": 0,
+  "included_derivatives": 5,
   "excluded": 3,
   "blocking_required_but_unpublishable": 0,
   "unexplained_included_files": 0,

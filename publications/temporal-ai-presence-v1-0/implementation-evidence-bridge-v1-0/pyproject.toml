@@ -1,6 +1,6 @@
 [project]
 name = "tap-architecture-code-evidence-bridge"
-version = "1.0.0rc1"
+version = "1.0.0"
 description = "Offline TAP-T02, TAP-T06, TAP-T07, and TAP-T08 architecture-to-code evidence bridge"
 requires-python = ">=3.10"
 license = {text = "AGPL-3.0-or-later for executable bridge code; CC-BY-4.0 for documentation and evidence maps"}

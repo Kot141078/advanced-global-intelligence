@@ -1,6 +1,8 @@
 {
   "schema_version": "1.0",
-  "package": "Temporal AI Presence - Architecture-to-Code Evidence Bridge v1.0 RC",
+  "package": "Temporal AI Presence \u2014 Architecture-to-Code Evidence Bridge v1.0",
+  "publication_state": "final_publication_package_awaiting_public_tag",
+  "proposed_immutable_public_tag": "temporal-ai-presence-implementation-bridge-v1.0",
   "integrity_policy": "PACKAGE_MANIFEST.json and SHA256SUMS.txt are excluded from manifest self-coverage; SHA256SUMS covers PACKAGE_MANIFEST.json and every listed artifact",
   "artifact_count": 198,
   "artifacts": [
@@ -9,6 +11,201 @@
       "sha256": "4c8531ebe33e961c20becbf6213de5e9a3941cd4812e0dc2f7390aa6e162846b",
       "bytes": 1140,
       "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "LICENSE_POLICY.md",
+      "sha256": "404872a9e931164dd1cb809a58759ebd75c9878be17270ce991d7a385df2a3a4",
+      "bytes": 704,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "NON_CLAIMS.md",
+      "sha256": "c158b56d03f7beabf5ea325937c147656a5886aef4150fa9dd24dd1362eed657",
+      "bytes": 479,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "55fca80cd067d2d5110dcc670f5ed22a99b9036c168b6b316199fafdab47d320",
+      "bytes": 863,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "PUBLICATION_ELIGIBILITY.json",
+      "sha256": "8690d5f5bca6331b3061ad120c21ce389ead053c9e0b309dcffd1c77216fdac8",
+      "bytes": 676,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "PUBLIC_EVIDENCE_MATRIX.csv",
+      "sha256": "9a05622bd403e871ff5b6ddbc143911437ebfab7aa49809f486c77abac5ad506",
+      "bytes": 1327,
+      "media_type": "text/csv",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "README.md",
+      "sha256": "46d3e6758eb7926a3a8efc377693b15da6f3abcc08aad49648586c571287ee18",
+      "bytes": 3292,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "REQUIREMENT_TO_CODE_MAP.json",
+      "sha256": "e8aaec89b68904d63bbe1c253918a2ae4adbadbbbd5255054996654fad110113",
+      "bytes": 42429,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "REQUIREMENT_TO_CODE_MAP.md",
+      "sha256": "8b51dce6810375662d91051fc9f69a79b23ffd699a8e0bd8d94c08242df01a26",
+      "bytes": 5854,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "SOURCE_CODE_LICENSE_AGPL-3.0.txt",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "media_type": "text/plain",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "SOURCE_LICENSE_AUDIT.md",
+      "sha256": "6fd45ef2c7620f509cb5691f7171725ed9cf30c2f19de7df581c80617358ff01",
+      "bytes": 507,
+      "media_type": "text/markdown",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "SOURCE_SELECTION_MANIFEST.json",
+      "sha256": "04409b73d622bf500303adc32fc79ddc4e5813badeaefe3f121cdcd4f44c6982",
+      "bytes": 213408,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "SOURCE_TRANSFORMATION_MAP.json",
+      "sha256": "1b0c9c745bd86b62d793dc21b799532ec3f004bbe5149b77c02f99811054c08a",
+      "bytes": 3877,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R3E_A_R1_PACKAGE_METADATA",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T02",
+        "TAP-T06",
+        "TAP-T07",
+        "TAP-T08"
+      ]
+    },
+    {
+      "path": "TAP_BRIDGE_VALIDATION_SUMMARY.json",
+      "sha256": "4082f3ed85b22b8abfd4fb8b58dffb6031ee5ed6b461d05fe44556183b90e7a5",
+      "bytes": 3559,
+      "media_type": "application/json",
       "role": "bridge documentation or metadata",
       "source_class": "R3E_A_R1_PACKAGE_METADATA",
       "license": "CC-BY-4.0",
@@ -47,18 +244,6 @@
       ]
     },
     {
-      "path": "declarations/TAP_C_BOUNDARY_DECLARATION.json",
-      "sha256": "97129e4af24ce9869d0037956f5d13d4feb78cf77a90b659586619a0d397d4f1",
-      "bytes": 713,
-      "media_type": "application/json",
-      "role": "TAP declaration or binding evidence",
-      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
-      "license": "AGPL-3.0-or-later",
-      "TAP_test_ids": [
-        "TAP-T08"
-      ]
-    },
-    {
       "path": "declarations/TAP_CLAIM_CARD.md",
       "sha256": "28c319d92189561eb3c45359a55433045bc638592b6140771a6b5701ef98841f",
       "bytes": 504,
@@ -80,6 +265,18 @@
       "license": "AGPL-3.0-or-later",
       "TAP_test_ids": [
         "TAP-T06"
+      ]
+    },
+    {
+      "path": "declarations/TAP_C_BOUNDARY_DECLARATION.json",
+      "sha256": "97129e4af24ce9869d0037956f5d13d4feb78cf77a90b659586619a0d397d4f1",
+      "bytes": 713,
+      "media_type": "application/json",
+      "role": "TAP declaration or binding evidence",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "AGPL-3.0-or-later",
+      "TAP_test_ids": [
+        "TAP-T08"
       ]
     },
     {
@@ -328,84 +525,9 @@
       ]
     },
     {
-      "path": "LICENSE_POLICY.md",
-      "sha256": "404872a9e931164dd1cb809a58759ebd75c9878be17270ce991d7a385df2a3a4",
-      "bytes": 704,
-      "media_type": "text/markdown",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "NON_CLAIMS.md",
-      "sha256": "c158b56d03f7beabf5ea325937c147656a5886aef4150fa9dd24dd1362eed657",
-      "bytes": 479,
-      "media_type": "text/markdown",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "PROVENANCE.md",
-      "sha256": "4809f0e7c8cb11767b57252194e0b5d63ddc3307538141a7fe072c63e248c33e",
-      "bytes": 722,
-      "media_type": "text/markdown",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "PUBLIC_EVIDENCE_MATRIX.csv",
-      "sha256": "9a05622bd403e871ff5b6ddbc143911437ebfab7aa49809f486c77abac5ad506",
-      "bytes": 1327,
-      "media_type": "text/csv",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "PUBLICATION_ELIGIBILITY.json",
-      "sha256": "bc6ba93a61c6c7908e84a53f09921e28059aebcb58f11a6d625379b3851c14b6",
-      "bytes": 582,
-      "media_type": "application/json",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
       "path": "pyproject.toml",
-      "sha256": "83b377e6155c29d8aa7261a4f25e9fd2dede855fea73fb07d9146d0132c0a218",
-      "bytes": 540,
+      "sha256": "c3263fe38556cda313e750741f692b3cf23d0edc8dc359799700fa376b1b8c35",
+      "bytes": 537,
       "media_type": "application/toml",
       "role": "bridge documentation or metadata",
       "source_class": "R3E_A_R1_PACKAGE_METADATA",
@@ -418,10 +540,10 @@
       ]
     },
     {
-      "path": "README.md",
-      "sha256": "26b3ddde0330a483a0be37f86bde7c3da3ce9d1e5d15f714ca1edc7d5ab74a70",
-      "bytes": 2971,
-      "media_type": "text/markdown",
+      "path": "reference_snapshot/SITECUSTOMIZE_STATIC_AUDIT.json",
+      "sha256": "babd2c2c4579fb6dc3dccad9604f871a407c5612be123e6de20d4ffbddb389d1",
+      "bytes": 1290,
+      "media_type": "application/json",
       "role": "bridge documentation or metadata",
       "source_class": "R3E_A_R1_PACKAGE_METADATA",
       "license": "CC-BY-4.0",
@@ -430,6 +552,30 @@
         "TAP-T06",
         "TAP-T07",
         "TAP-T08"
+      ]
+    },
+    {
+      "path": "reference_snapshot/T06_DISCOVERY_RESULT.json",
+      "sha256": "3b8e0c44f2ade9c1362df5055caa23cfe3f21012455f4abdc3fb9260de952893",
+      "bytes": 246496,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T06"
+      ]
+    },
+    {
+      "path": "reference_snapshot/T07_DISCOVERY_RESULT.json",
+      "sha256": "4274c4cd3298b8f7a1516b3cefe7a473edb954824c061b48e051465827f90242",
+      "bytes": 17271,
+      "media_type": "application/json",
+      "role": "bridge documentation or metadata",
+      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
+      "license": "CC-BY-4.0",
+      "TAP_test_ids": [
+        "TAP-T07"
       ]
     },
     {
@@ -516,21 +662,6 @@
       "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
       "license": "AGPL-3.0-or-later",
       "TAP_test_ids": [
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "reference_snapshot/SITECUSTOMIZE_STATIC_AUDIT.json",
-      "sha256": "babd2c2c4579fb6dc3dccad9604f871a407c5612be123e6de20d4ffbddb389d1",
-      "bytes": 1290,
-      "media_type": "application/json",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
         "TAP-T08"
       ]
     },
@@ -2199,62 +2330,8 @@
       ]
     },
     {
-      "path": "reference_snapshot/T06_DISCOVERY_RESULT.json",
-      "sha256": "3b8e0c44f2ade9c1362df5055caa23cfe3f21012455f4abdc3fb9260de952893",
-      "bytes": 246496,
-      "media_type": "application/json",
-      "role": "bridge documentation or metadata",
-      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T06"
-      ]
-    },
-    {
-      "path": "reference_snapshot/T07_DISCOVERY_RESULT.json",
-      "sha256": "4274c4cd3298b8f7a1516b3cefe7a473edb954824c061b48e051465827f90242",
-      "bytes": 17271,
-      "media_type": "application/json",
-      "role": "bridge documentation or metadata",
-      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T07"
-      ]
-    },
-    {
-      "path": "REQUIREMENT_TO_CODE_MAP.json",
-      "sha256": "e8aaec89b68904d63bbe1c253918a2ae4adbadbbbd5255054996654fad110113",
-      "bytes": 42429,
-      "media_type": "application/json",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "REQUIREMENT_TO_CODE_MAP.md",
-      "sha256": "8b51dce6810375662d91051fc9f69a79b23ffd699a8e0bd8d94c08242df01a26",
-      "bytes": 5854,
-      "media_type": "text/markdown",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
       "path": "requirements.lock",
-      "sha256": "3a9e926ada97ddb47194faeb20677a33973ba4da1f6d4d32ac86b34ab9200541",
+      "sha256": "cc5abcab51552988e7172c08933e08f93d119a0eee5868c8ed4995dc26879b33",
       "bytes": 141,
       "media_type": "text/plain",
       "role": "bridge documentation or metadata",
@@ -2275,66 +2352,6 @@
       "role": "offline validation surface",
       "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
       "license": "AGPL-3.0-or-later",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "SOURCE_CODE_LICENSE_AGPL-3.0.txt",
-      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-      "bytes": 34523,
-      "media_type": "text/plain",
-      "role": "bridge documentation or metadata",
-      "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
-      "license": "AGPL-3.0-or-later",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "SOURCE_LICENSE_AUDIT.md",
-      "sha256": "6fd45ef2c7620f509cb5691f7171725ed9cf30c2f19de7df581c80617358ff01",
-      "bytes": 507,
-      "media_type": "text/markdown",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "SOURCE_SELECTION_MANIFEST.json",
-      "sha256": "defc113d947e17a33e6061896e9d878b71b964fcda286ac86ca49de0f81dfd11",
-      "bytes": 213408,
-      "media_type": "application/json",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "SOURCE_TRANSFORMATION_MAP.json",
-      "sha256": "1b0c9c745bd86b62d793dc21b799532ec3f004bbe5149b77c02f99811054c08a",
-      "bytes": 3877,
-      "media_type": "application/json",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
       "TAP_test_ids": [
         "TAP-T02",
         "TAP-T06",
@@ -2440,21 +2457,6 @@
       "role": "validator or static discovery source",
       "source_class": "R2B_BYTE_IDENTICAL_OR_MAPPED_DERIVATIVE",
       "license": "AGPL-3.0-or-later",
-      "TAP_test_ids": [
-        "TAP-T02",
-        "TAP-T06",
-        "TAP-T07",
-        "TAP-T08"
-      ]
-    },
-    {
-      "path": "TAP_BRIDGE_VALIDATION_SUMMARY.json",
-      "sha256": "0d591238553d3b1f4c0ebca6341805c4ed16dfbd6eb6cad464d255a2ca49c2cf",
-      "bytes": 3355,
-      "media_type": "application/json",
-      "role": "bridge documentation or metadata",
-      "source_class": "R3E_A_R1_PACKAGE_METADATA",
-      "license": "CC-BY-4.0",
       "TAP_test_ids": [
         "TAP-T02",
         "TAP-T06",

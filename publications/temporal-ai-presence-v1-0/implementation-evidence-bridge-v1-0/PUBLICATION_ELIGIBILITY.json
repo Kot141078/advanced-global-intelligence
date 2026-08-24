@@ -1,7 +1,8 @@
 {
   "schema_version": "1.0",
-  "iteration": "R3E-A-R1",
-  "publication_state": "release-candidate-preparation-only",
+  "iteration": "R3E-B",
+  "publication_state": "final_publication_package_awaiting_public_tag",
+  "proposed_immutable_public_tag": "temporal-ai-presence-implementation-bridge-v1.0",
   "current_public_status_changed": false,
   "tests": {
     "TAP-T02": "ELIGIBLE_FOR_PUBLIC_VERIFIED_AFTER_R3E_B",
