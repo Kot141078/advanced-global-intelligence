@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "bridge": "Temporal AI Presence - Architecture-to-Code Evidence Bridge v1.0",
+  "short_identifier": "TAP-ACEB v1.0",
+  "validation_base_commit": "c871049",
+  "source_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+  "offline_suite": {
+    "collected": 60,
+    "passed": 60,
+    "failed": 0,
+    "skipped": 0,
+    "exit_code": 0,
+    "duration_seconds": 1.156,
+    "network_calls": 0,
+    "runtime_starts": 0,
+    "private_data_used": false
+  },
+  "discovery": {
+    "t06_r2a_lexical_sites": 179,
+    "t06_r2b_network_primitives": 177,
+    "t06_route_classes": {
+      "CLOUD_AI_ORACLE": 1,
+      "LEGACY_INACTIVE": 3,
+      "LOCAL_LOOPBACK_MODEL": 5,
+      "LOCAL_SERVICE": 128,
+      "NON_AI_EXTERNAL_NETWORK": 26,
+      "OTHER_EXPLICIT": 3,
+      "UPDATE_OR_METADATA": 11
+    },
+    "t06_status": {
+      "BOUND": 4,
+      "OUT_OF_SCOPE_WITH_REASON": 173
+    },
+    "t06_authority_routes": 3,
+    "t06_authority_complete": 3,
+    "t07_discovered": 14,
+    "t07_classes": {
+      "DISABLED_BY_DEFAULT": 4,
+      "INVENTORIED": 8,
+      "LEGACY_INACTIVE": 1,
+      "OUT_OF_SCOPE_WITH_REASON": 1
+    },
+    "t07_hidden": 0,
+    "t07_unresolved": 0
+  },
+  "source_validation": {
+    "t02_t08": {
+      "source_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+      "collected": 12,
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "network_calls": 0,
+      "runtime_starts": false,
+      "private_data_used": false,
+      "execution_layer": "disposable bundle-derived clone",
+      "clone_equivalence": "PASS"
+    },
+    "t06": {
+      "source_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+      "collected": 16,
+      "passed": 16,
+      "failed": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "network_calls": 0,
+      "runtime_starts": false,
+      "private_data_used": false,
+      "execution_layer": "disposable bundle-derived clone",
+      "clone_equivalence": "PASS"
+    },
+    "t07": {
+      "source_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+      "collected": 11,
+      "passed": 11,
+      "failed": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "network_calls": 0,
+      "runtime_starts": false,
+      "private_data_used": false,
+      "execution_layer": "disposable bundle-derived clone",
+      "clone_equivalence": "PASS"
+    },
+    "combined": {
+      "source_commit": "a668e0501dd9b975fa5e455da781611f9534e509",
+      "collected": 39,
+      "passed": 39,
+      "failed": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "network_calls": 0,
+      "runtime_starts": false,
+      "private_data_used": false,
+      "execution_layer": "disposable bundle-derived clone",
+      "clone_equivalence": "PASS"
+    }
+  },
+  "requirements": {
+    "mapped": 25,
+    "unmapped_mandatory": 0
+  },
+  "eligibility": {
+    "TAP-T02": "ELIGIBLE_FOR_PUBLIC_VERIFIED_AFTER_R3E_B",
+    "TAP-T06": "ELIGIBLE_FOR_PUBLIC_VERIFIED_AFTER_R3E_B",
+    "TAP-T07": "ELIGIBLE_FOR_PUBLIC_VERIFIED_AFTER_R3E_B",
+    "TAP-T08": "ELIGIBLE_FOR_PUBLIC_VERIFIED_AFTER_R3E_B"
+  },
+  "current_public_status_changed": false,
+  "TAP-T03": "PUBLIC_PARTIAL_WITH_DEPLOYMENT_EXTERNAL_BOUNDARY",
+  "M4_FULL_PASS": false,
+  "TAP-C": "NOT CLAIMED",
+  "network_calls": 0,
+  "runtime_starts": 0,
+  "private_data_used": false,
+  "verdict": "TAP_BRIDGE_RELEASE_CANDIDATE_VALIDATION_PASS"
+}

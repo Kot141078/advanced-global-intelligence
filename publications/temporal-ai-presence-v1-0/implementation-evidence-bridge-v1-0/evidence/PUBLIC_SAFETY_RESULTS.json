@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "result": "PASS",
+  "credential_like_findings": 0,
+  "private_memory_findings": 0,
+  "private_path_findings": 0,
+  "host_user_findings": 0,
+  "private_ip_findings": 0,
+  "host_specific_census_artifacts": 0,
+  "raw_git_bundles": 0,
+  "cache_files": 0,
+  "urls_reviewed": 168,
+  "url_classification": "public service, public standards/license, loopback, or synthetic invalid/example only",
+  "real_credentials_used": false,
+  "private_data_used": false
+}

@@ -37,7 +37,7 @@
       "source_path": "tests focused on TAP-T02/T06/T07/T08 and tap_test_support.py",
       "source_sha256": "9495245d753a509c2f2421d88a1c3dc3c083cdd0b4c9c8e4fb84f20db4c614e1",
       "public_path": "run_offline_validation.py",
-      "public_sha256": "1ea9909c78e176d9371a258a47e883f436be512cd953f2478b1ddfca8c727fb1",
+      "public_sha256": "c2cf7ae791bf350ec4cb2640c2c5e417ff21b90ec117bc1bafbf81ea2c86ede6",
       "copy_class": "PUBLIC_SAFE_DERIVATIVE",
       "exact_transformation": "ported assertion logic to one stdlib-only isolated entry point; removed pytest/path coupling; added contract-required negative cases and network/process denial",
       "reason": "self-contained public validation without pytest, repository startup hooks, or original worktrees",

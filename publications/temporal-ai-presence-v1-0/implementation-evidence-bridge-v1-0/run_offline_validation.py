@@ -122,7 +122,7 @@ def validate_manifest(root: Path) -> None:
     actual = {
         p.relative_to(root).as_posix()
         for p in root.rglob("*")
-        if p.is_file() and p.name != "SHA256SUMS.txt"
+        if p.is_file() and p.name not in {"PACKAGE_MANIFEST.json", "SHA256SUMS.txt"}
     }
     assert set(paths) == actual, {
         "missing": sorted(set(paths) - actual),
@@ -137,7 +137,9 @@ def validate_manifest(root: Path) -> None:
     for line in sums_path.read_text(encoding="utf-8").splitlines():
         digest, rel = line.split("  ", 1)
         sums[rel] = digest
-    assert sums == {row["path"]: row["sha256"] for row in records}
+    expected_sums = {row["path"]: row["sha256"] for row in records}
+    expected_sums["PACKAGE_MANIFEST.json"] = sha256(manifest_path)
+    assert sums == expected_sums
 
 
 def main() -> int:
