@@ -1,0 +1,49 @@
+name: Beacon publication bridge
+
+on:
+  pull_request:
+    paths:
+      - "protocols/beacon/**"
+      - "hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt"
+      - "README.md"
+      - "INDEX.md"
+      - "MASTER_ENTRY.md"
+      - "REPO_INDEX.md"
+      - "REPO_INDEX.json"
+      - "MACHINE_ENTRY.md"
+      - "llms.txt"
+      - "tools/validate_beacon_publication_bridge.py"
+      - ".github/workflows/beacon-publication-bridge.yml"
+  push:
+    branches: [main]
+    paths:
+      - "protocols/beacon/**"
+      - "hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt"
+      - "README.md"
+      - "INDEX.md"
+      - "MASTER_ENTRY.md"
+      - "REPO_INDEX.md"
+      - "REPO_INDEX.json"
+      - "MACHINE_ENTRY.md"
+      - "llms.txt"
+      - "tools/validate_beacon_publication_bridge.py"
+      - ".github/workflows/beacon-publication-bridge.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate Beacon publication bridge
+        run: |
+          python tools/validate_beacon_publication_bridge.py
+          python tools/validate_current_corpus_map.py
+          git diff --check

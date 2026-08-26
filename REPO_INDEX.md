@@ -168,12 +168,23 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 
 ## Beacon profile
 - Beacon Profile v0.1
-- Path: `protocols/beacon/`
-- Raw md:
-  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/docs-meaning-map/protocols/beacon/Beacon_Profile_v0.1_EN.md
-- Raw readme:
-  https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/docs-meaning-map/protocols/beacon/README.md
+- Canonical profile root: `protocols/beacon/`
+- Living Markdown mirror (`main`): https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/beacon/Beacon_Profile_v0.1_EN.md
+- Living README mirror (`main`): https://github.com/Kot141078/advanced-global-intelligence/blob/main/protocols/beacon/README.md
+- Direct PDF (`main`): https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/protocols/beacon/Beacon_Profile_v0.1_EN.pdf
+- Immutable Markdown: https://github.com/Kot141078/advanced-global-intelligence/blob/15695853223c798379538aad69dc573730e1ee96/protocols/beacon/Beacon_Profile_v0.1_EN.md
+- Immutable README: https://github.com/Kot141078/advanced-global-intelligence/blob/15695853223c798379538aad69dc573730e1ee96/protocols/beacon/README.md
+- Immutable direct PDF: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/15695853223c798379538aad69dc573730e1ee96/protocols/beacon/Beacon_Profile_v0.1_EN.pdf
+- Published DOI: `10.5281/zenodo.18933553` — https://doi.org/10.5281/zenodo.18933553
+- DOI role: unresolved pending authoritative relation metadata; concept DOI: unresolved and not guessed.
+- Zenodo record: https://zenodo.org/records/18933553
+- Publication bridge: `protocols/beacon/publication/README.md`
+- Publication record: `protocols/beacon/publication/PUBLICATION_RECORD.json`
 - Integrity manifest: `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`
+- Status: Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.
+- Implementation source: https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/modules/beacon_profile/profile.py
+- Implementation tests: https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/tests/test_beacon_profile.py
+- Implementation claim ceiling: Structural reference classifier and persistence sidecar.
 
 ## ARQ v0.2 bridge
 - Subsystem: ARQ v0.2

@@ -156,7 +156,10 @@ Canonical note: `official/AUTHORIAL_PREMISES.md`
 
 1) `REPO_INDEX.md` (canonical map)
 2) `protocols/` (stack layers, scope)
-   - includes `protocols/beacon/` for Beacon Profile v0.1 (inter-entity recognition)
+   - includes `protocols/beacon/` for Beacon Profile v0.1 (inter-entity recognition); published DOI `10.5281/zenodo.18933553`; publication bridge `protocols/beacon/publication/README.md`; machine record `protocols/beacon/publication/PUBLICATION_RECORD.json`; historical manifest `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`.
+     - Status: Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.
+     - Public implementation evidence: [`profile.py`](https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/modules/beacon_profile/profile.py) and [`test_beacon_profile.py`](https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/tests/test_beacon_profile.py). Implementation claim ceiling: Structural reference classifier and persistence sidecar.
+     - Boundary: Beacon is recognition, not legal identity or personhood.
    - includes `protocols/dea/` for DEA (input-to-experience normative layer)
    - includes `protocols/ea-l4-eatp/` for EA-L4 / EATP (training provenance / consequence-preserving layer)
 3) `sovereign-entity-recursion/protocol/` + `pdf/` (SER normative core)

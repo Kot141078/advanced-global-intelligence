@@ -63,7 +63,9 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - Role: active memory degradation, recalibration, lifestream/write-path health, and post-anchor continuity discipline.
 
 - Anchor Class Boundaries v0.1: `protocols/ANCHOR_CLASS_BOUNDARIES_v0.1.md` | PDF: `protocols/Anchor_Class_Boundaries_v0.1_academic.pdf`
-- Beacon profile v0.1: `protocols/beacon/`
+- Beacon Profile v0.1: canonical root `protocols/beacon/`; publication bridge `protocols/beacon/publication/README.md`; machine record `protocols/beacon/publication/PUBLICATION_RECORD.json`; published DOI `10.5281/zenodo.18933553`; historical manifest `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`.
+  - Status: Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.
+  - Public implementation evidence: [`profile.py`](https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/modules/beacon_profile/profile.py) and [`test_beacon_profile.py`](https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/tests/test_beacon_profile.py). Implementation claim ceiling: Structural reference classifier and persistence sidecar.
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
 - Personality Formation and Time-Shaped Continuity Profile v0.1: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`
 - DEA package: `protocols/dea/README.md`

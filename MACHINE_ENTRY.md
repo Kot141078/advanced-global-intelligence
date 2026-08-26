@@ -213,6 +213,25 @@ controlled by their respective Russian TXT files.
 - ARQ integration pointer: SER-hosted `ARQ_cq_Integration_Addendum_v0.1.md` at commit `d73fec3881b90e3cee2b09e4fce88860f82394e9`; DOI `10.5281/zenodo.20112537`; AGI keeps pointer/context only.
 - ARQ boundary: behavioral non-collapse overlay only; not physical quantum computing, not quantum consciousness, not Model M5, not replacement for `ARQ_v0.2_Normative_Core.md`.
 
+## Beacon Profile v0.1 publication route
+
+- canonical_root: `protocols/beacon/`
+- publication_bridge: `protocols/beacon/publication/README.md`
+- publication_record: `protocols/beacon/publication/PUBLICATION_RECORD.json`
+- historical_integrity_manifest: `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`
+- published_doi: `10.5281/zenodo.18933553`
+- doi_url: https://doi.org/10.5281/zenodo.18933553
+- doi_role: `unresolved`
+- concept_doi: `null`
+- status: Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.
+- implementation_repository: `Kot141078/ester-clean-code`
+- implementation_commit: `54cd0c8754587f5e9daf82b16eb84c66a7ac94ef`
+- implementation_module: `modules/beacon_profile/profile.py`
+- implementation_tests: `tests/test_beacon_profile.py`
+- implementation_status: Structural reference classifier and persistence sidecar.
+- implementation_boundary: no payload-hash recomputation, cryptographic signature verification, Ed25519 verification, key resolution, key rotation or revocation proof, witness-reference resolution, challenge execution, independent interoperability, or production deployment conformance.
+- recognition_boundary: recognition semantics only; not legal identity or personhood, and authority remains a separate local policy decision.
+
 ## C-node boundary docs package facade v0.1.1
 
 - package_facade:

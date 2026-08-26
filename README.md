@@ -424,8 +424,12 @@ The following profile was added as a separate post-release synthesis artifact:
   Inter-entity recognition profile for sovereign digital entities
   Path: `protocols/beacon/`
 
-**Integrity:**
-`hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`
+- Published DOI: `10.5281/zenodo.18933553` (<https://doi.org/10.5281/zenodo.18933553>); DOI role unresolved; concept DOI unresolved.
+- Publication bridge: `protocols/beacon/publication/README.md`; machine record: `protocols/beacon/publication/PUBLICATION_RECORD.json`.
+- Historical integrity: `hashes/SHA256SUMS_beacon_v0.1_2026-03-10.txt`.
+- Status: Published DOI-linked informative synthesis profile containing normative-style local requirements. It is not a standards-track specification, not a certification regime, and not a completed cryptographic conformance package.
+- Public implementation evidence: [`profile.py`](https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/modules/beacon_profile/profile.py) and [`test_beacon_profile.py`](https://github.com/Kot141078/ester-clean-code/blob/54cd0c8754587f5e9daf82b16eb84c66a7ac94ef/tests/test_beacon_profile.py).
+- Implementation claim ceiling: Structural reference classifier and persistence sidecar.
 
 Beacon is a derived cross-layer profile and does **not** modify the normative
 scope of v1.1.
