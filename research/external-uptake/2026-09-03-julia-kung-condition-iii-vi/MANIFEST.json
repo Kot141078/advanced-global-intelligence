@@ -1,0 +1,28 @@
+{
+  "record_id": "ERU-2026-09-03-JK-III-VI-001",
+  "schema_version": "1.0.0",
+  "date": "2026-09-03",
+  "status": "EXTERNAL_CONCEPTUAL_UPTAKE_AWAITING_PUBLIC_REVISED_CONCORDANCE",
+  "source_work": {
+    "title": "What Must Be True for a Halt to Hold Under Pressure",
+    "author": "Julia Kung",
+    "date": "2026-09-02",
+    "public_post_url": "https://www.linkedin.com/posts/julia-kung-coherencearchitectureinstitute_whatmustbetrueforahalttohold-activity-7500867921766932480-_j1I",
+    "source_pdf_sha256": "680a55ccf378e042d36225d600a8ff21aff5a8104ba6b93bf88f0fbaa751135b"
+  },
+  "evidence_class": "THIRD_PARTY_EXPLICIT_ADOPTION_WITH_ATTRIBUTION",
+  "registered_deltas": [
+    "SEPARATION_REVISION_AS_CONSTITUTIONAL_TRANSITION",
+    "CONDITION_III_CONDITION_VI_ASSURANCE_COUPLING",
+    "SILENT_WEAKENING_DISCRIMINATING_TEST"
+  ],
+  "validation_status": "CONCEPTUAL_UPTAKE_NOT_TECHNICAL_VALIDATION",
+  "priority_effect": "NONE_RETROACTIVE",
+  "raw_evidence_visibility": "PRIVATE_NOT_IN_REPOSITORY",
+  "private_evidence_zip_sha256": "76a89417dca94218634d59fc083e66cd2e83b9784d609f9c0031e9e606d4c5d5",
+  "private_evidence_zip_size_bytes": 1420106,
+  "private_evidence_commitment_sha256": "d05da9d538727c10fd0b7e27655dafbf5b535edd382ba39dc7ae6c5027117ad5",
+  "public_record_sha256": "c9de76dad2ced09ce165d5cf70be720a676e775c6219f28b998fea03a5031c8d",
+  "claim_ceiling": "BOUNDED_RESISTANCE_NOT_CLOSURE",
+  "next_durable_evidence": "PUBLIC_REVISED_CONCORDANCE_WITH_ATTRIBUTION_VERSION_DATE_STABLE_URL_AND_IMMUTABLE_HASH"
+}
