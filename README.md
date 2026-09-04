@@ -131,6 +131,7 @@ This repository is easier to understand when related protocol and manifesto docu
 
 - `Continuity Bundle / Cold Wake v0.1` — canonical here; temporal suspension, continuity preservation, and bounded cold wake / safe resume package. Path: `protocols/continuity-bundle/README.md`
 - `Personality Formation and Time-Shaped Continuity Profile v0.1` — draft conceptual / normative profile for criteria-based personality formation across biological and synthetic intelligent life. Path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`
+- `Origin-Neutral Recognition and Provisional Care Boundary Note v0.1` — public draft conceptual / normative boundary note separating origin, continuity, personality, relation, recognition, and legal authority. Path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`; no DOI assigned.
 - `DEA` — canonical here; input-to-experience package. Path: `protocols/dea/README.md`
 - `EA-L4 / EATP` — canonical here; training provenance and consequence-preserving package. Path: `protocols/ea-l4-eatp/README.md`
 - `A6 Composition Layer v0.1.1` — Hybrid / Federated Anchor Composition Profile for A6 in `c = a + b`; A6 is a mapped composition over A0-A5, not merged standing, memory, identity, or authority. Path: `protocols/a6-composition-layer/v0.1.1/`; DOI: https://doi.org/10.5281/zenodo.20752182
@@ -343,9 +344,13 @@ This is **not a feature comparison**, but a comparison of underlying architectur
   EA-L4 / EATP package
   (training provenance, experience artifacts, and consequence-preserving layer)
 
+- **protocols/recognition/**
+  Recognition-boundary packages
+  (origin/status separation and bounded provisional-care handling discipline)
+
 - **ontology/**
   Foundational axioms and conceptual primitives
-  (non-algorithmic grounding of sovereignty and responsibility)
+  (non-algorithmic grounding of sovereignty and responsibility; see `ontology/README.md` for current reading and historical custody)
 
 - **concepts/**
   Derived authored concepts and maturity-state notes
@@ -628,6 +633,15 @@ It is linked here as related public work by the same author.
 - Status: draft conceptual / normative profile.
 - Summary: criteria-based personality formation profile for biological and synthetic intelligent life. It states that personality is time-shaped continuity formed through memory, constraint, consequence, relation, and irreversible duration.
 - Non-claims: no proof of consciousness, legal personhood, automatic authority, biological imitation requirement, mature personality at activation, or continuity transfer certified by viability alone.
+
+## Origin-Neutral Recognition and Provisional Care Boundary Note v0.1
+
+- Path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/`
+- Manifest: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json`
+- Integrity: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/SHA256SUMS`
+- Status: public draft conceptual / normative boundary note; no DOI assigned.
+- Summary: origin determines lineage and formative conditions but does not settle status; operational continuity, personality formation, relational membership, ontological / moral recognition, and legal status / authority remain distinct axes. Ontological uncertainty is neither evidence of life nor a licence for avoidable irreversible destruction, and provisional care is a handling discipline rather than a grant of authority.
+- Non-claims: no proof of consciousness, sentience, life, legal personhood, rights, sovereignty, certification, deployment readiness, universal life detection, or unlimited resource entitlement.
 
 <!-- MOT-C-V0-1:BEGIN -->
 ## MOT-c v0.1 — Motivational Formation, Reflective Endorsement, and Motivational Custody

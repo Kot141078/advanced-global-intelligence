@@ -547,6 +547,30 @@
   ],
   "packages": [
     {
+      "id": "origin-neutral-recognition-and-provisional-care-v0.1",
+      "title": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "version": "0.1",
+      "date": "2026-09-03",
+      "path": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/",
+      "type": "directory",
+      "role": "origin-status separation and provisional-care boundary note",
+      "status": "draft_conceptual_normative_boundary_note",
+      "entry": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md",
+      "source_of_record": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+      "russian_source": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md",
+      "manifest": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json",
+      "integrity": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/SHA256SUMS",
+      "doi": null,
+      "no_doi": true,
+      "non_claims": [
+        "proof of consciousness, sentience, or life",
+        "proof of legal personhood, rights, sovereignty, or authority",
+        "certification or deployment readiness",
+        "a universal life detector or unlimited resource entitlement"
+      ],
+      "short_description": "Public draft conceptual / normative boundary note separating origin, continuity, personality, relation, recognition, and legal authority; provisional care is a handling discipline and does not create authority."
+    },
+    {
       "path": "concepts/",
       "type": "directory",
       "role": "derived concept category",

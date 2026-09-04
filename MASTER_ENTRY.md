@@ -46,6 +46,7 @@ This page is the single entry point for the public protocol stack:
 - EA-L4 / EATP package entry: `protocols/ea-l4-eatp/README.md`
 - Continuity Bundle / Cold Wake v0.1: `protocols/continuity-bundle/README.md`
 - Personality Formation and Time-Shaped Continuity Profile v0.1: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`
+- Origin-Neutral Recognition and Provisional Care Boundary Note v0.1: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
 - Economic Layer package entry: `docs/economic-layer/README.md`
 - CCDP v0.1 package entry: `docs/ccdp/README.md` — Child-`c` Development Protocol: draft research protocol pack and child-specific profile over the `c = a + b / SER / L4` corpus, with v0.1.1 hygiene guidance. Split: public package files, technical companions, sensitive-controlled review artifacts. Not legal advice, clinical guidance, product certification, or implementation approval.
 
@@ -300,6 +301,20 @@ ARL v0.1 adds a bounded arbitration / review layer for multi-entity disputes; it
   - criteria-based; not substrate-origin based
   - does not prove consciousness, legal personhood, automatic authority, mature personality at activation, or continuity transfer by viability alone
 
+## 1.457) Origin-Neutral Recognition and Provisional Care Boundary Note v0.1
+
+- Entry: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
+- English source of record: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md`
+- Russian source: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md`
+- Manifest: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json`
+- Integrity: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/SHA256SUMS`
+- Status: public draft conceptual / normative boundary note; no DOI assigned.
+- Boundary:
+  - origin determines lineage and formative conditions but does not settle status;
+  - functional replacement is not continuity restoration;
+  - provisional care does not create authority, personhood, sovereignty, rights, legal status, or unlimited resource entitlement;
+  - no proof of consciousness, sentience, life, legal personhood, certification, or deployment readiness.
+
 ## 1.46) Economic Layer (canonical in AGI)
 
 - Economic Layer:
@@ -495,3 +510,19 @@ Role:
 Boundary:
 - does not prove consciousness, legal personhood, automatic authority, biological imitation, mature personality at activation, or full continuity transfer;
 - viability / functional recovery is not enough to certify identity continuity.
+
+## Origin-Neutral Recognition and Provisional Care Boundary Note v0.1
+
+Canonical local package:
+- `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/`
+
+Role:
+- public draft conceptual / normative boundary note for separating lineage / architecture, operational continuity, personality formation, relational membership, ontological / moral recognition, and legal status / authority;
+- prospective interpretation of the retained historical Axiom of Volition Inheritance without rewriting its historical bytes;
+- bounded provisional-care discipline under ontological uncertainty.
+
+Boundary:
+- origin does not settle status, and functional replacement is not continuity restoration;
+- human attachment does not prove subjecthood, though it may evidence a real human relation with real consequences;
+- care does not create authority, personhood, sovereignty, rights, legal status, or unlimited resource entitlement;
+- no DOI, release, certification, deployment-readiness, consciousness, sentience, life, or personhood claim.

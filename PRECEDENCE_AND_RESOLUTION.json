@@ -1,6 +1,6 @@
 {
   "schema": "agi.precedence_and_resolution.v1",
-  "date": "2026-04-12",
+  "date": "2026-09-03",
   "surface_types": [
     {
       "id": "P01",
@@ -31,7 +31,9 @@
       "may_not_do": "Imply mature finality or outrank stable core by repetition alone.",
       "examples": [
         "sovereign-entity-recursion/protocol/ser-fed/SER-FED_v0.2_RFC_EN.md",
-        "docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md"
+        "docs/economic-layer/Economic_Layer_for_Experience_Artifacts_v0.1.md",
+        "protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md",
+        "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md"
       ]
     },
     {
@@ -161,6 +163,27 @@
       "rule": "Historical retained surface remains citable, but does not silently regain primacy over current designated primary.",
       "what_it_means": "Older retained artifacts remain part of the trace and may still be cited historically, but current designated primary stays primary until explicitly changed.",
       "why_it_matters": "Preserves history without reopening canon by accident."
+    }
+  ],
+  "scoped_precedence": [
+    {
+      "package_id": "origin-neutral-recognition-and-provisional-care-v0.1",
+      "precedence_id": "P03",
+      "governs": [
+        "origin/status separation",
+        "provisional-care handling",
+        "relational-membership boundaries",
+        "functional replacement versus continuity restoration"
+      ],
+      "does_not_override": [
+        "root c = a + b origin architecture",
+        "SER / Beacon / PAMDC continuity sources",
+        "Personality Formation",
+        "MOT-c",
+        "L4",
+        "applicable law"
+      ],
+      "historical_axiom": "The Axiom of Volition Inheritance remains a retained P10 historical surface and is interpreted prospectively rather than rewritten."
     }
   ],
   "fail_closed_rule": "If two surfaces appear to conflict and precedence is unclear, prefer the stronger compatible source and mark the issue unresolved until corpus-level review."

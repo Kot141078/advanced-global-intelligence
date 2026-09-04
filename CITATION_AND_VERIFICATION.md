@@ -88,6 +88,26 @@ Minimum verification route:
 6. apply the package-specific `RIGHTS.md`: no license is granted and all
    rights are reserved.
 
+## Origin-Neutral Recognition and Provisional Care Boundary Note v0.1
+
+This package is a public draft conceptual / normative boundary note. No DOI,
+release, or tag has been assigned. Cite the title, author, version, date, exact
+repository path, and the signed public commit containing the bytes being used.
+
+- Entry: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
+- English source of record: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md`
+- Russian source: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md`
+- Manifest: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json`
+- Integrity: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/SHA256SUMS`
+
+Minimum verification route:
+
+1. confirm the cited Git commit is public and cryptographically verified;
+2. parse the package manifest as JSON;
+3. verify the package files against `SHA256SUMS`;
+4. preserve the six-axis distinction and the package claim ceiling;
+5. do not treat a moving branch, a narrative example, or relational attachment as scientific proof of life, consciousness, personhood, rights, sovereignty, or authority.
+
 <!-- MOT-C-V0-1:BEGIN -->
 ## MOT-c v0.1 — Motivational Formation, Reflective Endorsement, and Motivational Custody
 

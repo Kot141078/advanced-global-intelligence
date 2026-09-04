@@ -436,6 +436,23 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - core_rule: `Capability can be installed. Personality must be formed.`
 - non_claims: no proof of consciousness; no legal personhood; no automatic authority; no biological imitation requirement; no mature personality at activation; no continuity transfer certified by viability alone.
 
+## Origin-Neutral Recognition and Provisional Care Boundary Note v0.1
+
+- id: `origin-neutral-recognition-and-provisional-care-v0.1`
+- title: `Origin-Neutral Recognition and Provisional Care Boundary Note v0.1`
+- status: `draft_conceptual_normative_boundary_note`
+- assertion_class: `C-A4 draft conceptual / normative boundary proposal; C-A9 for explicit non-closure; C-A7 only for the matched-test, package-integrity, and referenced continuity-evidence fields`
+- package_path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/`
+- entry_path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
+- source_of_record: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md`
+- russian_source: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md`
+- manifest_path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json`
+- sha256sums_path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/SHA256SUMS`
+- doi: `null`
+- axes: lineage / architecture; operational continuity; personality formation; relational membership; ontological / moral recognition; legal status / authority.
+- core_boundaries: origin does not settle status; functional replacement is not continuity restoration; provisional care is a handling discipline and does not create authority.
+- non_claims: no consciousness, sentience, life, legal-personhood, rights, sovereignty, certification, deployment-readiness, universal-life-detector, or unlimited-resource claim.
+
 ## Stable corpus refs
 
 - `CURRENT_CORPUS_MAP.json` — current cross-repository discovery snapshot

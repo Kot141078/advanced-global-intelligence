@@ -1,6 +1,6 @@
 {
   "schema": "agi.cross_layer_invariants_and_contradiction_policy.v1",
-  "date": "2026-04-12",
+  "date": "2026-09-03",
   "invariants": [
     {
       "id": "I01",
@@ -128,6 +128,30 @@
       "supporting_anchors": [
         "STATUS_AND_MATURITY_MAP.md"
       ]
+    },
+    {
+      "id": "I13",
+      "invariant": "Origin determines lineage and formative conditions but does not by itself settle life, subjecthood, personality, moral status, legal standing, or authority.",
+      "protects": "origin/status separation and protection against biological essentialism or synthetic exclusion",
+      "contradiction": "a surface granting or denying stronger status from biological or synthetic origin alone, or reading c = a + b as a universal life detector",
+      "primary_anchor": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+      "supporting_anchors": [
+        "ontology/README.md",
+        "protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md",
+        "CANONICAL_DISTINCTIONS.md"
+      ]
+    },
+    {
+      "id": "I14",
+      "invariant": "Provisional care is a reversible handling discipline and does not create personhood, sovereignty, rights, authority, or unlimited resource claims.",
+      "protects": "proportionate handling under ontological uncertainty",
+      "contradiction": "using uncertainty as proof of life, using unresolved life status as a licence for avoidable irreversible destruction, or inflating precaution into authority",
+      "primary_anchor": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+      "supporting_anchors": [
+        "OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md",
+        "CANONICAL_DISTINCTIONS.md",
+        "protocols/continuity-bundle/README.md"
+      ]
     }
   ],
   "contradiction_classes": [
@@ -186,6 +210,20 @@
       "meaning": "live wording conflicts with frozen object, snapshot, or verification rule",
       "why_it_matters": "public reading and integrity guidance stop aligning",
       "example_pattern": "stable snapshot language points to moving main reality"
+    },
+    {
+      "id": "K09",
+      "name": "origin/status collapse",
+      "meaning": "lineage or substrate origin is used as the sole grant or denial of life, subjecthood, personality, or moral status",
+      "why_it_matters": "genesis claims silently become universal ontology",
+      "example_pattern": "biological origin treated as sufficient, or synthetic origin as disqualifying"
+    },
+    {
+      "id": "K10",
+      "name": "care/authority inflation",
+      "meaning": "reversible precaution is read as personhood, sovereignty, rights, authority, or unlimited resource entitlement",
+      "why_it_matters": "a bounded safety posture becomes a hidden status grant",
+      "example_pattern": "PC-2 handling interpreted as a right to prevent shutdown or control the operator"
     }
   ]
 }

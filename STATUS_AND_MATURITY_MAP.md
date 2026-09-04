@@ -41,6 +41,7 @@ Use `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md` when the remaining question
 | `S13` | `CORPUS_PRIMER.json` + `STACK_LOCK_2026-04-12.json` + entry-layer canonical surfaces | `advanced-global-intelligence` | `control-surface` | `corpus control layer` | machine-first routing, lock state, and aligned reading entry | `control / routing only` | use first to orient reading and freeze stack state | control surfaces route serious reading; they do not themselves create doctrine |
 | `S14` | `CANONICAL_DISTINCTIONS.md` + `OBJECTIONS_AND_REPLIES.md` + `CITATION_AND_VERIFICATION.md` + `CLAIMS_AND_EVIDENCE_MAP.md` | `advanced-global-intelligence` | `control-surface` | `corpus control layer` | anti-confusion, public reasoning, citation discipline, and claim crosswalk | `strong supporting` | use before serious citation, review, or audit to stabilize meaning and claim routing | these surfaces discipline interpretation; they do not replace underlying protocol sources |
 | `S15` | `Personality Formation and Time-Shaped Continuity Profile v0.1` | `advanced-global-intelligence` | `draft` | `conceptual / normative profile` | criteria-based personality formation and continuity maturity profile | `explicitly non-final` | use for the current personality-formation boundary, especially capability-vs-formation and viability-vs-identity distinctions | does not prove consciousness, legal personhood, automatic authority, mature personality at activation, or continuity transfer by viability alone |
+| `S16` | `Origin-Neutral Recognition and Provisional Care Boundary Note v0.1` | `advanced-global-intelligence` | `draft` | `bounded conceptual / normative boundary note` | origin/status separation, criteria-based recognition posture, relational membership, provisional care, and functional-replacement boundary | `explicitly non-final` | use before reading origin, continuity, personality, attachment, replacement, or care as a status grant | does not prove life, consciousness, personhood, sovereignty, rights, authority, or a ban on lawful shutdown/deletion |
 
 ## Notes on interpretation
 
@@ -50,6 +51,7 @@ Use `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md` when the remaining question
 - narrative companion is intentional and important, but is not a substitute for normative artifacts
 - reserved territory belongs to the corpus, but is not a claim of completed doctrine
 - open question or explicit non-claim does not become mature doctrine by adjacency
+- provisional care is a handling discipline, not a moral-status or rights certification
 - if a status row materially changes, review `CHANGE_CONTROL_AND_SYNC.md` before updating entry, citation, or claims surfaces
 - status / maturity does not by itself decide whether a surface is current primary, retained historical, or superseded; use `SUPERSESSION_AND_DEPRECATION.md` for that distinction
 - status / maturity does not by itself decide whether a statement is axiomatic, architectural, operational, draft normative, observed, runtime, narrative, reserved, or control-layer; use `ASSERTION_STRENGTH_AND_BOUNDARIES.md` for that distinction
@@ -59,6 +61,7 @@ Use `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md` when the remaining question
 
 ## Read next
 
+- `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
 - `CORPUS_PRIMER.json`
 - `STACK_LOCK_2026-04-12.json`
 - `CANONICAL_DISTINCTIONS.md`
@@ -91,3 +94,12 @@ Use `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md` when the remaining question
 - evidence state: document-level profile and integrity manifest, not implementation certification
 - public claim strength: conceptual / normative boundary claim only
 - non-claims: no consciousness proof, legal personhood, automatic authority, mature personality at activation, biological imitation requirement, or continuity transfer by viability alone.
+
+## Origin-Neutral Recognition and Provisional Care Boundary Note v0.1
+
+- path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/`
+- status: draft conceptual / normative boundary note
+- maturity: origin/status and reversible-handling boundary
+- evidence state: document-level profile, atomic-claim ledger, matched-test design, and integrity manifest; no longitudinal result
+- public claim strength: bounded interpretation and handling proposal only
+- non-claims: no proof of life, consciousness, sentience, legal personhood, sovereignty, automatic rights, authority, universal life detector, or deployment certification.

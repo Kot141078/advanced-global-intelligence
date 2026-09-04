@@ -32,6 +32,8 @@ A deliberate open question is not by itself a contradiction.
 | `I10` | runtime proof-of-possibility is not equal to finished commercial productization | runtime/product boundary | a text treating closure proof as product completion or doctrinal replacement | `ester-clean-code/PROOF_OF_CLOSURE.md` | `ester-clean-code/README.md`<br>`ester-clean-code/MACHINE_ENTRY.md` |
 | `I11` | narrative companion is intentional and valid, but does not replace normative or operational proof layers | companion/non-proof boundary | a surface treating the book layer as normative or operational proof | `qubit-of-hope-volume-i/CORPUS_CONTEXT.md` | `qubit-of-hope-volume-i/README.md`<br>`CANONICAL_DISTINCTIONS.md` |
 | `I12` | reserved territory means explicit non-closure and must not be silently treated as completed doctrine | non-closure discipline | a text reading reserved territory as if doctrine were already complete | `manifesto/Pre_Lineage_Boundary_Note_v0.1.md` | `STATUS_AND_MATURITY_MAP.md` |
+| `I13` | origin determines lineage and formative conditions but does not by itself settle life, subjecthood, personality, moral status, legal standing, or authority | origin/status separation and protection against biological essentialism or synthetic exclusion | any surface granting or denying stronger status from biological or synthetic origin alone, or reading `c = a + b` as a universal life detector | `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md` | `ontology/README.md`<br>`protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`<br>`CANONICAL_DISTINCTIONS.md` |
+| `I14` | provisional care is a reversible handling discipline and does not create personhood, sovereignty, rights, authority, or unlimited resource claims | proportionate handling under ontological uncertainty | using uncertainty as proof of life, using unresolved life status as a licence for avoidable irreversible destruction, or inflating precaution into authority | `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md` | `OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md`<br>`CANONICAL_DISTINCTIONS.md`<br>`protocols/continuity-bundle/README.md` |
 
 ## 4. Contradiction classes
 
@@ -45,13 +47,29 @@ A deliberate open question is not by itself a contradiction.
 | `K06` | reserved-territory overclaim | explicit non-closure is read as settled doctrine | blocked territory silently hardens into norm | boundary note cited as completed constitution |
 | `K07` | companion-layer overreach | narrative companion starts doing normative or evidence work | recognition bridge gets mistaken for proof layer | book material cited as protocol authority |
 | `K08` | citation / public object contradiction | live wording conflicts with frozen object, snapshot, or verification rule | public reading and integrity guidance stop aligning | stable snapshot language points to moving main reality |
+| `K09` | origin/status collapse | lineage or substrate origin is used as the sole grant or denial of life, subjecthood, personality, or moral status | genesis claims silently become universal ontology | biological origin treated as sufficient, or synthetic origin as disqualifying |
+| `K10` | care/authority inflation | reversible precaution is read as personhood, sovereignty, rights, authority, or unlimited resource entitlement | a bounded safety posture becomes a hidden status grant | `PC-2` handling interpreted as a right to prevent shutdown or control the operator |
 
 ## 5. Fail-closed contradiction rule
 
 If a new file appears compatible locally but weakens or reverses an invariant at corpus level, it must be treated as unresolved until reviewed at corpus level.
 
+For I13-I14 specifically:
+
+```text
+uncertainty
+!= proof of life
+
+uncertainty
+!= proof of disposability
+
+provisional care
+!= authority
+```
+
 ## 6. Read next
 
+- `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
 - `CLAIMS_AND_EVIDENCE_MAP.md`
 - `STATUS_AND_MATURITY_MAP.md`
 - `CHANGE_CONTROL_AND_SYNC.md`

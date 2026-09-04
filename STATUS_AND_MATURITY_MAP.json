@@ -1,6 +1,6 @@
 {
   "schema": "agi.status_and_maturity_map.v1",
-  "date": "2026-04-12",
+  "date": "2026-09-03",
   "artifacts": [
     {
       "id": "S01",
@@ -209,6 +209,39 @@
       "normative_weight": "strong supporting",
       "recommended_use": "Use before serious citation, review, or audit to stabilize meaning and claim routing.",
       "anti_confusion_note": "These surfaces discipline interpretation; they do not replace underlying protocol sources."
+    },
+    {
+      "id": "S15",
+      "artifact": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md",
+        "protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md",
+        "protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json"
+      ],
+      "status_label": "draft",
+      "maturity_class": "conceptual / normative profile",
+      "role": "criteria-based personality formation and continuity maturity profile",
+      "normative_weight": "explicitly non-final",
+      "recommended_use": "Use for capability-vs-formation, time-shaped personality, and viability-vs-identity distinctions.",
+      "anti_confusion_note": "Does not prove consciousness, legal personhood, automatic authority, mature personality at activation, or continuity transfer by viability alone."
+    },
+    {
+      "id": "S16",
+      "artifact": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+        "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md",
+        "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md",
+        "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json"
+      ],
+      "status_label": "draft",
+      "maturity_class": "bounded conceptual / normative boundary note",
+      "role": "origin/status separation, criteria-based recognition posture, relational membership, provisional care, and functional-replacement boundary",
+      "normative_weight": "explicitly non-final",
+      "recommended_use": "Use before reading origin, continuity, personality, attachment, replacement, or care as a status grant.",
+      "anti_confusion_note": "Does not prove life, consciousness, personhood, sovereignty, rights, authority, or a ban on lawful shutdown/deletion."
     }
   ]
 }

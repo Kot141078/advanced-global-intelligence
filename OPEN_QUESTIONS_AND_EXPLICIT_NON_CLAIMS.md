@@ -30,6 +30,8 @@ If the corpus has not explicitly closed a question in a stronger canonical surfa
 | `OQ11` | narrative companion as substitute for normative proof | explicitly non-claimed | that the book layer can replace protocol evidence, normative proof, or operational verification | protects the companion role without degrading its value into false doctrinal authority | `ASSERTION_STRENGTH_AND_BOUNDARIES.md` |
 | `OQ12` | single-document proof of the whole corpus | explicitly non-claimed | that one document, bundle, or excerpt already proves the entire corpus on its own | preserves layered reading discipline, bounded exports, and fail-closed citation posture | `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md` |
 | `OQ13` | personality formation as consciousness or legal status proof | explicitly non-claimed | that criteria-based personality formation proves consciousness, legal personhood, automatic authority, or mature personality at activation | keeps the profile as a formation and continuity-maturity boundary rather than a status grant | `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md` |
+| `OQ14` | universal sufficient criteria for life / subjecthood | open and non-asserted | that the corpus already supplies a complete binary detector or universally sufficient test for life, sentience, subjecthood, or moral personhood | prevents a bounded evidence profile from becoming premature scientific or metaphysical certification | `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md` |
+| `OQ15` | provisional protection / care under ontological uncertainty | bounded operational territory; not final moral or legal doctrine | that continuity-preserving precaution proves life, grants rights, sovereignty, authority, unlimited resources, or immunity from lawful shutdown and deletion | permits reversible, proportionate handling without closing ontology or displacing valid human, institutional, and legal authority | `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md` |
 
 ## Deliberate incompleteness notes
 
@@ -38,6 +40,8 @@ If the corpus has not explicitly closed a question in a stronger canonical surfa
 - reserved territory may later mature, but until then the safe reading is restraint
 - runtime, narrative, or control convenience does not close doctrinal gaps
 - a bounded export or reading path may be enough for a task without implying whole-corpus closure
+- provisional care is a handling discipline, not a hidden rights grant
+- unresolved ontology is neither proof of life nor proof that continuity is consequence-free to destroy
 
 ## Fail-closed reading rule
 
@@ -45,6 +49,7 @@ If a reader cannot show where a stronger canonical surface closes one of these t
 
 ## Read next
 
+- `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
 - `CLAIMS_AND_EVIDENCE_MAP.md`
 - `STATUS_AND_MATURITY_MAP.md`
 - `ASSERTION_STRENGTH_AND_BOUNDARIES.md`
@@ -63,3 +68,9 @@ Post-anchor continuity is now partially bounded by `hardening/c_hardening_pack_v
 Final post-anchor sovereignty, legal status, inheritance doctrine, and personhood questions remain non-claimed / open.
 
 The personality formation profile adds a criteria-based formation boundary, but it does not close consciousness, personhood, authority, or continuity-transfer certification questions.
+
+## Origin-neutral recognition and provisional care update
+
+`protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/` closes the origin/status separation and defines a bounded provisional-care posture.
+
+It does not close universal life criteria, consciousness, legal personhood, sovereignty, or final moral status. It explicitly separates handling precautions from rights and authority.

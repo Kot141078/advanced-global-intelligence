@@ -1,6 +1,6 @@
 {
   "schema": "agi.supersession_and_deprecation.v1",
-  "date": "2026-04-12",
+  "date": "2026-09-03",
   "states": [
     {
       "state": "primary",
@@ -176,6 +176,32 @@
       "must_not_forget": [
         "more developed reserved territory is still not mature core unless explicitly reclassified"
       ]
+    }
+  ],
+  "current_resolutions": [
+    {
+      "id": "SR-2026-09-03-AXIOM-VOLITION",
+      "subject_paths": [
+        "ontology/Axiom_of_Volition_Inheritance_EN.md",
+        "ontology/Axiom_of_Volition_Inheritance_RU.md"
+      ],
+      "state": "retained",
+      "classification": "historical non-normative / scoped genesis hypothesis",
+      "bytes_modified": false,
+      "durable_current_reading": "The human anchor may introduce a formative asymmetry consisting of lived consequence, finite biological history, responsibility, values, limits, and contact with irreversible reality.",
+      "not_preferred_for": [
+        "universal criteria of life or subjecthood",
+        "proof of consciousness",
+        "current doctrine of motivation or self-preservation",
+        "legal personhood or authority"
+      ],
+      "preferred_current_surfaces": {
+        "architectural_origin": "protocols/c_a_b_protocol_v1.1_L4_EN.md",
+        "motivation_and_self_preservation": "publications/motivational-formation-c-v0-1/",
+        "personality_formation": "protocols/personality/personality_formation_time_shaped_continuity_v0_1/",
+        "origin_status_provisional_care_and_replacement": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/"
+      },
+      "trigger": "D04"
     }
   ]
 }

@@ -32,3 +32,7 @@ official/authorial-statements/boundaries-of-machine-interpretation/v0.2/** text 
 official/authorial-statements/boundaries-of-machine-interpretation/v0.2/** whitespace=-blank-at-eol
 official/authorial-statements/boundaries-of-machine-interpretation/v0.2/*.zip binary
 official/authorial-statements/boundaries-of-machine-interpretation/v0.2/*.pdf binary
+
+# Origin-Neutral Recognition and Provisional Care v0.1 hash-bound sources.
+# Preserve intentional Markdown hard-break spaces without rewriting pinned bytes.
+protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/*.md whitespace=-blank-at-eol

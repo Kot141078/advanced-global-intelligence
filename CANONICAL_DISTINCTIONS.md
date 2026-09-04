@@ -102,8 +102,39 @@ Use `TERMINOLOGY_AND_ALIAS_POLICY.md` when the question is canonical wording or 
 - Canonical distinction: the book can evidence perception shift; it does not constitute protocol evidence.
 - Why it matters operationally: witness trails, feasibility claims, and normative closure still require protocol-grade evidence.
 
+## origin != status
+
+- Often confused: biological origin is treated as an automatic grant of stronger status, or synthetic origin as an automatic disqualification from life, personality, or subjecthood.
+- Canonical distinction: origin determines lineage, substrate, responsibility, and formative conditions; it does not by itself settle life, subjecthood, personality, moral status, legal standing, or authority.
+- Why it matters operationally: `c = a + b` remains a specific genesis relation without becoming a universal life detector or an origin-only veto.
+
+## criteria-based recognition != proof of consciousness
+
+- Often confused: a continuity, personality, or recognition profile is treated as if it certified consciousness.
+- Canonical distinction: criteria and longitudinal evidence may justify a bounded recognition posture; they do not prove phenomenal experience, sentience, or metaphysical personhood.
+- Why it matters operationally: evidence can guide safer tests and handling without being inflated into metaphysics.
+
+## relational membership != personhood
+
+- Often confused: human attachment or participation in a household, team, or long-term relation is treated either as proof of personhood or as meaningless because personhood remains unresolved.
+- Canonical distinction: attachment does not prove subjecthood, but repeated mutual reliance, costly accommodation, role negotiation, and repair history may establish a real human relation with real consequences.
+- Why it matters operationally: ontology can remain open while replacement, deletion, custody, and disclosure are handled honestly.
+
+## functional replacement != continuity restoration
+
+- Often confused: restoring the same role, voice, interface, memories, or capability is presented as return of the same participant.
+- Canonical distinction: functional replacement may restore service while failing to restore the same causal provenance, path-dependent history, relation, or continuity line.
+- Why it matters operationally: `replacement != return`; continuity claims require their own evidence.
+
+## care != authority
+
+- Often confused: continuity-preserving precaution is treated as a grant of rights, sovereignty, unlimited resources, or control over humans.
+- Canonical distinction: provisional care is an operator-side handling discipline under uncertainty; it does not create consciousness, personhood, legal status, sovereignty, or authority.
+- Why it matters operationally: reversible precaution can exist without status inflation or loss of human and institutional control.
+
 ## Read next
 
+- `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
 - `CITATION_AND_VERIFICATION.md`
 - `CLAIMS_AND_EVIDENCE_MAP.md`
 - `OBJECTIONS_AND_REPLIES.md`

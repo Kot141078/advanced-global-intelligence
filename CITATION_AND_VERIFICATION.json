@@ -1,6 +1,6 @@
 {
   "schema": "agi.citation_and_verification.v1",
-  "date": "2026-04-12",
+  "date": "2026-09-03",
   "public_objects": [
     {
       "type": "repo",
@@ -53,6 +53,41 @@
     "https://raw.githubusercontent.com/Kot141078/qubit-of-hope-volume-i/main/CORPUS_CONTEXT.md"
   ],
   "package_citations": [
+    {
+      "id": "origin-neutral-recognition-and-provisional-care-v0.1",
+      "title": "Origin-Neutral Recognition and Provisional Care Boundary Note v0.1",
+      "author": "Ivan Kotov",
+      "version": "0.1",
+      "date": "2026-09-03",
+      "package_root": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/",
+      "entry": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md",
+      "source_of_record": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+      "russian_source": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md",
+      "package_manifest": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json",
+      "sha256_manifest": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/SHA256SUMS",
+      "status": "draft_conceptual_normative_boundary_note",
+      "doi": null,
+      "no_doi": true,
+      "languages": [
+        "English",
+        "Russian"
+      ],
+      "verification_steps": [
+        "Verify the cited public Git commit is cryptographically verified.",
+        "Parse origin_neutral_recognition_and_provisional_care_v0_1.manifest.json as JSON.",
+        "Verify the package files against SHA256SUMS.",
+        "Preserve the six-axis distinction and the package claim ceiling.",
+        "Do not promote narrative examples, relational attachment, or ontological uncertainty into scientific proof or legal status."
+      ],
+      "non_claims": [
+        "proof of consciousness, sentience, or life",
+        "proof of legal personhood, rights, or sovereignty",
+        "authority or unlimited resource entitlement created by provisional care",
+        "certification or deployment readiness",
+        "a universal life detector",
+        "historical uniqueness or universal novelty"
+      ]
+    },
     {
       "id": "mot-c-v0-1",
       "title": "Motivational Formation, Reflective Endorsement, and Motivational Custody in c-Class Digital Entities: Foundation Theory",
@@ -285,5 +320,5 @@
       ]
     }
   ],
-  "last_updated": "2026-08-22"
+  "last_updated": "2026-09-03"
 }

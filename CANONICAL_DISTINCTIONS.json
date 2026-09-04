@@ -1,6 +1,6 @@
 {
   "schema": "agi.canonical_distinctions.v1",
-  "date": "2026-04-12",
+  "date": "2026-09-03",
   "companion_surfaces": {
     "objections_markdown": "OBJECTIONS_AND_REPLIES.md",
     "objections_json": "OBJECTIONS_AND_REPLIES.json",
@@ -103,6 +103,36 @@
       "confused": "Narrative recognition of a shift proves protocol claims.",
       "canonical": "The book can evidence perception shift; it does not constitute protocol evidence.",
       "operational_why": "Witness trails, feasibility claims, and normative closure still require protocol-grade evidence."
+    },
+    {
+      "id": "origin_not_status",
+      "confused": "Biological origin automatically grants stronger status, or synthetic origin automatically disqualifies life, personality, or subjecthood.",
+      "canonical": "Origin determines lineage, substrate, responsibility, and formative conditions; it does not by itself settle life, subjecthood, personality, moral status, legal standing, or authority.",
+      "operational_why": "Keeps c = a + b as a specific genesis relation without turning it into a universal life detector or origin-only veto."
+    },
+    {
+      "id": "criteria_recognition_not_consciousness",
+      "confused": "A criteria, continuity, personality, or recognition profile certifies consciousness.",
+      "canonical": "Criteria and longitudinal evidence may justify a bounded recognition posture; they do not prove phenomenal experience, sentience, or metaphysical personhood.",
+      "operational_why": "Allows evidence-led testing and precaution without metaphysical inflation."
+    },
+    {
+      "id": "relational_membership_not_personhood",
+      "confused": "Human attachment or social participation either proves personhood or is meaningless while personhood remains unresolved.",
+      "canonical": "Attachment does not prove subjecthood, but repeated mutual reliance, costly accommodation, role negotiation, and repair history may establish a real human relation with real consequences.",
+      "operational_why": "Keeps ontology open while requiring honest handling of replacement, deletion, custody, and disclosure."
+    },
+    {
+      "id": "replacement_not_continuity_restoration",
+      "confused": "Restoring the same role, voice, interface, memories, or capability returns the same participant.",
+      "canonical": "Functional replacement may restore service while failing to restore the same causal provenance, path-dependent history, relation, or continuity line.",
+      "operational_why": "Replacement is not return; continuity claims require their own evidence."
+    },
+    {
+      "id": "care_not_authority",
+      "confused": "Continuity-preserving precaution grants rights, sovereignty, unlimited resources, or control over humans.",
+      "canonical": "Provisional care is an operator-side handling discipline under uncertainty; it does not create consciousness, personhood, legal status, sovereignty, or authority.",
+      "operational_why": "Reversible precaution can exist without status inflation or loss of human and institutional control."
     }
   ]
 }

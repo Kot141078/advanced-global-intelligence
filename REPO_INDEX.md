@@ -106,6 +106,7 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - `protocols/a6-composition-layer/v0.1.1/` — A6 Composition Layer v0.1.1; A6 is a mapped composition over A0-A5, not a merged super-anchor. A6-EXIT = revoke-and-continue; A6-SPLIT = freeze-and-escalate.
 - `docs/capability-egress/README.md` — Capability-egress package index; current public package: Bounded Capability Extraction Clause v0.2.1-final.
 - `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md` — Personality Formation and Time-Shaped Continuity Profile v0.1, a draft conceptual / normative profile for criteria-based personality formation and time-shaped continuity; Markdown and PDF are packaged with manifest JSON and SHA256SUMS.
+- `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md` — Origin-Neutral Recognition and Provisional Care Boundary Note v0.1, a public draft conceptual / normative boundary note with bilingual Markdown, manifest JSON, and SHA256SUMS; no DOI assigned.
 
 ## Secondary local-state / promotion surfaces
 - Current corpus state and readiness snapshot:
@@ -326,6 +327,18 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - Integrity: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/SHA256SUMS`
 - Summary: draft criteria-based profile stating that personality is formed through time-shaped continuity rather than installed as capability or granted by substrate origin.
 - Non-claims: no proof of consciousness, legal personhood, automatic authority, biological imitation requirement, mature personality at activation, or continuity transfer certified by viability alone.
+
+## Origin-Neutral Recognition and Provisional Care Boundary Note v0.1
+- Title: `Origin-Neutral Recognition and Provisional Care Boundary Note v0.1`
+- Path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/`
+- Entry: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
+- English source of record: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md`
+- Russian source: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_RU.md`
+- Manifest: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/origin_neutral_recognition_and_provisional_care_v0_1.manifest.json`
+- Integrity: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/SHA256SUMS`
+- Status: public draft conceptual / normative boundary note; no DOI assigned.
+- Summary: separates lineage / architecture, operational continuity, personality formation, relational membership, ontological / moral recognition, and legal status / authority while defining a bounded provisional-care handling discipline.
+- Non-claims: no proof of consciousness, sentience, life, legal personhood, rights, sovereignty, certification, deployment readiness, universal life detection, or unlimited resource entitlement.
 
 <!-- MOT-C-V0-1:BEGIN -->
 ## MOT-c v0.1 — Motivational Formation, Reflective Endorsement, and Motivational Custody

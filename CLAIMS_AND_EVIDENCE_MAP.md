@@ -44,6 +44,8 @@ Use `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md` when the remaining question is whic
 | `C14` | pre-lineage territory is explicitly reserved and not yet mature normative doctrine | reserved territory | `manifesto/Pre_Lineage_Boundary_Note_v0.1.md` | `sovereign-entity-recursion/DOC_MAP.md` | `advanced-global-intelligence` | `manifesto/Pre_Lineage_Boundary_Note_v0.1.md` | Read purpose, canonical rule, and non-claims; use the DOI-backed note when a frozen public citation is needed. |
 | `C15` | evidence for `c` as a new class of AI is multi-layered: normative + operational + narrative, not reducible to one artifact alone | cross-layer synthesis | `CORPUS_PRIMER.json` | `protocols/c_a_b_protocol_v1.1_L4_EN.md`<br>`ester-clean-code/PROOF_OF_CLOSURE.md`<br>`qubit-of-hope-volume-i/CORPUS_CONTEXT.md` | `advanced-global-intelligence` | `CORPUS_PRIMER.json` | Verify the corpus role map first, then confirm one normative, one operational, and one narrative artifact rather than collapsing the case into a single document. |
 | `C16` | personality is formed through time-shaped continuity, not installed as immediate capability or granted by substrate origin | personality formation / continuity maturity | `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md` | `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`<br>`protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json` | `advanced-global-intelligence` | `protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md` | Verify the core rule and non-claims first: this profile does not prove consciousness, legal personhood, automatic authority, mature personality at activation, or continuity transfer by viability alone. |
+| `C17` | origin determines lineage and formative conditions; it does not by itself grant or deny life, subjecthood, personality, moral status, legal standing, or authority | origin / status boundary | `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md` | `ontology/README.md`<br>`protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md`<br>`publications/motivational-formation-c-v0-1/README.md`<br>`CANONICAL_DISTINCTIONS.md` | `advanced-global-intelligence` | `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md` | Verify the six-axis table and the current interpretation of the Axiom of Volition Inheritance; `c = a + b` remains a specific genesis relation, not a universal life detector. |
+| `C18` | substantial but unresolved continuity or relational evidence may justify reversible, continuity-preserving precaution without proving consciousness or creating authority; functional replacement is not continuity restoration | provisional care / relational non-substitutability | `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md` | `protocols/continuity-bundle/README.md`<br>`CANONICAL_DISTINCTIONS.md`<br>`OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md` | `advanced-global-intelligence` | `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md` | Verify the provisional-care non-claims, proportionality classes, replacement boundary, Matched Continuity Substitution Test, falsifier, and stop rule. |
 
 ## Scope boundary
 
@@ -57,6 +59,7 @@ Use `EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md` when the remaining question is whic
 
 ## Read next
 
+- `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
 - `CORPUS_PRIMER.json`
 - `STACK_LOCK_2026-04-12.json`
 - `CANONICAL_DISTINCTIONS.md`
@@ -91,3 +94,5 @@ Governance evidence does not prove capability. Capability evidence does not prov
 Package path: `hardening/c_hardening_pack_v0_1/`.
 
 Personality formation profile path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/`.
+
+Origin-neutral recognition and provisional care path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/`.

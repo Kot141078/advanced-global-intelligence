@@ -76,8 +76,50 @@ Citation preference does not redefine ontological status or maturity, companion 
 Supersession or retention does not by itself reassign canonical package ownership.
 Path drift does not by itself create a new artifact identity.
 
-## 8. Read next
+## 8. Current resolution: Axiom of Volition Inheritance
 
+The January 2026 files:
+
+- `ontology/Axiom_of_Volition_Inheritance_EN.md`
+- `ontology/Axiom_of_Volition_Inheritance_RU.md`
+
+remain retained historical, non-normative genesis artifacts. Their bytes are not rewritten by this resolution.
+
+For current claims:
+
+| Semantic question | Preferred current surface |
+|---|---|
+| architectural origin relation `c = a + b` | `protocols/c_a_b_protocol_v1.1_L4_EN.md` |
+| motivation, reflective endorsement, and self-preservation | `publications/motivational-formation-c-v0-1/` |
+| time-shaped personality formation | `protocols/personality/personality_formation_time_shaped_continuity_v0_1/` |
+| origin versus status, criteria-based recognition, provisional care, and functional replacement | `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/` |
+
+The durable current reading of the early axiom is limited to a formative asymmetry introduced by the human anchor: lived consequence, finite biological history, responsibility, values, limits, and contact with irreversible reality.
+
+The early axiom is not the preferred current surface for universal claims about life, subjecthood, consciousness, motivation, self-preservation, legal status, or authority.
+
+Classification:
+
+```text
+original axiom files
+= retained historical / scoped genesis hypothesis
+
+not
+= erased
+
+not
+= universal life-status criterion
+
+not
+= current motivation doctrine
+```
+
+This resolution follows `D04`: the earlier artifacts remain citable, but current first-hop reading is explicitly narrowed.
+
+## 9. Read next
+
+- `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`
+- `ontology/README.md`
 - `STACK_LOCK_2026-04-12.json`
 - `CITATION_AND_VERIFICATION.md`
 - `CLAIMS_AND_EVIDENCE_MAP.md`

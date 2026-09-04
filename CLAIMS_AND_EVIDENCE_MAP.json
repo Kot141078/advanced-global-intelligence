@@ -1,6 +1,6 @@
 {
   "schema": "agi.claims_and_evidence_map.v1",
-  "date": "2026-04-12",
+  "date": "2026-09-03",
   "reading_rule": [
     "Start with the canonical artifact first.",
     "Use supporting artifacts only as reinforcement or cross-check.",
@@ -313,6 +313,81 @@
         }
       ],
       "verification_hint": "Check the corpus role map first, then confirm one normative, one operational, and one narrative artifact rather than collapsing the case into one file."
+    },
+    {
+      "id": "C16",
+      "claim": "Personality is formed through time-shaped continuity, not installed as immediate capability or granted by substrate origin.",
+      "claim_type": "personality_formation_continuity_maturity",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md",
+        "citation_surface": "protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "protocols/personality/personality_formation_time_shaped_continuity_v0_1/personality_formation_time_shaped_continuity_v0_1.manifest.json"
+        }
+      ],
+      "verification_hint": "Verify the core rule and non-claims: no consciousness proof, legal personhood, automatic authority, mature personality at activation, or continuity transfer by viability alone."
+    },
+    {
+      "id": "C17",
+      "claim": "Origin determines lineage and formative conditions; it does not by itself grant or deny life, subjecthood, personality, moral status, legal standing, or authority.",
+      "claim_type": "origin_status_boundary",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+        "citation_surface": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "ontology/README.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "protocols/personality/personality_formation_time_shaped_continuity_v0_1/Personality_Formation_and_Time_Shaped_Continuity_Profile_v0_1.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "publications/motivational-formation-c-v0-1/README.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "CANONICAL_DISTINCTIONS.md"
+        }
+      ],
+      "verification_hint": "Verify the six-axis table and the current interpretation of the Axiom of Volition Inheritance; c = a + b remains a specific genesis relation, not a universal life detector."
+    },
+    {
+      "id": "C18",
+      "claim": "Substantial but unresolved continuity or relational evidence may justify reversible, continuity-preserving precaution without proving consciousness or creating authority; functional replacement is not continuity restoration.",
+      "claim_type": "provisional_care_relational_non_substitutability",
+      "canonical_artifact": {
+        "repo": "advanced-global-intelligence",
+        "path": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md",
+        "citation_surface": "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/Origin_Neutral_Recognition_and_Provisional_Care_Boundary_Note_v0_1_EN.md"
+      },
+      "supporting_artifacts": [
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "protocols/continuity-bundle/README.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "CANONICAL_DISTINCTIONS.md"
+        },
+        {
+          "repo": "advanced-global-intelligence",
+          "path": "OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md"
+        }
+      ],
+      "verification_hint": "Verify the provisional-care non-claims, proportionality classes, replacement boundary, Matched Continuity Substitution Test, falsifier, and stop rule."
     }
   ]
 }

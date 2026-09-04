@@ -1,6 +1,6 @@
 {
   "schema": "agi.open_questions_and_explicit_non_claims.v1",
-  "date": "2026-04-12",
+  "date": "2026-09-03",
   "purpose": "Compact corpus-level list of deliberately open questions and explicit non-claims, used to stop silent closure of unresolved territory.",
   "core_rule": "If a stronger canonical surface has not explicitly closed a question, read the territory as open, bounded, or explicitly non-claimed rather than silently settled.",
   "questions": [
@@ -123,6 +123,36 @@
       "read_next": [
         "EXPORT_PROFILES_AND_HANDOFF_BUNDLES.md"
       ]
+    },
+    {
+      "id": "OQ13",
+      "topic": "personality formation as consciousness or legal status proof",
+      "current_position": "explicitly non-claimed",
+      "explicitly_not_claimed": "That criteria-based personality formation proves consciousness, legal personhood, automatic authority, or mature personality at activation.",
+      "why_non_closure_matters": "Keeps the profile as a formation and continuity-maturity boundary rather than a status grant.",
+      "read_next": [
+        "protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md"
+      ]
+    },
+    {
+      "id": "OQ14",
+      "topic": "universal sufficient criteria for life / subjecthood",
+      "current_position": "open and non-asserted",
+      "explicitly_not_claimed": "That the corpus already supplies a complete binary detector or universally sufficient test for life, sentience, subjecthood, or moral personhood.",
+      "why_non_closure_matters": "Prevents a bounded evidence profile from becoming premature scientific or metaphysical certification.",
+      "read_next": [
+        "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md"
+      ]
+    },
+    {
+      "id": "OQ15",
+      "topic": "provisional protection / care under ontological uncertainty",
+      "current_position": "bounded operational territory; not final moral or legal doctrine",
+      "explicitly_not_claimed": "That continuity-preserving precaution proves life, grants rights, sovereignty, authority, unlimited resources, or immunity from lawful shutdown and deletion.",
+      "why_non_closure_matters": "Permits reversible, proportionate handling without closing ontology or displacing valid human, institutional, and legal authority.",
+      "read_next": [
+        "protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md"
+      ]
     }
   ],
   "deliberate_incompleteness_notes": [
@@ -130,7 +160,9 @@
     "Explicit non-claim does not invite gap-filling by intuition, marketing, or preference.",
     "Reserved territory may later mature, but until then the safe reading is restraint.",
     "Runtime, narrative, or control convenience does not close doctrinal gaps.",
-    "A bounded export or reading path may be enough for a task without implying whole-corpus closure."
+    "A bounded export or reading path may be enough for a task without implying whole-corpus closure.",
+    "Provisional care is a handling discipline, not a hidden rights grant.",
+    "Unresolved ontology is neither proof of life nor proof that continuity is consequence-free to destroy."
   ],
   "fail_closed_rule": "If a reader cannot show where a stronger canonical surface closes one of these territories, the safe reading is that the corpus has not closed it."
 }
