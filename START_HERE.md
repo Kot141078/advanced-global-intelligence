@@ -8,6 +8,29 @@ Open `protocols/dea/README.md`. It is the shortest canonical entry to DEA as the
 If you need the layer relationship first, open `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`.
 If you need the shortest interpretive phrase for `c`, open `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`.
 
+## Experience path in one view
+
+```text
+raw input
+→ DEA qualification: integration + temporal persistence + consequence linkage
+→ EA: witness-backed executed interaction under L4 constraints
+→ EATP: quarantine + selection + transformation + bounded training integration
+→ LA: capability-improving abstraction that remains distinct from EA
+→ Economic Layer: admissibility + restraint + bounded disclosure or circulation
+```
+
+This is a reading route across existing packages, not a new protocol layer.
+
+Keep the following distinctions intact:
+
+- receiving, parsing, storing, embedding, indexing, or retrieving input is not experience;
+- DEA remains upstream from EA-L4 / EATP;
+- EA is not LA, and capability gain does not automatically become experience or authority;
+- local usefulness does not establish external admissibility;
+- training use or economic circulation does not prove continuity, identity, authority, personhood, or lawful succession.
+
+Naming compatibility: the public package title `Document → Experience Artifact` is retained as the established entry label. The generalized DEA specification is not document-only; it also covers messages, code, sensor data, logs, execution traces, API responses, interactions, and internal reflections.
+
 ## DEA route
 
 1. `protocols/dea/README.md`
@@ -27,6 +50,8 @@ DEA remains upstream; `protocols/ea-l4-eatp/README.md` remains the downstream ad
 Open `docs/economic-layer/README.md`. It is the shortest canonical entry to the Economic Layer package for Experience Artifact admissibility, provenance, transfer, restraint, anti-gaming, and non-market handling in this repository.
 
 If you want the package map first, open `docs/economic-layer/INDEX.md`.
+
+For the raw-local privacy membrane between private life and externally admissible artifacts, open `docs/economic-layer/extensions/RAW_LOCALITY_AND_EXPERIENCE_REFINERY_PROFILE_v0.1.md`.
 
 ## Pre-Lineage boundary note
 
