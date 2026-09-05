@@ -1,0 +1,49 @@
+name: Bounded scientific correction build v1
+on:
+  push:
+    branches: [scientific-corrections-v1-0-20260905]
+    paths:
+      - '.github/workflows/scientific-corrections-v1.yml'
+      - 'hardening/scientific_corrigenda_v1_0/tools/**'
+      - 'hardening/scientific_corrigenda_v1_0/patches/**'
+      - 'hardening/scientific_corrigenda_v1_0/CORRIGENDUM_*.md'
+      - 'hardening/scientific_corrigenda_v1_0/ZENODO_*'
+permissions:
+  contents: write
+concurrency:
+  group: scientific-corrections-v1-20260905
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: scientific-corrections-v1-0-20260905
+          fetch-depth: 1
+      - name: Install document rendering dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq pandoc texlive-xetex texlive-latex-extra fonts-dejavu-core fonts-dejavu-extra
+          python -m pip install --disable-pip-version-check PyMuPDF==1.26.7
+      - name: Build exact source-bound corrections and focused regressions
+        run: python hardening/scientific_corrigenda_v1_0/tools/assemble_repository_release.py
+      - name: Commit only this correction and named navigation files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hardening/scientific_corrigenda_v1_0 hardening/SCIENTIFIC_CORRIGENDA_HARDENING_v1_0.zip hardening/SCIENTIFIC_CORRIGENDA_HARDENING_v1_0.zip.sha256 CANONICAL_OWNERSHIP_AND_BOUNDARIES.md CANONICAL_OWNERSHIP_AND_BOUNDARIES.json publications/motivational-formation-c-v0-1/README.md publications/ccalc-full-stack-v0-1/README.md protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Build source-bound scientific corrigenda; preserve historical DOI payloads"
+            git push origin HEAD:scientific-corrections-v1-0-20260905
+          fi
+      - name: Deliver exact correction bundle
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: scientific-corrigenda-v1-0
+          if-no-files-found: error
+          path: |
+            hardening/SCIENTIFIC_CORRIGENDA_HARDENING_v1_0.zip
+            hardening/SCIENTIFIC_CORRIGENDA_HARDENING_v1_0.zip.sha256
+          retention-days: 14
