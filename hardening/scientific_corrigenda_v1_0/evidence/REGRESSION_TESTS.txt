@@ -29,6 +29,6 @@ test_28_admission_algorithms_unchanged (__main__.CorrectionTests.test_28_admissi
 test_29_source_doi_not_assigned_to_new_bytes (__main__.CorrectionTests.test_29_source_doi_not_assigned_to_new_bytes) ... ok
 
 ----------------------------------------------------------------------
-Ran 29 tests in 0.034s
+Ran 29 tests in 0.037s
 
 OK
