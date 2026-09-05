@@ -111,3 +111,9 @@ This package is not legal advice, not privacy-law certification, not safety cert
 ```text
 + is not what computes c; + is what prevents c from being reduced to b.
 ```
+
+## Scientific correction — 5 September 2026
+
+Document 04 sections 18 and 21 have a finite-adjacency and relation-taxonomy correction. Admission algorithms and the historical component archives are unchanged. Read the corrected edition and SC-03.
+
+[Scientific Corrigenda and Regression Hardening v1.0](https://github.com/Kot141078/advanced-global-intelligence/tree/main/hardening/scientific_corrigenda_v1_0).

@@ -82,3 +82,9 @@ a motive
 ## Claim ceiling
 
 The publication does not prove consciousness, phenomenal desire, free will, legal personhood, universal motives, automatic self-preservation, automatic authority, or an automatic right to another participant's compute, property, money, body or infrastructure.
+
+## Scientific correction — 5 September 2026
+
+The Appendix A example in both Foundation Theory languages omitted LATENT. The machine JSON schema already contains LATENT and is unchanged. Read the corrected editions and SC-02; the old DOI payload remains the historical release.
+
+[Scientific Corrigenda and Regression Hardening v1.0](https://github.com/Kot141078/advanced-global-intelligence/tree/main/hardening/scientific_corrigenda_v1_0).

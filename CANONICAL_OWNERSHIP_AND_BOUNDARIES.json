@@ -1,6 +1,6 @@
 {
   "schema": "agi.canonical_ownership_and_boundaries.v1",
-  "date": "2026-04-12",
+  "date": "2026-09-05",
   "entries": [
     {
       "id": "O01",
@@ -227,6 +227,25 @@
       "disallowed_drift": "non-owner repo forking corpus-control canon through parallel local rule sets",
       "read_next": [
         "CORPUS_PRIMER.json"
+      ]
+    },
+    {
+      "id": "O13",
+      "layer": "Personality Formation and Time-Shaped Continuity Profile v0.1",
+      "canonical_home_repo": "advanced-global-intelligence",
+      "adjacent_repos": [
+        "sovereign-entity-recursion",
+        "ester-reality-bound",
+        "ester-clean-code"
+      ],
+      "allowed_non_owner_role": [
+        "pointer",
+        "contextual mention",
+        "implementation or review bridge"
+      ],
+      "disallowed_drift": "adjacent repos presenting personality formation as local authority, consciousness proof, or legal status grant",
+      "read_next": [
+        "protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md"
       ]
     }
   ],

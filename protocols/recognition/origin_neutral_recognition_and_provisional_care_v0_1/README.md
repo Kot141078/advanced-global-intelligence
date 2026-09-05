@@ -83,3 +83,9 @@ for line in (root / "SHA256SUMS").read_text(encoding="utf-8").splitlines():
 print("PASS")
 PY
 ```
+
+## Scientific correction — 5 September 2026
+
+Interpret section 10 with SC-05: a bounded-summary control measures replacement/compression cost and does not by itself establish information parity or a formation-path residual. The clarification reports no new experiment.
+
+[Scientific Corrigenda and Regression Hardening v1.0](https://github.com/Kot141078/advanced-global-intelligence/tree/main/hardening/scientific_corrigenda_v1_0).
