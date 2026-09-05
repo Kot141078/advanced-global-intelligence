@@ -53,10 +53,8 @@ def prepare_figures() -> None:
     out = ROOT / 'reading_editions/figures'; out.mkdir(parents=True, exist_ok=True)
     records = []
     for language, expected, refs in [
-        ('EN','2346fb43875e7fb137ef7408126ffcf5f3f66c02099c8d0d293089d136318801b',[420,422,424]),
+        ('EN','2346fb43875e7fb137ef7408126ff5cf3f66c02099c8d0d293089d136318801b',[420,422,424]),
         ('RU','4a50e6a8d8444b7960715ae4035d3e5ad6fe58c21000066d48f4d45f880384a5',[427,429,431])]:
-        if language == 'EN':
-            expected = '2346fb43875e7fb137ef7408126ff5cf3f66c02099c8d0d293089d136318801b'
         basename = f'MOT_c_Foundation_Theory_v0_1_{language}.pdf'
         url = PREFIX + f'advanced-global-intelligence/{AGI_PIN}/publications/motivational-formation-c-v0-1/release/{basename}'
         raw = read_public(url)
