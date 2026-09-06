@@ -309,6 +309,15 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - `Kot141078/qubit-of-hope-volume-i` — multilingual reading repository for *Qubit of Hope — Volume I* (literary work)
 - corpus role: human-facing narrative companion
 
+## Shared Open Worlds for Human–AI Dyads v0.2
+- Entry: `publications/shared-open-worlds-human-ai-dyads-v0-2/README.md`
+- Release bytes: `publications/shared-open-worlds-human-ai-dyads-v0-2/release/`
+- Publication manifest: `publications/shared-open-worlds-human-ai-dyads-v0-2/PUBLICATION_MANIFEST.json`
+- Version DOI: https://doi.org/10.5281/zenodo.22542470
+- Concept DOI: https://doi.org/10.5281/zenodo.22542469
+- Status: N10 frozen public object; conceptual and methodological preprint, English v0.2, CC BY 4.0 for the selected work only.
+- Boundary: not a runtime implementation, completed experiment, independently annotated benchmark, c-specific effect, identity, consciousness, journal acceptance, or economic-superiority result.
+
 ## c Hardening Pack v0.1
 - Title: `c Hardening Pack v0.1`
 - Path: `hardening/c_hardening_pack_v0_1/`

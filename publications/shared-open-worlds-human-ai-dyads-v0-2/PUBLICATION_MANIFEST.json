@@ -1,0 +1,61 @@
+{
+  "schema": "acow.publication-manifest.v1",
+  "id": "shared-open-worlds-human-ai-dyads-v0-2",
+  "title": "Shared Open Worlds for Human–AI Dyads: Role Switching, Experience Qualification, and Cross-World Continuity Evaluation",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "https://orcid.org/0009-0009-6002-9845",
+    "affiliation": "Independent Researcher, Brussels, Belgium"
+  },
+  "version": "0.2",
+  "publication_date": "2026-09-06",
+  "language": "en",
+  "publication_type": "conceptual and methodological research preprint",
+  "intake_class": "N10",
+  "version_doi": "10.5281/zenodo.22542470",
+  "concept_doi": "10.5281/zenodo.22542469",
+  "zenodo_record": "https://zenodo.org/records/22542470",
+  "canonical_page": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/",
+  "license": {
+    "code": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "scope": "Selected published paper and original accompanying documentation only."
+  },
+  "copyright": "Copyright © 2026 Ivan Kotov",
+  "verification": {
+    "owner_publication_confirmed": true,
+    "local_bytes_verified": true,
+    "zip_member_count": 9,
+    "zip_checksum_rows": 8,
+    "zenodo_raw_readback_obtained": true,
+    "zenodo_raw_files_verified": [
+      "A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf",
+      "A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip"
+    ],
+    "verification_sources": [
+      "owner-pinned local inputs",
+      "the deposited ZIP's SHA256SUMS.txt",
+      "public Zenodo record API and raw file downloads"
+    ]
+  },
+  "source_files": [
+    {"path": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip", "bytes": 301436, "sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce"},
+    {"path": "release/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.docx", "bytes": 73105, "sha256": "d883ab3c39ded3bffeef94543d5380762f5cbd2e2bd70d0a999cf90e143a8591"},
+    {"path": "release/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md", "bytes": 84341, "sha256": "a832f5e7f207c1b563300ea6976db94785940b7d1342a8db65c629899749c396"},
+    {"path": "release/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf", "bytes": 307911, "sha256": "59a69617fdc64092286296126d60d6331285105408ac4f54c474230240e03aee"},
+    {"path": "release/CITATION.bib", "bytes": 427, "sha256": "e7eb102f894b126191888e03c7961b18e03a6cf44df3a7de23f7ddee64ac2fb5"},
+    {"path": "release/EDITION_AND_SOURCE_NOTE.md", "bytes": 3372, "sha256": "674c93b9789822e211e98accab8adde5c403eeb98aaec9769a09ce05cb42c331"},
+    {"path": "release/LICENSE.md", "bytes": 1986, "sha256": "deabf811c995784eab75486ee428eaedb9041f432a0f6004fe6042c330e98a7c"},
+    {"path": "release/PUBLIC_SOURCE_SCOPE.json", "bytes": 18087, "sha256": "7ae75a091baf0dbff6ad7c5d0568730c8b89370136b81d07d19f2643237cacc7"},
+    {"path": "release/README.md", "bytes": 2451, "sha256": "1970d0b67b1b6b752d3d3d95f9e8887ce4ebbb23fe9a096138ec12c6a62a56f9"},
+    {"path": "release/SHA256SUMS.txt", "bytes": 767, "sha256": "f7cc62f6df203b016257b9389c4cd98aec7de04e109430d16670467704da51b2"}
+  ],
+  "related_works": [
+    {"relation": "references", "doi": "10.5281/zenodo.21751985"},
+    {"relation": "references", "doi": "10.5281/zenodo.22085394"}
+  ],
+  "claim_boundary": "Published conceptual and methodological preprint; not software, a dataset, a journal-accepted paper, a completed experiment, a runtime implementation, an independently annotated benchmark, proof of a c-specific effect, identity, consciousness, or economic superiority.",
+  "historical_alternative_package_selected": false,
+  "zenodo_mutations": 0
+}

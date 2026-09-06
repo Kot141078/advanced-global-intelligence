@@ -12,7 +12,8 @@ Role Switching, Experience Qualification, and Cross-World Continuity Evaluation.
 - [English Markdown](release/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md)
 - [Editable DOCX](release/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.docx)
 - [Exact deposited public ZIP](A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip)
-- [Post-publication citation](CITATION.cff) · [Machine metadata](PUBLICATION.json)
+- [Post-publication BibTeX citation](CITATION.bib) · [Citation File Format](CITATION.cff)
+- [Publication manifest](PUBLICATION_MANIFEST.json) · [Compact machine metadata](PUBLICATION.json)
 - [Original package checksums](release/SHA256SUMS.txt) · [Original license](release/LICENSE.md)
 
 ## Research question
@@ -21,11 +22,11 @@ A person and a long-lived candidate AI line may cooperate, compete by agreement,
 
 ## Claim and evidence boundary
 
-This is a conceptual and methodological proposal, not a working game integration or experimental result. The five author-constructed illustrations are explanatory, not an independently annotated benchmark. English v0.2 was prepared from the author-accepted Russian revision after adjudication of model reviews of v0.1; it has not undergone separate independent peer review. C designates a candidate implementation of requirements. No separate causal C/B1 comparison is planned until an actual treatment is specified. Ordinary baselines retain memory and safeguards. No proof of identity continuity, consciousness, a new AI class, or economic superiority is claimed.
+This N10 frozen-public-object intake is a conceptual and methodological proposal, not a working game integration or experimental result. Its canonical home is this DOI-bound exact-byte mirror; it adds no normative authority to the wider corpus. The five author-constructed illustrations are explanatory, not an independently annotated benchmark. English v0.2 was prepared from the author-accepted Russian revision after adjudication of model reviews of v0.1; it has not undergone separate independent peer review. C designates a candidate implementation of requirements. No separate causal C/B1 comparison is planned until an actual treatment is specified. Ordinary baselines retain memory and safeguards. No proof of identity continuity, consciousness, a new AI class, or economic superiority is claimed.
 
 ## Published-byte preservation
 
-`release/` reproduces all nine members of the deposited ZIP without changes. Its README and bibliography describe the pre-deposit package and intentionally remain historical. The new DOI is carried by this README, CITATION.cff and PUBLICATION.json, not silently inserted into the published paper, source or archive. Archive SHA-256: `47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce`.
+`release/` reproduces all nine members of the deposited ZIP without changes. Its README and bibliography describe the pre-deposit package and intentionally remain historical. The new DOI is carried by this README, the external citation files and publication metadata, not silently inserted into the published paper, source or archive. Archive SHA-256: `47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce`.
 
 The package's original documentation is CC BY 4.0. This does not relicense the rest of this repository, cited works, software, game assets, private memories or individual runtime state. No internal review material is included.
 

@@ -1,0 +1,6 @@
+# Preserve the exact DOI-bound payload bytes.
+release/* -text
+A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip -text
+# The deposited Markdown uses intentional two-space hard breaks.
+release/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md whitespace=-blank-at-eol
+release/EDITION_AND_SOURCE_NOTE.md whitespace=-blank-at-eol

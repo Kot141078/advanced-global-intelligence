@@ -108,6 +108,22 @@ Minimum verification route:
 4. preserve the six-axis distinction and the package claim ceiling;
 5. do not treat a moving branch, a narrative example, or relational attachment as scientific proof of life, consciousness, personhood, rights, sovereignty, or authority.
 
+## Shared Open Worlds for Human–AI Dyads v0.2
+
+For the specific published English v0.2 text, cite the version DOI
+<https://doi.org/10.5281/zenodo.22542470>. Use the concept DOI
+<https://doi.org/10.5281/zenodo.22542469> only for the all-versions work.
+The exact-byte repository mirror is
+`publications/shared-open-worlds-human-ai-dyads-v0-2/`; its
+`PUBLICATION_MANIFEST.json` binds the public ZIP and all nine original
+members. The moving repository is a discovery surface, not a replacement for
+the DOI object.
+
+Claim boundary: this is a conceptual and methodological preprint, not software,
+a dataset, a journal-accepted paper, a completed experiment, a runtime
+implementation, or proof of a c-specific effect, identity, consciousness, or
+economic superiority.
+
 <!-- MOT-C-V0-1:BEGIN -->
 ## MOT-c v0.1 — Motivational Formation, Reflective Endorsement, and Motivational Custody
 
