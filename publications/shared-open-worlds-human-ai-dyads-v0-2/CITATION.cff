@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite the published preprint, not this repository as an empirical implementation."
+type: article
+title: "Shared Open Worlds for Human–AI Dyads: Role Switching, Experience Qualification, and Cross-World Continuity Evaluation"
+authors:
+  - family-names: Kotov
+    given-names: Ivan
+    orcid: https://orcid.org/0009-0009-6002-9845
+version: "0.2"
+date-released: 2026-09-06
+doi: 10.5281/zenodo.22542470
+url: https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/
+license: CC-BY-4.0

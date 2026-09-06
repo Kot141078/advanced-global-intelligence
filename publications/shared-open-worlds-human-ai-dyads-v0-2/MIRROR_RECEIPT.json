@@ -1,0 +1,28 @@
+{
+  "status": "PASS_EXACT_ACOW_MIRROR_BUILD",
+  "doi": "10.5281/zenodo.22542470",
+  "archive_bytes": 301436,
+  "archive_sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce",
+  "members_verified": 9,
+  "internal_checksum_rows": 8,
+  "observations": [
+    {
+      "source_url": "https://zenodo.org/records/22542470/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip?download=1",
+      "final_url": "https://zenodo.org/records/22542470/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip?download=1",
+      "http_status": 200,
+      "bytes": 301436,
+      "sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce"
+    },
+    {
+      "source_url": "https://zenodo.org/records/22542470/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf?download=1",
+      "final_url": "https://zenodo.org/records/22542470/files/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf?download=1",
+      "http_status": 200,
+      "bytes": 307911,
+      "sha256": "59a69617fdc64092286296126d60d6331285105408ac4f54c474230240e03aee"
+    }
+  ],
+  "source_changes": 0,
+  "model_calls": 0,
+  "game_runs": 0,
+  "independent_scientific_review": false
+}

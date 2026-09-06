@@ -129,6 +129,8 @@ This repository is easier to understand when related protocol and manifesto docu
 
 ## Canonical package entry points
 
+- **Shared Open Worlds for Human–AI Dyads v0.2** — conceptual and methodological preprint, English, 6 September 2026. [Publication and exact files](publications/shared-open-worlds-human-ai-dyads-v0-2/README.md); [DOI](https://doi.org/10.5281/zenodo.22542470); CC BY 4.0 for this work only. No empirical game/c-specific result; current permissions, shared-history utility and human enjoyment are evaluated separately.
+
 - `Continuity Bundle / Cold Wake v0.1` — canonical here; temporal suspension, continuity preservation, and bounded cold wake / safe resume package. Path: `protocols/continuity-bundle/README.md`
 - `Personality Formation and Time-Shaped Continuity Profile v0.1` — draft conceptual / normative profile for criteria-based personality formation across biological and synthetic intelligent life. Path: `protocols/personality/personality_formation_time_shaped_continuity_v0_1/README.md`
 - `Origin-Neutral Recognition and Provisional Care Boundary Note v0.1` — public draft conceptual / normative boundary note separating origin, continuity, personality, relation, recognition, and legal authority. Path: `protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/README.md`; no DOI assigned.

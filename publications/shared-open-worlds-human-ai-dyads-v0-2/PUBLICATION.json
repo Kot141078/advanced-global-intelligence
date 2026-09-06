@@ -1,0 +1,80 @@
+{
+  "id": "shared-open-worlds-human-ai-dyads-v0-2",
+  "title": "Shared Open Worlds for Human–AI Dyads: Role Switching, Experience Qualification, and Cross-World Continuity Evaluation",
+  "version": "0.2",
+  "publication_date": "2026-09-06",
+  "publication_type": "preprint",
+  "language": "en",
+  "author": "Ivan Kotov",
+  "orcid": "https://orcid.org/0009-0009-6002-9845",
+  "version_doi": "10.5281/zenodo.22542470",
+  "concept_doi": "10.5281/zenodo.22542469",
+  "zenodo_record": "https://zenodo.org/records/22542470",
+  "canonical_page": "https://ivankotov.eu/publications/shared-open-worlds-human-ai-dyads-v0-2/",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "archive": {
+    "filename": "A_C_SHARED_OPEN_WORLD_EXPERIENCE_v0_2_EN_PUBLIC.zip",
+    "bytes": 301436,
+    "sha256": "47945ca619f65ea6788de84c22ee278d0cee29fba929ab0e7e1db5fe17cc92ce"
+  },
+  "payloads": [
+    {
+      "path": "release/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.docx",
+      "bytes": 73105,
+      "sha256": "d883ab3c39ded3bffeef94543d5380762f5cbd2e2bd70d0a999cf90e143a8591"
+    },
+    {
+      "path": "release/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.md",
+      "bytes": 84341,
+      "sha256": "a832f5e7f207c1b563300ea6976db94785940b7d1342a8db65c629899749c396"
+    },
+    {
+      "path": "release/A_C_SHARED_OPEN_WORLD_EXPERIENCE_PAPER_v0_2_EN.pdf",
+      "bytes": 307911,
+      "sha256": "59a69617fdc64092286296126d60d6331285105408ac4f54c474230240e03aee"
+    },
+    {
+      "path": "release/CITATION.bib",
+      "bytes": 427,
+      "sha256": "e7eb102f894b126191888e03c7961b18e03a6cf44df3a7de23f7ddee64ac2fb5"
+    },
+    {
+      "path": "release/EDITION_AND_SOURCE_NOTE.md",
+      "bytes": 3372,
+      "sha256": "674c93b9789822e211e98accab8adde5c403eeb98aaec9769a09ce05cb42c331"
+    },
+    {
+      "path": "release/LICENSE.md",
+      "bytes": 1986,
+      "sha256": "deabf811c995784eab75486ee428eaedb9041f432a0f6004fe6042c330e98a7c"
+    },
+    {
+      "path": "release/PUBLIC_SOURCE_SCOPE.json",
+      "bytes": 18087,
+      "sha256": "7ae75a091baf0dbff6ad7c5d0568730c8b89370136b81d07d19f2643237cacc7"
+    },
+    {
+      "path": "release/README.md",
+      "bytes": 2451,
+      "sha256": "1970d0b67b1b6b752d3d3d95f9e8887ce4ebbb23fe9a096138ec12c6a62a56f9"
+    },
+    {
+      "path": "release/SHA256SUMS.txt",
+      "bytes": 767,
+      "sha256": "f7cc62f6df203b016257b9389c4cd98aec7de04e109430d16670467704da51b2"
+    }
+  ],
+  "related_works": [
+    {
+      "relation": "references",
+      "doi": "10.5281/zenodo.21751985"
+    },
+    {
+      "relation": "references",
+      "doi": "10.5281/zenodo.22085394"
+    }
+  ],
+  "evidence_boundary": "Conceptual and methodological preprint; no empirical experiment, runtime implementation, independently annotated benchmark, or separate peer review of English v0.2. C/B1 treatment remains unspecified.",
+  "mirror_policy": "All nine deposited members and the public ZIP remain byte-exact. Post-publication DOI metadata are additive sidecars outside release/."
+}
