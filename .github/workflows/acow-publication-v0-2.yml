@@ -1,0 +1,55 @@
+name: ACOW v0.2 exact publication mirror
+on:
+  push:
+    branches: [acow-v0-2-publication-20260906]
+    paths:
+      - '.github/workflows/acow-publication-v0-2.yml'
+      - 'tools/publish_acow_v0_2_20260906.py'
+permissions:
+  contents: write
+concurrency:
+  group: acow-publication-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  mirror:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 1
+      - name: Check publisher identity and acquire immutable published bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo '2a3a79c126f81a4479ca4efc71f9158aa9d7114142424bc903313a1715d35609  tools/publish_acow_v0_2_20260906.py' | sha256sum -c -
+          python tools/publish_acow_v0_2_20260906.py | tee /tmp/acow-mirror-output.txt
+          git diff --check
+      - name: Commit only the named mirror and corpus entry
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md publications/shared-open-worlds-human-ai-dyads-v0-2
+          python - <<'PY'
+          import subprocess
+          names=subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines()
+          assert names and all(x=='README.md' or x.startswith('publications/shared-open-worlds-human-ai-dyads-v0-2/') for x in names), names
+          PY
+          if ! git diff --cached --quiet; then
+            git commit -m 'Mirror published ACOW v0.2 DOI 22542470 with unchanged CC BY payloads'
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
+      - name: Return source-bound mirror evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: acow-v0-2-mirror-evidence
+          path: |
+            publications/shared-open-worlds-human-ai-dyads-v0-2/MIRROR_RECEIPT.json
+            publications/shared-open-worlds-human-ai-dyads-v0-2/PUBLICATION.json
+            /tmp/acow-mirror-output.txt
+          if-no-files-found: warn
+          retention-days: 14
