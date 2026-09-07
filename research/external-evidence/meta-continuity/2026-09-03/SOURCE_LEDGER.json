@@ -1,0 +1,68 @@
+{
+  "schema": "external_source_ledger_v1",
+  "package_id": "META_CONTINUITY_WATCH_2026-09-03",
+  "accessed_at": "2026-09-03T13:32:50+02:00",
+  "sources": [
+    {
+      "source_id": "META-EXT-001",
+      "publisher": "Meta Engineering",
+      "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
+      "published_date": "2026-09-02",
+      "source_type": "official_engineering_disclosure",
+      "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+      "verified_facts": [
+        "Structured, auditable knowledge architecture separates knowledge from reasoning procedure.",
+        "Expert feedback is compiled into verified, regression-tested updates without retraining the underlying model.",
+        "Knowledge is distilled into structured files with explicit dependencies and consumers.",
+        "Proposed changes undergo independent adversarial review, deterministic structural validation, targeted replay, regression testing, and human review.",
+        "Accepted changes are represented as diffs with an audit trail; changes are version-controlled, diffable, and reversible."
+      ],
+      "direct_overlap": [
+        "model-external durable state",
+        "knowledge/procedure separation",
+        "replay and regression validation",
+        "human approval",
+        "auditable and reversible state changes"
+      ],
+      "missing_for_continuity": [
+        "personal identity",
+        "personal memory custody",
+        "local identity root",
+        "same-entity transition across model replacement",
+        "successor/fork semantics",
+        "authority inheritance",
+        "cryptographic witness"
+      ],
+      "claim_ceiling": "Institutional knowledge persistence and an architecture compatible with model replacement; not identity continuity."
+    },
+    {
+      "source_id": "META-EXT-002",
+      "publisher": "Meta AI Research",
+      "title": "Introducing Muse Spark 1.3",
+      "published_date": "2026-09-02",
+      "source_type": "official_research_product_announcement",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "verified_facts": [
+        "The model is described as sustaining longer-horizon work across multiple workflows in one long thread.",
+        "It is described as tracking what it has learned during a task and preserving detailed requirements.",
+        "It can work silently in the background.",
+        "It is described as confirming before consequential actions and calibrating around irreversible actions."
+      ],
+      "direct_overlap": [
+        "long-horizon agentic work",
+        "background execution",
+        "basic consequential-action confirmation gate"
+      ],
+      "missing_for_continuity": [
+        "durable personal state independent of a session",
+        "memory custody",
+        "identity root",
+        "model-replacement continuity",
+        "authority ledger",
+        "witness chain"
+      ],
+      "claim_ceiling": "Product-level long-horizon and confirmation-gate claims; not durable identity or authority continuity."
+    }
+  ],
+  "capture_policy": "This public package contains source metadata and normalized verified facts only. It does not republish or cryptographically archive the remote pages."
+}

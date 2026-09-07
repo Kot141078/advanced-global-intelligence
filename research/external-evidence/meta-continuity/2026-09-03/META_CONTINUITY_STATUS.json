@@ -1,0 +1,90 @@
+{
+  "schema": "meta_continuity_watch_status_v1",
+  "package_id": "META_CONTINUITY_WATCH_2026-09-03",
+  "as_of": "2026-09-03T13:32:50+02:00",
+  "scope": "Public official Meta / Meta AI evidence only",
+  "overall_verdict": "OFFICIAL_MODEL_EXTERNAL_DURABLE_STATE_CONFIRMED__PERSISTENT_PERSONAL_IDENTITY_CONTINUITY_NOT_CONFIRMED",
+  "statuses": {
+    "META_PERSISTENT_PERSONAL_AI": {
+      "status": "NOT_CONFIRMED",
+      "reason": "No official same-entity continuity architecture for a personal AI was located."
+    },
+    "META_MODEL_EXTERNAL_DURABLE_STATE": {
+      "status": "CONFIRMED",
+      "evidence": [
+        "META-EXT-001"
+      ],
+      "reason": "Meta publicly describes structured knowledge and procedures outside model weights, with durable verified updates."
+    },
+    "META_AUDITABLE_KNOWLEDGE_UPDATES": {
+      "status": "CONFIRMED",
+      "evidence": [
+        "META-EXT-001"
+      ]
+    },
+    "META_REPLAY_AND_REGRESSION_VALIDATION": {
+      "status": "CONFIRMED",
+      "evidence": [
+        "META-EXT-001"
+      ]
+    },
+    "META_MODEL_REPLACEABILITY": {
+      "status": "ARCHITECTURALLY_ENABLED_NOT_DEMONSTRATED",
+      "evidence": [
+        "META-EXT-001"
+      ],
+      "reason": "Externalizing durable state reduces dependence on one model, but Meta did not demonstrate or define continuity through an actual model replacement."
+    },
+    "META_LONG_HORIZON_BACKGROUND_AGENT": {
+      "status": "CONFIRMED_AT_PRODUCT_CLAIM_LEVEL",
+      "evidence": [
+        "META-EXT-002"
+      ]
+    },
+    "META_CONSEQUENTIAL_ACTION_CONFIRMATION_GATE": {
+      "status": "CONFIRMED_AT_PRODUCT_CLAIM_LEVEL",
+      "evidence": [
+        "META-EXT-002"
+      ]
+    },
+    "META_PERSONAL_MEMORY_CUSTODY": {
+      "status": "NOT_FOUND"
+    },
+    "META_LOCAL_OR_USER_HELD_IDENTITY_ROOT": {
+      "status": "NOT_FOUND"
+    },
+    "META_IDENTITY_CONTINUITY_ACROSS_MODEL_REPLACEMENT": {
+      "status": "NOT_FOUND"
+    },
+    "META_SUCCESSOR_FORK_REPLAY_RESUME_SEMANTICS": {
+      "status": "NOT_FOUND"
+    },
+    "META_AUTHORITY_CONTINUITY_OR_CUSTODY_LEDGER": {
+      "status": "NOT_FOUND"
+    },
+    "META_CRYPTOGRAPHIC_WITNESS_CHAIN": {
+      "status": "NOT_FOUND"
+    },
+    "META_OFFLINE_LOCAL_IDENTITY_PERSISTENCE": {
+      "status": "NOT_FOUND"
+    }
+  },
+  "claim_ceiling": "The official evidence supports institutional knowledge persistence, model-external durable state, auditable/reversible updates, long-horizon workflow support, and a basic consequential-action confirmation gate. It does not support a claim of persistent personal identity, memory custody, same-entity continuity after model replacement, local identity root, successor/fork semantics, authority inheritance, cryptographic witness, or c-class status.",
+  "baseline_supersedes": "Unversioned Meta Continuity AI Watch baseline before 2026-09-03",
+  "next_alert_threshold": [
+    "Official specification of personal memory ownership or custody",
+    "User-held or local identity root independent of Meta account/backend",
+    "Explicit same-entity criteria across model replacement or substrate migration",
+    "Successor, fork, replay, restart, or resume semantics",
+    "Authority provenance, revocation, inheritance, or continuity ledger",
+    "Cryptographic witness/provenance chain for personal-agent state transitions",
+    "Offline/local persistence of identity-bearing state, not merely local inference",
+    "Public implementation or evaluation demonstrating any of the above"
+  ],
+  "repository_role": {
+    "intake_class": "N04",
+    "public_safe_class": "B01-candidate",
+    "promotion_state": "PS03",
+    "canonical_effect": "none"
+  }
+}
