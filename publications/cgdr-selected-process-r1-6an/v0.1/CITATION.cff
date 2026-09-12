@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this evidence note by version and exact Git commit. No DOI has been assigned."
+type: dataset
+title: "CGDR-R1.6A Selected-Process Conformance: R1.6AN Evidence Note"
+version: "0.1"
+date-released: "2026-09-12"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+url: "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/cgdr-selected-process-r1-6an/v0.1"
