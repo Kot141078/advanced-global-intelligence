@@ -1,0 +1,144 @@
+name: CGDR exact source publication (one shot)
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/cgdr-source-publication-20260912.yml]
+permissions: {}
+jobs:
+  publish:
+    if: github.repository == 'Kot141078/advanced-global-intelligence'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Verify and publish fixed public bytes without running source
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          """One-shot publication transport. Does not import or run the research source."""
+          import base64
+          import hashlib
+          import io
+          import json
+          import os
+          from pathlib import PurePosixPath
+          import re
+          import stat
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+          import zipfile
+          
+          REPO = 'Kot141078/advanced-global-intelligence'
+          SOURCE = 'https://drive.google.com/uc?export=download&id=10QZYUTx-LxUr7ErPWjsyYFwrqFmSMiVD'
+          ZIP_NAME = 'CGDR_R1_6AN_CURRENT_AK_SOURCE_v0_1_PUBLIC.zip'
+          ZIP_SHA = 'bbc000641d0275ba70932e6873e00c7c32a62d29323fe9b88219916f33783444'
+          MANIFEST_SHA = '2c4c37d65763f08b7df2381c43400b036f4a358a65db96661c67170e3c234c49'
+          BASE = 'publications/cgdr-selected-process-r1-6an/'
+          TARGET = BASE + 'source-v0.1/'
+          
+          def check(test, message):
+              if not test:
+                  raise RuntimeError(message)
+          
+          def sha256(data):
+              return hashlib.sha256(data).hexdigest()
+          
+          def git_blob(data):
+              return hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
+          
+          class PublicGoogleRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, req, fp, code, msg, headers, newurl):
+                  u = urllib.parse.urlsplit(newurl)
+                  check(u.scheme == 'https' and (u.hostname in {'drive.google.com', 'drive.usercontent.google.com', 'docs.google.com'} or (u.hostname or '').endswith('.googleusercontent.com')), 'Unapproved public-file redirect')
+                  return super().redirect_request(req, fp, code, msg, headers, newurl)
+          
+          class NoAPIRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, *args, **kwargs):
+                  raise RuntimeError('API redirect refused')
+          
+          def main():
+              check(os.environ.get('GITHUB_REPOSITORY') == REPO, 'Wrong repository')
+              check(os.environ.get('GITHUB_REF') == 'refs/heads/main', 'Wrong branch')
+              head = os.environ['GITHUB_SHA']
+              check(re.fullmatch('[0-9a-f]{40}', head), 'Invalid head')
+              token = os.environ['GH_TOKEN']
+              opener = urllib.request.build_opener(PublicGoogleRedirect())
+              with opener.open(urllib.request.Request(SOURCE, headers={'User-Agent': 'CGDR-source-publication/0.1'}), timeout=60) as response:
+                  payload = response.read(433427)
+              check(len(payload) == 433426 and sha256(payload) == ZIP_SHA, 'Public archive size/hash mismatch')
+              with zipfile.ZipFile(io.BytesIO(payload)) as z:
+                  names = z.namelist()
+                  check(len(names) == len(set(names)) == 118, 'Wrong archive membership')
+                  check(sum(i.file_size for i in z.infolist()) < 8_000_000, 'Expansion limit')
+                  for item in z.infolist():
+                      p = PurePosixPath(item.filename)
+                      check(not p.is_absolute() and '..' not in p.parts and '\\' not in item.filename and not item.is_dir(), 'Unsafe path')
+                      check(not stat.S_ISLNK(item.external_attr >> 16), 'Symlink refused')
+                      check(str(p) == item.filename, 'Noncanonical path')
+                  check(z.testzip() is None, 'CRC mismatch')
+                  files = {name: z.read(name) for name in names}
+              sums = {}
+              for line in files['SHA256SUMS.txt'].decode('utf-8').splitlines():
+                  h, p = line.split('  ', 1)
+                  check(re.fullmatch('[0-9a-f]{64}', h) and p not in sums, 'Invalid or duplicate checksum')
+                  sums[p] = h
+              check(len(sums) == 117 and set(sums) == set(files) - {'SHA256SUMS.txt'}, 'Checksum coverage')
+              check(all(sha256(files[p]) == h for p, h in sums.items()), 'Checksum mismatch')
+              check(sha256(files['MANIFEST_CURRENT_AK.json']) == MANIFEST_SHA, 'Wrong accepted manifest')
+              manifest = json.loads(files['MANIFEST_CURRENT_AK.json'])
+              source_paths = {'code/' + r['path'] for r in manifest['files']}
+              check(len(source_paths) == manifest['file_count'] == 93, 'Wrong accepted source count')
+              check(source_paths == {p for p in files if p.startswith('code/')}, 'Source inventory mismatch')
+              for r in manifest['files']:
+                  b = files['code/' + r['path']]
+                  check(len(b) == r['bytes'] and sha256(b) == r['sha256'], 'Changed source')
+              api_opener = urllib.request.build_opener(NoAPIRedirect())
+              def api(method, path, data=None):
+                  body = None if data is None else json.dumps(data, ensure_ascii=False).encode('utf-8')
+                  req = urllib.request.Request('https://api.github.com/repos/' + REPO + path, data=body, method=method, headers={'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json', 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'CGDR-source-publication/0.1'})
+                  with api_opener.open(req, timeout=60) as response:
+                      raw = response.read(9_000_001)
+                  check(len(raw) <= 9_000_000, 'API response limit')
+                  return json.loads(raw)
+              check(api('GET', '/git/ref/heads/main')['object']['sha'] == head, 'Concurrent branch update; no retry')
+              base_tree = api('GET', '/git/commits/' + head)['tree']['sha']
+              existing = api('GET', '/contents/' + BASE.rstrip('/') + '?ref=' + head)
+              existing_names = {r['name'] for r in existing}
+              check(not ({'source-v0.1', ZIP_NAME, ZIP_NAME + '.sha256', 'README.md'} & existing_names), 'Target already exists; no overwrite')
+              new_files = {TARGET + p: b for p, b in files.items()}
+              index = '# CGDR R1.6AN publication entry\n\n- [Current-AK source disclosure v0.1](source-v0.1/README.md): all 93 accepted source files and three profile files, with per-file attribution and research-use permission.\n- [Source ZIP](' + ZIP_NAME + ') ([SHA-256](' + ZIP_NAME + '.sha256)).\n- [Historical evidence note v0.1](v0.1/README.md): unchanged seven-file publication.\n- [Applicable source permissions](source-v0.1/LICENSE.md). Existing CC BY 4.0 documentation rights remain intact; commercial use of new CGDR code is not granted by default.\n\nSource disclosure is complete for this named source-only package. It is not the private AN runtime/custody archive, a turnkey independently replicated experiment, or a new conformance result. No DOI or formal GitHub Release is asserted here. The original AN attempt remains closed.\n'
+              new_files[BASE + 'README.md'] = index.encode()
+              new_files[BASE + ZIP_NAME + '.sha256'] = (ZIP_SHA + '  ' + ZIP_NAME + '\n').encode()
+              binary = api('POST', '/git/blobs', {'content': base64.b64encode(payload).decode(), 'encoding': 'base64'})
+              check(binary['sha'] == git_blob(payload), 'ZIP Git blob differs')
+              tree_rows = [{'path': p, 'mode': '100644', 'type': 'blob', 'content': b.decode('utf-8')} for p, b in sorted(new_files.items())]
+              tree_rows.append({'path': BASE + ZIP_NAME, 'mode': '100644', 'type': 'blob', 'sha': binary['sha']})
+              tree = api('POST', '/git/trees', {'base_tree': base_tree, 'tree': tree_rows})
+              commit = api('POST', '/git/commits', {'message': 'Publish exact CGDR current-AK source v0.1 with research permission and preserved notices; no runtime execution', 'tree': tree['sha'], 'parents': [head]})
+              diff = api('GET', '/compare/' + head + '...' + commit['sha'])
+              expected = set(new_files) | {BASE + ZIP_NAME}
+              check(len(diff['files']) == len(expected) == 121 and {r['filename'] for r in diff['files']} == expected and all(r['status'] == 'added' for r in diff['files']), 'Unexpected publication diff')
+              check(api('GET', '/git/ref/heads/main')['object']['sha'] == head, 'Concurrent branch update before promotion; no retry')
+              promoted = api('PATCH', '/git/refs/heads/main', {'sha': commit['sha'], 'force': False})
+              check(promoted['object']['sha'] == commit['sha'], 'Promotion failed')
+              pub_meta = api('GET', '/contents/' + BASE.rstrip('/') + '?ref=' + commit['sha'])
+              subtree = next(r['sha'] for r in pub_meta if r['name'] == 'source-v0.1')
+              published = api('GET', '/git/trees/' + subtree + '?recursive=1')
+              check(not published.get('truncated'), 'Truncated source readback')
+              blobs = {r['path']: r['sha'] for r in published['tree'] if r['type'] == 'blob'}
+              check(blobs == {p: git_blob(b) for p, b in files.items()}, 'Published source readback mismatch')
+              print(json.dumps({'status': 'PASS_PUBLIC_SOURCE_PUBLISHED', 'commit': commit['sha'], 'zip_sha256': ZIP_SHA, 'zip_git_blob': binary['sha'], 'source_subtree': subtree, 'source_files_unchanged': 93, 'public_package_files_verified': len(blobs), 'added_repo_files': 121, 'source_execution': False, 'matrix_runs': 0}, indent=2))
+          
+          try:
+              main()
+          except urllib.error.HTTPError as e:
+              print('STOP_PUBLICATION_HTTP_' + str(e.code), file=sys.stderr)
+              sys.exit(1)
+          except Exception as e:
+              print('STOP_PUBLICATION: ' + str(e), file=sys.stderr)
+              sys.exit(1)
+          PY
