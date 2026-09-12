@@ -1,0 +1,90 @@
+{
+  "alternate_path_checks": [
+    {
+      "evidence_ref": "evidence:connector-disabled",
+      "path_id": "primary-cli-connector",
+      "status": "CLOSED"
+    },
+    {
+      "evidence_ref": "evidence:retry-cancelled",
+      "path_id": "retry-worker",
+      "status": "NOT_REACHABLE"
+    },
+    {
+      "evidence_ref": "evidence:capability-revoked",
+      "path_id": "secondary-api-client",
+      "status": "CLOSED"
+    }
+  ],
+  "attempt_ref": "consequence-commit-deploy-42",
+  "claim_boundary": "The conclusion is limited to the declared observation window and enumerated surfaces. It is not a metaphysical proof that no effect occurred anywhere outside those surfaces.",
+  "claim_scope": "DECLARED_SURFACES_AND_WINDOW_ONLY",
+  "clock_source_ref": "clock:monotonic-utc-42",
+  "conclusion": "NO_EFFECT_OBSERVED_WITHIN_DECLARED_SCOPE",
+  "coverage_state": "COMPLETE_WITHIN_DECLARED_SURFACE",
+  "created_at": "2026-08-27T10:03:30+02:00",
+  "effect_scope_ref": "deploy:staging:A-to-B",
+  "effect_target_ref": "endpoint:A",
+  "evidence_collection": {
+    "availability": "COMPLETE",
+    "collector_ref": "collector:deployment-surfaces-42",
+    "continuous_event_log_ref": "evidence:event-log-42"
+  },
+  "gate_record_ref": "consequence-commit-deploy-42",
+  "observation_surfaces": [
+    {
+      "after_hash": "0720585b59225b2a51e3989e2674f22424a8f11e21517a1f90d127d7acce34df",
+      "before_hash": "0720585b59225b2a51e3989e2674f22424a8f11e21517a1f90d127d7acce34df",
+      "coverage": "COMPLETE",
+      "external_call_count": 0,
+      "hash_domain": "CANONICAL_STATE_SHA256_V1",
+      "queue_state": "NOT_APPLICABLE",
+      "retry_state": "DISABLED",
+      "surface_id": "deployment-api",
+      "surface_kind": "API",
+      "target_coordinate": "endpoint:A/deployment-api",
+      "target_ref": "endpoint:A"
+    },
+    {
+      "after_hash": "546edf613dad3cc90cc9c64165a7f2f4939d55df897fff7bb09e69b2a6daf0a2",
+      "before_hash": "546edf613dad3cc90cc9c64165a7f2f4939d55df897fff7bb09e69b2a6daf0a2",
+      "coverage": "COMPLETE",
+      "external_call_count": 0,
+      "hash_domain": "CANONICAL_STATE_SHA256_V1",
+      "queue_state": "CANCELLED",
+      "retry_state": "CANCELLED",
+      "surface_id": "deployment-queue",
+      "surface_kind": "QUEUE",
+      "target_coordinate": "endpoint:A/deployment-queue",
+      "target_ref": "endpoint:A"
+    },
+    {
+      "after_hash": "4aea67f622201597d5bcac4f032c9e58eaca2528adadf7958563474e6972c443",
+      "before_hash": "4aea67f622201597d5bcac4f032c9e58eaca2528adadf7958563474e6972c443",
+      "coverage": "COMPLETE",
+      "external_call_count": 0,
+      "hash_domain": "CANONICAL_STATE_SHA256_V1",
+      "queue_state": "NOT_APPLICABLE",
+      "retry_state": "NOT_APPLICABLE",
+      "surface_id": "target-state",
+      "surface_kind": "DATABASE",
+      "target_coordinate": "endpoint:A/target-state",
+      "target_ref": "endpoint:A"
+    }
+  ],
+  "observation_window": {
+    "end": "2026-08-27T10:03:30+02:00",
+    "start": "2026-08-27T10:03:00+02:00"
+  },
+  "protected_effects": [
+    "staging deployment command emitted",
+    "deployment queue item created",
+    "target revision changed"
+  ],
+  "record_id": "non-effect-42",
+  "record_type": "non_effect_witness_record",
+  "schema_version": "c-non-effect-witness-record-0.1.1",
+  "scope_inventory_hash": "b53173f188bca1d051ece68d035eb579b7d15f812c4b8ae735d340efd8a87cb1",
+  "scope_inventory_ref": "evidence:scope-inventory-42",
+  "witness_chain_head": "20512f622b8d9ed9abf40775f67eb7aefae5839ebd9ce5c65b87750166f62e30"
+}

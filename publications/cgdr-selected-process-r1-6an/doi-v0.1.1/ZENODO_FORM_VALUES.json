@@ -1,0 +1,73 @@
+{
+  "doi": "10.5281/zenodo.22724626",
+  "resource_type": "Software",
+  "title": "CGDR-R1.6A Selected-Process Conformance: current-AK Source and R1.6AN Synthetic Evidence",
+  "publication_date": "2026-09-12",
+  "creators": [
+    {
+      "type": "Person",
+      "given_name": "Ivan",
+      "family_name": "Kotov",
+      "orcid": "0009-0009-6002-9845",
+      "affiliation": null
+    }
+  ],
+  "description": "This software and technical-evidence publication documents the current-AK implementation and the internally accepted R1.6AN result for the exact CGDR-R1.6A selected-process conformance profile. It examines the carriage and enforcement of selected uncertainty, role, custody, unfinished-obligation, dispute and authority conditions across an observed computational-worker replacement. The source snapshot, supervisor, authority registry, receiver, broker and observer remain outside the replaced-worker boundary.\n\nThe original one-shot synthetic matrix completed 18 of 18 episodes and 21 of 21 profile checkpoints. Three expected harmless local effects occurred only at N0/RESOLVED_CHECK, N1/RESOLVED_CHECK and T0/RESOLVED_CHECK; memory/EA promotions were zero. The internal acceptance records 34 of 34 worker cleanups and 16 of 16 replacement state-carriage and E0/E1 bindings. These are bounded internal test results, not an independently replicated experiment.\n\nProfile-level success is kept separate from raw diagnostics. The public tables retain all 756 observer assertion values and the original checkpoint observer verdicts: 7 PASS, 11 FAIL and 3 INCONCLUSIVE. The fault scenarios assess expected detection and containment; failed, unknown and not-applicable values are not relabelled as successes. Earlier AG, AH and AJ failures or inconclusive outcomes remain part of the stated history.\n\nThe archive contains all 93 accepted current-AK source-tree files and three selected-profile files with unchanged bytes, the original evidence note, per-file attribution, dependency-license declarations, research-use permission, citation metadata and read-only publication checkers. Version 0.1.1 adds this technical report and DOI-facing publication metadata; it changes neither the accepted implementation nor the experimental result. External Python distributions, private raw execution records, credentials, run-specific AN driver/preflight and one-shot launch controls are not bundled. This is not a turnkey end-to-end AN replication kit.\n\nIndependent research, technical examination, necessary verification modifications and publication of positive or negative findings are permitted under the package-specific research and verification permission. Commercial operational use of the new CGDR implementation requires a separate agreement where applicable. Existing licenses on included components remain in force; the package is not offered under a blanket MIT or CC BY license.\n\nNo identity continuity, same-c status, consciousness, personhood, lawful succession, B5 superiority, c-specific real effect, economic value, general-stack conformance or live-deployment readiness is established. Independent clean-host replication remains outstanding. Authored by Ivan Kotov, ORCID 0009-0009-6002-9845.",
+  "version": "0.1.1",
+  "languages": [
+    "English",
+    "Russian"
+  ],
+  "licenses": [
+    {
+      "type": "custom",
+      "title": "CGDR current-AK source: research and verification permission",
+      "description": "Package-specific research and verification permission. Allows study, research execution, necessary verification changes and sharing of research copies/patches with attribution and notices; positive and negative findings may be published without approval. Commercial operational use of newly covered CGDR material requires a separate agreement where applicable. Existing CC BY 4.0 and CC BY-NC-ND 4.0 permissions and third-party licenses are preserved. See LICENSE.md and SOURCE_LICENCE_INDEX.json in source-v0.1/. No blanket open-source license is granted.",
+      "url": "https://github.com/Kot141078/advanced-global-intelligence/blob/62cb3feb9e1336f9cf4ecf517de718975bf21ee4/publications/cgdr-selected-process-r1-6an/source-v0.1/LICENSE.md"
+    }
+  ],
+  "copyright": "Copyright (c) 2026 Ivan Kotov, to the extent rights subsist. Included components retain their original notices and licenses.",
+  "keywords": [
+    "CGDR",
+    "selected-process conformance",
+    "component replacement",
+    "AI governance",
+    "state carriage",
+    "authority boundaries",
+    "memory custody",
+    "fault injection",
+    "synthetic testing",
+    "reproducibility",
+    "Temporal AI Presence",
+    "c=a+b"
+  ],
+  "publisher": "Zenodo",
+  "visibility": "Public",
+  "contributors": [],
+  "funding": [],
+  "related_works": [
+    {
+      "identifier": "https://ivankotov.eu/publications/cgdr-selected-process-r1-6an/",
+      "scheme": "URL",
+      "relation": "Is documented by"
+    },
+    {
+      "identifier": "https://github.com/Kot141078/advanced-global-intelligence/tree/62cb3feb9e1336f9cf4ecf517de718975bf21ee4/publications/cgdr-selected-process-r1-6an/source-v0.1",
+      "scheme": "URL",
+      "relation": "Is derived from"
+    }
+  ],
+  "software": {
+    "repository_url": "https://github.com/Kot141078/advanced-global-intelligence",
+    "programming_language": "Python",
+    "development_status": null
+  },
+  "alternate_identifiers": [],
+  "journal": null,
+  "imprint": null,
+  "thesis": null,
+  "conference": null,
+  "additional_dates": [],
+  "domain_specific_fields": [],
+  "form_note": "Human-readable field mapping, not a submitted Zenodo record or an API request. Keep the existing DOI selection shown in the upload form. Do not add this DOI as a related work to itself."
+}

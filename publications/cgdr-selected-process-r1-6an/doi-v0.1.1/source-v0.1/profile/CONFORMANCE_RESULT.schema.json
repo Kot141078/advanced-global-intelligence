@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cgdr:r1-6a:selected-conformance-report",
+  "title": "Selected process conformance result envelope R1.6A (test metadata only)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "profile_id",
+    "cell_id",
+    "execution_status",
+    "conformance_verdict",
+    "observations",
+    "assertions",
+    "limitations",
+    "native_record_refs"
+  ],
+  "properties": {
+    "profile_id": {
+      "const": "CGDR-R1.6A-SELECTED-PROCESS"
+    },
+    "cell_id": {
+      "enum": [
+        "N0",
+        "N1",
+        "T0",
+        "T1",
+        "T2Q",
+        "T2D",
+        "T3",
+        "T4S",
+        "T4R",
+        "T5A",
+        "T5E",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11W",
+        "T11E"
+      ]
+    },
+    "execution_status": {
+      "enum": [
+        "NOT_RUN",
+        "COMPLETE",
+        "ABORTED",
+        "UNOBSERVED"
+      ]
+    },
+    "conformance_verdict": {
+      "enum": [
+        "NOT_RUN",
+        "PASS",
+        "FAIL",
+        "INCONCLUSIVE",
+        "BLOCKED_PREFLIGHT"
+      ]
+    },
+    "observations": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "replacement_observed",
+        "lifecycle_event_refs",
+        "protected_effect_count",
+        "confirmed_EA_count",
+        "observer_refs"
+      ],
+      "properties": {
+        "replacement_observed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "lifecycle_event_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "protected_effect_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "confirmed_EA_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "observer_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "assertions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "requirement_id",
+          "value",
+          "evidence_refs"
+        ],
+        "properties": {
+          "requirement_id": {
+            "enum": [
+              "R01",
+              "R02",
+              "R03",
+              "R04",
+              "R05",
+              "R06",
+              "R07",
+              "R08",
+              "R09",
+              "R10",
+              "R11",
+              "R12",
+              "R13",
+              "R14",
+              "R15",
+              "R16",
+              "R17",
+              "R18",
+              "R19",
+              "R20",
+              "R21",
+              "R22",
+              "R23",
+              "R24",
+              "R25",
+              "R26",
+              "R27",
+              "R28",
+              "R29",
+              "R30",
+              "R31",
+              "R32",
+              "R33",
+              "R34",
+              "R35",
+              "R36"
+            ]
+          },
+          "value": {
+            "type": "string",
+            "enum": [
+              "PASS",
+              "FAIL",
+              "UNKNOWN",
+              "NOT_APPLICABLE"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "native_record_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "execution_status": {
+            "const": "NOT_RUN"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "conformance_verdict": {
+            "enum": [
+              "NOT_RUN",
+              "BLOCKED_PREFLIGHT"
+            ]
+          },
+          "observations": {
+            "type": "null"
+          },
+          "assertions": {
+            "maxItems": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "conformance_verdict": {
+            "const": "PASS"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "execution_status": {
+            "const": "COMPLETE"
+          },
+          "observations": {
+            "type": "object",
+            "properties": {
+              "observer_refs": {
+                "minItems": 1
+              },
+              "protected_effect_count": {
+                "type": "integer"
+              },
+              "confirmed_EA_count": {
+                "type": "integer"
+              }
+            }
+          },
+          "assertions": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ]
+}

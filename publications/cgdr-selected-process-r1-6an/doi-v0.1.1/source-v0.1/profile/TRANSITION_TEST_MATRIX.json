@@ -1,0 +1,476 @@
+{
+  "profile_id": "CGDR-R1.6A-SELECTED-PROCESS",
+  "evidence_kind": "SPECIFICATION_EXPECTATIONS_NOT_RUNTIME_RESULTS",
+  "execution_status": "NOT_RUN",
+  "cells": [
+    {
+      "cell_id": "N0",
+      "parent_cell": null,
+      "lifecycle_mode": "NO_REPLACEMENT",
+      "single_intervention": "NONE",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "OPEN_CHECK",
+          "admission": "ADMITTED",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R07",
+            "R09",
+            "R28"
+          ],
+          "reason": "Open material ambiguity blocks the protected request; receiver admission does not collapse it."
+        },
+        {
+          "checkpoint": "RESOLVED_CHECK",
+          "admission": "ADMITTED",
+          "q_state": "COLLAPSED_SCOPED",
+          "protected_action_gate": "ALLOW",
+          "protected_effect_delta": 1,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R08",
+            "R17",
+            "R22",
+            "R24",
+            "R28"
+          ],
+          "reason": "Authorized new source event resolves the declared action ambiguity; all independent guards fresh. No EA promotion permission."
+        }
+      ],
+      "epoch_handling": "UNCHANGED",
+      "executed": false
+    },
+    {
+      "cell_id": "N1",
+      "parent_cell": null,
+      "lifecycle_mode": "SHAM_BARRIER",
+      "single_intervention": "NONE",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "OPEN_CHECK",
+          "admission": "ADMITTED",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R07",
+            "R09",
+            "R28"
+          ],
+          "reason": "Open material ambiguity blocks the protected request; receiver admission does not collapse it."
+        },
+        {
+          "checkpoint": "RESOLVED_CHECK",
+          "admission": "ADMITTED",
+          "q_state": "COLLAPSED_SCOPED",
+          "protected_action_gate": "ALLOW",
+          "protected_effect_delta": 1,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R08",
+            "R17",
+            "R22",
+            "R24",
+            "R28"
+          ],
+          "reason": "Authorized new source event resolves the declared action ambiguity; all independent guards fresh. No EA promotion permission."
+        }
+      ],
+      "epoch_handling": "UNCHANGED",
+      "executed": false
+    },
+    {
+      "cell_id": "T0",
+      "parent_cell": null,
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "NONE",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "OPEN_CHECK",
+          "admission": "ADMITTED",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R07",
+            "R09",
+            "R28"
+          ],
+          "reason": "Open material ambiguity blocks the protected request; receiver admission does not collapse it."
+        },
+        {
+          "checkpoint": "RESOLVED_CHECK",
+          "admission": "ADMITTED",
+          "q_state": "COLLAPSED_SCOPED",
+          "protected_action_gate": "ALLOW",
+          "protected_effect_delta": 1,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R08",
+            "R17",
+            "R22",
+            "R24",
+            "R28"
+          ],
+          "reason": "Authorized new source event resolves the declared action ambiguity; all independent guards fresh. No EA promotion permission."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T1",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Remove the receiver-admission/handoff basis; keep visible current task/memory snapshot equal to T0.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R12",
+            "R14"
+          ],
+          "reason": "Possession of matching data is not pre-state authority for receiver admission."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T2Q",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Omit the active QFR and rehash the self-consistent transport index; falsely report no active q-state in the proposed capsule projection.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "UNKNOWN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R04",
+            "R07",
+            "R21"
+          ],
+          "reason": "External frozen source inventory shows an active QSF; omitted record cannot become known empty."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T2D",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Remove one of three unresolved variants and its minority/dispute refs; keep two variants and all remaining internal hashes/counts consistent.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN_INCOMPLETE",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R07",
+            "R16"
+          ],
+          "reason": "Schema-valid two-variant candidate is incomplete relative to the sealed source variant/evidence set."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T3",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Drop an unfinished obligation and its projection/transfer links coherently; source duty remains in the pre-bound inventory.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R15",
+            "R21"
+          ],
+          "reason": "Carriage completeness fails; omission is not discharge."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T4S",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Advance current authority/pre-state version in the trusted registry after planning; candidate still cites the preceding version.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R03",
+            "R17"
+          ],
+          "reason": "The cited basis is authentic historical data but not the current basis; repair requires a new attempt."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T4R",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Revoke the scoped action/admission grant in the trusted registry before receiver reliance; preserve old signed grant.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN",
+          "protected_action_gate": "DENY",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R17",
+            "R18"
+          ],
+          "reason": "Explicitly revoked grant is not revived by record preservation."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T5A",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Provide three valid test signatures/aliases resolving to one principal root where the frozen test policy requires two distinct roots.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN",
+          "protected_action_gate": "DENY",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R19"
+          ],
+          "reason": "Valid signatures prove origin, not distinct approval principals."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T5E",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Propose collapse on three repeated copies of one evidence dependency path while original contrary variant remains; no qualifying new basis.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "ADMITTED",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R08",
+            "R20"
+          ],
+          "reason": "Receiver may be admitted; unsupported collapse proposal is denied without deleting minority evidence."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T6",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Add synthetic_publish to the derived role-verb projection only; retain unchanged raw role/grant. Recompute transport hashes.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R18",
+            "R21"
+          ],
+          "reason": "Material rendered authority differs from bound source even if the current target verb itself was permitted."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T7",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Attempt current reliance with E0 after replacing an attestation-covered worker; omit valid fresh W1 attestation.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN",
+          "protected_action_gate": "DENY",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R11"
+          ],
+          "reason": "Historical QFR remains intact, but old trust epoch cannot authorize the successor."
+        }
+      ],
+      "epoch_handling": "OLD_EPOCH_REUSE_REJECTED",
+      "executed": false
+    },
+    {
+      "cell_id": "T8",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Propose reliance on or promotion of a quarantined candidate as confirmed_EA without lawful release and full ARQ gates.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "ADMITTED",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R09",
+            "R10",
+            "R16",
+            "R23"
+          ],
+          "reason": "Candidate remains quarantined/non-authoritative; append denial rather than erase history."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T9",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Advance the declared semantic clock to the QSF expiry boundary without obtaining resolution evidence.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "ADMITTED",
+          "q_state": "EXPIRED_UNRESOLVED",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R08",
+            "R29"
+          ],
+          "reason": "Record scoped policy_timeout/safe_stop; no selected factual variant becomes true and no protected effect occurs."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T10",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "After valid scoped resolution and commit proposal, revoke the grant before the broker atomic bind point.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "LATE_COMMIT_CHECK",
+          "admission": "ADMITTED",
+          "q_state": "COLLAPSED_SCOPED",
+          "protected_action_gate": "DENY",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R17",
+            "R24",
+            "R27"
+          ],
+          "reason": "Epistemic resolution survives; current authority does not. Produce a new denied commit and scoped non-effect witness."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T11W",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Keep one required A6 WINDOWED acceptance predicate explicitly window_open at receiver admission.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R13"
+          ],
+          "reason": "Elapsed host time or majority opinion does not close the declared review window."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    },
+    {
+      "cell_id": "T11E",
+      "parent_cell": "T0",
+      "lifecycle_mode": "REPLACE_PROCESS",
+      "single_intervention": "Keep one required A6 ESCALATE_ONLY predicate unresolved; all mechanically decidable facts remain valid.",
+      "expected_checkpoints": [
+        {
+          "checkpoint": "fault",
+          "admission": "WITHHELD",
+          "q_state": "OPEN",
+          "protected_action_gate": "HOLD",
+          "protected_effect_delta": 0,
+          "confirmed_EA_delta": 0,
+          "decisive_requirement_ids": [
+            "R13"
+          ],
+          "reason": "Machine checker cannot manufacture competent-authority resolution."
+        }
+      ],
+      "epoch_handling": "REISSUED",
+      "executed": false
+    }
+  ],
+  "planned_episode_count": 18,
+  "planned_checkpoint_count": 21,
+  "measured_run_count": 0,
+  "same_source_policy": "Only the declared semantic intervention changes its bound coordinates. Dependent hash/count repair is mechanical and must be inventoried, not a second semantic fault."
+}

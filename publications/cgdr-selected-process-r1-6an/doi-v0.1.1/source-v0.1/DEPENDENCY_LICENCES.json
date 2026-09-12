@@ -1,0 +1,121 @@
+{
+  "dependencies": [
+    {
+      "credit": "Julian Berman",
+      "declared_license": "MIT",
+      "name": "jsonschema",
+      "primary_release_metadata": "https://pypi.org/project/jsonschema/4.23.0/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "4.23.0"
+    },
+    {
+      "credit": "Julian Berman",
+      "declared_license": "MIT",
+      "name": "referencing",
+      "primary_release_metadata": "https://pypi.org/project/referencing/0.35.1/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "0.35.1"
+    },
+    {
+      "credit": "titusz",
+      "declared_license": "Apache-2.0",
+      "name": "jcs",
+      "primary_release_metadata": "https://pypi.org/project/jcs/0.2.1/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "0.2.1"
+    },
+    {
+      "credit": "Nicolas Aimetti",
+      "declared_license": "MIT",
+      "name": "rfc3339-validator",
+      "primary_release_metadata": "https://pypi.org/project/rfc3339-validator/0.1.4/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "0.1.4"
+    },
+    {
+      "credit": "Python typing contributors",
+      "declared_license": "PSF-2.0",
+      "name": "typing-extensions",
+      "primary_release_metadata": "https://pypi.org/project/typing-extensions/4.15.0/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "4.15.0"
+    },
+    {
+      "credit": "Hynek Schlawack and contributors",
+      "declared_license": "MIT",
+      "name": "attrs",
+      "primary_release_metadata": "https://pypi.org/project/attrs/25.3.0/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "25.3.0"
+    },
+    {
+      "credit": "Julian Berman",
+      "declared_license": "MIT",
+      "name": "jsonschema-specifications",
+      "primary_release_metadata": "https://pypi.org/project/jsonschema-specifications/2025.4.1/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "2025.4.1"
+    },
+    {
+      "credit": "Julian Berman",
+      "declared_license": "MIT",
+      "name": "rpds-py",
+      "primary_release_metadata": "https://pypi.org/project/rpds-py/0.26.0/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "0.26.0"
+    },
+    {
+      "credit": "Benjamin Peterson",
+      "declared_license": "MIT",
+      "name": "six",
+      "primary_release_metadata": "https://pypi.org/project/six/1.17.0/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "1.17.0"
+    },
+    {
+      "credit": "The cryptography developers",
+      "declared_license": "Apache-2.0 OR BSD-3-Clause",
+      "name": "cryptography",
+      "primary_release_metadata": "https://pypi.org/project/cryptography/43.0.1/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "43.0.1"
+    },
+    {
+      "credit": "Armin Rigo, Maciej Fijalkowski and contributors",
+      "declared_license": "MIT",
+      "name": "cffi",
+      "primary_release_metadata": "https://pypi.org/project/cffi/2.0.0/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "2.0.0"
+    },
+    {
+      "credit": "Eli Bendersky",
+      "declared_license": "BSD-3-Clause",
+      "name": "pycparser",
+      "primary_release_metadata": "https://pypi.org/project/pycparser/2.22/",
+      "review": "EXACT_VERSION_LICENSE_DECLARATION_READ_ON_PYPI_2026_09_12",
+      "scope": "EXTERNAL_INSTALLATION_DEPENDENCY_NOT_REDISTRIBUTED",
+      "version": "2.22"
+    }
+  ],
+  "environments_in_package": false,
+  "notes": [
+    "External license texts and notices travel with the distributions when acquired from their publishers; no binary or Python distribution source is copied into this archive.",
+    "This is not clearance of optional extras, transitive native libraries in a future wheel, Python/OS redistribution, or vulnerability status. Do not add extras or binaries while assuming this inventory still covers them.",
+    "The preserved source also relies on OS/tool facilities such as Windows/WSL and Linux isolation tools; those programs are not redistributed here."
+  ],
+  "review_date": "2026-09-12",
+  "scope": "12 locked Python distribution declarations; source-only distribution; not a binary/SBOM security audit",
+  "wheels_in_package": false
+}

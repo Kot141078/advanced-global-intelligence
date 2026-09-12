@@ -1,0 +1,36 @@
+{
+  "accepted_source_hashes_matched": 93,
+  "credential_assignment_hits": 0,
+  "date": "2026-09-12",
+  "drive_or_docs_urls_found": 0,
+  "email_hits": 0,
+  "external_distribution_binaries_or_sources_bundled": 0,
+  "external_distribution_license_declarations_read": 12,
+  "limitations": [
+    "Bounded static source/notice inspection; no universal secret, title, patent, security, regulatory or legal-compliance guarantee.",
+    "This is a complete current-AK source tree, not a turn-key independently qualified AN execution package.",
+    "No new source runtime, worker or original matrix execution was performed."
+  ],
+  "matrix_replays": 0,
+  "origin_category_counts": {
+    "CGAM_DOCUMENT": 1,
+    "CGDR_LOCAL": 40,
+    "CGDR_LOCAL_FIXTURE_OVERLAY": 18,
+    "CGDR_PROFILE": 3,
+    "C_HARDENING_SELECTED_SUBSET": 33,
+    "SER_DOCUMENT": 1
+  },
+  "private_key_block_hits": 0,
+  "profile_files_preserved": 3,
+  "python_files_ast_parsed_not_executed": 36,
+  "retained_historical_test_path_literals": 6,
+  "runtime_invocations": 0,
+  "scope": "source-only public distribution review",
+  "source_byte_mutations": 0,
+  "upstream_notice_copies_git_blob_matched": {
+    "CGAM-LICENSE.md": "f583c64bc43b1a3da8f6a69b99661b35a0aad41d",
+    "LICENSE-DOCS-CC-BY-4.0.md": "a89e7b0b59a9f4b1504bf441410bc4e08b198e3c",
+    "c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md": "5b2fff993695b1b4f238cf01c3b4d420ddacbf23",
+    "c-hardening-pack-LICENSE.md": "744e1965596813db66b40fd4284ac531fffb6d3b"
+  }
+}

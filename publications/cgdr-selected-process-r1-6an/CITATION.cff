@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Cite the complete source-and-evidence publication using this DOI and version."
+type: software
+title: "CGDR-R1.6A Selected-Process Conformance: current-AK Source and R1.6AN Synthetic Evidence"
+version: "0.1.1"
+date-released: "2026-09-12"
+doi: "10.5281/zenodo.22724626"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+url: "https://ivankotov.eu/publications/cgdr-selected-process-r1-6an/"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+license-url: "https://github.com/Kot141078/advanced-global-intelligence/blob/62cb3feb9e1336f9cf4ecf517de718975bf21ee4/publications/cgdr-selected-process-r1-6an/source-v0.1/LICENSE.md"
+keywords:
+  - "CGDR"
+  - "selected-process conformance"
+  - "component replacement"
+  - "AI governance"
+  - "state carriage"
+  - "authority boundaries"
+  - "memory custody"
+  - "fault injection"
+  - "synthetic testing"
+  - "reproducibility"
+  - "Temporal AI Presence"
+  - "c=a+b"
