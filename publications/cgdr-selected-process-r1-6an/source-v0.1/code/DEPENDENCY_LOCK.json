@@ -1,0 +1,26 @@
+{
+  "python": "3.10.11",
+  "native_requirements": {
+    "jsonschema": "4.23.0",
+    "referencing": "0.35.1",
+    "jcs": "0.2.1",
+    "rfc3339-validator": "0.1.4",
+    "typing-extensions": "4.15.0",
+    "attrs": "25.3.0",
+    "jsonschema-specifications": "2025.4.1",
+    "rpds-py": "0.26.0",
+    "six": "1.17.0"
+  },
+  "signer_requirements": {
+    "cryptography": "43.0.1",
+    "cffi": "2.0.0",
+    "pycparser": "2.22"
+  },
+  "signer_wheel_sha256": {
+    "cryptography": "d75601ad10b059ec832e78823b348bfa1a59f6b8d545db3a24fd44362a1564cb",
+    "cffi": "b18a3ed7d5b3bd8d9ef7a8cb226502c6bf8308df1525e1cc676c3680e7176739",
+    "pycparser": "c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc"
+  },
+  "wheel_files_in_return": false,
+  "venv_in_return": false
+}

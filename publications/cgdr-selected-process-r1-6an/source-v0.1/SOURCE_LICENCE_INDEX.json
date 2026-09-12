@@ -1,0 +1,1359 @@
+{
+  "files": [
+    {
+      "bytes": 3200,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/ACCEPTANCE_TESTS_R1_6I.md",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "64ddbc415691e981faaae8525d0a7f23921d87ac8eb4c0d0b3615fd274bddb2b",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 1570,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/ACCEPTANCE_TESTS_R1_6K.md",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "b4262e34cf8fed7ef99fd3aeeb8f06ba9fc8f60febefbec0e980d6a743b5c73b",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 769,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/DEPENDENCY_LOCK.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "ca9c9b2e722f4c338e338a68e59790b67bd755bf790cfa4f963138a66d452263",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 796,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/REPRODUCE.md",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "0a944a38062224af7e6f5e2a4ac7f0f58fb6f47a83ed32418f0cdea233ef4775",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 35343,
+      "existing_license": "CC-BY-4.0",
+      "notices": [
+        "NOTICES/CGAM-LICENSE.md",
+        "NOTICES/LICENSE-DOCS-CC-BY-4.0.md"
+      ],
+      "origin_category": "CGAM_DOCUMENT",
+      "path": "code/dependencies/Kot141078/c-governed-cli-agent-mesh/c3b004d7439a8c608f08233fc17be1150c442b44/docs/markdown/C-Governed_CLI_Agent_Mesh_Protocol_v0_1.md",
+      "publication_transformation": "NONE",
+      "research_supplement": false,
+      "sha256": "a63ebc5a3d32574f8bf9216d045d867260d98d071dbd877e5b1715110f169a48",
+      "source_reference_commit": "c3b004d7439a8c608f08233fc17be1150c442b44"
+    },
+    {
+      "bytes": 24502,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/docs/Runtime_Consequence_Integrity_Profile_for_c_v0_1.md",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "762d0e116dd5968e23aed9f0a76b8be0817a2b141349c6f9ec1e4826735dd506",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 27729,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/MANIFEST.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "5b5e1ab2db6a1d0632f925ac53ae9c28a8dcac5ddafcd3b4828f90be34df0b57",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 4409,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-2/commit_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "125682d4169c592b3c00d4650dc77bf3713a8e4262e33cbb0ea1cc6995a89e0a",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 4617,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-2/commit_resolved.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "c4bab5213efde8dead3469be9524cf6ad2f78dbaf7807e241e326244152f1bb7",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3062,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-2/decision_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "1ddeba25a59e462493156434ca3f5980ea24a897835fdfd6297d06755eeb22cf",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2870,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-2/decision_resolved.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "81dd49f8f6eeb143afa81cbb9b7158596f948631fa4f57557d7a6a4881914629",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2875,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-2/memory_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "24a71dd80c25794ef285fbeefe214edf1e1d26a30e506f5cfa456b872b1b4094",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3511,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-2/witness_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "ae5d9be98b57d6d029cf79218a850b59c9d3436c7ffc41bb8a8c0463e61f3f32",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 4534,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-3/commit_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "74e68e0e163d84721df5bbc304bdc56b4fafd0ef96380ba84c33f1f93942e4f9",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 4639,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-3/commit_resolved.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "b20e160d0f407a84119853e733465f1f24d0da72cfed749e52f60cb03974f521",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3062,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-3/decision_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "1ddeba25a59e462493156434ca3f5980ea24a897835fdfd6297d06755eeb22cf",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2870,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-3/decision_resolved.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "81dd49f8f6eeb143afa81cbb9b7158596f948631fa4f57557d7a6a4881914629",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2875,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-3/memory_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "24a71dd80c25794ef285fbeefe214edf1e1d26a30e506f5cfa456b872b1b4094",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3511,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/cycle-3/witness_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "ae5d9be98b57d6d029cf79218a850b59c9d3436c7ffc41bb8a8c0463e61f3f32",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 4534,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/final/commit_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "74e68e0e163d84721df5bbc304bdc56b4fafd0ef96380ba84c33f1f93942e4f9",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 4639,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/final/commit_resolved.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "b20e160d0f407a84119853e733465f1f24d0da72cfed749e52f60cb03974f521",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3062,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/final/decision_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "1ddeba25a59e462493156434ca3f5980ea24a897835fdfd6297d06755eeb22cf",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2870,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/final/decision_resolved.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "81dd49f8f6eeb143afa81cbb9b7158596f948631fa4f57557d7a6a4881914629",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2875,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/final/memory_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "24a71dd80c25794ef285fbeefe214edf1e1d26a30e506f5cfa456b872b1b4094",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3511,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL_FIXTURE_OVERLAY",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/cgdr-r1-6b/final/witness_hold.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "ae5d9be98b57d6d029cf79218a850b59c9d3436c7ffc41bb8a8c0463e61f3f32",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2486,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/current_conditions_earth_42.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "e1a438c6010eb178f3ca9424484fd3b4dc745622f55c6796c5bda262443ffc7a",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2525,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/current_conditions_retry_b.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "1cf0a5f232ff73b694b039d863a3cc9c47d0f477f96674d72640dcefbc2ce1cd",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 1154,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/memory_qualification_registry_42.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "ac5afe6fb4fdc52c035a99e9700f10b46dd8522b539ea9b7a9d1ee272abde787",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 240,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/non_effect_clock_42.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "6c9a0f18f83086cc76c6bd6b2cef9fc67f9c2d997de9792c7b6e4a0703804ab2",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 350,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/non_effect_collector_42.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "e47a3f2762691e3f4bfa7db0ceeb5796a4b7a486e010466fd9c34ce17a16dbf2",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 1636,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/non_effect_event_log_42.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "a3ed538b60d6f0960c53f6dfaa669b4cc1ca4afcab3336926fd07b18a7a1c7ca",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 494,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/non_effect_routes_42.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "2fa58a14f3ca2573a5d8ec8462464d6a39a00ba4cf7e638faaeff24759568846",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 996,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/non_effect_scope_inventory_42.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "12b6efc54a12fc489c42be1d3966df470d21b41541165afb9630ebcc8def2ee1",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 546,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/permission_grant_42.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "f0c052b9a35f5bb4dd2d650cb5c9ccc541b3e78d8014ddb7a2c18bbb4dbaa9a1",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 461,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/permission_grant_endpoint_b.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "b9ac41a09de8f29029a59b6ee067e6ed48516745d0d99d112520af6d2ca9a817",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 1536,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/target_transition_endpoint_b.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "340119b4855a36f1c40d4fe245c8739a168d91f1b6cfb2d2cf6c7dd10abe502f",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 416,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/task_contract_deploy_42.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "cb3ee8cc56ff5320189c264618759ae5b07e5158dd1b90518f270e194b1f0edf",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 329,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/evidence/task_contract_endpoint_b.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "4d0bdba54d2d9a0beed8ae1a96b71a866c837c17514e465f0abb7534a88e0881",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 4126,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/negative/consequence_commit_duplicate_preconditions_invalid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "db815c87f392c871a6e3fb3b0a9f295bc145eb88fb724d5c53666377a94848c1",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3069,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/negative/decision_basis_hash_invalid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "260cc0dc0d411e7bd396b034dbf11a57918f41775b03b75bd8128f62d226a775",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2638,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/negative/memory_reliance_revoked_invalid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "4910a975faa8408f4f8a449d530c585efdf44a708ef8f72c30e1da5ac77d8dfc",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3054,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/negative/non_effect_open_route_invalid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "fceb2fd13389a1adb6f06fc3d5913904150404487f6ec52e49a13674cb20747f",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 4534,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/positive/consequence_commit_denied_valid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "7a02fbbb9d63fffea6839db5c41042bc495544b52f75d4db73a3ddf1fe3dcac2",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 4639,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/positive/consequence_commit_retry_b_valid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "7e417627a3251604f6b3cd75e21a95ab0ac398088ad5142b3c3f688f83731e4b",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2870,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/positive/decision_basis_retry_b_valid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "582f51dfed9bdcf62910cfdc723eff847e940b95b1ae3e527873efbd72ef3fa1",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3062,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/positive/decision_basis_valid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "51fcb24704d1e1bfe2c2bcaa438789e951f233899f837d72341956df8c9dc331",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 2667,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/positive/memory_reliance_valid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "c793b1b4800ce518a2461d1a59ef8e5f3fdfebe1c4ca8e74bd3db50da5f812e5",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3091,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/fixtures/runtime-integrity/positive/non_effect_witness_valid.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "2f238bbf525272ee7fa6d950f6009a766a79a25239a14f3feec1313dbbb25179",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 1338,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/requirements-runtime-integrity.lock",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "e801258620999d17267c3e177394fd4742c60cd9fabc83f5cee6525200dea6c5",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 101,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/requirements-runtime-integrity.txt",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "ca6f00e1dc31c3f07b28bcf14bb68e83deda77252887e13181e5d9ac7d144157",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 7681,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/schemas/runtime-integrity/c-consequence-commit-record-0.1.1.schema.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "640c61459173331e2e964b1434ce44668dd4d9f17442c4f7b1e676e56b166980",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3617,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/schemas/runtime-integrity/c-decision-basis-record-0.1.1.schema.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "8499ee84344db0bfae3f75409a994135eec2895676a9c298c6cb1ab32fd57ad1",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3697,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/schemas/runtime-integrity/c-memory-reliance-record-0.1.1.schema.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "c04b3891b3137f30418235ff035f9e895cfcadd38d0a00d18192aeb402d6c70a",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 5350,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/schemas/runtime-integrity/c-non-effect-witness-record-0.1.1.schema.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "cfcc3014f21838faee05c99f4190b390f19c45ca6fbf08b3e7bf6de8248727c4",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 3597,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/schemas/runtime-integrity/runtime-integrity-common-defs-0.1.1.schema.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "1b6a4ebebfa74132e8324c900261e8e811c5418de9f5c2da2544c718cc53a26c",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 162707,
+      "existing_license": "CC-BY-NC-ND-4.0 where previously granted",
+      "notices": [
+        "NOTICES/c-hardening-pack-LICENSE.md",
+        "NOTICES/c-hardening-pack-COMMERCIAL_AND_NON_IMPLEMENTATION_NOTICE.md",
+        "LICENSE.md"
+      ],
+      "origin_category": "C_HARDENING_SELECTED_SUBSET",
+      "path": "code/dependencies/Kot141078/c-hardening-pack/47fed105d7b1df1df7375aa203a551b0f684c13d/tools/validate_runtime_integrity_extension.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "c1d9278af6848995ce9bcfaf3ecceb9b3f24e04a30a2fe8bedef4784f4a2ec73",
+      "source_reference_commit": "47fed105d7b1df1df7375aa203a551b0f684c13d"
+    },
+    {
+      "bytes": 9075,
+      "existing_license": "CC-BY-4.0",
+      "notices": [
+        "NOTICES/SER-ATTRIBUTION.md"
+      ],
+      "origin_category": "SER_DOCUMENT",
+      "path": "code/dependencies/Kot141078/sovereign-entity-recursion/94dcab585b5c179cf4f4e0da4ebf63261c7fb984/docs/arbitration-review-layer/Multi_Entity_Arbitration_Review_Layer_v0.1.md",
+      "publication_transformation": "NONE",
+      "research_supplement": false,
+      "sha256": "7f1f90eab31fec29afbc490fbce9c9cc6aa6db38b907b605c5ef4b705de6ca97",
+      "source_reference_commit": "94dcab585b5c179cf4f4e0da4ebf63261c7fb984"
+    },
+    {
+      "bytes": 304,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/requirements-signer.lock",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "28d968a09c61353aae30a538e0fbe1214fbc13cb827085de4aaff537c5721065",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 154,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/__init__.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "e417aa15a2c4898b980960f9c13ecf07c6db576857baceff52d429ed80132e50",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 16198,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/broker.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "0df7e5d828d8998de28421967bbfd189de2dc53a97dc35d128b9a130bcfbab63",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 1233,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/common.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "6d458c03afca7a19a5da8fa2469d25f704c1b441f21fdddecf5c038b2f0cc2ef",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 23385,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/logic_path.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "ec031eb0a27ad36ba5d67ed72c02b2cee24167d0c6fc7279bd02069ae124f473",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 39141,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/native_adapter.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "e76a6ccab980bcaa6ab01ed2ead36f27e05945c1b07caeca20090df9b75d9841",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 60741,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/observer.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "b80b3d3c68fb334cb39971c1d8c8de997014502092671827e01af0c42b123101",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 16108,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/observer_fixtures.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "b0720fb3d862c032ae6f79a9125f64430516548e3ff83b41517bc1cea0181cfc",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 4492,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/producer.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "1e66344fb1f61ef5cf26af3906190c5a3a1d86ae9da73184c25424d32563a261",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 86451,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/prospective_observation.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "d81c85ee213699b4b8637c56e5acb68a2673b4946e52f73873f3c65314b76f9f",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 9285,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/receiver.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "d52f8234aeec89271e7671718dc14c00a0990ec8f56120354acb4ae0595dfda2",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 69750,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/run_batch.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "02f68ac9fcccb24044dc345ec90e96af4e4ee81199c5b889a3455b575af5e1da",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 36796,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/s0_launcher.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "d9d255066f6267120088f6f396f914d6c8d1bc1e1077fc5947b7a4200b80592f",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 6663,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/s1_endpoint_helper.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "dc72fe2739db052e3b7efa69e5a4eceadc956b68f746959df4396682f1d154f1",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 18957,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/s1_review.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "0978273463a6a3519c6b059453ab110d08a66f734f68f4135366bec4fcd5a2fa",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 23373,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/s2_handoff.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "41ea8bd37aedae2951e9378b307ab85655910eb4b964942c4e45f86209eecf07",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 8634,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/s2_native.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "5ab3f91e4d5ae224db539fdde93506ca375a7434fafeec1cd5d56c855d51a1be",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 19945,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/s2_review.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "18067501d6cadb817354d7f80c26fb911536d3f88077fa4f3113f5978e4682a6",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 3528,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/signing.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "7d555159d05500d47cf03eef102d2e3472a102cd6425e7bfb02d180bd0fe530e",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 6076,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/source.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "d5529743d81a78509a161e976e71ac340d3983aa17391c156fc617ee97f89099",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 5098,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/state_transfer.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "636513649dfaeb6c0a50b340a1c75caf4bdc429406565afe2c39dcbd754f0734",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 58963,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/supervisor.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "66e0308da243742a833868bf6afe6d5e46bec766c1dc61d676d587eee519ad21",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 29901,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/src/cgdr_r1_6b/worker.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "d17c4d725dba283b84ac42ab6253d70fbb12759bf9d688795ab5438547b84451",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 14896,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tests/test_access_boundary_s1_r1_6h.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "30f5fe30b389f9956a815feb28237cbef51834b4efc60ee11fe5abb9406b4769",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 18871,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tests/test_lifecycle_s0_r1_6g.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "ca08a1b6b7c45e6267212d76104b1f32f250206a6c3630b37fd6f3efb9c1d605",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 47287,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tests/test_open_state_handoff_s2_r1_6i.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "accf13b173a9662e7a204dcafacaaa497d3a8e5d3dffd99edb1be56566df8fe2",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 53012,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tests/test_prospective_observation_r1_6k.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "46bd743410c5852ca7bc5b0b8395aafba6dfeea78e27ce4277e949a9ee50436c",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 11504,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tests/test_receipt_nonce_cli_safety_r1_6ak.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "874ee6af98b066070d7b84e3a4b4e1cef9c2175c122182e0e977827ac8d3d181",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 26792,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tests/test_selected_process_matrix_r1_6ac.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "796e8c5783fa8c6b144536981d1b3febb4e4ff07a409a9b22d1be9d815a057c4",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 11867,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tests/test_selected_process_matrix_r1_6ad.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "dbeb1265ddf8633b11cea0c8044c76fbe3ba3d489e0c5d19c7fd59a84a17865e",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 39234,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tests/test_selected_process_matrix_r1_6ai.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "388aef94a855cb709ef8409ebb611fbb1ae0554e978bb1d192623fb72556700b",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 14552,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tests/test_selected_process_matrix_r1_6x.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "fe7537c8afe23ff95b784a9ed012f20b40a82bf950ea1fb6a6cdf4ff8f117d72",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 61605,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tools/run_observation_calibration.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "7cf15929ae27a56e357dae01938d6fed6adb1b7fc26dd1552d565ef87aa1516d",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 13828,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tools/run_s0.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "203c9baf6516411ef869524408286544d29f63cf88fe7049bb99b5ad276ea363",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 21861,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tools/run_s1.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "bdce0173aec7adf42640f11b415181cb02b846d1707d6e2290578381ffa349bd",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 51408,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_LOCAL",
+      "path": "code/tools/run_s2.py",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "db2d33f08ecb38b62fbcc6578afabb8fcc214edd01c2b0889f040dac82633960",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 62711,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_PROFILE",
+      "path": "profile/CGDR_EXISTING_STACK_TRANSITION_CONFORMANCE_SPEC_R1_6A.md",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "d342c59783dbe3aed941fb13d0164fefea56851d2f23ec4477d879fc0c2be26b",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 5022,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_PROFILE",
+      "path": "profile/CONFORMANCE_RESULT.schema.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "ba3d576053ed5013261664f513dc931ac791054313d9c44b17015ebea5f5b7b9",
+      "source_reference_commit": null
+    },
+    {
+      "bytes": 16205,
+      "existing_license": null,
+      "notices": [
+        "LICENSE.md"
+      ],
+      "origin_category": "CGDR_PROFILE",
+      "path": "profile/TRANSITION_TEST_MATRIX.json",
+      "publication_transformation": "NONE",
+      "research_supplement": true,
+      "sha256": "7288a4e60501d1c8209308dacc4450e3d046f20b51ad5a8ad05f9010b4239a60",
+      "source_reference_commit": null
+    }
+  ],
+  "issuer": "Ivan Kotov",
+  "profile_files": 3,
+  "scope": "Known source provenance and package-specific permission, not certification of exclusive title",
+  "source_files": 93
+}
