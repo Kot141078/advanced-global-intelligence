@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the report below."
+title: "Boundary-Preserving Composition of Personal and Enterprise AI Systems"
+version: "0.4"
+doi: "10.5281/zenodo.22766595"
+date-released: 2026-09-15
+url: "https://ivankotov.eu/publications/boundary-preserving-ai-composition-v0-4/"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/boundary-preserving-ai-composition-v0-4"
+license: CC-BY-4.0
+authors:
+  - family-names: Kotov
+    given-names: Ivan
+    affiliation: Independent researcher, Brussels, Belgium
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+preferred-citation:
+  type: report
+  title: "Boundary-Preserving Composition of Personal and Enterprise AI Systems"
+  authors:
+    - family-names: Kotov
+      given-names: Ivan
+      affiliation: Independent researcher, Brussels, Belgium
+      orcid: "https://orcid.org/0009-0009-6002-9845"
+  year: 2026
+  version: "0.4"
+  doi: "10.5281/zenodo.22766595"
