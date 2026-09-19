@@ -1,0 +1,46 @@
+{
+  "record_id": "ERU-2026-09-03-JK-III-VI-001",
+  "schema_version": "1.1.0",
+  "date": "2026-09-03",
+  "status": "PUBLIC_ATTRIBUTION_CONFIRMED_CONCORDANCE_LINK_AVAILABLE_IMMUTABLE_CAPTURE_PENDING",
+  "source_work": {
+    "title": "What Must Be True for a Halt to Hold Under Pressure",
+    "author": "Julia Kung",
+    "date": "2026-09-02",
+    "public_post_url": "https://www.linkedin.com/posts/julia-kung-coherencearchitectureinstitute_whatmustbetrueforahalttohold-activity-7500867921766932480-_j1I",
+    "source_pdf_sha256": "680a55ccf378e042d36225d600a8ff21aff5a8104ba6b93bf88f0fbaa751135b"
+  },
+  "public_attribution": {
+    "status": "CONFIRMED",
+    "post_url": "https://www.linkedin.com/posts/julia-kung-coherencearchitectureinstitute_sixseventhree-activity-7501156103704170496-10Fp",
+    "concordance_artifact_url": "https://claude.ai/code/artifact/403b21de-d3df-42de-9778-a8cb7c8f4d9f",
+    "observed_public_claim": "Julia Kung names Ivan Kotov as the person who restated Condition III and presents the generalized independently rooted, non-bypassable consequence-path property.",
+    "artifact_capture_status": "URL_RECORDED_COMPLETE_CONTENT_NOT_IMMUTABLY_FROZEN"
+  },
+  "evidence_class": "THIRD_PARTY_EXPLICIT_ADOPTION_WITH_PUBLIC_ATTRIBUTION",
+  "registered_deltas": [
+    "SEPARATION_REVISION_AS_CONSTITUTIONAL_TRANSITION",
+    "CONDITION_III_CONDITION_VI_ASSURANCE_COUPLING",
+    "SILENT_WEAKENING_DISCRIMINATING_TEST"
+  ],
+  "validation_status": "CONCEPTUAL_UPTAKE_NOT_TECHNICAL_VALIDATION",
+  "priority_effect": "NONE_RETROACTIVE",
+  "raw_evidence_visibility": "PRIVATE_NOT_IN_REPOSITORY",
+  "private_evidence": {
+    "original_package": {
+      "sha256": "76a89417dca94218634d59fc083e66cd2e83b9784d609f9c0031e9e606d4c5d5",
+      "size_bytes": 1420106,
+      "commitment_file_sha256": "d05da9d538727c10fd0b7e27655dafbf5b535edd382ba39dc7ae6c5027117ad5"
+    },
+    "additive_supplement_s1": {
+      "sha256": "250c728d51114c6027b269f038b9467bea2a6bb81adcc2f0abe0218b3290db3e",
+      "size_bytes": 440412,
+      "commitment_file_sha256": "d4d142122ec7562d840f6828a22571f15137336b9da3f2b0e3769c20fafc0a07",
+      "public_disclosure_boundary": "NO_NONPUBLIC_RUNTIME_DETAILS_PROMOTED"
+    }
+  },
+  "previous_public_record_sha256": "c9de76dad2ced09ce165d5cf70be720a676e775c6219f28b998fea03a5031c8d",
+  "public_record_sha256": "7b51e5bf651c41f03be497de1b08c34b4b6c5c63a27efe26d600aeb711271cac",
+  "claim_ceiling": "PUBLIC_ATTRIBUTION_CONFIRMED_CONCEPTUAL_UPTAKE_NOT_TECHNICAL_VALIDATION",
+  "next_durable_evidence": "IMMUTABLE_CONCORDANCE_EXPORT_OR_COMMIT_WITH_EXACT_ATTRIBUTION_AND_PUBLICLY_VERIFIABLE_CHANGE_RECORD"
+}
