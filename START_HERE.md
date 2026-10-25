@@ -71,3 +71,7 @@ AGI = Advanced Global Intelligence, not Artificial General Intelligence.
 
 Grounding:
 A repository is not useful if the reader has to reconstruct the entrance from scattered traces. A good entry point should work like a control panel label: short, stable, and clear enough that an external reviewer can reach the canonical path before interpretation starts.
+
+## Continuity Instrument publication route
+
+For evidence-bound participation, gaps, pauses, and changes of lineage, open the [Continuity Instrument v1.0.0 publication](publications/continuity-instrument-v1-0-0/README.md). The [English explanatory paper](publications/continuity-instrument-v1-0-0/package/PDFs/01_CI_Explanatory_Paper_EN.pdf) introduces the method; [PUBLICATION_RECORD.json](publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json) supplies the published DOI, source/edition distinction, exact downloads, and component rights. DOI: <https://doi.org/10.5281/zenodo.23651305>. The specification and reference transformation are published; empirical qualification remains `NOT_ESTABLISHED`.

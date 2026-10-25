@@ -1,0 +1,111 @@
+{
+  "author": "Ivan Kotov",
+  "date": "2026-10-25",
+  "documents": [
+    {
+      "cover_note": "Copyright © 2026 Ivan Kotov. Scientific text: CC BY 4.0. Source version 1.0.0 remains unchanged.",
+      "filename": "01_CI_Explanatory_Paper_EN.pdf",
+      "front_note": "Author: Ivan Kotov. Editorial edition academic-pdf-2, prepared from unchanged source build _02. No CI DOI assigned at preparation; empirical qualification remains not established.",
+      "heading_shift": -1,
+      "lang": "en",
+      "language_role": "primary English publication volume",
+      "reading_edition_number": 2,
+      "short_title": "CI | Explanatory paper",
+      "source": "CI_EXPLAINED_EN.md",
+      "subject": "Explanatory companion to CI v1.0.0; bounded evidence and measurement",
+      "subtitle": "Purpose, evidence, applications and the limits of measurement",
+      "title": "Understanding the Continuity Instrument"
+    },
+    {
+      "cover_note": "© 2026 Иван Котов. Научный текст: CC BY 4.0. Исходная версия CI 1.0.0 сохранена без изменений.",
+      "filename": "02_CI_Explanatory_Paper_RU.pdf",
+      "front_note": "Автор: Иван Котов. Сопроводительное издание academic-pdf-1 к неизменённой сборке _02. DOI для CI на момент подготовки не присвоен; эмпирическая квалификация не установлена.",
+      "heading_shift": -1,
+      "lang": "ru",
+      "language_role": "Russian supplement, preserved byte-for-byte from academic-pdf-1",
+      "reading_edition_number": 1,
+      "short_title": "CI | Разъяснительная статья",
+      "source": "CI_EXPLAINED_RU.md",
+      "subject": "Разъяснение спецификации и эталонной реализации CI v1.0.0",
+      "subtitle": "Назначение, данные, применение и границы измерения",
+      "title": "Инструмент непрерывности CI"
+    },
+    {
+      "cover_note": "Copyright © 2026 Ivan Kotov. Scientific text: CC BY 4.0. Source version 1.0.0 remains unchanged.",
+      "filename": "03_CI_Technical_Specification_EN.pdf",
+      "front_note": "Author: Ivan Kotov. Editorial edition academic-pdf-2, prepared from unchanged source build _02. No CI DOI assigned at preparation; empirical qualification remains not established.",
+      "heading_shift": -1,
+      "lang": "en",
+      "language_role": "primary English publication volume",
+      "reading_edition_number": 2,
+      "short_title": "CI | Technical specification",
+      "source": "TECHNICAL_SPECIFICATION.md",
+      "subject": "Typeset reading edition of the CI v1.0.0 normative documents",
+      "subtitle": "Technical specification, observables, recognition profile and terminology",
+      "title": "Continuity Instrument"
+    },
+    {
+      "cover_note": "© 2026 Ivan Kotov. Mixed component rights: Part I reserved; Part II and editorial notes CC BY 4.0. See the rights statement inside.",
+      "filename": "04_CI_Implementation_and_Reproducibility_EN.pdf",
+      "front_note": "Author: Ivan Kotov. Editorial edition academic-pdf-2, prepared from unchanged source build _02. No CI DOI assigned at preparation; empirical qualification remains not established.",
+      "heading_shift": -1,
+      "lang": "en",
+      "language_role": "primary English publication volume",
+      "reading_edition_number": 2,
+      "short_title": "CI | Implementation and reproduction",
+      "source": "IMPLEMENTATION_AND_REPRODUCIBILITY.md",
+      "subject": "Reference implementation documentation; mixed component rights",
+      "subtitle": "Reference implementation and reproducibility",
+      "title": "Continuity Instrument"
+    },
+    {
+      "cover_note": "Copyright © 2026 Ivan Kotov. Scientific text: CC BY 4.0. Source version 1.0.0 remains unchanged.",
+      "filename": "05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+      "front_note": "Author: Ivan Kotov. Editorial edition academic-pdf-2, prepared from unchanged source build _02. No CI DOI assigned at preparation; empirical qualification remains not established.",
+      "heading_shift": -1,
+      "lang": "en",
+      "language_role": "primary English publication volume",
+      "reading_edition_number": 2,
+      "short_title": "CI | Evidence and limitations",
+      "source": "EVIDENCE_CLAIMS_AND_LIMITATIONS.md",
+      "subject": "Preserved evidence status and claim ceilings; no empirical qualification",
+      "subtitle": "Evidence, scientific claims and limitations",
+      "title": "Continuity Instrument"
+    },
+    {
+      "cover_note": "Copyright © 2026 Ivan Kotov. Scientific text: CC BY 4.0. Source version 1.0.0 remains unchanged.",
+      "filename": "06_CI_Rights_and_Citation_EN.pdf",
+      "front_note": "Author: Ivan Kotov. Editorial edition academic-pdf-2, prepared from unchanged source build _02. No CI DOI assigned at preparation; empirical qualification remains not established.",
+      "heading_shift": -1,
+      "lang": "en",
+      "language_role": "primary English publication volume",
+      "reading_edition_number": 2,
+      "short_title": "CI | Rights and citation",
+      "source": "RIGHTS_AND_CITATION.md",
+      "subject": "Authorship and scoped rights of CI v1.0.0 academic edition",
+      "subtitle": "Authorship, component rights and citation",
+      "title": "Continuity Instrument"
+    },
+    {
+      "cover_note": "Copyright © 2026 Ivan Kotov. Scientific text: CC BY 4.0. Source version 1.0.0 remains unchanged.",
+      "filename": "07_CI_Publication_Guide_EN.pdf",
+      "front_note": "Author: Ivan Kotov. Editorial edition academic-pdf-2, prepared from unchanged source build _02. No CI DOI assigned at preparation; empirical qualification remains not established.",
+      "heading_shift": -1,
+      "lang": "en",
+      "language_role": "primary English publication volume",
+      "reading_edition_number": 2,
+      "short_title": "CI | Publication guide",
+      "source": "PUBLICATION_GUIDE_EN.md",
+      "subject": "Manual deposit metadata, reading map, source identity and known limitations",
+      "subtitle": "Publication and reading guide",
+      "title": "Continuity Instrument"
+    }
+  ],
+  "edition": "academic-pdf-2",
+  "orcid": "0009-0009-6002-9845",
+  "primary_language": "en",
+  "source_version": "1.0.0",
+  "supplemental_languages": [
+    "ru"
+  ]
+}

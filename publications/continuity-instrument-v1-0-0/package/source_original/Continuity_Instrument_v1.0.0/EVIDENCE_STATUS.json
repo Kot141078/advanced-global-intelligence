@@ -1,0 +1,64 @@
+{
+  "schema": "CI_PUBLICATION_EVIDENCE_STATUS_V1",
+  "package_version": "1.0.0",
+  "prepared_date": "2026-10-25",
+  "empirical_qualification": "NOT_ESTABLISHED",
+  "evidence": [
+    {
+      "episode": "R157",
+      "drive_id": "16Koyf3ckIkKjSni5C8C97L9c4DiuhIdE",
+      "url": "https://drive.google.com/file/d/16Koyf3ckIkKjSni5C8C97L9c4DiuhIdE/view",
+      "bytes": 3703123,
+      "sha256": "fc8564656fb777b1266d763bea841af0dd5f13b03e2f727db6f3ec3689270c8a",
+      "status": "OD11_TQ_R157_PASS_OPEN_SYNTHETIC_SEMANTIC_GATE_FIDELITY",
+      "claim_ceiling": "OPEN_SYNTHETIC_ONLY"
+    },
+    {
+      "episode": "R160",
+      "drive_id": "1JmLtDLkL4aQhTSIFprGjsd-xZDN2XRqC",
+      "url": "https://drive.google.com/file/d/1JmLtDLkL4aQhTSIFprGjsd-xZDN2XRqC/view",
+      "bytes": 251185,
+      "sha256": "8b80604a62aa7d5232bf9659b87009537951a3f3b89151bc8164b88d4387952b",
+      "status": "REAL_LOCAL_OLLAMA_CORPUS_QUALIFICATION_NOT_ESTABLISHED",
+      "review": "CONFIRMED_CONSUMED_NEGATIVE_RETURN",
+      "evaluation_run_pass": false,
+      "qualification_pass": false
+    },
+    {
+      "episode": "R161",
+      "drive_id": "1m11yDfvrhbIQ0Zlp-amxKiMixzNgWv76",
+      "url": "https://drive.google.com/file/d/1m11yDfvrhbIQ0Zlp-amxKiMixzNgWv76/view",
+      "bytes": 191074,
+      "sha256": "56c586b665b83c3485c19c3186ed989b17cd03fbf21555d7642f1316bb48002f",
+      "status": "REAL_LOCAL_OLLAMA_QWEN25_CORPUS_QUALIFICATION_NOT_ESTABLISHED",
+      "review": "CONFIRMED_CONSUMED_NEGATIVE_RETURN",
+      "evaluation_run_pass": false,
+      "qualification_pass": false,
+      "metrics": {
+        "processed": 5,
+        "expected": 5,
+        "schema_valid": 5,
+        "role_exact": 4,
+        "class_exact": 3,
+        "evidence_exact": 0,
+        "claim_boundary_exact": 5,
+        "records_passed": 0
+      },
+      "first_failure": "evidence_not_redaction_placeholder"
+    }
+  ],
+  "not_established": [
+    "real-world continuity age for a named subject",
+    "entity identity",
+    "personhood or consciousness",
+    "general evaluator or corpus validity",
+    "provider attestation",
+    "operational approval",
+    "scientific qualification",
+    "BACON compatibility",
+    "publication acceptance"
+  ],
+  "private_corpus_included": false,
+  "qubit_source_text_included": false,
+  "doi_assigned": false
+}

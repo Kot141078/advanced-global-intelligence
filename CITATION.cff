@@ -25,3 +25,17 @@ keywords:
   - "lineage boundaries"
 license: "MIT"
 doi: "10.5281/zenodo.18311148"
+
+references:
+  - type: software
+    title: "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition"
+    authors:
+      - family-names: "Kotov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0009-0009-6002-9845"
+    version: "1.0.0"
+    date-released: "2026-10-25"
+    doi: "10.5281/zenodo.23651305"
+    url: "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/"
+    license-url: "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/LICENSES.md"
+    notes: "Separately published CI package; source build _02, academic-pdf-2. Component-specific rights override the repository MIT grant."

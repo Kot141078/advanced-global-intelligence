@@ -1,0 +1,416 @@
+{
+  "manifest_role": "GitHub publication mirror and current metadata wrapper",
+  "doi": "10.5281/zenodo.23651305",
+  "source_version": "1.0.0",
+  "editorial_edition": "academic-pdf-2",
+  "created_date": "2026-10-25",
+  "frozen_payload_member_count": 58,
+  "source_archive_sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 2261,
+      "sha256": "460c5513e2259316f723647a51483c16f5f27a0ef98eab4ccdf2111b22137310",
+      "role": "current_publication_wrapper"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 3139,
+      "sha256": "c77c7509fac498915a9c2db0e77529e3d6c5b1391e5f63ba095375aac58a47fe",
+      "role": "current_publication_wrapper"
+    },
+    {
+      "path": "PUBLICATION_RECORD.json",
+      "bytes": 14505,
+      "sha256": "9c4a435fdadc063f3e00ae2aceb3d2e4a68e11273fb8d2b700f679ab3badf96c",
+      "role": "current_publication_wrapper"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13260,
+      "sha256": "ce0759e25d60915837e4bc45a84630f8009884120660ef370a2f8796955b38c2",
+      "role": "current_publication_wrapper"
+    },
+    {
+      "path": "codemeta.json",
+      "bytes": 3798,
+      "sha256": "8f5ebfb955dd2ff0844c3dbea86ffe7d64a28d5b1d36222541de25dffc746c43",
+      "role": "current_publication_wrapper"
+    },
+    {
+      "path": "package/CITATION.cff",
+      "bytes": 3446,
+      "sha256": "2e74040a41c1f51cbd60fd4c2449c918bcf04b1b36261933633f73a1270b1bf5",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/EDITION_CHANGES.md",
+      "bytes": 3321,
+      "sha256": "bb2fa5b2912ef2c40802beedd30d1c6d2eb1ea84c0e7e75dabbb9de105fd5d2d",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/FONT_LICENSE.txt",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/PACKAGE_MANIFEST.json",
+      "bytes": 18613,
+      "sha256": "a399667fead5f7107fb7e5681173dbc442f9e6a670cda4930d8ed1dfc0017296",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/PDFs/01_CI_Explanatory_Paper_EN.pdf",
+      "bytes": 175238,
+      "sha256": "651839185c6ac621e0e2f014d7ba2c263222ddb3ce75e6344088ad77cc0b76ad",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/PDFs/02_CI_Explanatory_Paper_RU.pdf",
+      "bytes": 185817,
+      "sha256": "8d608445e44e88845eb121b5fbe541e677d112090959475214c74fb63ef5ea0f",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/PDFs/03_CI_Technical_Specification_EN.pdf",
+      "bytes": 142434,
+      "sha256": "c01f2a0a5df71b3816500642105abbe1cd8afe6e5b860393ae56bb93321c8955",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf",
+      "bytes": 127343,
+      "sha256": "0831884ad3bd17c65b87a848c7b215b5fda01f196597e88a21155d1467f8bcfa",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+      "bytes": 131580,
+      "sha256": "ab47e3b6a7e49bf5f853f2b14d49b55a76d548bcd393019fc1deac3e4df5aa7b",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/PDFs/06_CI_Rights_and_Citation_EN.pdf",
+      "bytes": 127950,
+      "sha256": "5ae580e7bf89d87948eb0790eb5532ff54f055c9ca59aeb2fa947f88408ba6c0",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/PDFs/07_CI_Publication_Guide_EN.pdf",
+      "bytes": 145041,
+      "sha256": "0438227ebcb7f0f752239071b53236d38a85bf78077239b48ae3768190841df7",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/PUBLICATION_METADATA.json",
+      "bytes": 1488,
+      "sha256": "a264258eb511d57f7a730d075f996423d5197715b7446002403808e9ae10b97b",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/README.md",
+      "bytes": 4884,
+      "sha256": "a006b6e04dcab5d1b89447447b36ccc40de716eeb4b8d85837c3566f56caf534",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/SHA256SUMS.txt",
+      "bytes": 6520,
+      "sha256": "03677c4706350039a931e5974caa2a91f415856bcf2c34b4190ec2b9bf684414",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/ZENODO_DESCRIPTION.txt",
+      "bytes": 2816,
+      "sha256": "7b397500f04f4f61c5babd7c2af9ecd831b354b040312cd3f1fbe6848b1aa548",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/build/README.md",
+      "bytes": 2263,
+      "sha256": "f1a2b5f85cbd57525e7665d6edc673a0d9db6b599c9d57d8e414d821ee3c6b40",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/build/render_academic.py",
+      "bytes": 25666,
+      "sha256": "53deceb7074e584a2a220926d7c636dfa18f652ab7f7dc607b119aca6605839a",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/build/requirements-pdf.txt",
+      "bytes": 17,
+      "sha256": "054e7483ed0899a13425d3ff89d0ae162290c88989825c77d22174ceb36f33f1",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/editorial_sources/CI_EXPLAINED_EN.md",
+      "bytes": 38024,
+      "sha256": "6eee4d6eb67cb1dcfeb156697506d978384f1e67964a0cb9e770ab400b4fc9b4",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/editorial_sources/CI_EXPLAINED_RU.md",
+      "bytes": 55522,
+      "sha256": "0beaa34f5e96c70be9b24a08410a01dbd3679c3b3807a8d13c022b59e9705311",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md",
+      "bytes": 14738,
+      "sha256": "d8b10da7badb6933f83f6bdaefde08486dbb1f040de3db03666e1b60a5d8e742",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md",
+      "bytes": 13884,
+      "sha256": "7f8ce32e21d407163b225c719cfe7c914ab66a57427facc59d5dd82273f0a720",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/editorial_sources/PDF_EDITION.json",
+      "bytes": 6440,
+      "sha256": "e8aebb4aca0a6b74763d15b17d9aea1ccb5cdac1fbec5a9b4fcaea3d4137bc6e",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/editorial_sources/PUBLICATION_GUIDE_EN.md",
+      "bytes": 14645,
+      "sha256": "c7cc1b8976d51a8ec4d68ea4566c35fec58e175d30669a37120a3d7007eb03a7",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/editorial_sources/RIGHTS_AND_CITATION.md",
+      "bytes": 9539,
+      "sha256": "f4727bd7738b3dd463a9b1a79a8fc90e14e982c600b0403c47fee58fcf2eef6e",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/editorial_sources/TECHNICAL_SPECIFICATION.md",
+      "bytes": 24102,
+      "sha256": "6a5934dc1896507fe5bcc09a35a3a2efb379da5820594f0ac785e2e7f9a2547f",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/examples/README.md",
+      "bytes": 1489,
+      "sha256": "feeb81ba6c329ce5242c3ef91ecca8aa3e6587b21e60c8b6dc51c55dc1691a88",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/examples/teaching_input_60min.json",
+      "bytes": 4413,
+      "sha256": "5358da86ff8e74531f1289a06ecf124d78e9bd82b39337c2439764482f0a5902",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/examples/teaching_output_60min.json",
+      "bytes": 4041,
+      "sha256": "30d86c299518dca6fc85996b2800f423761483e69dd28fbb2c37bbddcafbddb9",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/CI_CONTINUITY_INSTRUMENT_V1_0_0.zip",
+      "bytes": 50765,
+      "sha256": "be87dd926ed96e91e8de25bae2e18666f74ac738b173379ddc0092f98563f663",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/.zenodo.json",
+      "bytes": 3114,
+      "sha256": "172ab75a09b90d3e148eabd81089ab55b3f76a0ce3f1ca2c44105c8d4d7e9410",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/CITATION.cff",
+      "bytes": 3446,
+      "sha256": "2e74040a41c1f51cbd60fd4c2449c918bcf04b1b36261933633f73a1270b1bf5",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/CI_SPECIFICATION.md",
+      "bytes": 8116,
+      "sha256": "fc7f2c9a0a5d1132ea030f674cb8da2ddd3bbf1601e392999157f04c977e3ada",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/CONTINUITY_OBSERVABLES.md",
+      "bytes": 5792,
+      "sha256": "f53432000a325ecfa1d5d2afc274afd2d614aa0c666bcd76c15370b85eaa7f12",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json",
+      "bytes": 2301,
+      "sha256": "9bdf2cd364174250d635de7dc66e4dce722d91555dd3846da4a37b5105836f81",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/LICENSES_AND_THIRD_PARTY.md",
+      "bytes": 4502,
+      "sha256": "6530cb40f294142f39f2ab85e682ab1f0272743ed9ce3186cfcc6f8abd0fc119",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md",
+      "bytes": 4002,
+      "sha256": "68c9fd9099e3b00a25067a415100f180e3ab06a38c3fa76572529d4562ab40f8",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md",
+      "bytes": 2097,
+      "sha256": "ff021d72221ad6bdba2250605588767dc9f1ed2ac4cecf5efdb9697b11d29b06",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_MANIFEST.json",
+      "bytes": 5416,
+      "sha256": "9c4106c555d21c7f7496f1a97d73402607936fe9daac777486ca7d79c773b624",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/README.md",
+      "bytes": 6951,
+      "sha256": "6e3c32f9787d34414d9f5a0db926fd11ff07e172b7bcb62415be6e6c467647c8",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md",
+      "bytes": 3771,
+      "sha256": "b4e60d0df285dfc0248d7da12791663719819ed17d7f9016f73c54e5ddfd6610",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md",
+      "bytes": 4849,
+      "sha256": "3a29244890f0aed63d21c57ce61b5aca55d5706b1a17196005b5edf64e3e23f6",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/ci_profile.py",
+      "bytes": 28388,
+      "sha256": "2ee799e9a423b4aa128cd2f4ca75424c6122ac46fb7df51d588d009cac96b5f4",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/schemas/ci-profile-input-v1.schema.json",
+      "bytes": 11557,
+      "sha256": "b09613f14f943340c8a7516e89990a0b187a3a8da51cbdad0269e66d64c8b768",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/schemas/ci-profile-output-v1.schema.json",
+      "bytes": 8251,
+      "sha256": "329d411eef8a31811767ba9df16faa37f15310352c0912496b697daad8947fcb",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/REPRODUCIBILITY.md",
+      "bytes": 6288,
+      "sha256": "db30502010a151a396c970f6d7f352e30cfd086c8513fff32084e8f0620a657d",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md",
+      "bytes": 6231,
+      "sha256": "d8b0097ed17d259badab69a24fd9945b015988dee4fc8d9c3cdcc62ddd3e2ac0",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/SHA256SUMS.txt",
+      "bytes": 1950,
+      "sha256": "246c92df0a01b2efae75e4ed2654bd6a51ecb91116a85a1565533351ca79dfbd",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/STATIC_VERIFICATION.json",
+      "bytes": 979,
+      "sha256": "f1ec85eee84c955c30f9e2ee2cbc7ede078777d8bc3d7148d786d690b7fda801",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md",
+      "bytes": 4704,
+      "sha256": "c250200d5105fa0c33a22e9c902e9e928f88baf13bbd5358d830777c96829c88",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/ZENODO_DEPOSIT_INSTRUCTIONS.md",
+      "bytes": 1683,
+      "sha256": "c5476d4e7d0387eaf66d11ab74c55ab329e3672a652623884c990b61d4e33c04",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/source_original/Continuity_Instrument_v1.0.0/tests/test_ci_profile.py",
+      "bytes": 13549,
+      "sha256": "6688f249f094c6c56931cd119d7478172d619d26c441cd8d072f16c62a502681",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/verification/BUILD_VERIFICATION.json",
+      "bytes": 2537,
+      "sha256": "4df27a1e0f45498db96fcb0250e72509d80fe896716137ce907dbb91b3cb68d6",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/verification/DOCUMENT_MAP.json",
+      "bytes": 2332,
+      "sha256": "0e6562318009c3203c6ab84195a45eab7152b53456a826b9288e067fe618fee5",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/verification/LANGUAGE_COVERAGE.json",
+      "bytes": 7140,
+      "sha256": "e42438359835098e0ae6af0d03a4388ecbd1922dd25b9d2747547b0c4ff84e0b",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/verification/PDF_INVENTORY.json",
+      "bytes": 3000,
+      "sha256": "4ce2f2b5d55614ff2ee3f4da30f063945a020e5d3aa596ba2ce746e2ab9e4067",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/verification/SOURCE_REVIEW_PUBLIC_EXTRACT.md",
+      "bytes": 4391,
+      "sha256": "7554495f8fac083940630339eeda0880b364a8951cc9505cfd69f59b08b0e68e",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "package/verification/verify_package.py",
+      "bytes": 4644,
+      "sha256": "d192ca8e8d62fd72fcf60243730ec5b26e04806a7c8026d0777d839c063d0356",
+      "role": "frozen_deposit_member"
+    },
+    {
+      "path": "release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip",
+      "bytes": 1097821,
+      "sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659",
+      "role": "exact_deposit_archive_or_sidecar"
+    },
+    {
+      "path": "release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip.sha256",
+      "bytes": 131,
+      "sha256": "f5ad785dac23911e40393473a6cc23d540a97dbfef5de77af580227651a225c6",
+      "role": "exact_deposit_archive_or_sidecar"
+    },
+    {
+      "path": "schema.org.jsonld",
+      "bytes": 14133,
+      "sha256": "b781da51f9d01f71a87c2288958cc89bca5fb9c25e234106401d057e8f90f116",
+      "role": "current_publication_wrapper"
+    }
+  ],
+  "manifest_excludes": [
+    "MIRROR_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "checksum_index": "SHA256SUMS.txt",
+  "checksum_index_excludes": [
+    "SHA256SUMS.txt"
+  ],
+  "verification_scope": "Exact bytes and public metadata only; not execution, scientific qualification or evidence-source truth."
+}

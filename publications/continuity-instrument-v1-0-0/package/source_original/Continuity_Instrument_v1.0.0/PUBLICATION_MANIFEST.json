@@ -1,0 +1,162 @@
+{
+  "deterministic_zip": {
+    "compression": "DEFLATE level 9",
+    "manifest_excludes": [
+      "PUBLICATION_MANIFEST.json",
+      "SHA256SUMS.txt",
+      "CI_CONTINUITY_INSTRUMENT_V1_0_0.zip",
+      "DRIVE_READBACK.zip"
+    ],
+    "path_order": "UTF-8 ordinal by relative POSIX path",
+    "root_prefix": "Continuity_Instrument_v1.0.0/",
+    "timestamp": "1980-01-01T00:00:00",
+    "unix_mode": "100644"
+  },
+  "doi_assigned": false,
+  "empirical_qualification": "NOT_ESTABLISHED",
+  "evidence_pins": {
+    "R157": {
+      "bytes": 3703123,
+      "drive_id": "16Koyf3ckIkKjSni5C8C97L9c4DiuhIdE",
+      "sha256": "fc8564656fb777b1266d763bea841af0dd5f13b03e2f727db6f3ec3689270c8a",
+      "status": "OD11_TQ_R157_PASS_OPEN_SYNTHETIC_SEMANTIC_GATE_FIDELITY"
+    },
+    "R160": {
+      "bytes": 251185,
+      "drive_id": "1JmLtDLkL4aQhTSIFprGjsd-xZDN2XRqC",
+      "review": "CONFIRMED_CONSUMED_NEGATIVE_RETURN",
+      "sha256": "8b80604a62aa7d5232bf9659b87009537951a3f3b89151bc8164b88d4387952b",
+      "status": "REAL_LOCAL_OLLAMA_CORPUS_QUALIFICATION_NOT_ESTABLISHED"
+    },
+    "R161": {
+      "bytes": 191074,
+      "drive_id": "1m11yDfvrhbIQ0Zlp-amxKiMixzNgWv76",
+      "review": "CONFIRMED_CONSUMED_NEGATIVE_RETURN",
+      "sha256": "56c586b665b83c3485c19c3186ed989b17cd03fbf21555d7642f1316bb48002f",
+      "status": "REAL_LOCAL_OLLAMA_QWEN25_CORPUS_QUALIFICATION_NOT_ESTABLISHED"
+    }
+  },
+  "package_name": "Continuity Instrument (CI)",
+  "package_version": "1.0.0",
+  "payload_member_count": 20,
+  "payload_members": [
+    {
+      "bytes": 3114,
+      "path": ".zenodo.json",
+      "sha256": "172ab75a09b90d3e148eabd81089ab55b3f76a0ce3f1ca2c44105c8d4d7e9410"
+    },
+    {
+      "bytes": 3446,
+      "path": "CITATION.cff",
+      "sha256": "2e74040a41c1f51cbd60fd4c2449c918bcf04b1b36261933633f73a1270b1bf5"
+    },
+    {
+      "bytes": 8116,
+      "path": "CI_SPECIFICATION.md",
+      "sha256": "fc7f2c9a0a5d1132ea030f674cb8da2ddd3bbf1601e392999157f04c977e3ada"
+    },
+    {
+      "bytes": 5792,
+      "path": "CONTINUITY_OBSERVABLES.md",
+      "sha256": "f53432000a325ecfa1d5d2afc274afd2d614aa0c666bcd76c15370b85eaa7f12"
+    },
+    {
+      "bytes": 2301,
+      "path": "EVIDENCE_STATUS.json",
+      "sha256": "9bdf2cd364174250d635de7dc66e4dce722d91555dd3846da4a37b5105836f81"
+    },
+    {
+      "bytes": 4502,
+      "path": "LICENSES_AND_THIRD_PARTY.md",
+      "sha256": "6530cb40f294142f39f2ab85e682ab1f0272743ed9ce3186cfcc6f8abd0fc119"
+    },
+    {
+      "bytes": 4002,
+      "path": "LIMITATIONS.md",
+      "sha256": "68c9fd9099e3b00a25067a415100f180e3ab06a38c3fa76572529d4562ab40f8"
+    },
+    {
+      "bytes": 2097,
+      "path": "PUBLICATION_CHECKLIST.md",
+      "sha256": "ff021d72221ad6bdba2250605588767dc9f1ed2ac4cecf5efdb9697b11d29b06"
+    },
+    {
+      "bytes": 6951,
+      "path": "README.md",
+      "sha256": "6e3c32f9787d34414d9f5a0db926fd11ff07e172b7bcb62415be6e6c467647c8"
+    },
+    {
+      "bytes": 3771,
+      "path": "RECOGNITION_PROFILE.md",
+      "sha256": "b4e60d0df285dfc0248d7da12791663719819ed17d7f9016f73c54e5ddfd6610"
+    },
+    {
+      "bytes": 4849,
+      "path": "REFERENCE_IMPLEMENTATION/README.md",
+      "sha256": "3a29244890f0aed63d21c57ce61b5aca55d5706b1a17196005b5edf64e3e23f6"
+    },
+    {
+      "bytes": 28388,
+      "path": "REFERENCE_IMPLEMENTATION/ci_profile.py",
+      "sha256": "2ee799e9a423b4aa128cd2f4ca75424c6122ac46fb7df51d588d009cac96b5f4"
+    },
+    {
+      "bytes": 11557,
+      "path": "REFERENCE_IMPLEMENTATION/schemas/ci-profile-input-v1.schema.json",
+      "sha256": "b09613f14f943340c8a7516e89990a0b187a3a8da51cbdad0269e66d64c8b768"
+    },
+    {
+      "bytes": 8251,
+      "path": "REFERENCE_IMPLEMENTATION/schemas/ci-profile-output-v1.schema.json",
+      "sha256": "329d411eef8a31811767ba9df16faa37f15310352c0912496b697daad8947fcb"
+    },
+    {
+      "bytes": 6288,
+      "path": "REPRODUCIBILITY.md",
+      "sha256": "db30502010a151a396c970f6d7f352e30cfd086c8513fff32084e8f0620a657d"
+    },
+    {
+      "bytes": 6231,
+      "path": "SCIENTIFIC_CLAIM_MAP.md",
+      "sha256": "d8b0097ed17d259badab69a24fd9945b015988dee4fc8d9c3cdcc62ddd3e2ac0"
+    },
+    {
+      "bytes": 979,
+      "path": "STATIC_VERIFICATION.json",
+      "sha256": "f1ec85eee84c955c30f9e2ee2cbc7ede078777d8bc3d7148d786d690b7fda801"
+    },
+    {
+      "bytes": 4704,
+      "path": "TERMINOLOGY.md",
+      "sha256": "c250200d5105fa0c33a22e9c902e9e928f88baf13bbd5358d830777c96829c88"
+    },
+    {
+      "bytes": 1683,
+      "path": "ZENODO_DEPOSIT_INSTRUCTIONS.md",
+      "sha256": "c5476d4e7d0387eaf66d11ab74c55ab329e3672a652623884c990b61d4e33c04"
+    },
+    {
+      "bytes": 13549,
+      "path": "tests/test_ci_profile.py",
+      "sha256": "6688f249f094c6c56931cd119d7478172d619d26c441cd8d072f16c62a502681"
+    }
+  ],
+  "prepared_date": "2026-10-25",
+  "private_corpus_included": false,
+  "publication_blockers": [],
+  "qubit_source_text_included": false,
+  "rights_entries": [
+    {
+      "identifier": "CC-BY-4.0",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "scope": "scientific text and metadata"
+    },
+    {
+      "identifier": "CUSTOM-ARR-NO-GRANT",
+      "rights": "Copyright © 2026 Ivan Kotov. All rights reserved. No license grant.",
+      "scope": "REFERENCE_IMPLEMENTATION/, its schemas, and tests/test_ci_profile.py"
+    }
+  ],
+  "schema": "CI_PUBLICATION_MANIFEST_V1",
+  "status": "SOURCE_REFERENCE_PACKAGE_READY_FOR_DIRECT_ZENODO_DEPOSIT"
+}

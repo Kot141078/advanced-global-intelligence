@@ -103,3 +103,7 @@ Use `AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md` when the remaining question
 - evidence state: document-level profile, atomic-claim ledger, matched-test design, and integrity manifest; no longitudinal result
 - public claim strength: bounded interpretation and handling proposal only
 - non-claims: no proof of life, consciousness, sentience, legal personhood, sovereignty, automatic rights, authority, universal life detector, or deployment certification.
+
+## S17 — Continuity Instrument v1.0.0 / English academic-pdf-2
+
+The [published package](publications/continuity-instrument-v1-0-0/README.md), DOI <https://doi.org/10.5281/zenodo.23651305>, is a research specification with a bounded deterministic reference transformation. **Publication status is published; empirical qualification remains `NOT_ESTABLISHED`.** The program processes supplied JSON; evidence collection, admission and truth verification are external. R157 remains open-synthetic, and R160/R161 remain negative consumed qualification attempts. Source v1.0.0 build `_02` is unchanged; `academic-pdf-2` identifies its explanatory/typeset companion. See the [publication record](publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json) for current identity and [component rights](publications/continuity-instrument-v1-0-0/LICENSES.md).

@@ -54,3 +54,16 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 - Count: 18 (`17` active, `1` archived legacy navigation repository).
 - Membership, roles, authority scopes, mutable `main` pointers, and immutable observed commits: `CURRENT_CORPUS_MAP.json`.
 - Payload authority remains with each named canonical repository; DOI-bound or tag-bound manifests control frozen release bytes.
+
+## Continuity Instrument (CI) v1.0.0
+
+- Human entry: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/README.md
+- Published identity and evidence limits: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json
+- Citation: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/CITATION.cff
+- CodeMeta: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/codemeta.json
+- Schema.org: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/schema.org.jsonld
+- Component rights: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/LICENSES.md
+- Exact deposited ZIP: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip
+- DOI: https://doi.org/10.5281/zenodo.23651305; concept DOI: https://doi.org/10.5281/zenodo.23651304
+- Source version 1.0.0, build _02; academic edition academic-pdf-2; English primary, Russian supplement.
+- Published specification/reference transformation; empirical qualification NOT_ESTABLISHED. Frozen package metadata retains preparation-time values; wrapper metadata identifies the published work. No blanket MIT or CC BY grant over reserved components.

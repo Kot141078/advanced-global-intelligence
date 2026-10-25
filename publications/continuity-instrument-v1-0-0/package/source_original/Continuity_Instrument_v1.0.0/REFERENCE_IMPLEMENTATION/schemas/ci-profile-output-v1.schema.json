@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ci-profile-output-v1.schema.json",
+  "title": "CI evidence-bound continuity profile output v1",
+  "description": "Deterministic formation-depth vector and caller-supplied bounded claim envelope. This output is a calculation record, not an identity, personhood, biological-age, wall-clock-age, authority, or evidence-truth attestation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "input_schema_version",
+    "generated_by",
+    "profile_id",
+    "subject_ref",
+    "branch_ref",
+    "time_axis",
+    "observation_window",
+    "evidence_counts",
+    "calculation_policy",
+    "formation_depth_vector",
+    "formation_depth_vector_sha256",
+    "claim_ceiling"
+  ],
+  "properties": {
+    "schema_version": { "const": "ci-profile-output/v1" },
+    "input_schema_version": { "const": "ci-profile-input/v1" },
+    "generated_by": { "const": "ci-profile-reference/1.0.0" },
+    "profile_id": { "$ref": "ci-profile-input-v1.schema.json#/$defs/nonEmptyString" },
+    "subject_ref": { "$ref": "ci-profile-input-v1.schema.json#/$defs/nonEmptyString" },
+    "branch_ref": { "$ref": "ci-profile-input-v1.schema.json#/$defs/nonEmptyString" },
+    "time_axis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unit", "origin", "basis"],
+      "properties": {
+        "unit": { "$ref": "ci-profile-input-v1.schema.json#/$defs/nonEmptyString" },
+        "origin": { "$ref": "ci-profile-input-v1.schema.json#/$defs/nonEmptyString" },
+        "basis": { "$ref": "ci-profile-input-v1.schema.json#/$defs/nonEmptyString" }
+      }
+    },
+    "observation_window": { "$ref": "ci-profile-input-v1.schema.json#/$defs/closedOpenInterval" },
+    "evidence_counts": { "$ref": "#/$defs/evidenceCounts" },
+    "calculation_policy": { "$ref": "#/$defs/calculationPolicy" },
+    "formation_depth_vector": { "$ref": "#/$defs/formationDepthVector" },
+    "formation_depth_vector_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "claim_ceiling": { "$ref": "ci-profile-input-v1.schema.json#/$defs/claimCeiling" }
+  },
+  "$defs": {
+    "countByAdmission": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["admitted", "excluded", "unresolved"],
+      "properties": {
+        "admitted": { "type": "integer", "minimum": 0 },
+        "excluded": { "type": "integer", "minimum": 0 },
+        "unresolved": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "intervalCounts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["admitted", "excluded", "unresolved", "eligible_for_duration"],
+      "properties": {
+        "admitted": { "type": "integer", "minimum": 0 },
+        "excluded": { "type": "integer", "minimum": 0 },
+        "unresolved": { "type": "integer", "minimum": 0 },
+        "eligible_for_duration": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "evidenceCounts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["witnesses", "verified_intervals"],
+      "properties": {
+        "witnesses": { "$ref": "#/$defs/countByAdmission" },
+        "verified_intervals": { "$ref": "#/$defs/intervalCounts" }
+      }
+    },
+    "calculationPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["interval_semantics", "duration", "gap", "event_order", "witness_order"],
+      "properties": {
+        "interval_semantics": { "const": "closed_open" },
+        "duration": { "const": "union_without_double_counting" },
+        "gap": { "const": "observation_window_minus_verified_union_and_known_pause_union" },
+        "event_order": { "const": "time_lower_then_time_upper_then_identifier" },
+        "witness_order": { "const": "first_lower_asc_upper_asc_id_last_upper_desc_lower_desc_id" }
+      }
+    },
+    "nullableWitness": {
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "#/$defs/admittedWitness" }
+      ]
+    },
+    "admittedWitness": {
+      "allOf": [
+        { "$ref": "ci-profile-input-v1.schema.json#/$defs/witness" },
+        { "properties": { "admission_status": { "const": "admitted" } } }
+      ]
+    },
+    "eligibleVerifiedInterval": {
+      "allOf": [
+        { "$ref": "ci-profile-input-v1.schema.json#/$defs/verifiedInterval" },
+        {
+          "properties": {
+            "admission_status": { "const": "admitted" },
+            "eligible_for_duration": { "const": true }
+          }
+        }
+      ]
+    },
+    "duration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "unit", "method"],
+      "properties": {
+        "value": { "type": "integer", "minimum": 0 },
+        "unit": { "$ref": "ci-profile-input-v1.schema.json#/$defs/nonEmptyString" },
+        "method": { "const": "union_of_admitted_eligible_closed_open_intervals" }
+      }
+    },
+    "gap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "reason"],
+      "properties": {
+        "start": { "type": "integer" },
+        "end": { "type": "integer" },
+        "reason": { "const": "no_admitted_verified_participation_or_known_pause" }
+      }
+    },
+    "replayEvent": {
+      "allOf": [
+        { "$ref": "ci-profile-input-v1.schema.json#/$defs/event" },
+        { "properties": { "event_type": { "const": "replay" } } }
+      ]
+    },
+    "forkEvent": {
+      "allOf": [
+        { "$ref": "ci-profile-input-v1.schema.json#/$defs/event" },
+        { "properties": { "event_type": { "const": "fork" } } }
+      ]
+    },
+    "restoreEvent": {
+      "allOf": [
+        { "$ref": "ci-profile-input-v1.schema.json#/$defs/event" },
+        { "properties": { "event_type": { "const": "restore" } } }
+      ]
+    },
+    "coldWakeEvent": {
+      "allOf": [
+        { "$ref": "ci-profile-input-v1.schema.json#/$defs/event" },
+        { "properties": { "event_type": { "const": "cold_wake" } } }
+      ]
+    },
+    "formationDepthVector": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "W_first",
+        "W_last",
+        "I_verified",
+        "D_verified",
+        "P_known",
+        "G_unexplained",
+        "E_replay",
+        "E_fork",
+        "E_restore",
+        "E_cold_wake",
+        "L_memory",
+        "L_governance",
+        "L_witness",
+        "L_authority",
+        "T_irreversible",
+        "U"
+      ],
+      "properties": {
+        "W_first": { "$ref": "#/$defs/nullableWitness" },
+        "W_last": { "$ref": "#/$defs/nullableWitness" },
+        "I_verified": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/eligibleVerifiedInterval" }
+        },
+        "D_verified": { "$ref": "#/$defs/duration" },
+        "P_known": {
+          "type": "array",
+          "items": { "$ref": "ci-profile-input-v1.schema.json#/$defs/knownPause" }
+        },
+        "G_unexplained": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/gap" }
+        },
+        "E_replay": { "type": "array", "items": { "$ref": "#/$defs/replayEvent" } },
+        "E_fork": { "type": "array", "items": { "$ref": "#/$defs/forkEvent" } },
+        "E_restore": { "type": "array", "items": { "$ref": "#/$defs/restoreEvent" } },
+        "E_cold_wake": { "type": "array", "items": { "$ref": "#/$defs/coldWakeEvent" } },
+        "L_memory": {
+          "type": "array",
+          "items": { "$ref": "ci-profile-input-v1.schema.json#/$defs/lineageTransition" }
+        },
+        "L_governance": {
+          "type": "array",
+          "items": { "$ref": "ci-profile-input-v1.schema.json#/$defs/lineageTransition" }
+        },
+        "L_witness": {
+          "type": "array",
+          "items": { "$ref": "ci-profile-input-v1.schema.json#/$defs/lineageTransition" }
+        },
+        "L_authority": {
+          "type": "array",
+          "items": { "$ref": "ci-profile-input-v1.schema.json#/$defs/lineageTransition" }
+        },
+        "T_irreversible": {
+          "type": "array",
+          "items": { "$ref": "ci-profile-input-v1.schema.json#/$defs/irreversibleTransition" }
+        },
+        "U": { "$ref": "ci-profile-input-v1.schema.json#/$defs/structuredUncertainty" }
+      }
+    }
+  }
+}

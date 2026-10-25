@@ -139,3 +139,11 @@ economic superiority.
 - Social boundary: payment for compute does not automatically create ownership of the motive; a motive does not automatically create authority over another participant's resources.
 - Claim ceiling: no consciousness, phenomenal desire, free-will, legal-personhood, universal-motive or automatic-authority claim.
 <!-- MOT-C-V0-1:END -->
+
+## Continuity Instrument v1.0.0 — published identity and exact mirror
+
+The [CI publication](publications/continuity-instrument-v1-0-0/README.md) is identified by version DOI <https://doi.org/10.5281/zenodo.23651305> and concept DOI <https://doi.org/10.5281/zenodo.23651304>. Cite the version DOI for the deposited source v1.0.0 build `_02` with companion edition `academic-pdf-2`.
+
+Use the wrapper [CITATION.cff](publications/continuity-instrument-v1-0-0/CITATION.cff) and [PUBLICATION_RECORD.json](publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json). The 58 files under `package/` retain all preparation-time wording and metadata, including earlier DOI-unassigned statements; those historical fields do not override the current publication record. The exact ZIP is under `release/`; [MIRROR_MANIFEST.json](publications/continuity-instrument-v1-0-0/MIRROR_MANIFEST.json) and [SHA256SUMS.txt](publications/continuity-instrument-v1-0-0/SHA256SUMS.txt) cover the mirror and wrapper.
+
+Package rights are component-specific; read [LICENSES.md](publications/continuity-instrument-v1-0-0/LICENSES.md). Publication and byte verification do not change `empirical_qualification: NOT_ESTABLISHED`, replay consumed R160/R161 attempts, or establish identity, consciousness, compatibility, or operational authority.

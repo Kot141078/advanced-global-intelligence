@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: >-
+  Cite this published CI version using the version DOI below. Source version
+  1.0.0, build _02; academic companion edition academic-pdf-2. Component-specific
+  rights apply; read license-url. Frozen citation files under package/ record
+  the preparation-time state and are retained unchanged.
+type: software
+title: "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    affiliation: "Independent researcher, Brussels, Belgium"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+version: "1.0.0"
+date-released: "2026-10-25"
+doi: "10.5281/zenodo.23651305"
+url: "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/"
+repository-code: "https://github.com/Kot141078/advanced-global-intelligence"
+repository-artifact: "https://zenodo.org/records/23651305"
+license-url: "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/LICENSES.md"
+abstract: >-
+  Research specification and deterministic reference transformation of supplied
+  JSON records for evidence-bound descriptions of governed continuity in
+  long-lived AI systems. The report distinguishes participation intervals,
+  known pauses, unexplained gaps, replay, forks, restoration, cold wake,
+  separate lineages, and uncertainty. The package includes the unchanged
+  source v1.0.0 build _02 and the English academic companion edition
+  academic-pdf-2, with a preserved Russian supplement. It does not collect or
+  authenticate primary evidence. Empirical qualification remains
+  NOT_ESTABLISHED; publication does not establish identity, consciousness,
+  provider attestation, or operational approval.
+keywords:
+  - "Continuity Instrument"
+  - "long-lived AI systems"
+  - "evidence-bound continuity"
+  - "data provenance"
+  - "interval coverage"
+  - "governed change"
+  - "uncertainty"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23651305"
+    description: "Version-specific DOI for this published package"
+  - type: doi
+    value: "10.5281/zenodo.23651304"
+    description: "Concept DOI for the version family; not the exact-version citation"

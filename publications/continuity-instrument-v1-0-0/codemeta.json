@@ -1,0 +1,97 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://doi.org/10.5281/zenodo.23651305",
+  "name": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Ivan Kotov",
+      "givenName": "Ivan",
+      "familyName": "Kotov",
+      "@id": "https://orcid.org/0009-0009-6002-9845",
+      "identifier": "https://orcid.org/0009-0009-6002-9845",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Independent researcher, Brussels, Belgium"
+      }
+    }
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Ivan Kotov",
+      "givenName": "Ivan",
+      "familyName": "Kotov",
+      "@id": "https://orcid.org/0009-0009-6002-9845",
+      "identifier": "https://orcid.org/0009-0009-6002-9845",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Independent researcher, Brussels, Belgium"
+      }
+    }
+  ],
+  "datePublished": "2026-10-25",
+  "version": "1.0.0",
+  "description": "Research specification and deterministic reference transformation of caller-supplied JSON records into an evidence-bound continuity vector. The published package includes source v1.0.0 build _02, English academic companion edition academic-pdf-2, and a preserved Russian supplement. Primary evidence collection, admission, and truth verification remain outside the program. Empirical qualification remains NOT_ESTABLISHED. Component-specific rights apply; read the linked rights notice.",
+  "url": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+  "sameAs": [
+    "https://zenodo.org/records/23651305",
+    "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/continuity-instrument-v1-0-0"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.5281/zenodo.23651305",
+      "description": "Exact published version DOI"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Concept DOI",
+      "value": "10.5281/zenodo.23651304",
+      "description": "Version-family DOI; not the exact-version citation"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Editorial edition",
+      "value": "academic-pdf-2",
+      "description": "Companion reading edition; software source version remains 1.0.0"
+    }
+  ],
+  "codeRepository": "https://github.com/Kot141078/advanced-global-intelligence",
+  "programmingLanguage": "Python",
+  "inLanguage": [
+    "en",
+    "ru"
+  ],
+  "license": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/LICENSES.md",
+  "copyrightHolder": {
+    "@type": "Person",
+    "name": "Ivan Kotov",
+    "givenName": "Ivan",
+    "familyName": "Kotov",
+    "@id": "https://orcid.org/0009-0009-6002-9845",
+    "identifier": "https://orcid.org/0009-0009-6002-9845",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Independent researcher, Brussels, Belgium"
+    }
+  },
+  "copyrightYear": 2026,
+  "citation": [
+    "https://doi.org/10.5281/zenodo.20679718",
+    "https://doi.org/10.5281/zenodo.22070960",
+    "https://doi.org/10.5281/zenodo.20648731",
+    "https://doi.org/10.5281/zenodo.21205427",
+    "https://doi.org/10.5281/zenodo.18933553",
+    "https://doi.org/10.5281/zenodo.21204415"
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://zenodo.org/records/23651305/files/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip?download=1",
+    "encodingFormat": "application/zip",
+    "contentSize": "1097821 bytes",
+    "sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659"
+  }
+}

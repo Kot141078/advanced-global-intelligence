@@ -4,6 +4,7 @@ This repository presents AGI as **Advanced Global Intelligence** —
 a distributed, plural, cybernetic ecosystem.
 
 Start here:
+- **Continuity Instrument (CI) v1.0.0** — [published package, seven PDFs, original sources, and exact ZIP](publications/continuity-instrument-v1-0-0/README.md); [version DOI](https://doi.org/10.5281/zenodo.23651305); English academic edition `academic-pdf-2` with Russian supplement. Deterministic JSON-to-profile reference transformation; empirical qualification remains `NOT_ESTABLISHED`. Component-specific rights apply.
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
 - Boundaries of Machine Interpretation v0.2: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/` | DOI: <https://doi.org/10.5281/zenodo.21841445> | six typed units = four operational boundaries + one reflexive definition + one temporal process premise.

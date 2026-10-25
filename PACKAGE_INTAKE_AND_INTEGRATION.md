@@ -107,3 +107,13 @@ the candidate should remain local or pointer-only until clarified and must not e
 - Intake status: added on a PR branch for review
 - Files: 1 Markdown profile + 1 PDF + package README + manifest JSON + SHA256SUMS
 - Boundary: no website update, GitHub release, tag, Zenodo record, DOI creation, or PDF regeneration in this iteration.
+
+## Intake: Continuity Instrument v1.0.0 / academic-pdf-2
+
+- Canonical home: [publications/continuity-instrument-v1-0-0/](publications/continuity-instrument-v1-0-0/README.md), owned by `Kot141078/advanced-global-intelligence`.
+- Object: already published specification/reference package; DOI <https://doi.org/10.5281/zenodo.23651305>. Source v1.0.0 build `_02` and editorial edition `academic-pdf-2` remain separate identities.
+- Scope: exact mirror of the 58 deposited files and complete ZIP, new published-identity wrapper, citation, component-rights notice, and current discovery links. Private evidence archives and raw private corpus bytes are excluded.
+- Status: publication `published`; empirical qualification `NOT_ESTABLISHED`. R157 remains open-synthetic; R160/R161 remain negative and consumed. No scientific qualification, historical rerun, or runtime integration is performed by the intake.
+- Reference posture: `References` links to adjacent corpus works. No ownership transfer or change to SER/L4 normative authority.
+- Control impact: current entry, index, citation, and status surfaces receive pointers. The dated 18-repository `CURRENT_CORPUS_MAP.json` and historical stack locks remain unchanged because this adds a package within an existing repository.
+- Rights: [component notice](publications/continuity-instrument-v1-0-0/LICENSES.md); repository MIT does not override reserved components. Frozen metadata remains historical; the wrapper records the published DOI.

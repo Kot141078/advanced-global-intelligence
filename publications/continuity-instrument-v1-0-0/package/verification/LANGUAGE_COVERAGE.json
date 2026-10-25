@@ -1,0 +1,204 @@
+{
+  "author": "Ivan Kotov",
+  "date": "2026-10-25",
+  "documents": [
+    {
+      "english_text_checked": true,
+      "language": "en",
+      "pages": 15,
+      "pdf": "PDFs/01_CI_Explanatory_Paper_EN.pdf",
+      "role": "primary English publication volume",
+      "sha256": "651839185c6ac621e0e2f014d7ba2c263222ddb3ce75e6344088ad77cc0b76ad"
+    },
+    {
+      "english_text_checked": false,
+      "language": "ru",
+      "pages": 15,
+      "pdf": "PDFs/02_CI_Explanatory_Paper_RU.pdf",
+      "role": "Russian supplement, preserved byte-for-byte from academic-pdf-1",
+      "sha256": "8d608445e44e88845eb121b5fbe541e677d112090959475214c74fb63ef5ea0f"
+    },
+    {
+      "english_text_checked": true,
+      "language": "en",
+      "pages": 15,
+      "pdf": "PDFs/03_CI_Technical_Specification_EN.pdf",
+      "role": "primary English publication volume",
+      "sha256": "c01f2a0a5df71b3816500642105abbe1cd8afe6e5b860393ae56bb93321c8955"
+    },
+    {
+      "english_text_checked": true,
+      "language": "en",
+      "pages": 8,
+      "pdf": "PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf",
+      "role": "primary English publication volume",
+      "sha256": "0831884ad3bd17c65b87a848c7b215b5fda01f196597e88a21155d1467f8bcfa"
+    },
+    {
+      "english_text_checked": true,
+      "language": "en",
+      "pages": 10,
+      "pdf": "PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+      "role": "primary English publication volume",
+      "sha256": "ab47e3b6a7e49bf5f853f2b14d49b55a76d548bcd393019fc1deac3e4df5aa7b"
+    },
+    {
+      "english_text_checked": true,
+      "language": "en",
+      "pages": 7,
+      "pdf": "PDFs/06_CI_Rights_and_Citation_EN.pdf",
+      "role": "primary English publication volume",
+      "sha256": "5ae580e7bf89d87948eb0790eb5532ff54f055c9ca59aeb2fa947f88408ba6c0"
+    },
+    {
+      "english_text_checked": true,
+      "language": "en",
+      "pages": 8,
+      "pdf": "PDFs/07_CI_Publication_Guide_EN.pdf",
+      "role": "primary English publication volume",
+      "sha256": "0438227ebcb7f0f752239071b53236d38a85bf78077239b48ae3768190841df7"
+    }
+  ],
+  "edition": "academic-pdf-2",
+  "empirical_qualification": "NOT_ESTABLISHED",
+  "english_pdf_count": 6,
+  "english_reading_order": [
+    "01",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07"
+  ],
+  "english_supporting_documents": [
+    "README.md",
+    "EDITION_CHANGES.md",
+    "PUBLICATION_METADATA.json",
+    "ZENODO_DESCRIPTION.txt",
+    "build/README.md",
+    "examples/README.md"
+  ],
+  "explanatory_translation": {
+    "abstract_keywords_status_and_references_preserved": true,
+    "bibliography_entries": 13,
+    "doi_destinations": [
+      "10.5281/zenodo.18933553",
+      "10.5281/zenodo.20648731",
+      "10.5281/zenodo.20679718",
+      "10.5281/zenodo.21204415",
+      "10.5281/zenodo.21205427",
+      "10.5281/zenodo.22070960"
+    ],
+    "editorial_additions": "Bounded clarifications retained from the predecessor English paper, including explicit coordinate names, witness dependence, fork aggregation, and absent integration/comparison capabilities; no additional empirical result.",
+    "english_manuscript_sha256": "6eee4d6eb67cb1dcfeb156697506d978384f1e67964a0cb9e770ab400b4fc9b4",
+    "figure_markers": [
+      "[[WORKFLOW]]",
+      "[[TIMELINE]]"
+    ],
+    "numbered_sections": 14,
+    "review_method": "AI-assisted full-text editorial comparison plus a separate read-only section-by-section review; not external human peer review.",
+    "russian_manuscript_sha256": "0beaa34f5e96c70be9b24a08410a01dbd3679c3b3807a8d13c022b59e9705311",
+    "section_mapping": [
+      {
+        "content_preserved": true,
+        "english_heading": "The problem the instrument addresses",
+        "english_section_number": 1,
+        "russian_section_number": 1
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Where CI fits in the workflow",
+        "english_section_number": 2,
+        "russian_section_number": 2
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "The data used by version 1.0.0",
+        "english_section_number": 3,
+        "russian_section_number": 3
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Normative admission and software validation",
+        "english_section_number": 4,
+        "russian_section_number": 4
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Why the result is a vector",
+        "english_section_number": 5,
+        "russian_section_number": 5
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "A sixty-minute teaching example",
+        "english_section_number": 6,
+        "russian_section_number": 6
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Pauses, gaps, replay, and new branches",
+        "english_section_number": 7,
+        "russian_section_number": 7
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Four independent lineages of change",
+        "english_section_number": 8,
+        "russian_section_number": 8
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Uncertainty and the claim ceiling",
+        "english_section_number": 9,
+        "russian_section_number": 9
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Recognition profiles and relationships to the research corpus",
+        "english_section_number": 10,
+        "russian_section_number": 10
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Practical input and output",
+        "english_section_number": 11,
+        "russian_section_number": 11
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Results currently available",
+        "english_section_number": 12,
+        "russian_section_number": 12
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Release limitations and conditions of use",
+        "english_section_number": 13,
+        "russian_section_number": 13
+      },
+      {
+        "content_preserved": true,
+        "english_heading": "Practical applications and further validation",
+        "english_section_number": 14,
+        "russian_section_number": 14
+      }
+    ],
+    "status": "FULL_SUBSTANTIVE_COUNTERPART"
+  },
+  "intentional_non_english_material": "The optional Russian supplement and its own descriptive metadata; Russian drawing strings in the bilingual renderer; an original Cyrillic Unicode test fixture. None is an untranslated dependency of the English reading route.",
+  "preservation": {
+    "russian_pdf_and_manuscript_byte_equal_to_predecessor": true,
+    "russian_pdf_sha256": "8d608445e44e88845eb121b5fbe541e677d112090959475214c74fb63ef5ea0f",
+    "source_build": "_02",
+    "source_version": "1.0.0",
+    "source_zip_sha256": "be87dd926ed96e91e8de25bae2e18666f74ac738b173379ddc0092f98563f663"
+  },
+  "primary_language": "eng",
+  "russian_supplement": "02",
+  "schema": "CI_ACADEMIC_LANGUAGE_COVERAGE_V1",
+  "status": "COMPLETE_ENGLISH_PUBLICATION_ROUTE_VERIFIED",
+  "supplemental_languages": [
+    "rus"
+  ]
+}

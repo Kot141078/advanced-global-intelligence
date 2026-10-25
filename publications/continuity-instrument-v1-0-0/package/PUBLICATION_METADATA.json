@@ -1,0 +1,39 @@
+{
+  "authors": [
+    {
+      "affiliation": "Independent researcher, Brussels, Belgium",
+      "family_name": "Kotov",
+      "given_name": "Ivan",
+      "orcid": "0009-0009-6002-9845"
+    }
+  ],
+  "description_file": "ZENODO_DESCRIPTION.txt",
+  "doi_assigned_at_preparation": false,
+  "editorial_edition": "academic-pdf-2",
+  "font_notice": "FONT_LICENSE.txt",
+  "language_statement": "The six English PDFs provide the complete publication reading route. The Russian explanatory PDF is a preserved supplementary edition.",
+  "languages": [
+    "eng",
+    "rus"
+  ],
+  "metadata_role": "manual_deposit_guide_not_api_payload",
+  "primary_language": "eng",
+  "resource_type": "software",
+  "rights_entries": [
+    {
+      "identifier": "CC-BY-4.0",
+      "scope": "author scientific prose and descriptive metadata, subject to PDF 04 section exceptions"
+    },
+    {
+      "scope": "original implementation including README and schemas; original tests; PDF 04 Part I; build/*.py; verification/verify_package.py; examples/*.json",
+      "statement": "Copyright © 2026 Ivan Kotov. All rights reserved. No license grant."
+    }
+  ],
+  "source_zip_sha256": "be87dd926ed96e91e8de25bae2e18666f74ac738b173379ddc0092f98563f663",
+  "supersedes_editorial_edition": "academic-pdf-1",
+  "supplemental_languages": [
+    "rus"
+  ],
+  "title": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+  "version": "1.0.0"
+}

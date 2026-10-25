@@ -1,0 +1,98 @@
+cff-version: 1.2.0
+message: "Cite this package by title, author, and version until a DOI is assigned. CC BY 4.0 covers scientific text and metadata only; code, schemas, and tests are Copyright 2026 Ivan Kotov, all rights reserved, with no license grant."
+title: "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0009-0009-6002-9845"
+url: "https://ivankotov.eu/corpus-map/"
+abstract: >-
+  Continuity Instrument (CI) v1.0.0 source/reference package: a branch-aware,
+  evidence-bound specification and deterministic reference transformation for
+  recording governed continuity in long-lived AI systems. Evidence-bound
+  continuity age or formation depth is represented as a vector rather than
+  wall-clock age. R157 is open-synthetic predecessor evidence; frozen R160 and
+  R161 local-evaluator attempts did not meet their qualification thresholds.
+  The package does not establish entity identity, personhood, general
+  evaluator validity, provider attestation, operational approval, or
+  scientific qualification.
+keywords:
+  - "Continuity Instrument"
+  - "governed continuity"
+  - "evidence-bound measurement"
+  - "long-lived AI systems"
+  - "AI governance"
+  - "provenance"
+  - "formation depth"
+  - "independent review"
+references:
+  - type: generic
+    title: "Theoretical Core"
+    authors:
+      - family-names: "Kotov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0009-0009-6002-9845"
+    identifiers:
+      - type: doi
+        value: "10.5281/zenodo.20679718"
+        description: "Version DOI"
+      - type: doi
+        value: "10.5281/zenodo.20679717"
+        description: "Concept DOI"
+  - type: generic
+    title: "Temporal AI Presence"
+    authors:
+      - family-names: "Kotov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0009-0009-6002-9845"
+    identifiers:
+      - type: doi
+        value: "10.5281/zenodo.22070960"
+        description: "Version DOI"
+      - type: doi
+        value: "10.5281/zenodo.22070959"
+        description: "Concept DOI"
+  - type: generic
+    title: "Personality Formation"
+    authors:
+      - family-names: "Kotov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0009-0009-6002-9845"
+    identifiers:
+      - type: doi
+        value: "10.5281/zenodo.20648731"
+        description: "Version DOI"
+      - type: doi
+        value: "10.5281/zenodo.20648730"
+        description: "Concept DOI"
+  - type: generic
+    title: "C-Calculus"
+    authors:
+      - family-names: "Kotov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0009-0009-6002-9845"
+    doi: "10.5281/zenodo.21205427"
+    url: "https://doi.org/10.5281/zenodo.21205427"
+  - type: generic
+    title: "Beacon"
+    authors:
+      - family-names: "Kotov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0009-0009-6002-9845"
+    doi: "10.5281/zenodo.18933553"
+    url: "https://doi.org/10.5281/zenodo.18933553"
+  - type: generic
+    title: "Entity vs Profile"
+    authors:
+      - family-names: "Kotov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0009-0009-6002-9845"
+    identifiers:
+      - type: doi
+        value: "10.5281/zenodo.21204415"
+        description: "Version DOI"
+      - type: doi
+        value: "10.5281/zenodo.21204414"
+        description: "Concept DOI"

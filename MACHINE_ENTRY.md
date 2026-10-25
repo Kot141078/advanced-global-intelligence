@@ -590,3 +590,19 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - Social boundary: payment for compute does not automatically create ownership of the motive; a motive does not automatically create authority over another participant's resources.
 - Claim ceiling: no consciousness, phenomenal desire, free-will, legal-personhood, universal-motive or automatic-authority claim.
 <!-- MOT-C-V0-1:END -->
+
+## Continuity Instrument v1.0.0 — published reference package
+
+- canonical_package: `publications/continuity-instrument-v1-0-0/`
+- human_entry: `publications/continuity-instrument-v1-0-0/README.md`
+- current_publication_record: `publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json`
+- current_citation: `publications/continuity-instrument-v1-0-0/CITATION.cff`
+- codemeta: `publications/continuity-instrument-v1-0-0/codemeta.json`
+- schema_org: `publications/continuity-instrument-v1-0-0/schema.org.jsonld`
+- doi: `10.5281/zenodo.23651305`; concept_doi: `10.5281/zenodo.23651304`
+- source_version: `1.0.0`; source_build: `_02`; editorial_edition: `academic-pdf-2`
+- publication_status: `published`; empirical_qualification: `NOT_ESTABLISHED`
+- frozen_payload: `publications/continuity-instrument-v1-0-0/package/` (58 exact files); archive: `publications/continuity-instrument-v1-0-0/release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip`
+- rights: `publications/continuity-instrument-v1-0-0/LICENSES.md`; no blanket MIT/CC BY license
+
+Use the current wrapper citation and publication record for DOI identity. Preparation-time metadata under `package/` is historical and preserved byte-for-byte. The reference implementation transforms supplied JSON; it does not collect or authenticate evidence. R157 remains open-synthetic; R160/R161 remain consumed negative qualification results. This discovery integration supplies no new scientific qualification or runtime authority.

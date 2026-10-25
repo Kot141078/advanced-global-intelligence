@@ -1,0 +1,27 @@
+{
+  "schema": "CI_PUBLICATION_STATIC_VERIFICATION_V1",
+  "package_version": "1.0.0",
+  "verification_date": "2026-10-25",
+  "status": "PASS",
+  "checks": {
+    "focused_unittest_cases": 8,
+    "focused_unittest_passed": 8,
+    "focused_unittest_failed": 0,
+    "python_ast_files_checked": 2,
+    "python_ast_parse": "PASS",
+    "json_files_parsed": 5,
+    "json_parse": "PASS",
+    "unresolved_r160_placeholders": 0,
+    "utf8_bom_files": 0,
+    "carriage_return_files": 0,
+    "private_corpus_files_included": 0,
+    "qubit_source_text_files_included": 0
+  },
+  "implementation_claim": "The focused tests support only the deterministic reference transformation behavior exercised by those tests.",
+  "component_rights": {
+    "scientific_text_and_metadata": "CC-BY-4.0",
+    "reference_implementation_schemas_and_tests": "Copyright © 2026 Ivan Kotov. All rights reserved. No license grant."
+  },
+  "publication_blocker": null,
+  "scientific_qualification": "NOT_ESTABLISHED"
+}

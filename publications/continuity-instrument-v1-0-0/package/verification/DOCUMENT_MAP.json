@@ -1,0 +1,104 @@
+{
+  "author": "Ivan Kotov",
+  "machine_only_files": "All remaining original code, tests, schemas and integrity metadata remain exact and fully included in source_original.",
+  "optional_russian_supplement": "02",
+  "original_root": "source_original/Continuity_Instrument_v1.0.0/",
+  "primary_english_pdf_order": [
+    "01",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07"
+  ],
+  "primary_language": "eng",
+  "source_to_pdf": {
+    "CITATION.cff": {
+      "pdfs": [
+        "06",
+        "07"
+      ],
+      "treatment": "citation guidance; exact original retained"
+    },
+    "CI_SPECIFICATION.md": {
+      "pdfs": [
+        "03"
+      ],
+      "treatment": "typeset source"
+    },
+    "CONTINUITY_OBSERVABLES.md": {
+      "pdfs": [
+        "03"
+      ],
+      "treatment": "typeset source"
+    },
+    "EVIDENCE_STATUS.json": {
+      "pdfs": [
+        "05"
+      ],
+      "treatment": "field-level readable rendering; exact original retained"
+    },
+    "LICENSES_AND_THIRD_PARTY.md": {
+      "pdfs": [
+        "06"
+      ],
+      "treatment": "typeset source plus separate new-edition scopes"
+    },
+    "LIMITATIONS.md": {
+      "pdfs": [
+        "05"
+      ],
+      "treatment": "typeset source"
+    },
+    "PUBLICATION_CHECKLIST.md": {
+      "pdfs": [
+        "07"
+      ],
+      "treatment": "updated outer-edition instructions; exact original retained"
+    },
+    "README.md": {
+      "pdfs": [
+        "01",
+        "02",
+        "07"
+      ],
+      "treatment": "explanatory synthesis; exact original retained"
+    },
+    "RECOGNITION_PROFILE.md": {
+      "pdfs": [
+        "03"
+      ],
+      "treatment": "typeset source"
+    },
+    "REFERENCE_IMPLEMENTATION/README.md": {
+      "pdfs": [
+        "04"
+      ],
+      "treatment": "typeset source; original reserved rights"
+    },
+    "REPRODUCIBILITY.md": {
+      "pdfs": [
+        "04"
+      ],
+      "treatment": "typeset source; dense tables reformatted"
+    },
+    "SCIENTIFIC_CLAIM_MAP.md": {
+      "pdfs": [
+        "05"
+      ],
+      "treatment": "typeset source"
+    },
+    "TERMINOLOGY.md": {
+      "pdfs": [
+        "03"
+      ],
+      "treatment": "typeset source"
+    },
+    "ZENODO_DEPOSIT_INSTRUCTIONS.md": {
+      "pdfs": [
+        "07"
+      ],
+      "treatment": "updated manual guidance with explicit mixed rights; exact original retained"
+    }
+  }
+}

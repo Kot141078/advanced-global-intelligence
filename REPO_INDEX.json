@@ -543,6 +543,22 @@
       "role": "canonical package entry",
       "status": "current",
       "short_description": "Canonical EA-L4 / EATP package entry in AGI; SER remains the SER normative core, and EA-L4 / EATP is adjacent, not SER v2."
+    },
+    {
+      "path": "publications/continuity-instrument-v1-0-0/README.md",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/README.md",
+      "type": "markdown",
+      "role": "canonical CI publication entry",
+      "status": "published",
+      "short_description": "CI v1.0.0 source build _02 with English academic-pdf-2, Russian supplement, seven PDFs and exact archive; empirical qualification NOT_ESTABLISHED."
+    },
+    {
+      "path": "publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+      "type": "json",
+      "role": "current published CI identity and component-rights record",
+      "status": "published",
+      "short_description": "Version/concept DOI roles, exact files and digests, separate software/editorial versions, rights scopes and evidence ceiling."
     }
   ],
   "packages": [
@@ -978,6 +994,34 @@
           "state": "superseded-retained-for-provenance"
         }
       ]
+    },
+    {
+      "id": "continuity-instrument-v1-0-0",
+      "title": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+      "path": "publications/continuity-instrument-v1-0-0/",
+      "version": "1.0.0",
+      "source_build": "_02",
+      "editorial_edition": "academic-pdf-2",
+      "publication_date": "2026-10-25",
+      "status": "published-specification-and-reference-package",
+      "empirical_qualification": "NOT_ESTABLISHED",
+      "doi": "10.5281/zenodo.23651305",
+      "doi_url": "https://doi.org/10.5281/zenodo.23651305",
+      "concept_doi": "10.5281/zenodo.23651304",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.23651304",
+      "human_entry": "publications/continuity-instrument-v1-0-0/README.md",
+      "publication_record": "publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+      "citation_file": "publications/continuity-instrument-v1-0-0/CITATION.cff",
+      "codemeta": "publications/continuity-instrument-v1-0-0/codemeta.json",
+      "schema_org": "publications/continuity-instrument-v1-0-0/schema.org.jsonld",
+      "rights_file": "publications/continuity-instrument-v1-0-0/LICENSES.md",
+      "source_archive": "publications/continuity-instrument-v1-0-0/release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip",
+      "source_archive_sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659",
+      "mirror_manifest": "publications/continuity-instrument-v1-0-0/MIRROR_MANIFEST.json",
+      "sha256_manifest": "publications/continuity-instrument-v1-0-0/SHA256SUMS.txt",
+      "website": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+      "rights": "component-specific; no blanket repository MIT or package-wide CC BY grant",
+      "metadata_precedence": "Current wrapper identifies published DOI; package/ preserves prepublication metadata and every deposited byte."
     }
   ],
   "highlight_documents": [

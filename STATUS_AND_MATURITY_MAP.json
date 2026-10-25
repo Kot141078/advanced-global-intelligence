@@ -242,6 +242,24 @@
       "normative_weight": "explicitly non-final",
       "recommended_use": "Use before reading origin, continuity, personality, attachment, replacement, or care as a status grant.",
       "anti_confusion_note": "Does not prove life, consciousness, personhood, sovereignty, rights, authority, or a ban on lawful shutdown/deletion."
+    },
+    {
+      "id": "S17",
+      "artifact": "Continuity Instrument (CI) v1.0.0 / English academic-pdf-2",
+      "repo": "advanced-global-intelligence",
+      "artifact_paths": [
+        "publications/continuity-instrument-v1-0-0/README.md",
+        "publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+        "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/CI_SPECIFICATION.md"
+      ],
+      "status_label": "published",
+      "maturity_class": "research specification and bounded reference transformation; empirical qualification NOT_ESTABLISHED",
+      "role": "Evidence-bound continuity reporting from externally prepared and admitted records.",
+      "normative_weight": "CI package-local specification; no replacement of adjacent normative cores.",
+      "recommended_use": "Read the explanatory paper, source specification, evidence limits and component rights together; use the published version DOI for citation.",
+      "anti_confusion_note": "Published status does not establish real-system measurement qualification, identity, consciousness, provider attestation, runtime integration, or operational approval. R157 is open-synthetic; R160/R161 remain consumed negative results.",
+      "doi": "10.5281/zenodo.23651305",
+      "publication_record": "publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json"
     }
   ]
 }

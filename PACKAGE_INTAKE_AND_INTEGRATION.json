@@ -258,6 +258,39 @@
       "full_technical_concept_doi_url": "https://doi.org/10.5281/zenodo.20196218",
       "full_technical_zenodo_status": "published",
       "full_technical_sensitive_controlled_included": true
+    },
+    {
+      "id": "continuity-instrument-v1-0-0",
+      "title": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+      "intake_state": "already_published_doi_bound_exact_mirror_and_discovery_integration",
+      "canonical_owner": "Kot141078/advanced-global-intelligence",
+      "package_root": "publications/continuity-instrument-v1-0-0/",
+      "integration_class": [
+        "frozen_public_object",
+        "bounded_specification_and_reference_implementation"
+      ],
+      "public_safe_class": "published_package_only; private archives and raw private corpus excluded",
+      "scope": "Published CI v1.0.0 build _02 and academic-pdf-2 exact mirror, current citation/JSON metadata and human discovery.",
+      "doi": "10.5281/zenodo.23651305",
+      "source_version": "1.0.0",
+      "editorial_edition": "academic-pdf-2",
+      "publication_status": "published",
+      "empirical_qualification": "NOT_ESTABLISHED",
+      "citation": "publications/continuity-instrument-v1-0-0/CITATION.cff",
+      "publication_record": "publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+      "rights": "publications/continuity-instrument-v1-0-0/LICENSES.md",
+      "identity_sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659",
+      "reference_posture": "References adjacent corpus works; no replacement or inherited normative authority.",
+      "does_not_outrank": [
+        "SER normative core",
+        "L4 operational controls",
+        "original CI source specification",
+        "preserved negative qualification evidence"
+      ],
+      "frozen_payload_changed": false,
+      "historical_code_executed": false,
+      "new_scientific_qualification": false,
+      "current_corpus_map_change_required": false
     }
   ]
 }

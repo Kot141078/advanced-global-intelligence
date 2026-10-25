@@ -129,6 +129,8 @@ This repository is easier to understand when related protocol and manifesto docu
 
 ## Canonical package entry points
 
+- **Continuity Instrument (CI) v1.0.0** — [published package, seven PDFs, original sources, and exact ZIP](publications/continuity-instrument-v1-0-0/README.md); [version DOI](https://doi.org/10.5281/zenodo.23651305); English academic edition `academic-pdf-2` with Russian supplement. Deterministic JSON-to-profile reference transformation; empirical qualification remains `NOT_ESTABLISHED`. Component-specific rights apply.
+
 - **Shared Open Worlds for Human–AI Dyads v0.2** — conceptual and methodological preprint, English, 6 September 2026. [Publication and exact files](publications/shared-open-worlds-human-ai-dyads-v0-2/README.md); [DOI](https://doi.org/10.5281/zenodo.22542470); CC BY 4.0 for this work only. No empirical game/c-specific result; current permissions, shared-history utility and human enjoyment are evaluated separately.
 
 - `Continuity Bundle / Cold Wake v0.1` — canonical here; temporal suspension, continuity preservation, and bounded cold wake / safe resume package. Path: `protocols/continuity-bundle/README.md`
@@ -583,7 +585,7 @@ package carries a more specific license or rights statement. The DOI-bound
 `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/`
 package is expressly excluded from MIT and is governed by its `RIGHTS.md`:
 no license is granted and all rights are reserved. See `LICENSE` and
-`LICENSE_EXCEPTIONS.md`.
+`LICENSE_EXCEPTIONS.md`. The [Continuity Instrument publication](publications/continuity-instrument-v1-0-0/LICENSES.md) is also expressly excluded from a blanket MIT grant: author prose and metadata are CC BY 4.0, while its reserved code, schemas, tests, examples, and PDF 04 Part I retain no license grant.
 
 ---
 

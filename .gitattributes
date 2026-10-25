@@ -36,3 +36,14 @@ official/authorial-statements/boundaries-of-machine-interpretation/v0.2/*.pdf bi
 # Origin-Neutral Recognition and Provisional Care v0.1 hash-bound sources.
 # Preserve intentional Markdown hard-break spaces without rewriting pinned bytes.
 protocols/recognition/origin_neutral_recognition_and_provisional_care_v0_1/*.md whitespace=-blank-at-eol
+
+# CI v1.0.0: preserve every byte of the deposited payload and its exact archive.
+publications/continuity-instrument-v1-0-0/package/** -text
+publications/continuity-instrument-v1-0-0/package/** whitespace=-blank-at-eol
+publications/continuity-instrument-v1-0-0/release/*.zip binary
+publications/continuity-instrument-v1-0-0/release/*.sha256 -text
+publications/continuity-instrument-v1-0-0/*.md text eol=lf
+publications/continuity-instrument-v1-0-0/*.json text eol=lf
+publications/continuity-instrument-v1-0-0/*.jsonld text eol=lf
+publications/continuity-instrument-v1-0-0/*.cff text eol=lf
+publications/continuity-instrument-v1-0-0/SHA256SUMS.txt text eol=lf

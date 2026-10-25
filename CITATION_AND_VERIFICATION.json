@@ -318,7 +318,36 @@
         "Verify the four controlling Russian boundary files are byte-identical to their v0.1 predecessors.",
         "Verify DOI resolves to the published Zenodo record and rights remain no-license-granted-all-rights-reserved."
       ]
+    },
+    {
+      "id": "continuity-instrument-v1-0-0",
+      "title": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+      "package_root": "publications/continuity-instrument-v1-0-0/",
+      "citation_file": "publications/continuity-instrument-v1-0-0/CITATION.cff",
+      "publication_record": "publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+      "package_manifest": "publications/continuity-instrument-v1-0-0/package/PACKAGE_MANIFEST.json",
+      "sha256_manifest": "publications/continuity-instrument-v1-0-0/SHA256SUMS.txt",
+      "rights_file": "publications/continuity-instrument-v1-0-0/LICENSES.md",
+      "license": "Component-specific; author prose/metadata CC-BY-4.0; reserved implementation components retain no license grant.",
+      "doi": "10.5281/zenodo.23651305",
+      "doi_url": "https://doi.org/10.5281/zenodo.23651305",
+      "concept_doi": "10.5281/zenodo.23651304",
+      "concept_doi_url": "https://doi.org/10.5281/zenodo.23651304",
+      "zenodo_record_url": "https://zenodo.org/records/23651305",
+      "publication_date": "2026-10-25",
+      "release_status": "published",
+      "source_version": "1.0.0",
+      "editorial_edition": "academic-pdf-2",
+      "empirical_qualification": "NOT_ESTABLISHED",
+      "source_archive": "publications/continuity-instrument-v1-0-0/release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip",
+      "source_archive_sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659",
+      "verification_steps": [
+        "Read current wrapper CITATION.cff and PUBLICATION_RECORD.json for published identity; preparation-time metadata in package/ remains historical.",
+        "Verify the exact archive and extracted mirror against SHA-256 values and byte lengths; GitHub-generated archives are different objects.",
+        "Verify the seven PDF identities and 22 original source-file identities without executing CI code or replaying historical qualification attempts.",
+        "Keep component rights and publication status separate from empirical qualification."
+      ]
     }
   ],
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-10-25"
 }

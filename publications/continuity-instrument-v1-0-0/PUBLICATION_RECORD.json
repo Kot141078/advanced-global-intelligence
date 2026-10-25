@@ -1,0 +1,296 @@
+{
+  "record_role": "current_published_identity_and_github_discovery",
+  "id": "urn:ivankotov:publication:continuity-instrument:v1.0.0:academic-pdf-2",
+  "title": "Continuity Instrument (CI): Evidence-Bound Measurement of Governed Continuity in Long-Lived AI Systems, v1.0 - English Academic Edition",
+  "creators": [
+    {
+      "name": "Ivan Kotov",
+      "givenName": "Ivan",
+      "familyName": "Kotov",
+      "orcid": "https://orcid.org/0009-0009-6002-9845",
+      "affiliation": "Independent researcher, Brussels, Belgium"
+    }
+  ],
+  "publication_date": "2026-10-25",
+  "publication_status": "published",
+  "publisher": "Zenodo",
+  "resource_type": "software",
+  "resource_type_general": "Software",
+  "description": "Research specification and deterministic reference transformation of caller-supplied JSON records into an evidence-bound continuity vector. The published package includes source v1.0.0 build _02, English academic companion edition academic-pdf-2, and a preserved Russian supplement. Primary evidence collection, admission, and truth verification remain outside the program.",
+  "version": "1.0.0",
+  "source_version": "1.0.0",
+  "source_build": "_02",
+  "editorial_edition": "academic-pdf-2",
+  "russian_supplement_edition": "academic-pdf-1",
+  "doi": "10.5281/zenodo.23651305",
+  "doi_url": "https://doi.org/10.5281/zenodo.23651305",
+  "concept_doi": "10.5281/zenodo.23651304",
+  "concept_doi_url": "https://doi.org/10.5281/zenodo.23651304",
+  "identifier_policy": {
+    "version_doi": "Cite this exact deposited version.",
+    "concept_doi": "Version-family discovery only; does not pin the exact deposited bytes."
+  },
+  "zenodo_record_url": "https://zenodo.org/records/23651305",
+  "zenodo_record_id": 23651305,
+  "website": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
+  "repository": "https://github.com/Kot141078/advanced-global-intelligence",
+  "github_package_url": "https://github.com/Kot141078/advanced-global-intelligence/tree/main/publications/continuity-instrument-v1-0-0",
+  "package_path": "publications/continuity-instrument-v1-0-0/",
+  "primary_language": "en",
+  "supplemental_languages": [
+    "ru"
+  ],
+  "entrypoints": {
+    "human": "README.md",
+    "full_explanation_en": "package/editorial_sources/CI_EXPLAINED_EN.md",
+    "full_explanation_ru": "package/editorial_sources/CI_EXPLAINED_RU.md",
+    "citation": "CITATION.cff",
+    "codemeta": "codemeta.json",
+    "schema_org": "schema.org.jsonld",
+    "rights": "LICENSES.md",
+    "frozen_package": "package/",
+    "frozen_manifest": "package/PACKAGE_MANIFEST.json",
+    "frozen_checksums": "package/SHA256SUMS.txt",
+    "mirror_manifest": "MIRROR_MANIFEST.json",
+    "mirror_checksums": "SHA256SUMS.txt"
+  },
+  "metadata_precedence": {
+    "current_publication_metadata": [
+      "CITATION.cff",
+      "PUBLICATION_RECORD.json",
+      "codemeta.json",
+      "schema.org.jsonld"
+    ],
+    "frozen_prepublication_metadata": [
+      "package/CITATION.cff",
+      "package/PUBLICATION_METADATA.json",
+      "package/source_original/Continuity_Instrument_v1.0.0/CITATION.cff",
+      "package/source_original/Continuity_Instrument_v1.0.0/.zenodo.json",
+      "package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json"
+    ],
+    "rule": "Use wrapper metadata for published DOI identity. Preserve all package/ bytes, including historical doi_assigned=false statements and deposit instructions. Publication status does not change the source evidence status or scientific claim ceiling.",
+    "github_main_is_mutable": true,
+    "github_generated_archive_is_not_deposited_zip": true,
+    "license_precedence": "Component rights in LICENSES.md and frozen rights documents override the repository-level MIT license; frozen global CC BY metadata must not be generalized to reserved components."
+  },
+  "academic_archive": {
+    "path": "release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip",
+    "bytes": 1097821,
+    "sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659",
+    "sha256_sidecar": "release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip.sha256",
+    "github_download": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip",
+    "zenodo_download": "https://zenodo.org/records/23651305/files/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip?download=1",
+    "extracted_root": "package/",
+    "extracted_file_count": 58
+  },
+  "original_source": {
+    "archive_path": "package/source_original/CI_CONTINUITY_INSTRUMENT_V1_0_0.zip",
+    "bytes": 50765,
+    "sha256": "be87dd926ed96e91e8de25bae2e18666f74ac738b173379ddc0092f98563f663",
+    "extracted_root": "package/source_original/Continuity_Instrument_v1.0.0/",
+    "extracted_file_count": 22,
+    "original_bytes_preserved": true
+  },
+  "pdf_count": 7,
+  "pdf_page_count": 78,
+  "documents": [
+    {
+      "author": "Ivan Kotov",
+      "bytes": 175238,
+      "pages": 15,
+      "path": "package/PDFs/01_CI_Explanatory_Paper_EN.pdf",
+      "rights": "CC-BY-4.0 (author prose/metadata); external rights remain separate",
+      "sha256": "651839185c6ac621e0e2f014d7ba2c263222ddb3ce75e6344088ad77cc0b76ad",
+      "title": "Understanding the Continuity Instrument: Purpose, evidence, applications and the limits of measurement",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/01_CI_Explanatory_Paper_EN.pdf",
+      "language": "en",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "author": "Ivan Kotov",
+      "bytes": 185817,
+      "pages": 15,
+      "path": "package/PDFs/02_CI_Explanatory_Paper_RU.pdf",
+      "rights": "CC-BY-4.0 (author prose/metadata); external rights remain separate",
+      "sha256": "8d608445e44e88845eb121b5fbe541e677d112090959475214c74fb63ef5ea0f",
+      "title": "Инструмент непрерывности CI: Назначение, данные, применение и границы измерения",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/02_CI_Explanatory_Paper_RU.pdf",
+      "language": "ru",
+      "editorial_edition": "academic-pdf-1"
+    },
+    {
+      "author": "Ivan Kotov",
+      "bytes": 142434,
+      "pages": 15,
+      "path": "package/PDFs/03_CI_Technical_Specification_EN.pdf",
+      "rights": "CC-BY-4.0 (author prose/metadata); external rights remain separate",
+      "sha256": "c01f2a0a5df71b3816500642105abbe1cd8afe6e5b860393ae56bb93321c8955",
+      "title": "Continuity Instrument: Technical specification, observables, recognition profile and terminology",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/03_CI_Technical_Specification_EN.pdf",
+      "language": "en",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "author": "Ivan Kotov",
+      "bytes": 127343,
+      "pages": 8,
+      "path": "package/PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf",
+      "rights": "Part I: all rights reserved, no license grant. Part II, Part III and distinct editorial notes: CC-BY-4.0. Embedded font material retains its terms.",
+      "sha256": "0831884ad3bd17c65b87a848c7b215b5fda01f196597e88a21155d1467f8bcfa",
+      "title": "Continuity Instrument: Reference implementation and reproducibility",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf",
+      "language": "en",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "author": "Ivan Kotov",
+      "bytes": 131580,
+      "pages": 10,
+      "path": "package/PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+      "rights": "CC-BY-4.0 (author prose/metadata); external rights remain separate",
+      "sha256": "ab47e3b6a7e49bf5f853f2b14d49b55a76d548bcd393019fc1deac3e4df5aa7b",
+      "title": "Continuity Instrument: Evidence, scientific claims and limitations",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+      "language": "en",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "author": "Ivan Kotov",
+      "bytes": 127950,
+      "pages": 7,
+      "path": "package/PDFs/06_CI_Rights_and_Citation_EN.pdf",
+      "rights": "CC-BY-4.0 (author prose/metadata); external rights remain separate",
+      "sha256": "5ae580e7bf89d87948eb0790eb5532ff54f055c9ca59aeb2fa947f88408ba6c0",
+      "title": "Continuity Instrument: Authorship, component rights and citation",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/06_CI_Rights_and_Citation_EN.pdf",
+      "language": "en",
+      "editorial_edition": "academic-pdf-2"
+    },
+    {
+      "author": "Ivan Kotov",
+      "bytes": 145041,
+      "pages": 8,
+      "path": "package/PDFs/07_CI_Publication_Guide_EN.pdf",
+      "rights": "CC-BY-4.0 (author prose/metadata); external rights remain separate",
+      "sha256": "0438227ebcb7f0f752239071b53236d38a85bf78077239b48ae3768190841df7",
+      "title": "Continuity Instrument: Publication and reading guide",
+      "url": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/07_CI_Publication_Guide_EN.pdf",
+      "language": "en",
+      "editorial_edition": "academic-pdf-2"
+    }
+  ],
+  "rights_notice": "LICENSES.md",
+  "blanket_license": null,
+  "repository_mit_applies": false,
+  "rights": [
+    {
+      "scope": "Author scientific prose, explanatory PDFs except PDF 04 Part I, descriptive metadata, and new wrapper prose/metadata",
+      "identifier": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "scope": "Original REFERENCE_IMPLEMENTATION/** including README and schemas; original tests/test_ci_profile.py; package/build/*.py; package/verification/verify_package.py; package/examples/*.json; PDF 04 Part I and corresponding reproduced README",
+      "statement": "Copyright © 2026 Ivan Kotov. All rights reserved. No license grant."
+    },
+    {
+      "scope": "PDF 04 Part II, Part III and distinct editorial notes",
+      "identifier": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "scope": "Embedded font material",
+      "notice": "package/FONT_LICENSE.txt"
+    }
+  ],
+  "zenodo_record_metadata_rights": "Zenodo CC0 policy; separate from deposited file rights.",
+  "evidence": {
+    "empirical_qualification": "NOT_ESTABLISHED",
+    "r157": {
+      "status": "OD11_TQ_R157_PASS_OPEN_SYNTHETIC_SEMANTIC_GATE_FIDELITY",
+      "claim_ceiling": "OPEN_SYNTHETIC_ONLY"
+    },
+    "r160": {
+      "status": "REAL_LOCAL_OLLAMA_CORPUS_QUALIFICATION_NOT_ESTABLISHED",
+      "qualification_pass": false,
+      "disposition": "CONFIRMED_CONSUMED_NEGATIVE_RETURN",
+      "replay_authorized": false
+    },
+    "r161": {
+      "status": "REAL_LOCAL_OLLAMA_QWEN25_CORPUS_QUALIFICATION_NOT_ESTABLISHED",
+      "qualification_pass": false,
+      "disposition": "CONFIRMED_CONSUMED_NEGATIVE_RETURN",
+      "replay_authorized": false
+    },
+    "historical_source_review": "package/verification/SOURCE_REVIEW_PUBLIC_EXTRACT.md",
+    "historical_source_tests": {
+      "focused_tests_passed": 8,
+      "scope": "Earlier bounded source review; not run by this GitHub integration."
+    },
+    "qualification_rerun_for_github_integration": false,
+    "known_issue": {
+      "id": "F-01",
+      "description": "An unpaired Unicode surrogate can raise an uncaught UnicodeEncodeError during canonical UTF-8 serialization. Observed exit 1 instead of documented invalid-input exit 2; no output file created.",
+      "frozen_code_patched": false
+    },
+    "private_evidence_archives_included": false,
+    "private_corpus_included": false
+  },
+  "capability_boundaries": {
+    "input": "Caller-supplied structured JSON",
+    "output": "Deterministic continuity profile with sixteen-coordinate formation_depth_vector",
+    "collects_primary_evidence": false,
+    "dereferences_evidence_refs": false,
+    "authenticates_witnesses": false,
+    "establishes_identity_or_consciousness": false,
+    "runtime_integration_supplied": false,
+    "provider_attestation": false,
+    "operational_approval": false,
+    "bacon_compatibility_established": false,
+    "hash_scope": "formation_depth_vector only; not the entire report or source truth"
+  },
+  "related_identifiers": [
+    {
+      "title": "Theoretical Core",
+      "relatedIdentifier": "10.5281/zenodo.20679718",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "url": "https://doi.org/10.5281/zenodo.20679718"
+    },
+    {
+      "title": "Temporal AI Presence",
+      "relatedIdentifier": "10.5281/zenodo.22070960",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "url": "https://doi.org/10.5281/zenodo.22070960"
+    },
+    {
+      "title": "Personality Formation",
+      "relatedIdentifier": "10.5281/zenodo.20648731",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "url": "https://doi.org/10.5281/zenodo.20648731"
+    },
+    {
+      "title": "C-Calculus",
+      "relatedIdentifier": "10.5281/zenodo.21205427",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "url": "https://doi.org/10.5281/zenodo.21205427"
+    },
+    {
+      "title": "Beacon",
+      "relatedIdentifier": "10.5281/zenodo.18933553",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "url": "https://doi.org/10.5281/zenodo.18933553"
+    },
+    {
+      "title": "Entity vs Profile",
+      "relatedIdentifier": "10.5281/zenodo.21204415",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "url": "https://doi.org/10.5281/zenodo.21204415"
+    }
+  ],
+  "integration_scope": "Public discovery and exact-byte mirroring of an already published specification/reference package. No new scientific qualification, normative core replacement, historical replay, or runtime deployment."
+}
