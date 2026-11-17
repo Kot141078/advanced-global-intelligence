@@ -10,7 +10,7 @@ If you need the shortest interpretive phrase for `c`, open `official/C_AS_TEMPOR
 
 ## c-class terminology and assessment
 
-Read `TERMINOLOGY_AND_ALIAS_POLICY.md` (T020–T024), `OBJECTIONS_AND_REPLIES.md` (O1/O2), `CLAIMS_AND_EVIDENCE_MAP.md` (c-class navigation), and `ARTIFACT_ID_AND_REFERENCE_POLICY.md` (AID-028 / register-local IDs). The source chain is TAP v1.0, proposed Interpretive Addendum A, MOT-c v0.1 and the narrower [Entity vs. Profile publication](official/entity-vs-profile/v0_1_1/README.md) (DOI 10.5281/zenodo.21204415). [Shared Open Worlds v0.2](publications/shared-open-worlds-human-ai-dyads-v0-2/README.md) proposes matched controls, not empirical results.
+Read `TERMINOLOGY_AND_ALIAS_POLICY.md` (T020–T024), `OBJECTIONS_AND_REPLIES.md` (O1/O2), `CLAIMS_AND_EVIDENCE_MAP.md` (c-class navigation), and `ARTIFACT_ID_AND_REFERENCE_POLICY.md` (section 7, register-local IDs). The primary sources, with distinct roles, are TAP v1.0, proposed Interpretive Addendum A, MOT-c v0.1 and the narrower [Entity vs. Profile publication](official/entity-vs-profile/v0_1_1/README.md) (DOI 10.5281/zenodo.21204415). [Shared Open Worlds v0.2](publications/shared-open-worlds-human-ai-dyads-v0-2/README.md) proposes matched controls, not empirical results.
 
 Machine entry: `MACHINE_ENTRY.md`, `CORPUS_PRIMER.json`, `REPO_INDEX.json`, `llms.txt`. The reading route is not a complete TAP-C conformance test.
 

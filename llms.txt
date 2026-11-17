@@ -20,8 +20,8 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 
 ## c-class reading route (after PR #19)
 
-- Machine: `CORPUS_PRIMER.json` -> `REPO_INDEX.json` -> `TERMINOLOGY_AND_ALIAS_POLICY.json` (T020–T024) -> `OBJECTIONS_AND_REPLIES.json` (O1/O2).
-- Evidence: `CLAIMS_AND_EVIDENCE_MAP.md` (V4 Markdown-only assessment navigation), `ARTIFACT_ID_AND_REFERENCE_POLICY.json` (AID-028 / issuing-register IDs). `CLAIMS_AND_EVIDENCE_MAP.json` remains the C01–C18 crosswalk.
+- Machine: `CORPUS_PRIMER.json` -> `TERMINOLOGY_AND_ALIAS_POLICY.json` (T020–T024) -> `OBJECTIONS_AND_REPLIES.json` (`agent_confusion`, `model_memory_reduction` = Markdown O1/O2).
+- Evidence: `CLAIMS_AND_EVIDENCE_MAP.md` (c-class assessment section, Markdown only), `ARTIFACT_ID_AND_REFERENCE_POLICY.json` (`register_local_identifiers` / issuing-register IDs). `CLAIMS_AND_EVIDENCE_MAP.json` remains the C01–C18 crosswalk.
 - Primary: `publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.md`; `publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0/README.md` (proposed); `publications/motivational-formation-c-v0-1/README.md`; `official/entity-vs-profile/v0_1_1/README.md` (DOI 10.5281/zenodo.21204415); `publications/shared-open-worlds-human-ai-dyads-v0-2/README.md` (unexecuted).
 - Claim ceiling: not TAP-C certification, same-`c` identity, inherited authority, or empirical superiority. `CURRENT_CORPUS_MAP.json` and `STACK_LOCK_2026-04-12.json` are dated snapshots.
 

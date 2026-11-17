@@ -10,7 +10,7 @@ All of this sits under `c = a + b`, SER continuity, and L4 reality constraints.
 
 ## c-class classification bridge (separate from this experience pipeline)
 
-The DEA / EA-L4 / Witness flow is not a test of a running `c`. For that question use `TERMINOLOGY_AND_ALIAS_POLICY.md` (T020–T024), `OBJECTIONS_AND_REPLIES.md` (O1/O2), `CLAIMS_AND_EVIDENCE_MAP.md` (V4 navigation) and `ARTIFACT_ID_AND_REFERENCE_POLICY.md` (register-local IDs). TAP v1.0, proposed Addendum A, MOT-c and the published Entity vs. Profile custody criterion have distinct source roles. Documentation or a witness trail alone does not prove identity, continuity or authority.
+The DEA / EA-L4 / Witness flow is not a test of a running `c`. For that question use `TERMINOLOGY_AND_ALIAS_POLICY.md` (T020–T024), `OBJECTIONS_AND_REPLIES.md` (O1/O2), `CLAIMS_AND_EVIDENCE_MAP.md` (c-class assessment section) and `ARTIFACT_ID_AND_REFERENCE_POLICY.md` (register-local IDs). TAP v1.0, proposed Addendum A, MOT-c and the published Entity vs. Profile custody criterion have distinct source roles. Documentation or a witness trail alone does not prove identity, continuity or authority.
 
 ## DEA
 

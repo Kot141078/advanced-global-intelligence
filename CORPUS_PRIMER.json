@@ -90,8 +90,8 @@
   },
   "c_class_navigation": {
     "status": "control_layer_navigation_only",
-    "introduced_by_pr": 19,
-    "initial_merge_commit": "7bcbd10bc5bcdf3b1cec62ef76172bba160d251a",
+    "control_surfaces_merged_by_pr": 19,
+    "control_surfaces_merge_commit": "7bcbd10bc5bcdf3b1cec62ef76172bba160d251a",
     "terminology": {
       "markdown": "TERMINOLOGY_AND_ALIAS_POLICY.md",
       "json": "TERMINOLOGY_AND_ALIAS_POLICY.json",
@@ -106,22 +106,27 @@
     "objections": {
       "markdown": "OBJECTIONS_AND_REPLIES.md",
       "json": "OBJECTIONS_AND_REPLIES.json",
-      "items": [
+      "markdown_ids": [
         "O1",
         "O2"
+      ],
+      "json_ids": [
+        "agent_confusion",
+        "model_memory_reduction"
       ]
     },
     "evidence": {
       "markdown": "CLAIMS_AND_EVIDENCE_MAP.md",
       "section": "c-class assessment: where requirements, tests and evidence are",
       "companion_json": "CLAIMS_AND_EVIDENCE_MAP.json",
-      "json_scope": "existing C01-C18 crosswalk; V4 route is in Markdown only"
+      "json_scope": "existing C01-C18 crosswalk; the c-class assessment section is Markdown only"
     },
     "identifiers": {
       "markdown": "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
       "json": "ARTIFACT_ID_AND_REFERENCE_POLICY.json",
-      "artifact_id": "AID-028",
-      "rule": "Register-local IDs require the issuing source."
+      "json_key": "register_local_identifiers",
+      "rule": "Register-local IDs require the issuing source.",
+      "markdown_section": "7. Register-local identifiers"
     },
     "primary_sources": [
       "publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.md",
