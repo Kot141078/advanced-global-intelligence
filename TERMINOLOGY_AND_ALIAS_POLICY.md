@@ -33,16 +33,24 @@ If load-bearing terms start sliding across README, MACHINE_ENTRY, metadata, and 
 | `T017` | `stable snapshot / frozen reading surface` | `stable snapshot`; `frozen reading surface`; `tagged snapshot`; `locked public object` | moving repo; default branch; live main | frozen public reading surface tied to a tag or locked ref | snapshot drift breaks citation and verification discipline |
 | `T018` | `primary / retained / superseded / historical-only / companion / control-surface` | `supersession state`; `reading-preference state` | status/maturity labels; doctrinal weight labels | corpus preference and routing states under evolution | if these states drift into status/maturity language, preference becomes semantically noisy |
 | `T019` | `Qubit-state c / c[q] / Кубитная c` | `Qubit-state c`; `c[q]`; `Кубитная c`; `c in q-state` | Quantum c; quantum consciousness; quantum AI entity; physical quantum computation | derived state of `c` for controlled non-collapse under uncertainty inside `c = a + b` | quantum-language drift can turn a bounded state-structure concept into a false hardware or mystification claim |
+| `T020` | `initial ANCHOR = origin of the line` | `ANCHOR as origin of the line`; `origin of the line` | acting `a`; source of mandates; system prompt; immutable personality core; the origin record taken for the whole origin | the line's originating reference and orientation, including its accountable relation to `a` and its initial boundaries of authority; its documented provenance, the origin record, is preserved under witness while interpretation may change; it is not an acting principal and issues no mandates. In authority contexts, use `a` for the accountable actor and `initial ANCHOR` for the origin. | if the origin is read as an actor, authority appears to come from a text; if `a` is read as a record, accountability has no bearer |
+| `T021` | `c-line` | `line`; `line of c` | session; model instance; agent run; checkpoint | the continuing historical line of one `c` across replaceable components of `b` | if the line is equated with one run or one model, replay and fork pass as continuation |
+| `T022` | `candidate c` | `c-formation candidate` | confirmed `TAP-C`; conformant `c`; the TAP class `TAP-CANDIDATE-C` without its minimum evidence | an anchored, governed line in formation whose class conformance is not established | if candidate and conformant are merged, narrative use of `c` reads as claimed conformance |
+| `T023` | `mandate` | `scoped mandate`; `delegated mandate` | motive; standing of `c`; initial ANCHOR | scoped permission for a defined action domain, granted or revoked through the governing authority route by `a` or another expressly authorised principal acting within scope | if mandate is confused with motive or runs on by inertia, action outlives its authority |
+| `T024` | `self-directed cognition` | `endogenous cognition`; `own inquiry` | self-directed growth; independent disposal of resources; timer or scheduler activity | inquiry that the line opens, holds, revises and closes within its bounded allocation of cognitive time; it creates no authority | if cognition is merged with growth or resource independence, the proposed criterion for assessing an active c-line reads as an autarky claim |
 
 ## 3. Controlled language notes
 
 - use `entity` for `c` in corpus-facing prose when precision matters
+- `entity` names the `c` layer (primary protocol; Entity vs. Profile v0.1.1, section 4.8); classifying a running system as an entity requires the custodial criterion of Entity vs. Profile, section 5.1, with evidence; until then use `candidate c` (`T022`) or profile language (Living Corpus: OP-014, OP-024)
 - do not silently replace `c` with `agent`
 - do not use `AGI` in the mainstream monolithic sense without explicit clarification
 - use `narrative companion` for the book layer
 - use `runtime proof-of-possibility` or `executable operational skeleton` for `ester-clean-code`
 - use `reserved territory` only where explicit non-mature boundary is intended
 - use `Qubit-state c`, `c[q]`, or `Кубитная c` for the derived maturity-state concept; do not collapse it into quantum consciousness or physical quantum computation
+- Use `a` for the accountable acting anchor (`T003`, TAP v1.0 §6.6) and `initial ANCHOR` for the line's origin and orientation (`T020`, World Intelligence v1.0.0 Chapter 5). `ANCHOR_REVOKED` is the governed-binding rejection in C-Calculus v0.1, document 02. Scoped mandates are granted or revoked through the governing authority route by `a` or another expressly authorised principal acting within scope. The initial ANCHOR supplies origin and orientation.
+- keep `self-directed cognition` apart from self-directed growth and from independent disposal of resources; those remain separate questions
 
 ## 4. Anti-drift rule
 

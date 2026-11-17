@@ -261,6 +261,15 @@
       "artifact_role": "precedence / resolution discipline",
       "reference_state": "control-surface",
       "notes": "Precedence decides governing surface, not artifact registry state."
+    },
+    {
+      "id": "AID-028",
+      "artifact": "PACKAGE_INTAKE_AND_INTEGRATION",
+      "repo": "advanced-global-intelligence",
+      "current_path": "PACKAGE_INTAKE_AND_INTEGRATION.md",
+      "artifact_role": "package intake / integration discipline",
+      "reference_state": "control-surface",
+      "notes": "Intake classification precedes wider routing and does not by itself create doctrine."
     }
   ],
   "rename_move_supersession_rule": [
@@ -269,5 +278,46 @@
     "Old path references must not survive silently inside canonical surfaces.",
     "Superseded artifacts keep their ID and explicit state rather than vanishing by implication."
   ],
-  "fail_closed_rule": "If maintainers cannot determine whether a path change preserves the same artifact identity, treat it as unresolved until the registry and affected canonical surfaces are reviewed."
+  "fail_closed_rule": "If maintainers cannot determine whether a path change preserves the same artifact identity, treat it as unresolved until the registry and affected canonical surfaces are reviewed.",
+  "register_local_identifiers": {
+    "rule": "Identifiers of claims, open questions, objections, issues and failure records are local to the register that issues them.",
+    "rules": [
+      "A reference from outside a register gives the source and the original identifier.",
+      "Historical identifiers are not renumbered.",
+      "No additional corpus-wide register is created to unify them.",
+      "Before a new item is added, existing records are checked; where an existing record can take the clarification, it is updated."
+    ],
+    "registers": [
+      {
+        "register": "corpus claims",
+        "owner_surface": "CLAIMS_AND_EVIDENCE_MAP.md",
+        "id_pattern": "C01 onward"
+      },
+      {
+        "register": "open questions and non-claims",
+        "owner_surface": "OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md",
+        "id_pattern": "OQ01 onward"
+      },
+      {
+        "register": "objections",
+        "owner_surface": "OBJECTIONS_AND_REPLIES.md",
+        "id_pattern": "O1 onward"
+      },
+      {
+        "register": "hardening claim matrix and red-team register",
+        "owner_surface": "c Hardening Pack v0.1, DOI 10.5281/zenodo.20348436",
+        "id_pattern": "C-001 onward; RT-001 onward"
+      },
+      {
+        "register": "hardening open issues and contradictions",
+        "owner_surface": "c Hardening Pack v0.1, AGI-integrated package, DOI 10.5281/zenodo.20532198",
+        "id_pattern": "HOI-001 onward; HCR-001 onward; profile-local open-issue identifiers"
+      },
+      {
+        "register": "living corpus",
+        "owner_surface": "https://ivankotov.eu/corpus/",
+        "id_pattern": "A001 onward; OP-001 onward; FNR-001 onward"
+      }
+    ]
+  }
 }

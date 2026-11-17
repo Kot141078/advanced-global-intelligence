@@ -295,6 +295,83 @@
       ],
       "short_meaning": "derived state of c for controlled non-collapse under uncertainty inside c = a + b",
       "drift_risk": "quantum-language drift can turn a bounded state-structure concept into a false hardware or mystification claim"
+    },
+    {
+      "id": "T020",
+      "canonical_term": "initial ANCHOR = origin of the line",
+      "allowed_aliases": [
+        "ANCHOR as origin of the line",
+        "origin of the line"
+      ],
+      "avoid": [
+        "acting a",
+        "source of mandates",
+        "system prompt",
+        "immutable personality core",
+        "the origin record taken for the whole origin"
+      ],
+      "short_meaning": "the line's originating reference and orientation, including its accountable relation to a and its initial boundaries of authority; its documented provenance, the origin record, is preserved under witness while interpretation may change; it is not an acting principal and issues no mandates. In authority contexts, use a for the accountable actor and initial ANCHOR for the origin.",
+      "drift_risk": "if the origin is read as an actor, authority appears to come from a text; if a is read as a record, accountability has no bearer"
+    },
+    {
+      "id": "T021",
+      "canonical_term": "c-line",
+      "allowed_aliases": [
+        "line",
+        "line of c"
+      ],
+      "avoid": [
+        "session",
+        "model instance",
+        "agent run",
+        "checkpoint"
+      ],
+      "short_meaning": "the continuing historical line of one c across replaceable components of b",
+      "drift_risk": "if the line is equated with one run or one model, replay and fork pass as continuation"
+    },
+    {
+      "id": "T022",
+      "canonical_term": "candidate c",
+      "allowed_aliases": [
+        "c-formation candidate"
+      ],
+      "avoid": [
+        "confirmed TAP-C",
+        "conformant c",
+        "the TAP class TAP-CANDIDATE-C without its minimum evidence"
+      ],
+      "short_meaning": "an anchored, governed line in formation whose class conformance is not established",
+      "drift_risk": "if candidate and conformant are merged, narrative use of c reads as claimed conformance"
+    },
+    {
+      "id": "T023",
+      "canonical_term": "mandate",
+      "allowed_aliases": [
+        "scoped mandate",
+        "delegated mandate"
+      ],
+      "avoid": [
+        "motive",
+        "standing of c",
+        "initial ANCHOR"
+      ],
+      "short_meaning": "scoped permission for a defined action domain, granted or revoked through the governing authority route by a or another expressly authorised principal acting within scope",
+      "drift_risk": "if mandate is confused with motive or runs on by inertia, action outlives its authority"
+    },
+    {
+      "id": "T024",
+      "canonical_term": "self-directed cognition",
+      "allowed_aliases": [
+        "endogenous cognition",
+        "own inquiry"
+      ],
+      "avoid": [
+        "self-directed growth",
+        "independent disposal of resources",
+        "timer or scheduler activity"
+      ],
+      "short_meaning": "inquiry that the line opens, holds, revises and closes within its bounded allocation of cognitive time; it creates no authority",
+      "drift_risk": "if cognition is merged with growth or resource independence, the proposed criterion for assessing an active c-line reads as an autarky claim"
     }
   ]
 }

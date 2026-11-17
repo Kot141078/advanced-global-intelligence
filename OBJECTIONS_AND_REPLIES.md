@@ -7,15 +7,15 @@ It is a public reasoning surface, not a FAQ page or a comment-thread transcript.
 
 ## O1. "Isn't this just another agent?"
 
-**Reply:** No. `c` is the continuity-bearing entity layer; agents are bounded runtime processes under it.
+**Reply:** No. `c` is the continuity-bearing entity layer; agents are bounded runtime processes under it. The distinction is one of class requirements, not of a name: a system called an agent that meets all requirements of the class is assessed like any other candidate (TAP v1.0 Interpretive Addendum A, DOI 10.5281/zenodo.24265163, section 4). Self-directed cognition is not exclusive to `c`; where self-directed motivational formation is claimed, MOT-c v0.1 section 15.3 requires bounded self-directed cognitive time. Novelty of a mechanism and conformance to the class are separate questions. Evidence status: the reviewed sources do not demonstrate an effect of `c` beyond a strong conventional baseline. Shared Open Worlds for Human-AI Dyads v0.2 (DOI 10.5281/zenodo.22542470), sections 11 and 18, proposes the controls and reports no execution of that design. Living Corpus OP-001 remains PENDING EVIDENCE after first-pass non-confirmation.
 **Why it matters:** Authority, stopping power, and continuity cannot be delegated to worker processes.
-**Read next:** `CANONICAL_DISTINCTIONS.md`; `ester-clean-code/MACHINE_ENTRY.md`
+**Read next:** `CANONICAL_DISTINCTIONS.md`; `ester-clean-code/MACHINE_ENTRY.md`; `publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0/`; https://ivankotov.eu/corpus/open-problems/
 
 ## O2. "Isn't c just model plus memory?"
 
-**Reply:** No. `c` is not reducible to one model and a memory store; anchor, policy, boundary, review, and continuity conditions are part of the corpus position.
+**Reply:** No. `c` is not reducible to one model and a memory store; anchor, policy, boundary, review, and continuity conditions are part of the corpus position. The comparison controls for more than memory. Shared Open Worlds for Human-AI Dyads v0.2 (DOI 10.5281/zenodo.22542470), sections 11 and 18, gives the conventional arm equivalent permitted inputs, current permissions, ordinary controls, tools and budget. Its B1 arm matches the representation of permitted history and transitions where an actual procedural difference remains. MOT-c v0.1 section 15.3 adds that where all computation exists only after an external task, a self-formed motive is operationally decorative; TAP v1.0 Interpretive Addendum A (DOI 10.5281/zenodo.24265163) proposes the corresponding requirement for an active c-line. Evidence status: the cited preprint reports no execution of that design. Living Corpus OP-001 remains PENDING EVIDENCE after first-pass non-confirmation. This reply states architecture and requirements, with comparative effect pending evidence.
 **Why it matters:** Reducing `c` to model plus memory destroys the operational layers that make accountability possible.
-**Read next:** `CORPUS_PRIMER.json`; `MASTER_ENTRY.md`
+**Read next:** `CORPUS_PRIMER.json`; `MASTER_ENTRY.md`; `publications/motivational-formation-c-v0-1/`; `publications/shared-open-worlds-human-ai-dyads-v0-2/`
 
 ## O3. "If long context exists, why all this architecture?"
 
