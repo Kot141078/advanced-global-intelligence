@@ -66,7 +66,25 @@ Artifact ID is stable; path may change; canonical ownership and citation rules s
 
 If maintainers cannot determine whether a path change preserves the same artifact identity, treat it as unresolved until the registry and affected canonical surfaces are reviewed.
 
-## 7. Read next
+## 7. Register-local identifiers
+
+Identifiers of claims, open questions, objections, issues and failure records are local to the register that issues them. The same or a similar string in two registers does not denote the same item: `C03` in `CLAIMS_AND_EVIDENCE_MAP.md` and `C-003` in the hardening claim matrix are unrelated.
+
+- a reference from outside a register gives the source and the original identifier, for example `CLAIMS_AND_EVIDENCE_MAP.md: C03`, `c Hardening Pack v0.1 (DOI 10.5281/zenodo.20348436): C-002`, `Living Corpus: OP-001`
+- historical identifiers are not renumbered
+- no additional corpus-wide register is created to unify them
+- before a new item is added, existing records are checked; where an existing record can take the clarification, it is updated
+
+| Register | Owner surface | Identifier pattern |
+|---|---|---|
+| corpus claims | `CLAIMS_AND_EVIDENCE_MAP.md` | C01 onward |
+| open questions and non-claims | `OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md` | OQ01 onward |
+| objections | `OBJECTIONS_AND_REPLIES.md` | O1 onward |
+| hardening claim matrix and red-team register | c Hardening Pack v0.1, DOI 10.5281/zenodo.20348436 | C-001 onward; RT-001 onward |
+| hardening open issues and contradictions | c Hardening Pack v0.1, AGI-integrated package, DOI 10.5281/zenodo.20532198 | HOI-001 onward; HCR-001 onward; profile-local open-issue identifiers |
+| living corpus | https://ivankotov.eu/corpus/ | A001 onward; OP-001 onward; FNR-001 onward |
+
+## 8. Read next
 
 - `CITATION_AND_VERIFICATION.md`
 - `CLAIMS_AND_EVIDENCE_MAP.md`
