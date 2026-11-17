@@ -8,6 +8,12 @@ Open `protocols/dea/README.md`. It is the shortest canonical entry to DEA as the
 If you need the layer relationship first, open `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`.
 If you need the shortest interpretive phrase for `c`, open `official/C_AS_TEMPORAL_ENTITIES_OF_AI_PRESENCE.md`.
 
+## c-class terminology and assessment
+
+Read `TERMINOLOGY_AND_ALIAS_POLICY.md` (T020–T024), `OBJECTIONS_AND_REPLIES.md` (O1/O2), `CLAIMS_AND_EVIDENCE_MAP.md` (c-class navigation), and `ARTIFACT_ID_AND_REFERENCE_POLICY.md` (section 7, register-local IDs). The primary sources, with distinct roles, are TAP v1.0, proposed Interpretive Addendum A, MOT-c v0.1 and the narrower [Entity vs. Profile publication](official/entity-vs-profile/v0_1_1/README.md) (DOI 10.5281/zenodo.21204415). [Shared Open Worlds v0.2](publications/shared-open-worlds-human-ai-dyads-v0-2/README.md) proposes matched controls, not empirical results.
+
+Machine entry: `MACHINE_ENTRY.md`, `CORPUS_PRIMER.json`, `REPO_INDEX.json`, `llms.txt`. The reading route is not a complete TAP-C conformance test.
+
 ## Experience path in one view
 
 ```text

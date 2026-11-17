@@ -123,6 +123,48 @@
   "package_intake_and_integration_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/PACKAGE_INTAKE_AND_INTEGRATION.md",
   "package_intake_and_integration_json_raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/PACKAGE_INTAKE_AND_INTEGRATION.json",
   "routing_rule": "Public/stable corpus entry and doctrine surfaces route first. Temporal/local process surfaces remain secondary and should not be treated as the main public entry path.",
+  "c_class_navigation": {
+    "status": "control_layer_navigation_only",
+    "human_entry": "START_HERE.md",
+    "machine_entry": "MACHINE_ENTRY.md",
+    "llm_entry": "llms.txt",
+    "structured_route": "CORPUS_PRIMER.json",
+    "terminology": {
+      "markdown": "TERMINOLOGY_AND_ALIAS_POLICY.md",
+      "json": "TERMINOLOGY_AND_ALIAS_POLICY.json",
+      "term_ids": [
+        "T020",
+        "T021",
+        "T022",
+        "T023",
+        "T024"
+      ]
+    },
+    "objections": {
+      "markdown": "OBJECTIONS_AND_REPLIES.md",
+      "json": "OBJECTIONS_AND_REPLIES.json",
+      "markdown_ids": [
+        "O1",
+        "O2"
+      ],
+      "json_ids": [
+        "agent_confusion",
+        "model_memory_reduction"
+      ]
+    },
+    "evidence": {
+      "markdown": "CLAIMS_AND_EVIDENCE_MAP.md",
+      "json": "CLAIMS_AND_EVIDENCE_MAP.json",
+      "boundary": "c-class assessment section Markdown-only; JSON remains C01-C18"
+    },
+    "identifiers": {
+      "markdown": "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+      "json": "ARTIFACT_ID_AND_REFERENCE_POLICY.json",
+      "json_key": "register_local_identifiers",
+      "markdown_section": "7. Register-local identifiers"
+    },
+    "claim_ceiling": "Navigation only; no TAP-C conformance, same-c identity, authority, or proven comparative effect."
+  },
   "architecture_notes": [
     "By default, c orchestrates agents; agents do not define c.",
     "Canonical note: architecture/ENTITY_GOVERNS_AGENTS.md",
@@ -220,7 +262,8 @@
     "OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.md",
     "OPEN_QUESTIONS_AND_EXPLICIT_NON_CLAIMS.json",
     "AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.md",
-    "AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.json"
+    "AUDIENCE_PROFILES_AND_MINIMAL_READING_PATHS.json",
+    "llms.txt"
   ],
   "stable_doctrine_files": [
     "CHANGE_CONTROL_AND_SYNC.md",

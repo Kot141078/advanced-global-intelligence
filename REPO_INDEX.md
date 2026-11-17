@@ -2,6 +2,16 @@
 
 This index exists because some tools cannot reliably parse GitHub UI/JS.
 
+## c-class assessment reading path
+
+- [Terminology](TERMINOLOGY_AND_ALIAS_POLICY.md): T020–T024 distinguish origin, candidate, mandate and proposed endogenous cognition.
+- [Objections](OBJECTIONS_AND_REPLIES.md): O1/O2 preserve a strong conventional baseline.
+- [Claims/evidence](CLAIMS_AND_EVIDENCE_MAP.md): c-class assessment section, not the c conformance map named in TAP v1.0 §22. Its JSON companion still contains C01–C18.
+- [Identifiers](ARTIFACT_ID_AND_REFERENCE_POLICY.md), section 7: source-qualified register-local IDs.
+- Primary sources, distinct roles: [TAP v1.0](publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.md); [Addendum A](publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0/README.md) (proposed); [MOT-c](publications/motivational-formation-c-v0-1/README.md); [Entity vs. Profile](official/entity-vs-profile/v0_1_1/README.md) (DOI 10.5281/zenodo.21204415); [Shared Open Worlds v0.2](publications/shared-open-worlds-human-ai-dyads-v0-2/README.md) is a proposed comparison.
+
+Machine entry: `MACHINE_ENTRY.md`, `CORPUS_PRIMER.json`, `REPO_INDEX.json`, `llms.txt`. Reading these sources does not certify a running entity, identity, authority or a measured class effect.
+
 ## Canonical entry
 
 - **Continuity Instrument (CI) v1.0.0** — [published package, seven PDFs, original sources, and exact ZIP](publications/continuity-instrument-v1-0-0/README.md); [version DOI](https://doi.org/10.5281/zenodo.23651305); English academic edition `academic-pdf-2` with Russian supplement. Deterministic JSON-to-profile reference transformation; empirical qualification remains `NOT_ESTABLISHED`. Component-specific rights apply.

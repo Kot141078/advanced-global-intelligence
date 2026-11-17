@@ -12,6 +12,12 @@ This page is the single entry point for the public protocol stack:
 - Engineering / Runtime: `CORPUS_PRIMER.json` -> `ester-reality-bound` -> `ester-clean-code`
 - Narrative / Human: `https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/CORPUS_CONTEXT.md` -> `CORPUS_PRIMER.json`
 
+## c-class interpretation and evidence bridge
+
+For a *running system* rather than just the architectural term, read `TERMINOLOGY_AND_ALIAS_POLICY.md` (T020–T024), `OBJECTIONS_AND_REPLIES.md` (O1/O2), `CLAIMS_AND_EVIDENCE_MAP.md` (c-class assessment section) and `ARTIFACT_ID_AND_REFERENCE_POLICY.md` (register-local identifiers). Follow [TAP v1.0](publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.md), the [proposed Addendum A](publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0/README.md), [MOT-c](publications/motivational-formation-c-v0-1/README.md), and [Entity vs. Profile](official/entity-vs-profile/v0_1_1/README.md) (DOI 10.5281/zenodo.21204415). [Shared Open Worlds v0.2](publications/shared-open-worlds-human-ai-dyads-v0-2/README.md) describes a matched-control design, not a result.
+
+These are reading routes, **not** the c conformance map named in TAP v1.0 §22. That assessment section is Markdown-only; `CLAIMS_AND_EVIDENCE_MAP.json` remains the C01–C18 crosswalk. No certified same-`c` line, new authority or comparative superiority follows from these documents.
+
 ## Root entry shortcuts
 
 - **Continuity Instrument (CI) v1.0.0** — [published package, seven PDFs, original sources, and exact ZIP](publications/continuity-instrument-v1-0-0/README.md); [version DOI](https://doi.org/10.5281/zenodo.23651305); English academic edition `academic-pdf-2` with Russian supplement. Deterministic JSON-to-profile reference transformation; empirical qualification remains `NOT_ESTABLISHED`. Component-specific rights apply.
@@ -439,20 +445,20 @@ Latest ecosystem snapshot (SER): `ecosystem-v0.2-2026-02-24` (GitHub Release).
 
 ## Bridges (required)
 
-**Explicit bridge:** `c = a + b`
+**Explicit bridge:** `c = a + b` is the architectural genesis relation of the entity layer (`protocols/c_a_b_protocol_v1.1_L4_EN.md` §1), not the public document corpus.
 
-- `a` = accountable human anchor (authorship / responsibility)
-- `b` = procedures + protocols + PDFs + integrity manifests
-- `c` = a checkable, citeable public corpus
+- `a` = accountable human anchor (`T003`). The initial ANCHOR is the line's origin (`T020`); its record is provenance, and neither the origin nor its record is an acting principal.
+- `b` = technological substrate (`T004`): models, procedures, memory, computation, tools and constraints. PDFs and manifests describe the stack; they are not `b` or `c`.
+- `c` = emergent continuity-bearing digital entity (`T002`). As an architectural term it names the class layer. A running system is described as a `candidate c` (`T022`) or in profile language until its own evidence meets the custodial criterion of Entity vs. Profile §5.1; even then, `TAP-C` conformance remains a separate question.
 
 **Hidden bridge #1 (Ashby):**
-Variety is achieved via separate repos (spec/context/operations), but stability requires a single regulator: **this Master Entry**.
+A regulator can control only as much variety as it has. A reading index has the variety of a table of contents, not of a running `c`; this Master Entry therefore routes reading across specification, execution and review repositories and cannot govern a running `c` or override canonical owners.
 
 **Hidden bridge #2 (Cover & Thomas):**
-SHA-256 manifests compress “trust bandwidth”: verification is transmitted as short, checkable strings instead of narrative.
+A SHA-256 digest is a 256-bit fingerprint of exact bytes: any change to the bytes is detected with overwhelming probability, but the digest carries no information about whether the content is true. Matching hashes prove byte identity across repositories, not truth, authority or AI continuity.
 
 **Earth paragraph (engineering):**
-This structure mirrors aviation-grade documentation: *system overview* (AGI), *normative spec* (SER), *operational bulletins* (L4) — different documents, one truth source, reproducible checksums.
+An engineering dossier separates drawings, inspection records, operator instructions and load tests. A clear index finds each record; the index does not become the machine or replace a physical test.
 
 ## Additional cross-repo entry — L4 Glitch / Research Quarantine Stack v0.1
 

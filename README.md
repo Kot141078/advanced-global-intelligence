@@ -15,7 +15,16 @@ physical constraints (L4), economic exposure, time, and accountable human anchor
 
 This repository is the corpus-level entry for the public AGI / SER / L4 / clean-code / book stack.
 
-Start here:
+### c-class reading route (control-layer navigation)
+
+- [Terminology](TERMINOLOGY_AND_ALIAS_POLICY.md), T020–T024: distinguish the initial ANCHOR, accountable `a`, candidate `c`, mandate, and proposed self-directed cognition.
+- [Objections](OBJECTIONS_AND_REPLIES.md), O1/O2: a strong conventional persistent-agent baseline is not deliberately weakened; no c-specific comparative benefit has been measured in the cited study.
+- [Claims/evidence map](CLAIMS_AND_EVIDENCE_MAP.md), c-class assessment section: source and test navigation, **not** the c conformance map named in TAP v1.0 §22.
+- [Artifact IDs](ARTIFACT_ID_AND_REFERENCE_POLICY.md), section 7: register-local identifiers, qualified issuing registries, and no claim-ID/artifact-ID substitution.
+
+Machine route: [MACHINE_ENTRY.md](MACHINE_ENTRY.md), [CORPUS_PRIMER.json](CORPUS_PRIMER.json), [REPO_INDEX.json](REPO_INDEX.json), [llms.txt](llms.txt). `CLAIMS_AND_EVIDENCE_MAP.json` still maps C01–C18; the c-class assessment section is Markdown only, not a new JSON conformance schema. None of these reading paths certifies a running `c`, same-`c` continuity, authority, or a new empirical class effect.
+
+### Start here
 
 - human entry: `MASTER_ENTRY.md`
 - machine entry: `MACHINE_ENTRY.md`

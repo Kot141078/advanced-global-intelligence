@@ -23,6 +23,15 @@ ecosystem framing / canonical corpus entry / public research stack for `c = a + 
 - not a replacement for the SER normative core
 - not a replacement for the narrative companion
 
+## c-class interpretation route (merged PR #19)
+
+- machine_order: `CORPUS_PRIMER.json` -> `TERMINOLOGY_AND_ALIAS_POLICY.json` (T020–T024) -> `OBJECTIONS_AND_REPLIES.json` (`agent_confusion`, `model_memory_reduction` = Markdown O1/O2)
+- evidence_source: `CLAIMS_AND_EVIDENCE_MAP.md`, section "c-class assessment: where requirements, tests and evidence are"; `CLAIMS_AND_EVIDENCE_MAP.json` remains C01–C18 and does not mirror that section
+- identifier_source: `ARTIFACT_ID_AND_REFERENCE_POLICY.json` (`register_local_identifiers`, Markdown section 7; IDs belong to their issuing registers)
+- primary_hops: `publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.md`; `publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0/README.md` (proposed); `publications/motivational-formation-c-v0-1/README.md`; `official/entity-vs-profile/v0_1_1/README.md` (DOI 10.5281/zenodo.21204415); `publications/shared-open-worlds-human-ai-dyads-v0-2/README.md` (unexecuted comparison)
+- claim_ceiling: documentation navigation only; no complete TAP-C conformance, same-`c` identity, autonomous authority or measured superiority
+- snapshot_rule: `CURRENT_CORPUS_MAP.json` and `STACK_LOCK_2026-04-12.json` retain their dated observations
+
 ## Canonical next hop(s)
 
 - Research / Normative:
@@ -541,7 +550,9 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - `CORPUS_PRIMER.json`
 - `STACK_LOCK_2026-04-12.json` (historical snapshot)
 - `CANONICAL_DISTINCTIONS.md`
+- `TERMINOLOGY_AND_ALIAS_POLICY.json`
 - `OBJECTIONS_AND_REPLIES.md`
+- `OBJECTIONS_AND_REPLIES.json`
 - `CITATION_AND_VERIFICATION.md`
 - `CLAIMS_AND_EVIDENCE_MAP.md`
 - `STATUS_AND_MATURITY_MAP.md`
