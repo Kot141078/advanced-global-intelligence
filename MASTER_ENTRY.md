@@ -12,6 +12,12 @@ This page is the single entry point for the public protocol stack:
 - Engineering / Runtime: `CORPUS_PRIMER.json` -> `ester-reality-bound` -> `ester-clean-code`
 - Narrative / Human: `https://github.com/Kot141078/qubit-of-hope-volume-i/blob/main/CORPUS_CONTEXT.md` -> `CORPUS_PRIMER.json`
 
+## c-class interpretation and evidence bridge
+
+For a *running system* rather than just the architectural term, read `TERMINOLOGY_AND_ALIAS_POLICY.md` (T020–T024), `OBJECTIONS_AND_REPLIES.md` (O1/O2), `CLAIMS_AND_EVIDENCE_MAP.md` (V4 source navigation) and `ARTIFACT_ID_AND_REFERENCE_POLICY.md` (register-local identifiers). Follow [TAP v1.0](publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.md), the [proposed Addendum A](publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0/README.md), [MOT-c](publications/motivational-formation-c-v0-1/README.md), and [Entity vs. Profile](official/entity-vs-profile/v0_1_1/README.md) (DOI 10.5281/zenodo.21204415). [Shared Open Worlds v0.2](publications/shared-open-worlds-human-ai-dyads-v0-2/README.md) describes a matched-control design, not a result.
+
+These are reading routes, **not** the complete c-class conformance map named in TAP v1.0 §22. The V4 assessment route is Markdown-only; `CLAIMS_AND_EVIDENCE_MAP.json` remains the C01–C18 crosswalk. No certified same-`c` line, new authority or comparative superiority follows from these documents.
+
 ## Root entry shortcuts
 
 - **Continuity Instrument (CI) v1.0.0** — [published package, seven PDFs, original sources, and exact ZIP](publications/continuity-instrument-v1-0-0/README.md); [version DOI](https://doi.org/10.5281/zenodo.23651305); English academic edition `academic-pdf-2` with Russian supplement. Deterministic JSON-to-profile reference transformation; empirical qualification remains `NOT_ESTABLISHED`. Component-specific rights apply.
@@ -439,20 +445,20 @@ Latest ecosystem snapshot (SER): `ecosystem-v0.2-2026-02-24` (GitHub Release).
 
 ## Bridges (required)
 
-**Explicit bridge:** `c = a + b`
+**Explicit bridge:** `c = a + b` denotes the proposed continuing AI relation, not the public document corpus.
 
-- `a` = accountable human anchor (authorship / responsibility)
-- `b` = procedures + protocols + PDFs + integrity manifests
-- `c` = a checkable, citeable public corpus
+- `a` = accountable human anchor; the initial ANCHOR record is provenance, not an acting principal.
+- `b` = technological substrate (models, memory, procedures, tools and constraints); PDFs and manifests describe it, not its identity.
+- `c` = intended continuity-bearing entity relation under governance and L4; a running system requires its own evidence.
 
 **Hidden bridge #1 (Ashby):**
-Variety is achieved via separate repos (spec/context/operations), but stability requires a single regulator: **this Master Entry**.
+Distinct repositories describe distinct specification, execution and review responsibilities. This Master Entry routes reading; it cannot govern a running `c` or override canonical owners.
 
 **Hidden bridge #2 (Cover & Thomas):**
-SHA-256 manifests compress “trust bandwidth”: verification is transmitted as short, checkable strings instead of narrative.
+Hash manifests make source bytes reviewable across repository boundaries. Matching hashes do not prove a claim true, grant authority, or certify AI continuity.
 
 **Earth paragraph (engineering):**
-This structure mirrors aviation-grade documentation: *system overview* (AGI), *normative spec* (SER), *operational bulletins* (L4) — different documents, one truth source, reproducible checksums.
+An engineering dossier separates drawings, inspection records, operator instructions and load tests. A clear index finds each record; the index does not become the machine or replace a physical test.
 
 ## Additional cross-repo entry — L4 Glitch / Research Quarantine Stack v0.1
 

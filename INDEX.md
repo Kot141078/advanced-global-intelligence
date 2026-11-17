@@ -7,6 +7,7 @@ Start here:
 - **Continuity Instrument (CI) v1.0.0** — [published package, seven PDFs, original sources, and exact ZIP](publications/continuity-instrument-v1-0-0/README.md); [version DOI](https://doi.org/10.5281/zenodo.23651305); English academic edition `academic-pdf-2` with Russian supplement. Deterministic JSON-to-profile reference transformation; empirical qualification remains `NOT_ESTABLISHED`. Component-specific rights apply.
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
+- c-class reading route (T020–T024, O1/O2, V4): `TERMINOLOGY_AND_ALIAS_POLICY.md` -> `OBJECTIONS_AND_REPLIES.md` -> `CLAIMS_AND_EVIDENCE_MAP.md` -> `ARTIFACT_ID_AND_REFERENCE_POLICY.md`; no automatic entity certification or c-specific effect claim.
 - Boundaries of Machine Interpretation v0.2: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/` | DOI: <https://doi.org/10.5281/zenodo.21841445> | six typed units = four operational boundaries + one reflexive definition + one temporal process premise.
 - Topology map: `official/PROTOCOL_TOPOLOGY_ONEPAGE_EN.md`
 - **Kotov Principle of L4-Bound Experience** — Authorial Principle / Architectural Thesis on scarcity inversion in long-lived AI systems: as cognitive generation becomes cheap, long-term value shifts from generative capacity to L4-bound temporal continuity.

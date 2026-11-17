@@ -55,6 +55,7 @@
       "advanced-global-intelligence/MASTER_ENTRY.md",
       "advanced-global-intelligence/README.md",
       "advanced-global-intelligence/CANONICAL_DISTINCTIONS.md",
+      "advanced-global-intelligence/TERMINOLOGY_AND_ALIAS_POLICY.md",
       "advanced-global-intelligence/OBJECTIONS_AND_REPLIES.md",
       "advanced-global-intelligence/CITATION_AND_VERIFICATION.md",
       "advanced-global-intelligence/CLAIMS_AND_EVIDENCE_MAP.md",
@@ -73,9 +74,12 @@
       "advanced-global-intelligence/CORPUS_PRIMER.json",
       "advanced-global-intelligence/STACK_LOCK_2026-04-12.json",
       "advanced-global-intelligence/CANONICAL_DISTINCTIONS.json",
+      "advanced-global-intelligence/TERMINOLOGY_AND_ALIAS_POLICY.json",
       "advanced-global-intelligence/OBJECTIONS_AND_REPLIES.json",
+      "advanced-global-intelligence/ARTIFACT_ID_AND_REFERENCE_POLICY.json",
       "advanced-global-intelligence/CITATION_AND_VERIFICATION.json",
       "advanced-global-intelligence/CLAIMS_AND_EVIDENCE_MAP.json",
+      "advanced-global-intelligence/CLAIMS_AND_EVIDENCE_MAP.md",
       "advanced-global-intelligence/STATUS_AND_MATURITY_MAP.json",
       "advanced-global-intelligence/MACHINE_ENTRY.md",
       "advanced-global-intelligence/REPO_INDEX.json",
@@ -83,6 +87,52 @@
       "sovereign-entity-recursion/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json",
       "qubit-of-hope-volume-i/MACHINE_ENTRY.md"
     ]
+  },
+  "c_class_navigation": {
+    "status": "control_layer_navigation_only",
+    "introduced_by_pr": 19,
+    "initial_merge_commit": "7bcbd10bc5bcdf3b1cec62ef76172bba160d251a",
+    "terminology": {
+      "markdown": "TERMINOLOGY_AND_ALIAS_POLICY.md",
+      "json": "TERMINOLOGY_AND_ALIAS_POLICY.json",
+      "term_ids": [
+        "T020",
+        "T021",
+        "T022",
+        "T023",
+        "T024"
+      ]
+    },
+    "objections": {
+      "markdown": "OBJECTIONS_AND_REPLIES.md",
+      "json": "OBJECTIONS_AND_REPLIES.json",
+      "items": [
+        "O1",
+        "O2"
+      ]
+    },
+    "evidence": {
+      "markdown": "CLAIMS_AND_EVIDENCE_MAP.md",
+      "section": "c-class assessment: where requirements, tests and evidence are",
+      "companion_json": "CLAIMS_AND_EVIDENCE_MAP.json",
+      "json_scope": "existing C01-C18 crosswalk; V4 route is in Markdown only"
+    },
+    "identifiers": {
+      "markdown": "ARTIFACT_ID_AND_REFERENCE_POLICY.md",
+      "json": "ARTIFACT_ID_AND_REFERENCE_POLICY.json",
+      "artifact_id": "AID-028",
+      "rule": "Register-local IDs require the issuing source."
+    },
+    "primary_sources": [
+      "publications/temporal-ai-presence-v1-0/release/Temporal_AI_Presence_Profile_v1_0.md",
+      "publications/temporal-ai-presence-v1-0/interpretive-addendum-a-v0-1-0/README.md",
+      "publications/motivational-formation-c-v0-1/README.md",
+      "official/entity-vs-profile/v0_1_1/README.md",
+      "publications/shared-open-worlds-human-ai-dyads-v0-2/README.md"
+    ],
+    "entity_vs_profile_doi": "https://doi.org/10.5281/zenodo.21204415",
+    "claim_ceiling": "No complete TAP-C standard, verified running entity, same-c identity, authority inheritance or c-specific measured effect.",
+    "historical_boundary": "CURRENT_CORPUS_MAP.json and STACK_LOCK_2026-04-12.json keep their dated source states."
   },
   "anti_confusion_surfaces": {
     "markdown": "CANONICAL_DISTINCTIONS.md",
