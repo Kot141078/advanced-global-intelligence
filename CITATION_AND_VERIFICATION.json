@@ -345,7 +345,32 @@
         "Read current wrapper CITATION.cff and PUBLICATION_RECORD.json for published identity; preparation-time metadata in package/ remains historical.",
         "Verify the exact archive and extracted mirror against SHA-256 values and byte lengths; GitHub-generated archives are different objects.",
         "Verify the seven PDF identities and 22 original source-file identities without executing CI code or replaying historical qualification attempts.",
-        "Keep component rights and publication status separate from empirical qualification."
+        "Keep component rights and publication status separate from empirical qualification.",
+        "Read CI v1.0.0 alongside Corrigendum 01; the supplement is separately identified and has no assigned Zenodo DOI at github_prepublication."
+      ],
+      "correction_supplement": "publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json"
+    },
+    {
+      "id": "continuity-instrument-v1-0-0-corrigendum-01",
+      "title": "Corrigendum 01 to Continuity Instrument (CI) v1.0.0: BACON → Beacon",
+      "package_root": "publications/continuity-instrument-v1-0-0-corrigendum-01/",
+      "publication_record": "publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json",
+      "sha256_manifest": "publications/continuity-instrument-v1-0-0-corrigendum-01/SHA256SUMS.txt",
+      "rights_file": "publications/continuity-instrument-v1-0-0-corrigendum-01/RIGHTS.md",
+      "doi": null,
+      "concept_doi": null,
+      "publication_date": null,
+      "release_status": "github_prepublication",
+      "zenodo_status": "not_yet_published",
+      "corrects_version_doi": "10.5281/zenodo.23651305",
+      "corrected_work_concept_doi": "10.5281/zenodo.23651304",
+      "beacon_reference_doi": "10.5281/zenodo.18933553",
+      "beacon_doi_role": "unresolved",
+      "verification_steps": [
+        "Read the sibling publication record and correction specification; do not use either original CI DOI or the Beacon reference DOI as the supplement DOI.",
+        "Verify supplement SHA256SUMS.txt independently of the unchanged original CI MIRROR_MANIFEST.json.",
+        "Preserve the original CI evidence ceiling; the correction supplies no CI-to-Beacon mapping, adapter or compatibility result.",
+        "Read RIGHTS.md: new text, metadata and maintenance tools are All Rights Reserved; copied material retains original component-specific rights."
       ]
     }
   ],

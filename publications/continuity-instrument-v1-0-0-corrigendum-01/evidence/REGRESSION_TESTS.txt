@@ -1,0 +1,77 @@
+PASS 17 files, 25 edits
+PASS corrected hash publications/continuity-instrument-v1-0-0/README.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/README.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/README.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json
+PASS valid JSON publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md
+PASS no void phrases in publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md
+PASS corrected hash publications/continuity-instrument-v1-0-0/index.html
+PASS residual BACON=1 in publications/continuity-instrument-v1-0-0/index.html
+PASS no void phrases in publications/continuity-instrument-v1-0-0/index.html
+PASS corrected hash publications/continuity-instrument-v1-0-0/publication.json
+PASS residual BACON=0 in publications/continuity-instrument-v1-0-0/publication.json
+PASS no void phrases in publications/continuity-instrument-v1-0-0/publication.json
+PASS valid JSON publications/continuity-instrument-v1-0-0/publication.json
+PASS meaning edits cite Beacon DOI or the adapter boundary
+PASS input untouched publications/continuity-instrument-v1-0-0/README.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt
+PASS input untouched publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json
+PASS input untouched publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md
+PASS input untouched publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md
+PASS input untouched publications/continuity-instrument-v1-0-0/index.html
+PASS input untouched publications/continuity-instrument-v1-0-0/publication.json
+PASS re-application refused
+PASS existing output refused
+PASS git apply --check advanced-global-intelligence.diff
+PASS git apply --check kot141078.github.io.diff
+SUMMARY pass=76 fail=0 skip=0

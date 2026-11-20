@@ -1,0 +1,84 @@
+{
+  "artifact": "CI_V1_0_0_CORRIGENDUM_01",
+  "purpose": "OWNER_FORM_PLAN_NOT_API_PAYLOAD",
+  "status": "GITHUB_PUBLICATION_CANDIDATE",
+  "zenodo_status": "NOT_YET_PUBLISHED",
+  "prepared_date": "2026-11-20",
+  "correction_date": "2026-11-19",
+  "corrigendum_doi": null,
+  "corrigendum_concept_doi": null,
+  "selected_route": "SEPARATE_CORRIGENDUM_PLUS_ORIGINAL_RECORD_NOTICE",
+  "sequence": [
+    "GITHUB_CANDIDATE",
+    "OWNER_ZENODO_PUBLICATION",
+    "ORIGINAL_RECORD_NOTICE_AND_SITE_UPDATE"
+  ],
+  "record_metadata_edit": {
+    "record_id": 23651305,
+    "record_url": "https://zenodo.org/records/23651305",
+    "version_doi": "10.5281/zenodo.23651305",
+    "concept_doi": "10.5281/zenodo.23651304",
+    "action": "Owner applies only the agreed description correction and notice after the separate corrigendum is published and verified. Deposited files and original component-rights fields remain unchanged.",
+    "description_file": "ZENODO_DESCRIPTION_CORRECTED.txt",
+    "description_sha256": "6a29856f7935ba380aa0719ab367c219e62b2e5eac19ff354d366c1bbcf24796",
+    "changes": [
+      "paragraph 3: 'BACON compatibility' -> 'Beacon compatibility'",
+      "append the self-contained correction note; add the actual separate-corrigendum link only after publication verification",
+      "preserve the existing paragraph explaining file finalization before DOI reservation, in its existing Description or Notes field without duplication"
+    ],
+    "verified_against_owner_screenshots": true,
+    "direct_live_api_verified": false,
+    "verification_note": "Compared with the complete description visible in the owner screenshots supplied on 19 November 2026. The extra DOI-preparation paragraph is preserved. Screenshots do not establish a machine-readable Description/Notes boundary or an unchanged later server revision.",
+    "execution_owner": "Ivan Kotov"
+  },
+  "corrigendum_record": {
+    "metadata": {
+      "title": "Corrigendum 01 to Continuity Instrument (CI) v1.0.0: the integration target \"BACON\" is Beacon",
+      "upload_type": "publication",
+      "publication_type": "technicalnote",
+      "creators": [
+        {
+          "name": "Kotov, Ivan",
+          "orcid": "0009-0009-6002-9845"
+        }
+      ],
+      "version": "1.0",
+      "publication_date": null,
+      "language": "eng",
+      "license": "All Rights Reserved",
+      "rights_statement": "Copyright © 2026 Ivan Kotov. All rights reserved. No license grant.",
+      "rights_scope": "New corrigendum text, correction metadata and maintenance tools including tools/ and build/. Copied source snapshots, historical evidence and corrected copies retain their original component rights; see RIGHTS.md.",
+      "keywords": [
+        "corrigendum",
+        "Continuity Instrument",
+        "Beacon",
+        "recognition profile",
+        "long-lived AI",
+        "c=a+b"
+      ],
+      "description": "Text corrigendum to Continuity Instrument (CI) v1.0.0 (version DOI 10.5281/zenodo.23651305). The future integration target written \"BACON\" in 31 uppercase occurrences across 17 bound text files is Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553, with version/concept role unresolved). Nine edits revise boundary statements to identify the published referent; statements that no public canonical definition had been found are withdrawn. CI v1.0.0 still provides no CI-to-Beacon mapping, adapter or compatibility result. The correction leaves the implementation, schemas, tests, evidence status, claim ceilings and original component rights unchanged. The separate supplement preserves predecessor bytes and supplies the exact correction specification, reviewed corrected copies and maintenance tooling. It does not replace the CI v1.0.0 deposit or frozen mirror.",
+      "related_identifiers": [
+        {
+          "identifier": "10.5281/zenodo.23651305",
+          "relation": "isSupplementTo",
+          "scheme": "doi"
+        },
+        {
+          "identifier": "10.5281/zenodo.18933553",
+          "relation": "references",
+          "scheme": "doi"
+        }
+      ]
+    },
+    "submission_note": "The owner creates a separate record, supplies its assigned DOI and chooses the actual publication date. Then finalize the DOI-bearing Markdown and academic PDF, assembled package and checksums. The owner uploads the final individual files and publishes after Preview verification. The candidate has no assigned corrigendum DOI and is not a new CI version.",
+    "correction_spec_sha256": "9ac75661c364d139c8f4c2f3656a285d63fa89d6e34aac6786b4d72ad6e065dd"
+  },
+  "preservation": {
+    "frozen_ci_mirror_path": "publications/continuity-instrument-v1-0-0/",
+    "corrigendum_sibling_path": "publications/continuity-instrument-v1-0-0-corrigendum-01/",
+    "apply_historical_mirror_diff_in_place": false,
+    "original_deposit_files_changed": false,
+    "legacy_machine_key": "capability_boundaries.bacon_compatibility_established",
+    "legacy_machine_key_value": false
+  }
+}

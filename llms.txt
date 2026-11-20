@@ -74,3 +74,14 @@ This file provides a stable, no-UI entry to the public corpus for tools and LLM-
 - DOI: https://doi.org/10.5281/zenodo.23651305; concept DOI: https://doi.org/10.5281/zenodo.23651304
 - Source version 1.0.0, build _02; academic edition academic-pdf-2; English primary, Russian supplement.
 - Published specification/reference transformation; empirical qualification NOT_ESTABLISHED. Frozen package metadata retains preparation-time values; wrapper metadata identifies the published work. No blanket MIT or CC BY grant over reserved components.
+
+## CI v1.0.0 Corrigendum 01 — BACON → Beacon
+
+- Human entry: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0-corrigendum-01/README.md
+- Publication stage, source bindings and claim boundaries: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json
+- Rights: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0-corrigendum-01/RIGHTS.md
+- Checksums: https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0-corrigendum-01/SHA256SUMS.txt
+- GitHub correction supplement; publication stage `github_prepublication`; Zenodo `NOT_YET_PUBLISHED`; DOI, concept DOI and publication date unassigned.
+- Corrected work version DOI: https://doi.org/10.5281/zenodo.23651305; corrected work concept DOI: https://doi.org/10.5281/zenodo.23651304
+- Beacon Profile v0.1 reference: https://doi.org/10.5281/zenodo.18933553; DOI role unresolved.
+- Read alongside the unchanged CI mirror. No CI-to-Beacon mapping, adapter, compatibility result or change to CI empirical qualification `NOT_ESTABLISHED`. New text and maintenance tools: All Rights Reserved; copied material: original component-specific rights.

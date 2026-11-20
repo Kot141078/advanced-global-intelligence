@@ -1,0 +1,75 @@
+{
+  "artifact": "CI_V1_0_0_CORRIGENDUM_01",
+  "title": "Corrigendum 01 to Continuity Instrument (CI) v1.0.0: the integration target BACON is Beacon",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "0009-0009-6002-9845"
+  },
+  "document_date": "2026-11-19",
+  "github_preparation_date": "2026-11-20",
+  "publication_stage": "github_prepublication",
+  "zenodo": {
+    "status": "not_yet_published",
+    "doi": null,
+    "concept_doi": null,
+    "publication_date": null,
+    "planned_relation": "isSupplementTo",
+    "planned_relation_target": "10.5281/zenodo.23651305"
+  },
+  "corrected_work": {
+    "title": "Continuity Instrument (CI) v1.0.0, English Academic Edition academic-pdf-2",
+    "version_doi": "10.5281/zenodo.23651305",
+    "concept_doi": "10.5281/zenodo.23651304",
+    "publication_date": "2026-10-25",
+    "frozen_repository_path": "publications/continuity-instrument-v1-0-0/",
+    "frozen_repository_commit": "bb062414b598afae970bef37ce7489433a51868d",
+    "frozen_mirror_manifest_sha256": "9cfe95851a67cfe240460e639b11fd2a180cd994b0919b73987a90fb2befea38"
+  },
+  "beacon_reference": {
+    "title": "Beacon Profile v0.1",
+    "doi": "10.5281/zenodo.18933553",
+    "doi_role": "unresolved",
+    "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/protocols/beacon/Beacon_Profile_v0.1_EN.md"
+  },
+  "reading": {
+    "overview": "README.md",
+    "english": "CORRIGENDUM_EN.md",
+    "russian": "CORRIGENDUM_RU.md",
+    "rights": "RIGHTS.md",
+    "source_bindings": "SOURCE_BINDINGS.json",
+    "checksums": "SHA256SUMS.txt"
+  },
+  "correction_scope": {
+    "specification": "patches/corrections.json",
+    "specification_sha256": "9ac75661c364d139c8f4c2f3656a285d63fa89d6e34aac6786b4d72ad6e065dd",
+    "bound_text_files": 17,
+    "edits": 25,
+    "literal_name_substitutions": 10,
+    "other_naming_reference_or_notice_edits": 6,
+    "boundary_statement_revisions": 9,
+    "uppercase_BACON_occurrences_in_bound_source_texts": 31,
+    "uppercase_BACON_occurrences_in_corrected_texts": 1,
+    "remaining_occurrence": "Historical spelling inside the proposed site correction note.",
+    "legacy_frozen_record_key": "capability_boundaries.bacon_compatibility_established",
+    "legacy_frozen_record_value": false
+  },
+  "rights": {
+    "new_prose_and_maintenance_tools": "Copyright © 2026 Ivan Kotov. All rights reserved. No license grant.",
+    "copied_originals": "Source snapshots, corrected copies and quoted/diff material retain their original component-specific rights; see RIGHTS.md.",
+    "root_repository_license_does_not_relicense_this_supplement": true
+  },
+  "preservation": {
+    "existing_CI_repository_mirror_changed": false,
+    "existing_CI_deposit_files_changed": false,
+    "historical_diffs_are_not_authority_to_modify_frozen_mirror": true,
+    "site_deployment_status": "deferred_until_after_zenodo_publication"
+  },
+  "claim_boundaries": {
+    "CI_to_Beacon_mapping_supplied": false,
+    "CI_to_Beacon_adapter_implemented": false,
+    "Beacon_field_semantics_defined_by_CI": false,
+    "Beacon_compatibility_established": false,
+    "new_empirical_CI_result": false,
+    "historical_negative_evidence_and_qualification_gates_changed": false
+  }
+}
