@@ -21,7 +21,7 @@ These are reading routes, **not** the c conformance map named in TAP v1.0 §22. 
 ## Root entry shortcuts
 
 - **Continuity Instrument (CI) v1.0.0** — [published package, seven PDFs, original sources, and exact ZIP](publications/continuity-instrument-v1-0-0/README.md); [version DOI](https://doi.org/10.5281/zenodo.23651305); English academic edition `academic-pdf-2` with Russian supplement. Deterministic JSON-to-profile reference transformation; empirical qualification remains `NOT_ESTABLISHED`. Component-specific rights apply.
-- **Read with [Corrigendum 01: BACON → Beacon](publications/continuity-instrument-v1-0-0-corrigendum-01/README.md).** This separate GitHub correction supplement is at `github_prepublication`; Zenodo status is `NOT_YET_PUBLISHED` and its DOI is unassigned. The original CI mirror and its evidence status are preserved; the correction supplies no CI-to-Beacon mapping, adapter or compatibility result.
+- **Read with [Corrigendum 01: BACON → Beacon](publications/continuity-instrument-v1-0-0-corrigendum-01/README.md).** This separate correction supplement was published on 20 November 2026 ([DOI 10.5281/zenodo.24337031](https://doi.org/10.5281/zenodo.24337031), v1.0; Technical note). The original CI mirror and its evidence status are preserved; the correction supplies no CI-to-Beacon mapping, adapter or compatibility result.
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
 - Boundaries of Machine Interpretation v0.2: `official/authorial-statements/boundaries-of-machine-interpretation/v0.2/` — published DOI-bound bilingual authorial publication; four operational boundaries, one reflexive definition, one temporal process premise; DOI: <https://doi.org/10.5281/zenodo.21841445>.

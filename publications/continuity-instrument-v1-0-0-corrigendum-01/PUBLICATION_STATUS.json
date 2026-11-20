@@ -1,0 +1,40 @@
+{
+  "artifact": "CI_V1_0_0_CORRIGENDUM_01",
+  "kind": "post_publication_status",
+  "status": "published",
+  "title": "Corrigendum 01 to Continuity Instrument (CI) v1.0.0: the integration target \"BACON\" is Beacon",
+  "version": "1.0",
+  "publication_date": "2026-11-20",
+  "doi": "10.5281/zenodo.24337031",
+  "doi_url": "https://doi.org/10.5281/zenodo.24337031",
+  "concept_doi": "10.5281/zenodo.24337030",
+  "record_url": "https://zenodo.org/records/24337031",
+  "resource_type": "Publication / Technical note",
+  "file_count": 10,
+  "keywords_verified": true,
+  "relationships": [
+    {
+      "relation": "isSupplementTo",
+      "doi": "10.5281/zenodo.23651305",
+      "resource_type": "Software"
+    },
+    {
+      "relation": "references",
+      "doi": "10.5281/zenodo.18933553",
+      "resource_type": "Technical note",
+      "doi_role": "unresolved"
+    }
+  ],
+  "source_candidate": {
+    "repository": "Kot141078/advanced-global-intelligence",
+    "commit": "8d20a3ce27e35c50fa95df097c1751dcdef5e222",
+    "record": "publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json",
+    "historical_source_status": "github_prepublication"
+  },
+  "frozen_original_ci_unchanged": true,
+  "empirical_qualification": "NOT_ESTABLISHED",
+  "ci_to_beacon_adapter": false,
+  "ci_to_beacon_compatibility": false,
+  "rights": "Copyright © 2026 Ivan Kotov. All rights reserved. No license grant. Copied material retains original component-specific rights.",
+  "note": "Post-publication status sidecar, outside the frozen earlier SHA256SUMS.txt. The complete DOI-bearing files are held by Zenodo."
+}
