@@ -38,4 +38,4 @@ references:
     doi: "10.5281/zenodo.23651305"
     url: "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/"
     license-url: "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/LICENSES.md"
-    notes: "Separately published CI package; source build _02, academic-pdf-2. Component-specific rights override the repository MIT grant. Read with Corrigendum 01 (github_prepublication; Zenodo NOT_YET_PUBLISHED; no DOI assigned): https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/continuity-instrument-v1-0-0-corrigendum-01/README.md"
+    notes: "Separately published CI package; source build _02, academic-pdf-2. Component-specific rights override the repository MIT grant. Read with Corrigendum 01 (published 20 November 2026; DOI 10.5281/zenodo.24337031): https://github.com/Kot141078/advanced-global-intelligence/blob/main/publications/continuity-instrument-v1-0-0-corrigendum-01/README.md"

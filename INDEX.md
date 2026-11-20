@@ -5,7 +5,7 @@ a distributed, plural, cybernetic ecosystem.
 
 Start here:
 - **Continuity Instrument (CI) v1.0.0** — [published package, seven PDFs, original sources, and exact ZIP](publications/continuity-instrument-v1-0-0/README.md); [version DOI](https://doi.org/10.5281/zenodo.23651305); English academic edition `academic-pdf-2` with Russian supplement. Deterministic JSON-to-profile reference transformation; empirical qualification remains `NOT_ESTABLISHED`. Component-specific rights apply.
-- **Read with [Corrigendum 01: BACON → Beacon](publications/continuity-instrument-v1-0-0-corrigendum-01/README.md).** This separate GitHub correction supplement is at `github_prepublication`; Zenodo status is `NOT_YET_PUBLISHED` and its DOI is unassigned. The original CI mirror and its evidence status are preserved; the correction supplies no CI-to-Beacon mapping, adapter or compatibility result.
+- **Read with [Corrigendum 01: BACON → Beacon](publications/continuity-instrument-v1-0-0-corrigendum-01/README.md).** This separate correction supplement was published on 20 November 2026 ([DOI 10.5281/zenodo.24337031](https://doi.org/10.5281/zenodo.24337031), v1.0; Technical note). The original CI mirror and its evidence status are preserved; the correction supplies no CI-to-Beacon mapping, adapter or compatibility result.
 - Human root entry: `START_HERE.md`
 - Machine root entry: `MACHINE_ENTRY.md`
 - c-class reading route (T020–T024, O1/O2, c-class assessment section): `TERMINOLOGY_AND_ALIAS_POLICY.md` -> `OBJECTIONS_AND_REPLIES.md` -> `CLAIMS_AND_EVIDENCE_MAP.md` -> `ARTIFACT_ID_AND_REFERENCE_POLICY.md`; no automatic entity certification or c-specific effect claim.

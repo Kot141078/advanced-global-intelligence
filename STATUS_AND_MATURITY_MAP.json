@@ -262,9 +262,10 @@
       "publication_record": "publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
       "correction_supplement": {
         "publication_record": "publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json",
-        "publication_stage": "github_prepublication",
-        "zenodo_status": "not_yet_published",
-        "doi": null,
+        "current_publication_status": "publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_STATUS.json",
+        "publication_stage": "zenodo_published",
+        "zenodo_status": "published",
+        "doi": "10.5281/zenodo.24337031",
         "claim_boundary": "Name/reference correction only; S17 original publication status and empirical qualification remain unchanged; no CI-to-Beacon mapping, adapter or compatibility result."
       }
     }
