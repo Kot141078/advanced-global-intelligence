@@ -27,3 +27,11 @@ The entire path `publications/continuity-instrument-v1-0-0/**`, including its ar
 Author scientific prose, descriptive metadata, and the new wrapper prose/metadata are CC BY 4.0. The original implementation directory (including README and schemas), the original test file, new Python build/verification code, example JSON, and PDF 04 Part I are **Copyright © 2026 Ivan Kotov. All rights reserved. No license grant.** PDF 04 Part II, Part III, and distinct editorial notes are CC BY 4.0. Font material retains its separate terms. The archive as a whole is mixed-rights.
 
 This exception preserves the published version's rights: <https://doi.org/10.5281/zenodo.23651305>. Public readability and repository inclusion do not add a license grant.
+
+## Continuity Instrument v1.0.0 — Corrigendum 01
+
+The entire path `publications/continuity-instrument-v1-0-0-corrigendum-01/**` is excluded from the repository-level MIT grant. Its controlling notice is [publications/continuity-instrument-v1-0-0-corrigendum-01/RIGHTS.md](publications/continuity-instrument-v1-0-0-corrigendum-01/RIGHTS.md).
+
+New corrigendum prose, metadata and maintenance tools are **Copyright © 2026 Ivan Kotov. All rights reserved. No license grant.** Source snapshots, corrected copies, quotations and diff material retain the component-specific rights of their originals. This notice does not revoke existing source licenses or grant a blanket license over the mixed-rights supplement.
+
+The supplement is prepared for GitHub publication; it has no assigned Zenodo DOI. The original CI publication remains under its existing component rights and DOI <https://doi.org/10.5281/zenodo.23651305>.

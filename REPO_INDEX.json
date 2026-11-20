@@ -602,6 +602,22 @@
       "role": "current published CI identity and component-rights record",
       "status": "published",
       "short_description": "Version/concept DOI roles, exact files and digests, separate software/editorial versions, rights scopes and evidence ceiling."
+    },
+    {
+      "path": "publications/continuity-instrument-v1-0-0-corrigendum-01/README.md",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0-corrigendum-01/README.md",
+      "type": "markdown",
+      "role": "CI Corrigendum 01 reading entry",
+      "status": "github_prepublication",
+      "short_description": "BACON → Beacon correction supplement; GitHub preparation, Zenodo not yet published and DOI unassigned."
+    },
+    {
+      "path": "publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json",
+      "raw": "https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json",
+      "type": "json",
+      "role": "CI Corrigendum 01 identity, scope and rights record",
+      "status": "github_prepublication",
+      "short_description": "Separate correction identity, original CI DOI roles, unresolved Beacon DOI role, preserved evidence limits and component-specific rights."
     }
   ],
   "packages": [
@@ -1064,7 +1080,29 @@
       "sha256_manifest": "publications/continuity-instrument-v1-0-0/SHA256SUMS.txt",
       "website": "https://ivankotov.eu/publications/continuity-instrument-v1-0-0/",
       "rights": "component-specific; no blanket repository MIT or package-wide CC BY grant",
-      "metadata_precedence": "Current wrapper identifies published DOI; package/ preserves prepublication metadata and every deposited byte."
+      "metadata_precedence": "Current wrapper identifies published DOI; package/ preserves prepublication metadata and every deposited byte.",
+      "correction_supplement": "publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json"
+    },
+    {
+      "id": "continuity-instrument-v1-0-0-corrigendum-01",
+      "title": "Corrigendum 01 to Continuity Instrument (CI) v1.0.0: BACON → Beacon",
+      "path": "publications/continuity-instrument-v1-0-0-corrigendum-01/",
+      "status": "github_prepublication",
+      "publication_stage": "github_prepublication",
+      "zenodo_status": "not_yet_published",
+      "doi": null,
+      "concept_doi": null,
+      "publication_date": null,
+      "corrects_version_doi": "10.5281/zenodo.23651305",
+      "corrected_work_concept_doi": "10.5281/zenodo.23651304",
+      "beacon_reference_doi": "10.5281/zenodo.18933553",
+      "beacon_doi_role": "unresolved",
+      "human_entry": "publications/continuity-instrument-v1-0-0-corrigendum-01/README.md",
+      "publication_record": "publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json",
+      "rights_file": "publications/continuity-instrument-v1-0-0-corrigendum-01/RIGHTS.md",
+      "sha256_manifest": "publications/continuity-instrument-v1-0-0-corrigendum-01/SHA256SUMS.txt",
+      "rights": "New prose, metadata and maintenance tools: All Rights Reserved, no license grant. Copied material retains original component-specific rights.",
+      "claim_boundary": "Name/reference correction only; no CI-to-Beacon mapping, adapter or compatibility result. Original CI mirror and empirical qualification NOT_ESTABLISHED remain unchanged."
     }
   ],
   "highlight_documents": [

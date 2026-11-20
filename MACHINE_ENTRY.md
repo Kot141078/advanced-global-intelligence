@@ -617,3 +617,17 @@ The full technical corpus DOI archives the complete GitHub technical corpus, inc
 - rights: `publications/continuity-instrument-v1-0-0/LICENSES.md`; no blanket MIT/CC BY license
 
 Use the current wrapper citation and publication record for DOI identity. Preparation-time metadata under `package/` is historical and preserved byte-for-byte. The reference implementation transforms supplied JSON; it does not collect or authenticate evidence. R157 remains open-synthetic; R160/R161 remain consumed negative qualification results. This discovery integration supplies no new scientific qualification or runtime authority.
+
+## CI v1.0.0 Corrigendum 01 — GitHub correction supplement
+
+- canonical_package: `publications/continuity-instrument-v1-0-0-corrigendum-01/`
+- human_entry: `publications/continuity-instrument-v1-0-0-corrigendum-01/README.md`
+- publication_record: `publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json`
+- publication_stage: `github_prepublication`; zenodo_status: `not_yet_published` (`NOT_YET_PUBLISHED`)
+- doi: `null` (unassigned); concept_doi: `null`; publication_date: `null`
+- corrects_version_doi: `10.5281/zenodo.23651305`; corrected_work_concept_doi: `10.5281/zenodo.23651304`
+- beacon_reference_doi: `10.5281/zenodo.18933553`; beacon_doi_role: `unresolved`
+- rights: `publications/continuity-instrument-v1-0-0-corrigendum-01/RIGHTS.md`; new prose, metadata and maintenance tools are All Rights Reserved, with no license grant; copied material retains its original component-specific rights.
+- checksums: `publications/continuity-instrument-v1-0-0-corrigendum-01/SHA256SUMS.txt`
+
+Read the original CI publication together with this supplement. The name correction preserves the original publication bytes and `empirical_qualification: NOT_ESTABLISHED`. It supplies no CI-to-Beacon mapping, adapter or compatibility result. The corrected work's DOI and the Beacon DOI are references, not identifiers assigned to this supplement.

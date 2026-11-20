@@ -1,0 +1,105 @@
+{
+ "artifact": "CI_V1_0_0_CORRIGENDUM_01",
+ "spec_sha256": "9ac75661c364d139c8f4c2f3656a285d63fa89d6e34aac6786b4d72ad6e065dd",
+ "files_corrected": 17,
+ "edits_applied": 25,
+ "diffs": {
+  "advanced-global-intelligence": {
+   "file": "advanced-global-intelligence.diff",
+   "sha256": "60954d0bea7420f4cbc4c209e8fecf350e1ef25313bd24f444edc6cdad3c0b70",
+   "files": 15
+  },
+  "kot141078.github.io": {
+   "file": "kot141078.github.io.diff",
+   "sha256": "9e03c635d9f2409b78794919587a2bbdc4074b43a2d235640905542965043618",
+   "files": 2
+  }
+ },
+ "corrected": [
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/README.md",
+   "sha256": "acc8986e3090bbc36a630e5f74845d45dcb3b73f02dd9229193e619d0ea56827"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt",
+   "sha256": "28990f06b8c03ccf9f8b8b9a0a28ea36781352a56f7cc91b2bab6fcf7b5311d4"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md",
+   "sha256": "a6ec704578e23c671d3b9d8c7705495390cc038aace4c98aff8d6e204d219fa8"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md",
+   "sha256": "2d58ec2a5027988fe0031e515f96eea4979fc58bbc64ea900af00c0e8ec8635d"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md",
+   "sha256": "0f533643ddc7024ddb933d4fa8e2ad16052f5110a543f8cef672ec911fcb5d45"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md",
+   "sha256": "05cfa6de6bec763549f74a84ce74da98bff96734e2ceb10b043cf07c305474b9"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md",
+   "sha256": "7c05537ee2e3488308876efd03b5a2591a98bd06708fc39d381660d1ee4bfd6c"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json",
+   "sha256": "92bf33c2585452072d7ed53a138b57c1fdfbb7c859ec54ff1bdb46c79e48bd03"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md",
+   "sha256": "b1fc76d9a110062ab03c3973560d646e9abb62a62c7efd55062462e12072103a"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md",
+   "sha256": "62d0cfdf0ff62212ca727e99f942556d02cd6aef0ca67e12bdaa763df838fec2"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md",
+   "sha256": "afa2ebe1fa53c4e4eecc97c6225c04cf32188e9238d3f6540e0c55d78549613c"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md",
+   "sha256": "d053ae2aa4b491a73d002fb703b9473991a73e7f9240168e962de25d21483fb9"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md",
+   "sha256": "167b636b9ca781596e60e9ff0ca19e88d36a74a954abc68d9a3915b7841e903a"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md",
+   "sha256": "f1459d8ab8efa160ef1a43d61db13a4bcf0ef3e49185580d4ede344fc2626c15"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md",
+   "sha256": "76903c637ee7782973fc1ccb18df1ad8fb098b5b50fb82446e509a4024021c18"
+  },
+  {
+   "repo": "kot141078.github.io",
+   "path": "publications/continuity-instrument-v1-0-0/index.html",
+   "sha256": "6105067532f8b28714c6191a8847831c53f54a2a65229bd35cb57daec5043837"
+  },
+  {
+   "repo": "kot141078.github.io",
+   "path": "publications/continuity-instrument-v1-0-0/publication.json",
+   "sha256": "dce96fcacaebdccbdd542227a59f25b0807a0368778069e1fc5e34eaec789846"
+  }
+ ]
+}

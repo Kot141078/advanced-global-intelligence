@@ -1,0 +1,51 @@
+{
+ "artifact": "CI_V1_0_0_CORRIGENDUM_01",
+ "prepared": "2026-11-19",
+ "subject": {
+  "title": "Continuity Instrument (CI) v1.0.0, English Academic Edition academic-pdf-2",
+  "version_doi": "10.5281/zenodo.23651305",
+  "concept_doi": "10.5281/zenodo.23651304",
+  "zenodo_record_id": 23651305,
+  "publication_date": "2026-10-25"
+ },
+ "repositories": [
+  {
+   "repo": "Kot141078/advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "scope": "publications/continuity-instrument-v1-0-0/ (GitHub publication mirror; MIRROR_MANIFEST.json requires byte identity with the deposit)"
+  },
+  {
+   "repo": "Kot141078/kot141078.github.io",
+   "commit": "f77956b4dc45583d4b271c0f4499f0bbdab41e16",
+   "scope": "publications/continuity-instrument-v1-0-0/ (site record; presentation layer)"
+  }
+ ],
+ "deposited_archives": [
+  {
+   "path": "package/source_original/CI_CONTINUITY_INSTRUMENT_V1_0_0.zip",
+   "size_bytes": 50765,
+   "sha256": "be87dd926ed96e91e8de25bae2e18666f74ac738b173379ddc0092f98563f663",
+   "contains_term": true
+  },
+  {
+   "path": "release/CI_CONTINUITY_INSTRUMENT_V1_0_0_ACADEMIC_EN_PACKAGE_20261025.zip",
+   "size_bytes": 1097821,
+   "sha256": "0e97eb3b8b54b091a35c2a0cc0d702efa9f781e10d1ac0773d42796e1047a659",
+   "contains_term": true
+  }
+ ],
+ "derived_pdfs_containing_term": [
+  "package/PDFs/01_CI_Explanatory_Paper_EN.pdf",
+  "package/PDFs/03_CI_Technical_Specification_EN.pdf",
+  "package/PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf",
+  "package/PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf",
+  "package/PDFs/07_CI_Publication_Guide_EN.pdf"
+ ],
+ "beacon_reference": {
+  "title": "Beacon Profile v0.1",
+  "doi": "10.5281/zenodo.18933553",
+  "doi_role": "unresolved per the site record publications/beacon-profile-v0-1; cited as the CI package already cites it"
+ },
+ "file_bindings": "patches/corrections.json (source_bindings: 17 files with predecessor SHA-256, size and source URL at the bound commit)",
+ "acquisition": "Public repositories cloned 2026-11-18 and fast-forwarded 2026-11-19; the CI publication folders did not change between the two states. Deposit archives were hashed from the mirror copies, not downloaded from Zenodo."
+}

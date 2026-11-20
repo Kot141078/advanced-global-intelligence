@@ -65,7 +65,9 @@
       "qubit-of-hope-volume-i/CORPUS_CONTEXT.md",
       "sovereign-entity-recursion/README.md",
       "ester-reality-bound/README.md",
-      "ester-clean-code/README.md"
+      "ester-clean-code/README.md",
+      "advanced-global-intelligence/publications/continuity-instrument-v1-0-0/README.md",
+      "advanced-global-intelligence/publications/continuity-instrument-v1-0-0-corrigendum-01/README.md"
     ],
     "machine": [
       "advanced-global-intelligence/CURRENT_CORPUS_MAP.json",
@@ -85,7 +87,9 @@
       "advanced-global-intelligence/REPO_INDEX.json",
       "advanced-global-intelligence/concepts/QUBIT_STATE_C_v0.1.md",
       "sovereign-entity-recursion/protocol/arq/v0.2/ARQ_Supplement_v0.2.index.json",
-      "qubit-of-hope-volume-i/MACHINE_ENTRY.md"
+      "qubit-of-hope-volume-i/MACHINE_ENTRY.md",
+      "advanced-global-intelligence/publications/continuity-instrument-v1-0-0/PUBLICATION_RECORD.json",
+      "advanced-global-intelligence/publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json"
     ]
   },
   "c_class_navigation": {

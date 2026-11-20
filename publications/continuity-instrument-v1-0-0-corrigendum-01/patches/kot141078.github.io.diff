@@ -1,0 +1,20 @@
+diff --git a/publications/continuity-instrument-v1-0-0/index.html b/publications/continuity-instrument-v1-0-0/index.html
+--- a/publications/continuity-instrument-v1-0-0/index.html
++++ b/publications/continuity-instrument-v1-0-0/index.html
+@@ -286,5 +286,5 @@
+         </div>
+         <div class="prose">
+-          <p>CI works with structured records about observations and changes. It does not connect directly to a language model, retrieve logs, inspect a host, query a database, or provide an Ollama or cloud API adapter. BACON is a prospective integration target; no adapter or compatibility result is included. A future integration would need a separately specified evidence-collection and admission path.</p>
++          <p>CI works with structured records about observations and changes. It does not connect directly to a language model, retrieve logs, inspect a host, query a database, or provide an Ollama or cloud API adapter. Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is a prospective integration target; no adapter or compatibility result is included. (Corrected 19 November 2026: the deposited v1.0.0 files misspell this name as "BACON".) A future integration would need a separately specified evidence-collection and admission path.</p>
+           <p>An interval contributes to verified duration only when it is admitted and explicitly marked eligible for duration. Merely admitting a record does not make the entire interval covered. Evidence at two endpoints also does not automatically establish everything between them. Known pauses need positive supporting evidence; unexplained time stays a gap. Eligible participation overlapping a known pause is rejected.</p>
+           <p>For the exact contract, read the <a href="https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/03_CI_Technical_Specification_EN.pdf">technical specification</a> and <a href="https://raw.githubusercontent.com/Kot141078/advanced-global-intelligence/main/publications/continuity-instrument-v1-0-0/package/PDFs/04_CI_Implementation_and_Reproducibility_EN.pdf">implementation and reproducibility guide</a>.</p>
+diff --git a/publications/continuity-instrument-v1-0-0/publication.json b/publications/continuity-instrument-v1-0-0/publication.json
+--- a/publications/continuity-instrument-v1-0-0/publication.json
++++ b/publications/continuity-instrument-v1-0-0/publication.json
+@@ -243,5 +243,5 @@
+     "No production approval, runtime integration, provider attestation or Beacon conformance.",
+     "R157 is bounded open-synthetic predecessor evidence; R160 and R161 remain negative and are not replayed.",
+-    "No BACON adapter or demonstrated compatibility; BACON is a prospective integration target."
++    "No CI-to-Beacon adapter or demonstrated compatibility; Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is a prospective integration target."
+   ],
+   "precedence": [

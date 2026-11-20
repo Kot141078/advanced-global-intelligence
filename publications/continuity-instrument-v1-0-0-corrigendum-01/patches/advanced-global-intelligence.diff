@@ -1,0 +1,178 @@
+diff --git a/publications/continuity-instrument-v1-0-0/README.md b/publications/continuity-instrument-v1-0-0/README.md
+--- a/publications/continuity-instrument-v1-0-0/README.md
++++ b/publications/continuity-instrument-v1-0-0/README.md
+@@ -54,5 +54,5 @@
+ - The same extract discloses the known unpaired-Unicode-surrogate error: canonical UTF-8 serialization can raise an uncaught `UnicodeEncodeError`, yielding exit 1 instead of the documented invalid-input exit 2. The frozen implementation is unchanged.
+ 
+-CI does not establish consciousness, personhood, identity preservation, lawful succession, provider attestation, operational approval, general evaluator validity, or BACON compatibility. Structured output and valid checksums cannot independently establish that the supplied events occurred. The [evidence and limitations PDF](package/PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf) and original [EVIDENCE_STATUS.json](package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json) give the preserved account; private evidence archives and raw private corpus material are not included in this package.
++CI does not establish consciousness, personhood, identity preservation, lawful succession, provider attestation, operational approval, general evaluator validity, or Beacon compatibility. Structured output and valid checksums cannot independently establish that the supplied events occurred. The [evidence and limitations PDF](package/PDFs/05_CI_Evidence_Claims_and_Limitations_EN.pdf) and original [EVIDENCE_STATUS.json](package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json) give the preserved account; private evidence archives and raw private corpus material are not included in this package.
+ 
+ ## Publication identity and metadata precedence
+diff --git a/publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt b/publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt
+--- a/publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt
++++ b/publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt
+@@ -3,5 +3,5 @@
+ This academic companion edition (academic-pdf-2) includes six complete English publication PDFs and one preserved Russian explanatory supplement, complete editable editorial sources, the unchanged original source build _02 and its extracted files, a clearly synthetic teaching example, and integrity metadata. English is the primary publication language. The English explanatory paper is a complete substantive counterpart of the Russian paper. The Russian PDF retains its original academic-pdf-1 front matter. This language and editorial revision does not change the reference implementation or the evidential status. The original program transforms caller-supplied records and does not collect evidence or establish its truth or admissibility.
+ 
+-R157 is bounded open-synthetic predecessor evidence. R160 and R161 remain preserved negative local-evaluator qualification attempts. This release does not establish subject-specific continuity age, entity identity, personhood, consciousness, general evaluator validity, provider attestation, operational approval, scientific qualification or BACON compatibility. Historical evidence archives remain separately owner-controlled and are not included.
++R157 is bounded open-synthetic predecessor evidence. R160 and R161 remain preserved negative local-evaluator qualification attempts. This release does not establish subject-specific continuity age, entity identity, personhood, consciousness, general evaluator validity, provider attestation, operational approval, scientific qualification or Beacon compatibility. Historical evidence archives remain separately owner-controlled and are not included.
+ 
+ Component rights: the author's new explanatory prose, scientific text and descriptive metadata are licensed under CC BY 4.0. The original REFERENCE_IMPLEMENTATION/ directory (including its README and schemas), tests/test_ci_profile.py, new build/*.py, verification/verify_package.py, and examples/*.json are Copyright © 2026 Ivan Kotov. All rights reserved. No license grant. PDF 04 is mixed-rights: its Part I reproduces the reserved implementation README; Part II, the distinct editorial notes and Part III are CC BY 4.0. CC BY does not relicense the restricted components. Embedded DejaVu font glyphs and cited external materials retain their own terms. The package is publicly readable but is not wholly open-source.
+diff --git a/publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md b/publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md
+--- a/publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md
++++ b/publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md
+@@ -149,5 +149,5 @@
+ Using the transformation does not require accepting the entire `c=a+b` programme or treating it as an established class of AI. An engineer can apply the bounded format to an observed service, experimental agent, or research system while retaining an explicit definition of subject and participation. CI does not provide an exhaustive comparison with existing logging systems or establish the novelty of every mechanism it uses. Interval arithmetic, identifiers, checksums, and structured logs remain ordinary engineering methods.
+ 
+-The source package also names BACON as a future integration target. No adapter or compatibility result is included. Any future integration would need a versioned mapping that preserves branch distinctions, uncertainty, claim ceilings, schema identity, and relevant source checksums. This is a stated boundary of prospective integration, not an additional capability of the released program. [2,5]
++The source package also names Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) as a future integration target. No adapter or compatibility result is included. Any future integration would need a versioned mapping that preserves branch distinctions, uncertainty, claim ceilings, schema identity, and relevant source checksums. This is a stated boundary of prospective integration, not an additional capability of the released program. [2,5]
+ 
+ ## 11. Practical input and output
+diff --git a/publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md b/publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md
+--- a/publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md
++++ b/publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md
+@@ -69,5 +69,5 @@
+ | CI establishes personhood, consciousness, moral status, or legal standing. | Outside the measurement contract. | Excluded. | No such inference is permitted. |
+ | CI grants permission or operational authority. | Separate governance decision. | Excluded. | Measurement and recognition do not grant authority. |
+-| CI is compatible with BACON. | A separately defined, versioned adapter and acceptance evidence. | Not established. | BACON remains a future integration boundary. |
++| CI is compatible with Beacon. | A separately defined, versioned adapter and acceptance evidence. | Not established. | Beacon remains a future integration boundary. |
+ | This package has a DOI. | Public deposit, assigned DOI, and deposit-byte verification. | Not established. | No CI DOI is included in v1.0.0 preparation output. |
+ 
+@@ -143,5 +143,5 @@
+ ### Future integration boundary
+ 
+-BACON is only a future integration target. No public canonical definition or compatibility result is claimed.
++Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is only a future integration target. No CI-to-Beacon adapter or compatibility result is claimed.
+ 
+ 
+@@ -210,5 +210,5 @@
+ - operational approval
+ - scientific qualification
+-- BACON compatibility
++- Beacon compatibility
+ - publication acceptance
+ 
+diff --git a/publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md b/publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md
+--- a/publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md
++++ b/publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md
+@@ -56,7 +56,7 @@
+ `formation_depth_vector_sha256` is SHA-256 over the UTF-8 canonical JSON bytes of the `formation_depth_vector` object, without a trailing line feed. It is a reproducibility checksum, not an evidence-truth or identity attestation.
+ 
+-### BACON boundary
++### Beacon boundary
+ 
+-The output is designed so that CI can later be mapped into BACON through an explicit, versioned adapter. Such an adapter would need to preserve every vector coordinate, branch distinction, uncertainty value, claim ceiling, schema version, and source checksum. This draft does not implement that adapter, expand the BACON name, assign semantics to BACON, or claim compatibility with it.
++The output is designed so that CI can later be mapped into Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) through an explicit, versioned adapter. Such an adapter would need to preserve every vector coordinate, branch distinction, uncertainty value, claim ceiling, schema version, and source checksum. This draft does not implement that adapter, assign Beacon semantics to any CI field, or claim compatibility with Beacon.
+ 
+ ### Tests and dependency boundary
+diff --git a/publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md b/publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md
+--- a/publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md
++++ b/publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md
+@@ -60,5 +60,5 @@
+ ```
+ 
+-The source rights statement grants no general code-reuse licence. Describing a reproduction procedure does not extend that grant. Historical evidence archives, private corpus text, runtime binaries, and model files are not redistributed in this edition; their hashes do not provide access to their contents. No identity, consciousness, personhood, general evaluator validity, operational approval, or BACON compatibility is established.
++The source rights statement grants no general code-reuse licence. Describing a reproduction procedure does not extend that grant. Historical evidence archives, private corpus text, runtime binaries, and model files are not redistributed in this edition; their hashes do not provide access to their contents. No identity, consciousness, personhood, general evaluator validity, operational approval, or Beacon compatibility is established.
+ 
+ ## 4. Rights and public-description text
+diff --git a/publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md b/publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md
+--- a/publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md
++++ b/publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md
+@@ -343,5 +343,5 @@
+ ### Future integration
+ 
+-BACON is listed only as a future integration target. This package does not expand the name, assign a public canonical definition, or claim technical compatibility.
++Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is listed only as a future integration target. This package defines no CI-to-Beacon mapping and claims no technical compatibility.
+ 
+ 
+@@ -435,6 +435,6 @@
+ Structured limits on what the evidence establishes, including missingness, time precision, classification, branch, lineage, witness, authority, and review uncertainty.
+ 
+-### Reserved integration name
+-
+-**BACON**  
+-A future integration target only. No public canonical definition was found for this package, so the name is not expanded and no technical semantics are assigned to it here.
++### Future integration target
++
++**Beacon**  
++Beacon Profile v0.1, a separately published recognition profile (DOI 10.5281/zenodo.18933553), named here as a conceptual alignment and a future integration target only. This package defines no CI-to-Beacon mapping and assigns no Beacon semantics to any CI field.
+diff --git a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json
+--- a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json
++++ b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json
+@@ -56,5 +56,5 @@
+     "operational approval",
+     "scientific qualification",
+-    "BACON compatibility",
++    "Beacon compatibility",
+     "publication acceptance"
+   ],
+diff --git a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md
+--- a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md
++++ b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md
+@@ -55,3 +55,3 @@
+ ## Future integration boundary
+ 
+-BACON is only a future integration target. No public canonical definition or compatibility result is claimed.
++Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is only a future integration target. No CI-to-Beacon adapter or compatibility result is claimed.
+diff --git a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md
+--- a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md
++++ b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md
+@@ -25,3 +25,3 @@
+ ## Claim ceiling for deposit
+ 
+-CI v1.0.0 is an evidence-bound measurement/record format and deterministic reference transformation. It does not prove entity identity, personhood, consciousness, continuity of a named real system, general scientific validity, or BACON compatibility. R157 is open-synthetic evidence; R160 and R161 did not meet their frozen qualification thresholds.
++CI v1.0.0 is an evidence-bound measurement/record format and deterministic reference transformation. It does not prove entity identity, personhood, consciousness, continuity of a named real system, general scientific validity, or Beacon compatibility. R157 is open-synthetic evidence; R160 and R161 did not meet their frozen qualification thresholds.
+diff --git a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md
+--- a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md
++++ b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md
+@@ -58,5 +58,5 @@
+ It does not collect evidence, establish admissibility, prove that input records are true, measure a named real system by itself, or perform scientific qualification. Its passing tests support only the specified transformation behavior.
+ 
+-The output is designed so CI can later feed a separately defined BACON adapter. Any adapter must preserve branch distinctions, uncertainty, claim ceiling, schema identity, and source checksum. This release does not define or implement BACON and makes no BACON compatibility claim.
++The output is designed so CI can later feed a separately defined CI-to-Beacon adapter (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553). Any adapter must preserve branch distinctions, uncertainty, claim ceiling, schema identity, and source checksum. This release does not implement that adapter and makes no Beacon compatibility claim.
+ 
+ ## Public research canon
+diff --git a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md
+--- a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md
++++ b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md
+@@ -76,3 +76,3 @@
+ ## Future integration
+ 
+-BACON is listed only as a future integration target. This package does not expand the name, assign a public canonical definition, or claim technical compatibility.
++Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is listed only as a future integration target. This package defines no CI-to-Beacon mapping and claims no technical compatibility.
+diff --git a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md
+--- a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md
++++ b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md
+@@ -43,7 +43,7 @@
+ `formation_depth_vector_sha256` is SHA-256 over the UTF-8 canonical JSON bytes of the `formation_depth_vector` object, without a trailing line feed. It is a reproducibility checksum, not an evidence-truth or identity attestation.
+ 
+-## BACON boundary
++## Beacon boundary
+ 
+-The output is designed so that CI can later be mapped into BACON through an explicit, versioned adapter. Such an adapter would need to preserve every vector coordinate, branch distinction, uncertainty value, claim ceiling, schema version, and source checksum. This draft does not implement that adapter, expand the BACON name, assign semantics to BACON, or claim compatibility with it.
++The output is designed so that CI can later be mapped into Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) through an explicit, versioned adapter. Such an adapter would need to preserve every vector coordinate, branch distinction, uncertainty value, claim ceiling, schema version, and source checksum. This draft does not implement that adapter, assign Beacon semantics to any CI field, or claim compatibility with Beacon.
+ 
+ ## Tests and dependency boundary
+diff --git a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md
+--- a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md
++++ b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md
+@@ -58,5 +58,5 @@
+ | CI establishes personhood, consciousness, moral status, or legal standing. | Outside the measurement contract. | Excluded. | No such inference is permitted. |
+ | CI grants permission or operational authority. | Separate governance decision. | Excluded. | Measurement and recognition do not grant authority. |
+-| CI is compatible with BACON. | A separately defined, versioned adapter and acceptance evidence. | Not established. | BACON remains a future integration boundary. |
++| CI is compatible with Beacon. | A separately defined, versioned adapter and acceptance evidence. | Not established. | Beacon remains a future integration boundary. |
+ | This package has a DOI. | Public deposit, assigned DOI, and deposit-byte verification. | Not established. | No CI DOI is included in v1.0.0 preparation output. |
+ 
+diff --git a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md
+--- a/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md
++++ b/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md
+@@ -86,6 +86,6 @@
+ Structured limits on what the evidence establishes, including missingness, time precision, classification, branch, lineage, witness, authority, and review uncertainty.
+ 
+-## Reserved integration name
++## Future integration target
+ 
+-**BACON**  
+-A future integration target only. No public canonical definition was found for this package, so the name is not expanded and no technical semantics are assigned to it here.
++**Beacon**  
++Beacon Profile v0.1, a separately published recognition profile (DOI 10.5281/zenodo.18933553), named here as a conceptual alignment and a future integration target only. This package defines no CI-to-Beacon mapping and assigns no Beacon semantics to any CI field.

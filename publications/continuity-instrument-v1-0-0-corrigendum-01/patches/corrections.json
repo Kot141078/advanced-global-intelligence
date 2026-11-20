@@ -1,0 +1,487 @@
+{
+ "artifact": "CI_V1_0_0_CORRIGENDUM_01",
+ "status": "PREPARED_FOR_OWNER_AUTHORIZATION",
+ "correction_date": "2026-11-19",
+ "subject": {
+  "title": "Continuity Instrument (CI) v1.0.0",
+  "version_doi": "10.5281/zenodo.23651305",
+  "concept_doi": "10.5281/zenodo.23651304"
+ },
+ "correction": "The future integration target written 'BACON' is Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553).",
+ "source_bindings": [
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/README.md",
+   "sha256": "ce0759e25d60915837e4bc45a84630f8009884120660ef370a2f8796955b38c2",
+   "size_bytes": 13260,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/README.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt",
+   "sha256": "7b397500f04f4f61c5babd7c2af9ecd831b354b040312cd3f1fbe6848b1aa548",
+   "size_bytes": 2816,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md",
+   "sha256": "6eee4d6eb67cb1dcfeb156697506d978384f1e67964a0cb9e770ab400b4fc9b4",
+   "size_bytes": 38024,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md",
+   "sha256": "d8b10da7badb6933f83f6bdaefde08486dbb1f040de3db03666e1b60a5d8e742",
+   "size_bytes": 14738,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md",
+   "sha256": "7f8ce32e21d407163b225c719cfe7c914ab66a57427facc59d5dd82273f0a720",
+   "size_bytes": 13884,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md",
+   "sha256": "c7cc1b8976d51a8ec4d68ea4566c35fec58e175d30669a37120a3d7007eb03a7",
+   "size_bytes": 14645,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md",
+   "sha256": "6a5934dc1896507fe5bcc09a35a3a2efb379da5820594f0ac785e2e7f9a2547f",
+   "size_bytes": 24102,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json",
+   "sha256": "9bdf2cd364174250d635de7dc66e4dce722d91555dd3846da4a37b5105836f81",
+   "size_bytes": 2301,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md",
+   "sha256": "68c9fd9099e3b00a25067a415100f180e3ab06a38c3fa76572529d4562ab40f8",
+   "size_bytes": 4002,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md",
+   "sha256": "ff021d72221ad6bdba2250605588767dc9f1ed2ac4cecf5efdb9697b11d29b06",
+   "size_bytes": 2097,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md",
+   "sha256": "6e3c32f9787d34414d9f5a0db926fd11ff07e172b7bcb62415be6e6c467647c8",
+   "size_bytes": 6951,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md",
+   "sha256": "b4e60d0df285dfc0248d7da12791663719819ed17d7f9016f73c54e5ddfd6610",
+   "size_bytes": 3771,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md",
+   "sha256": "3a29244890f0aed63d21c57ce61b5aca55d5706b1a17196005b5edf64e3e23f6",
+   "size_bytes": 4849,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md",
+   "sha256": "d8b0097ed17d259badab69a24fd9945b015988dee4fc8d9c3cdcc62ddd3e2ac0",
+   "size_bytes": 6231,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md"
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "commit": "bb062414b598afae970bef37ce7489433a51868d",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md",
+   "sha256": "c250200d5105fa0c33a22e9c902e9e928f88baf13bbd5358d830777c96829c88",
+   "size_bytes": 4704,
+   "source_url": "https://github.com/Kot141078/advanced-global-intelligence/blob/bb062414b598afae970bef37ce7489433a51868d/publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md"
+  },
+  {
+   "repo": "kot141078.github.io",
+   "commit": "f77956b4dc45583d4b271c0f4499f0bbdab41e16",
+   "path": "publications/continuity-instrument-v1-0-0/index.html",
+   "sha256": "feec983ff7661afb907ee67594a17c27afb73a20a9f7e253b8632ccecccda30b",
+   "size_bytes": 40868,
+   "source_url": "https://github.com/Kot141078/kot141078.github.io/blob/f77956b4dc45583d4b271c0f4499f0bbdab41e16/publications/continuity-instrument-v1-0-0/index.html"
+  },
+  {
+   "repo": "kot141078.github.io",
+   "commit": "f77956b4dc45583d4b271c0f4499f0bbdab41e16",
+   "path": "publications/continuity-instrument-v1-0-0/publication.json",
+   "sha256": "d3906e50ef758d5c60b7d520426fac3b493604acc7e02f98e949cbd4c17b9f7b",
+   "size_bytes": 16219,
+   "source_url": "https://github.com/Kot141078/kot141078.github.io/blob/f77956b4dc45583d4b271c0f4499f0bbdab41e16/publications/continuity-instrument-v1-0-0/publication.json"
+  }
+ ],
+ "patches": [
+  {
+   "finding": "CI-C01-E01",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/README.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "general evaluator validity, or BACON compatibility.",
+   "new": "general evaluator validity, or Beacon compatibility."
+  },
+  {
+   "finding": "CI-C01-E02",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "scientific qualification or BACON compatibility.",
+   "new": "scientific qualification or Beacon compatibility."
+  },
+  {
+   "finding": "CI-C01-E03",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "The source package also names BACON as a future integration target.",
+   "new": "The source package also names Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) as a future integration target."
+  },
+  {
+   "finding": "CI-C01-E04",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "| CI is compatible with BACON. | A separately defined, versioned adapter and acceptance evidence. | Not established. | BACON remains a future integration boundary. |",
+   "new": "| CI is compatible with Beacon. | A separately defined, versioned adapter and acceptance evidence. | Not established. | Beacon remains a future integration boundary. |"
+  },
+  {
+   "finding": "CI-C01-E05",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md",
+   "class": "meaning",
+   "expected_occurrences": 1,
+   "old": "BACON is only a future integration target. No public canonical definition or compatibility result is claimed.",
+   "new": "Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is only a future integration target. No CI-to-Beacon adapter or compatibility result is claimed."
+  },
+  {
+   "finding": "CI-C01-E06",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "\n- BACON compatibility\n",
+   "new": "\n- Beacon compatibility\n"
+  },
+  {
+   "finding": "CI-C01-E07",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "### BACON boundary",
+   "new": "### Beacon boundary"
+  },
+  {
+   "finding": "CI-C01-E08",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "The output is designed so that CI can later be mapped into BACON through an explicit, versioned adapter.",
+   "new": "The output is designed so that CI can later be mapped into Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) through an explicit, versioned adapter."
+  },
+  {
+   "finding": "CI-C01-E09",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md",
+   "class": "meaning",
+   "expected_occurrences": 1,
+   "old": "This draft does not implement that adapter, expand the BACON name, assign semantics to BACON, or claim compatibility with it.",
+   "new": "This draft does not implement that adapter, assign Beacon semantics to any CI field, or claim compatibility with Beacon."
+  },
+  {
+   "finding": "CI-C01-E10",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "operational approval, or BACON compatibility is established.",
+   "new": "operational approval, or Beacon compatibility is established."
+  },
+  {
+   "finding": "CI-C01-E11",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md",
+   "class": "meaning",
+   "expected_occurrences": 1,
+   "old": "BACON is listed only as a future integration target. This package does not expand the name, assign a public canonical definition, or claim technical compatibility.",
+   "new": "Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is listed only as a future integration target. This package defines no CI-to-Beacon mapping and claims no technical compatibility."
+  },
+  {
+   "finding": "CI-C01-E12",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md",
+   "class": "meaning",
+   "expected_occurrences": 1,
+   "old": "### Reserved integration name\n\n**BACON**  \nA future integration target only. No public canonical definition was found for this package, so the name is not expanded and no technical semantics are assigned to it here.",
+   "new": "### Future integration target\n\n**Beacon**  \nBeacon Profile v0.1, a separately published recognition profile (DOI 10.5281/zenodo.18933553), named here as a conceptual alignment and a future integration target only. This package defines no CI-to-Beacon mapping and assigns no Beacon semantics to any CI field."
+  },
+  {
+   "finding": "CI-C01-E13",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "\"BACON compatibility\"",
+   "new": "\"Beacon compatibility\""
+  },
+  {
+   "finding": "CI-C01-E14",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md",
+   "class": "meaning",
+   "expected_occurrences": 1,
+   "old": "BACON is only a future integration target. No public canonical definition or compatibility result is claimed.",
+   "new": "Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is only a future integration target. No CI-to-Beacon adapter or compatibility result is claimed."
+  },
+  {
+   "finding": "CI-C01-E15",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "general scientific validity, or BACON compatibility.",
+   "new": "general scientific validity, or Beacon compatibility."
+  },
+  {
+   "finding": "CI-C01-E16",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "The output is designed so CI can later feed a separately defined BACON adapter.",
+   "new": "The output is designed so CI can later feed a separately defined CI-to-Beacon adapter (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553)."
+  },
+  {
+   "finding": "CI-C01-E17",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md",
+   "class": "meaning",
+   "expected_occurrences": 1,
+   "old": "This release does not define or implement BACON and makes no BACON compatibility claim.",
+   "new": "This release does not implement that adapter and makes no Beacon compatibility claim."
+  },
+  {
+   "finding": "CI-C01-E18",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md",
+   "class": "meaning",
+   "expected_occurrences": 1,
+   "old": "BACON is listed only as a future integration target. This package does not expand the name, assign a public canonical definition, or claim technical compatibility.",
+   "new": "Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is listed only as a future integration target. This package defines no CI-to-Beacon mapping and claims no technical compatibility."
+  },
+  {
+   "finding": "CI-C01-E19",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "## BACON boundary",
+   "new": "## Beacon boundary"
+  },
+  {
+   "finding": "CI-C01-E20",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "The output is designed so that CI can later be mapped into BACON through an explicit, versioned adapter.",
+   "new": "The output is designed so that CI can later be mapped into Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) through an explicit, versioned adapter."
+  },
+  {
+   "finding": "CI-C01-E21",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md",
+   "class": "meaning",
+   "expected_occurrences": 1,
+   "old": "This draft does not implement that adapter, expand the BACON name, assign semantics to BACON, or claim compatibility with it.",
+   "new": "This draft does not implement that adapter, assign Beacon semantics to any CI field, or claim compatibility with Beacon."
+  },
+  {
+   "finding": "CI-C01-E22",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "| CI is compatible with BACON. | A separately defined, versioned adapter and acceptance evidence. | Not established. | BACON remains a future integration boundary. |",
+   "new": "| CI is compatible with Beacon. | A separately defined, versioned adapter and acceptance evidence. | Not established. | Beacon remains a future integration boundary. |"
+  },
+  {
+   "finding": "CI-C01-E23",
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md",
+   "class": "meaning",
+   "expected_occurrences": 1,
+   "old": "## Reserved integration name\n\n**BACON**  \nA future integration target only. No public canonical definition was found for this package, so the name is not expanded and no technical semantics are assigned to it here.",
+   "new": "## Future integration target\n\n**Beacon**  \nBeacon Profile v0.1, a separately published recognition profile (DOI 10.5281/zenodo.18933553), named here as a conceptual alignment and a future integration target only. This package defines no CI-to-Beacon mapping and assigns no Beacon semantics to any CI field."
+  },
+  {
+   "finding": "CI-C01-E24",
+   "repo": "kot141078.github.io",
+   "path": "publications/continuity-instrument-v1-0-0/index.html",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "BACON is a prospective integration target; no adapter or compatibility result is included.",
+   "new": "Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is a prospective integration target; no adapter or compatibility result is included. (Corrected 19 November 2026: the deposited v1.0.0 files misspell this name as \"BACON\".)"
+  },
+  {
+   "finding": "CI-C01-E25",
+   "repo": "kot141078.github.io",
+   "path": "publications/continuity-instrument-v1-0-0/publication.json",
+   "class": "token",
+   "expected_occurrences": 1,
+   "old": "No BACON adapter or demonstrated compatibility; BACON is a prospective integration target.",
+   "new": "No CI-to-Beacon adapter or demonstrated compatibility; Beacon (Beacon Profile v0.1, DOI 10.5281/zenodo.18933553) is a prospective integration target."
+  }
+ ],
+ "corrected_files": [
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/README.md",
+   "sha256": "acc8986e3090bbc36a630e5f74845d45dcb3b73f02dd9229193e619d0ea56827",
+   "size_bytes": 13261
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/ZENODO_DESCRIPTION.txt",
+   "sha256": "28990f06b8c03ccf9f8b8b9a0a28ea36781352a56f7cc91b2bab6fcf7b5311d4",
+   "size_bytes": 2817
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/CI_EXPLAINED_EN.md",
+   "sha256": "a6ec704578e23c671d3b9d8c7705495390cc038aace4c98aff8d6e204d219fa8",
+   "size_bytes": 38076
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/EVIDENCE_CLAIMS_AND_LIMITATIONS.md",
+   "sha256": "2d58ec2a5027988fe0031e515f96eea4979fc58bbc64ea900af00c0e8ec8635d",
+   "size_bytes": 14786
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/IMPLEMENTATION_AND_REPRODUCIBILITY.md",
+   "sha256": "0f533643ddc7024ddb933d4fa8e2ad16052f5110a543f8cef672ec911fcb5d45",
+   "size_bytes": 13932
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/PUBLICATION_GUIDE_EN.md",
+   "sha256": "05cfa6de6bec763549f74a84ce74da98bff96734e2ceb10b043cf07c305474b9",
+   "size_bytes": 14646
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/editorial_sources/TECHNICAL_SPECIFICATION.md",
+   "sha256": "7c05537ee2e3488308876efd03b5a2591a98bd06708fc39d381660d1ee4bfd6c",
+   "size_bytes": 24219
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/EVIDENCE_STATUS.json",
+   "sha256": "92bf33c2585452072d7ed53a138b57c1fdfbb7c859ec54ff1bdb46c79e48bd03",
+   "size_bytes": 2302
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/LIMITATIONS.md",
+   "sha256": "b1fc76d9a110062ab03c3973560d646e9abb62a62c7efd55062462e12072103a",
+   "size_bytes": 4047
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/PUBLICATION_CHECKLIST.md",
+   "sha256": "62d0cfdf0ff62212ca727e99f942556d02cd6aef0ca67e12bdaa763df838fec2",
+   "size_bytes": 2098
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/README.md",
+   "sha256": "afa2ebe1fa53c4e4eecc97c6225c04cf32188e9238d3f6540e0c55d78549613c",
+   "size_bytes": 7007
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/RECOGNITION_PROFILE.md",
+   "sha256": "d053ae2aa4b491a73d002fb703b9473991a73e7f9240168e962de25d21483fb9",
+   "size_bytes": 3796
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/REFERENCE_IMPLEMENTATION/README.md",
+   "sha256": "167b636b9ca781596e60e9ff0ca19e88d36a74a954abc68d9a3915b7841e903a",
+   "size_bytes": 4897
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/SCIENTIFIC_CLAIM_MAP.md",
+   "sha256": "f1459d8ab8efa160ef1a43d61db13a4bcf0ef3e49185580d4ede344fc2626c15",
+   "size_bytes": 6233
+  },
+  {
+   "repo": "advanced-global-intelligence",
+   "path": "publications/continuity-instrument-v1-0-0/package/source_original/Continuity_Instrument_v1.0.0/TERMINOLOGY.md",
+   "sha256": "76903c637ee7782973fc1ccb18df1ad8fb098b5b50fb82446e509a4024021c18",
+   "size_bytes": 4796
+  },
+  {
+   "repo": "kot141078.github.io",
+   "path": "publications/continuity-instrument-v1-0-0/index.html",
+   "sha256": "6105067532f8b28714c6191a8847831c53f54a2a65229bd35cb57daec5043837",
+   "size_bytes": 41008
+  },
+  {
+   "repo": "kot141078.github.io",
+   "path": "publications/continuity-instrument-v1-0-0/publication.json",
+   "sha256": "dce96fcacaebdccbdd542227a59f25b0807a0368778069e1fc5e34eaec789846",
+   "size_bytes": 16278
+  }
+ ],
+ "counts": {
+  "files": 17,
+  "edits": 25,
+  "meaning_edits": 9,
+  "token_BACON_before": 31,
+  "token_BACON_after": 1
+ }
+}
