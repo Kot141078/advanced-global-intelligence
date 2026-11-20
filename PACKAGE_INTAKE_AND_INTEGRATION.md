@@ -118,10 +118,10 @@ the candidate should remain local or pointer-only until clarified and must not e
 - Control impact: current entry, index, citation, and status surfaces receive pointers. The dated 18-repository `CURRENT_CORPUS_MAP.json` and historical stack locks remain unchanged because this adds a package within an existing repository.
 - Rights: [component notice](publications/continuity-instrument-v1-0-0/LICENSES.md); repository MIT does not override reserved components. Frozen metadata remains historical; the wrapper records the published DOI.
 
-## Intake: CI v1.0.0 Corrigendum 01 — GitHub preparation
+## Intake: CI v1.0.0 Corrigendum 01 — Zenodo publication
 
 - Canonical home: [publications/continuity-instrument-v1-0-0-corrigendum-01/](publications/continuity-instrument-v1-0-0-corrigendum-01/README.md), a sibling of the unchanged CI v1.0.0 mirror.
-- Object and stage: bounded name/reference correction supplement; `github_prepublication`. Zenodo `NOT_YET_PUBLISHED`; DOI and publication date unassigned. See [PUBLICATION_RECORD.json](publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json).
+- Object and stage: bounded name/reference correction supplement; published 20 November 2026 at DOI <https://doi.org/10.5281/zenodo.24337031>. See [current publication status](publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_STATUS.json); the original [prepublication record](publications/continuity-instrument-v1-0-0-corrigendum-01/PUBLICATION_RECORD.json) remains historical.
 - Corrected work: version DOI <https://doi.org/10.5281/zenodo.23651305>, concept DOI <https://doi.org/10.5281/zenodo.23651304>. Beacon Profile v0.1 reference: <https://doi.org/10.5281/zenodo.18933553>, DOI role unresolved.
 - Scope: corrected reading copies, frozen predecessor snapshots, exact correction specification, maintenance tools and evidence of the bounded correction. The original CI files and consumed qualification results are preserved; no CI-to-Beacon mapping, adapter or compatibility result is supplied.
 - Routing: current human/machine entry, citation, status and package-index surfaces point to the sibling. The dated 18-repository corpus map and historical stack locks remain unchanged; no new repository or normative core is introduced.
