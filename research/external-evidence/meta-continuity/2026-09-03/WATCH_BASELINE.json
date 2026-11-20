@@ -1,0 +1,50 @@
+{
+  "schema": "meta_continuity_watch_baseline_v1",
+  "baseline_id": "META_CONTINUITY_BASELINE_2026-09-03",
+  "effective_at": "2026-09-03T13:32:50+02:00",
+  "watch_subject": "Meta / Meta AI transition from personal agents to persistent personal AI",
+  "already_seen_sources": [
+    {
+      "source_id": "META-EXT-001",
+      "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+      "published_date": "2026-09-02",
+      "dedupe_key": "meta-engineering-organizational-second-brain-2026-09-02"
+    },
+    {
+      "source_id": "META-EXT-002",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "published_date": "2026-09-02",
+      "dedupe_key": "meta-research-muse-spark-1-3-2026-09-02"
+    }
+  ],
+  "current_floor": {
+    "model_external_durable_state": true,
+    "auditable_reversible_updates": true,
+    "targeted_replay_and_regression": true,
+    "long_horizon_background_work_product_claim": true,
+    "consequential_action_confirmation_product_claim": true
+  },
+  "still_missing": [
+    "personal_memory_custody",
+    "local_or_user_held_identity_root",
+    "identity_continuity_across_model_replacement",
+    "successor_fork_replay_restart_resume_semantics",
+    "authority_custody_and_continuity",
+    "cryptographic_or_independent_witness",
+    "offline_local_identity_bearing_persistence"
+  ],
+  "notification_rule": {
+    "notify": "Only for a new official source that materially advances one or more still_missing dimensions or demonstrates a stronger implementation than the current floor.",
+    "suppress": [
+      "benchmark-only updates",
+      "larger context windows",
+      "generic memory or personalization",
+      "account-level chat history",
+      "background task claims without durable identity",
+      "local inference without local identity custody",
+      "repetition of META-EXT-001 or META-EXT-002",
+      "press reports not corroborated by an official Meta source"
+    ]
+  },
+  "claim_ceiling": "Persistent workflow and durable knowledge do not by themselves establish persistent personal identity."
+}
